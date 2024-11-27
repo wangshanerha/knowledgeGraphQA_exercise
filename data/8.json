@@ -1,0 +1,5001 @@
+{
+  "doc_id": "8",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "DPP-4抑制剂超药物说明书用法专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂超药物说明书用法专家共识",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "中国20岁以上人口的2型糖尿病的患病率已经达到9.7%。传统降糖药物在2型糖尿病的防治中发挥了重要作用，但仍存在低血糖、体重增加、增加心血管风险以及药物继发失效使血糖控制进行性恶化等局限性。二肽基肽酶-4(dipeptidyl peptidase-4，DPP-4)抑制剂是近年研发的口服降糖药，因作用机制独特、疗效确定、低血糖发生率少、对体重中性作用或轻度降低、心血管安全性良好等特点受到普遍关注，临床应用越来越广泛。DPP-4抑制剂减少体内胰高血糖素样肽-1(glucagon-like peptide-1，GLP-1)降解而增加循环GLP-1浓度2~3倍，GLP-1通过血糖依赖性刺激胰岛β细胞分泌胰岛素，抑制胰岛α细胞分泌胰高血糖素而发挥降低血糖的作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国20岁以上人口的2型糖尿病的患病率已经达到9.7%。传统降糖药物在2型糖尿病的防治中发挥了重要作用，但仍存在低血糖、体重增加、增加心血管风险以及药物继发失效使血糖控制进行性恶化等局限性。二肽基肽酶-4(dipeptidyl peptidase-4，DPP-4)抑制剂是近年研发的口服降糖药，因作用机制独特、疗效确定、低血糖发生率少、对体重中性作用或轻度降低、心血管安全性良好等特点受到普遍关注，临床应用越来越广泛。",
+          "start_idx": 0,
+          "end_idx": 209,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T2",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T3",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T5",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T6",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T7",
+              "entity": "增加心血管风险",
+              "entity_type": "ADE",
+              "start_idx": 65,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T8",
+              "entity": "药物继发失效",
+              "entity_type": "ADE",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T9",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T10",
+              "entity": "二肽基肽酶-4(dipeptidyl peptidase-4，DPP-4)抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 95,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T11",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 160,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T14",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 141,
+              "end_idx": 143
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T1"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T9",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R3",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T10"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R4",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T10"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "DPP-4抑制剂减少体内胰高血糖素样肽-1(glucagon-like peptide-1，GLP-1)降解而增加循环GLP-1浓度2~3倍，GLP-1通过血糖依赖性刺激胰岛β细胞分泌胰岛素，抑制胰岛α细胞分泌胰高血糖素而发挥降低血糖的作用。",
+          "start_idx": 209,
+          "end_idx": 330,
+          "entities": [
+            {
+              "entity_id": "T12",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T13",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 115,
+              "end_idx": 117
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "国内批准临床应用的DPP-4抑制剂有5种，包括西格列汀(sitagliptin)、沙格列汀(saxagliptin)、维格列汀(vildagliptin)、阿格列汀(alogliptin)、利格列汀(linagliptin)。虽然不同的DPP-4抑制剂在结构和药物代谢动力学上存在明显差异，但是所有DPP-4抑制剂均显示出相近的降糖效果(降低HbA1c0.5%~1.0%)和良好的安全性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "国内批准临床应用的DPP-4抑制剂有5种，包括西格列汀(sitagliptin)、沙格列汀(saxagliptin)、维格列汀(vildagliptin)、阿格列汀(alogliptin)、利格列汀(linagliptin)。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T15",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T16",
+              "entity": "西格列汀(sitagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T17",
+              "entity": "沙格列汀(saxagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T18",
+              "entity": "维格列汀(vildagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T19",
+              "entity": "阿格列汀(alogliptin)",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T20",
+              "entity": "利格列汀(linagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 95,
+              "end_idx": 112
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "虽然不同的DPP-4抑制剂在结构和药物代谢动力学上存在明显差异，但是所有DPP-4抑制剂均显示出相近的降糖效果(降低HbA1c0.5%~1.0%)和良好的安全性。",
+          "start_idx": 113,
+          "end_idx": 194,
+          "entities": [
+            {
+              "entity_id": "T21",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T22",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T23",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T24",
+              "entity": "0.5%~1.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 63,
+              "end_idx": 72
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "由于各种药物说明书批准的适应证存在一定差异，而且中国大多数医生目前还缺乏实际应用经验，所以为了更好、更合理地应用这类药物，消除可能的误解，造福糖尿病患者，本共识基于国内外药物说明书、临床研究证据、以及国内外2型糖尿病防治指南，对可能出现的超药物说明书用药(药品说明书之外用法)提供参考意见。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于各种药物说明书批准的适应证存在一定差异，而且中国大多数医生目前还缺乏实际应用经验，所以为了更好、更合理地应用这类药物，消除可能的误解，造福糖尿病患者，本共识基于国内外药物说明书、临床研究证据、以及国内外2型糖尿病防治指南，对可能出现的超药物说明书用药(药品说明书之外用法)提供参考意见。",
+          "start_idx": 0,
+          "end_idx": 145,
+          "entities": [
+            {
+              "entity_id": "T25",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T26",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T27",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 103,
+              "end_idx": 105
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T27",
+              "tail_entity_id": "T26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "超药物说明书用法，又称为“药品未注册用法”或“药品说明书之外的用法”(unlabeled uses，off-label uses，out-of label usage or outside of labeling）是指药品使用的适应证、给药方法、剂量或给药途径不在药品监督管理部门批准的说明书之内的用法。美国等国家的药品管理机构同意在一定条件下，允许医师进行超药物说明书用法。我国对此没有相应的管理法规。存在超药物说明书用法的主要原因是药品说明书用法往往滞后于科学知识和文献的更新和发展。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "超药物说明书用法，又称为“药品未注册用法”或“药品说明书之外的用法”(unlabeled uses，off-label uses，out-of label usage or outside of labeling）是指药品使用的适应证、给药方法、剂量或给药途径不在药品监督管理部门批准的说明书之内的用法。",
+          "start_idx": 0,
+          "end_idx": 152,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "美国等国家的药品管理机构同意在一定条件下，允许医师进行超药物说明书用法。",
+          "start_idx": 152,
+          "end_idx": 188,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "我国对此没有相应的管理法规。",
+          "start_idx": 188,
+          "end_idx": 202,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "存在超药物说明书用法的主要原因是药品说明书用法往往滞后于科学知识和文献的更新和发展。",
+          "start_idx": 202,
+          "end_idx": 244,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "药物说明书依然是临床安全使用药物的基础，药物说明书用法不是“试验性用法(experimental uses)或试验性用药”，是建立在充分循证证据和权威指南推荐的基础上，完全是为了患者的利益使用。在具体使用前应该获得所在执业单位的药事管理委员会和伦理委员会批准备案，并签署患者知情同意书。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "药物说明书依然是临床安全使用药物的基础，药物说明书用法不是“试验性用法(experimental uses)或试验性用药”，是建立在充分循证证据和权威指南推荐的基础上，完全是为了患者的利益使用。",
+          "start_idx": 0,
+          "end_idx": 97,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在具体使用前应该获得所在执业单位的药事管理委员会和伦理委员会批准备案，并签署患者知情同意书。",
+          "start_idx": 97,
+          "end_idx": 143,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "DPP-4抑制剂的适应证和超药物说明书用法",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂的适应证和超药物说明书用法",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "中国批准的各种DPP-4抑制剂的说明书的适应证为2型糖尿病患者饮食运动不能控制血糖的单药、联合二甲双胍以及联合二甲双胍和磺脲类药物治疗。大多为单药或与二甲双胍联用，只有利格列汀与二甲双胍和磺脲类药物联合使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国批准的各种DPP-4抑制剂的说明书的适应证为2型糖尿病患者饮食运动不能控制血糖的单药、联合二甲双胍以及联合二甲双胍和磺脲类药物治疗。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T30",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T33",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T34",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T35",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T36",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T37",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T40",
+              "entity": "饮食运动",
+              "entity_type": "Treatment",
+              "start_idx": 31,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T29",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T30",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T33",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T34",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T35"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T37",
+              "tail_entity_id": "T35"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "大多为单药或与二甲双胍联用，只有利格列汀与二甲双胍和磺脲类药物联合使用。",
+          "start_idx": 68,
+          "end_idx": 104,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T32",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T38",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T39",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "西格列汀的适应证单药治疗：本品配合饮食控制和运动，用于改善2型糖尿病患者的血糖控制；联合治疗：当单独使用盐酸二甲双胍血糖控制不佳时，可与盐酸二甲双胍联合使用，在饮食和运动基础上改善2型糖尿病患者的血糖控制。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "西格列汀的适应证单药治疗：本品配合饮食控制和运动，用于改善2型糖尿病患者的血糖控制；联合治疗：当单独使用盐酸二甲双胍血糖控制不佳时，可与盐酸二甲双胍联合使用，在饮食和运动基础上改善2型糖尿病患者的血糖控制。",
+          "start_idx": 0,
+          "end_idx": 103,
+          "entities": [
+            {
+              "entity_id": "T41",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T42",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T43",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T44",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T45",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T46",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T47",
+              "entity": "盐酸二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 52,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T48",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T49",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T50",
+              "entity": "盐酸二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T51",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 80,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T52",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 83,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T53",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T54",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T55",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 98,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T45",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T46",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T50",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "维格列汀的适应证适用于治疗2型糖尿病。单药治疗：本品配合饮食控制和运动，用于改善2型糖尿病患者的血糖控制；当二甲双胍作为单药治疗用至最大耐受剂量仍不能有效控制血糖时，本品可与二甲双胍联合使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "维格列汀的适应证适用于治疗2型糖尿病。单药治疗：本品配合饮食控制和运动，用于改善2型糖尿病患者的血糖控制；当二甲双胍作为单药治疗用至最大耐受剂量仍不能有效控制血糖时，本品可与二甲双胍联合使用。",
+          "start_idx": 0,
+          "end_idx": 96,
+          "entities": [
+            {
+              "entity_id": "T56",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T57",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T58",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T59",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T60",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T61",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 54,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T62",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T64",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 87,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T65",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T66",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T57"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T57"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T62",
+              "tail_entity_id": "T59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "沙格列汀的适应证用于2型糖尿病。单药治疗：可作为单药治疗，在饮食和运动基础上改善血糖控制；联合治疗：当单独使用盐酸二甲双胍血糖控制不佳时，可与盐酸二甲双胍联合使用，在饮食和运动基础上改善血糖控制。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "沙格列汀的适应证用于2型糖尿病。单药治疗：可作为单药治疗，在饮食和运动基础上改善血糖控制；联合治疗：当单独使用盐酸二甲双胍血糖控制不佳时，可与盐酸二甲双胍联合使用，在饮食和运动基础上改善血糖控制。",
+          "start_idx": 0,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 83,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T68",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T69",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T70",
+              "entity": "盐酸二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 71,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T71",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T72",
+              "entity": "盐酸二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T73",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T74",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T75",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T76",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T77",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T78",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T79",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T80",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T78"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T78"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "利格列汀的适应证利格列汀与二甲双胍和磺脲类药物联合使用，配合饮食控制和运动，可用于成年2型糖尿病患者的血糖控制。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "利格列汀的适应证利格列汀与二甲双胍和磺脲类药物联合使用，配合饮食控制和运动，可用于成年2型糖尿病患者的血糖控制。",
+          "start_idx": 0,
+          "end_idx": 56,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T82",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T83",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T84",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T85",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T86",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T87",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T88",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T89",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 51,
+              "end_idx": 53
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T87"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "阿格列汀的适应证适用于治疗2型糖尿病：单药或联合二甲双胍用于成人2型糖尿病患者的血糖控制。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "阿格列汀的适应证适用于治疗2型糖尿病：单药或联合二甲双胍用于成人2型糖尿病患者的血糖控制。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T90",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T91",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T92",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T93",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T94",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T95",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T96",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T94"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T94"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T94"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "超出说明书范围，如与其他2种及以上的不同类别降糖药物联合使用；或在1型糖尿病患者中使用即属超药物说明书使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "超出说明书范围，如与其他2种及以上的不同类别降糖药物联合使用；或在1型糖尿病患者中使用即属超药物说明书使用。",
+          "start_idx": 0,
+          "end_idx": 54,
+          "entities": [
+            {
+              "entity_id": "T97",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T98",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T97"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "除维格列汀未在美国上市外，美国FDA批准上述药物的适应证均为饮食运动不能控制血糖的2型糖尿病患者，药物说明书提供单药以及多种联合治疗方案的详细资料。我国药物说明书的形式与欧盟更接近，需要分别批准单药或与其他降糖药的不同联合，详见表1。诊断早期或病情较轻的2型糖尿病患者可能1种降糖药即可控制血糖，但由于2型糖尿病是进展性疾病，随病程延长需要2种以上不同种类的降糖药联用。如果药物说明书只是批准单药或与部分药物联用，而改变说明书适应证需要严格的审批，并花费大量时间和费用，往往滞后于严格的临床研究数据；如果局限于说明书可能使其临床应用受到严重限制。故国内外的2型糖尿病防治指南均按药物的作用机制和循证证据等进行推荐临床应用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "除维格列汀未在美国上市外，美国FDA批准上述药物的适应证均为饮食运动不能控制血糖的2型糖尿病患者，药物说明书提供单药以及多种联合治疗方案的详细资料。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T99",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T100",
+              "entity": "饮食运动",
+              "entity_type": "Treatment",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T101",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T102",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T103",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 41,
+              "end_idx": 43
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T103",
+              "tail_entity_id": "T102"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "我国药物说明书的形式与欧盟更接近，需要分别批准单药或与其他降糖药的不同联合，详见表1。",
+          "start_idx": 74,
+          "end_idx": 117,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "诊断早期或病情较轻的2型糖尿病患者可能1种降糖药即可控制血糖，但由于2型糖尿病是进展性疾病，随病程延长需要2种以上不同种类的降糖药联用。",
+          "start_idx": 117,
+          "end_idx": 185,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T105",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T106",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T107",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T108",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T107"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "如果药物说明书只是批准单药或与部分药物联用，而改变说明书适应证需要严格的审批，并花费大量时间和费用，往往滞后于严格的临床研究数据；如果局限于说明书可能使其临床应用受到严重限制。",
+          "start_idx": 185,
+          "end_idx": 273,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "故国内外的2型糖尿病防治指南均按药物的作用机制和循证证据等进行推荐临床应用。",
+          "start_idx": 273,
+          "end_idx": 311,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "DPP-4抑制剂在国内外指南中的地位",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂在国内外指南中的地位",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [
+            {
+              "entity_id": "T109",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "2011年国际糖尿病联盟(IDF)的2型糖尿病治疗路径、2013年中华医学会糖尿病分会的中国2型糖尿病防治指南、美国糖尿病协会(ADA)/欧洲糖尿病研究协会(EASD)和美国临床内分泌协会(AACE)制定的2型糖尿病治疗流程均认可DPP-4抑制剂可与多种传统降糖药物联合或单药治疗，即在二甲双胍或其他药物联合治疗不能达标加用(联用)，或不能耐受二甲双胍时选择(单药)。IDF指南和中国2型糖尿病防治指南建议在选择二甲双胍、磺脲类药物、α-糖苷酶抑制剂控制不佳后加用；AACE 治疗流程和ADA/EASD专家共识认为二甲双胍治疗不能达标或不能耐受时即可选用，也可与多种降糖药联合使用，包括胰岛素。指南均未推荐在1型糖尿病患者中使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2011年国际糖尿病联盟(IDF)的2型糖尿病治疗路径、2013年中华医学会糖尿病分会的中国2型糖尿病防治指南、美国糖尿病协会(ADA)/欧洲糖尿病研究协会(EASD)和美国临床内分泌协会(AACE)制定的2型糖尿病治疗流程均认可DPP-4抑制剂可与多种传统降糖药物联合或单药治疗，即在二甲双胍或其他药物联合治疗不能达标加用(联用)，或不能耐受二甲双胍时选择(单药)。IDF指南和中国2型糖尿病防治指南建议在选择二甲双胍、磺脲类药物、α-糖苷酶抑制剂控制不佳后加用；AACE 治疗流程和ADA/EASD专家共识认为二甲双胍治疗不能达标或不能耐受时即可选用，也可与多种降糖药联合使用，包括胰岛素。",
+          "start_idx": 0,
+          "end_idx": 297,
+          "entities": [
+            {
+              "entity_id": "T110",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T111",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T112",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T113",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T114",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T115",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T116",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T117",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T118",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T119",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 103,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T120",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 115,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T121",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T122",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 172,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T123",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 192,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T124",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 192,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T125",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 206,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T126",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 211,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T127",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 217,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T128",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 257,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T129",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 293,
+              "end_idx": 296
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T111"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T123"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "指南均未推荐在1型糖尿病患者中使用。",
+          "start_idx": 297,
+          "end_idx": 315,
+          "entities": [
+            {
+              "entity_id": "T130",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T131",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T130"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "DPP-4抑制剂的安全性及有效性的临床研究证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂的安全性及有效性的临床研究证据",
+          "start_idx": 0,
+          "end_idx": 23,
+          "entities": [
+            {
+              "entity_id": "T132",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "1. 单药治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1. 单药治疗",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "目前在中国，西格列汀、维格列汀、阿格列汀和沙格列汀已获批了单药治疗的适应证，可用于饮食和运动治疗基础上不能良好控制血糖的2型糖尿病患者。国外研究也显示利格列汀对绝大多数2型糖尿病患者有明显降低血糖的效果。多项安慰剂对照、双盲、为期24周以上的研究显示DPP-4抑制剂降低HbA1c0.5%~1.0%，均显著优于对照组。由于不同的研究所选择的入组人群、基线HbA1c水平和研究方案的不同，不同DPP-4抑制剂在降低HbA1c方面可能存在微小差异。对于那些基线HbA1c较高的患者，DPP-4抑制剂的降糖幅度较大。目前认为DPP-4抑制剂中并无某一特定药物在降糖方面比其他药物更具优势。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前在中国，西格列汀、维格列汀、阿格列汀和沙格列汀已获批了单药治疗的适应证，可用于饮食和运动治疗基础上不能良好控制血糖的2型糖尿病患者。国外研究也显示利格列汀对绝大多数2型糖尿病患者有明显降低血糖的效果。",
+          "start_idx": 0,
+          "end_idx": 102,
+          "entities": [
+            {
+              "entity_id": "T133",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T134",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T135",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T136",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T137",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 41,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T138",
+              "entity": "运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T139",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T140",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T141",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T142",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 75,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T143",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 84,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T144",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T145",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 96,
+              "end_idx": 98
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T143"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "多项安慰剂对照、双盲、为期24周以上的研究显示DPP-4抑制剂降低HbA1c0.5%~1.0%，均显著优于对照组。",
+          "start_idx": 102,
+          "end_idx": 159,
+          "entities": [
+            {
+              "entity_id": "T146",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T147",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T148",
+              "entity": "0.5%~1.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 38,
+              "end_idx": 47
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "由于不同的研究所选择的入组人群、基线HbA1c水平和研究方案的不同，不同DPP-4抑制剂在降低HbA1c方面可能存在微小差异。",
+          "start_idx": 159,
+          "end_idx": 222,
+          "entities": [
+            {
+              "entity_id": "T149",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T150",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T151",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 52
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "对于那些基线HbA1c较高的患者，DPP-4抑制剂的降糖幅度较大。",
+          "start_idx": 222,
+          "end_idx": 255,
+          "entities": [
+            {
+              "entity_id": "T152",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T153",
+              "entity": "较高",
+              "entity_type": "Test_Value",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T154",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "目前认为DPP-4抑制剂中并无某一特定药物在降糖方面比其他药物更具优势。",
+          "start_idx": 255,
+          "end_idx": 291,
+          "entities": [
+            {
+              "entity_id": "T155",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "2. 联合应用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2. 联合应用",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "2.1 DPP-4抑制剂联合二甲双胍大多数DPP-4抑制剂最常见的联合用药指征是用于二甲双胍不能取得良好血糖控制的患者，主要原因在于二甲双胍是国内外指南推荐治疗2型糖尿病的一线用药。此外，这2种药物联合使用可优势互补，针对了2型糖尿病最重要的病理生理基础，即DPP-4抑制剂改善β细胞功能，二甲双胍改善胰岛素抵抗。众多的研究已经证实这种联治疗的有效性和安全性。DPP-4抑制剂联合二甲双胍可以进一步降低患者HbA1c0.5%~1.1%。DPP-4抑制剂联合二甲双胍的低血糖发生率与安慰剂组相似，胃肠道反应与二甲双胍单药治疗相比无显著差异。目在中国获批与二甲双胍联合应用的DPP-4抑制剂有沙格列汀、维格列汀、阿格列汀、西格列汀。利格列汀获得了FDA和EMA的批准用于与二甲双胍的联合治疗。目前国外已有DPP-4抑制剂与二甲双胍的复合制剂，可直接用于需要二者联合使用的患者。对于二甲双胍单药治疗不满意的患者联合DPP-4抑制剂的低血糖发生率明显低于联合磺脲类药物，且具有体重控制方面的优势。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.1 DPP-4抑制剂联合二甲双胍大多数DPP-4抑制剂最常见的联合用药指征是用于二甲双胍不能取得良好血糖控制的患者，主要原因在于二甲双胍是国内外指南推荐治疗2型糖尿病的一线用药。此外，这2种药物联合使用可优势互补，针对了2型糖尿病最重要的病理生理基础，即DPP-4抑制剂改善β细胞功能，二甲双胍改善胰岛素抵抗。众多的研究已经证实这种联治疗的有效性和安全性。DPP-4抑制剂联合二甲双胍可以进一步降低患者HbA1c0.5%~1.1%。DPP-4抑制剂联合二甲双胍的低血糖发生率与安慰剂组相似，胃肠道反应与二甲双胍单药治疗相比无显著差异。目在中国获批与二甲双胍联合应用的DPP-4抑制剂有沙格列汀、维格列汀、阿格列汀、西格列汀。利格列汀获得了FDA和EMA的批准用于与二甲双胍的联合治疗。目前国外已有DPP-4抑制剂与二甲双胍的复合制剂，可直接用于需要二者联合使用的患者。对于二甲双胍单药治疗不满意的患者联合DPP-4抑制剂的低血糖发生率明显低于联合磺脲类药物，且具有体重控制方面的优势。",
+          "start_idx": 0,
+          "end_idx": 444,
+          "entities": [
+            {
+              "entity_id": "T156",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T157",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T158",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T159",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T160",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T161",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 66,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T162",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 80,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T163",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 80,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T164",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 404,
+              "end_idx": 412
+            },
+            {
+              "entity_id": "T165",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 388,
+              "end_idx": 392
+            },
+            {
+              "entity_id": "T166",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 425,
+              "end_idx": 430
+            },
+            {
+              "entity_id": "T167",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 413,
+              "end_idx": 416
+            },
+            {
+              "entity_id": "T168",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T169",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 112,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T170",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 129,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T171",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 145,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T172",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 180,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T173",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 190,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T174",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 203,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T175",
+              "entity": "0.5%~1.1%",
+              "entity_type": "Test_Value",
+              "start_idx": 208,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T176",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 218,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T177",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T178",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 233,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T179",
+              "entity": "胃肠道反应",
+              "entity_type": "ADE",
+              "start_idx": 247,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T180",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 253,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T181",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 276,
+              "end_idx": 280
+            },
+            {
+              "entity_id": "T182",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 285,
+              "end_idx": 293
+            },
+            {
+              "entity_id": "T183",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 294,
+              "end_idx": 298
+            },
+            {
+              "entity_id": "T184",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 299,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T185",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 304,
+              "end_idx": 308
+            },
+            {
+              "entity_id": "T186",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 309,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T187",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 314,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T188",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 350,
+              "end_idx": 358
+            },
+            {
+              "entity_id": "T189",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 359,
+              "end_idx": 363
+            },
+            {
+              "entity_id": "T190",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 334,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T191",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 151,
+              "end_idx": 156
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T157",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T161",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R84",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T164"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R85",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R86",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T168"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T168"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T168"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T168"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R91",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T176"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R92",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T176"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R93",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R94",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R95",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T180"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "2.2 DPP-4抑制剂联合噻唑烷二酮类噻唑烷二酮类是选择性PPAR-γ(peroxisome proliferator-activated receptor-gamma)受体激动剂，主要通过增加糖尿病患者外周组织对胰岛素的敏感性来改善胰岛素抵抗。DPP-4抑制剂与噻唑烷二酮类药物联合直接针对2型糖尿病最重要的两个发病因素，部分基础研究显示两者联合治疗能够增加胰岛β细胞再生，联合治疗可能会提供更好和更持久的血糖控制和β细胞功能的保护。研究显示不同的DPP-4抑制剂与TZD类药物的联用均可降低空腹和餐后血糖，24周联合治疗HbA1c水平与对照组相比可降低约1.0%，HbA1c达标率更高。FDA已经批准了西格列汀、利格列汀、阿格列汀以及沙格列汀与TZD类药物联合应用，但是目前中国尚未批准任何DPP-4抑制剂与TZD类药物的联用。对于二甲双胍不能耐受或严重胰岛素抵抗的患者，TZD和DPP-4抑制剂的联合治疗也是一种可能的选择。国内外指南的治疗流程也推荐两者合用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.2 DPP-4抑制剂联合噻唑烷二酮类噻唑烷二酮类是选择性PPAR-γ(peroxisome proliferator-activated receptor-gamma)受体激动剂，主要通过增加糖尿病患者外周组织对胰岛素的敏感性来改善胰岛素抵抗。DPP-4抑制剂与噻唑烷二酮类药物联合直接针对2型糖尿病最重要的两个发病因素，部分基础研究显示两者联合治疗能够增加胰岛β细胞再生，联合治疗可能会提供更好和更持久的血糖控制和β细胞功能的保护。研究显示不同的DPP-4抑制剂与TZD类药物的联用均可降低空腹和餐后血糖，24周联合治疗HbA1c水平与对照组相比可降低约1.0%，HbA1c达标率更高。FDA已经批准了西格列汀、利格列汀、阿格列汀以及沙格列汀与TZD类药物联合应用，但是目前中国尚未批准任何DPP-4抑制剂与TZD类药物的联用。对于二甲双胍不能耐受或严重胰岛素抵抗的患者，TZD和DPP-4抑制剂的联合治疗也是一种可能的选择。",
+          "start_idx": 0,
+          "end_idx": 416,
+          "entities": [
+            {
+              "entity_id": "T192",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T193",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T194",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T195",
+              "entity": "选择性PPAR-γ(peroxisome proliferator-activated receptor-gamma)受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T196",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T197",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 118,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T198",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 124,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T199",
+              "entity": "噻唑烷二酮类药物",
+              "entity_type": "Drug",
+              "start_idx": 133,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T200",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 147,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T201",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T202",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 205,
+              "end_idx": 207
+            },
+            {
+              "entity_id": "T203",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 226,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T204",
+              "entity": "TZD类药物",
+              "entity_type": "Drug",
+              "start_idx": 235,
+              "end_idx": 241
+            },
+            {
+              "entity_id": "T205",
+              "entity": "空腹和餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 248,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T206",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 263,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T207",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 285,
+              "end_idx": 290
+            },
+            {
+              "entity_id": "T208",
+              "entity": "达标率更高",
+              "entity_type": "Test_Value",
+              "start_idx": 290,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T209",
+              "entity": "降低约1.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 277,
+              "end_idx": 284
+            },
+            {
+              "entity_id": "T210",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 304,
+              "end_idx": 308
+            },
+            {
+              "entity_id": "T211",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 309,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T212",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 314,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T213",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 320,
+              "end_idx": 324
+            },
+            {
+              "entity_id": "T214",
+              "entity": "TZD类药物",
+              "entity_type": "Drug",
+              "start_idx": 325,
+              "end_idx": 331
+            },
+            {
+              "entity_id": "T215",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 348,
+              "end_idx": 356
+            },
+            {
+              "entity_id": "T216",
+              "entity": "TZD类药物",
+              "entity_type": "Drug",
+              "start_idx": 357,
+              "end_idx": 363
+            },
+            {
+              "entity_id": "T217",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 369,
+              "end_idx": 373
+            },
+            {
+              "entity_id": "T218",
+              "entity": "不能耐受",
+              "entity_type": "ADE",
+              "start_idx": 373,
+              "end_idx": 377
+            },
+            {
+              "entity_id": "T219",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 378,
+              "end_idx": 380
+            },
+            {
+              "entity_id": "T220",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 380,
+              "end_idx": 385
+            },
+            {
+              "entity_id": "T221",
+              "entity": "TZD",
+              "entity_type": "Drug",
+              "start_idx": 389,
+              "end_idx": 392
+            },
+            {
+              "entity_id": "T222",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 393,
+              "end_idx": 401
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T198",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T199",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T202",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T220"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R106",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T220"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T222",
+              "tail_entity_id": "T220"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "国内外指南的治疗流程也推荐两者合用。",
+          "start_idx": 416,
+          "end_idx": 434,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "2.3 DPP-4抑制剂与磺脲类药物的联合应用磺脲类药物是我国使用最广泛的口服降糖药物之一，通过刺激内源性胰岛素分泌从而降低血糖。许多患者需要在磺脲类药物治疗效果不满意或药物继发失效的基础上添加其他口服药物。众多临床研究均显示在使用磺脲类单药治疗血糖控制不良的患者中加用DPP-4抑制剂可进一步改善血糖，提高HbA1c的达标率。但需要注意的是DPP-4抑制剂自身单独使用并不引起低血糖，但与磺脲类药物联合使用时发生低血糖的风险增加。FDA已经批准西格列汀、利格列汀和沙格列汀与磺脲类药联合使用，但是上述药物尚未在中国申请与磺脲类的联合使用。从血糖控制以及低血糖风险等综合因素来看，目前的临床证据支持DPP-4抑制剂与磺脲类药物联用，指南也推荐二甲双胍不能耐受时两者的联用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.3 DPP-4抑制剂与磺脲类药物的联合应用磺脲类药物是我国使用最广泛的口服降糖药物之一，通过刺激内源性胰岛素分泌从而降低血糖。许多患者需要在磺脲类药物治疗效果不满意或药物继发失效的基础上添加其他口服药物。众多临床研究均显示在使用磺脲类单药治疗血糖控制不良的患者中加用DPP-4抑制剂可进一步改善血糖，提高HbA1c的达标率。但需要注意的是DPP-4抑制剂自身单独使用并不引起低血糖，但与磺脲类药物联合使用时发生低血糖的风险增加。FDA已经批准西格列汀、利格列汀和沙格列汀与磺脲类药联合使用，但是上述药物尚未在中国申请与磺脲类的联合使用。从血糖控制以及低血糖风险等综合因素来看，目前的临床证据支持DPP-4抑制剂与磺脲类药物联用，指南也推荐二甲双胍不能耐受时两者的联用。",
+          "start_idx": 0,
+          "end_idx": 336,
+          "entities": [
+            {
+              "entity_id": "T223",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T224",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T225",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T226",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T227",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T228",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T229",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T230",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T231",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 123,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T232",
+              "entity": "控制不良",
+              "entity_type": "Test_Value",
+              "start_idx": 125,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T233",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 135,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T234",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 149,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T235",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 154,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T236",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 171,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T237",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 189,
+              "end_idx": 192
+            },
+            {
+              "entity_id": "T238",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 195,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T239",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 207,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T240",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 223,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T241",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T242",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 233,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T243",
+              "entity": "磺脲类药",
+              "entity_type": "Drug",
+              "start_idx": 238,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T244",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 261,
+              "end_idx": 264
+            },
+            {
+              "entity_id": "T245",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 271,
+              "end_idx": 273
+            },
+            {
+              "entity_id": "T246",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 277,
+              "end_idx": 280
+            },
+            {
+              "entity_id": "T247",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 299,
+              "end_idx": 307
+            },
+            {
+              "entity_id": "T248",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 308,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T249",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 321,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T250",
+              "entity": "不能耐受",
+              "entity_type": "ADE",
+              "start_idx": 325,
+              "end_idx": 329
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R109",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T236"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R110",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T238"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R111",
+              "head_entity_id": "T250",
+              "tail_entity_id": "T249"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "2.4 DPP-4抑制剂与胰岛素的联合应用DPP-4抑制剂另一个潜在的应用方法是与胰岛素联合，这种联合可以改善血糖控制，减少血糖波动而不增加低血糖的发生，并且可减少胰岛素的用量。在使用稳定剂量胰岛素治疗的患者中加用DPP-4抑制剂可进一步降低血糖，但不增加低血糖发生风险和体重，甚至降低低血糖发生率和严重程度。目前西格列汀、利格列汀和格列汀在美国FDA和欧洲EMA均获批了与胰岛素的联用适应证。中国尚未批准上述药物与胰岛素的联用。国内外指南推荐在口服药疗效不佳时可联合胰素使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.4 DPP-4抑制剂与胰岛素的联合应用DPP-4抑制剂另一个潜在的应用方法是与胰岛素联合，这种联合可以改善血糖控制，减少血糖波动而不增加低血糖的发生，并且可减少胰岛素的用量。在使用稳定剂量胰岛素治疗的患者中加用DPP-4抑制剂可进一步降低血糖，但不增加低血糖发生风险和体重，甚至降低低血糖发生率和严重程度。目前西格列汀、利格列汀和格列汀在美国FDA和欧洲EMA均获批了与胰岛素的联用适应证。中国尚未批准上述药物与胰岛素的联用。国内外指南推荐在口服药疗效不佳时可联合胰素使用。",
+          "start_idx": 0,
+          "end_idx": 239,
+          "entities": [
+            {
+              "entity_id": "T251",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T252",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T253",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T254",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T255",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T256",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T257",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T258",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T259",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 107,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T260",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 121,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T261",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T262",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 143,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T263",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 157,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T264",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T265",
+              "entity": "格列汀",
+              "entity_type": "Drug",
+              "start_idx": 167,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T266",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 187,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T267",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 208,
+              "end_idx": 211
+            },
+            {
+              "entity_id": "T268",
+              "entity": "胰素",
+              "entity_type": "Drug",
+              "start_idx": 234,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T269",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 223,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T270",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 44
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R112",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T253"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R113",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T270"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R114",
+              "head_entity_id": "T261",
+              "tail_entity_id": "T258"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R115",
+              "head_entity_id": "T261",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R116",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "2.5 DPP-4抑制剂多药联合应用由于胰岛β细胞功能逐年减退，导致血糖难以持续达标，常常需要2种以上的药物联合使用以增加疗效。既往药物相互作用的研究数据未显示2种以上降糖药物联用时，在进一步降糖的同时会出现特殊的安全性问题。有研究显示2种药物联合使用基础上加用DPP-4抑制剂可获得更好的血糖控制，而药物相关的不良反应与对照组相当。由于大部分DPP-4抑制剂通过肾脏排泄(利格列汀由胆汁及肠道排出)，药代动力学数据提示药物和药物之间干扰作用较小，联合应用的时候不需要调整剂量。总之，现有的临床证据提示DPP-4抑制剂与其他多种降糖药物的多重联合有进一步疗效和安全性良好。利格列汀、西格列汀和沙格列汀在FDA和EMA均获得了与胰岛素和二甲双胍的联合使用适应证。在中国利格列汀获得和二甲双胍与磺脲类药物联合治疗的适应证。指南也推荐必要时3种药物联用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.5 DPP-4抑制剂多药联合应用由于胰岛β细胞功能逐年减退，导致血糖难以持续达标，常常需要2种以上的药物联合使用以增加疗效。",
+          "start_idx": 0,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T271",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T272",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T273",
+              "entity": "难以持续达标",
+              "entity_type": "Test_Value",
+              "start_idx": 36,
+              "end_idx": 42
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "既往药物相互作用的研究数据未显示2种以上降糖药物联用时，在进一步降糖的同时会出现特殊的安全性问题。",
+          "start_idx": 64,
+          "end_idx": 113,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "有研究显示2种药物联合使用基础上加用DPP-4抑制剂可获得更好的血糖控制，而药物相关的不良反应与对照组相当。",
+          "start_idx": 113,
+          "end_idx": 167,
+          "entities": [
+            {
+              "entity_id": "T274",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T275",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 34
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "由于大部分DPP-4抑制剂通过肾脏排泄(利格列汀由胆汁及肠道排出)，药代动力学数据提示药物和药物之间干扰作用较小，联合应用的时候不需要调整剂量。",
+          "start_idx": 167,
+          "end_idx": 239,
+          "entities": [
+            {
+              "entity_id": "T276",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T277",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "总之，现有的临床证据提示DPP-4抑制剂与其他多种降糖药物的多重联合有进一步疗效和安全性良好。",
+          "start_idx": 239,
+          "end_idx": 286,
+          "entities": [
+            {
+              "entity_id": "T278",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "利格列汀、西格列汀和沙格列汀在FDA和EMA均获得了与胰岛素和二甲双胍的联合使用适应证。",
+          "start_idx": 286,
+          "end_idx": 330,
+          "entities": [
+            {
+              "entity_id": "T279",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T280",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T281",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T282",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T283",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "6",
+          "sentence": "在中国利格列汀获得和二甲双胍与磺脲类药物联合治疗的适应证。",
+          "start_idx": 330,
+          "end_idx": 359,
+          "entities": [
+            {
+              "entity_id": "T284",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T285",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T286",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "7",
+          "sentence": "指南也推荐必要时3种药物联用。",
+          "start_idx": 359,
+          "end_idx": 374,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "DPP-4抑制剂的安全性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂的安全性",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [
+            {
+              "entity_id": "T287",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "DPP-4抑制剂是一类耐受性良好的降糖药物，单独使用基本无低血糖风险。临床试验显示其不良事件总体水平与安慰剂相当。通常DPP-4抑制剂增加内源性GLP-1 2~3倍，胃肠道反应也较少。既往曾有该类药物在临床使用后发生胰腺炎的病例报道，但大样本的回顾性分析以及新近发布的大型前瞻性研究结果均未显示DPP-4抑制剂增加胰腺炎发生风险。虽然DPP-4酶也存在于T淋巴细胞膜上(CD26)，但尚无证据表明DPP-4抑制剂会导致人类免疫功能异常。但需要指出，由于DPP-4抑制剂在临床的使用时间较短，需要更多的上市后研究来发现其潜在的不良反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂是一类耐受性良好的降糖药物，单独使用基本无低血糖风险。临床试验显示其不良事件总体水平与安慰剂相当。通常DPP-4抑制剂增加内源性GLP-1 2~3倍，胃肠道反应也较少。既往曾有该类药物在临床使用后发生胰腺炎的病例报道，但大样本的回顾性分析以及新近发布的大型前瞻性研究结果均未显示DPP-4抑制剂增加胰腺炎发生风险。",
+          "start_idx": 0,
+          "end_idx": 165,
+          "entities": [
+            {
+              "entity_id": "T288",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T289",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T290",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T291",
+              "entity": "胃肠道反应",
+              "entity_type": "ADE",
+              "start_idx": 83,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T292",
+              "entity": "胰腺炎",
+              "entity_type": "Disease",
+              "start_idx": 108,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T293",
+              "entity": "胰腺",
+              "entity_type": "Anatomy",
+              "start_idx": 108,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T294",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 147,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T295",
+              "entity": "胰腺炎",
+              "entity_type": "Disease",
+              "start_idx": 157,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T296",
+              "entity": "胰腺",
+              "entity_type": "Anatomy",
+              "start_idx": 157,
+              "end_idx": 159
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R117",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T290"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T292"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T296",
+              "tail_entity_id": "T295"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "虽然DPP-4酶也存在于T淋巴细胞膜上(CD26)，但尚无证据表明DPP-4抑制剂会导致人类免疫功能异常。",
+          "start_idx": 165,
+          "end_idx": 218,
+          "entities": [
+            {
+              "entity_id": "T297",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 41
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "但需要指出，由于DPP-4抑制剂在临床的使用时间较短，需要更多的上市后研究来发现其潜在的不良反应。",
+          "start_idx": 218,
+          "end_idx": 267,
+          "entities": [
+            {
+              "entity_id": "T298",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "DPP-4抑制剂在特殊人群中的应用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂在特殊人群中的应用",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T299",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "1. 1 型糖尿病患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1. 1 型糖尿病患者",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T300",
+              "entity": "1 型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T301",
+              "entity": "1 型",
+              "entity_type": "Class",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T300"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "GLP-1除葡萄糖依赖性刺激胰岛素分泌、抑制胰高血糖素分泌外，还具有延缓胃肠排空以及保护β细胞的作用。胰高糖素分泌相对增多也是1型糖尿病血糖升高的主要机制之一。虽然有研究提示1型糖尿病患者使用DPP-4抑制剂可降低患者HbA1c水平，并减少胰岛素的用量，但现有数据并没有显示DPP-4抑制剂具有延缓1型糖尿病进展的作用。因此，DPP-4抑制剂是否能够用于1型糖尿病的治疗尚需要更多的临床研究证实，也没有相应的适应证，国内外指南也未推荐使用。本共识不主张在临床使用DPP-4抑制剂治疗1型糖尿病患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GLP-1除葡萄糖依赖性刺激胰岛素分泌、抑制胰高血糖素分泌外，还具有延缓胃肠排空以及保护β细胞的作用。胰高糖素分泌相对增多也是1型糖尿病血糖升高的主要机制之一。虽然有研究提示1型糖尿病患者使用DPP-4抑制剂可降低患者HbA1c水平，并减少胰岛素的用量，但现有数据并没有显示DPP-4抑制剂具有延缓1型糖尿病进展的作用。",
+          "start_idx": 0,
+          "end_idx": 160,
+          "entities": [
+            {
+              "entity_id": "T302",
+              "entity": "胰高糖素分泌相对增多",
+              "entity_type": "Pathogenesis",
+              "start_idx": 51,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T303",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T304",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 63,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T305",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T306",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T307",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 87,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T308",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T309",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T310",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 109,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T311",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T312",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 137,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T313",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 149,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T314",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 149,
+              "end_idx": 151
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T303"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T304",
+              "tail_entity_id": "T303"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T305",
+              "tail_entity_id": "T303"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T308",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T309",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T310",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R128",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T313"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R129",
+              "head_entity_id": "T314",
+              "tail_entity_id": "T313"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，DPP-4抑制剂是否能够用于1型糖尿病的治疗尚需要更多的临床研究证实，也没有相应的适应证，国内外指南也未推荐使用。",
+          "start_idx": 160,
+          "end_idx": 220,
+          "entities": [
+            {
+              "entity_id": "T315",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T316",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T317",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 17,
+              "end_idx": 19
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R130",
+              "head_entity_id": "T315",
+              "tail_entity_id": "T316"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R131",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T316"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "本共识不主张在临床使用DPP-4抑制剂治疗1型糖尿病患者。",
+          "start_idx": 220,
+          "end_idx": 249,
+          "entities": [
+            {
+              "entity_id": "T318",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T319",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T320",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R132",
+              "head_entity_id": "T318",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T320",
+              "tail_entity_id": "T319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "2.2 型糖尿病合并肾功能不全患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.2 型糖尿病合并肾功能不全患者",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T321",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T322",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T323",
+              "entity": "2 型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T324",
+              "entity": "2 型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R134",
+              "head_entity_id": "T322",
+              "tail_entity_id": "T321"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R135",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T323"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "大部分DPP-4抑制通过肾脏排泄，因此DPP-4抑制剂的暴露浓度会随着肾功能下降而相应的增加。药物说明书和国内外指南认为西格列汀、沙格列汀、维格列汀以及阿格列汀在轻度肾功能不全的患者中不需要调整剂量，但对于中到重度肾功能不全的患者需要减少剂量，利格列汀不需要调整剂量。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "大部分DPP-4抑制通过肾脏排泄，因此DPP-4抑制剂的暴露浓度会随着肾功能下降而相应的增加。药物说明书和国内外指南认为西格列汀、沙格列汀、维格列汀以及阿格列汀在轻度肾功能不全的患者中不需要调整剂量，但对于中到重度肾功能不全的患者需要减少剂量，利格列汀不需要调整剂量。",
+          "start_idx": 0,
+          "end_idx": 134,
+          "entities": [
+            {
+              "entity_id": "T325",
+              "entity": "DPP-4抑制",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T326",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T327",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T328",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 76,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T329",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T330",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T331",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 83,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T332",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T333",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 83,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T334",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 107,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T335",
+              "entity": "中到重度",
+              "entity_type": "Level",
+              "start_idx": 103,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T336",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 107,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T337",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 122,
+              "end_idx": 126
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R136",
+              "head_entity_id": "T327",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R137",
+              "head_entity_id": "T328",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R138",
+              "head_entity_id": "T329",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R139",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R140",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R141",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T334"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R142",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T334"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 134,
+          "end_idx": 135,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "3.2型糖尿病合并肝功能不全患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.2型糖尿病合并肝功能不全患者",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T338",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T339",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T340",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T341",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R143",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R144",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "肝功能受损的患者对DPP-4抑制剂具有良好的耐受性。肝功能受损基本不会对DPP-4抑制剂产生有临床意义的药代动力学影响，对于大部分DPP-4抑制剂，在轻到中度肝功能受损的患者中均无需调整剂量。但是在针对维格列汀的临床试验中发现肝酶的暂时性升高，因此对丙氨酸氨基转移酶和(下转第17页)(上接第13页)天门冬氨酸氨基转移酶高于正常上限3倍的患者不能使用。利格列汀在肝功能不全患者中无需调整剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "肝功能受损的患者对DPP-4抑制剂具有良好的耐受性。肝功能受损基本不会对DPP-4抑制剂产生有临床意义的药代动力学影响，对于大部分DPP-4抑制剂，在轻到中度肝功能受损的患者中均无需调整剂量。",
+          "start_idx": 0,
+          "end_idx": 96,
+          "entities": [
+            {
+              "entity_id": "T342",
+              "entity": "肝功能受损",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T343",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 0,
+              "end_idx": 1
+            },
+            {
+              "entity_id": "T344",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T345",
+              "entity": "肝功能受损",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T346",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 26,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T347",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T348",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T349",
+              "entity": "轻到中度肝功能受损",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T350",
+              "entity": "轻到中度",
+              "entity_type": "Class",
+              "start_idx": 75,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T351",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 79,
+              "end_idx": 80
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R145",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T342"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R146",
+              "head_entity_id": "T344",
+              "tail_entity_id": "T342"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R147",
+              "head_entity_id": "T346",
+              "tail_entity_id": "T345"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R148",
+              "head_entity_id": "T347",
+              "tail_entity_id": "T345"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R149",
+              "head_entity_id": "T348",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R150",
+              "head_entity_id": "T351",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R151",
+              "head_entity_id": "T350",
+              "tail_entity_id": "T349"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "但是在针对维格列汀的临床试验中发现肝酶的暂时性升高，因此对丙氨酸氨基转移酶和(下转第17页)(上接第13页)天门冬氨酸氨基转移酶高于正常上限3倍的患者不能使用。",
+          "start_idx": 96,
+          "end_idx": 176,
+          "entities": [
+            {
+              "entity_id": "T352",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T353",
+              "entity": "肝酶",
+              "entity_type": "Test",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T354",
+              "entity": "暂时性升高",
+              "entity_type": "Test_Value",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T355",
+              "entity": "丙氨酸氨基转移酶",
+              "entity_type": "Test",
+              "start_idx": 29,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T356",
+              "entity": "天门冬氨酸氨基转移酶",
+              "entity_type": "Test",
+              "start_idx": 54,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T357",
+              "entity": "高于正常上限3倍",
+              "entity_type": "Test_Value",
+              "start_idx": 64,
+              "end_idx": 72
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "利格列汀在肝功能不全患者中无需调整剂量。",
+          "start_idx": 176,
+          "end_idx": 196,
+          "entities": [
+            {
+              "entity_id": "T358",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T359",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T360",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 5,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R152",
+              "head_entity_id": "T358",
+              "tail_entity_id": "T359"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R153",
+              "head_entity_id": "T360",
+              "tail_entity_id": "T359"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "相当，达标率相当。阿卡波糖降低餐后2h血糖的作用显著优于二甲双胍，其降低餐后胰岛素、减轻体重和降低三酰甘油的作用也优于二甲双胍。二甲双胍是新诊断2型糖尿病患者药物治疗的一线选择，但如果患者以餐后血糖升高为主要特点时，可考虑首选阿卡波糖。MARCH研究为比较阿卡波糖和二甲双胍的疗效和获益提供了非常有价值的信息，为指南的制定提供了循证医学证据参考，并跨出了历史性的一步。MARCH研究以坚实的临床数据赢得了世界的尊重，在探索中国糖尿病治疗的长征路上迈出了坚实的一步。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "相当，达标率相当。阿卡波糖降低餐后2h血糖的作用显著优于二甲双胍，其降低餐后胰岛素、减轻体重和降低三酰甘油的作用也优于二甲双胍。二甲双胍是新诊断2型糖尿病患者药物治疗的一线选择，但如果患者以餐后血糖升高为主要特点时，可考虑首选阿卡波糖。",
+          "start_idx": 0,
+          "end_idx": 118,
+          "entities": [
+            {
+              "entity_id": "T361",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T362",
+              "entity": "餐后2h血糖",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T363",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T364",
+              "entity": "餐后胰岛素",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T365",
+              "entity": "三酰甘油",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T366",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T367",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 64,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T368",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T369",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T370",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T371",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T372",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 117
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R154",
+              "head_entity_id": "T367",
+              "tail_entity_id": "T368"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R155",
+              "head_entity_id": "T369",
+              "tail_entity_id": "T368"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R156",
+              "head_entity_id": "T370",
+              "tail_entity_id": "T368"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R157",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T368"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "MARCH研究为比较阿卡波糖和二甲双胍的疗效和获益提供了非常有价值的信息，为指南的制定提供了循证医学证据参考，并跨出了历史性的一步。",
+          "start_idx": 118,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T373",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T374",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "MARCH研究以坚实的临床数据赢得了世界的尊重，在探索中国糖尿病治疗的长征路上迈出了坚实的一步。",
+          "start_idx": 184,
+          "end_idx": 232,
+          "entities": [
+            {
+              "entity_id": "T375",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "4.老年2型糖尿病患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.老年2型糖尿病患者",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T376",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T377",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R158",
+              "head_entity_id": "T377",
+              "tail_entity_id": "T376"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "老年糖尿病患者是高度差异化的人群，常常合并多种疾病，需要服用多种药物。低血糖以及整体安全性考虑在老年人群药物的选择中占有越来越重的地位。DPP-4抑制剂单独或联合使用低血糖风险较低，而且对体重的影响中性，适于在这类人群中使用。临床研究显示DPP-4抑制剂在老年人群中具有良好的有效性及安全性，甚至有荟萃分析提示DPP-4抑制剂在老年患者中的血糖控制效果优于年轻患者。总体而言，这类药物良好的安全性使其适合应用于老年2型糖尿病患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "老年糖尿病患者是高度差异化的人群，常常合并多种疾病，需要服用多种药物。低血糖以及整体安全性考虑在老年人群药物的选择中占有越来越重的地位。DPP-4抑制剂单独或联合使用低血糖风险较低，而且对体重的影响中性，适于在这类人群中使用。临床研究显示DPP-4抑制剂在老年人群中具有良好的有效性及安全性，甚至有荟萃分析提示DPP-4抑制剂在老年患者中的血糖控制效果优于年轻患者。总体而言，这类药物良好的安全性使其适合应用于老年2型糖尿病患者。",
+          "start_idx": 0,
+          "end_idx": 215,
+          "entities": [
+            {
+              "entity_id": "T378",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T379",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T380",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T381",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 83,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T382",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T383",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 155,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T384",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 170,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T385",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T386",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 207,
+              "end_idx": 209
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R159",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T380"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R160",
+              "head_entity_id": "T386",
+              "tail_entity_id": "T385"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "5.糖尿病合并心血管高危因素患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.糖尿病合并心血管高危因素患者",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T387",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T388",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R161",
+              "head_entity_id": "T388",
+              "tail_entity_id": "T387"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "心血管并发症是导致糖尿病患者死亡的最主要原因，因此，在选择糖尿病治疗药物的过程中，药物的心血管安全性是非常重要的考量因素。临床研究的数据汇集分析(pooled analysis)显示，DPP-4抑制剂不增加心血管事件。最新发表的SAVOR-TIMI53研究和EXAMINE研究为评估沙格列汀和阿格列汀心血管安全性的多中心、随机、双盲、对照的前瞻性临床研究。研究纳入未接受过肠促胰素类降糖药物的2型糖尿病(HbA1c≥6.5%)合并心血管高危风险患者，随机分为安慰剂组和治疗组。研究结果显示主要复合终点事件(包括心血管疾病导致的死亡、非致死性心肌梗死、非致死性缺血性脑卒中)发生率与安慰剂组相似，进一步明确了沙格列汀和阿格列汀心血管安全性良好。其他关注DPP-4抑制剂心血管安全性的诸多大型前瞻性临床研究正在进行中，如西格列汀的TECOS研究、利格列汀的CAROLINA，CARMELINA研究等。但现有的研究数据显示DPP-4抑制剂不增加2型糖尿病患者的心血管风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "心血管并发症是导致糖尿病患者死亡的最主要原因，因此，在选择糖尿病治疗药物的过程中，药物的心血管安全性是非常重要的考量因素。临床研究的数据汇集分析(pooled analysis)显示，DPP-4抑制剂不增加心血管事件。最新发表的SAVOR-TIMI53研究和EXAMINE研究为评估沙格列汀和阿格列汀心血管安全性的多中心、随机、双盲、对照的前瞻性临床研究。研究纳入未接受过肠促胰素类降糖药物的2型糖尿病(HbA1c≥6.5%)合并心血管高危风险患者，随机分为安慰剂组和治疗组。研究结果显示主要复合终点事件(包括心血管疾病导致的死亡、非致死性心肌梗死、非致死性缺血性脑卒中)发生率与安慰剂组相似，进一步明确了沙格列汀和阿格列汀心血管安全性良好。其他关注DPP-4抑制剂心血管安全性的诸多大型前瞻性临床研究正在进行中，如西格列汀的TECOS研究、利格列汀的CAROLINA，CARMELINA研究等。但现有的研究数据显示DPP-4抑制剂不增加2型糖尿病患者的心血管风险。",
+          "start_idx": 0,
+          "end_idx": 433,
+          "entities": [
+            {
+              "entity_id": "T389",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T390",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T391",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T392",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 92,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T393",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T394",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T395",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 141,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T396",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 146,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T397",
+              "entity": "肠促胰素类降糖药物",
+              "entity_type": "Drug",
+              "start_idx": 186,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T398",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T399",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 196,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T400",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 202,
+              "end_idx": 207
+            },
+            {
+              "entity_id": "T401",
+              "entity": "≥6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 207,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T402",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T403",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 255,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T404",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 255,
+              "end_idx": 258
+            },
+            {
+              "entity_id": "T405",
+              "entity": "非致死性心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 266,
+              "end_idx": 274
+            },
+            {
+              "entity_id": "T406",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 270,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T407",
+              "entity": "非致死性",
+              "entity_type": "Class",
+              "start_idx": 266,
+              "end_idx": 270
+            },
+            {
+              "entity_id": "T408",
+              "entity": "非致死性缺血性脑卒中",
+              "entity_type": "Disease",
+              "start_idx": 275,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T409",
+              "entity": "非致死性",
+              "entity_type": "Class",
+              "start_idx": 275,
+              "end_idx": 279
+            },
+            {
+              "entity_id": "T410",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 282,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T411",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 303,
+              "end_idx": 307
+            },
+            {
+              "entity_id": "T412",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 308,
+              "end_idx": 312
+            },
+            {
+              "entity_id": "T413",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 325,
+              "end_idx": 333
+            },
+            {
+              "entity_id": "T414",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 358,
+              "end_idx": 362
+            },
+            {
+              "entity_id": "T415",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 371,
+              "end_idx": 375
+            },
+            {
+              "entity_id": "T416",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 419,
+              "end_idx": 424
+            },
+            {
+              "entity_id": "T417",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 419,
+              "end_idx": 421
+            },
+            {
+              "entity_id": "T418",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 408,
+              "end_idx": 416
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R162",
+              "head_entity_id": "T389",
+              "tail_entity_id": "T390"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R163",
+              "head_entity_id": "T394",
+              "tail_entity_id": "T393"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R164",
+              "head_entity_id": "T402",
+              "tail_entity_id": "T398"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R165",
+              "head_entity_id": "T399",
+              "tail_entity_id": "T398"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R166",
+              "head_entity_id": "T400",
+              "tail_entity_id": "T398"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R167",
+              "head_entity_id": "T404",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R168",
+              "head_entity_id": "T406",
+              "tail_entity_id": "T405"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R169",
+              "head_entity_id": "T407",
+              "tail_entity_id": "T405"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R170",
+              "head_entity_id": "T410",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R171",
+              "head_entity_id": "T409",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R172",
+              "head_entity_id": "T417",
+              "tail_entity_id": "T416"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R173",
+              "head_entity_id": "T418",
+              "tail_entity_id": "T416"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "总结 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "总结 ",
+          "start_idx": 0,
+          "end_idx": 3,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "DPP-4抑制剂是一种新型的口服降糖药，疗效确切，安全性良好。中国FDA批准的适应证主要为单药或与二甲双胍联用，或与二甲双胍和磺脲类药物联用。临床应用应该以药物说明书为基础，但临床证据和国内外权威指南支持与多种传统降糖药双药以上的联合使用。暂不主张在1型糖尿病患者中应用DPP-4抑制剂，因为需要更充分的临床证据。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂是一种新型的口服降糖药，疗效确切，安全性良好。中国FDA批准的适应证主要为单药或与二甲双胍联用，或与二甲双胍和磺脲类药物联用。临床应用应该以药物说明书为基础，但临床证据和国内外权威指南支持与多种传统降糖药双药以上的联合使用。暂不主张在1型糖尿病患者中应用DPP-4抑制剂，因为需要更充分的临床证据。",
+          "start_idx": 0,
+          "end_idx": 157,
+          "entities": [
+            {
+              "entity_id": "T419",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T420",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T421",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T422",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T423",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T424",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T425",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T426",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 135,
+              "end_idx": 143
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R174",
+              "head_entity_id": "T420",
+              "tail_entity_id": "T419"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R175",
+              "head_entity_id": "T426",
+              "tail_entity_id": "T424"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R176",
+              "head_entity_id": "T425",
+              "tail_entity_id": "T424"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

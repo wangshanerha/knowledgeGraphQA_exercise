@@ -1,0 +1,5688 @@
+{
+  "doc_id": "29",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "糖尿病微循环障碍临床用药专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微循环障碍临床用药专家共识",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T1",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 3,
+              "end_idx": 8
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "1 背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1 背景",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "糖尿病及其慢性并发症可导致患者肾功能衰竭、失明、截肢和心脑血管事件，致残率和致死率高，给患者的健康和生命造成了严重威胁。微障碍是糖尿病慢性并发症发生的重要病理生理基础之一，在控制血糖的同时改善微循环障碍，对于预防、延缓、治疗糖尿病各种慢性并发症具有十分重要的意义。当前临床工作中，对于微循环障碍在糖尿病慢性并发症发生发展中的作用及机制，认识尚不充分，相关药物的选择与使用欠规范。鉴于此，中国微循环学会糖尿病与微循环专业委员会制订此共识，以期为临床合理选择改善糖尿病微循环障碍药物提供参考。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病及其慢性并发症可导致患者肾功能衰竭、失明、截肢和心脑血管事件，致残率和致死率高，给患者的健康和生命造成了严重威胁。微障碍是糖尿病慢性并发症发生的重要病理生理基础之一，在控制血糖的同时改善微循环障碍，对于预防、延缓、治疗糖尿病各种慢性并发症具有十分重要的意义。",
+          "start_idx": 0,
+          "end_idx": 132,
+          "entities": [
+            {
+              "entity_id": "T2",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T3",
+              "entity": "肾功能衰竭",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T4",
+              "entity": "失明",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T5",
+              "entity": "截肢",
+              "entity_type": "Operation",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T6",
+              "entity": "心脑血管事件",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T7",
+              "entity": "微障碍",
+              "entity_type": "Symptom",
+              "start_idx": 60,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T8",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T11",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 15,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T12",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 27,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T13",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 96,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T14",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 89,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T15",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 67
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T15"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T8"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "当前临床工作中，对于微循环障碍在糖尿病慢性并发症发生发展中的作用及机制，认识尚不充分，相关药物的选择与使用欠规范。",
+          "start_idx": 132,
+          "end_idx": 189,
+          "entities": [
+            {
+              "entity_id": "T9",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T16",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T9",
+              "tail_entity_id": "T16"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "鉴于此，中国微循环学会糖尿病与微循环专业委员会制订此共识，以期为临床合理选择改善糖尿病微循环障碍药物提供参考。",
+          "start_idx": 189,
+          "end_idx": 244,
+          "entities": [
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T17",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T18",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 43,
+              "end_idx": 48
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "2 糖尿病微循环障碍的定义",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2 糖尿病微循环障碍的定义",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T20",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 5,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T20",
+              "tail_entity_id": "T19"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "2.1 微循环障碍微循环由微动脉、后微动脉、毛细血管前括约肌、真毛细血管、动-静脉吻合支和微静脉及其流经其内的液体所组成，是循环系统的基础结构，也是血液与组织间实现物质交换的主要场所和功能单位。在炎症反应、代谢障碍等病理情况下，可发生血管细胞功能障碍，自主神经功能异常及内分泌激素分泌紊乱，导致微血管舒缩功能紊乱、血管壁通透性升高以及血液流变性变化，并可出现微血管结构和毛细血管密度的异常，影响组织的物质交换和器官功能。这种病理情况下，微循环结构及功能的异常导致其不能与组织和器官代谢水平相适应，影响组织的物质交换和器官功能状态称之为微循环障碍。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.1 微循环障碍微循环由微动脉、后微动脉、毛细血管前括约肌、真毛细血管、动-静脉吻合支和微静脉及其流经其内的液体所组成，是循环系统的基础结构，也是血液与组织间实现物质交换的主要场所和功能单位。",
+          "start_idx": 0,
+          "end_idx": 97,
+          "entities": [
+            {
+              "entity_id": "T21",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 4,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在炎症反应、代谢障碍等病理情况下，可发生血管细胞功能障碍，自主神经功能异常及内分泌激素分泌紊乱，导致微血管舒缩功能紊乱、血管壁通透性升高以及血液流变性变化，并可出现微血管结构和毛细血管密度的异常，影响组织的物质交换和器官功能。",
+          "start_idx": 97,
+          "end_idx": 210,
+          "entities": [
+            {
+              "entity_id": "T23",
+              "entity": "炎症反应",
+              "entity_type": "Reason",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T24",
+              "entity": "代谢障碍",
+              "entity_type": "Reason",
+              "start_idx": 6,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "这种病理情况下，微循环结构及功能的异常导致其不能与组织和器官代谢水平相适应，影响组织的物质交换和器官功能状态称之为微循环障碍。",
+          "start_idx": 210,
+          "end_idx": 273,
+          "entities": [
+            {
+              "entity_id": "T22",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 57,
+              "end_idx": 62
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "2.2 糖尿病微循环障碍由糖尿病相关因素导致的微循环障碍称之为糖尿病微循环障碍。它不仅在糖尿病血管并发症的发生中起着重要作用，而且参与了胰岛素抵抗及糖尿病的发生发展。目前糖尿病微循环障碍的确切发病机制尚未被完全阐明，主要涉及血管内皮受损及一氧化氮合成减少、多元醇通路激活、蛋白质非酶糖化、氧化应激、蛋白激酶C激活等多个方面的功能和代谢异常，进而出现微循环自律运动障碍，微血管血流量增加，压力增高。持续的血流动力学异常可致微血管结构损伤，通透性增加，毛细血管渗出，基底膜增厚，血管腔狭窄甚至闭塞，微血栓形成，发生微循环缺血、缺氧，进而导致器官功能障碍。微循环障碍可发生于糖尿病期及糖尿病前期，早期对其进行干预有助于糖尿病及其血管并发症的防治。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.2 糖尿病微循环障碍由糖尿病相关因素导致的微循环障碍称之为糖尿病微循环障碍。它不仅在糖尿病血管并发症的发生中起着重要作用，而且参与了胰岛素抵抗及糖尿病的发生发展。目前糖尿病微循环障碍的确切发病机制尚未被完全阐明，主要涉及血管内皮受损及一氧化氮合成减少、多元醇通路激活、蛋白质非酶糖化、氧化应激、蛋白激酶C激活等多个方面的功能和代谢异常，进而出现微循环自律运动障碍，微血管血流量增加，压力增高。持续的血流动力学异常可致微血管结构损伤，通透性增加，毛细血管渗出，基底膜增厚，血管腔狭窄甚至闭塞，微血栓形成，发生微循环缺血、缺氧，进而导致器官功能障碍。微循环障碍可发生于糖尿病期及糖尿病前期，早期对其进行干预有助于糖尿病及其血管并发症的防治。",
+          "start_idx": 0,
+          "end_idx": 320,
+          "entities": [
+            {
+              "entity_id": "T25",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T26",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T27",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T29",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T30",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T31",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 284,
+              "end_idx": 287
+            },
+            {
+              "entity_id": "T32",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 289,
+              "end_idx": 292
+            },
+            {
+              "entity_id": "T33",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 306,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T34",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T35",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T36",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T37",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T38",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 88,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T39",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 275,
+              "end_idx": 280
+            },
+            {
+              "entity_id": "T40",
+              "entity": "血管内皮受损",
+              "entity_type": "Pathogenesis",
+              "start_idx": 112,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T41",
+              "entity": "一氧化氮合成减少",
+              "entity_type": "Pathogenesis",
+              "start_idx": 119,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T42",
+              "entity": "多元醇通路激活",
+              "entity_type": "Pathogenesis",
+              "start_idx": 128,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T43",
+              "entity": "蛋白质非酶糖化",
+              "entity_type": "Pathogenesis",
+              "start_idx": 136,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T44",
+              "entity": "氧化应激",
+              "entity_type": "Pathogenesis",
+              "start_idx": 144,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T45",
+              "entity": "蛋白激酶C激活",
+              "entity_type": "Pathogenesis",
+              "start_idx": 149,
+              "end_idx": 156
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T25"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T26"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T37",
+              "tail_entity_id": "T27"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T31"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T32"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T45",
+              "tail_entity_id": "T34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "3 糖尿病微循环障碍的表现",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3 糖尿病微循环障碍的表现",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T46",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T47",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 5,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T47",
+              "tail_entity_id": "T46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "糖尿病微循环障碍在糖尿病肾病、糖尿病视网膜病变、糖尿病神经病变和糖尿病足病的发生发展中发挥着重要作用，是这些糖尿病慢性并发症共同的病因学机制之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微循环障碍在糖尿病肾病、糖尿病视网膜病变、糖尿病神经病变和糖尿病足病的发生发展中发挥着重要作用，是这些糖尿病慢性并发症共同的病因学机制之一。",
+          "start_idx": 0,
+          "end_idx": 73,
+          "entities": [
+            {
+              "entity_id": "T48",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T49",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T50",
+              "entity": "糖尿病神经病变",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T51",
+              "entity": "糖尿病足病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T52",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 12,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T53",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T54",
+              "entity": "足",
+              "entity_type": "Anatomy",
+              "start_idx": 35,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T55",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T56",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T57",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T58",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 27,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T48"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "3.1 糖尿病肾病糖尿病肾病的主要病理改变表现为肾小球基底膜增厚、肾小球系膜区细胞外基质沉积，最终肾小球硬化伴或不伴肾小管间质纤维化。肾小球受累临床主要表现为进行性肾小球滤过率降低和尿白蛋白排泄增多。随着病程的进展出现严重肾小球硬化时，肾脏会逐步缩小。微量白蛋白尿是糖尿病肾病的早期临床表现，也是诊断糖尿病肾病的重要依据。糖尿病肾病自然病程分为5期：急性肾小球高滤过期、正常白蛋白尿期(尿蛋白排泄正常或间歇性白蛋白尿)、早期糖尿病肾病期(持续微量白蛋白尿)、临床糖尿病肾病期(显性白蛋白尿，部分进展为肾病综合征)、肾衰竭期。糖尿病肾病是糖尿病患者肾功能衰竭的主要原因。糖尿病肾病最新进展研究表明，肾小管损伤也应包括在糖尿病肾病概念中，其在疾病的早期即可出现，且可先于肾小球病变。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.1 糖尿病肾病糖尿病肾病的主要病理改变表现为肾小球基底膜增厚、肾小球系膜区细胞外基质沉积，最终肾小球硬化伴或不伴肾小管间质纤维化。肾小球受累临床主要表现为进行性肾小球滤过率降低和尿白蛋白排泄增多。随着病程的进展出现严重肾小球硬化时，肾脏会逐步缩小。微量白蛋白尿是糖尿病肾病的早期临床表现，也是诊断糖尿病肾病的重要依据。糖尿病肾病自然病程分为5期：急性肾小球高滤过期、正常白蛋白尿期(尿蛋白排泄正常或间歇性白蛋白尿)、早期糖尿病肾病期(持续微量白蛋白尿)、临床糖尿病肾病期(显性白蛋白尿，部分进展为肾病综合征)、肾衰竭期。糖尿病肾病是糖尿病患者肾功能衰竭的主要原因。糖尿病肾病最新进展研究表明，肾小管损伤也应包括在糖尿病肾病概念中，其在疾病的早期即可出现，且可先于肾小球病变。",
+          "start_idx": 0,
+          "end_idx": 339,
+          "entities": [
+            {
+              "entity_id": "T59",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T60",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T61",
+              "entity": "肾小球硬化",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T62",
+              "entity": "肾小管间质纤维化",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T63",
+              "entity": "肾小球硬化",
+              "entity_type": "Disease",
+              "start_idx": 111,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T64",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 133,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T65",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 150,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T66",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 161,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T67",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 262,
+              "end_idx": 267
+            },
+            {
+              "entity_id": "T68",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 268,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T69",
+              "entity": "肾功能衰竭",
+              "entity_type": "Disease",
+              "start_idx": 273,
+              "end_idx": 278
+            },
+            {
+              "entity_id": "T70",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 284,
+              "end_idx": 289
+            },
+            {
+              "entity_id": "T71",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 308,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T72",
+              "entity": "肾小球基底膜增厚",
+              "entity_type": "Symptom",
+              "start_idx": 24,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T73",
+              "entity": "肾小球系膜区细胞外基质沉积",
+              "entity_type": "Symptom",
+              "start_idx": 33,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T74",
+              "entity": "进行性肾小球滤过率降低",
+              "entity_type": "Symptom",
+              "start_idx": 79,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T75",
+              "entity": "尿白蛋白排泄增多",
+              "entity_type": "Symptom",
+              "start_idx": 91,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T76",
+              "entity": "肾脏会逐步缩小",
+              "entity_type": "Symptom",
+              "start_idx": 118,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T77",
+              "entity": "微量白蛋白尿",
+              "entity_type": "Symptom",
+              "start_idx": 126,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T78",
+              "entity": "肾小管损伤",
+              "entity_type": "Symptom",
+              "start_idx": 298,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T79",
+              "entity": "肾小球病变",
+              "entity_type": "Symptom",
+              "start_idx": 333,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T80",
+              "entity": "急性肾小球高滤过期",
+              "entity_type": "Class",
+              "start_idx": 175,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T81",
+              "entity": "正常白蛋白尿期",
+              "entity_type": "Class",
+              "start_idx": 185,
+              "end_idx": 192
+            },
+            {
+              "entity_id": "T82",
+              "entity": "早期糖尿病肾病期",
+              "entity_type": "Class",
+              "start_idx": 210,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T83",
+              "entity": "临床糖尿病肾病期",
+              "entity_type": "Class",
+              "start_idx": 229,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T84",
+              "entity": "肾衰竭期",
+              "entity_type": "Class",
+              "start_idx": 257,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T85",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T86",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 12,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T87",
+              "entity": "肾小球",
+              "entity_type": "Anatomy",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T88",
+              "entity": "肾小管",
+              "entity_type": "Anatomy",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T89",
+              "entity": "肾小球",
+              "entity_type": "Anatomy",
+              "start_idx": 111,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T90",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 153,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T91",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 136,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T92",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 164,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T93",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 265,
+              "end_idx": 266
+            },
+            {
+              "entity_id": "T94",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 273,
+              "end_idx": 274
+            },
+            {
+              "entity_id": "T95",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 287,
+              "end_idx": 288
+            },
+            {
+              "entity_id": "T96",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 311,
+              "end_idx": 312
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T60"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T60"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T60"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T64"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T64"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T71"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T71"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T71"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "3.2 糖尿病视网膜病变糖尿病视网膜病变的病理特征是周细胞丢失、视神经视网膜异常和血管新生。糖尿病视网膜病变的主要临床表现为微血管瘤、出血斑点、硬性渗出、棉绒斑、静脉串珠状、视网膜内微血管异常(intraretinal microvascular abnormality，IRMA)以及黄斑水肿等。广泛出血会引起视网膜或视盘的新生血管、视网膜前出血、玻璃体积血及牵拉性视网膜脱离，微血管瘤出现最早期。糖尿病视网膜病变临床表现分为6期(具体分型、分期标准参考相关指南)。糖尿病视网膜病变是导致糖尿病患者失明的主要原因。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.2 糖尿病视网膜病变糖尿病视网膜病变的病理特征是周细胞丢失、视神经视网膜异常和血管新生。糖尿病视网膜病变的主要临床表现为微血管瘤、出血斑点、硬性渗出、棉绒斑、静脉串珠状、视网膜内微血管异常(intraretinal microvascular abnormality，IRMA)以及黄斑水肿等。广泛出血会引起视网膜或视盘的新生血管、视网膜前出血、玻璃体积血及牵拉性视网膜脱离，微血管瘤出现最早期。",
+          "start_idx": 0,
+          "end_idx": 200,
+          "entities": [
+            {
+              "entity_id": "T97",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T98",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T99",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T100",
+              "entity": "视网膜或视盘的新生血管",
+              "entity_type": "Disease",
+              "start_idx": 156,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T101",
+              "entity": "视网膜前出血",
+              "entity_type": "Disease",
+              "start_idx": 168,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T102",
+              "entity": "玻璃体积血",
+              "entity_type": "Disease",
+              "start_idx": 175,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T103",
+              "entity": "牵拉性视网膜脱离",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T104",
+              "entity": "微血管瘤",
+              "entity_type": "Disease",
+              "start_idx": 190,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T109",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T110",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T111",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T112",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 156,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T113",
+              "entity": "视盘",
+              "entity_type": "Anatomy",
+              "start_idx": 160,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T114",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 168,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T115",
+              "entity": "玻璃体",
+              "entity_type": "Anatomy",
+              "start_idx": 175,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T116",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 184,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T119",
+              "entity": "周细胞丢失",
+              "entity_type": "Symptom",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T120",
+              "entity": "视神经视网膜异常",
+              "entity_type": "Symptom",
+              "start_idx": 32,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T121",
+              "entity": "血管新生",
+              "entity_type": "Symptom",
+              "start_idx": 41,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T122",
+              "entity": "微血管瘤",
+              "entity_type": "Symptom",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T123",
+              "entity": "出血斑点",
+              "entity_type": "Symptom",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T124",
+              "entity": "硬性渗出",
+              "entity_type": "Symptom",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T125",
+              "entity": "棉绒斑",
+              "entity_type": "Symptom",
+              "start_idx": 77,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T126",
+              "entity": "静脉串珠状",
+              "entity_type": "Symptom",
+              "start_idx": 81,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T127",
+              "entity": "视网膜内微血管异常(intraretinal microvascular abnormality，IRMA)",
+              "entity_type": "Symptom",
+              "start_idx": 87,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T128",
+              "entity": "黄斑水肿",
+              "entity_type": "Symptom",
+              "start_idx": 143,
+              "end_idx": 147
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T123",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T101"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T103"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "糖尿病视网膜病变临床表现分为6期(具体分型、分期标准参考相关指南)。",
+          "start_idx": 200,
+          "end_idx": 234,
+          "entities": [
+            {
+              "entity_id": "T105",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T117",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T105"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "糖尿病视网膜病变是导致糖尿病患者失明的主要原因。",
+          "start_idx": 234,
+          "end_idx": 258,
+          "entities": [
+            {
+              "entity_id": "T106",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T107",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T108",
+              "entity": "失明",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T118",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T106"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "3.3 糖尿病神经病变糖尿病神经病变主要可累及周围神经、自主神经、颅神经，脑及脊髓也可受累，早期表现为神经纤维脱髓鞘和轴突变性、Schwann细胞增生。随着病程进展，表现为轴突变性和髓鞘纤维消失。周围神经病变最常见的症状，诸如麻木、疼痛等感觉异常或者感觉丧失。自主神经受累时，可表现为心血管、胃肠道、泌尿生殖系统和排汗障碍或失调。颅神经病变以动眼神经受损最常见，其次为外展神经、滑车神经、面神经和三叉神经等，常单侧受累，双侧受累少见。脊髓病变以后索损害为主，主要为变性改变。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.3 糖尿病神经病变糖尿病神经病变主要可累及周围神经、自主神经、颅神经，脑及脊髓也可受累，早期表现为神经纤维脱髓鞘和轴突变性、Schwann细胞增生。随着病程进展，表现为轴突变性和髓鞘纤维消失。周围神经病变最常见的症状，诸如麻木、疼痛等感觉异常或者感觉丧失。自主神经受累时，可表现为心血管、胃肠道、泌尿生殖系统和排汗障碍或失调。颅神经病变以动眼神经受损最常见，其次为外展神经、滑车神经、面神经和三叉神经等，常单侧受累，双侧受累少见。脊髓病变以后索损害为主，主要为变性改变。",
+          "start_idx": 0,
+          "end_idx": 237,
+          "entities": [
+            {
+              "entity_id": "T129",
+              "entity": "糖尿病神经病变",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T130",
+              "entity": "糖尿病神经病变",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T131",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T132",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T133",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T134",
+              "entity": "自主神经",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T135",
+              "entity": "颅神经",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T136",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 37,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T137",
+              "entity": "脊髓",
+              "entity_type": "Anatomy",
+              "start_idx": 39,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T138",
+              "entity": "神经纤维脱髓鞘",
+              "entity_type": "Symptom",
+              "start_idx": 51,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T139",
+              "entity": "轴突变性",
+              "entity_type": "Symptom",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T140",
+              "entity": "Schwann细胞增生",
+              "entity_type": "Symptom",
+              "start_idx": 64,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T141",
+              "entity": "轴突变性",
+              "entity_type": "Symptom",
+              "start_idx": 86,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T142",
+              "entity": "髓鞘纤维消失",
+              "entity_type": "Symptom",
+              "start_idx": 91,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T143",
+              "entity": "周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T144",
+              "entity": "麻木",
+              "entity_type": "Symptom",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T145",
+              "entity": "疼痛",
+              "entity_type": "Symptom",
+              "start_idx": 116,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T146",
+              "entity": "感觉异常",
+              "entity_type": "Symptom",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T147",
+              "entity": "感觉丧失",
+              "entity_type": "Symptom",
+              "start_idx": 125,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T148",
+              "entity": "自主神经受累",
+              "entity_type": "Symptom",
+              "start_idx": 130,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T149",
+              "entity": "心血管、胃肠道、泌尿生殖系统和排汗障碍或失调",
+              "entity_type": "Symptom",
+              "start_idx": 142,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T150",
+              "entity": "颅神经病变",
+              "entity_type": "Disease",
+              "start_idx": 165,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T151",
+              "entity": "颅神经",
+              "entity_type": "Anatomy",
+              "start_idx": 165,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T152",
+              "entity": "眼神经受损",
+              "entity_type": "Symptom",
+              "start_idx": 172,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T153",
+              "entity": "外展神经",
+              "entity_type": "Anatomy",
+              "start_idx": 184,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T154",
+              "entity": "滑车神经",
+              "entity_type": "Anatomy",
+              "start_idx": 189,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T155",
+              "entity": "面神经",
+              "entity_type": "Anatomy",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T156",
+              "entity": "三叉神经",
+              "entity_type": "Anatomy",
+              "start_idx": 198,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T157",
+              "entity": "脊髓病变",
+              "entity_type": "Disease",
+              "start_idx": 217,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T158",
+              "entity": "脊髓",
+              "entity_type": "Anatomy",
+              "start_idx": 217,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T159",
+              "entity": "后索损害",
+              "entity_type": "Symptom",
+              "start_idx": 222,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T160",
+              "entity": "变性改变",
+              "entity_type": "Symptom",
+              "start_idx": 232,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T161",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 98,
+              "end_idx": 102
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T129"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T140",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T161",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T147",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T153",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T154",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T157"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "3.4 糖尿病足糖尿病患者因周围神经病变与外周血管疾病合并过高的机械压力，可引起足部过高的机械压力，从而导致足部软组织及骨关节系统的破坏与畸形形成。如果合并不同程度的感染，可从轻度的表皮的浅表感染到严重的坏疽等。如不及时治疗，甚至导致截肢。糖尿病足是目前非创伤性截肢的主要原因。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.4 糖尿病足糖尿病患者因周围神经病变与外周血管疾病合并过高的机械压力，可引起足部过高的机械压力，从而导致足部软组织及骨关节系统的破坏与畸形形成。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T162",
+              "entity": "糖尿病足",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T163",
+              "entity": "足",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T164",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T170",
+              "entity": "周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T171",
+              "entity": "外周血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T172",
+              "entity": "足部",
+              "entity_type": "Anatomy",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T173",
+              "entity": "足部软组织",
+              "entity_type": "Anatomy",
+              "start_idx": 54,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T174",
+              "entity": "骨关节",
+              "entity_type": "Anatomy",
+              "start_idx": 60,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T175",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T176",
+              "entity": "外周血管",
+              "entity_type": "Anatomy",
+              "start_idx": 21,
+              "end_idx": 25
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T175",
+              "tail_entity_id": "T170"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T171"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "如果合并不同程度的感染，可从轻度的表皮的浅表感染到严重的坏疽等。",
+          "start_idx": 74,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T165",
+              "entity": "坏疽",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "如不及时治疗，甚至导致截肢。",
+          "start_idx": 106,
+          "end_idx": 120,
+          "entities": [
+            {
+              "entity_id": "T166",
+              "entity": "截肢",
+              "entity_type": "Operation",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "糖尿病足是目前非创伤性截肢的主要原因。",
+          "start_idx": 120,
+          "end_idx": 139,
+          "entities": [
+            {
+              "entity_id": "T167",
+              "entity": "非创伤性截肢",
+              "entity_type": "Operation",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T168",
+              "entity": "糖尿病足",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T169",
+              "entity": "足",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 4
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T168"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "3.5 其他糖尿病心肌病变可在代谢紊乱及微血管病变的基础上引发心肌广泛局灶性坏死，出现亚临床的心功能异常，最终进展为心力衰竭、心律失常及心源性休克，重症患者甚至猝死。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.5 其他糖尿病心肌病变可在代谢紊乱及微血管病变的基础上引发心肌广泛局灶性坏死，出现亚临床的心功能异常，最终进展为心力衰竭、心律失常及心源性休克，重症患者甚至猝死。",
+          "start_idx": 0,
+          "end_idx": 83,
+          "entities": [
+            {
+              "entity_id": "T177",
+              "entity": "糖尿病心肌病变",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T178",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T179",
+              "entity": "代谢紊乱",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T180",
+              "entity": "微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T181",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T182",
+              "entity": "心肌广泛局灶性坏死",
+              "entity_type": "Symptom",
+              "start_idx": 31,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T183",
+              "entity": "心功能异常",
+              "entity_type": "Symptom",
+              "start_idx": 47,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T184",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T185",
+              "entity": "心律失常",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T186",
+              "entity": "心源性休克",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T187",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 58,
+              "end_idx": 59
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T181",
+              "tail_entity_id": "T180"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T187",
+              "tail_entity_id": "T184"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "糖尿病皮肤病变的发病机理是以微血管病变为主，晚期糖基化终产物蓄积、炎性反应、生长因子改变等参与的多因素的病变过程。临床可表现为胫前色素斑、类脂质渐进性坏死、糖尿病性水疱病、硬肿病和皮肤感染。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病皮肤病变的发病机理是以微血管病变为主，晚期糖基化终产物蓄积、炎性反应、生长因子改变等参与的多因素的病变过程。临床可表现为胫前色素斑、类脂质渐进性坏死、糖尿病性水疱病、硬肿病和皮肤感染。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T188",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T189",
+              "entity": "皮肤病变",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T190",
+              "entity": "皮肤",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T191",
+              "entity": "微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T192",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T193",
+              "entity": "胫前色素斑",
+              "entity_type": "Symptom",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T194",
+              "entity": "类脂质渐进性坏死",
+              "entity_type": "Symptom",
+              "start_idx": 69,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T195",
+              "entity": "糖尿病性水疱病",
+              "entity_type": "Symptom",
+              "start_idx": 78,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T196",
+              "entity": "硬肿病",
+              "entity_type": "Symptom",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T197",
+              "entity": "皮肤感染",
+              "entity_type": "Symptom",
+              "start_idx": 90,
+              "end_idx": 94
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T196",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "4 糖尿病微循环障碍的药物治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4 糖尿病微循环障碍的药物治疗",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T198",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T199",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 5,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T199",
+              "tail_entity_id": "T198"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "4.1 用药原则积极控制血糖、血压、血脂仍是糖尿病治疗的基础。微循环障碍贯穿糖尿病病程的始终，改善糖尿病微循环用药应遵循“早期、个体化、合理联合、重视安全”的原则。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1 用药原则积极控制血糖、血压、血脂仍是糖尿病治疗的基础。微循环障碍贯穿糖尿病病程的始终，改善糖尿病微循环用药应遵循“早期、个体化、合理联合、重视安全”的原则。",
+          "start_idx": 0,
+          "end_idx": 82,
+          "entities": [
+            {
+              "entity_id": "T200",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T201",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T202",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 31,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T203",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T204",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T205",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T206",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 15,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T200",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T202",
+              "tail_entity_id": "T203"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T205"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "4.1.1 早期一旦诊断为糖尿病，需尽早做并发症筛查，早诊断，考虑尽早使用改善微循环的药物。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1.1 早期一旦诊断为糖尿病，需尽早做并发症筛查，早诊断，考虑尽早使用改善微循环的药物。",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T207",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "4.1.2 个体化根据不同患者的临床表现特点和药物的作用机制，针对性选择药物，并给予适当疗程(在医生指导下用药和停药)，兼顾风险与获益的平衡。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1.2 个体化根据不同患者的临床表现特点和药物的作用机制，针对性选择药物，并给予适当疗程(在医生指导下用药和停药)，兼顾风险与获益的平衡。",
+          "start_idx": 0,
+          "end_idx": 71,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "4.1.3 合理联合一般不建议联合用药；如需联合，应遵循机制互补的原则，避免作用机制相同的药物联合，同时注意药物间的相互作用，尤其需考虑患者肝肾功能、年龄等因素。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1.3 合理联合一般不建议联合用药；如需联合，应遵循机制互补的原则，避免作用机制相同的药物联合，同时注意药物间的相互作用，尤其需考虑患者肝肾功能、年龄等因素。",
+          "start_idx": 0,
+          "end_idx": 81,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "4.1.4 重视安全严格掌握药物的适应证与禁忌证，注意药物的不良反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1.4 重视安全严格掌握药物的适应证与禁忌证，注意药物的不良反应。",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "4.2. 改善糖尿病微循环障碍的药物改善糖尿病微循环障碍的药物主要包括血管扩张药物、影响血液流变学的药物、保护血管内皮的药物以及部分中药制剂等(改善微循环障碍药物的临床推荐意见见表1；常用改善糖尿病微循环障碍药物的简要说明见表2和药品说明书)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2. 改善糖尿病微循环障碍的药物改善糖尿病微循环障碍的药物主要包括血管扩张药物、影响血液流变学的药物、保护血管内皮的药物以及部分中药制剂等(改善微循环障碍药物的临床推荐意见见表1；常用改善糖尿病微循环障碍药物的简要说明见表2和药品说明书)。",
+          "start_idx": 0,
+          "end_idx": 122,
+          "entities": [
+            {
+              "entity_id": "T208",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T209",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T210",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T211",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T212",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 74,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T213",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T214",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 99,
+              "end_idx": 104
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T209",
+              "tail_entity_id": "T208"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T211",
+              "tail_entity_id": "T210"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T213"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "4.2.1 血管扩张药物",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2.1 血管扩张药物",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "(1)胰激肽原酶(pancreatic kzllidinogenase，PK)：PK可增加毛细血管血流量；能激活纤溶酶，降低血液黏度，改善血流变；促使肾髓质分泌前列腺素E2，改善组织灌注。临床用于治疗各种微循环障碍性疾病，如糖尿病引起的肾病、周围神经病变、视网膜病变。国外研究提示，PK可以抑制血管增生，有利于控制糖尿病患者视网膜病变。PK在国内具有多年的临床使用经验，但尚需长期大样本及高质量的随机对照研究对其疗效和安全性验证。翟所迪等进行的系统性评价结果提示，PK对糖尿病视网膜病变和糖尿病肾病有一定的疗效。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)胰激肽原酶(pancreatic kzllidinogenase，PK)：PK可增加毛细血管血流量；能激活纤溶酶，降低血液黏度，改善血流变；促使肾髓质分泌前列腺素E2，改善组织灌注。临床用于治疗各种微循环障碍性疾病，如糖尿病引起的肾病、周围神经病变、视网膜病变。",
+          "start_idx": 0,
+          "end_idx": 134,
+          "entities": [
+            {
+              "entity_id": "T215",
+              "entity": "胰激肽原酶(pancreatic kzllidinogenase，PK)",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T216",
+              "entity": "PK",
+              "entity_type": "Drug",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T217",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T218",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 118,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T219",
+              "entity": "周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T220",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 128,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T221",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 118,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T222",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 121,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T223",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 128,
+              "end_idx": 131
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T218"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T222",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T220"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "国外研究提示，PK可以抑制血管增生，有利于控制糖尿病患者视网膜病变。",
+          "start_idx": 134,
+          "end_idx": 168,
+          "entities": [
+            {
+              "entity_id": "T224",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T225",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T226",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T224"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "PK在国内具有多年的临床使用经验，但尚需长期大样本及高质量的随机对照研究对其疗效和安全性验证。",
+          "start_idx": 168,
+          "end_idx": 215,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "翟所迪等进行的系统性评价结果提示，PK对糖尿病视网膜病变和糖尿病肾病有一定的疗效。",
+          "start_idx": 215,
+          "end_idx": 256,
+          "entities": [
+            {
+              "entity_id": "T227",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T228",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T229",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T230",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 32,
+              "end_idx": 33
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T228",
+              "tail_entity_id": "T227"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T230",
+              "tail_entity_id": "T229"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "(2)前列地尔：即前列腺素E1(prostaglandin1，PGE1)，增加血管平滑肌细胞内环磷酸腺苷(cyclic adenosine monophosphate，cAMP)含量，舒张血管平滑肌，发挥强大的扩血管作用，尤其对阻塞部位的血管作用显著。通过降低血液黏度，改善红细胞变形能力从而改善微循环。临床上用于治疗慢性动脉闭塞症引起的四肢溃疡及微小血管循环障碍引起的四肢静息疼痛。荟萃分析显示，PGE1可以缓解疼痛，增加无痛行走距离(pain-free walking distance，PFWD)和最大行走距离(maximum walking distance，MWD)且效果持续，促进溃疡愈合，降低截肢率。对于糖尿病神经病变的患者，荟萃分析结果显示，PGE1联合甲钴胺对糖尿病周围神经病变症状和体征改善的总有效率和对平均运动神经传导速度(motor nerve conduction velocity，MNCV)的改善优于单用甲钴胺。对于糖尿病合并肾功能不全的患者，荟萃分析结果显示，PGE1联合常规治疗，可显著降低尿白蛋白排出率(urinary albumin excretion rate，UAER)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)前列地尔：即前列腺素E1(prostaglandin1，PGE1)，增加血管平滑肌细胞内环磷酸腺苷(cyclic adenosine monophosphate，cAMP)含量，舒张血管平滑肌，发挥强大的扩血管作用，尤其对阻塞部位的血管作用显著。通过降低血液黏度，改善红细胞变形能力从而改善微循环。临床上用于治疗慢性动脉闭塞症引起的四肢溃疡及微小血管循环障碍引起的四肢静息疼痛。荟萃分析显示，PGE1可以缓解疼痛，增加无痛行走距离(pain-free walking distance，PFWD)和最大行走距离(maximum walking distance，MWD)且效果持续，促进溃疡愈合，降低截肢率。对于糖尿病神经病变的患者，荟萃分析结果显示，PGE1联合甲钴胺对糖尿病周围神经病变症状和体征改善的总有效率和对平均运动神经传导速度(motor nerve conduction velocity，MNCV)的改善优于单用甲钴胺。对于糖尿病合并肾功能不全的患者，荟萃分析结果显示，PGE1联合常规治疗，可显著降低尿白蛋白排出率(urinary albumin excretion rate，UAER)。",
+          "start_idx": 0,
+          "end_idx": 507,
+          "entities": [
+            {
+              "entity_id": "T231",
+              "entity": "前列地尔",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T232",
+              "entity": "前列腺素E1(prostaglandin1，PGE1)",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T233",
+              "entity": "慢性动脉闭塞症",
+              "entity_type": "Disease",
+              "start_idx": 159,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T234",
+              "entity": "四肢溃疡",
+              "entity_type": "Symptom",
+              "start_idx": 169,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T235",
+              "entity": "微小血管循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 174,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T236",
+              "entity": "四肢静息疼痛",
+              "entity_type": "Symptom",
+              "start_idx": 185,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T237",
+              "entity": "糖尿病神经病变",
+              "entity_type": "Disease",
+              "start_idx": 309,
+              "end_idx": 316
+            },
+            {
+              "entity_id": "T238",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 312,
+              "end_idx": 314
+            },
+            {
+              "entity_id": "T239",
+              "entity": "PGE1",
+              "entity_type": "Drug",
+              "start_idx": 329,
+              "end_idx": 333
+            },
+            {
+              "entity_id": "T240",
+              "entity": "甲钴胺",
+              "entity_type": "Drug",
+              "start_idx": 335,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T241",
+              "entity": "糖尿病周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 339,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T242",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 344,
+              "end_idx": 346
+            },
+            {
+              "entity_id": "T243",
+              "entity": "甲钴胺",
+              "entity_type": "Drug",
+              "start_idx": 417,
+              "end_idx": 420
+            },
+            {
+              "entity_id": "T244",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 423,
+              "end_idx": 426
+            },
+            {
+              "entity_id": "T245",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 428,
+              "end_idx": 433
+            },
+            {
+              "entity_id": "T246",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 428,
+              "end_idx": 429
+            },
+            {
+              "entity_id": "T247",
+              "entity": "PGE1",
+              "entity_type": "Drug",
+              "start_idx": 446,
+              "end_idx": 450
+            },
+            {
+              "entity_id": "T248",
+              "entity": "尿白蛋白排出率(urinary albumin excretion rate，UAER)",
+              "entity_type": "Test_items",
+              "start_idx": 462,
+              "end_idx": 506
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T236",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R128",
+              "head_entity_id": "T238",
+              "tail_entity_id": "T237"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R129",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R130",
+              "head_entity_id": "T240",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R131",
+              "head_entity_id": "T242",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R132",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T248",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R134",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T245"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R135",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T245"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R136",
+              "head_entity_id": "T248",
+              "tail_entity_id": "T245"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "(3)贝前列素钠：通过作用于血小板和血管平滑肌的前列环素受体，发挥抗血小板和扩张血管作用，从而改善微循环。临床上用于改善慢性动脉闭塞性疾病引起的溃疡、间歇性跛行、疼痛和冷感等症状。一项多中心、随机、双盲、对照研究显示，贝前列素钠治疗3~6个月可以显著改善间歇性跛行患者的PFWD和MWD。另一项随机双盲对照研究证实，慢性糖尿病足溃疡患者接受6周贝前列素钠治疗后，中位创面愈合率较安慰剂组显著提高。中国一项随机对照研究结果显示，前列地尔和前列地尔-贝前列素钠序贯治疗糖尿病肾病患者，均能显著降低尿微量白蛋白及尿总蛋白水平。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)贝前列素钠：通过作用于血小板和血管平滑肌的前列环素受体，发挥抗血小板和扩张血管作用，从而改善微循环。临床上用于改善慢性动脉闭塞性疾病引起的溃疡、间歇性跛行、疼痛和冷感等症状。一项多中心、随机、双盲、对照研究显示，贝前列素钠治疗3~6个月可以显著改善间歇性跛行患者的PFWD和MWD。另一项随机双盲对照研究证实，慢性糖尿病足溃疡患者接受6周贝前列素钠治疗后，中位创面愈合率较安慰剂组显著提高。中国一项随机对照研究结果显示，前列地尔和前列地尔-贝前列素钠序贯治疗糖尿病肾病患者，均能显著降低尿微量白蛋白及尿总蛋白水平。",
+          "start_idx": 0,
+          "end_idx": 260,
+          "entities": [
+            {
+              "entity_id": "T249",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T250",
+              "entity": "慢性动脉闭塞性疾病",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T251",
+              "entity": "溃疡",
+              "entity_type": "Symptom",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T252",
+              "entity": "间歇性跛行",
+              "entity_type": "Symptom",
+              "start_idx": 75,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T253",
+              "entity": "疼痛",
+              "entity_type": "Symptom",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T254",
+              "entity": "冷感",
+              "entity_type": "Symptom",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T255",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 109,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T256",
+              "entity": "3~6个月",
+              "entity_type": "Duration",
+              "start_idx": 116,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T257",
+              "entity": "间歇性跛行",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T258",
+              "entity": "慢性糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 158,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T259",
+              "entity": "足溃疡",
+              "entity_type": "Symptom",
+              "start_idx": 163,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T260",
+              "entity": "6周",
+              "entity_type": "Duration",
+              "start_idx": 170,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T261",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 172,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T262",
+              "entity": "前列地尔",
+              "entity_type": "Drug",
+              "start_idx": 213,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T263",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 232,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T264",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 235,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T265",
+              "entity": "微量白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 247,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T266",
+              "entity": "尿总蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 253,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T267",
+              "entity": "前列地尔",
+              "entity_type": "Drug",
+              "start_idx": 218,
+              "end_idx": 222
+            },
+            {
+              "entity_id": "T268",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 223,
+              "end_idx": 228
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R137",
+              "head_entity_id": "T251",
+              "tail_entity_id": "T250"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R138",
+              "head_entity_id": "T252",
+              "tail_entity_id": "T250"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R139",
+              "head_entity_id": "T253",
+              "tail_entity_id": "T250"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R140",
+              "head_entity_id": "T254",
+              "tail_entity_id": "T250"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R141",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T257"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R142",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T255"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R143",
+              "head_entity_id": "T259",
+              "tail_entity_id": "T258"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R144",
+              "head_entity_id": "T261",
+              "tail_entity_id": "T258"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R145",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T261"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R146",
+              "head_entity_id": "T262",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R147",
+              "head_entity_id": "T264",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R148",
+              "head_entity_id": "T265",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R149",
+              "head_entity_id": "T266",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R150",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R151",
+              "head_entity_id": "T268",
+              "tail_entity_id": "T263"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "其他血管扩张药，如尼莫地平、桂哌齐特等钙离子通道阻滞剂，也可改善微血管痉挛和纠正缺血。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "其他血管扩张药，如尼莫地平、桂哌齐特等钙离子通道阻滞剂，也可改善微血管痉挛和纠正缺血。",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T269",
+              "entity": "尼莫地平",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T270",
+              "entity": "桂哌齐特",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T271",
+              "entity": "钙离子通道阻滞剂",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "4.2.2 影响血液流变学的药物",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2.2 影响血液流变学的药物",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "(1)不同类型的抗血小板药：抗血小板的药物甚多，其主要作用是抑制血小板功能。氯吡格雷和噻氯匹定等药物是一类抑制二磷酸腺苷介导的血小板活化的新型抗血小板药。盐酸沙格雷酯是5-羟色胺2(5-hydroxytryptamine 2，5-HT2)受体拮抗剂，对血小板以及对血管平滑肌的5-HT2受体具有特异性拮抗作用，从而抑制5-HT2受体介导的血小板凝聚、抑制血管收缩和平滑肌细胞增殖，改善红细胞的变形能力，改善侧支循环，升高慢性动脉闭塞症患者的经皮氧分压以皮肤表面温度，改善微循环障碍。盐酸沙格雷酯可改善包括糖尿病周围血管病变引起的疼痛、冷感、溃疡等多种症状。一项随机对照研究显示，盐酸沙格雷酯治疗能有效增加糖尿病下肢血管病变患者MWD和PFWD，部分改善足背动脉和胫后动脉的流速、阻力指数和踝肱指数(ankle brachial index，ABI)。一项纳入了9个随机对照研究的荟萃分析结果显示，盐酸沙格雷酯治疗下肢血管病变，能减小患者溃疡面积，增加ABI、足背动脉血流量和PFWD。另一项研究显示，盐酸沙雷酯可降低早期糖尿病肾病患者蛋白尿，延缓肾病发展。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)不同类型的抗血小板药：抗血小板的药物甚多，其主要作用是抑制血小板功能。氯吡格雷和噻氯匹定等药物是一类抑制二磷酸腺苷介导的血小板活化的新型抗血小板药。盐酸沙格雷酯是5-羟色胺2(5-hydroxytryptamine 2，5-HT2)受体拮抗剂，对血小板以及对血管平滑肌的5-HT2受体具有特异性拮抗作用，从而抑制5-HT2受体介导的血小板凝聚、抑制血管收缩和平滑肌细胞增殖，改善红细胞的变形能力，改善侧支循环，升高慢性动脉闭塞症患者的经皮氧分压以皮肤表面温度，改善微循环障碍。盐酸沙格雷酯可改善包括糖尿病周围血管病变引起的疼痛、冷感、溃疡等多种症状。一项随机对照研究显示，盐酸沙格雷酯治疗能有效增加糖尿病下肢血管病变患者MWD和PFWD，部分改善足背动脉和胫后动脉的流速、阻力指数和踝肱指数(ankle brachial index，ABI)。一项纳入了9个随机对照研究的荟萃分析结果显示，盐酸沙格雷酯治疗下肢血管病变，能减小患者溃疡面积，增加ABI、足背动脉血流量和PFWD。另一项研究显示，盐酸沙雷酯可降低早期糖尿病肾病患者蛋白尿，延缓肾病发展。",
+          "start_idx": 0,
+          "end_idx": 478,
+          "entities": [
+            {
+              "entity_id": "T272",
+              "entity": "氯吡格雷",
+              "entity_type": "Drug",
+              "start_idx": 38,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T273",
+              "entity": "噻氯匹定",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T274",
+              "entity": "盐酸沙格雷酯",
+              "entity_type": "Drug",
+              "start_idx": 77,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T275",
+              "entity": "5-羟色胺2(5-hydroxytryptamine 2，5-HT2)受体拮抗剂",
+              "entity_type": "Drug",
+              "start_idx": 84,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T276",
+              "entity": "慢性动脉闭塞症",
+              "entity_type": "Disease",
+              "start_idx": 210,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T277",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 235,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T278",
+              "entity": "动脉",
+              "entity_type": "Anatomy",
+              "start_idx": 212,
+              "end_idx": 214
+            },
+            {
+              "entity_id": "T279",
+              "entity": "盐酸沙格雷酯",
+              "entity_type": "Drug",
+              "start_idx": 241,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T280",
+              "entity": "糖尿病周围血管病",
+              "entity_type": "Disease",
+              "start_idx": 252,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T281",
+              "entity": "周围血管",
+              "entity_type": "Anatomy",
+              "start_idx": 255,
+              "end_idx": 259
+            },
+            {
+              "entity_id": "T282",
+              "entity": "疼痛",
+              "entity_type": "Symptom",
+              "start_idx": 264,
+              "end_idx": 266
+            },
+            {
+              "entity_id": "T283",
+              "entity": "冷感",
+              "entity_type": "Symptom",
+              "start_idx": 267,
+              "end_idx": 269
+            },
+            {
+              "entity_id": "T284",
+              "entity": "溃疡",
+              "entity_type": "Symptom",
+              "start_idx": 270,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T285",
+              "entity": "盐酸沙格雷酯",
+              "entity_type": "Drug",
+              "start_idx": 289,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T286",
+              "entity": "糖尿病下肢血管病变",
+              "entity_type": "Disease",
+              "start_idx": 302,
+              "end_idx": 311
+            },
+            {
+              "entity_id": "T287",
+              "entity": "下肢血管",
+              "entity_type": "Anatomy",
+              "start_idx": 305,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T288",
+              "entity": "盐酸沙格雷酯",
+              "entity_type": "Drug",
+              "start_idx": 398,
+              "end_idx": 404
+            },
+            {
+              "entity_id": "T289",
+              "entity": "下肢血管病变",
+              "entity_type": "Disease",
+              "start_idx": 406,
+              "end_idx": 412
+            },
+            {
+              "entity_id": "T290",
+              "entity": "下肢血管",
+              "entity_type": "Anatomy",
+              "start_idx": 406,
+              "end_idx": 410
+            },
+            {
+              "entity_id": "T291",
+              "entity": "盐酸沙雷酯",
+              "entity_type": "Drug",
+              "start_idx": 450,
+              "end_idx": 455
+            },
+            {
+              "entity_id": "T292",
+              "entity": "早期",
+              "entity_type": "Class",
+              "start_idx": 458,
+              "end_idx": 460
+            },
+            {
+              "entity_id": "T293",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 460,
+              "end_idx": 465
+            },
+            {
+              "entity_id": "T294",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 463,
+              "end_idx": 464
+            },
+            {
+              "entity_id": "T295",
+              "entity": "蛋白尿",
+              "entity_type": "Symptom",
+              "start_idx": 467,
+              "end_idx": 470
+            },
+            {
+              "entity_id": "T296",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 473,
+              "end_idx": 475
+            },
+            {
+              "entity_id": "T297",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 473,
+              "end_idx": 474
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R152",
+              "head_entity_id": "T274",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R153",
+              "head_entity_id": "T275",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R154",
+              "head_entity_id": "T278",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R155",
+              "head_entity_id": "T279",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R156",
+              "head_entity_id": "T281",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R157",
+              "head_entity_id": "T282",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R158",
+              "head_entity_id": "T283",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R159",
+              "head_entity_id": "T284",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R160",
+              "head_entity_id": "T285",
+              "tail_entity_id": "T286"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R161",
+              "head_entity_id": "T287",
+              "tail_entity_id": "T286"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R162",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T289"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R163",
+              "head_entity_id": "T290",
+              "tail_entity_id": "T289"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R164",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R165",
+              "head_entity_id": "T292",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R166",
+              "head_entity_id": "T294",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R167",
+              "head_entity_id": "T295",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R168",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T296"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "其他抗血小板药包括阿司匹林、双嘧达莫(潘生丁)和西洛他唑等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "其他抗血小板药包括阿司匹林、双嘧达莫(潘生丁)和西洛他唑等。",
+          "start_idx": 0,
+          "end_idx": 30,
+          "entities": [
+            {
+              "entity_id": "T298",
+              "entity": "阿司匹林",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T299",
+              "entity": "双嘧达莫(潘生丁)",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T300",
+              "entity": "西洛他唑",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(2)抗凝血药：包括抗凝血因子、抗血小板因子及新型的Xa因子和Ⅱa抑制剂。抗凝血因子又分为非肠道用药及肠道用药，临床常用的肝素(多用低分子肝素)为非肠道用药。新型抗凝血药指新研发上市的口服Xa因子和Ⅱa直接抑制剂，前者包括阿哌沙班、利伐沙班、依度沙班等，后者有达比加群。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)抗凝血药：包括抗凝血因子、抗血小板因子及新型的Xa因子和Ⅱa抑制剂。抗凝血因子又分为非肠道用药及肠道用药，临床常用的肝素(多用低分子肝素)为非肠道用药。新型抗凝血药指新研发上市的口服Xa因子和Ⅱa直接抑制剂，前者包括阿哌沙班、利伐沙班、依度沙班等，后者有达比加群。",
+          "start_idx": 0,
+          "end_idx": 135,
+          "entities": [
+            {
+              "entity_id": "T301",
+              "entity": "抗凝血因子",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T302",
+              "entity": "抗血小板因子",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T303",
+              "entity": "新型的Xa因子和Ⅱa抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T304",
+              "entity": "抗凝血因子",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T305",
+              "entity": "肝素(多用低分子肝素)",
+              "entity_type": "Drug",
+              "start_idx": 61,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T306",
+              "entity": "Xa因子和Ⅱa直接抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 94,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T307",
+              "entity": "阿哌沙班",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T308",
+              "entity": "利伐沙班",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T309",
+              "entity": "依度沙班",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T310",
+              "entity": "达比加群",
+              "entity_type": "Drug",
+              "start_idx": 130,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T311",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 92,
+              "end_idx": 94
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R169",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T306"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "(3)促纤溶药：蚓激酶是从露天红赤子爱胜蚓中提取的一种含有纤维蛋白溶酶和纤维蛋白溶酶原激活剂的混合物，可用于缺血性心脑血管疾病和糖尿病性周围血管闭塞症。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)促纤溶药：蚓激酶是从露天红赤子爱胜蚓中提取的一种含有纤维蛋白溶酶和纤维蛋白溶酶原激活剂的混合物，可用于缺血性心脑血管疾病和糖尿病性周围血管闭塞症。",
+          "start_idx": 0,
+          "end_idx": 76,
+          "entities": [
+            {
+              "entity_id": "T312",
+              "entity": "蚓激酶",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T313",
+              "entity": "缺血性心脑血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T314",
+              "entity": "糖尿病性周围血管闭塞症",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T315",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 57,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T316",
+              "entity": "周围血管",
+              "entity_type": "Anatomy",
+              "start_idx": 68,
+              "end_idx": 72
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R170",
+              "head_entity_id": "T315",
+              "tail_entity_id": "T313"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R171",
+              "head_entity_id": "T316",
+              "tail_entity_id": "T314"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "4.2.3 保护血管内皮的药物",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2.3 保护血管内皮的药物",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "(1)血管保护药：①羟苯磺酸钙通过抗氧化应激作用，减轻炎症改善血管内皮功能紊乱，减轻微血管渗漏，改善微循环；减少血管内皮生长因子(vascular endothelial growth factor，VEGF)与受体结合，抑制新生血管生成。临床用于治疗糖尿病视网膜病变及糖尿病肾病。一项多中心、随机双盲对照研究证实，伴有早期视网膜病变的2型糖尿病患者使用羟苯磺酸钙治疗24个月，后玻璃体穿透率(posterior vitreous penetration ratio，PVPR)较基线进行性降低(降幅13.2%)，且不同血糖控制水平的亚组中PVPR均有显著改善，微动脉瘤及出血进展平均值均显著低于安慰剂组。一项纳入221项研究的荟萃分析显示，羟苯磺酸钙可显著改善非增殖期视网膜病变患者微动脉瘤、眼底渗出和眼底出血。对于较晚期的视网膜病变患者，羟苯磺酸钙可作为激光治疗的辅助手段，进一步提高激光治疗疗效。中国一项随机临床试验也显示，较单纯视网膜激光治疗组，羟苯磺酸钙联合视网膜激光治疗组能更明显减少糖尿病患者的黄斑中心凹厚度。一项针对糖尿病肾脏病变的观察性研究显示，羟苯磺酸治疗3个月可使90%的糖尿病肾脏病患者微量蛋白尿下降至正常。②递法明主要成分为欧洲越橘的花青苷和β-胡萝卜素。花青苷被认为具有抗氧化、抗炎、抗渗出和抗出血的作用，促进视网膜对光线强度化的敏感性，改善视力、暗适应和视网膜的血液供应，因而能够保护血管、改善微循环。在欧洲，用于临床治疗视网膜病变已多年。中国一项察性研究结果显示，递法明组的单纯型糖尿病网膜病变患者改善情况优于常规组(P<0.05)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)血管保护药：①羟苯磺酸钙通过抗氧化应激作用，减轻炎症改善血管内皮功能紊乱，减轻微血管渗漏，改善微循环；减少血管内皮生长因子(vascular endothelial growth factor，VEGF)与受体结合，抑制新生血管生成。临床用于治疗糖尿病视网膜病变及糖尿病肾病。一项多中心、随机双盲对照研究证实，伴有早期视网膜病变的2型糖尿病患者使用羟苯磺酸钙治疗24个月，后玻璃体穿透率(posterior vitreous penetration ratio，PVPR)较基线进行性降低(降幅13.2%)，且不同血糖控制水平的亚组中PVPR均有显著改善，微动脉瘤及出血进展平均值均显著低于安慰剂组。一项纳入221项研究的荟萃分析显示，羟苯磺酸钙可显著改善非增殖期视网膜病变患者微动脉瘤、眼底渗出和眼底出血。对于较晚期的视网膜病变患者，羟苯磺酸钙可作为激光治疗的辅助手段，进一步提高激光治疗疗效。中国一项随机临床试验也显示，较单纯视网膜激光治疗组，羟苯磺酸钙联合视网膜激光治疗组能更明显减少糖尿病患者的黄斑中心凹厚度。一项针对糖尿病肾脏病变的观察性研究显示，羟苯磺酸治疗3个月可使90%的糖尿病肾脏病患者微量蛋白尿下降至正常。",
+          "start_idx": 0,
+          "end_idx": 516,
+          "entities": [
+            {
+              "entity_id": "T317",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T318",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 177,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T319",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 126,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T320",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 135,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T321",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 138,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T322",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 129,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T323",
+              "entity": "早期视网膜病变",
+              "entity_type": "Symptom",
+              "start_idx": 160,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T324",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 168,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T325",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 168,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T326",
+              "entity": "玻璃体穿透率(posterior vitreous penetration ratio，PVPR)",
+              "entity_type": "Test_items",
+              "start_idx": 190,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T327",
+              "entity": "进行性降低(降幅13.2%)",
+              "entity_type": "Test_Value",
+              "start_idx": 242,
+              "end_idx": 256
+            },
+            {
+              "entity_id": "T328",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 260,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T329",
+              "entity": "微动脉瘤",
+              "entity_type": "Disease",
+              "start_idx": 281,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T330",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 321,
+              "end_idx": 326
+            },
+            {
+              "entity_id": "T331",
+              "entity": "非增殖期",
+              "entity_type": "Class",
+              "start_idx": 331,
+              "end_idx": 335
+            },
+            {
+              "entity_id": "T332",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 335,
+              "end_idx": 340
+            },
+            {
+              "entity_id": "T333",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 335,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T334",
+              "entity": "微动脉瘤",
+              "entity_type": "Symptom",
+              "start_idx": 342,
+              "end_idx": 346
+            },
+            {
+              "entity_id": "T335",
+              "entity": "眼底渗出",
+              "entity_type": "Symptom",
+              "start_idx": 347,
+              "end_idx": 351
+            },
+            {
+              "entity_id": "T336",
+              "entity": "眼底出血",
+              "entity_type": "Symptom",
+              "start_idx": 352,
+              "end_idx": 356
+            },
+            {
+              "entity_id": "T337",
+              "entity": "晚期",
+              "entity_type": "Class",
+              "start_idx": 360,
+              "end_idx": 362
+            },
+            {
+              "entity_id": "T338",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 363,
+              "end_idx": 368
+            },
+            {
+              "entity_id": "T339",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 371,
+              "end_idx": 376
+            },
+            {
+              "entity_id": "T340",
+              "entity": "激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 379,
+              "end_idx": 383
+            },
+            {
+              "entity_id": "T341",
+              "entity": "激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 394,
+              "end_idx": 398
+            },
+            {
+              "entity_id": "T342",
+              "entity": "视网膜激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 418,
+              "end_idx": 425
+            },
+            {
+              "entity_id": "T343",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 427,
+              "end_idx": 432
+            },
+            {
+              "entity_id": "T344",
+              "entity": "视网膜激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 434,
+              "end_idx": 441
+            },
+            {
+              "entity_id": "T345",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 448,
+              "end_idx": 451
+            },
+            {
+              "entity_id": "T346",
+              "entity": "黄斑中心凹厚度",
+              "entity_type": "Test_items",
+              "start_idx": 454,
+              "end_idx": 461
+            },
+            {
+              "entity_id": "T347",
+              "entity": "糖尿病肾脏病变",
+              "entity_type": "Disease",
+              "start_idx": 466,
+              "end_idx": 473
+            },
+            {
+              "entity_id": "T348",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 469,
+              "end_idx": 471
+            },
+            {
+              "entity_id": "T349",
+              "entity": "羟苯磺酸",
+              "entity_type": "Drug",
+              "start_idx": 482,
+              "end_idx": 486
+            },
+            {
+              "entity_id": "T350",
+              "entity": "糖尿病肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 497,
+              "end_idx": 503
+            },
+            {
+              "entity_id": "T351",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 500,
+              "end_idx": 502
+            },
+            {
+              "entity_id": "T352",
+              "entity": "蛋白尿",
+              "entity_type": "Test_items",
+              "start_idx": 507,
+              "end_idx": 510
+            },
+            {
+              "entity_id": "T353",
+              "entity": "下降至正常",
+              "entity_type": "Test_Value",
+              "start_idx": 510,
+              "end_idx": 515
+            },
+            {
+              "entity_id": "T354",
+              "entity": "3个月",
+              "entity_type": "Duration",
+              "start_idx": 488,
+              "end_idx": 491
+            },
+            {
+              "entity_id": "T362",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 363,
+              "end_idx": 366
+            },
+            {
+              "entity_id": "T363",
+              "entity": "24个月",
+              "entity_type": "Duration",
+              "start_idx": 184,
+              "end_idx": 188
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R172",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R173",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R174",
+              "head_entity_id": "T318",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R175",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T318"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R176",
+              "head_entity_id": "T322",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R177",
+              "head_entity_id": "T321",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R178",
+              "head_entity_id": "T323",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R179",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R180",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R181",
+              "head_entity_id": "T328",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R182",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R183",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R184",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R185",
+              "head_entity_id": "T334",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R186",
+              "head_entity_id": "T335",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R187",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R188",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R189",
+              "head_entity_id": "T362",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R190",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R191",
+              "head_entity_id": "T340",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R192",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R193",
+              "head_entity_id": "T342",
+              "tail_entity_id": "T345"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R194",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T345"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R195",
+              "head_entity_id": "T346",
+              "tail_entity_id": "T345"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R196",
+              "head_entity_id": "T348",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R197",
+              "head_entity_id": "T349",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R198",
+              "head_entity_id": "T354",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R199",
+              "head_entity_id": "T351",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R200",
+              "head_entity_id": "T352",
+              "tail_entity_id": "T350"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "②递法明主要成分为欧洲越橘的花青苷和β-胡萝卜素。",
+          "start_idx": 516,
+          "end_idx": 541,
+          "entities": [
+            {
+              "entity_id": "T355",
+              "entity": "递法明",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "花青苷被认为具有抗氧化、抗炎、抗渗出和抗出血的作用，促进视网膜对光线强度化的敏感性，改善视力、暗适应和视网膜的血液供应，因而能够保护血管、改善微循环。",
+          "start_idx": 541,
+          "end_idx": 616,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "在欧洲，用于临床治疗视网膜病变已多年。",
+          "start_idx": 616,
+          "end_idx": 635,
+          "entities": [
+            {
+              "entity_id": "T356",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T357",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R201",
+              "head_entity_id": "T357",
+              "tail_entity_id": "T356"
+            }
+          ]
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "中国一项察性研究结果显示，递法明组的单纯型糖尿病网膜病变患者改善情况优于常规组(P<0.05)。",
+          "start_idx": 635,
+          "end_idx": 683,
+          "entities": [
+            {
+              "entity_id": "T358",
+              "entity": "递法明",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T359",
+              "entity": "单纯型",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T360",
+              "entity": "糖尿病网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T361",
+              "entity": "网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 24,
+              "end_idx": 26
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R202",
+              "head_entity_id": "T358",
+              "tail_entity_id": "T360"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R203",
+              "head_entity_id": "T359",
+              "tail_entity_id": "T360"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R204",
+              "head_entity_id": "T361",
+              "tail_entity_id": "T360"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "(2)抗血管内皮生长因子药：①雷珠单抗，临床上用于各种原因引起的黄斑水肿、视网膜新生血管、视网膜静脉阻塞、新生血管性青光眼等疾病。随机对照研究结果显示，雷珠单抗可显著降低糖尿病黄斑水肿患者硬性渗出区域。此外，存在黄斑水肿、黄斑变性、视网膜内囊肿、玻璃体严重增厚眼病的糖尿病患者使用雷珠单抗治疗可有效减轻黄斑变性。②贝伐单抗可用于治疗视网膜新生血管性疾病。一项随机对照研究结果显示，贝伐单抗联合视网膜光凝术治疗可显著降低高风险糖尿病视网膜病变患者的视敏度恶化程度，减少黄斑中心凹厚度及黄斑体积。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)抗血管内皮生长因子药：①雷珠单抗，临床上用于各种原因引起的黄斑水肿、视网膜新生血管、视网膜静脉阻塞、新生血管性青光眼等疾病。随机对照研究结果显示，雷珠单抗可显著降低糖尿病黄斑水肿患者硬性渗出区域。此外，存在黄斑水肿、黄斑变性、视网膜内囊肿、玻璃体严重增厚眼病的糖尿病患者使用雷珠单抗治疗可有效减轻黄斑变性。②贝伐单抗可用于治疗视网膜新生血管性疾病。一项随机对照研究结果显示，贝伐单抗联合视网膜光凝术治疗可显著降低高风险糖尿病视网膜病变患者的视敏度恶化程度，减少黄斑中心凹厚度及黄斑体积。",
+          "start_idx": 0,
+          "end_idx": 246,
+          "entities": [
+            {
+              "entity_id": "T364",
+              "entity": "雷珠单抗",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T365",
+              "entity": "黄斑水肿",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T366",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T367",
+              "entity": "视网膜新生血管",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T368",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T369",
+              "entity": "视网膜静脉阻塞",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T370",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T371",
+              "entity": "新生血管性青光眼",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T372",
+              "entity": "眼",
+              "entity_type": "Anatomy",
+              "start_idx": 60,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T373",
+              "entity": "雷珠单抗",
+              "entity_type": "Drug",
+              "start_idx": 76,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T374",
+              "entity": "黄斑水肿",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T375",
+              "entity": "糖尿病黄斑水肿",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T376",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 88,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T377",
+              "entity": "黄斑变性",
+              "entity_type": "Disease",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T378",
+              "entity": "视网膜内囊肿",
+              "entity_type": "Disease",
+              "start_idx": 116,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T379",
+              "entity": "玻璃体严重增厚眼病",
+              "entity_type": "Disease",
+              "start_idx": 123,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T380",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 133,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T381",
+              "entity": "雷珠单抗",
+              "entity_type": "Drug",
+              "start_idx": 140,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T382",
+              "entity": "黄斑变性",
+              "entity_type": "Disease",
+              "start_idx": 151,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T383",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 106,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T384",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 111,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T385",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 116,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T386",
+              "entity": "玻璃体",
+              "entity_type": "Anatomy",
+              "start_idx": 123,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T387",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 151,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T388",
+              "entity": "贝伐单抗",
+              "entity_type": "Drug",
+              "start_idx": 157,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T389",
+              "entity": "视网膜新生血管性疾病",
+              "entity_type": "Disease",
+              "start_idx": 166,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T390",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 166,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T391",
+              "entity": "贝伐单抗",
+              "entity_type": "Drug",
+              "start_idx": 190,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T392",
+              "entity": "视网膜光凝术治疗",
+              "entity_type": "Operation",
+              "start_idx": 196,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T393",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 212,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T394",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 215,
+              "end_idx": 218
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R205",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T365"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R206",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T367"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R207",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T369"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R208",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T371"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R209",
+              "head_entity_id": "T366",
+              "tail_entity_id": "T365"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R210",
+              "head_entity_id": "T368",
+              "tail_entity_id": "T367"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R211",
+              "head_entity_id": "T370",
+              "tail_entity_id": "T369"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R212",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T371"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R213",
+              "head_entity_id": "T373",
+              "tail_entity_id": "T375"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R214",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R215",
+              "head_entity_id": "T383",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R216",
+              "head_entity_id": "T376",
+              "tail_entity_id": "T375"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R217",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T377"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R218",
+              "head_entity_id": "T384",
+              "tail_entity_id": "T377"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R219",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T378"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R220",
+              "head_entity_id": "T385",
+              "tail_entity_id": "T378"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R221",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T379"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R222",
+              "head_entity_id": "T386",
+              "tail_entity_id": "T379"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R223",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T382"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R224",
+              "head_entity_id": "T387",
+              "tail_entity_id": "T382"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R225",
+              "head_entity_id": "T388",
+              "tail_entity_id": "T389"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R226",
+              "head_entity_id": "T390",
+              "tail_entity_id": "T389"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R227",
+              "head_entity_id": "T391",
+              "tail_entity_id": "T393"
+            },
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R228",
+              "head_entity_id": "T392",
+              "tail_entity_id": "T393"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R229",
+              "head_entity_id": "T394",
+              "tail_entity_id": "T393"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "4.2.4 中药制剂一些具有活血化瘀作用的植物药及中药制剂也常被用于糖尿病微循环障碍的治疗，如银杏叶制剂、复方丹参滴丸、三七制剂等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2.4 中药制剂一些具有活血化瘀作用的植物药及中药制剂也常被用于糖尿病微循环障碍的治疗，如银杏叶制剂、复方丹参滴丸、三七制剂等。",
+          "start_idx": 0,
+          "end_idx": 66,
+          "entities": [
+            {
+              "entity_id": "T395",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T396",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T397",
+              "entity": "银杏叶制剂",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T398",
+              "entity": "复方丹参滴丸",
+              "entity_type": "Drug",
+              "start_idx": 53,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T399",
+              "entity": "三七制剂",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 64
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R230",
+              "head_entity_id": "T397",
+              "tail_entity_id": "T395"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R231",
+              "head_entity_id": "T398",
+              "tail_entity_id": "T395"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R232",
+              "head_entity_id": "T399",
+              "tail_entity_id": "T395"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R233",
+              "head_entity_id": "T396",
+              "tail_entity_id": "T395"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "(1)银杏叶提取物片(EGb761)：该药的多成分之间具有协同作用，主要通过降低血液黏度来改善血液流变学，从而改善血液循环；清除自由基，抑制细胞膜发生脂质过氧化；拮抗血小板活化因子(platelet active factor，PAF)，从而抑制血小板聚集；促进突触重塑，保护神经细胞。临床上主要用于脑动脉硬化导致的脑功能障碍、糖尿病性视网病变以及周围血管病变导致的间歇性跛行。脑部、周围血流循环障碍：包括糖尿病引起的视网膜病变及神经障碍、老年黄斑变性、间歇性跛行症等。一项针对台湾地区居民的研究显示，银杏叶提取物片能够有效地改善2型糖尿病视网膜病变患者的视网膜毛细血管血流量，从而缓解糖尿病视网膜病变。系统性评价结果显示，在常规治疗基础上联合银杏叶提取物片可进一步降低糖尿病肾病患空腹血糖及尿白蛋白排泄率，改善患者血液流变学。国内的研究显示，银杏叶提取物片联合甲钴胺治疗糖尿病周围神经病变，可明显改善糖尿周围神经病变患者的临床症状及神经传导速度，总有效率(显效和有效)达到88.9%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)银杏叶提取物片(EGb761)：该药的多成分之间具有协同作用，主要通过降低血液黏度来改善血液流变学，从而改善血液循环；清除自由基，抑制细胞膜发生脂质过氧化；拮抗血小板活化因子(platelet active factor，PAF)，从而抑制血小板聚集；促进突触重塑，保护神经细胞。临床上主要用于脑动脉硬化导致的脑功能障碍、糖尿病性视网病变以及周围血管病变导致的间歇性跛行。脑部、周围血流循环障碍：包括糖尿病引起的视网膜病变及神经障碍、老年黄斑变性、间歇性跛行症等。一项针对台湾地区居民的研究显示，银杏叶提取物片能够有效地改善2型糖尿病视网膜病变患者的视网膜毛细血管血流量，从而缓解糖尿病视网膜病变。系统性评价结果显示，在常规治疗基础上联合银杏叶提取物片可进一步降低糖尿病肾病患空腹血糖及尿白蛋白排泄率，改善患者血液流变学。国内的研究显示，银杏叶提取物片联合甲钴胺治疗糖尿病周围神经病变，可明显改善糖尿周围神经病变患者的临床症状及神经传导速度，总有效率(显效和有效)达到88.9%。",
+          "start_idx": 0,
+          "end_idx": 443,
+          "entities": [
+            {
+              "entity_id": "T400",
+              "entity": "银杏叶提取物片(EGb761)",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T401",
+              "entity": "脑动脉硬化",
+              "entity_type": "Disease",
+              "start_idx": 150,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T402",
+              "entity": "脑功能障碍",
+              "entity_type": "Disease",
+              "start_idx": 158,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T403",
+              "entity": "糖尿病性视网病变",
+              "entity_type": "Disease",
+              "start_idx": 164,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T404",
+              "entity": "周围血管病变",
+              "entity_type": "Disease",
+              "start_idx": 174,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T405",
+              "entity": "间歇性跛行",
+              "entity_type": "Disease",
+              "start_idx": 183,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T406",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 203,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T407",
+              "entity": "神经障碍",
+              "entity_type": "Disease",
+              "start_idx": 215,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T408",
+              "entity": "老年黄斑变性",
+              "entity_type": "Disease",
+              "start_idx": 220,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T409",
+              "entity": "间歇性跛行症",
+              "entity_type": "Disease",
+              "start_idx": 227,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T410",
+              "entity": "2型糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 265,
+              "end_idx": 275
+            },
+            {
+              "entity_id": "T411",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 293,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T412",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 335,
+              "end_idx": 340
+            },
+            {
+              "entity_id": "T413",
+              "entity": "糖尿病周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 386,
+              "end_idx": 395
+            },
+            {
+              "entity_id": "T414",
+              "entity": "糖尿周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 401,
+              "end_idx": 409
+            },
+            {
+              "entity_id": "T415",
+              "entity": "脑动脉",
+              "entity_type": "Anatomy",
+              "start_idx": 150,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T416",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 158,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T417",
+              "entity": "视网",
+              "entity_type": "Anatomy",
+              "start_idx": 168,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T418",
+              "entity": "周围血管",
+              "entity_type": "Anatomy",
+              "start_idx": 174,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T419",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 209,
+              "end_idx": 214
+            },
+            {
+              "entity_id": "T420",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 209,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T421",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 215,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T422",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 222,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T423",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 270,
+              "end_idx": 273
+            },
+            {
+              "entity_id": "T424",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 296,
+              "end_idx": 299
+            },
+            {
+              "entity_id": "T425",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 338,
+              "end_idx": 339
+            },
+            {
+              "entity_id": "T426",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 389,
+              "end_idx": 393
+            },
+            {
+              "entity_id": "T427",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 403,
+              "end_idx": 407
+            },
+            {
+              "entity_id": "T428",
+              "entity": "银杏叶提取物片",
+              "entity_type": "Drug",
+              "start_idx": 251,
+              "end_idx": 258
+            },
+            {
+              "entity_id": "T429",
+              "entity": "银杏叶提取物片",
+              "entity_type": "Drug",
+              "start_idx": 322,
+              "end_idx": 329
+            },
+            {
+              "entity_id": "T430",
+              "entity": "银杏叶提取物片",
+              "entity_type": "Drug",
+              "start_idx": 372,
+              "end_idx": 379
+            },
+            {
+              "entity_id": "T431",
+              "entity": "甲钴胺",
+              "entity_type": "Drug",
+              "start_idx": 381,
+              "end_idx": 384
+            },
+            {
+              "entity_id": "T432",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 341,
+              "end_idx": 345
+            },
+            {
+              "entity_id": "T433",
+              "entity": "尿白蛋白排泄率",
+              "entity_type": "Test_items",
+              "start_idx": 346,
+              "end_idx": 353
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R234",
+              "head_entity_id": "T415",
+              "tail_entity_id": "T401"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R235",
+              "head_entity_id": "T416",
+              "tail_entity_id": "T402"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R236",
+              "head_entity_id": "T417",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R237",
+              "head_entity_id": "T418",
+              "tail_entity_id": "T404"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R238",
+              "head_entity_id": "T421",
+              "tail_entity_id": "T407"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R239",
+              "head_entity_id": "T422",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R240",
+              "head_entity_id": "T423",
+              "tail_entity_id": "T410"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R241",
+              "head_entity_id": "T428",
+              "tail_entity_id": "T410"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R242",
+              "head_entity_id": "T424",
+              "tail_entity_id": "T411"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R243",
+              "head_entity_id": "T425",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R244",
+              "head_entity_id": "T432",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R245",
+              "head_entity_id": "T433",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R246",
+              "head_entity_id": "T429",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R247",
+              "head_entity_id": "T426",
+              "tail_entity_id": "T413"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R248",
+              "head_entity_id": "T431",
+              "tail_entity_id": "T413"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R249",
+              "head_entity_id": "T430",
+              "tail_entity_id": "T413"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R250",
+              "head_entity_id": "T427",
+              "tail_entity_id": "T414"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R251",
+              "head_entity_id": "T420",
+              "tail_entity_id": "T419"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "(2)复方丹参滴丸：由丹参、三七、冰片等药物组成，其中丹参的有效成分为水溶性丹参素，可提高机体抗凝和纤溶活性，抑制血小板聚集和释放前列环素类物质，抗凝血和抑制血栓形成；阻断羟自由基的产生，阻止脂质过氧化，是一种有效的氧自由基清除剂，临床上用于糖尿病肾病、视网病变和神经病变的治疗。一项纳入19个研究的荟萃分析结果显示，在常规治疗的基础上加用复方丹参滴丸，可显著减少24h尿蛋白总量，但是对血肌肝和血糖无影响。在中国疗非增殖性糖尿病视网膜病变患者中进行的一项随机对照研究，24周时眼底荧光血管造影及眼底检查结果均显示，高剂量和中剂量复方丹参滴丸组的有效的患者比例显著高于安慰剂组，且无临床不良事件发生。此外，复方丹参滴丸可以改善血瘀型糖尿病周围神经病变的血瘀症状，提高周围神经传导速度包括尺神经、腓总神经、腓肠神经和胫后神经的运动传导速度和感觉传导速度，有治疗和延缓其发展的作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)复方丹参滴丸：由丹参、三七、冰片等药物组成，其中丹参的有效成分为水溶性丹参素，可提高机体抗凝和纤溶活性，抑制血小板聚集和释放前列环素类物质，抗凝血和抑制血栓形成；阻断羟自由基的产生，阻止脂质过氧化，是一种有效的氧自由基清除剂，临床上用于糖尿病肾病、视网病变和神经病变的治疗。一项纳入19个研究的荟萃分析结果显示，在常规治疗的基础上加用复方丹参滴丸，可显著减少24h尿蛋白总量，但是对血肌肝和血糖无影响。在中国疗非增殖性糖尿病视网膜病变患者中进行的一项随机对照研究，24周时眼底荧光血管造影及眼底检查结果均显示，高剂量和中剂量复方丹参滴丸组的有效的患者比例显著高于安慰剂组，且无临床不良事件发生。此外，复方丹参滴丸可以改善血瘀型糖尿病周围神经病变的血瘀症状，提高周围神经传导速度包括尺神经、腓总神经、腓肠神经和胫后神经的运动传导速度和感觉传导速度，有治疗和延缓其发展的作用。",
+          "start_idx": 0,
+          "end_idx": 389,
+          "entities": [
+            {
+              "entity_id": "T434",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T435",
+              "entity": "视网病变",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T436",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T437",
+              "entity": "非增殖性糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 208,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T438",
+              "entity": "血瘀型糖尿病周围神经病变",
+              "entity_type": "Disease",
+              "start_idx": 313,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T439",
+              "entity": "复方丹参滴丸",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T440",
+              "entity": "复方丹参滴丸",
+              "entity_type": "Drug",
+              "start_idx": 170,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T441",
+              "entity": "24h尿蛋白总量",
+              "entity_type": "Test_items",
+              "start_idx": 182,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T442",
+              "entity": "血肌肝",
+              "entity_type": "Test_items",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T443",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 198,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T444",
+              "entity": "24周时眼底荧光血管造影",
+              "entity_type": "Test",
+              "start_idx": 235,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T445",
+              "entity": "眼底检查",
+              "entity_type": "Test",
+              "start_idx": 248,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T446",
+              "entity": "血瘀",
+              "entity_type": "Symptom",
+              "start_idx": 326,
+              "end_idx": 328
+            },
+            {
+              "entity_id": "T447",
+              "entity": "复方丹参滴丸",
+              "entity_type": "Drug",
+              "start_idx": 265,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T448",
+              "entity": "复方丹参滴丸",
+              "entity_type": "Drug",
+              "start_idx": 303,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T449",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 124,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T450",
+              "entity": "视网",
+              "entity_type": "Anatomy",
+              "start_idx": 127,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T451",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 132,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T452",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T453",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 319,
+              "end_idx": 323
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R252",
+              "head_entity_id": "T439",
+              "tail_entity_id": "T434"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R253",
+              "head_entity_id": "T449",
+              "tail_entity_id": "T434"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R254",
+              "head_entity_id": "T439",
+              "tail_entity_id": "T435"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R255",
+              "head_entity_id": "T450",
+              "tail_entity_id": "T435"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R256",
+              "head_entity_id": "T439",
+              "tail_entity_id": "T436"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R257",
+              "head_entity_id": "T451",
+              "tail_entity_id": "T436"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R258",
+              "head_entity_id": "T452",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R259",
+              "head_entity_id": "T444",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R260",
+              "head_entity_id": "T445",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R261",
+              "head_entity_id": "T448",
+              "tail_entity_id": "T438"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R262",
+              "head_entity_id": "T453",
+              "tail_entity_id": "T438"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R263",
+              "head_entity_id": "T446",
+              "tail_entity_id": "T438"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "其他中药提取物如血塞通注射液、丹红注射液和津力达颗粒等临床上也可用于治疗糖尿病微循环障碍疾病，但缺少长期大样本数据的支持。常用改善糖尿病微循环障碍药物的简要说明见表2和药品说明书。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "其他中药提取物如血塞通注射液、丹红注射液和津力达颗粒等临床上也可用于治疗糖尿病微循环障碍疾病，但缺少长期大样本数据的支持。常用改善糖尿病微循环障碍药物的简要说明见表2和药品说明书。",
+          "start_idx": 0,
+          "end_idx": 90,
+          "entities": [
+            {
+              "entity_id": "T454",
+              "entity": "血塞通注射液",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T455",
+              "entity": "丹红注射液",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T456",
+              "entity": "津力达颗粒",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T457",
+              "entity": "糖尿病微循环障碍疾病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T458",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T459",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 68,
+              "end_idx": 73
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R264",
+              "head_entity_id": "T454",
+              "tail_entity_id": "T457"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R265",
+              "head_entity_id": "T455",
+              "tail_entity_id": "T457"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R266",
+              "head_entity_id": "T456",
+              "tail_entity_id": "T457"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R267",
+              "head_entity_id": "T459",
+              "tail_entity_id": "T458"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "5 总结与展望",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5 总结与展望",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "本共识从微循环障碍在糖尿病慢性并发症发生中的机制入手，分析其临床表现及药物治疗原则，以期帮助临床医生提高对糖尿病患者微循环障碍的重视程度，在临床实践中实现早期识别、早期诊断、早期预防和治疗，改善糖尿病患者的预后。在我国，许多改善微循环障碍的药物仍缺乏足够的循证医学证据，今后仍需开展相关大型前瞻性临床研究，为糖尿病患者微循环障碍治疗的安全性、个体化用药提供更多的临床循证依据。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "本共识从微循环障碍在糖尿病慢性并发症发生中的机制入手，分析其临床表现及药物治疗原则，以期帮助临床医生提高对糖尿病患者微循环障碍的重视程度，在临床实践中实现早期识别、早期诊断、早期预防和治疗，改善糖尿病患者的预后。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T460",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T461",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T462",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T463",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T464",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 97,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R268",
+              "head_entity_id": "T460",
+              "tail_entity_id": "T461"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R269",
+              "head_entity_id": "T463",
+              "tail_entity_id": "T462"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在我国，许多改善微循环障碍的药物仍缺乏足够的循证医学证据，今后仍需开展相关大型前瞻性临床研究，为糖尿病患者微循环障碍治疗的安全性、个体化用药提供更多的临床循证依据。",
+          "start_idx": 106,
+          "end_idx": 188,
+          "entities": [
+            {
+              "entity_id": "T465",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T466",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T467",
+              "entity": "微循环障碍",
+              "entity_type": "Symptom",
+              "start_idx": 53,
+              "end_idx": 58
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R270",
+              "head_entity_id": "T467",
+              "tail_entity_id": "T466"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

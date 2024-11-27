@@ -1,0 +1,3354 @@
+{
+  "doc_id": "22",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "《基于肠促胰素的药物治疗临床应用的快速建议指南》",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "《基于肠促胰素的药物治疗临床应用的快速建议指南》",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "肠促胰素(incretin)是一种经食物刺激后由肠细胞分泌入血、能够刺激胰岛素分泌的激素。基于肠促胰素的治疗药物(incretin-based therapies，IBTs)通过与器官上的特异性受体结合，发挥类肠促胰素作用，从而达到降糖疗效。由于这类药物具有低血糖风险小和改善细胞功能等多方面的优势，逐渐在临床广泛使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "肠促胰素(incretin)是一种经食物刺激后由肠细胞分泌入血、能够刺激胰岛素分泌的激素。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "基于肠促胰素的治疗药物(incretin-based therapies，IBTs)通过与器官上的特异性受体结合，发挥类肠促胰素作用，从而达到降糖疗效。",
+          "start_idx": 45,
+          "end_idx": 121,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "由于这类药物具有低血糖风险小和改善细胞功能等多方面的优势，逐渐在临床广泛使用。",
+          "start_idx": 121,
+          "end_idx": 160,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "目前在国内已经上市了两种胰高血糖素样肽-1受体激动剂(Glucagon-likepeptide-1 receptoragonists，GLP-1RA)：包括艾塞那肽(Exenatide和利拉鲁肽(Liraglutide)，以及5种二肽基肽酶Ⅳ抑制剂(Dipeptidyl Peptidase- 4 inhibitor，DPP-4i)：包括西格列汀(Sitagliptin)、维格列汀(Vildagliptin)、沙格列汀(Saxagliptin)、利格列汀(Linagliptin)和阿格列汀(Alogliptin)(表1)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前在国内已经上市了两种胰高血糖素样肽-1受体激动剂(Glucagon-likepeptide-1 receptoragonists，GLP-1RA)：包括艾塞那肽(Exenatide和利拉鲁肽(Liraglutide)，以及5种二肽基肽酶Ⅳ抑制剂(Dipeptidyl Peptidase- 4 inhibitor，DPP-4i)：包括西格列汀(Sitagliptin)、维格列汀(Vildagliptin)、沙格列汀(Saxagliptin)、利格列汀(Linagliptin)和阿格列汀(Alogliptin)(表1)",
+          "start_idx": 0,
+          "end_idx": 262,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "胰高血糖素样肽-1受体激动剂(Glucagon-likepeptide-1 receptoragonists，GLP-1RA)",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T2",
+              "entity": "艾塞那肽(Exenatide",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T3",
+              "entity": "利拉鲁肽(Liraglutide)",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T4",
+              "entity": "二肽基肽酶Ⅳ抑制剂(Dipeptidyl Peptidase- 4 inhibitor，DPP-4i)",
+              "entity_type": "Drug",
+              "start_idx": 115,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T5",
+              "entity": "西格列汀(Sitagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T6",
+              "entity": "维格列汀(Vildagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 187,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T7",
+              "entity": "沙格列汀(Saxagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 206,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T8",
+              "entity": "利格列汀(Linagliptin)",
+              "entity_type": "Drug",
+              "start_idx": 224,
+              "end_idx": 241
+            },
+            {
+              "entity_id": "T9",
+              "entity": "阿格列汀(Alogliptin)",
+              "entity_type": "Drug",
+              "start_idx": 242,
+              "end_idx": 258
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "基于肠促胰素的治疗药物的出现为临床医生提供了更多选择，但它们的有效性、安全性和经济性究竟如何?基于肠促胰素的治疗药物在特殊人群(如老年患者)中使用有哪些注意事项?特别是这类药物在全球临床指南中地位变化迅速时，我们该如何评价、选择和应用?这些问题都有待于采用系统、科学的方法来回答。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基于肠促胰素的治疗药物的出现为临床医生提供了更多选择，但它们的有效性、安全性和经济性究竟如何?基于肠促胰素的治疗药物在特殊人群(如老年患者)中使用有哪些注意事项?特别是这类药物在全球临床指南中地位变化迅速时，我们该如何评价、选择和应用?这些问题都有待于采用系统、科学的方法来回答。",
+          "start_idx": 0,
+          "end_idx": 140,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "本指南采用GRADE(the Grading of Recommendation Assessment，Development and Evaluation)证据质量评价与推荐强度系统。证据量评价：A表示高质量，B表示中等质量，C表示低质量，D表示极低质量；推荐强度：1表示强推荐，2表示弱推荐，0表示无明确推荐意见。(见表2、3)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "本指南采用GRADE(the Grading of Recommendation Assessment，Development and Evaluation)证据质量评价与推荐强度系统。",
+          "start_idx": 0,
+          "end_idx": 93,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "证据量评价：A表示高质量，B表示中等质量，C表示低质量，D表示极低质量；推荐强度：1表示强推荐，2表示弱推荐，0表示无明确推荐意见。",
+          "start_idx": 93,
+          "end_idx": 159,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "(见表2、3)",
+          "start_idx": 159,
+          "end_idx": 166,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "临床问题1：DPP-4i是否可作为2型糖尿病患者的一线治疗选择之一?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题1：DPP-4i是否可作为2型糖尿病患者的一线治疗选择之一?",
+          "start_idx": 0,
+          "end_idx": 34,
+          "entities": [
+            {
+              "entity_id": "T10",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T11",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T12",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 17,
+              "end_idx": 19
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T11"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T11"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "推荐D PP-4i作为2型糖尿病患者的一线治疗选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐D PP-4i作为2型糖尿病患者的一线治疗选择之一。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T13",
+              "entity": "D PP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T14",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T15",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T14"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T14"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "二甲双胍被各国指南推荐作为2型糖尿病患者的一线治疗药物。在二甲双胍不耐受或存在使用禁忌等情况下，DPP-4i可以作为一线的替代治疗药物。DPP-4i的推荐剂量为说明书中规定的常规使用剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二甲双胍被各国指南推荐作为2型糖尿病患者的一线治疗药物。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T16",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T17",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T18",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T16",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在二甲双胍不耐受或存在使用禁忌等情况下，DPP-4i可以作为一线的替代治疗药物。",
+          "start_idx": 28,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T20",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 26
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "DPP-4i的推荐剂量为说明书中规定的常规使用剂量。",
+          "start_idx": 68,
+          "end_idx": 94,
+          "entities": [
+            {
+              "entity_id": "T21",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "临床问题2：在单药治疗血糖控制不佳情况下，DPP-4i是否可作为2型糖尿病患者的二线治疗选择之一? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题2：在单药治疗血糖控制不佳情况下，DPP-4i是否可作为2型糖尿病患者的二线治疗选择之一? ",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T22",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T23",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T24",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T25",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T26",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T22",
+              "tail_entity_id": "T24"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T23",
+              "tail_entity_id": "T24"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "推荐DPP-4i作为2型糖尿病患者的二线治疗之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐DPP-4i作为2型糖尿病患者的二线治疗之一。",
+          "start_idx": 0,
+          "end_idx": 25,
+          "entities": [
+            {
+              "entity_id": "T27",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T28",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T29",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T27",
+              "tail_entity_id": "T28"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T29",
+              "tail_entity_id": "T28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "当二甲双胍或者其他降糖药物单药治疗后，糖化血红蛋白水平仍未达标，则需联合另外一种降糖药治疗。推荐等级：1 证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "当二甲双胍或者其他降糖药物单药治疗后，糖化血红蛋白水平仍未达标，则需联合另外一种降糖药治疗。",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T31",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 19,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T32",
+              "entity": "未达标",
+              "entity_type": "Test_Value",
+              "start_idx": 28,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "推荐等级：1 证据级别：B",
+          "start_idx": 46,
+          "end_idx": 59,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "临床问题3：在二线治疗控制不佳情况下，DPP-4i是否可作为2型糖尿病患者的三线治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题3：在二线治疗控制不佳情况下，DPP-4i是否可作为2型糖尿病患者的三线治疗",
+          "start_idx": 0,
+          "end_idx": 42,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T34",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T35",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 30,
+              "end_idx": 32
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T33",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "选择之一?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "选择之一?",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "推荐意见推荐DPP-4i作为2型糖尿病患者的三线治疗选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见推荐DPP-4i作为2型糖尿病患者的三线治疗选择之一。",
+          "start_idx": 0,
+          "end_idx": 31,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T37",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T38",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T37"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "由于DPP-4i具有较好的有效性和安全性，在二线治疗时仍未使用DPP-4i治疗的患者，推荐DPP-4i作为2型糖尿病患者的三线治疗选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于DPP-4i具有较好的有效性和安全性，在二线治疗时仍未使用DPP-4i治疗的患者，推荐DPP-4i作为2型糖尿病患者的三线治疗选择之一。",
+          "start_idx": 0,
+          "end_idx": 70,
+          "entities": [
+            {
+              "entity_id": "T39",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T40",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T41",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 45,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T42",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T43",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 53,
+              "end_idx": 55
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T42"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T42"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "临床问题4：DPP-4i联合基础胰岛素是否可用于2型糖尿病患者的降糖治疗?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题4：DPP-4i联合基础胰岛素是否可用于2型糖尿病患者的降糖治疗?",
+          "start_idx": 0,
+          "end_idx": 37,
+          "entities": [
+            {
+              "entity_id": "T44",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T45",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T46",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T47",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 24,
+              "end_idx": 26
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T46"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T45",
+              "tail_entity_id": "T46"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T47",
+              "tail_entity_id": "T46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "推荐DPP-4i联合基础胰岛素用于2型糖尿病的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐DPP-4i联合基础胰岛素用于2型糖尿病的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T48",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T49",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T50",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T51",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 17,
+              "end_idx": 19
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "当使用基础胰岛素进行治疗，糖化血红蛋白控制不佳时，可添加DPP-4i进行联合治疗，并根据糖化血红蛋白水平，调整胰岛素的剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "当使用基础胰岛素进行治疗，糖化血红蛋白控制不佳时，可添加DPP-4i进行联合治疗，并根据糖化血红蛋白水平，调整胰岛素的剂量。",
+          "start_idx": 0,
+          "end_idx": 62,
+          "entities": [
+            {
+              "entity_id": "T52",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T53",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T54",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T55",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T56",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T57",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 58
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": " 证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": " 证据级别：B",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "临床问题5：DPP-4i是否可用于65岁以上的2型糖尿病患者的降糖治疗? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题5：DPP-4i是否可用于65岁以上的2型糖尿病患者的降糖治疗? ",
+          "start_idx": 0,
+          "end_idx": 37,
+          "entities": [
+            {
+              "entity_id": "T58",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T59",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T60",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 23,
+              "end_idx": 25
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "推荐DPP-4i用于65岁以上的2型糖尿病患者糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐DPP-4i用于65岁以上的2型糖尿病患者糖治疗。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [
+            {
+              "entity_id": "T61",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T62",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T63",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 16,
+              "end_idx": 18
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T61",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T62"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "由于老年患者常常合并多种并发疾病，DPP-4i具有良好的血糖控制效果和安全性，推荐DPP-4i用于老年2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于老年患者常常合并多种并发疾病，DPP-4i具有良好的血糖控制效果和安全性，推荐DPP-4i用于老年2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T64",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T65",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T66",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T67",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 51,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T68",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 51,
+              "end_idx": 53
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T67"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "推荐使用常规剂量进行治疗，除非伴有肝或肾功能不全，需根据说明书进行剂量调整。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐使用常规剂量进行治疗，除非伴有肝或肾功能不全，需根据说明书进行剂量调整。",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [
+            {
+              "entity_id": "T69",
+              "entity": "肝或肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T70",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 17,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T71",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T70",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T69"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "临床问题6：DPP-4i是否可用于超重/肥胖2型糖尿病患者的降糖治疗? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题6：DPP-4i是否可用于超重/肥胖2型糖尿病患者的降糖治疗? ",
+          "start_idx": 0,
+          "end_idx": 36,
+          "entities": [
+            {
+              "entity_id": "T72",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T73",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T74",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T75",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T76",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 22,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T75"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T75"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "推荐意见DPP-4i可用于超重/肥胖2型糖尿病患者的降疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见DPP-4i可用于超重/肥胖2型糖尿病患者的降疗。",
+          "start_idx": 0,
+          "end_idx": 29,
+          "entities": [
+            {
+              "entity_id": "T77",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T78",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T79",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T80",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T81",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T80"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T80"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "由于DPP-4i不影响患者的体重，故建议DPP-4i用于超重/肥胖2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于DPP-4i不影响患者的体重，故建议DPP-4i用于超重/肥胖2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T82",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T83",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T84",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T85",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T86",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T87",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T86"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T86"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "推荐等级：2 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：2 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "证据级别：C",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：C",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "临床问题7：DPP-4i是否可用于伴有心血管疾病或心血管事件风险的2型糖尿病患者的降糖治疗? 推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题7：DPP-4i是否可用于伴有心血管疾病或心血管事件风险的2型糖尿病患者的降糖治疗? 推荐意见",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T88",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T89",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T90",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T91",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T92",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T93",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T94",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 25,
+              "end_idx": 28
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T89"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T89"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T92"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "DPP-4i可用于伴有心血管疾病或心血管事件的2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4i可用于伴有心血管疾病或心血管事件的2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 36,
+          "entities": [
+            {
+              "entity_id": "T95",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T96",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T97",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T98",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T99",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T100",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T101",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 17,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "48",
+      "paragraph": "基于证据总结和专家意见，DPP-4i可用于血管疾病或心血管事件风险的2型糖尿病患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基于证据总结和专家意见，DPP-4i可用于血管疾病或心血管事件风险的2型糖尿病患者。",
+          "start_idx": 0,
+          "end_idx": 42,
+          "entities": [
+            {
+              "entity_id": "T102",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T103",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T104",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T105",
+              "entity": "血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T106",
+              "entity": "血管",
+              "entity_type": "Anatomy",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T107",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T108",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 26,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T107"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "49",
+      "paragraph": "推荐等级：2 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：2 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "50",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "51",
+      "paragraph": "临床问题8：复方制剂(DPP-4i和二甲双胍)是否可用于2型糖尿病患者的起始降糖治疗? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题8：复方制剂(DPP-4i和二甲双胍)是否可用于2型糖尿病患者的起始降糖治疗? ",
+          "start_idx": 0,
+          "end_idx": 44,
+          "entities": [
+            {
+              "entity_id": "T109",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T110",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T111",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T112",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 28,
+              "end_idx": 30
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T111"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T111"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "52",
+      "paragraph": "推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "53",
+      "paragraph": "推荐复方制剂(DPP-4i和二甲双胍)用于2型糖病患者的起始降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐复方制剂(DPP-4i和二甲双胍)用于2型糖病患者的起始降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T113",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T114",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T115",
+              "entity": "2型糖病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T116",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T115"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "54",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "55",
+      "paragraph": "对于HbA1c>7.5%的首次治疗患者，推荐使用复方制剂(DPP-4i和二甲双胍)进行起始治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于HbA1c>7.5%的首次治疗患者，推荐使用复方制剂(DPP-4i和二甲双胍)进行起始治疗。",
+          "start_idx": 0,
+          "end_idx": 48,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T118",
+              "entity": ">7.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T119",
+              "entity": "DPP-4i",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T120",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 40
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "56",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "57",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "58",
+      "paragraph": "临床问题9：在单药治疗血糖控制不佳情况下，GLP-1RA是否可作为2型糖尿病患者的二线治疗选择之一? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题9：在单药治疗血糖控制不佳情况下，GLP-1RA是否可作为2型糖尿病患者的二线治疗选择之一? ",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T121",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T122",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T123",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T124",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T125",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T124"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T123",
+              "tail_entity_id": "T124"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T124"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "59",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "60",
+      "paragraph": "推荐GLP—1RA作为2型糖尿病患者的二线治疗择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐GLP—1RA作为2型糖尿病患者的二线治疗择之一。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [
+            {
+              "entity_id": "T126",
+              "entity": "GLP—1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T127",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T128",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T127"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "61",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "62",
+      "paragraph": "由于GLP一1RA具有较好控制血糖和降低体重的作用，在单药治疗血糖控制不佳的情况，推荐GLP—1RA作为2型糖尿病患者的治疗选择。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于GLP一1RA具有较好控制血糖和降低体重的作用，在单药治疗血糖控制不佳的情况，推荐GLP—1RA作为2型糖尿病患者的治疗选择。",
+          "start_idx": 0,
+          "end_idx": 65,
+          "entities": [
+            {
+              "entity_id": "T129",
+              "entity": "GLP一1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T130",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T131",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T132",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 33,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T133",
+              "entity": "GLP—1RA",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T134",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T135",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 52,
+              "end_idx": 54
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "63",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "64",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "65",
+      "paragraph": "临床问题10：在二线治疗控制不佳情况下，GLP-1RA是否可作为2型糖尿病患者的三线治疗选择之一?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题10：在二线治疗控制不佳情况下，GLP-1RA是否可作为2型糖尿病患者的三线治疗选择之一?",
+          "start_idx": 0,
+          "end_idx": 49,
+          "entities": [
+            {
+              "entity_id": "T136",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T137",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T138",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 34
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T137"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "66",
+      "paragraph": "推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "67",
+      "paragraph": "推荐GLP一1RA作为2型糖尿病患者的三线治疗选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐GLP一1RA作为2型糖尿病患者的三线治疗选择之一。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T139",
+              "entity": "GLP一1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T140",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T141",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T140"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "68",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "69",
+      "paragraph": "由于GLP—1RA具有较好的血糖控制效果，在二线治疗时血糖仍控制不佳的患者，推荐GLP-1RA作为2型糖尿病患者的三线治疗选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于GLP—1RA具有较好的血糖控制效果，在二线治疗时血糖仍控制不佳的患者，推荐GLP-1RA作为2型糖尿病患者的三线治疗选择之一。",
+          "start_idx": 0,
+          "end_idx": 66,
+          "entities": [
+            {
+              "entity_id": "T142",
+              "entity": "GLP—1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T143",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T144",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T145",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T146",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 40,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T147",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T148",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 49,
+              "end_idx": 51
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T147"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T147"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "70",
+      "paragraph": "推荐等级：1 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：1 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "71",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "72",
+      "paragraph": "临床问题11：GLP-1RA联合基础胰岛素是否可用于2型糖尿病患者的降糖治疗?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题11：GLP-1RA联合基础胰岛素是否可用于2型糖尿病患者的降糖治疗?",
+          "start_idx": 0,
+          "end_idx": 39,
+          "entities": [
+            {
+              "entity_id": "T149",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T150",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T151",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T152",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 26,
+              "end_idx": 28
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T149",
+              "tail_entity_id": "T151"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T151"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T151"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "73",
+      "paragraph": "推荐意见推荐GLP一1RA联合基础胰岛素用于2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见推荐GLP一1RA联合基础胰岛素用于2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T153",
+              "entity": "GLP一1RA",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T154",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T155",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T156",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 22,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T153",
+              "tail_entity_id": "T155"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T154",
+              "tail_entity_id": "T155"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T155"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "74",
+      "paragraph": "推荐说明",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "75",
+      "paragraph": "当使用基础胰岛素进行治疗，糖化血红蛋白水平仍控制不佳时，可添GLP-1RA进行联合治疗并根据糖化血红蛋白水平，调整胰岛素的剂量。推荐等级：1",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "当使用基础胰岛素进行治疗，糖化血红蛋白水平仍控制不佳时，可添GLP-1RA进行联合治疗并根据糖化血红蛋白水平，调整胰岛素的剂量。",
+          "start_idx": 0,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T157",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T158",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T159",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T160",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 30,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T161",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T162",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 57,
+              "end_idx": 60
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "推荐等级：1",
+          "start_idx": 64,
+          "end_idx": 70,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "76",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "77",
+      "paragraph": "临床问题12：GLP-1RA是否可用于超重/肥胖2型糖尿病患者的降糖治疗? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题12：GLP-1RA是否可用于超重/肥胖2型糖尿病患者的降糖治疗? ",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [
+            {
+              "entity_id": "T163",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T164",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T165",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T166",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T167",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 24,
+              "end_idx": 26
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T166"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "78",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "79",
+      "paragraph": "建议GLP-1RA用于超重/fie胖2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议GLP-1RA用于超重/fie胖2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 31,
+          "entities": [
+            {
+              "entity_id": "T168",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T169",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T170",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T171",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T170"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "80",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "81",
+      "paragraph": "由于GLP-1RA可显著降低患者体重，对于超重/肥胖的2型糖尿病患者，建议GLP-1RA用于超重/肥胖患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于GLP-1RA可显著降低患者体重，对于超重/肥胖的2型糖尿病患者，建议GLP-1RA用于超重/肥胖患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 59,
+          "entities": [
+            {
+              "entity_id": "T172",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T173",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T174",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T175",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T176",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T177",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T178",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T179",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 51
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "82",
+      "paragraph": "推荐等级：2 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：2 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "83",
+      "paragraph": "证据级别：B",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：B",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "84",
+      "paragraph": "临床问题13：GLP-1RA是否可用于伴有非酒精性脂肪肝的2型糖尿病患者的降糖治疗? ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床问题13：GLP-1RA是否可用于伴有非酒精性脂肪肝的2型糖尿病患者的降糖治疗? ",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T180",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T181",
+              "entity": "非酒精性脂肪肝",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T182",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 27,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T183",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T184",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 29,
+              "end_idx": 31
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T183"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T181"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "85",
+      "paragraph": "推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "86",
+      "paragraph": "建议GLP-1RA用于伴有非酒精性脂肪肝2型糖尿病患者的降糖治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议GLP-1RA用于伴有非酒精性脂肪肝2型糖尿病患者的降糖治疗。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T186",
+              "entity": "非酒精性脂肪肝",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T187",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T188",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T189",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 20,
+              "end_idx": 22
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T185",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T187",
+              "tail_entity_id": "T186"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T189",
+              "tail_entity_id": "T188"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "87",
+      "paragraph": "推荐说明 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐说明 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "88",
+      "paragraph": "对于伴有非酒精性脂肪肝的2型糖尿病患者GLP-1RA可降低BMI和ALT水平，建议使用GLP-1RA进行治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于伴有非酒精性脂肪肝的2型糖尿病患者GLP-1RA可降低BMI和ALT水平，建议使用GLP-1RA进行治疗。",
+          "start_idx": 0,
+          "end_idx": 55,
+          "entities": [
+            {
+              "entity_id": "T190",
+              "entity": "非酒精性脂肪肝",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T191",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T192",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T193",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T194",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T195",
+              "entity": "ALT",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T196",
+              "entity": "GLP-1RA",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 50
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T192"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T192"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T192"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "89",
+      "paragraph": "推荐等级：2 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "推荐等级：2 ",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "90",
+      "paragraph": "证据级别：C",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据级别：C",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

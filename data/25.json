@@ -1,0 +1,3697 @@
+{
+  "doc_id": "25",
+  "paragraphs": [
+    {
+      "paragraph_id": "21",
+      "paragraph": "SGLT2i在不同程度肾功能不全的T2DM患者中所进行的研究提示，轻度肾功能不全，此类药物仍然发挥疗效，并具有良好的安全性。中度肾功能不全进一步下降SGLT2i的疗效，逐渐下降直至无明显疗效，但并没有明显的安全性的问题。起始SGLT2i治疗前需检测肾功能，并根据肾功能确认是否可以起始治疗，治疗过程中每年至少监测一次肾功能。治疗过程中，如果同时予以影响肾功能的药物治疗其他疾病时，起始前需监测肾功能，且定期监测肾功能，当患者的肾功能逐渐下降并趋向与中度肾功能不全时，需要每年监测2~4次肾功能同时关注泌尿道感染和血容量降低相关的不良事件。目前，在重度肝功能不全的T2DM数据有限。欧、美国家的药物说明书中不推荐在重度肝功能不全的T2DM中使用SGLT2i。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "SGLT2i在不同程度肾功能不全的T2DM患者中所进行的研究提示，轻度肾功能不全，此类药物仍然发挥疗效，并具有良好的安全性。中度肾功能不全进一步下降SGLT2i的疗效，逐渐下降直至无明显疗效，但并没有明显的安全性的问题。起始SGLT2i治疗前需检测肾功能，并根据肾功能确认是否可以起始治疗，治疗过程中每年至少监测一次肾功能。治疗过程中，如果同时予以影响肾功能的药物治疗其他疾病时，起始前需监测肾功能，且定期监测肾功能，当患者的肾功能逐渐下降并趋向与中度肾功能不全时，需要每年监测2~4次肾功能同时关注泌尿道感染和血容量降低相关的不良事件。目前，在重度肝功能不全的T2DM数据有限。欧、美国家的药物说明书中不推荐在重度肝功能不全的T2DM中使用SGLT2i。",
+          "start_idx": 0,
+          "end_idx": 328,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T1",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T2",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T3",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T4",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T5",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T6",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T7",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 35,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T8",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T9",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T10",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T11",
+              "entity": "检测肾功能",
+              "entity_type": "Test",
+              "start_idx": 122,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T12",
+              "entity": "监测肾功能",
+              "entity_type": "Test",
+              "start_idx": 194,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T13",
+              "entity": "监测肾功能",
+              "entity_type": "Test",
+              "start_idx": 203,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T14",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 224,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T15",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 226,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T16",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 226,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T17",
+              "entity": "血容量降低",
+              "entity_type": "ADE",
+              "start_idx": 256,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T18",
+              "entity": "泌尿道感染",
+              "entity_type": "ADE",
+              "start_idx": 250,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T19",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 273,
+              "end_idx": 275
+            },
+            {
+              "entity_id": "T20",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 275,
+              "end_idx": 280
+            },
+            {
+              "entity_id": "T21",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 275,
+              "end_idx": 276
+            },
+            {
+              "entity_id": "T22",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 281,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T23",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 281,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T24",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 306,
+              "end_idx": 308
+            },
+            {
+              "entity_id": "T25",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 308,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T26",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 308,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T27",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 314,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T28",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 314,
+              "end_idx": 316
+            },
+            {
+              "entity_id": "T29",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 321,
+              "end_idx": 327
+            },
+            {
+              "entity_id": "T30",
+              "entity": "监测一次肾功能",
+              "entity_type": "Test",
+              "start_idx": 154,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T31",
+              "entity": "监测2~4次肾功能",
+              "entity_type": "Test",
+              "start_idx": 237,
+              "end_idx": 246
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T16",
+              "tail_entity_id": "T15"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T31",
+              "tail_entity_id": "T15"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T23",
+              "tail_entity_id": "T22"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T26",
+              "tail_entity_id": "T25"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T28",
+              "tail_entity_id": "T27"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "0",
+      "paragraph": "钠-葡萄糖共转运蛋白2(SGLT2) 抑制剂临床合理应用中国专家建议 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "钠-葡萄糖共转运蛋白2(SGLT2) 抑制剂临床合理应用中国专家建议 ",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T32",
+              "entity": "钠-葡萄糖共转运蛋白2(SGLT2) 抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "通过控制T2DM患者多种代谢异常和高血压，预防和延缓糖尿病的大血管病变和微血管病变、提高患者生活质量，延长患者寿命是治疗T2DM的目标。当前，T2DM的控制还面临巨大的挑战，在糖尿病患者的血糖控制上仍需更有效的新型降糖药物来满足传统降糖药物未能满足的治疗需求。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "通过控制T2DM患者多种代谢异常和高血压，预防和延缓糖尿病的大血管病变和微血管病变、提高患者生活质量，延长患者寿命是治疗T2DM的目标。当前，T2DM的控制还面临巨大的挑战，在糖尿病患者的血糖控制上仍需更有效的新型降糖药物来满足传统降糖药物未能满足的治疗需求。",
+          "start_idx": 0,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T34",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T35",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T36",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T37",
+              "entity": "大血管病变",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T38",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T39",
+              "entity": "微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T40",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T41",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T42",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T43",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T44",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 71,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T45",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T46",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 94,
+              "end_idx": 96
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T34",
+              "tail_entity_id": "T33"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T39"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T41"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T43"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T46",
+              "tail_entity_id": "T45"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 130,
+          "end_idx": 131,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)是一种新型的口服降糖药物，该类药物在国外多个国家已经上市并得到越来越广泛的临床应用，即将在中国上市的SGLT2i主要有达格列净(dapagliflozin) 、坎格列净(canagliflozin) 和恩格列净(empagliflozin)。考虑中国广大医生尚无使用该药的经验，故中国内分泌、心血管及肾脏领域的专家共同制定《SGLT2抑制剂临床合理应用中国专家建议》，以指导临床医生和患者对该类药物有更全面的了解和合理使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)是一种新型的口服降糖药物，该类药物在国外多个国家已经上市并得到越来越广泛的临床应用，即将在中国上市的SGLT2i主要有达格列净(dapagliflozin) 、坎格列净(canagliflozin) 和恩格列净(empagliflozin)。",
+          "start_idx": 0,
+          "end_idx": 143,
+          "entities": [
+            {
+              "entity_id": "T47",
+              "entity": "钠-葡萄糖共转运蛋白2抑制剂(SGLT2i)",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T48",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T49",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T50",
+              "entity": "达格列净(dapagliflozin)",
+              "entity_type": "Drug",
+              "start_idx": 81,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T51",
+              "entity": "坎格列净(canagliflozin)",
+              "entity_type": "Drug",
+              "start_idx": 102,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T52",
+              "entity": "恩格列净(empagliflozin)",
+              "entity_type": "Drug",
+              "start_idx": 123,
+              "end_idx": 142
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R16",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T47"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "考虑中国广大医生尚无使用该药的经验，故中国内分泌、心血管及肾脏领域的专家共同制定《SGLT2抑制剂临床合理应用中国专家建议》，以指导临床医生和患者对该类药物有更全面的了解和合理使用。",
+          "start_idx": 143,
+          "end_idx": 234,
+          "entities": [
+            {
+              "entity_id": "T53",
+              "entity": "SGLT2抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 49
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "一、肾脏与葡萄糖代谢 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、肾脏与葡萄糖代谢 ",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "正常生理情祝下，肾脏每天经过肾小球滤过近160~180g的葡萄糖到肾小管中，但滤过的葡萄糖全部被重吸收。一般情况下，当血糖浓度达到10mmol/L(肾糖阈)时葡萄糖会漏出到尿液中。血糖浓度超过肾糖阈越多，从尿中排出的葡萄糖就越多。在肾小管内的葡萄糖主要通过钠-葡萄糖共转运蛋白(SGLT)重吸收回到血液循环中。人类SGLT家族主要包括SGLT1-SGLT6，在体内广泛分布。其中，SGLT2是该家族中的重要一员，主要分布在近段肾小管的管腔侧细胞膜上，负责肾小管中90%葡萄糖的重吸收，另外，10%的葡萄糖通过分布在远肾小管的SGLT1通道重吸收，出于对肾脏过量葡萄糖排出的适应，T2DM患者肾糖阈较非糖尿病患者高、导致重吸收葡萄糖量增加。SGLT2基因突变导致的SGLT2通道重吸收葡萄糖的能力下降(肾糖阈降低)可导致在正常血糖水平情况下的尿糖排出增多，即肾性尿糖。该类患者无过高的发生低血糖、肾功能受损、电解质系乱等风险未见显著增高。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "正常生理情祝下，肾脏每天经过肾小球滤过近160~180g的葡萄糖到肾小管中，但滤过的葡萄糖全部被重吸收。一般情况下，当血糖浓度达到10mmol/L(肾糖阈)时葡萄糖会漏出到尿液中。血糖浓度超过肾糖阈越多，从尿中排出的葡萄糖就越多。在肾小管内的葡萄糖主要通过钠-葡萄糖共转运蛋白(SGLT)重吸收回到血液循环中。人类SGLT家族主要包括SGLT1-SGLT6，在体内广泛分布。其中，SGLT2是该家族中的重要一员，主要分布在近段肾小管的管腔侧细胞膜上，负责肾小管中90%葡萄糖的重吸收，另外，10%的葡萄糖通过分布在远肾小管的SGLT1通道重吸收，出于对肾脏过量葡萄糖排出的适应，T2DM患者肾糖阈较非糖尿病患者高、导致重吸收葡萄糖量增加。SGLT2基因突变导致的SGLT2通道重吸收葡萄糖的能力下降(肾糖阈降低)可导致在正常血糖水平情况下的尿糖排出增多，即肾性尿糖。该类患者无过高的发生低血糖、肾功能受损、电解质系乱等风险未见显著增高。",
+          "start_idx": 0,
+          "end_idx": 418,
+          "entities": [
+            {
+              "entity_id": "T54",
+              "entity": "血糖浓度",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T55",
+              "entity": "10mmol/L(肾糖阈)",
+              "entity_type": "Test_items",
+              "start_idx": 65,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T56",
+              "entity": "血糖浓度",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T57",
+              "entity": "肾糖阈",
+              "entity_type": "Test_items",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T58",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 289,
+              "end_idx": 293
+            },
+            {
+              "entity_id": "T59",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 289,
+              "end_idx": 291
+            },
+            {
+              "entity_id": "T60",
+              "entity": "肾糖阈",
+              "entity_type": "Test_items",
+              "start_idx": 295,
+              "end_idx": 298
+            },
+            {
+              "entity_id": "T61",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 300,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T62",
+              "entity": "肾糖阈",
+              "entity_type": "Test_items",
+              "start_idx": 350,
+              "end_idx": 353
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 362,
+              "end_idx": 364
+            },
+            {
+              "entity_id": "T64",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 393,
+              "end_idx": 396
+            },
+            {
+              "entity_id": "T65",
+              "entity": "肾功能受损",
+              "entity_type": "Disease",
+              "start_idx": 397,
+              "end_idx": 402
+            },
+            {
+              "entity_id": "T66",
+              "entity": "电解质系乱",
+              "entity_type": "Disease",
+              "start_idx": 403,
+              "end_idx": 408
+            },
+            {
+              "entity_id": "T67",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 397,
+              "end_idx": 398
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T58"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T58"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T65"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "二、SGLT2i",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、SGLT2i",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [
+            {
+              "entity_id": "T68",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "近年来，人们逐渐认识到肾脏葡萄糖重吸收在血糖调节中的作用并研发出SGLT2i，通过抑制SGLT2或SGLT1的作用抑制葡萄糖重吸收，降低肾糖阀而促进尿葡萄糖排泄，从而达到降低血液循环中葡萄糖水平的作用。达格列净和思格列净主要抑制SGLT2，而坎格列净同时抑制SGLT2和SGLT1，因SGLT抑制剂药物分子结构和受体选择性的不同，各种药物药代动力学参数也不尽相同(表1)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "近年来，人们逐渐认识到肾脏葡萄糖重吸收在血糖调节中的作用并研发出SGLT2i，通过抑制SGLT2或SGLT1的作用抑制葡萄糖重吸收，降低肾糖阀而促进尿葡萄糖排泄，从而达到降低血液循环中葡萄糖水平的作用。",
+          "start_idx": 0,
+          "end_idx": 101,
+          "entities": [
+            {
+              "entity_id": "T69",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T70",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T71",
+              "entity": "肾糖阀",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 71
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "达格列净和思格列净主要抑制SGLT2，而坎格列净同时抑制SGLT2和SGLT1，因SGLT抑制剂药物分子结构和受体选择性的不同，各种药物药代动力学参数也不尽相同(表1)。",
+          "start_idx": 101,
+          "end_idx": 186,
+          "entities": [
+            {
+              "entity_id": "T72",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T73",
+              "entity": "思格列净",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T74",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "三、SGLT2i临床有效性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、SGLT2i临床有效性",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T75",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "SGLT2i单独使用时不增加低血糖发生的风险，联合胰岛素或磺脲类药物时，可增加低血糖发生风险，SGLT2i其主要的不良反应为生殖泌尿道感染，多数为轻度到中度感染，抗感染治疗有效。在中国人群中开展的SGLT2i的临床研究结果与全球研究结果基本保持一致(表2)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "SGLT2i单独使用时不增加低血糖发生的风险，联合胰岛素或磺脲类药物时，可增加低血糖发生风险，SGLT2i其主要的不良反应为生殖泌尿道感染，多数为轻度到中度感染，抗感染治疗有效。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T76",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T77",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T78",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T79",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T80",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 39,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T81",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T82",
+              "entity": "生殖泌尿道感染",
+              "entity_type": "ADE",
+              "start_idx": 62,
+              "end_idx": 69
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R20",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T76"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R21",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T78"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R22",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T79"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在中国人群中开展的SGLT2i的临床研究结果与全球研究结果基本保持一致(表2)。",
+          "start_idx": 89,
+          "end_idx": 129,
+          "entities": [
+            {
+              "entity_id": "T83",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "四、临床适用人群及用法",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、临床适用人群及用法",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "SGLT2i可应用于成人T2DM，当饮食和运动不能使血糖得到满意控制或二甲双胍不能耐受时，可单独使用。也可与其他口服降糖药物及胰岛素联合使用。由于SGLT2i的药理作用依赖一定水平的eGFR，故对患者eGFR的要求>60或45ml/(min·1.73m2)，在中国人群中已完成SGLT2i在新诊断成人T2DM中单药治疗、在二甲双胍单药治疗效果不佳或二甲双胍联合磺脲类药物治疗效果不佳人群中两药或三药联合治疗的3期临床研究。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "SGLT2i可应用于成人T2DM，当饮食和运动不能使血糖得到满意控制或二甲双胍不能耐受时，可单独使用。也可与其他口服降糖药物及胰岛素联合使用。由于SGLT2i的药理作用依赖一定水平的eGFR，故对患者eGFR的要求>60或45ml/(min·1.73m2)，在中国人群中已完成SGLT2i在新诊断成人T2DM中单药治疗、在二甲双胍单药治疗效果不佳或二甲双胍联合磺脲类药物治疗效果不佳人群中两药或三药联合治疗的3期临床研究。",
+          "start_idx": 0,
+          "end_idx": 211,
+          "entities": [
+            {
+              "entity_id": "T84",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T85",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T86",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T87",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T88",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T89",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T90",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T91",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T92",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 138,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T93",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 150,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T94",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 150,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T95",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 161,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T96",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 174,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T97",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 180,
+              "end_idx": 185
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T93"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "美国药品食品监督管理局(FDA)批准达格列净、卡格列净和恩格列净的起始剂量分别为5mg、100mg和10mg，根据血糖控制的需求和是否耐受可调整至最大剂量10mg、300mg和25mg，每日一次口服，达格列净和思格列净餐前或餐后均可服用，坎格列净需要在第一次正餐前口服。与FDA不同的是，欧洲药物机构(EMA)推荐达格列净的起始剂量为10mg，对于重度肝功能不全的患者可从5mg起始。美国临床内分泌医师协会(AACE)、美国糖尿病学会和欧洲糖尿病学会(ADA/EASD)指南推荐SGLT2i可单独使用及与其他降糖药物联合使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "美国药品食品监督管理局(FDA)批准达格列净、卡格列净和恩格列净的起始剂量分别为5mg、100mg和10mg，根据血糖控制的需求和是否耐受可调整至最大剂量10mg、300mg和25mg，每日一次口服，达格列净和思格列净餐前或餐后均可服用，坎格列净需要在第一次正餐前口服。与FDA不同的是，欧洲药物机构(EMA)推荐达格列净的起始剂量为10mg，对于重度肝功能不全的患者可从5mg起始。美国临床内分泌医师协会(AACE)、美国糖尿病学会和欧洲糖尿病学会(ADA/EASD)指南推荐SGLT2i可单独使用及与其他降糖药物联合使用。",
+          "start_idx": 0,
+          "end_idx": 263,
+          "entities": [
+            {
+              "entity_id": "T98",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T99",
+              "entity": "卡格列净",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T100",
+              "entity": "恩格列净",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T101",
+              "entity": "5mg",
+              "entity_type": "Amount",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T102",
+              "entity": "100mg",
+              "entity_type": "Amount",
+              "start_idx": 44,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T103",
+              "entity": "10mg",
+              "entity_type": "Amount",
+              "start_idx": 50,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T104",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T105",
+              "entity": "10mg",
+              "entity_type": "Amount",
+              "start_idx": 77,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T106",
+              "entity": "300mg",
+              "entity_type": "Amount",
+              "start_idx": 82,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T107",
+              "entity": "25mg",
+              "entity_type": "Amount",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T108",
+              "entity": "每日一次",
+              "entity_type": "Frequency",
+              "start_idx": 93,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T109",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 97,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T110",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 100,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T111",
+              "entity": "思格列净",
+              "entity_type": "Drug",
+              "start_idx": 105,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T112",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T113",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 132,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T114",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 157,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T115",
+              "entity": "10mg",
+              "entity_type": "Amount",
+              "start_idx": 167,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T116",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 176,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T117",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 176,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T118",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 174,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T119",
+              "entity": "5mg",
+              "entity_type": "Amount",
+              "start_idx": 186,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T120",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 212,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T121",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 220,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T122",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 239,
+              "end_idx": 245
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R31",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R35",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T103",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T107",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R39",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T112"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R41",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R42",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T116"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T120"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "五、临床应用中安全性及处理原则",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、临床应用中安全性及处理原则",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "1.泌尿生殖道感染：SGLT2i促进大量葡萄糖从尿液中排出，增加了泌尿生殖道局部的葡萄糖浓度，导致发生细菌和霉菌感染的机会增加。临床研究数据显示，SGLT2i治疗后其生殖道感染的发生率为4.8%~5.7%，但多为轻到中度感染，常规抗感染治疗有效：女性较男性生殖道感染发生率稍高，最为常见的生殖道感染疾病在女性中为外阴阴道真菌感染、阴道念珠菌病和外阴阴道炎，在男性中为念珠菌性龟头炎和阴茎包皮炎；有感染疾病史的患者，感染率升高；且发生感染后，需抗感染治疗；女性生殖道感染大部分发生在用药的初始4个月内，而男性则在第一年内。为避免生殖道和泌尿道感染的发生，建议使用前询问病史，半年内反复发生泌尿生殖感染的患者不推荐使用；在使用过程中，如果发生感染并需要抗感染治疗时建议暂停SGLT2i。感染治愈后，可继续使用。使用SGLT2i过程中，尤其是使用的第一个月，需要关注患者是否出现感染的症状和体征。如果患者出现泌尿和生殖道感染的症状，应就医并作相关检查以明确有无感染。使用SGLT2i的患者，建议注意个人外阴部卫生，适量饮水，保持小便通畅，减少感染的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.泌尿生殖道感染：SGLT2i促进大量葡萄糖从尿液中排出，增加了泌尿生殖道局部的葡萄糖浓度，导致发生细菌和霉菌感染的机会增加。临床研究数据显示，SGLT2i治疗后其生殖道感染的发生率为4.8%~5.7%，但多为轻到中度感染，常规抗感染治疗有效：女性较男性生殖道感染发生率稍高，最为常见的生殖道感染疾病在女性中为外阴阴道真菌感染、阴道念珠菌病和外阴阴道炎，在男性中为念珠菌性龟头炎和阴茎包皮炎；有感染疾病史的患者，感染率升高；且发生感染后，需抗感染治疗；女性生殖道感染大部分发生在用药的初始4个月内，而男性则在第一年内。为避免生殖道和泌尿道感染的发生，建议使用前询问病史，半年内反复发生泌尿生殖感染的患者不推荐使用；在使用过程中，如果发生感染并需要抗感染治疗时建议暂停SGLT2i。",
+          "start_idx": 0,
+          "end_idx": 341,
+          "entities": [
+            {
+              "entity_id": "T123",
+              "entity": "泌尿生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T124",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T125",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T126",
+              "entity": "轻",
+              "entity_type": "Level",
+              "start_idx": 106,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T127",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 108,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T128",
+              "entity": "阴道念珠菌病",
+              "entity_type": "Disease",
+              "start_idx": 165,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T129",
+              "entity": "阴道",
+              "entity_type": "Anatomy",
+              "start_idx": 165,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T130",
+              "entity": "外阴阴道炎",
+              "entity_type": "Disease",
+              "start_idx": 172,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T131",
+              "entity": "外阴阴道",
+              "entity_type": "Anatomy",
+              "start_idx": 172,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T132",
+              "entity": "念珠菌性龟头炎",
+              "entity_type": "Disease",
+              "start_idx": 183,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T133",
+              "entity": "龟头",
+              "entity_type": "Anatomy",
+              "start_idx": 187,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T134",
+              "entity": "阴茎包皮炎",
+              "entity_type": "Disease",
+              "start_idx": 191,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T135",
+              "entity": "阴茎包皮",
+              "entity_type": "Anatomy",
+              "start_idx": 191,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T136",
+              "entity": "外阴阴道真菌感染",
+              "entity_type": "Disease",
+              "start_idx": 156,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T137",
+              "entity": "外阴阴道",
+              "entity_type": "Anatomy",
+              "start_idx": 156,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T138",
+              "entity": "生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 144,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T139",
+              "entity": "生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 144,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T140",
+              "entity": "生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 128,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T141",
+              "entity": "泌尿生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T142",
+              "entity": "生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 83,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T143",
+              "entity": "生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 83,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T144",
+              "entity": "生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T145",
+              "entity": "生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 229,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T146",
+              "entity": "生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 229,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T147",
+              "entity": "泌尿道感染",
+              "entity_type": "Disease",
+              "start_idx": 267,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T148",
+              "entity": "泌尿道",
+              "entity_type": "Anatomy",
+              "start_idx": 267,
+              "end_idx": 270
+            },
+            {
+              "entity_id": "T149",
+              "entity": "泌尿生殖感染",
+              "entity_type": "Disease",
+              "start_idx": 293,
+              "end_idx": 299
+            },
+            {
+              "entity_id": "T150",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 334,
+              "end_idx": 340
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T128"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T136"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T138"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T145"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "感染治愈后，可继续使用。",
+          "start_idx": 341,
+          "end_idx": 353,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "使用SGLT2i过程中，尤其是使用的第一个月，需要关注患者是否出现感染的症状和体征。",
+          "start_idx": 353,
+          "end_idx": 395,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "如果患者出现泌尿和生殖道感染的症状，应就医并作相关检查以明确有无感染。",
+          "start_idx": 395,
+          "end_idx": 430,
+          "entities": [
+            {
+              "entity_id": "T152",
+              "entity": "生殖道感染",
+              "entity_type": "ADE",
+              "start_idx": 9,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "使用SGLT2i的患者，建议注意个人外阴部卫生，适量饮水，保持小便通畅，减少感染的发生。",
+          "start_idx": 430,
+          "end_idx": 474,
+          "entities": [
+            {
+              "entity_id": "T153",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "2.低血糖：SGLT2i单药治疗不增加低血糖发生风险。与二甲双胍、二肽基肽酶-4抑制剂(DPP-4i)、TZDs等药物联合使用时，低血糖发生的风险也没有明显增加；与胰岛素或磺脲类药物联合使用时低血糖发生风险增加。建议与胰岛素或磺类药物联合使用时，注意调整胰岛素或磺脲类药物的剂量，避免低血糖发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.低血糖：SGLT2i单药治疗不增加低血糖发生风险。与二甲双胍、二肽基肽酶-4抑制剂(DPP-4i)、TZDs等药物联合使用时，低血糖发生的风险也没有明显增加；与胰岛素或磺脲类药物联合使用时低血糖发生风险增加。建议与胰岛素或磺类药物联合使用时，注意调整胰岛素或磺脲类药物的剂量，避免低血糖发生。",
+          "start_idx": 0,
+          "end_idx": 148,
+          "entities": [
+            {
+              "entity_id": "T154",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T155",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T156",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T157",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T158",
+              "entity": "二肽基肽酶-4抑制剂(DPP-4i)",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T159",
+              "entity": "TZDs",
+              "entity_type": "Drug",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T160",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T161",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T162",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T163",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T164",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 109,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T165",
+              "entity": "磺类药物",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T166",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T167",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T168",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 142,
+              "end_idx": 145
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R56",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T161"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R57",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R58",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R59",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T167"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "3.DKA：在SGLT2i临床研究中及上市后临床应用中，曾发现发生DKA及酮症的病例，但非常少见。临床报道的病例中，部分病例为T1DM，多数患者存在手术、过度运动、心肌梗死、卒中、严重感染、长时间禁食或极低碳水化合物摄入量和其他生理及病理的压力等诱因，部分联合使用胰岛素的患者胰岛素减量过快。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.DKA：在SGLT2i临床研究中及上市后临床应用中，曾发现发生DKA及酮症的病例，但非常少见。临床报道的病例中，部分病例为T1DM，多数患者存在手术、过度运动、心肌梗死、卒中、严重感染、长时间禁食或极低碳水化合物摄入量和其他生理及病理的压力等诱因，部分联合使用胰岛素的患者胰岛素减量过快。",
+          "start_idx": 0,
+          "end_idx": 146,
+          "entities": [
+            {
+              "entity_id": "T169",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T170",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T171",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T172",
+              "entity": "酮症",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T173",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T174",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 63,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T175",
+              "entity": "心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T176",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T177",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T178",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T179",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 132,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T180",
+              "entity": "岛素",
+              "entity_type": "Drug",
+              "start_idx": 139,
+              "end_idx": 141
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "使用SGLT2i时发生DKA及酮症的患者症状不典型，血糖通常不超13.9mmol/L，被称之为“血糖不高的DKA”，往往不易被诊断。专家建议在使用SGLT2i期间，如果患者出现和DKA相关的症状如腹痛、恶心、呕吐、乏力、呼吸困难、需要考虑患者是否出现DKA并检测血酮体和动脉血酸碱度以明确诊断。明确诊断为DKA的患者，应立即停用SGLT2i，并按照传统的DKA治疗程序进行治疗。为减少患者在使用SGLT2i期间发生DKA的风险，建议在择期手术、剧烈体力活动，如马拉松比赛前24h停用SGLT2i，同时注意停药后的后续效应；避免停用胰岛素或过度减量；对于紧急手术或大的应激状态，需立即停用SGLT2i，采用其他合适降糖措施；口服SGLT2i期间避免过多饮酒及极低碳水化合物饮食。目前，SGLT-2i未被批准用于T1DM。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "使用SGLT2i时发生DKA及酮症的患者症状不典型，血糖通常不超13.9mmol/L，被称之为“血糖不高的DKA”，往往不易被诊断。专家建议在使用SGLT2i期间，如果患者出现和DKA相关的症状如腹痛、恶心、呕吐、乏力、呼吸困难、需要考虑患者是否出现DKA并检测血酮体和动脉血酸碱度以明确诊断。明确诊断为DKA的患者，应立即停用SGLT2i，并按照传统的DKA治疗程序进行治疗。为减少患者在使用SGLT2i期间发生DKA的风险，建议在择期手术、剧烈体力活动，如马拉松比赛前24h停用SGLT2i，同时注意停药后的后续效应；避免停用胰岛素或过度减量；对于紧急手术或大的应激状态，需立即停用SGLT2i，采用其他合适降糖措施；口服SGLT2i期间避免过多饮酒及极低碳水化合物饮食。目前，SGLT-2i未被批准用于T1DM。",
+          "start_idx": 0,
+          "end_idx": 359,
+          "entities": [
+            {
+              "entity_id": "T181",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T182",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T183",
+              "entity": "酮症",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T184",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T185",
+              "entity": "不超13.9mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 30,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T186",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T187",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T188",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T189",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 89,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T190",
+              "entity": "腹痛",
+              "entity_type": "Symptom",
+              "start_idx": 98,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T191",
+              "entity": "恶心",
+              "entity_type": "Symptom",
+              "start_idx": 101,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T192",
+              "entity": "呕吐",
+              "entity_type": "Symptom",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T193",
+              "entity": "乏力",
+              "entity_type": "Symptom",
+              "start_idx": 107,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T194",
+              "entity": "呼吸困难",
+              "entity_type": "Symptom",
+              "start_idx": 110,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T195",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T196",
+              "entity": "动脉血酸碱度",
+              "entity_type": "Test_items",
+              "start_idx": 135,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T197",
+              "entity": "血酮体",
+              "entity_type": "Test_items",
+              "start_idx": 131,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T198",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 152,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T199",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 164,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T200",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 177,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T201",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 197,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T202",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T203",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 241,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T204",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 265,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T205",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 293,
+              "end_idx": 299
+            },
+            {
+              "entity_id": "T206",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 313,
+              "end_idx": 319
+            },
+            {
+              "entity_id": "T207",
+              "entity": "SGLT-2i",
+              "entity_type": "Drug",
+              "start_idx": 341,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T208",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 354,
+              "end_idx": 358
+            },
+            {
+              "entity_id": "T209",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 354,
+              "end_idx": 356
+            },
+            {
+              "entity_id": "T210",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 311,
+              "end_idx": 313
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T195"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T196",
+              "tail_entity_id": "T195"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T206"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T209",
+              "tail_entity_id": "T208"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "六、SGLT2i在特殊人群的使用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "六、SGLT2i在特殊人群的使用",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "1.老年人群：SGLT2i可用于老年T2DM患者。老年患者中，在原有治疗方案疗效不佳的情况下加用SGLT2i，可有效降低血糖、减轻体重和降低血压，且耐受性良好。探讨影响SGLT2i在对老年患者中有效性与安全性的影响因素发现，校正eGFR影响后，年龄并不影响SGLT2i的疗效。当eGFR≥60ml/(min·1.73m2)时，SGLT2i降糖和减重疗效在老年(年龄≥65岁)和非老年(年龄<65岁)人群中相当，且总体不良事件没有增加，泌尿生殖道感染也没有增加，但是，当老年患者eGFR<60ml/(min·1.73m2)时，低血糖风险、低血容量相关事件、肾损伤或肾衰竭风险升高。因此，老年患者需监测其肾功能，肾功能正常或轻度不全时，均可使用SGLT2i。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.老年人群：SGLT2i可用于老年T2DM患者。老年患者中，在原有治疗方案疗效不佳的情况下加用SGLT2i，可有效降低血糖、减轻体重和降低血压，且耐受性良好。探讨影响SGLT2i在对老年患者中有效性与安全性的影响因素发现，校正eGFR影响后，年龄并不影响SGLT2i的疗效。当eGFR≥60ml/(min·1.73m2)时，SGLT2i降糖和减重疗效在老年(年龄≥65岁)和非老年(年龄<65岁)人群中相当，且总体不良事件没有增加，泌尿生殖道感染也没有增加，但是，当老年患者eGFR<60ml/(min·1.73m2)时，低血糖风险、低血容量相关事件、肾损伤或肾衰竭风险升高。",
+          "start_idx": 0,
+          "end_idx": 289,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T213",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T214",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T215",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T216",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T217",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T218",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 84,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T219",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 128,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T220",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 163,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T221",
+              "entity": "泌尿生殖道感染",
+              "entity_type": "Disease",
+              "start_idx": 217,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T222",
+              "entity": "泌尿生殖道",
+              "entity_type": "Anatomy",
+              "start_idx": 217,
+              "end_idx": 222
+            },
+            {
+              "entity_id": "T223",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 262,
+              "end_idx": 265
+            },
+            {
+              "entity_id": "T224",
+              "entity": "低血容量",
+              "entity_type": "ADE",
+              "start_idx": 268,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T225",
+              "entity": "肾损伤",
+              "entity_type": "Disease",
+              "start_idx": 277,
+              "end_idx": 280
+            },
+            {
+              "entity_id": "T226",
+              "entity": "肾衰竭",
+              "entity_type": "Disease",
+              "start_idx": 281,
+              "end_idx": 284
+            },
+            {
+              "entity_id": "T227",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 281,
+              "end_idx": 282
+            },
+            {
+              "entity_id": "T228",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 277,
+              "end_idx": 278
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T212",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T222",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T228",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T226"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，老年患者需监测其肾功能，肾功能正常或轻度不全时，均可使用SGLT2i。",
+          "start_idx": 289,
+          "end_idx": 327,
+          "entities": [
+            {
+              "entity_id": "T229",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T230",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "2.糖尿病合并肝肾功能不全者：SGLT2i在中度肾功能不全[45≤eGFR<60ml/(min·1.73m2)]的患者可减量使用。轻中度肝功能不全时也可使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.糖尿病合并肝肾功能不全者：SGLT2i在中度肾功能不全[45≤eGFR<60ml/(min·1.73m2)]的患者可减量使用。轻中度肝功能不全时也可使用。",
+          "start_idx": 0,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T231",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T232",
+              "entity": "肝肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T233",
+              "entity": "肝肾",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T234",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T235",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T236",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T237",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 24,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T238",
+              "entity": "轻中度",
+              "entity_type": "Level",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T239",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T240",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 68,
+              "end_idx": 69
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T233",
+              "tail_entity_id": "T232"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T237",
+              "tail_entity_id": "T236"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T240",
+              "tail_entity_id": "T239"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "3.糖尿病合并心血管疾病者：T2DM是心血管疾病的等危症，控制糖尿病患者的各种代谢危险因素如血压、血脂等可有效降低心血管疾病的发生风险。研究表明，SGLT2i除有效降糖外，还可减轻体重，降低血压，降低血尿酸浓度，减少蛋白尿等与心血管疾病相关的危险因素。针对已经完成的达格列净和坎格列净3期临床随机对照研究中的心血管终点的汇总分析，结果显示，这两类药物均不增加心血管事件风险，然而，上述两种药物对心血管的影响需要正在进行中的心血管结局研究DE-CLARE和CANVAS、CANVAS-R和CREDENCE验证。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.糖尿病合并心血管疾病者：T2DM是心血管疾病的等危症，控制糖尿病患者的各种代谢危险因素如血压、血脂等可有效降低心血管疾病的发生风险。研究表明，SGLT2i除有效降糖外，还可减轻体重，降低血压，降低血尿酸浓度，减少蛋白尿等与心血管疾病相关的危险因素。针对已经完成的达格列净和坎格列净3期临床随机对照研究中的心血管终点的汇总分析，结果显示，这两类药物均不增加心血管事件风险，然而，上述两种药物对心血管的影响需要正在进行中的心血管结局研究DE-CLARE和CANVAS、CANVAS-R和CREDENCE验证。",
+          "start_idx": 0,
+          "end_idx": 254,
+          "entities": [
+            {
+              "entity_id": "T241",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T242",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T243",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T244",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T245",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T246",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T247",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T248",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T249",
+              "entity": "血压",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T250",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T251",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T252",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T253",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T254",
+              "entity": "减轻体重",
+              "entity_type": "ADE",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T255",
+              "entity": "降低血压",
+              "entity_type": "ADE",
+              "start_idx": 93,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T256",
+              "entity": "降低血尿酸浓度",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T257",
+              "entity": "减少蛋白尿",
+              "entity_type": "ADE",
+              "start_idx": 106,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T258",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 113,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T259",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 113,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T260",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 133,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T261",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T262",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 179,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T263",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 179,
+              "end_idx": 182
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T242"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T246"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T250",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T252",
+              "tail_entity_id": "T251"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R87",
+              "head_entity_id": "T254",
+              "tail_entity_id": "T253"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R88",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T253"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R89",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T253"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R90",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T253"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T259",
+              "tail_entity_id": "T258"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T263",
+              "tail_entity_id": "T262"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "恩格列净的心血管结局研究(EMPA-REGOUTCOME)已完成并发布了其研究结果。该研究中患者均为心血管疾病的高危人群。结果显示，恩格列净的治疗与全因死亡、心血管死亡、心血管病变、心力衰竭、肾功能下降和终末期肾病发生的风险下降相关。该研究提示对于糖尿病合并心血管疾病的患者，恩格列净具有心血管及肾脏保护作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "恩格列净的心血管结局研究(EMPA-REGOUTCOME)已完成并发布了其研究结果。该研究中患者均为心血管疾病的高危人群。结果显示，恩格列净的治疗与全因死亡、心血管死亡、心血管病变、心力衰竭、肾功能下降和终末期肾病发生的风险下降相关。该研究提示对于糖尿病合并心血管疾病的患者，恩格列净具有心血管及肾脏保护作用。",
+          "start_idx": 0,
+          "end_idx": 155,
+          "entities": [
+            {
+              "entity_id": "T264",
+              "entity": "恩格列净",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T265",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T266",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T267",
+              "entity": "恩格列净",
+              "entity_type": "Drug",
+              "start_idx": 66,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T268",
+              "entity": "心血管死亡",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T269",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 79,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T270",
+              "entity": "心血管病变",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T271",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T272",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T273",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 91,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T274",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 102,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T275",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T276",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 105,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T277",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 124,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T278",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 129,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T279",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 129,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T280",
+              "entity": "恩格列净",
+              "entity_type": "Drug",
+              "start_idx": 138,
+              "end_idx": 142
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T266",
+              "tail_entity_id": "T265"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T268"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T271",
+              "tail_entity_id": "T270"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T274",
+              "tail_entity_id": "T275"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T276",
+              "tail_entity_id": "T275"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T280",
+              "tail_entity_id": "T277"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T279",
+              "tail_entity_id": "T278"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "5.其他：SGLT2i作为新型的口服降糖药物，其长期使用中的安全性也需要关注。在临床试验和药物上市后报告的一些不良事件，如膀胱癌、骨折、足趾截肢风险，以及急性肾损伤风险等需要在更多的临床研究和观察中予以进一步澄清。目前，临床研究数据尚未证实SGLT2i与膀胱癌发生风险间是否存在因果关系，上市后至今尚无相关肿瘤病例的报告.FDA和EMA根据不良事件报告系统的数据.已加强提醒在使用SGLT2i的过程中，注意骨折风险(坎格列净)、足趾截肢风险(坎格列净)及急性肾损伤风险(达格列净，坎格列净)。但SGLT2i和这些风险之间是否存在因果关系，仍需要进一步研究。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.其他：SGLT2i作为新型的口服降糖药物，其长期使用中的安全性也需要关注。在临床试验和药物上市后报告的一些不良事件，如膀胱癌、骨折、足趾截肢风险，以及急性肾损伤风险等需要在更多的临床研究和观察中予以进一步澄清。目前，临床研究数据尚未证实SGLT2i与膀胱癌发生风险间是否存在因果关系，上市后至今尚无相关肿瘤病例的报告.FDA和EMA根据不良事件报告系统的数据.已加强提醒在使用SGLT2i的过程中，注意骨折风险(坎格列净)、足趾截肢风险(坎格列净)及急性肾损伤风险(达格列净，坎格列净)。",
+          "start_idx": 0,
+          "end_idx": 246,
+          "entities": [
+            {
+              "entity_id": "T281",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T282",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T283",
+              "entity": "膀胱癌",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T284",
+              "entity": "膀胱",
+              "entity_type": "Anatomy",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T285",
+              "entity": "骨折",
+              "entity_type": "ADE",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T286",
+              "entity": "足趾截肢",
+              "entity_type": "ADE",
+              "start_idx": 68,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T287",
+              "entity": "急性肾损伤",
+              "entity_type": "Disease",
+              "start_idx": 77,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T288",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 79,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T289",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 120,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T290",
+              "entity": "膀胱癌",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T291",
+              "entity": "膀胱",
+              "entity_type": "Anatomy",
+              "start_idx": 127,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T292",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 190,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T293",
+              "entity": "骨折",
+              "entity_type": "ADE",
+              "start_idx": 203,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T294",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 208,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T295",
+              "entity": "足趾截肢",
+              "entity_type": "ADE",
+              "start_idx": 214,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T296",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 221,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T297",
+              "entity": "急性肾损伤",
+              "entity_type": "ADE",
+              "start_idx": 227,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T298",
+              "entity": "达格列净",
+              "entity_type": "Drug",
+              "start_idx": 235,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T299",
+              "entity": "坎格列净",
+              "entity_type": "Drug",
+              "start_idx": 240,
+              "end_idx": 244
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R101",
+              "head_entity_id": "T282",
+              "tail_entity_id": "T281"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T284",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T287"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T290"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R105",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T294"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R106",
+              "head_entity_id": "T295",
+              "tail_entity_id": "T296"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R107",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R108",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T298"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "但SGLT2i和这些风险之间是否存在因果关系，仍需要进一步研究。",
+          "start_idx": 246,
+          "end_idx": 278,
+          "entities": [
+            {
+              "entity_id": "T300",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "七、小结",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "七、小结",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "4.T1DM、儿童青少年、孕妇和哺乳期妇女：目前，SGLT2i均没有在T1DM中使用的适应证。已经完成的探索性研究证实了SGLT2i与胰岛素联合治疗T1DM的疗效与安全性。T1DM患者使用SGLT2i发生DKA的风险可能增加。儿童青少年及孕妇和哺乳期妇女中无使用SGLT2i的数据，暂不推荐在此类人群中使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.T1DM、儿童青少年、孕妇和哺乳期妇女：目前，SGLT2i均没有在T1DM中使用的适应证。已经完成的探索性研究证实了SGLT2i与胰岛素联合治疗T1DM的疗效与安全性。T1DM患者使用SGLT2i发生DKA的风险可能增加。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T301",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T302",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T303",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T304",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T305",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T306",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T307",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T308",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T309",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T310",
+              "entity": "T1DM",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T311",
+              "entity": "T1",
+              "entity_type": "Class",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T312",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 94,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T313",
+              "entity": "DKA",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 105
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T301"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T305",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T307",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T309",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T310"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T310"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "儿童青少年及孕妇和哺乳期妇女中无使用SGLT2i的数据，暂不推荐在此类人群中使用。",
+          "start_idx": 113,
+          "end_idx": 154,
+          "entities": [
+            {
+              "entity_id": "T314",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "在全球范围内，已完成的SGLT2i多项临床研究对该类药物的有效性与安全性进行了评价。SGLT2i降低HbA1c幅度大，约0.5%~1.0%，减轻体重1.5~3.5kg，降低SBP3~5mmHg与胰岛素联合使用时，还可减少每日胰岛素用量大约5.9~8.7U/d。SGLT2i与常用的口服降糖药物比较，其降糖疗效与二甲双胍相当，优于西格列汀和磺脲类药物；有明显的减重效果。另外，SGLT2i可降低血压、尿酸水平，减少尿蛋白排泄，降低TG，同时升高HDL-C和LDL-C，但不增加LDL/HDL比值。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在全球范围内，已完成的SGLT2i多项临床研究对该类药物的有效性与安全性进行了评价。SGLT2i降低HbA1c幅度大，约0.5%~1.0%，减轻体重1.5~3.5kg，降低SBP3~5mmHg与胰岛素联合使用时，还可减少每日胰岛素用量大约5.9~8.7U/d。",
+          "start_idx": 0,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T315",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T316",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T317",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T318",
+              "entity": "约0.5%~1.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 59,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T319",
+              "entity": "SBP",
+              "entity_type": "Test_items",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T320",
+              "entity": "3~5mmHg",
+              "entity_type": "Test_Value",
+              "start_idx": 89,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T321",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T322",
+              "entity": "5.9~8.7U/d",
+              "entity_type": "Amount",
+              "start_idx": 119,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T335",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 97,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R117",
+              "head_entity_id": "T322",
+              "tail_entity_id": "T321"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "SGLT2i与常用的口服降糖药物比较，其降糖疗效与二甲双胍相当，优于西格列汀和磺脲类药物；有明显的减重效果。",
+          "start_idx": 130,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T323",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T324",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T325",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T326",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T327",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 39,
+              "end_idx": 44
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "另外，SGLT2i可降低血压、尿酸水平，减少尿蛋白排泄，降低TG，同时升高HDL-C和LDL-C，但不增加LDL/HDL比值。",
+          "start_idx": 184,
+          "end_idx": 247,
+          "entities": [
+            {
+              "entity_id": "T328",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T329",
+              "entity": "血压",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T330",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T331",
+              "entity": "HDL-C",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T332",
+              "entity": "TG",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T333",
+              "entity": "尿蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T334",
+              "entity": "LDL/HDL",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T336",
+              "entity": "LDL-C",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 48
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "SGLT2i是一类全新的口服降糖药物。该类药物降糖疗效确切，无低血糖风险，减轻体重、降低血压，可能有心血管及DN保护作用，满足了当前糖尿病治疗中部分未被满足的需求。未来几年内.目前正在进行中的CANVAS、CANVAS-R、CRE-DENCE、DECLARE-TIMI等大规模长期临床研究將提供更多的数据。我们希望临床医师在使用SGLT2i治疗T2DM前充分了解该类药物的特性，在临床应用中尚需根据每个患者的情况，平衡获益与风险，遵照说明书正确使用.确保给患者带来最大程度的治疗获益。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "SGLT2i是一类全新的口服降糖药物。该类药物降糖疗效确切，无低血糖风险，减轻体重、降低血压，可能有心血管及DN保护作用，满足了当前糖尿病治疗中部分未被满足的需求。未来几年内.目前正在进行中的CANVAS、CANVAS-R、CRE-DENCE、DECLARE-TIMI等大规模长期临床研究將提供更多的数据。我们希望临床医师在使用SGLT2i治疗T2DM前充分了解该类药物的特性，在临床应用中尚需根据每个患者的情况，平衡获益与风险，遵照说明书正确使用.确保给患者带来最大程度的治疗获益。",
+          "start_idx": 0,
+          "end_idx": 242,
+          "entities": [
+            {
+              "entity_id": "T337",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T338",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T339",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T340",
+              "entity": "减轻体重",
+              "entity_type": "ADE",
+              "start_idx": 37,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T341",
+              "entity": "降低血压",
+              "entity_type": "ADE",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T342",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T343",
+              "entity": "SGLT2i",
+              "entity_type": "Drug",
+              "start_idx": 164,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T344",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 172,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T345",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 172,
+              "end_idx": 174
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R118",
+              "head_entity_id": "T338",
+              "tail_entity_id": "T337"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T344"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

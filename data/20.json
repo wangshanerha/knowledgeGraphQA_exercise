@@ -1,0 +1,3598 @@
+{
+  "doc_id": "20",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "中国2型糖尿病自我管理处方专家共识(2017年版)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国2型糖尿病自我管理处方专家共识(2017年版)",
+          "start_idx": 0,
+          "end_idx": 25,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T2",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "流行病学调查显示，我国成年人2型糖尿病患病率为9.7%~11.6%，已成为全球糖尿病患者最多的国家。糖尿病作为慢性终身性疾病，患者生活质量的提高有赖于自身管理。有效的糖尿病自我管理教育和支持(diabetes self-management education/support，DSME/S)是协助糖尿病思者管理和维持自身健康行为的基础。我国的糖尿病教育管理起步于20世纪90年代中期，最初是医护人员组织住院糖尿病患者进行授课，模式单一，患者学习比较被动。随着国外的成功经验不断引人，以专业人员小组授课、个体化自我管理技能培训及病友同伴教育相结合的DSME模式开始出现。但目前我国糖尿病教育存在诸多问题：如内容单调(以书本知识为主)、讲者随意性强、缺少系统评估和随访、教育与行为改变脱节、脱离患者需求、缺乏个体化的教育和饮食、运动计划以及制定的DSME计划无法很好地落实等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "流行病学调查显示，我国成年人2型糖尿病患病率为9.7%~11.6%，已成为全球糖尿病患者最多的国家。糖尿病作为慢性终身性疾病，患者生活质量的提高有赖于自身管理。",
+          "start_idx": 0,
+          "end_idx": 80,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T5",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T6",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T7",
+              "entity": "自身管理",
+              "entity_type": "Treatment",
+              "start_idx": 75,
+              "end_idx": 79
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T6"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "有效的糖尿病自我管理教育和支持(diabetes self-management education/support，DSME/S)是协助糖尿病思者管理和维持自身健康行为的基础。",
+          "start_idx": 80,
+          "end_idx": 169,
+          "entities": [
+            {
+              "entity_id": "T8",
+              "entity": "糖尿病自我管理教育和支持(diabetes self-management education/support，DSME/S)",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T9",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 72
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T8",
+              "tail_entity_id": "T9"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "我国的糖尿病教育管理起步于20世纪90年代中期，最初是医护人员组织住院糖尿病患者进行授课，模式单一，患者学习比较被动。",
+          "start_idx": 169,
+          "end_idx": 228,
+          "entities": [
+            {
+              "entity_id": "T11",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T12",
+              "entity": "教育管理",
+              "entity_type": "Treatment",
+              "start_idx": 6,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T11"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "随着国外的成功经验不断引人，以专业人员小组授课、个体化自我管理技能培训及病友同伴教育相结合的DSME模式开始出现。",
+          "start_idx": 228,
+          "end_idx": 285,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "但目前我国糖尿病教育存在诸多问题：如内容单调(以书本知识为主)、讲者随意性强、缺少系统评估和随访、教育与行为改变脱节、脱离患者需求、缺乏个体化的教育和饮食、运动计划以及制定的DSME计划无法很好地落实等。",
+          "start_idx": 285,
+          "end_idx": 387,
+          "entities": [
+            {
+              "entity_id": "T13",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "研究显示，DSME处万可改善治疗质量。为了指导广大医护工作者更加规范、科学地运用指南，结合个体化需求，选择合适时机，量化确定自我管理的内容、目标、预期效果，与患者一起制定实施计划，确定复诊时间，以提高患者生活质量，中华医学会糖尿病学分会糖尿病教育与管理学组组织专家编写“中国2型糖尿病自我管理处方专家共识”。本共识将从DSME处方的定义、理论依据、内容、形式、实践流程、应用时机、团队与技术这七个方面分别进行阐述。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "研究显示，DSME处万可改善治疗质量。为了指导广大医护工作者更加规范、科学地运用指南，结合个体化需求，选择合适时机，量化确定自我管理的内容、目标、预期效果，与患者一起制定实施计划，确定复诊时间，以提高患者生活质量，中华医学会糖尿病学分会糖尿病教育与管理学组组织专家编写“中国2型糖尿病自我管理处方专家共识”。",
+          "start_idx": 0,
+          "end_idx": 154,
+          "entities": [
+            {
+              "entity_id": "T14",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T15",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T16",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T17",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 137,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T18",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 137,
+              "end_idx": 139
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "本共识将从DSME处方的定义、理论依据、内容、形式、实践流程、应用时机、团队与技术这七个方面分别进行阐述。",
+          "start_idx": 154,
+          "end_idx": 207,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "一、自我管理处方的定义",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、自我管理处方的定义",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "自我管理处方是一种个体化的糖尿病教育管理工具，将2型糖尿病全方位自我管理的知识和技能以处方形式综合为一体，且随着处方的实施和不断改进，能将DSME/S延续并形成持续支持的糖尿病教育管理行为改变闭环。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "自我管理处方是一种个体化的糖尿病教育管理工具，将2型糖尿病全方位自我管理的知识和技能以处方形式综合为一体，且随着处方的实施和不断改进，能将DSME/S延续并形成持续支持的糖尿病教育管理行为改变闭环。",
+          "start_idx": 0,
+          "end_idx": 99,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T20",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T21",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T22",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T23",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 69,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T24",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 32,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T20"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "二、自我管理处方的理论依据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、自我管理处方的理论依据",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "由于糖尿病是一种终身性的慢性代谢性疾病，其治疗要求患者具有高度的自我管理能力，DSME/S理论的应用对患者的临床、社会心理和行为等方面均有积极的影响。自我管理处方的设计以DSME/S为理论基础，为了达到患者的行为改变，加入相关的健康管理与行为改变理论，如健康信念模型(health belief model)、行为分阶段转变理论模型(the transtheoretical model and stages of change)、Precede-Proceed模型(the Precede-Proceed Model)、Fogg行为模型(BJ Fogg Behavior Model)等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由于糖尿病是一种终身性的慢性代谢性疾病，其治疗要求患者具有高度的自我管理能力，DSME/S理论的应用对患者的临床、社会心理和行为等方面均有积极的影响。",
+          "start_idx": 0,
+          "end_idx": 75,
+          "entities": [
+            {
+              "entity_id": "T25",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T26",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 39,
+              "end_idx": 45
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T26",
+              "tail_entity_id": "T25"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "自我管理处方的设计以DSME/S为理论基础，为了达到患者的行为改变，加入相关的健康管理与行为改变理论，如健康信念模型(health belief model)、行为分阶段转变理论模型(the transtheoretical model and stages of change)、Precede-Proceed模型(the Precede-Proceed Model)、Fogg行为模型(BJ Fogg Behavior Model)等。",
+          "start_idx": 75,
+          "end_idx": 295,
+          "entities": [
+            {
+              "entity_id": "T27",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 10,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "三、自我管理处方内容",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、自我管理处方内容",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "糖尿病的教育管理涉及多学科知识.需要采取综合性措施，因而自我管理处方需要囊括多方面内容，包括综合评估、个性化控制目标、情绪管理、自我监测、饮食管理、运动管理、用药管理、胰岛素注射技术、糖尿病并发症筛查以及卫生资源支持。处方制定以中国糖尿病领域专业指南为依据，结合患者的病程、病情和行为改变特点等，兼具科学性和个性化。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病的教育管理涉及多学科知识.需要采取综合性措施，因而自我管理处方需要囊括多方面内容，包括综合评估、个性化控制目标、情绪管理、自我监测、饮食管理、运动管理、用药管理、胰岛素注射技术、糖尿病并发症筛查以及卫生资源支持。",
+          "start_idx": 0,
+          "end_idx": 109,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T29",
+              "entity": "教育管理",
+              "entity_type": "Treatment",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T30",
+              "entity": "综合评估",
+              "entity_type": "Treatment",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T31",
+              "entity": "个性化控制目标",
+              "entity_type": "Treatment",
+              "start_idx": 51,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T32",
+              "entity": "情绪管理",
+              "entity_type": "Treatment",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T33",
+              "entity": "自我监测",
+              "entity_type": "Treatment",
+              "start_idx": 64,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T34",
+              "entity": "饮食管理",
+              "entity_type": "Treatment",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T35",
+              "entity": "运动管理",
+              "entity_type": "Treatment",
+              "start_idx": 74,
+              "end_idx": 78
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T29",
+              "tail_entity_id": "T28"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "处方制定以中国糖尿病领域专业指南为依据，结合患者的病程、病情和行为改变特点等，兼具科学性和个性化。",
+          "start_idx": 109,
+          "end_idx": 158,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "(一)综合评估",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)综合评估",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "在制定个性化自我管理方案之前，需要对患者进行综合、系统的评估：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在制定个性化自我管理方案之前，需要对患者进行综合、系统的评估：",
+          "start_idx": 0,
+          "end_idx": 31,
+          "entities": [
+            {
+              "entity_id": "T37",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 6,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "1.患者基本信息：如年龄、性别、身高、体重、糖尿病类型、教育、职业、经济状况、病程、病史、用药情况、糖尿病家族史等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.患者基本信息：如年龄、性别、身高、体重、糖尿病类型、教育、职业、经济状况、病程、病史、用药情况、糖尿病家族史等。",
+          "start_idx": 0,
+          "end_idx": 58,
+          "entities": [
+            {
+              "entity_id": "T38",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T39",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "2.糖尿病相关临床指标评估：如血糖、糖化血红蛋白、血压、血脂等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.糖尿病相关临床指标评估：如血糖、糖化血红蛋白、血压、血脂等。",
+          "start_idx": 0,
+          "end_idx": 32,
+          "entities": [
+            {
+              "entity_id": "T40",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T41",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T42",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T43",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 25,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T44",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T40"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T40"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T40"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T40"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "3.并发症评估：急性并发症，如低血糖、酮症酸中毒；慢性并发症，包括视网膜病变、心脑血管病变、糖尿病肾病、糖尿病神经病变、糖尿病足病等评估。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.并发症评估：急性并发症，如低血糖、酮症酸中毒；慢性并发症，包括视网膜病变、心脑血管病变、糖尿病肾病、糖尿病神经病变、糖尿病足病等评估。",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T45",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T46",
+              "entity": "酮症酸中毒",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T47",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T48",
+              "entity": "心脑血管病变",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T49",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T50",
+              "entity": "糖尿病神经病变",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T51",
+              "entity": "糖尿病足病",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T52",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T53",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T54",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 49,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T55",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T56",
+              "entity": "足",
+              "entity_type": "Anatomy",
+              "start_idx": 63,
+              "end_idx": 64
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T48"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T51"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "4.饮食习惯：包括食物摄取量、饮食种类、有无偏食、有无食物过敏及烹调习惯等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.饮食习惯：包括食物摄取量、饮食种类、有无偏食、有无食物过敏及烹调习惯等。",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "5.运动习惯：如日常活动量、运动的种类、时间及频率等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.运动习惯：如日常活动量、运动的种类、时间及频率等。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "6.生活方式：睡眠、休闲娱乐、烟酒嗜好等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "6.生活方式：睡眠、休闲娱乐、烟酒嗜好等。",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "7.心理状态：如糖尿病生命质量(diabetes quality of life)测定量表、焦虑自评量表(self-rating anxiety seale)、抑郁自评量表(self-rating depression scale)等评估。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "7.心理状态：如糖尿病生命质量(diabetes quality of life)测定量表、焦虑自评量表(self-rating anxiety seale)、抑郁自评量表(self-rating depression scale)等评估。",
+          "start_idx": 0,
+          "end_idx": 120,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "8.依从性评估：利用相关评估工具，如Morisky用药依从性量表，服药信念量表(beliefs about medical questionnaire)等，全面了解影响患者用药依从性的因素，如患者对药物作用的认识、对自身病情了解程度、对医的理解程度、用药方案是否简单易行等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "8.依从性评估：利用相关评估工具，如Morisky用药依从性量表，服药信念量表(beliefs about medical questionnaire)等，全面了解影响患者用药依从性的因素，如患者对药物作用的认识、对自身病情了解程度、对医的理解程度、用药方案是否简单易行等。",
+          "start_idx": 0,
+          "end_idx": 137,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "9.注射技术评估(仅限注射治疗者)：使用药物及注射装置的种类、患者注射部位的皮肤状况、注射前的准备工作(剂量调节和检查、胰岛素摇匀方法、部位选择、装针头方式、皮肤消毒等)、注射的操作方式(捏皮方法、进针角度、推注方法、停留时长、拔针方法等)、注射部位的轮换、注射部位皮肤问题的处理、胰岛素的保存方法等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "9.注射技术评估(仅限注射治疗者)：使用药物及注射装置的种类、患者注射部位的皮肤状况、注射前的准备工作(剂量调节和检查、胰岛素摇匀方法、部位选择、装针头方式、皮肤消毒等)、注射的操作方式(捏皮方法、进针角度、推注方法、停留时长、拔针方法等)、注射部位的轮换、注射部位皮肤问题的处理、胰岛素的保存方法等。",
+          "start_idx": 0,
+          "end_idx": 151,
+          "entities": [
+            {
+              "entity_id": "T57",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T58",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 141,
+              "end_idx": 144
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "评估人员在评估过程中需要与患者充分沟通，以免遗漏信息。评估方式和评估内容视患者的年龄、病程、接受情况等而异，避免引起患者的抵触心理，评估的结果需要完整记录并且存档，作为下一次随访及复诊评估的参考。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "评估人员在评估过程中需要与患者充分沟通，以免遗漏信息。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "评估方式和评估内容视患者的年龄、病程、接受情况等而异，避免引起患者的抵触心理，评估的结果需要完整记录并且存档，作为下一次随访及复诊评估的参考。",
+          "start_idx": 27,
+          "end_idx": 98,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "(二)个性化目标",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)个性化目标",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "糖尿病患者常合并代谢综合征的一个或多个组分，如高血压、血脂异常、肥胖症等，因此糖尿病患者不仅要控制血糖，还要降压、调脂、控制体重，改善生活方式，只有全面达标，才能有效控制糖尿病。目标设定注重个体化，根据患者的年龄、病程、预期寿命、并发症或合并症情况等进行综合考虑。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病患者常合并代谢综合征的一个或多个组分，如高血压、血脂异常、肥胖症等，因此糖尿病患者不仅要控制血糖，还要降压、调脂、控制体重，改善生活方式，只有全面达标，才能有效控制糖尿病。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T59",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T60",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T61",
+              "entity": "血脂异常",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T62",
+              "entity": "肥胖症",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T63",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T64",
+              "entity": "控制血糖",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T65",
+              "entity": "降压",
+              "entity_type": "Treatment",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T66",
+              "entity": "调脂",
+              "entity_type": "Treatment",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T67",
+              "entity": "控制体重",
+              "entity_type": "Treatment",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T68",
+              "entity": "改善生活方式",
+              "entity_type": "Treatment",
+              "start_idx": 65,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T69",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T63"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "目标设定注重个体化，根据患者的年龄、病程、预期寿命、并发症或合并症情况等进行综合考虑。",
+          "start_idx": 89,
+          "end_idx": 132,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "1.控制目标：(1)毛细血管血糖：空腹与非空腹；(2)糖化血红蛋白；(3)血压；(4)血脂：总胆固醇、高密度脂蛋白胆固醇、甘油三酯、低密度脂蛋白胆固醇；(5)体重：体质指数；(6)尿白蛋白/尿肌酐比值。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.控制目标：(1)毛细血管血糖：空腹与非空腹；(2)糖化血红蛋白；(3)血压；(4)血脂：总胆固醇、高密度脂蛋白胆固醇、甘油三酯、低密度脂蛋白胆固醇；(5)体重：体质指数；(6)尿白蛋白/尿肌酐比值。",
+          "start_idx": 0,
+          "end_idx": 101,
+          "entities": [
+            {
+              "entity_id": "T70",
+              "entity": "毛细血管血糖",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T71",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T72",
+              "entity": "血压",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T73",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T74",
+              "entity": "总胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T75",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 51,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T76",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T77",
+              "entity": "低密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 66,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T78",
+              "entity": "尿白蛋白/尿肌酐比值",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 100
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "2.行为目标：除了糖尿病综合控制目标之外同时需要设定以行为改变为导向的个性化行为目际。行为目标由患者和自我管理处方制定者共同商定，目标需具体、可测量、可实现，避免一次设定过多目标。例如饮食目标设定：早餐加一盒250ml的牛奶；运动目标设定：每天晚饭后半小时散步45分钟等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.行为目标：除了糖尿病综合控制目标之外同时需要设定以行为改变为导向的个性化行为目际。",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T79",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "行为目标由患者和自我管理处方制定者共同商定，目标需具体、可测量、可实现，避免一次设定过多目标。",
+          "start_idx": 43,
+          "end_idx": 90,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "例如饮食目标设定：早餐加一盒250ml的牛奶；运动目标设定：每天晚饭后半小时散步45分钟等。",
+          "start_idx": 90,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T80",
+              "entity": "早餐加一盒250ml的牛奶",
+              "entity_type": "Treatment",
+              "start_idx": 9,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T81",
+              "entity": "晚饭后半小时散步45分钟",
+              "entity_type": "Treatment",
+              "start_idx": 32,
+              "end_idx": 44
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "(三)管理计划",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)管理计划",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "1.情绪管理：糖尿病会为患者带来不同程度的情绪反应，如沮丧、易怒、多虑、孤独感、挫败感、内疚感等。研究显示情绪因素可能是导致并发症增多的因素之一，而通过合理的糖尿病教育及心理干预能更好地改善情绪障碍及糖代谢状态。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.情绪管理：糖尿病会为患者带来不同程度的情绪反应，如沮丧、易怒、多虑、孤独感、挫败感、内疚感等。研究显示情绪因素可能是导致并发症增多的因素之一，而通过合理的糖尿病教育及心理干预能更好地改善情绪障碍及糖代谢状态。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T82",
+              "entity": "情绪管理",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T83",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T84",
+              "entity": "情绪反应",
+              "entity_type": "Symptom",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T85",
+              "entity": "沮丧",
+              "entity_type": "Symptom",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T86",
+              "entity": "易怒",
+              "entity_type": "Symptom",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T87",
+              "entity": "多虑",
+              "entity_type": "Symptom",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T88",
+              "entity": "孤独感",
+              "entity_type": "Symptom",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T89",
+              "entity": "挫败感",
+              "entity_type": "Symptom",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T90",
+              "entity": "内疚感",
+              "entity_type": "Symptom",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T91",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T92",
+              "entity": "教育及心理干预",
+              "entity_type": "Treatment",
+              "start_idx": 82,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T93",
+              "entity": "情绪障碍",
+              "entity_type": "Symptom",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T94",
+              "entity": "糖代谢状态",
+              "entity_type": "Test_items",
+              "start_idx": 100,
+              "end_idx": 105
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T91"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "心理干预计划：评估负面情绪产生的原因及临床表现，分析情绪因素在糖尿病的发生、发展与转归中的重要作用，提出改善情绪障碍的实用性建议，展开心理问题讨论，配合音乐治疗和放松认练。在患者同意的情况下，可纳入其家属参与讨论。同伴支持对于负面情绪改善的影响也不可忽视，教育者可根据患者的性格特点等组织合适的患者小组开展相关活动。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "心理干预计划：评估负面情绪产生的原因及临床表现，分析情绪因素在糖尿病的发生、发展与转归中的重要作用，提出改善情绪障碍的实用性建议，展开心理问题讨论，配合音乐治疗和放松认练。",
+          "start_idx": 0,
+          "end_idx": 86,
+          "entities": [
+            {
+              "entity_id": "T95",
+              "entity": "心理干预",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T96",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T97",
+              "entity": "配合音乐治疗",
+              "entity_type": "Treatment",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T98",
+              "entity": "放松认练",
+              "entity_type": "Treatment",
+              "start_idx": 81,
+              "end_idx": 85
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T96"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在患者同意的情况下，可纳入其家属参与讨论。",
+          "start_idx": 86,
+          "end_idx": 107,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "同伴支持对于负面情绪改善的影响也不可忽视，教育者可根据患者的性格特点等组织合适的患者小组开展相关活动。",
+          "start_idx": 107,
+          "end_idx": 158,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "2.自我监测：对血糖等指标进行规律的自我监测.可以反映治疗效果，指导治疗方案的及时调整，减缓和预防多种并发症发生。帮助患者理解定期监测的重要性以及如何监测。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.自我监测：对血糖等指标进行规律的自我监测.可以反映治疗效果，指导治疗方案的及时调整，减缓和预防多种并发症发生。",
+          "start_idx": 0,
+          "end_idx": 57,
+          "entities": [
+            {
+              "entity_id": "T99",
+              "entity": "自我监测",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T100",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T101",
+              "entity": "自我监测",
+              "entity_type": "Treatment",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "帮助患者理解定期监测的重要性以及如何监测。",
+          "start_idx": 57,
+          "end_idx": 78,
+          "entities": [
+            {
+              "entity_id": "T102",
+              "entity": "监测",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T103",
+              "entity": "监测",
+              "entity_type": "Treatment",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "自我监测处方内容包括：(D监测内容：血糖、糖化血红蛋白、血压、血脂、尿数量白蛋白等。(2)监测频次：根据患者的情况个性化制定。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "自我监测处方内容包括：(D监测内容：血糖、糖化血红蛋白、血压、血脂、尿数量白蛋白等。",
+          "start_idx": 0,
+          "end_idx": 42,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T105",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T106",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T107",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T108",
+              "entity": "尿数量白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 40
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "(2)监测频次：根据患者的情况个性化制定。",
+          "start_idx": 42,
+          "end_idx": 63,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "3.饮食管理：饮食管理旨在根据中国糖尿病患者的饮食特点，纠正患者的不良饮食习惯，帮助患者树立科学的饮食观念，学会并应用健康的饮食方法。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.饮食管理：饮食管理旨在根据中国糖尿病患者的饮食特点，纠正患者的不良饮食习惯，帮助患者树立科学的饮食观念，学会并应用健康的饮食方法。",
+          "start_idx": 0,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T109",
+              "entity": "饮食管理",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T110",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T111",
+              "entity": "饮食管理",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T110"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "饮食管理处方内容包括：(1)糖尿病饮食治疗的基本原则：概述总热量控制、合理搭配饮食结构、体重管理、合理分餐、食物多样化、烹调方式、甜味剂等。(2)个性化食谱：需要考虑患者的饮食习惯制定个性化食谱。(3)食物量的衡量和估算：利用食物交换份、手掌法则、食物模型等方法和工具，帮助患者理解食物“份”的概念，学会并应用粗略估算食物大小的方法。(4)饮食技巧：根据患者的饮食行为问题及饮食管理的疑惑，教给患者实用的饮食技巧，如外出就餐技巧、食物选择技巧、认识食物标签、血糖生成指数及血糖负荷指数表、碳水化合物计算等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "饮食管理处方内容包括：(1)糖尿病饮食治疗的基本原则：概述总热量控制、合理搭配饮食结构、体重管理、合理分餐、食物多样化、烹调方式、甜味剂等。",
+          "start_idx": 0,
+          "end_idx": 70,
+          "entities": [
+            {
+              "entity_id": "T112",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T113",
+              "entity": "饮食治疗",
+              "entity_type": "Treatment",
+              "start_idx": 17,
+              "end_idx": 21
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T112"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "(2)个性化食谱：需要考虑患者的饮食习惯制定个性化食谱。",
+          "start_idx": 70,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T114",
+              "entity": "制定个性化食谱",
+              "entity_type": "Treatment",
+              "start_idx": 20,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T115",
+              "entity": "个性化食谱",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "(3)食物量的衡量和估算：利用食物交换份、手掌法则、食物模型等方法和工具，帮助患者理解食物“份”的概念，学会并应用粗略估算食物大小的方法。",
+          "start_idx": 98,
+          "end_idx": 167,
+          "entities": [
+            {
+              "entity_id": "T116",
+              "entity": "食物量的衡量和估算",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "(4)饮食技巧：根据患者的饮食行为问题及饮食管理的疑惑，教给患者实用的饮食技巧，如外出就餐技巧、食物选择技巧、认识食物标签、血糖生成指数及血糖负荷指数表、碳水化合物计算等。",
+          "start_idx": 167,
+          "end_idx": 253,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "饮食技巧",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "4.运动管理：运动锻炼在糖尿病患者的全面管理中占重要地位。规律运动可增加胰岛素敏感性，有助于控制血糖，减少心血管危险因素.减轻体重，提升幸福感。如有运动禁忌证，可能需要转诊至专业运动康复师咨询并获取专业建议。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.运动管理：运动锻炼在糖尿病患者的全面管理中占重要地位。规律运动可增加胰岛素敏感性，有助于控制血糖，减少心血管危险因素.减轻体重，提升幸福感。",
+          "start_idx": 0,
+          "end_idx": 72,
+          "entities": [
+            {
+              "entity_id": "T118",
+              "entity": "运动管理",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T119",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T120",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T121",
+              "entity": "运动锻炼",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T122",
+              "entity": "规律运动",
+              "entity_type": "Treatment",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T123",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 50
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T119"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T119"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "如有运动禁忌证，可能需要转诊至专业运动康复师咨询并获取专业建议。",
+          "start_idx": 72,
+          "end_idx": 104,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "自我管理运动处方包括：(1)个性化运动方案：运动方案设定原则为在保证安全的前提下，选择适合患者运动条件的运动形式，并尽量达到降糖或降脂的效果。设定运动目的：如增加机体糖代谢、脂代谢、增强骨骼肌力量、发展平衡能力等；确定运动时机：如餐后1小时；制定运动项目、运动时长、运动强度、运动频率(如5天/周)、运动时有效心率等计划。提供工具帮助患者达到理想的运动效果，如不同运动能量消耗对照表、自觉疲劳程度(ratings of perceived exertion)量表等。(2)运动注意事项：说明运动前、中、后的注意事项，确保患者运动的安全性；明确应避免参加的运动项目；运动时自我观察的指标(血糖、血压等)以及当指标出现异常时运动终止的标准(如低血糖症状)等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "自我管理运动处方包括：(1)个性化运动方案：运动方案设定原则为在保证安全的前提下，选择适合患者运动条件的运动形式，并尽量达到降糖或降脂的效果。",
+          "start_idx": 0,
+          "end_idx": 71,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "设定运动目的：如增加机体糖代谢、脂代谢、增强骨骼肌力量、发展平衡能力等；确定运动时机：如餐后1小时；制定运动项目、运动时长、运动强度、运动频率(如5天/周)、运动时有效心率等计划。",
+          "start_idx": 71,
+          "end_idx": 161,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "提供工具帮助患者达到理想的运动效果，如不同运动能量消耗对照表、自觉疲劳程度(ratings of perceived exertion)量表等。",
+          "start_idx": 161,
+          "end_idx": 233,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "(2)运动注意事项：说明运动前、中、后的注意事项，确保患者运动的安全性；明确应避免参加的运动项目；运动时自我观察的指标(血糖、血压等)以及当指标出现异常时运动终止的标准(如低血糖症状)等。",
+          "start_idx": 233,
+          "end_idx": 327,
+          "entities": [
+            {
+              "entity_id": "T124",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T125",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 63,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T126",
+              "entity": "低血糖症状",
+              "entity_type": "Symptom",
+              "start_idx": 86,
+              "end_idx": 91
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "5.用药管理：主要为糖尿病患者用药依从性管理。用药不依从可降低糖尿病治疗的达标率，对健康造成不良影响，浪费卫生资源，是糖尿病控制中的重要问题。通过用药依从性评估和个性化的指导教育，可以有效地提高糖尿病患者的用药依从性，延缓并发症的发生，提高患者生存质量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.用药管理：主要为糖尿病患者用药依从性管理。",
+          "start_idx": 0,
+          "end_idx": 23,
+          "entities": [
+            {
+              "entity_id": "T127",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "用药不依从可降低糖尿病治疗的达标率，对健康造成不良影响，浪费卫生资源，是糖尿病控制中的重要问题。",
+          "start_idx": 23,
+          "end_idx": 71,
+          "entities": [
+            {
+              "entity_id": "T128",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T129",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "通过用药依从性评估和个性化的指导教育，可以有效地提高糖尿病患者的用药依从性，延缓并发症的发生，提高患者生存质量。",
+          "start_idx": 71,
+          "end_idx": 127,
+          "entities": [
+            {
+              "entity_id": "T130",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 29
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "用药管理教育处方：制定合理的用药教育方案，如遵医嘱用药的重要性、药物的作用特点、为什么需要使用此用药方案，提醒用药的办法等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "用药管理教育处方：制定合理的用药教育方案，如遵医嘱用药的重要性、药物的作用特点、为什么需要使用此用药方案，提醒用药的办法等。",
+          "start_idx": 0,
+          "end_idx": 62,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "6.胰岛素及其他注射药物管理：胰岛素是目前糖尿病治疗最有效的药物之一，但据研究显示，我国即使在已经使用胰岛素的患者中.血糖达标率也只有37%，而患者对胰岛素注射技术掌握不到位可能是重要原因之一。近年来，胰高血糖素样肽1类似物也开始广泛应用于临床，其不规范注射同样影响患者血糖达标情况。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "6.胰岛素及其他注射药物管理：胰岛素是目前糖尿病治疗最有效的药物之一，但据研究显示，我国即使在已经使用胰岛素的患者中.血糖达标率也只有37%，而患者对胰岛素注射技术掌握不到位可能是重要原因之一。",
+          "start_idx": 0,
+          "end_idx": 97,
+          "entities": [
+            {
+              "entity_id": "T131",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T132",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T133",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T134",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T135",
+              "entity": "37%",
+              "entity_type": "Test_Value",
+              "start_idx": 67,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T136",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 75,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T139",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T140",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T141",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 78,
+              "end_idx": 80
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R43",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T131"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T133"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R45",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T136"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "近年来，胰高血糖素样肽1类似物也开始广泛应用于临床，其不规范注射同样影响患者血糖达标情况。",
+          "start_idx": 97,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T137",
+              "entity": "胰高血糖素样肽1类似物",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T138",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T142",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 30,
+              "end_idx": 32
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R46",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "注射技术自我管理处方包括：(1)注射技术教育：根据患者注射技术的问题实施个体化教育，需要考虑患者的经济能力、教育水平、年龄、影响操作的其他因素等。(2)胰岛素泵使用教育：胰岛素泵治疗是采用人工智能控制的胰岛素输入装置，通过持续皮下输注胰岛素的方式，最大程度模拟胰岛素的生理性分泌模式，从而达到更好控制血糖的一种胰岛素治疗方法。泵治疗适用于1型糖尿病患者、需要短期胰岛素强化治疗的2型糖尿病以及妊娠期糖尿病等。对于胰岛素泵治疗的教育内容包括：选择注射部位、胰岛素泵的安装、胰岛素泵报警的处理、意外血糖异常的原因排查(电池、泵故障、管路松动堵塞、储药器破裂、埋植部位硬结感染等)、胰岛素泵耗材使用及护理规范等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "注射技术自我管理处方包括：(1)注射技术教育：根据患者注射技术的问题实施个体化教育，需要考虑患者的经济能力、教育水平、年龄、影响操作的其他因素等。(2)胰岛素泵使用教育：胰岛素泵治疗是采用人工智能控制的胰岛素输入装置，通过持续皮下输注胰岛素的方式，最大程度模拟胰岛素的生理性分泌模式，从而达到更好控制血糖的一种胰岛素治疗方法。泵治疗适用于1型糖尿病患者、需要短期胰岛素强化治疗的2型糖尿病以及妊娠期糖尿病等。",
+          "start_idx": 0,
+          "end_idx": 204,
+          "entities": [
+            {
+              "entity_id": "T143",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T144",
+              "entity": "持续皮下输注",
+              "entity_type": "Method",
+              "start_idx": 111,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T145",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T146",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 130,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T147",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 150,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T148",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 155,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T149",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 169,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T150",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 169,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T151",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 181,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T152",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 189,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T153",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 189,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T154",
+              "entity": "妊娠期糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 202
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R47",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T145"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T149"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T153",
+              "tail_entity_id": "T152"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "对于胰岛素泵治疗的教育内容包括：选择注射部位、胰岛素泵的安装、胰岛素泵报警的处理、意外血糖异常的原因排查(电池、泵故障、管路松动堵塞、储药器破裂、埋植部位硬结感染等)、胰岛素泵耗材使用及护理规范等。",
+          "start_idx": 204,
+          "end_idx": 303,
+          "entities": [
+            {
+              "entity_id": "T155",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T156",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 45,
+              "end_idx": 47
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "7.糖尿病并发症的筛查与防治(自我管理处方)：(1)预防和延缓并发症：对于尚未确诊糖尿病并发症的患者，自我管理处方需要包含预防和延缓尿病并发症的实用措施，如：糖尿病急慢性并发定的识别、糖尿病并发症筛查表(包括检查的项目、时间、频率、意义等)、并发症的预防措施等；(2)并发症的自我管理与日常保健：对于已经患有糖尿病并发症的患者，根据患者的并发症类型提供自我管里处方，包括定期复查(包括复查项目、复查频次、在哪里复查、复查前注意事项等)、自我保健(如糖尿病足的日常护理、皮肤护理、牙齿护理等)、注意事项(如糖尿病肾病患者需要注意蛋白质的摄取、糖尿病视网膜病变的患者需要注意运动的强度等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "7.糖尿病并发症的筛查与防治(自我管理处方)：(1)预防和延缓并发症：对于尚未确诊糖尿病并发症的患者，自我管理处方需要包含预防和延缓尿病并发症的实用措施，如：糖尿病急慢性并发定的识别、糖尿病并发症筛查表(包括检查的项目、时间、频率、意义等)、并发症的预防措施等；(2)并发症的自我管理与日常保健：对于已经患有糖尿病并发症的患者，根据患者的并发症类型提供自我管里处方，包括定期复查(包括复查项目、复查频次、在哪里复查、复查前注意事项等)、自我保健(如糖尿病足的日常护理、皮肤护理、牙齿护理等)、注意事项(如糖尿病肾病患者需要注意蛋白质的摄取、糖尿病视网膜病变的患者需要注意运动的强度等。",
+          "start_idx": 0,
+          "end_idx": 292,
+          "entities": [
+            {
+              "entity_id": "T157",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T158",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T159",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T160",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T161",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T162",
+              "entity": "日常保健",
+              "entity_type": "Treatment",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T163",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 154,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T164",
+              "entity": "自我保健",
+              "entity_type": "Treatment",
+              "start_idx": 218,
+              "end_idx": 222
+            },
+            {
+              "entity_id": "T165",
+              "entity": "糖尿病足",
+              "entity_type": "Disease",
+              "start_idx": 224,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T166",
+              "entity": "足",
+              "entity_type": "Anatomy",
+              "start_idx": 227,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T167",
+              "entity": "皮肤护理",
+              "entity_type": "Treatment",
+              "start_idx": 234,
+              "end_idx": 238
+            },
+            {
+              "entity_id": "T168",
+              "entity": "牙齿护理",
+              "entity_type": "Treatment",
+              "start_idx": 239,
+              "end_idx": 243
+            },
+            {
+              "entity_id": "T169",
+              "entity": "日常护理",
+              "entity_type": "Treatment",
+              "start_idx": 229,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T170",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 252,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T171",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 255,
+              "end_idx": 256
+            },
+            {
+              "entity_id": "T172",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 270,
+              "end_idx": 278
+            },
+            {
+              "entity_id": "T173",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 273,
+              "end_idx": 276
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T161",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T166",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T170"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T172"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "(四)卫生资源支持",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(四)卫生资源支持",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "卫生资源支持包括：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "卫生资源支持包括：",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "1.自我教育管理网站、应用程序(application，APP)及其他新媒体形式的学习资源推荐.如E糖书，掌控糖尿病等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.自我教育管理网站、应用程序(application，APP)及其他新媒体形式的学习资源推荐.如E糖书，掌控糖尿病等。",
+          "start_idx": 0,
+          "end_idx": 60,
+          "entities": [
+            {
+              "entity_id": "T174",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 58
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "2.教育课堂，如课堂讲座或小组座读。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.教育课堂，如课堂讲座或小组座读。",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "3.急救联系方式等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.急救联系方式等。",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "四、自我管理处方的形式",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、自我管理处方的形式",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "自我管理处方的形式可根据各医疗机构的条件选择使用电子式或非电子式。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "自我管理处方的形式可根据各医疗机构的条件选择使用电子式或非电子式。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "1.非电子式：将处方必须要素制成固定模板，制定时只需填写并打印。纸质处方最好患者和医务人员各保留一份，便于处方执行的最踪和优化。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.非电子式：将处方必须要素制成固定模板，制定时只需填写并打印。",
+          "start_idx": 0,
+          "end_idx": 32,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "纸质处方最好患者和医务人员各保留一份，便于处方执行的最踪和优化。",
+          "start_idx": 32,
+          "end_idx": 64,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "2.电子式：借助网络智能糖尿病管理平台的患者信息收集模块、数据评估与智能分析模块、医务人员制定处方方案模块来实现处方制定。患者的信息记录和储存实现电子化，医务人员填写和制定处方的方案也能够被存储，供后期的修改和优化。智能化设计的软件系统可以辅助医务人员分析，智能生成相应的处方方案，节省医务人员处方制定时间等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.电子式：借助网络智能糖尿病管理平台的患者信息收集模块、数据评估与智能分析模块、医务人员制定处方方案模块来实现处方制定。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T175",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "患者的信息记录和储存实现电子化，医务人员填写和制定处方的方案也能够被存储，供后期的修改和优化。",
+          "start_idx": 61,
+          "end_idx": 108,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "智能化设计的软件系统可以辅助医务人员分析，智能生成相应的处方方案，节省医务人员处方制定时间等。",
+          "start_idx": 108,
+          "end_idx": 155,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "48",
+      "paragraph": "附录提供了2型糖尿病生活方式自我管理处方和胰岛素使用自我管理处方范例。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "附录提供了2型糖尿病生活方式自我管理处方和胰岛素使用自我管理处方范例。",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T176",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T177",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T178",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T176"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "49",
+      "paragraph": "五、自我管理处方实施流程",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、自我管理处方实施流程",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "50",
+      "paragraph": "国内外研究证明，对患者进行糖尿病DSME，包括健康饮食、规律运动、正确服药、充足的社会支持等，能提高患者对饮食控制、血糖监测、检查足部的依从性，有效降低患者的体重、血糖、糖化血红蛋白，提高生活质量。中华医学会糖尿病学会等学术组织积极推动各级医疗机构普及糖尿病教育，有些地区糖尿病DSME/S现已被纳人到医疗门诊及社区卫生服务中心常规诊疗项目。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "国内外研究证明，对患者进行糖尿病DSME，包括健康饮食、规律运动、正确服药、充足的社会支持等，能提高患者对饮食控制、血糖监测、检查足部的依从性，有效降低患者的体重、血糖、糖化血红蛋白，提高生活质量。中华医学会糖尿病学会等学术组织积极推动各级医疗机构普及糖尿病教育，有些地区糖尿病DSME/S现已被纳人到医疗门诊及社区卫生服务中心常规诊疗项目。",
+          "start_idx": 0,
+          "end_idx": 171,
+          "entities": [
+            {
+              "entity_id": "T179",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T180",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T181",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 85,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T182",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T183",
+              "entity": "DSME",
+              "entity_type": "Treatment",
+              "start_idx": 16,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T184",
+              "entity": "健康饮食",
+              "entity_type": "Treatment",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T185",
+              "entity": "规律运动",
+              "entity_type": "Treatment",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T186",
+              "entity": "社会支持",
+              "entity_type": "Treatment",
+              "start_idx": 41,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T187",
+              "entity": "足部",
+              "entity_type": "Anatomy",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T188",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 104,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T189",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 126,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T190",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T191",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 139,
+              "end_idx": 145
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T185",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T186",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T181",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T187",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T190"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "51",
+      "paragraph": "实施自我管理处方的关键是与患者及其家属建立伙伴关系，在充分评估的基础上，帮助患者认识自身的问题，制定一份适合患者的切实可行的目标、措施和行动计划，同时为患者提供可利用资源的长期支持。自我管理处方的实施流程如图1所示。首先，糖尿病教育者接受由其他医务人员转诊来的患者。其次，教育者全面评估患者相关的知识技能。其三，为患者制定自我管理处方和行动计划[图2，为方便患者应用，本文单位均采取中文习惯用法，如分钟(不用min)，天(不用d)等]。最后，根据个体需要进行跟踪随访，填写患者自我管理行动反馈表(图3)。按照每3个月访视一次，评估患者的行为改变情况。必要时调整行动目标和计划。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "实施自我管理处方的关键是与患者及其家属建立伙伴关系，在充分评估的基础上，帮助患者认识自身的问题，制定一份适合患者的切实可行的目标、措施和行动计划，同时为患者提供可利用资源的长期支持。",
+          "start_idx": 0,
+          "end_idx": 91,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "自我管理处方的实施流程如图1所示。",
+          "start_idx": 91,
+          "end_idx": 108,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "首先，糖尿病教育者接受由其他医务人员转诊来的患者。",
+          "start_idx": 108,
+          "end_idx": 133,
+          "entities": [
+            {
+              "entity_id": "T192",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "其次，教育者全面评估患者相关的知识技能。",
+          "start_idx": 133,
+          "end_idx": 153,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "其三，为患者制定自我管理处方和行动计划[图2，为方便患者应用，本文单位均采取中文习惯用法，如分钟(不用min)，天(不用d)等]。",
+          "start_idx": 153,
+          "end_idx": 218,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "最后，根据个体需要进行跟踪随访，填写患者自我管理行动反馈表(图3)。",
+          "start_idx": 218,
+          "end_idx": 252,
+          "entities": [
+            {
+              "entity_id": "T193",
+              "entity": "跟踪随访",
+              "entity_type": "Treatment",
+              "start_idx": 11,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "6",
+          "sentence": "按照每3个月访视一次，评估患者的行为改变情况。",
+          "start_idx": 252,
+          "end_idx": 275,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "7",
+          "sentence": "必要时调整行动目标和计划。",
+          "start_idx": 275,
+          "end_idx": 288,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "52",
+      "paragraph": "六、自我管理处方的时机",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "六、自我管理处方的时机",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "53",
+      "paragraph": "DSME/S是促进糖尿病自我保健知识、技能和能力的一个持续性过程。2015年发表的联合立场声明中强调了评估、实施、调整DSME/S的4个关键时机，包括：确诊时、年度教育、出现影响自我管理新的复杂影响因素时、管理方案发生改变时。这4个关键时机也应该是自我管理处方的评估、制定和修改的重要标志，建议如下：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DSME/S是促进糖尿病自我保健知识、技能和能力的一个持续性过程。2015年发表的联合立场声明中强调了评估、实施、调整DSME/S的4个关键时机，包括：确诊时、年度教育、出现影响自我管理新的复杂影响因素时、管理方案发生改变时。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T194",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T195",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T196",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 59,
+              "end_idx": 65
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T195"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "这4个关键时机也应该是自我管理处方的评估、制定和修改的重要标志，建议如下：",
+          "start_idx": 113,
+          "end_idx": 150,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "54",
+      "paragraph": "1.确诊时：为新确诊的糖尿病患者制定自我管理处方之前应进行全面的自我管理能力及其影响因素(如文化因素、健康信仰、经济状况、读写能力等)的评估，关注并解答糖尿病诊断相关问题并给予情感支持。自我管理处方内容包括：个性化自我管理方案、治疗及自我管理的目标、突发情况的解决方法(如用药安全相关、低血糖处理等)、教育和支持的资源获取建议(如饮食指南、糖尿病学习网站、糖尿病论坛、医院的就诊和科室信息等)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.确诊时：为新确诊的糖尿病患者制定自我管理处方之前应进行全面的自我管理能力及其影响因素(如文化因素、健康信仰、经济状况、读写能力等)的评估，关注并解答糖尿病诊断相关问题并给予情感支持。",
+          "start_idx": 0,
+          "end_idx": 93,
+          "entities": [
+            {
+              "entity_id": "T197",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T198",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 76,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T199",
+              "entity": "给予情感支持",
+              "entity_type": "Treatment",
+              "start_idx": 86,
+              "end_idx": 92
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T199",
+              "tail_entity_id": "T198"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "自我管理处方内容包括：个性化自我管理方案、治疗及自我管理的目标、突发情况的解决方法(如用药安全相关、低血糖处理等)、教育和支持的资源获取建议(如饮食指南、糖尿病学习网站、糖尿病论坛、医院的就诊和科室信息等)",
+          "start_idx": 93,
+          "end_idx": 196,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "55",
+      "paragraph": "2.年度评估时：对患者的自我管理、解决问题的能力进行审查与评估，关注和解决愚者所面临的问题，积极根据患者的需要调整治疗方案。内容包括：回顾再评估糖尿病知识、技能及行为、体重的变化和管理、调整或强化自我管理的目标、增加并发症及生活质量改善相关的教育指导。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.年度评估时：对患者的自我管理、解决问题的能力进行审查与评估，关注和解决愚者所面临的问题，积极根据患者的需要调整治疗方案。",
+          "start_idx": 0,
+          "end_idx": 62,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "内容包括：回顾再评估糖尿病知识、技能及行为、体重的变化和管理、调整或强化自我管理的目标、增加并发症及生活质量改善相关的教育指导。",
+          "start_idx": 62,
+          "end_idx": 126,
+          "entities": [
+            {
+              "entity_id": "T200",
+              "entity": "调整或强化自我管理的目标",
+              "entity_type": "Treatment",
+              "start_idx": 31,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T201",
+              "entity": "增加并发症及生活质量改善相关的教育指导",
+              "entity_type": "Treatment",
+              "start_idx": 44,
+              "end_idx": 63
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "56",
+      "paragraph": "3.出现影响自我管理新的复杂因素时：指出现新的健康状况如肾脏疾病、卒中及需要复杂药物：出现身体机能受限如视力受损、移动受限；出现情感因素如焦虑和抑郁；出现基本生活需求如食物获取和经济能力有限时。需要及时调整自我管理处方，调整内容包括：个性化的行为改变及健康应对的策略、增加所需要的特殊自我护理技能，以延缓糖尿病并发症进展及预防新的并发症发生，必要时提供和抑郁相关的情感支持。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.出现影响自我管理新的复杂因素时：指出现新的健康状况如肾脏疾病、卒中及需要复杂药物：出现身体机能受限如视力受损、移动受限；出现情感因素如焦虑和抑郁；出现基本生活需求如食物获取和经济能力有限时。需要及时调整自我管理处方，调整内容包括：个性化的行为改变及健康应对的策略、增加所需要的特殊自我护理技能，以延缓糖尿病并发症进展及预防新的并发症发生，必要时提供和抑郁相关的情感支持。",
+          "start_idx": 0,
+          "end_idx": 187,
+          "entities": [
+            {
+              "entity_id": "T202",
+              "entity": "肾脏疾病",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T203",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T204",
+              "entity": "视力受损",
+              "entity_type": "Symptom",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T205",
+              "entity": "移动受限",
+              "entity_type": "Symptom",
+              "start_idx": 57,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T206",
+              "entity": "焦虑",
+              "entity_type": "Symptom",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T207",
+              "entity": "抑郁",
+              "entity_type": "Symptom",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T208",
+              "entity": "提供和抑郁相关的情感支持",
+              "entity_type": "Treatment",
+              "start_idx": 174,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T209",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 152,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T210",
+              "entity": "增加所需要的特殊自我护理技能",
+              "entity_type": "Treatment",
+              "start_idx": 134,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T211",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T203",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T211"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T211"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T209"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T209"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "57",
+      "paragraph": "4.管理方案发生改变时：生活环境改变如住院患者出院、年龄相关因素变化如出现认知功能和自我管理障碍等问题。此时在建立新的管理方案之前，自我管理处方需要包含：与糖尿病管理团队中的其他成员沟通，为患者制定糖尿病管理方案过波计划，后期再制定新的管理方案和教育支持计划。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.管理方案发生改变时：生活环境改变如住院患者出院、年龄相关因素变化如出现认知功能和自我管理障碍等问题。此时在建立新的管理方案之前，自我管理处方需要包含：与糖尿病管理团队中的其他成员沟通，为患者制定糖尿病管理方案过波计划，后期再制定新的管理方案和教育支持计划。",
+          "start_idx": 0,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "认知功能和自我管理障碍",
+              "entity_type": "Symptom",
+              "start_idx": 37,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T213",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T214",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 99,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T215",
+              "entity": "制定新的管理方案和教育支持计划",
+              "entity_type": "Treatment",
+              "start_idx": 114,
+              "end_idx": 129
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T214"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "58",
+      "paragraph": "七、自我管理处方的多方团队与技术",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "七、自我管理处方的多方团队与技术",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "59",
+      "paragraph": "糖尿病自我管理指患者为应对病情所采取的行动和选择，包括使用一系列技能、知识和应对策略。自我管理的任务包括：(1)医疗或行为管理：照顾自己的健康问题、定期服药或医学检查、改变膳食和其他高危行为、使用仪器。(2)角色管理：建立和保持在社会、工作、家庭和朋友中的角色，从而正常参加工作、与人相处。(3)情绪管理：处理和应对疾病带来的情绪障碍。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病自我管理指患者为应对病情所采取的行动和选择，包括使用一系列技能、知识和应对策略。自我管理的任务包括：(1)医疗或行为管理：照顾自己的健康问题、定期服药或医学检查、改变膳食和其他高危行为、使用仪器。",
+          "start_idx": 0,
+          "end_idx": 101,
+          "entities": [
+            {
+              "entity_id": "T216",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T217",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T218",
+              "entity": "自我管理",
+              "entity_type": "Treatment",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T219",
+              "entity": "照顾自己的健康问题",
+              "entity_type": "Treatment",
+              "start_idx": 64,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T220",
+              "entity": "定期服药或医学检查",
+              "entity_type": "Treatment",
+              "start_idx": 74,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T221",
+              "entity": "改变膳食和其他高危行为",
+              "entity_type": "Treatment",
+              "start_idx": 84,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T222",
+              "entity": "使用仪器",
+              "entity_type": "Treatment",
+              "start_idx": 96,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T216"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "(2)角色管理：建立和保持在社会、工作、家庭和朋友中的角色，从而正常参加工作、与人相处。",
+          "start_idx": 101,
+          "end_idx": 145,
+          "entities": [
+            {
+              "entity_id": "T223",
+              "entity": "建立和保持在社会、工作、家庭和朋友中的角色",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T224",
+              "entity": "正常参加工作、与人相处",
+              "entity_type": "Treatment",
+              "start_idx": 32,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T225",
+              "entity": "角色管理",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "(3)情绪管理：处理和应对疾病带来的情绪障碍。",
+          "start_idx": 145,
+          "end_idx": 168,
+          "entities": [
+            {
+              "entity_id": "T226",
+              "entity": "情绪管理",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T227",
+              "entity": "处理和应对疾病带来的情绪障碍",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "60",
+      "paragraph": "通常，教育团队由内分泌科医师、营养师、糖尿病专科护士组成，共同为患者提供DSME。不同成员的角色分工不同，美国糖尿病学会建议所有糖尿病患者都需要做以下三个方面的评估和转诊：(1)营养教育：由注册营养师提供医学营养评估与治疗；(2)糖尿病教育：在4个关键时机由糖尿病教育护士对患者进行评估、提供和调整DSME/S；(3)心理健康咨询：必要情况下转诊至专业心理医师。此外，患者可能需要康复治疗和运动管理专家的指导。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "通常，教育团队由内分泌科医师、营养师、糖尿病专科护士组成，共同为患者提供DSME。不同成员的角色分工不同，美国糖尿病学会建议所有糖尿病患者都需要做以下三个方面的评估和转诊：(1)营养教育：由注册营养师提供医学营养评估与治疗；(2)糖尿病教育：在4个关键时机由糖尿病教育护士对患者进行评估、提供和调整DSME/S；(3)心理健康咨询：必要情况下转诊至专业心理医师。",
+          "start_idx": 0,
+          "end_idx": 181,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T229",
+              "entity": "DSME",
+              "entity_type": "Treatment",
+              "start_idx": 36,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T230",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T231",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T232",
+              "entity": "营养教育",
+              "entity_type": "Treatment",
+              "start_idx": 89,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T233",
+              "entity": "糖尿病教育",
+              "entity_type": "Treatment",
+              "start_idx": 115,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T234",
+              "entity": "心理健康咨询",
+              "entity_type": "Treatment",
+              "start_idx": 159,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T235",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 149,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T236",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 129,
+              "end_idx": 132
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T228"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T232",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T233",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T236"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "此外，患者可能需要康复治疗和运动管理专家的指导。",
+          "start_idx": 181,
+          "end_idx": 205,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "61",
+      "paragraph": "随着信息化技术和互联网技术的发展，智能化的远程教育服务应用广泛。基于指南及专家共识构建知识库，设置健康评估提醒功能，智能化辅助识别潜在危险因素，在多学科管理患者的同时，将自我管理处方加人大数据和人工智能技术，实现线上线下、院内居家闭环管理的智能化处方系统应运而生。美国移动医疗公司WellDoc研发了首个获美国食品药品监督管理局批准的可帮助医师优化开具处方的手机应用BlueStar。在一项随机对照试验中，验证了其对糖化血红蛋白的降低效果达2.03%。So等开发了交互式虚拟网络平台[亚洲糖尿病联合评估(Joint Asia Diabetes Evaluation，JADE)].并证实亚洲不同国家和地区使用JADE平台的可行性和有效性。随着国内互联网技术的进步及大数据时代的快速发展，智能化处方系统(控糖尿病智能管理网络终端、APP端、微信端)也已在多家医院投人使用，且该系统通过与中国疾病预防控制中心等机构临床研究证实其有助于提高糖尿病患者血糖监测、有效运动及规律服药等行为的依从性.血糖控制效果明显。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "随着信息化技术和互联网技术的发展，智能化的远程教育服务应用广泛。基于指南及专家共识构建知识库，设置健康评估提醒功能，智能化辅助识别潜在危险因素，在多学科管理患者的同时，将自我管理处方加人大数据和人工智能技术，实现线上线下、院内居家闭环管理的智能化处方系统应运而生。美国移动医疗公司WellDoc研发了首个获美国食品药品监督管理局批准的可帮助医师优化开具处方的手机应用BlueStar。在一项随机对照试验中，验证了其对糖化血红蛋白的降低效果达2.03%。So等开发了交互式虚拟网络平台[亚洲糖尿病联合评估(Joint Asia Diabetes Evaluation，JADE)].并证实亚洲不同国家和地区使用JADE平台的可行性和有效性。随着国内互联网技术的进步及大数据时代的快速发展，智能化处方系统(控糖尿病智能管理网络终端、APP端、微信端)也已在多家医院投人使用，且该系统通过与中国疾病预防控制中心等机构临床研究证实其有助于提高糖尿病患者血糖监测、有效运动及规律服药等行为的依从性.血糖控制效果明显。",
+          "start_idx": 0,
+          "end_idx": 453,
+          "entities": [
+            {
+              "entity_id": "T237",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 208,
+              "end_idx": 214
+            },
+            {
+              "entity_id": "T238",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 244,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T239",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 352,
+              "end_idx": 355
+            },
+            {
+              "entity_id": "T240",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 417,
+              "end_idx": 420
+            },
+            {
+              "entity_id": "T241",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 422,
+              "end_idx": 426
+            },
+            {
+              "entity_id": "T242",
+              "entity": "血糖控制",
+              "entity_type": "Test_items",
+              "start_idx": 444,
+              "end_idx": 448
+            },
+            {
+              "entity_id": "T243",
+              "entity": "降低",
+              "entity_type": "Test_Value",
+              "start_idx": 215,
+              "end_idx": 217
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T241",
+              "tail_entity_id": "T240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "62",
+      "paragraph": "目前，糖尿病自我管理处方的智能平台已经实现多种功能：储存患者健康信息、通过人工智能技术快速辅助分析患者自我管理行为问题、智能生成个性化糖尿病自我管理方案、配合远程糖尿病教育和复诊评估、评估后智能优化自我管理处方，为患者提供连续的DSME/S。不久的将来，通过大数据和云平台，可以将智能硬件(如血糖仪和可穿戴设备)自动连接，甚至可与居民健康档案系统对接，形成区域性疾病管理云平台，最大程度地提升糖尿病教育管理的效益。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前，糖尿病自我管理处方的智能平台已经实现多种功能：储存患者健康信息、通过人工智能技术快速辅助分析患者自我管理行为问题、智能生成个性化糖尿病自我管理方案、配合远程糖尿病教育和复诊评估、评估后智能优化自我管理处方，为患者提供连续的DSME/S。",
+          "start_idx": 0,
+          "end_idx": 121,
+          "entities": [
+            {
+              "entity_id": "T244",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T245",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T246",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 81,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T247",
+              "entity": "DSME/S",
+              "entity_type": "Treatment",
+              "start_idx": 114,
+              "end_idx": 120
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T246"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "不久的将来，通过大数据和云平台，可以将智能硬件(如血糖仪和可穿戴设备)自动连接，甚至可与居民健康档案系统对接，形成区域性疾病管理云平台，最大程度地提升糖尿病教育管理的效益。",
+          "start_idx": 121,
+          "end_idx": 207,
+          "entities": [
+            {
+              "entity_id": "T248",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T249",
+              "entity": "教育管理",
+              "entity_type": "Treatment",
+              "start_idx": 78,
+              "end_idx": 82
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T248"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

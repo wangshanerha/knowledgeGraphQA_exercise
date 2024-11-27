@@ -1,0 +1,573 @@
+{
+  "doc_id": "31",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "中国糖尿病防控专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国糖尿病防控专家共识",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "为了加强糖尿病防控工作，保障人民健康，国家卫生计生委疾病预防控制局组织开展了中国糖防控策略研究，经咨询和广泛征求意见，达成了专家共识，并在国家卫生计生委疾控局主办，中国疾病预防控制中心、中华医学会、中华预防医学会、中国医师协会共同承办的2016联合国糖尿病日共同关注糖尿病”活动中向社会公开发布，意见如下：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "为了加强糖尿病防控工作，保障人民健康，国家卫生计生委疾病预防控制局组织开展了中国糖防控策略研究，经咨询和广泛征求意见，达成了专家共识，并在国家卫生计生委疾控局主办，中国疾病预防控制中心、中华医学会、中华预防医学会、中国医师协会共同承办的2016联合国糖尿病日共同关注糖尿病”活动中向社会公开发布，意见如下：",
+          "start_idx": 0,
+          "end_idx": 153,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T2",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T3",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 133,
+              "end_idx": 136
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "1.我国糖尿病患病率为9.7%，患者人数近1个亿，呈快速增长趋势，导致糖尿病的危险因素广泛流行，已成为严重的公共卫生问题。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.我国糖尿病患病率为9.7%，患者人数近1个亿，呈快速增长趋势，导致糖尿病的危险因素广泛流行，已成为严重的公共卫生问题。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T4",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T5",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "2.我国居民糖尿病知晓率、治疗率、控制率低，引发多种并发症，致残致死率高，带来沉重疾病负担，严重危害劳动力健康，影响经济社会可持续发展。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.我国居民糖尿病知晓率、治疗率、控制率低，引发多种并发症，致残致死率高，带来沉重疾病负担，严重危害劳动力健康，影响经济社会可持续发展。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T6",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "3.糖尿病可防可控，关键在于早防早治。健康生活方式可有效预防糖尿病，早期发现、早期干预和规范治疗，可以减少和延缓并发症的发生，降低疾病负担，提高生命质量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.糖尿病可防可控，关键在于早防早治。",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T7",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "健康生活方式可有效预防糖尿病，早期发现、早期干预和规范治疗，可以减少和延缓并发症的发生，降低疾病负担，提高生命质量。",
+          "start_idx": 19,
+          "end_idx": 77,
+          "entities": [
+            {
+              "entity_id": "T8",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "4.要全面贯彻预防为主方针，坚持综合防控，防治结合，明确政府、社会、专业机构、家庭和个人在糖尿病防控中的责任，实施全方位全周期的健康管理，降低全人群糖尿病发病风险，维护和促进全民健康。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.要全面贯彻预防为主方针，坚持综合防控，防治结合，明确政府、社会、专业机构、家庭和个人在糖尿病防控中的责任，实施全方位全周期的健康管理，降低全人群糖尿病发病风险，维护和促进全民健康。",
+          "start_idx": 0,
+          "end_idx": 92,
+          "entities": [
+            {
+              "entity_id": "T9",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 77
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "因此，我们建议：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "因此，我们建议：",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "1.加强公共政策与立法，营造健康支持性环境。将健康融入所有政策，落实部门职责。将糖尿病等慢性病防控纳入《基本医疗卫生法》制订，推动营养改善条例、公共场所控烟条例等立法进程。制订可落实、可持续发展的国家糖尿病综合防治方案，开展全民健康生活方式行动，普及合理膳食、戒烟限酒、适量运动，开展“三减三健”专项活动，促进健康行为形成。加强媒体宣传，规范传播内容，提高公众健康素养。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.加强公共政策与立法，营造健康支持性环境。将健康融入所有政策，落实部门职责。将糖尿病等慢性病防控纳入《基本医疗卫生法》制订，推动营养改善条例、公共场所控烟条例等立法进程。制订可落实、可持续发展的国家糖尿病综合防治方案，开展全民健康生活方式行动，普及合理膳食、戒烟限酒、适量运动，开展“三减三健”专项活动，促进健康行为形成。",
+          "start_idx": 0,
+          "end_idx": 162,
+          "entities": [
+            {
+              "entity_id": "T11",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T12",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 100,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T13",
+              "entity": "合理膳食",
+              "entity_type": "Treatment",
+              "start_idx": 125,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T14",
+              "entity": "戒烟限酒",
+              "entity_type": "Treatment",
+              "start_idx": 130,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T15",
+              "entity": "适量运动",
+              "entity_type": "Treatment",
+              "start_idx": 135,
+              "end_idx": 139
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T12"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "加强媒体宣传，规范传播内容，提高公众健康素养。",
+          "start_idx": 162,
+          "end_idx": 185,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "2.推动实施生命全周期的健康管理。开展孕期和分娩后体重管理和血糖筛查，推动母乳喂养和正确添加辅食。培养儿童、青少年的健康行为和技能，保证学生在校每天1小时运动，预防儿童青少年肥胖。开展职业人群健康教育，落实工间健身制度，积极建设健康食堂，降低职业人群患病风险。开展中老年人健康体检，及早发现高危人群和患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.推动实施生命全周期的健康管理。开展孕期和分娩后体重管理和血糖筛查，推动母乳喂养和正确添加辅食。培养儿童、青少年的健康行为和技能，保证学生在校每天1小时运动，预防儿童青少年肥胖。",
+          "start_idx": 0,
+          "end_idx": 90,
+          "entities": [
+            {
+              "entity_id": "T16",
+              "entity": "血糖筛查",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T17",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T18",
+              "entity": "每天1小时运动",
+              "entity_type": "Treatment",
+              "start_idx": 72,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T19",
+              "entity": "体重管理",
+              "entity_type": "Treatment",
+              "start_idx": 25,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "开展职业人群健康教育，落实工间健身制度，积极建设健康食堂，降低职业人群患病风险。",
+          "start_idx": 90,
+          "end_idx": 130,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "开展中老年人健康体检，及早发现高危人群和患者。",
+          "start_idx": 130,
+          "end_idx": 153,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "3.实施高危人群干预，推动关口前移。用好居民健康档案和各类体检信息，开展机会性筛查，发现或识别高危个体。针对糖尿病前期人群和血糖正常性高危人群开展分层干预和管理。对超重、肥胖者以减重为目标强化生活方式干预。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.实施高危人群干预，推动关口前移。用好居民健康档案和各类体检信息，开展机会性筛查，发现或识别高危个体。针对糖尿病前期人群和血糖正常性高危人群开展分层干预和管理。对超重、肥胖者以减重为目标强化生活方式干预。",
+          "start_idx": 0,
+          "end_idx": 103,
+          "entities": [
+            {
+              "entity_id": "T20",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T21",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T22",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T23",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T24",
+              "entity": "减重",
+              "entity_type": "Treatment",
+              "start_idx": 89,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T25",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 96,
+              "end_idx": 102
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T22"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T22"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T23"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "4.完善糖尿病防控体系，规范糖尿病患者治疗与管理。落实基层医疗卫生机构、医院、公共卫生机构职责，推进分级诊疗制度，建立协作共享机制，促进防治结合。强化基层卫生服务能力建设，规范基本公共卫生服务糖尿病患者健康管理，对发生并发症、血糖控制效果不佳等符合转诊条件的患者及时转诊，对病情稳定患者强化非药物治疗和自我管理支持。加强医院对基层医疗卫生机构的技术指导和支持。公共卫生机构做好信息收集、质量控制和效果评价工作。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.完善糖尿病防控体系，规范糖尿病患者治疗与管理。落实基层医疗卫生机构、医院、公共卫生机构职责，推进分级诊疗制度，建立协作共享机制，促进防治结合。强化基层卫生服务能力建设，规范基本公共卫生服务糖尿病患者健康管理，对发生并发症、血糖控制效果不佳等符合转诊条件的患者及时转诊，对病情稳定患者强化非药物治疗和自我管理支持。",
+          "start_idx": 0,
+          "end_idx": 158,
+          "entities": [
+            {
+              "entity_id": "T26",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T27",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T29",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T30",
+              "entity": "控制效果不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 115,
+              "end_idx": 121
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T29",
+              "tail_entity_id": "T28"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "加强医院对基层医疗卫生机构的技术指导和支持。",
+          "start_idx": 158,
+          "end_idx": 180,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "公共卫生机构做好信息收集、质量控制和效果评价工作。",
+          "start_idx": 180,
+          "end_idx": 205,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "5.发展健康管理技术、创新健康服务模式。加强区域信息平台建设，推进互联网+移动健康服务，开展家庭医生签约服务。政府健全投入机制，引导社会力量增加糖尿病防治服务供给，催生糖尿病健康管理服务新模式。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.发展健康管理技术、创新健康服务模式。",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "加强区域信息平台建设，推进互联网+移动健康服务，开展家庭医生签约服务。",
+          "start_idx": 20,
+          "end_idx": 55,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "政府健全投入机制，引导社会力量增加糖尿病防治服务供给，催生糖尿病健康管理服务新模式。",
+          "start_idx": 55,
+          "end_idx": 97,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T32",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "糖尿病防控是控制慢性病和实现“健康中国”目标不可缺少的重要内容，要以改革创新为动力，坚持预防为主，树立大卫生、大健康理念，政府、社会和个人共同行动起来，遏制糖尿病增长的势头。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病防控是控制慢性病和实现“健康中国”目标不可缺少的重要内容，要以改革创新为动力，坚持预防为主，树立大卫生、大健康理念，政府、社会和个人共同行动起来，遏制糖尿病增长的势头。",
+          "start_idx": 0,
+          "end_idx": 87,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T34",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 81
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

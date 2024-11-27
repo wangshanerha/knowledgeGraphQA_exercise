@@ -1,0 +1,3667 @@
+{
+  "doc_id": "19",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "盘点降糖药物的中国指南/共识(上)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "盘点降糖药物的中国指南/共识(上)",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "降糖药物大多基于纠正导致血糖升高的两个主要病理生理改变，即胰岛素抵抗和胰岛素分泌受损。根据作用机制的不同，降糖药可分为：促进胰岛素分泌为主要作用的药物，包括磺脲类、格列奈类、二肽基肽酶-4(DPP-4) 抑制剂、胰高血糖素样肽-1(GLP-1) 受体激动剂或胰岛素替代药物(即外源性胰岛素制剂)；通过其他机制降低血糖的药物，包括双胍类、噻唑烷二酮类、α-糖苷酶抑制剂、钠-葡萄糖共转运蛋白2(SGLT-2) 抑制剂。下面我们将逐类盘点近几年发布的相关指南或共识，如存在更新版，则仅讨论最新版本。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "降糖药物大多基于纠正导致血糖升高的两个主要病理生理改变，即胰岛素抵抗和胰岛素分泌受损。",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T1",
+              "entity": "胰岛素分泌受损",
+              "entity_type": "Pathogenesis",
+              "start_idx": 35,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T2",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T3",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "根据作用机制的不同，降糖药可分为：促进胰岛素分泌为主要作用的药物，包括磺脲类、格列奈类、二肽基肽酶-4(DPP-4) 抑制剂、胰高血糖素样肽-1(GLP-1) 受体激动剂或胰岛素替代药物(即外源性胰岛素制剂)；通过其他机制降低血糖的药物，包括双胍类、噻唑烷二酮类、α-糖苷酶抑制剂、钠-葡萄糖共转运蛋白2(SGLT-2) 抑制剂。",
+          "start_idx": 43,
+          "end_idx": 208,
+          "entities": [
+            {
+              "entity_id": "T4",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T5",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T6",
+              "entity": "二肽基肽酶-4(DPP-4) 抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T7",
+              "entity": "胰高血糖素样肽-1(GLP-1) 受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T8",
+              "entity": "胰岛素替代药物(即外源性胰岛素制剂)",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T9",
+              "entity": "双胍类",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T10",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 125,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T11",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 132,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T12",
+              "entity": "钠-葡萄糖共转运蛋白2(SGLT-2) 抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 141,
+              "end_idx": 164
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "下面我们将逐类盘点近几年发布的相关指南或共识，如存在更新版，则仅讨论最新版本。",
+          "start_idx": 208,
+          "end_idx": 247,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": " ",
+          "start_idx": 247,
+          "end_idx": 248,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "二甲双胍(资料来源：《二甲双胍临床应用专家共识(2016年版)》) ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二甲双胍(资料来源：《二甲双胍临床应用专家共识(2016年版)》) ",
+          "start_idx": 0,
+          "end_idx": 34,
+          "entities": [
+            {
+              "entity_id": "T13",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T14",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "二甲双胍是一个在临床上已经应用了60年的老药，曾几经沉浮，目前国内外主要糖尿病指南均认可其核心地位，建议无论超重还是体重正常的2型糖尿病患者，除非存在禁忌证或无法耐受，否则都应从一开始就使用二甲双胍治疗，且联合治疗的方案中都应包括二甲双胍。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二甲双胍是一个在临床上已经应用了60年的老药，曾几经沉浮，目前国内外主要糖尿病指南均认可其核心地位，建议无论超重还是体重正常的2型糖尿病患者，除非存在禁忌证或无法耐受，否则都应从一开始就使用二甲双胍治疗，且联合治疗的方案中都应包括二甲双胍。",
+          "start_idx": 0,
+          "end_idx": 120,
+          "entities": [
+            {
+              "entity_id": "T15",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T16",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T17",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T18",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T19",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T20",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 115,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T21",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 63,
+              "end_idx": 65
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T19",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T19",
+              "tail_entity_id": "T18"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T18"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 120,
+          "end_idx": 121,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "作用机制 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "作用机制 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "二甲双胍改善高血糖的主要机制包括：(1)作用于肝脏，抑制糖异生，减少肝糖输出；(2)作用于外周组织(肌肉、脂肪)，改善肌肉糖原合成，降低游离脂肪酸，提高胰岛素敏感性，增加对葡萄糖的摄取和利用；(3)作用于肠道，抑制肠壁细胞摄取葡萄糖，提高胰高血糖素样肽-1(GLP-1) 水平。近年来研究者们更是发现二甲双胍可能具有改善肠道茵群、抗癌、抗衰老等更多”神奇“的作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二甲双胍改善高血糖的主要机制包括：(1)作用于肝脏，抑制糖异生，减少肝糖输出；(2)作用于外周组织(肌肉、脂肪)，改善肌肉糖原合成，降低游离脂肪酸，提高胰岛素敏感性，增加对葡萄糖的摄取和利用；(3)作用于肠道，抑制肠壁细胞摄取葡萄糖，提高胰高血糖素样肽-1(GLP-1) 水平。",
+          "start_idx": 0,
+          "end_idx": 139,
+          "entities": [
+            {
+              "entity_id": "T22",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T23",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T22",
+              "tail_entity_id": "T23"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "近年来研究者们更是发现二甲双胍可能具有改善肠道茵群、抗癌、抗衰老等更多”神奇“的作用。",
+          "start_idx": 139,
+          "end_idx": 182,
+          "entities": [
+            {
+              "entity_id": "T24",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "国内的多位内分泌、药学专家于2014年发布了第一版《二甲双胍临床应用专家共识》，基于这两年涌现的新证据，该共识于2016年进行了更新，从使用时机、剂量与疗效、安全性、特殊人群的使用以及降糖外作用等多个方面给出了指导建议。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "国内的多位内分泌、药学专家于2014年发布了第一版《二甲双胍临床应用专家共识》，基于这两年涌现的新证据，该共识于2016年进行了更新，从使用时机、剂量与疗效、安全性、特殊人群的使用以及降糖外作用等多个方面给出了指导建议。",
+          "start_idx": 0,
+          "end_idx": 110,
+          "entities": [
+            {
+              "entity_id": "T25",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "适用人群 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "适用人群 ",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "应该说，二甲双胍是真正的糖尿病全程治疗药物，从糖尿病预防到糖尿病前期再到糖尿病的各个阶段。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "应该说，二甲双胍是真正的糖尿病全程治疗药物，从糖尿病预防到糖尿病前期再到糖尿病的各个阶段。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T26",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T27",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T29",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T30",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T26",
+              "tail_entity_id": "T27"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 45,
+          "end_idx": 46,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "(1)2型糖尿病的一线首选和全程用药：在横向对比中，最佳有效剂量(2000毫克/天)二甲双胍治疗的降糖疗效要强于其他口服降糖药；在纵向对比中，与以其他口服降糖药物作为一线药物治疗的患者相比，以二甲双胍作为一线治疗的患者加用第二种口服降糖药或需要联合胰岛素治疗的时间最晚，以后需调整治疗方案的可能性也最低。二甲双胍减轻体重的这个“副作用”令其成为联合治疗中的“百搭药“。此外，二甲双胍还具有心血管保护作用，安全性和耐受性也很好，价格还不算贵。有这么多好处，也难怪该共识给出这样的建议，而且是最高级别的推荐——如无禁忌证，二甲双胍是治疗2型糖尿病的首选药物和联合治疗方案中的基础治疗药物，且应一直保留在糖尿病治疗方案中。记得在2007年版的《中国2型糖尿病防治指南》中还仅建议超重或肥胖的2型糖尿病患者将二甲双胍作为一线药物，此后的研究证据显示二甲双胍在正常体重/超重/肥胖的2型糖尿病患者中的疗效相当，体重并不是能否使用二甲双胍治疗的决定因素，所以早在2010年版的《中国2型糖尿病防治指南》中就已经开始给出与该共识类似的建议。\"",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)2型糖尿病的一线首选和全程用药：在横向对比中，最佳有效剂量(2000毫克/天)二甲双胍治疗的降糖疗效要强于其他口服降糖药；在纵向对比中，与以其他口服降糖药物作为一线药物治疗的患者相比，以二甲双胍作为一线治疗的患者加用第二种口服降糖药或需要联合胰岛素治疗的时间最晚，以后需调整治疗方案的可能性也最低。二甲双胍减轻体重的这个“副作用”令其成为联合治疗中的“百搭药“。此外，二甲双胍还具有心血管保护作用，安全性和耐受性也很好，价格还不算贵。有这么多好处，也难怪该共识给出这样的建议，而且是最高级别的推荐——如无禁忌证，二甲双胍是治疗2型糖尿病的首选药物和联合治疗方案中的基础治疗药物，且应一直保留在糖尿病治疗方案中。记得在2007年版的《中国2型糖尿病防治指南》中还仅建议超重或肥胖的2型糖尿病患者将二甲双胍作为一线药物，此后的研究证据显示二甲双胍在正常体重/超重/肥胖的2型糖尿病患者中的疗效相当，体重并不是能否使用二甲双胍治疗的决定因素，所以早在2010年版的《中国2型糖尿病防治指南》中就已经开始给出与该共识类似的建议。",
+          "start_idx": 0,
+          "end_idx": 463,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T32",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T33",
+              "entity": "2000毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 33,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T34",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T35",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T36",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T37",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 124,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T38",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 152,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T39",
+              "entity": "减轻体重",
+              "entity_type": "ADE",
+              "start_idx": 156,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T40",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 187,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T41",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 259,
+              "end_idx": 263
+            },
+            {
+              "entity_id": "T42",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 266,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T43",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 299,
+              "end_idx": 302
+            },
+            {
+              "entity_id": "T44",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 321,
+              "end_idx": 326
+            },
+            {
+              "entity_id": "T45",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 336,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T46",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 339,
+              "end_idx": 341
+            },
+            {
+              "entity_id": "T47",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 342,
+              "end_idx": 347
+            },
+            {
+              "entity_id": "T48",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 350,
+              "end_idx": 354
+            },
+            {
+              "entity_id": "T49",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 370,
+              "end_idx": 374
+            },
+            {
+              "entity_id": "T50",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 380,
+              "end_idx": 382
+            },
+            {
+              "entity_id": "T51",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 383,
+              "end_idx": 385
+            },
+            {
+              "entity_id": "T52",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 386,
+              "end_idx": 391
+            },
+            {
+              "entity_id": "T53",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 409,
+              "end_idx": 413
+            },
+            {
+              "entity_id": "T54",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 435,
+              "end_idx": 440
+            },
+            {
+              "entity_id": "T55",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 266,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T56",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 321,
+              "end_idx": 323
+            },
+            {
+              "entity_id": "T57",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 342,
+              "end_idx": 344
+            },
+            {
+              "entity_id": "T58",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 386,
+              "end_idx": 388
+            },
+            {
+              "entity_id": "T59",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 435,
+              "end_idx": 437
+            },
+            {
+              "entity_id": "T60",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T61",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 114,
+              "end_idx": 116
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T32",
+              "tail_entity_id": "T31"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T31"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R8",
+              "head_entity_id": "T33",
+              "tail_entity_id": "T32"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R9",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T38"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T42"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T42"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T44"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T45"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T46"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T57",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T54"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "\"",
+          "start_idx": 463,
+          "end_idx": 464,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "(2)2型糖尿病预防用药：二甲双胍是第一个被证明能预防糖尿病或延缓糖尿病发生的药物，能有效降低糖尿病前期人群发生2型糖尿病的风险，且具有良好的耐受性和长期有效性。不过在我国，预防糖尿病还不是二甲双胍的适应证，所以该共识也无法给出明确建议。但是，共识中提到，基于各国的大型研究结果，国际糖尿病联盟(IDF)2012年全球2型糖尿病指南推荐，预防糖尿病最好起始生活方式干预；对于空腹血糖受损(IFG)、年龄<60岁的肥胖人群，可给予二甲双胍干预；并建议糖尿病前期人群应起始生活方式干预，对生活方式不能有效控制血糖的患者，给予二甲双胍可有效预防糖尿病(属于超药品说明书用药——本刊注)，接受二甲双胍干预的患者应限于有预防糖尿病意愿、有很好的治疗依从性并有条件按照医嘱定期接受糖代谢评估的糖尿病前期个体。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)2型糖尿病预防用药：二甲双胍是第一个被证明能预防糖尿病或延缓糖尿病发生的药物，能有效降低糖尿病前期人群发生2型糖尿病的风险，且具有良好的耐受性和长期有效性。不过在我国，预防糖尿病还不是二甲双胍的适应证，所以该共识也无法给出明确建议。但是，共识中提到，基于各国的大型研究结果，国际糖尿病联盟(IDF)2012年全球2型糖尿病指南推荐，预防糖尿病最好起始生活方式干预；对于空腹血糖受损(IFG)、年龄<60岁的肥胖人群，可给予二甲双胍干预；并建议糖尿病前期人群应起始生活方式干预，对生活方式不能有效控制血糖的患者，给予二甲双胍可有效预防糖尿病(属于超药品说明书用药——本刊注)，接受二甲双胍干预的患者应限于有预防糖尿病意愿、有很好的治疗依从性并有条件按照医嘱定期接受糖代谢评估的糖尿病前期个体。",
+          "start_idx": 0,
+          "end_idx": 348,
+          "entities": [
+            {
+              "entity_id": "T62",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T63",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T64",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T65",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T66",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T67",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T68",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T69",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T70",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 89,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T71",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T72",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T73",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 159,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T74",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 159,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T75",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 171,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T76",
+              "entity": "空腹血糖受损(IFG)",
+              "entity_type": "Disease",
+              "start_idx": 187,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T77",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 206,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T78",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 214,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T79",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 224,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T80",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 252,
+              "end_idx": 254
+            },
+            {
+              "entity_id": "T81",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 260,
+              "end_idx": 264
+            },
+            {
+              "entity_id": "T82",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 269,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T83",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 292,
+              "end_idx": 296
+            },
+            {
+              "entity_id": "T84",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 307,
+              "end_idx": 310
+            },
+            {
+              "entity_id": "T85",
+              "entity": "糖代谢评估",
+              "entity_type": "Test",
+              "start_idx": 334,
+              "end_idx": 339
+            },
+            {
+              "entity_id": "T86",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 340,
+              "end_idx": 343
+            },
+            {
+              "entity_id": "T87",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 178,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T88",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 234,
+              "end_idx": 240
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T68"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T73"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T75"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T76"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T79"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T79"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T82"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T86"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "临床用法",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床用法",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "(1)剂型选择：目前，国内单一成分的二甲双胍制剂包括普通片(250毫克/片、500毫克/片或850毫克/片)、缓释片或胶囊(500毫克/片或500毫克/胶囊)、肠溶片或胶囊(250毫克/片或250毫克/胶囊)等；复方制剂则包括二甲双胍与磺脲类、吡格列酮或DPP一4抑制剂组成的复方制剂。该共识指出：①各种剂型的主要区别在于给药后制剂中药物的溶出释放行为不同，普通片剂在胃内崩解释放，肠溶片从胃排空到肠道后崩解释放，缓释片和缓释胶囊在胃肠道内缓慢地溶出、释放，肠溶胶囊在肠道内溶出、释放；②普通片剂在胃内的溶出速度较快，肠溶片和肠溶胶囊次之，缓释片再次之，因而每种制剂给药后血药浓度峰值、达峰时间、半衰期等参数存在一定差异，多剂量给药后的达稳时间也不一致；③缓释片/胶囊和肠溶片/胶囊相对于普通片剂而言，可减少给药后的胃肠道反应，提高患者的用药依从性；④合格的药物制剂，在相同的给药剂量下，各种剂型问应具有生物等效性；⑤不同剂型的临床疗效是否一致，尚需更多的临床研究证实。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)剂型选择：目前，国内单一成分的二甲双胍制剂包括普通片(250毫克/片、500毫克/片或850毫克/片)、缓释片或胶囊(500毫克/片或500毫克/胶囊)、肠溶片或胶囊(250毫克/片或250毫克/胶囊)等；复方制剂则包括二甲双胍与磺脲类、吡格列酮或DPP一4抑制剂组成的复方制剂。",
+          "start_idx": 0,
+          "end_idx": 143,
+          "entities": [
+            {
+              "entity_id": "T89",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T90",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T91",
+              "entity": "吡格列酮",
+              "entity_type": "Drug",
+              "start_idx": 122,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T92",
+              "entity": "DPP一4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T94",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "该共识指出：①各种剂型的主要区别在于给药后制剂中药物的溶出释放行为不同，普通片剂在胃内崩解释放，肠溶片从胃排空到肠道后崩解释放，缓释片和缓释胶囊在胃肠道内缓慢地溶出、释放，肠溶胶囊在肠道内溶出、释放；②普通片剂在胃内的溶出速度较快，肠溶片和肠溶胶囊次之，缓释片再次之，因而每种制剂给药后血药浓度峰值、达峰时间、半衰期等参数存在一定差异，多剂量给药后的达稳时间也不一致；③缓释片/胶囊和肠溶片/胶囊相对于普通片剂而言，可减少给药后的胃肠道反应，提高患者的用药依从性；④合格的药物制剂，在相同的给药剂量下，各种剂型问应具有生物等效性；⑤不同剂型的临床疗效是否一致，尚需更多的临床研究证实。",
+          "start_idx": 143,
+          "end_idx": 435,
+          "entities": [
+            {
+              "entity_id": "T93",
+              "entity": "胃肠道反应",
+              "entity_type": "ADE",
+              "start_idx": 215,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T95",
+              "entity": "血药浓度",
+              "entity_type": "Pathogenesis",
+              "start_idx": 143,
+              "end_idx": 147
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "(2)使用方法：①用量临床研究显示，在500~2000毫克/天的剂量范围内，二甲双胍的降糖效果随剂量增加而增加，而当每日用量达到1000豪克后，胃肠道反应并未随剂量增加而加重。该共识推荐，二甲双胍起效的最小剂量为500毫克/天，成人可用的最大剂量为2550毫克/天，最佳有效剂量为2000毫克/天。大家看看是不是自己的二甲双胍用量远没有达到这个标准。②调量剂量调整遵循“小剂量起始，逐渐加量”的原则，开始时每日用量不超1000毫克，1~2周后加量至最大有效剂量2000毫克/天或最大耐受剂量。考虑药物的临床疗效及从患者依从性，可采用简化的剂量方案，建议起始500毫克，2次/天，如无明显胃肠道不良反应，随后可逐至1000，2次/天。③服法可在进餐时或餐后立即服用，缓释剂型1次/天，晚餐时或餐后立即服用。根据患者状况，当每日用量达到1500毫克后，可分为2~3次服用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)使用方法：①用量临床研究显示，在500~2000毫克/天的剂量范围内，二甲双胍的降糖效果随剂量增加而增加，而当每日用量达到1000豪克后，胃肠道反应并未随剂量增加而加重。该共识推荐，二甲双胍起效的最小剂量为500毫克/天，成人可用的最大剂量为2550毫克/天，最佳有效剂量为2000毫克/天。",
+          "start_idx": 0,
+          "end_idx": 149,
+          "entities": [
+            {
+              "entity_id": "T96",
+              "entity": "500~2000毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 19,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T97",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 38,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T98",
+              "entity": "胃肠道反应",
+              "entity_type": "ADE",
+              "start_idx": 72,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T99",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 94,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T100",
+              "entity": "500毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 106,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T101",
+              "entity": "2550毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 124,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T102",
+              "entity": "2000毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 140,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T111",
+              "entity": "每日用量达到1000豪克",
+              "entity_type": "Amount",
+              "start_idx": 58,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R35",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R39",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T99"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T99"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "大家看看是不是自己的二甲双胍用量远没有达到这个标准。",
+          "start_idx": 149,
+          "end_idx": 175,
+          "entities": [
+            {
+              "entity_id": "T103",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "②调量剂量调整遵循“小剂量起始，逐渐加量”的原则，开始时每日用量不超1000毫克，1~2周后加量至最大有效剂量2000毫克/天或最大耐受剂量。",
+          "start_idx": 175,
+          "end_idx": 246,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "2000毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 55,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T112",
+              "entity": "每日用量不超1000毫克",
+              "entity_type": "Amount",
+              "start_idx": 28,
+              "end_idx": 40
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "考虑药物的临床疗效及从患者依从性，可采用简化的剂量方案，建议起始500毫克，2次/天，如无明显胃肠道不良反应，随后可逐至1000，2次/天。",
+          "start_idx": 246,
+          "end_idx": 316,
+          "entities": [
+            {
+              "entity_id": "T105",
+              "entity": "500毫克",
+              "entity_type": "Amount",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T106",
+              "entity": "2次/天",
+              "entity_type": "Frequency",
+              "start_idx": 38,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T107",
+              "entity": "胃肠道不良反应",
+              "entity_type": "ADE",
+              "start_idx": 47,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T108",
+              "entity": "1000",
+              "entity_type": "Amount",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T109",
+              "entity": "2次/天",
+              "entity_type": "Frequency",
+              "start_idx": 65,
+              "end_idx": 69
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "③服法可在进餐时或餐后立即服用，缓释剂型1次/天，晚餐时或餐后立即服用。",
+          "start_idx": 316,
+          "end_idx": 352,
+          "entities": [
+            {
+              "entity_id": "T110",
+              "entity": "1次/天",
+              "entity_type": "Frequency",
+              "start_idx": 20,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "根据患者状况，当每日用量达到1500毫克后，可分为2~3次服用。",
+          "start_idx": 352,
+          "end_idx": 384,
+          "entities": [
+            {
+              "entity_id": "T113",
+              "entity": "每日用量达到1500毫克",
+              "entity_type": "Amount",
+              "start_idx": 8,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "(3)联合用药：将该共识的这部分内容概括一句话就是，二甲双胍可以和临床上现有的各种降糖药联用，而且还能减轻某些降糖药的副作用(α-糖苷酶抑制剂除外，两者联用有可能增加胃肠不适)，实现扬长避短的效果。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)联合用药：将该共识的这部分内容概括一句话就是，二甲双胍可以和临床上现有的各种降糖药联用，而且还能减轻某些降糖药的副作用(α-糖苷酶抑制剂除外，两者联用有可能增加胃肠不适)，实现扬长避短的效果。",
+          "start_idx": 0,
+          "end_idx": 99,
+          "entities": [
+            {
+              "entity_id": "T114",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T115",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T116",
+              "entity": "胃肠不适",
+              "entity_type": "ADE",
+              "start_idx": 83,
+              "end_idx": 87
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R41",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R42",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T115"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "(4)特殊情况：①尽管二甲双胍说明书上的禁忌一栏中列出了需要药物治疗的充血性心力衰竭，研究显示，二甲双胍本身并不会导致心衰，也不会对心衰患者造成不良影响，相反，甚至可能降低糖尿病患者心衰和死亡风险，提高伴心衰的糖尿病患者的存活率。所以，美国糖尿病协会(ADA)的糖尿病指南指出，如肾功能正常，二甲双胍可用于病情稳定的充血性心衰患者；欧洲版二甲双胍说明书中更是单春了慢性心衰的禁忌证。②年龄同样不是二甲双胍使用禁忌，而是要根据患者的肾功能情况而定，由于随着年龄增长，肾功能会逐渐下降，高龄患者使用二甲双胍时需定期监测肾功能。③二甲双胍可用于10岁及以上的2型糖尿病儿童青少年，且最高剂量不超过2000毫克/天，目前暂不推荐用于10岁以下的患儿④虽然国际多个学术组织推荐二甲双胍可用于妊娠糖尿病患者，但由于目前国内证据缺乏，我国药监部门尚未批准二甲双胍用于妊娠妇女。⑤尽管二甲双胍不经肝脏代谢，无肝脏毒性，但建议血清转氨酶超过3倍正常上限或有严重肝功能不全的患者避免使用二甲双胍，血清转氨酶轻度升高者使用时应密切监测肝功能。⑥二甲双胍本身不会对肾功能有影响，随着教育普及，公众对二甲双胍伤肾的错误认识已经得较普遍的纠正，近年来国内外的各大指南都将二甲双胍的使用范围放宽至轻中度肾功能不全患者，但中度肾功能不全患者应减少用量并停用治疗恶心、呕吐及脱水的药物。⑦肾功能正常者在造影前不必停用二甲双胍，但使用造影剂后应在医生的指导下停用48~72小时，复查肾功能正常后可继续用药；而肾功能异常者在使用造影剂及全身麻醉术前48小时时应暂停二甲双胍，之后还需停药48~72小时，复查肾功能正常后可继续用药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)特殊情况：①尽管二甲双胍说明书上的禁忌一栏中列出了需要药物治疗的充血性心力衰竭，研究显示，二甲双胍本身并不会导致心衰，也不会对心衰患者造成不良影响，相反，甚至可能降低糖尿病患者心衰和死亡风险，提高伴心衰的糖尿病患者的存活率。所以，美国糖尿病协会(ADA)的糖尿病指南指出，如肾功能正常，二甲双胍可用于病情稳定的充血性心衰患者；欧洲版二甲双胍说明书中更是单春了慢性心衰的禁忌证。②年龄同样不是二甲双胍使用禁忌，而是要根据患者的肾功能情况而定，由于随着年龄增长，肾功能会逐渐下降，高龄患者使用二甲双胍时需定期监测肾功能。③二甲双胍可用于10岁及以上的2型糖尿病儿童青少年，且最高剂量不超过2000毫克/天，目前暂不推荐用于10岁以下的患儿④虽然国际多个学术组织推荐二甲双胍可用于妊娠糖尿病患者，但由于目前国内证据缺乏，我国药监部门尚未批准二甲双胍用于妊娠妇女。⑤尽管二甲双胍不经肝脏代谢，无肝脏毒性，但建议血清转氨酶超过3倍正常上限或有严重肝功能不全的患者避免使用二甲双胍，血清转氨酶轻度升高者使用时应密切监测肝功能。⑥二甲双胍本身不会对肾功能有影响，随着教育普及，公众对二甲双胍伤肾的错误认识已经得较普遍的纠正，近年来国内外的各大指南都将二甲双胍的使用范围放宽至轻中度肾功能不全患者，但中度肾功能不全患者应减少用量并停用治疗恶心、呕吐及脱水的药物。⑦肾功能正常者在造影前不必停用二甲双胍，但使用造影剂后应在医生的指导下停用48~72小时，复查肾功能正常后可继续用药；而肾功能异常者在使用造影剂及全身麻醉术前48小时时应暂停二甲双胍，之后还需停药48~72小时，复查肾功能正常后可继续用药。",
+          "start_idx": 0,
+          "end_idx": 696,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T118",
+              "entity": "充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T119",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T120",
+              "entity": "心衰",
+              "entity_type": "ADE",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T121",
+              "entity": "心衰",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T122",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 66,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T123",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T124",
+              "entity": "心衰",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T125",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 91,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T126",
+              "entity": "心衰",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T127",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 102,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T128",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T129",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T130",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 131,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T131",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 146,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T132",
+              "entity": "充血性心衰",
+              "entity_type": "Disease",
+              "start_idx": 158,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T133",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 161,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T134",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T135",
+              "entity": "慢性心衰",
+              "entity_type": "Disease",
+              "start_idx": 182,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T136",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 198,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T137",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 247,
+              "end_idx": 251
+            },
+            {
+              "entity_id": "T138",
+              "entity": "监测肾功能",
+              "entity_type": "Test",
+              "start_idx": 255,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T139",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 262,
+              "end_idx": 266
+            },
+            {
+              "entity_id": "T140",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 276,
+              "end_idx": 281
+            },
+            {
+              "entity_id": "T141",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 276,
+              "end_idx": 278
+            },
+            {
+              "entity_id": "T142",
+              "entity": "2000毫克/天",
+              "entity_type": "Amount",
+              "start_idx": 295,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T143",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 333,
+              "end_idx": 337
+            },
+            {
+              "entity_id": "T144",
+              "entity": "妊娠糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 340,
+              "end_idx": 345
+            },
+            {
+              "entity_id": "T145",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 370,
+              "end_idx": 374
+            },
+            {
+              "entity_id": "T146",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 384,
+              "end_idx": 388
+            },
+            {
+              "entity_id": "T147",
+              "entity": "肝脏毒性",
+              "entity_type": "ADE",
+              "start_idx": 396,
+              "end_idx": 400
+            },
+            {
+              "entity_id": "T148",
+              "entity": "血清转氨酶",
+              "entity_type": "Test_items",
+              "start_idx": 404,
+              "end_idx": 409
+            },
+            {
+              "entity_id": "T149",
+              "entity": "超过3倍正常上限",
+              "entity_type": "Test_Value",
+              "start_idx": 409,
+              "end_idx": 417
+            },
+            {
+              "entity_id": "T150",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 419,
+              "end_idx": 421
+            },
+            {
+              "entity_id": "T151",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 421,
+              "end_idx": 426
+            },
+            {
+              "entity_id": "T152",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 421,
+              "end_idx": 422
+            },
+            {
+              "entity_id": "T153",
+              "entity": "血清转氨酶",
+              "entity_type": "Test_items",
+              "start_idx": 438,
+              "end_idx": 443
+            },
+            {
+              "entity_id": "T154",
+              "entity": "轻度升高",
+              "entity_type": "Test_Value",
+              "start_idx": 443,
+              "end_idx": 447
+            },
+            {
+              "entity_id": "T155",
+              "entity": "监测肝功能",
+              "entity_type": "Test",
+              "start_idx": 454,
+              "end_idx": 459
+            },
+            {
+              "entity_id": "T156",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 461,
+              "end_idx": 465
+            },
+            {
+              "entity_id": "T157",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 487,
+              "end_idx": 491
+            },
+            {
+              "entity_id": "T158",
+              "entity": "伤肾",
+              "entity_type": "ADE",
+              "start_idx": 491,
+              "end_idx": 493
+            },
+            {
+              "entity_id": "T159",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 521,
+              "end_idx": 525
+            },
+            {
+              "entity_id": "T160",
+              "entity": "轻中度",
+              "entity_type": "Level",
+              "start_idx": 533,
+              "end_idx": 536
+            },
+            {
+              "entity_id": "T161",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 536,
+              "end_idx": 541
+            },
+            {
+              "entity_id": "T162",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 536,
+              "end_idx": 537
+            },
+            {
+              "entity_id": "T163",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 545,
+              "end_idx": 547
+            },
+            {
+              "entity_id": "T164",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 547,
+              "end_idx": 552
+            },
+            {
+              "entity_id": "T165",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 547,
+              "end_idx": 548
+            },
+            {
+              "entity_id": "T166",
+              "entity": "造影",
+              "entity_type": "Test",
+              "start_idx": 584,
+              "end_idx": 586
+            },
+            {
+              "entity_id": "T167",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 591,
+              "end_idx": 595
+            },
+            {
+              "entity_id": "T168",
+              "entity": "造影剂",
+              "entity_type": "Drug",
+              "start_idx": 599,
+              "end_idx": 602
+            },
+            {
+              "entity_id": "T169",
+              "entity": "肾功能异常",
+              "entity_type": "Disease",
+              "start_idx": 636,
+              "end_idx": 641
+            },
+            {
+              "entity_id": "T170",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 636,
+              "end_idx": 637
+            },
+            {
+              "entity_id": "T171",
+              "entity": "造影剂",
+              "entity_type": "Drug",
+              "start_idx": 645,
+              "end_idx": 648
+            },
+            {
+              "entity_id": "T172",
+              "entity": "全身麻醉",
+              "entity_type": "Operation",
+              "start_idx": 649,
+              "end_idx": 653
+            },
+            {
+              "entity_id": "T173",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 663,
+              "end_idx": 667
+            },
+            {
+              "entity_id": "T174",
+              "entity": "复查肾功能",
+              "entity_type": "Test",
+              "start_idx": 682,
+              "end_idx": 687
+            },
+            {
+              "entity_id": "T175",
+              "entity": "复查肾功能",
+              "entity_type": "Test",
+              "start_idx": 621,
+              "end_idx": 626
+            },
+            {
+              "entity_id": "T176",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 38,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T177",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 184,
+              "end_idx": 185
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T121"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T124"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T126"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R50",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T139"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T151"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T161"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T161"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T164"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T169"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "(5)药物相互作用：①氨氯吡咪、地高辛、吗啡、普鲁卡因胺、奎尼丁、奎宁、雷尼替丁、氨苯蝶啶、甲氧苄氨嘧啶和万古霉素等药物会影响肾功能或二甲双胍分布，因此建议密切监测血糖并调整二甲双胍和/或其他药物的剂量。②同时服用噻嗪类药物或其他利尿剂、糖皮质激素、吩噻嗪、甲状腺制剂、雌激素、口服避孕药、苯妥英、烟碱酸、拟交感神经药、钙离子通道阻滞剂和异烟肼等可引起血糖升高的药物时，也应密切监测血糖，这些药物停用后，则要密切注意低血糖。③二甲双胍有增加华法林的抗凝血倾向。④树脂类药物，如苏合香、血竭、乳香等中药与二甲双胍合用会减少其吸收。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(5)药物相互作用：①氨氯吡咪、地高辛、吗啡、普鲁卡因胺、奎尼丁、奎宁、雷尼替丁、氨苯蝶啶、甲氧苄氨嘧啶和万古霉素等药物会影响肾功能或二甲双胍分布，因此建议密切监测血糖并调整二甲双胍和/或其他药物的剂量。②同时服用噻嗪类药物或其他利尿剂、糖皮质激素、吩噻嗪、甲状腺制剂、雌激素、口服避孕药、苯妥英、烟碱酸、拟交感神经药、钙离子通道阻滞剂和异烟肼等可引起血糖升高的药物时，也应密切监测血糖，这些药物停用后，则要密切注意低血糖。③二甲双胍有增加华法林的抗凝血倾向。",
+          "start_idx": 0,
+          "end_idx": 230,
+          "entities": [
+            {
+              "entity_id": "T178",
+              "entity": "氨氯吡咪",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T179",
+              "entity": "地高辛",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T180",
+              "entity": "吗啡",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T181",
+              "entity": "普鲁卡因胺",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T182",
+              "entity": "奎尼丁",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T183",
+              "entity": "奎宁",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T184",
+              "entity": "雷尼替丁",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T185",
+              "entity": "氨苯蝶啶",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T186",
+              "entity": "甲氧苄氨嘧啶",
+              "entity_type": "Drug",
+              "start_idx": 46,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T187",
+              "entity": "万古霉素",
+              "entity_type": "Drug",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T188",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T189",
+              "entity": "监测血糖",
+              "entity_type": "Test_items",
+              "start_idx": 80,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T190",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 87,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T191",
+              "entity": "噻嗪类药物",
+              "entity_type": "Drug",
+              "start_idx": 107,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T192",
+              "entity": "利尿剂",
+              "entity_type": "Drug",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T193",
+              "entity": "糖皮质激素",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T194",
+              "entity": "吩噻嗪",
+              "entity_type": "Drug",
+              "start_idx": 125,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T195",
+              "entity": "甲状腺制剂",
+              "entity_type": "Drug",
+              "start_idx": 129,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T196",
+              "entity": "雌激素",
+              "entity_type": "Drug",
+              "start_idx": 135,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T197",
+              "entity": "口服避孕药",
+              "entity_type": "Drug",
+              "start_idx": 139,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T198",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 139,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T199",
+              "entity": "苯妥英",
+              "entity_type": "Drug",
+              "start_idx": 145,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T200",
+              "entity": "烟碱酸",
+              "entity_type": "Drug",
+              "start_idx": 149,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T201",
+              "entity": "拟交感神经药",
+              "entity_type": "Drug",
+              "start_idx": 153,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T202",
+              "entity": "钙离子通道阻滞剂",
+              "entity_type": "Drug",
+              "start_idx": 160,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T203",
+              "entity": "异烟肼",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T204",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 176,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T205",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 178,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T206",
+              "entity": "监测血糖",
+              "entity_type": "Test_items",
+              "start_idx": 189,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T207",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 208,
+              "end_idx": 211
+            },
+            {
+              "entity_id": "T208",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 213,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T209",
+              "entity": "华法林",
+              "entity_type": "Drug",
+              "start_idx": 220,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T210",
+              "entity": "抗凝血",
+              "entity_type": "ADE",
+              "start_idx": 224,
+              "end_idx": 227
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T198",
+              "tail_entity_id": "T197"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R61",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T209"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "④树脂类药物，如苏合香、血竭、乳香等中药与二甲双胍合用会减少其吸收。",
+          "start_idx": 230,
+          "end_idx": 264,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "苏合香",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T212",
+              "entity": "血竭",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T213",
+              "entity": "乳香",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T214",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T215",
+              "entity": "树脂类药物",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "磺脲类药物(资料来源：《磺脲类药物临床应用专家共识(2016年版)》)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "磺脲类药物(资料来源：《磺脲类药物临床应用专家共识(2016年版)》)",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T216",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T217",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "磺脲类药物正式用于糖尿病临床治疗也已经快60年了，目前仍是糖尿病治疗领域应用最为广泛的口服降糖药物之一，并且在国内外2型糖尿病指南中占据着非常重要的治疗地位。基于循证医学证据的进展，2004年版《磺脲类药物临床应用专家共识》在2016年得到更新。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "磺脲类药物正式用于糖尿病临床治疗也已经快60年了，目前仍是糖尿病治疗领域应用最为广泛的口服降糖药物之一，并且在国内外2型糖尿病指南中占据着非常重要的治疗地位。",
+          "start_idx": 0,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T218",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T219",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T220",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T221",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T222",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T223",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 58,
+              "end_idx": 60
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R63",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T218"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T222"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "基于循证医学证据的进展，2004年版《磺脲类药物临床应用专家共识》在2016年得到更新。",
+          "start_idx": 79,
+          "end_idx": 123,
+          "entities": [
+            {
+              "entity_id": "T224",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "作用机制",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "作用机制",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "磺脲类药物改善高血糖的机制包括：①刺激胰岛β细胞分泌胰岛素，其中格列美脲可能具有葡萄糖依赖性的促胰岛素分泌作用。②部分胰岛素增敏作用。试验表明，磺脲类药物可使外周葡萄糖利用率加平均增加近三分之一(29%)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "磺脲类药物改善高血糖的机制包括：①刺激胰岛β细胞分泌胰岛素，其中格列美脲可能具有葡萄糖依赖性的促胰岛素分泌作用。",
+          "start_idx": 0,
+          "end_idx": 56,
+          "entities": [
+            {
+              "entity_id": "T225",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T226",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T227",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T226"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "②部分胰岛素增敏作用。",
+          "start_idx": 56,
+          "end_idx": 67,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "试验表明，磺脲类药物可使外周葡萄糖利用率加平均增加近三分之一(29%)。",
+          "start_idx": 67,
+          "end_idx": 103,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "适用人群",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "适用人群",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "尽管新型降糖药物不断出现，磺脲类药物以其临床应用经验丰富、疗效确切和价格低廉，无论是在国内还是国外，仍然被广泛应用，国内外的多个2型糖尿病指南也将其推荐为一线备选或二线降糖用药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "尽管新型降糖药物不断出现，磺脲类药物以其临床应用经验丰富、疗效确切和价格低廉，无论是在国内还是国外，仍然被广泛应用，国内外的多个2型糖尿病指南也将其推荐为一线备选或二线降糖用药。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T229",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T230",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T231",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 64,
+              "end_idx": 66
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T230"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T231",
+              "tail_entity_id": "T230"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "(1)一线备选：尽管二甲双胍被作为一线用药，但当患者无法耐受二甲双胍治疗或是存在禁忌证时，可考虑将磺脲类药物作为一线用药。该共识还指出，对于新诊断的糖化血红蛋白>7.5%的2型糖尿病患者，可选择作用机制互补的两种降糖药物联合应用，结合中国国情和患者特点，磺脲类药物联合二甲双胍是推荐的联合治疗方案之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)一线备选：尽管二甲双胍被作为一线用药，但当患者无法耐受二甲双胍治疗或是存在禁忌证时，可考虑将磺脲类药物作为一线用药。该共识还指出，对于新诊断的糖化血红蛋白>7.5%的2型糖尿病患者，可选择作用机制互补的两种降糖药物联合应用，结合中国国情和患者特点，磺脲类药物联合二甲双胍是推荐的联合治疗方案之一。",
+          "start_idx": 0,
+          "end_idx": 151,
+          "entities": [
+            {
+              "entity_id": "T232",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T233",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T234",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T235",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T236",
+              "entity": ">7.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 80,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T237",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T238",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T239",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T240",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 138
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T238",
+              "tail_entity_id": "T237"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "(2)二线用药：当二甲双胍最佳有效剂量单药治疗仍无法控糖达标时，需增加其他类型降糖药，磺脲类药物是备选之一。需要指出的是，尽管磺脲类药物可引起患者体重增加，但超重或肥胖并不是其治疗的禁忌证。相比于传统磺脲类药物(如氯磺丙脲、格列本脲)，新型磺脲类药物(如格列美脲)和剂型(如格列齐特缓释片)对患者体重影响较小，而且通过与二甲双胍、阿卡波糖、SGLT一2抑制剂等具有减轻体重作用的药物联用，能够减少磺脲类药物的体重增加风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)二线用药：当二甲双胍最佳有效剂量单药治疗仍无法控糖达标时，需增加其他类型降糖药，磺脲类药物是备选之一。需要指出的是，尽管磺脲类药物可引起患者体重增加，但超重或肥胖并不是其治疗的禁忌证。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T241",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T242",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T243",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T244",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 73,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T245",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T246",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 84
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R69",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T243"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "相比于传统磺脲类药物(如氯磺丙脲、格列本脲)，新型磺脲类药物(如格列美脲)和剂型(如格列齐特缓释片)对患者体重影响较小，而且通过与二甲双胍、阿卡波糖、SGLT一2抑制剂等具有减轻体重作用的药物联用，能够减少磺脲类药物的体重增加风险。",
+          "start_idx": 95,
+          "end_idx": 211,
+          "entities": [
+            {
+              "entity_id": "T247",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T248",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T249",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T250",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T251",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T252",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T253",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T254",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T255",
+              "entity": "SGLT一2抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 75,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T256",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 103,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T257",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 109,
+              "end_idx": 113
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T256"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "临床用法",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床用法",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "(1)药物选择：从磺脲类药物的降糖机制不难看出，患者需要有一定的胰岛功能才能起效，所以糖尿病病程较短且能够坚持饮食和运动干预的患者使用磺脲类药物的疗效会更好。早期磺脲类药物甲苯磺丁脲和氯磺丙脲已基本退出临床，目前临床常用的磺脲类药物包括格列美脲、格列齐特、格列吡嗪、格列喹酮、格列本脲等。格列喹酮、格列吡嗪普通剂型属于短效制剂，作用时间较短，适用于餐后血糖升高为主的患者；格列美脲、格列吡嗪控释剂、格列齐特、格列齐特缓释片、格列本脲为中、长效制剂，作用时间较长，适用于以空腹血糖升高为主的患者或空腹、餐后血糖均高的患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)药物选择：从磺脲类药物的降糖机制不难看出，患者需要有一定的胰岛功能才能起效，所以糖尿病病程较短且能够坚持饮食和运动干预的患者使用磺脲类药物的疗效会更好。",
+          "start_idx": 0,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T258",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T259",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T260",
+              "entity": "饮食和运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 55,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T261",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 72
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T261",
+              "tail_entity_id": "T259"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "早期磺脲类药物甲苯磺丁脲和氯磺丙脲已基本退出临床，目前临床常用的磺脲类药物包括格列美脲、格列齐特、格列吡嗪、格列喹酮、格列本脲等。",
+          "start_idx": 79,
+          "end_idx": 144,
+          "entities": [
+            {
+              "entity_id": "T262",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T263",
+              "entity": "甲苯磺丁脲",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T264",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T265",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T266",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T267",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T268",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T269",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 54,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T270",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 63
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "格列喹酮、格列吡嗪普通剂型属于短效制剂，作用时间较短，适用于餐后血糖升高为主的患者；格列美脲、格列吡嗪控释剂、格列齐特、格列齐特缓释片、格列本脲为中、长效制剂，作用时间较长，适用于以空腹血糖升高为主的患者或空腹、餐后血糖均高的患者。",
+          "start_idx": 144,
+          "end_idx": 260,
+          "entities": [
+            {
+              "entity_id": "T271",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T272",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T273",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T274",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T275",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T276",
+              "entity": "格列吡嗪控释剂",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T277",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T278",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T279",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T280",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T281",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T282",
+              "entity": "空腹、餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 103,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T283",
+              "entity": "均高",
+              "entity_type": "Test_Value",
+              "start_idx": 110,
+              "end_idx": 112
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "(2)使用方法：磺脲类药物的降糖作用在常规剂量内呈剂量依赖性，且患者初始糖化血红蛋白水平越高，治疗后的降幅越大。由于低血糖是磺脲类药物最常见的不良反应，所以宜从小剂量开始，根据血糖监测结果逐渐调整用量，一般每1~2周调整一次。任何一种磺脲类药物的每日用量都不应超过其最大剂量。常用磺脲类药物的用法见表1。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)使用方法：磺脲类药物的降糖作用在常规剂量内呈剂量依赖性，且患者初始糖化血红蛋白水平越高，治疗后的降幅越大。由于低血糖是磺脲类药物最常见的不良反应，所以宜从小剂量开始，根据血糖监测结果逐渐调整用量，一般每1~2周调整一次。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T284",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T285",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T286",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T287",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 62,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T288",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T291",
+              "entity": "水平越高",
+              "entity_type": "Test_Value",
+              "start_idx": 42,
+              "end_idx": 46
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R73",
+              "head_entity_id": "T286",
+              "tail_entity_id": "T287"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "任何一种磺脲类药物的每日用量都不应超过其最大剂量。",
+          "start_idx": 113,
+          "end_idx": 138,
+          "entities": [
+            {
+              "entity_id": "T289",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "常用磺脲类药物的用法见表1。",
+          "start_idx": 138,
+          "end_idx": 152,
+          "entities": [
+            {
+              "entity_id": "T290",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "(3)联合用药：尽管磺脲类药物理论上可以和各种降糖药联用以获得更好的降糖效果，但正如之前提到的，考虑到磺脲类药物的低血糖和增重副作用，它更适合与二甲双胍、α一糖苷酶抑制剂等低血糖风险低且具有减重作用的药物联用。需要特别指出的是，尽管通常不推荐磺脲类药物联合胰岛素治疗，但胰岛细胞尚有部分分泌功能的2型糖尿病患者可考虑使用磺脲类药物联合基础胰岛素治疗，不过应特别注意饮食和运动量，以及体重增加和低血糖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)联合用药：尽管磺脲类药物理论上可以和各种降糖药联用以获得更好的降糖效果，但正如之前提到的，考虑到磺脲类药物的低血糖和增重副作用，它更适合与二甲双胍、α一糖苷酶抑制剂等低血糖风险低且具有减重作用的药物联用。需要特别指出的是，尽管通常不推荐磺脲类药物联合胰岛素治疗，但胰岛细胞尚有部分分泌功能的2型糖尿病患者可考虑使用磺脲类药物联合基础胰岛素治疗，不过应特别注意饮食和运动量，以及体重增加和低血糖。",
+          "start_idx": 0,
+          "end_idx": 200,
+          "entities": [
+            {
+              "entity_id": "T292",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T293",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T294",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T295",
+              "entity": "增重",
+              "entity_type": "ADE",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T296",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T297",
+              "entity": "α一糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 77,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T298",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T299",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T300",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 148,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T301",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 148,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T302",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 160,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T303",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T304",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 191,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T305",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 196,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T306",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T307",
+              "entity": "注意饮食和运动量",
+              "entity_type": "Treatment",
+              "start_idx": 180,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T308",
+              "entity": "减重",
+              "entity_type": "ADE",
+              "start_idx": 95,
+              "end_idx": 97
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R74",
+              "head_entity_id": "T294",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R75",
+              "head_entity_id": "T295",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T300"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T300"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T300"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T307",
+              "tail_entity_id": "T300"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R80",
+              "head_entity_id": "T304",
+              "tail_entity_id": "T302"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R81",
+              "head_entity_id": "T305",
+              "tail_entity_id": "T302"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(4)特殊情况：①目前所有磺脲类药物说明书均将重度肝功能不全列为禁忌证。丙氨酸氨基转移酶(ALT)>8~10倍参考值上限或ALT>3倍参考值上限且血清总胆红素(TBIL)>2倍参考值上限提示重度肝损害，应禁用磺脲类药物。②肾功能不全者禁用格列本脲，格列吡嗪、格列齐特、格列美脲可用于轻度肾功能不全患者，格列喹酮则可用于轻、中度肾功能不全患者。医生需要根据肾功能情况来确定如何调整治疗，见表2。③老年患者应重点考虑药物的低血糖风险，若既往有严重低血糖史、预期生存期较短或合并其他严重疾病，宜选择降糖作用较温和、作用时间较短、低血糖风险小的磺脲类药物，避免使用格列本脲。无论选择何种磺脲类药物，都应从最小剂量开始，严密监测血糖变化，根据血糖逐步调整至合适剂量，将低血糖发生风险降至最小。④目前，所有磺脲类药物均未被中国食品药品监督管理局(CFDA)批准用于妊娠、儿童和青少年患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)特殊情况：①目前所有磺脲类药物说明书均将重度肝功能不全列为禁忌证。丙氨酸氨基转移酶(ALT)>8~10倍参考值上限或ALT>3倍参考值上限且血清总胆红素(TBIL)>2倍参考值上限提示重度肝损害，应禁用磺脲类药物。②肾功能不全者禁用格列本脲，格列吡嗪、格列齐特、格列美脲可用于轻度肾功能不全患者，格列喹酮则可用于轻、中度肾功能不全患者。医生需要根据肾功能情况来确定如何调整治疗，见表2。③老年患者应重点考虑药物的低血糖风险，若既往有严重低血糖史、预期生存期较短或合并其他严重疾病，宜选择降糖作用较温和、作用时间较短、低血糖风险小的磺脲类药物，避免使用格列本脲。无论选择何种磺脲类药物，都应从最小剂量开始，严密监测血糖变化，根据血糖逐步调整至合适剂量，将低血糖发生风险降至最小。",
+          "start_idx": 0,
+          "end_idx": 341,
+          "entities": [
+            {
+              "entity_id": "T309",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T310",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T311",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T312",
+              "entity": "丙氨酸氨基转移酶(ALT)",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T313",
+              "entity": ">8~10倍参考值上限",
+              "entity_type": "Test_Value",
+              "start_idx": 49,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T314",
+              "entity": "ALT",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T315",
+              "entity": ">3倍参考值上限",
+              "entity_type": "Test_Value",
+              "start_idx": 64,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T316",
+              "entity": "血清总胆红素(TBIL)",
+              "entity_type": "Test_items",
+              "start_idx": 73,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T317",
+              "entity": ">2倍参考值上限",
+              "entity_type": "Test_Value",
+              "start_idx": 85,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T318",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T319",
+              "entity": "肝损害",
+              "entity_type": "Disease",
+              "start_idx": 97,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T320",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 97,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T321",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 104,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T322",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 111,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T323",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 111,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T324",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T325",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 124,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T326",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 129,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T327",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T328",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 141,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T329",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T330",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 143,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T331",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 151,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T332",
+              "entity": "轻、中度",
+              "entity_type": "Level",
+              "start_idx": 159,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T333",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 163,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T334",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 163,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T335",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 209,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T336",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 221,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T337",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 219,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T338",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 268,
+              "end_idx": 273
+            },
+            {
+              "entity_id": "T339",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 278,
+              "end_idx": 282
+            },
+            {
+              "entity_id": "T340",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 289,
+              "end_idx": 294
+            },
+            {
+              "entity_id": "T341",
+              "entity": "监测血糖",
+              "entity_type": "Test_items",
+              "start_idx": 307,
+              "end_idx": 311
+            },
+            {
+              "entity_id": "T342",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 316,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T343",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 329,
+              "end_idx": 332
+            },
+            {
+              "entity_id": "T345",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 25,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T346",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 261,
+              "end_idx": 264
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T311"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T314",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T316",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T320",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T323",
+              "tail_entity_id": "T322"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T325",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T327",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T333"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T334",
+              "tail_entity_id": "T333"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R94",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T340"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "④目前，所有磺脲类药物均未被中国食品药品监督管理局(CFDA)批准用于妊娠、儿童和青少年患者。",
+          "start_idx": 341,
+          "end_idx": 388,
+          "entities": [
+            {
+              "entity_id": "T344",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

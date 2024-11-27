@@ -1,0 +1,3009 @@
+{
+  "doc_id": "3",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "成人2型糖尿病胰岛素临床应用的中国专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "成人2型糖尿病胰岛素临床应用的中国专家共识",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T2",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "糖尿病已成为严重威胁国人健康的最重要的慢性非传染性疾病之一，但糖尿病控制状况在我国并不容乐观，甚至按纵向比较，血糖控制情况亦无显著改善。2011年公布现状调查显示口服药联合胰岛素治疗的患者中85%HbA1c控制未达标(≥7.o%)糖尿病相关治疗费用中约80%用于糖尿病并发症的治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病已成为严重威胁国人健康的最重要的慢性非传染性疾病之一，但糖尿病控制状况在我国并不容乐观，甚至按纵向比较，血糖控制情况亦无显著改善。2011年公布现状调查显示口服药联合胰岛素治疗的患者中85%HbA1c控制未达标(≥7.o%)糖尿病相关治疗费用中约80%用于糖尿病并发症的治疗。",
+          "start_idx": 0,
+          "end_idx": 141,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T4",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T5",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T6",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T7",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T8",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 98,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T9",
+              "entity": "控制未达标(≥7.o%)",
+              "entity_type": "Test_Value",
+              "start_idx": 103,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T11",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 131,
+              "end_idx": 134
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T5",
+              "tail_entity_id": "T4"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T10"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T8",
+              "tail_entity_id": "T10"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "众所周知，2型糖尿病患者胰岛β细胞功能随病程进展逐渐恶化。由此推论，随病程进展，为取得血糖最佳控制，大部分2型糖尿病患者似乎最终均需胰岛素治疗。然而，由于社会、经济和心理因素，胰岛素使用不足和使用过度的情况在我国同时并存。因此，规范胰岛素治疗对于改善糖尿病管理、提高广大医护人员的临床实践水平具有重要意义。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "众所周知，2型糖尿病患者胰岛β细胞功能随病程进展逐渐恶化。由此推论，随病程进展，为取得血糖最佳控制，大部分2型糖尿病患者似乎最终均需胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 72,
+          "entities": [
+            {
+              "entity_id": "T12",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T13",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T14",
+              "entity": "胰岛β细胞功能随病程进展逐渐恶化",
+              "entity_type": "Pathogenesis",
+              "start_idx": 12,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T15",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T16",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T17",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T18",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 66,
+              "end_idx": 69
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T17",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T16"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "然而，由于社会、经济和心理因素，胰岛素使用不足和使用过度的情况在我国同时并存。",
+          "start_idx": 72,
+          "end_idx": 111,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "因此，规范胰岛素治疗对于改善糖尿病管理、提高广大医护人员的临床实践水平具有重要意义。",
+          "start_idx": 111,
+          "end_idx": 153,
+          "entities": [
+            {
+              "entity_id": "T20",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T21",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T20",
+              "tail_entity_id": "T21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "目前临床应用的胰岛素包括动物胰岛素、人胰岛素及胰岛素类似物。其中，人胰岛素具有免疫原性低、长期使用安全可靠、效价比高等优点，在临床中应用最为广泛，在2型糖尿病血糖管理中作用突出。胰岛素类似物通过改变人胰岛素结构从而改变其药代动力学特性，可分为超短效胰岛素类似物和长效胰岛素类似物。因起效和持续时间不同，胰岛素类似物有其各自的特点，但其使用和剂量调整原则与人胰岛素基本相同（表1）。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前临床应用的胰岛素包括动物胰岛素、人胰岛素及胰岛素类似物。其中，人胰岛素具有免疫原性低、长期使用安全可靠、效价比高等优点，在临床中应用最为广泛，在2型糖尿病血糖管理中作用突出。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T22",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T23",
+              "entity": "动物胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T24",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T25",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T26",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T27",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T28",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T29",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 79,
+              "end_idx": 81
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T28",
+              "tail_entity_id": "T27"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T29",
+              "tail_entity_id": "T27"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "胰岛素类似物通过改变人胰岛素结构从而改变其药代动力学特性，可分为超短效胰岛素类似物和长效胰岛素类似物。",
+          "start_idx": 89,
+          "end_idx": 140,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T31",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T32",
+              "entity": "超短效胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T33",
+              "entity": "长效胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 50
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "因起效和持续时间不同，胰岛素类似物有其各自的特点，但其使用和剂量调整原则与人胰岛素基本相同（表1）。",
+          "start_idx": 140,
+          "end_idx": 190,
+          "entities": [
+            {
+              "entity_id": "T34",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T35",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 41
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "一、合理选择胰岛素治疗时机",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、合理选择胰岛素治疗时机",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "对于2型糖尿病患者而言，尽早启动胰岛素治疗能减轻胰岛β细胞的负荷，尽快纠正高血糖状态，迅速解除高糖毒性，改善胰岛素抵抗，保护甚至逆转残存β细胞功能。对于胰岛素起始治疗的时机，不同学术组织的推荐有所不同(表2)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于2型糖尿病患者而言，尽早启动胰岛素治疗能减轻胰岛β细胞的负荷，尽快纠正高血糖状态，迅速解除高糖毒性，改善胰岛素抵抗，保护甚至逆转残存β细胞功能。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T37",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T38",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T39",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T40",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T41",
+              "entity": "高糖毒性",
+              "entity_type": "Pathogenesis",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T42",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 54,
+              "end_idx": 59
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T37"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "对于胰岛素起始治疗的时机，不同学术组织的推荐有所不同(表2)。",
+          "start_idx": 74,
+          "end_idx": 105,
+          "entities": [
+            {
+              "entity_id": "T43",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "多项研究表明，亚裔不仅胰岛β细胞胰岛素分泌储备能力较西方白种人低，糖脂毒性及氧化应激等对β细胞毒害作用亦更为显著。因此，中国2型糖尿病患者应适时启动胰岛素治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "多项研究表明，亚裔不仅胰岛β细胞胰岛素分泌储备能力较西方白种人低，糖脂毒性及氧化应激等对β细胞毒害作用亦更为显著。因此，中国2型糖尿病患者应适时启动胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 80,
+          "entities": [
+            {
+              "entity_id": "T44",
+              "entity": "亚裔不仅胰岛β细胞胰岛素分泌储备能力较西方白种人低",
+              "entity_type": "Pathogenesis",
+              "start_idx": 7,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T45",
+              "entity": "糖脂毒性及氧化应激等对β细胞毒害作用亦更为显著",
+              "entity_type": "Pathogenesis",
+              "start_idx": 33,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T46",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 62,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T47",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T48",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 77
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T47",
+              "tail_entity_id": "T46"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T46"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "本共识建议，对于2型糖尿病患者，以下情况应给予胰岛素治疗：(1)急性并发症或严重慢性并发症；(2)应激情况(感染、外伤、手术等)；(3)严重合并症，肝肾功能不全；(4)妊娠期间。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "本共识建议，对于2型糖尿病患者，以下情况应给予胰岛素治疗：(1)急性并发症或严重慢性并发症；(2)应激情况(感染、外伤、手术等)；(3)严重合并症，肝肾功能不全；(4)妊娠期间。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T49",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T50",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T51",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T52",
+              "entity": "肝肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T53",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 74,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T54",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 75,
+              "end_idx": 76
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T50",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T52"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "以下情况可给予胰岛素单药治疗，亦可给予口服药和胰岛素联合应用：(1)新诊断2型糖尿病患者，HbA1c≥9.0%且糖尿病症状明显；(2)在采用有效的生活方式干预及2种或2种以上口服降糖药物次大剂量治疗3个月后血糖仍不达标(HbA1c≥7.0%)的患者；(3)病程中出现无明显诱因的体重下降者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "以下情况可给予胰岛素单药治疗，亦可给予口服药和胰岛素联合应用：(1)新诊断2型糖尿病患者，HbA1c≥9.0%且糖尿病症状明显；(2)在采用有效的生活方式干预及2种或2种以上口服降糖药物次大剂量治疗3个月后血糖仍不达标(HbA1c≥7.0%)的患者；(3)病程中出现无明显诱因的体重下降者。",
+          "start_idx": 0,
+          "end_idx": 145,
+          "entities": [
+            {
+              "entity_id": "T55",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T56",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T57",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T58",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T59",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T60",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T61",
+              "entity": "≥9.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T62",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T63",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T64",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T65",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 103,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T66",
+              "entity": "不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T67",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 110,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T68",
+              "entity": "≥7.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 115,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T69",
+              "entity": "体重下降",
+              "entity_type": "Symptom",
+              "start_idx": 139,
+              "end_idx": 143
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T58"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "二、初始胰岛素治疗方案的制定",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、初始胰岛素治疗方案的制定",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T70",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "临床医师在制定胰岛素方案、剂量调整和设定糖尿病血糖控制目标时，除考虑病理生理因素外，还必须考虑社会经济因素，并统筹考虑安全性、可行性和科学性，制定个体化的血糖控制目标和起始治疗方案。同时，在治疗过程中，应及时进行临床评价，进行适当调整。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "临床医师在制定胰岛素方案、剂量调整和设定糖尿病血糖控制目标时，除考虑病理生理因素外，还必须考虑社会经济因素，并统筹考虑安全性、可行性和科学性，制定个体化的血糖控制目标和起始治疗方案。",
+          "start_idx": 0,
+          "end_idx": 91,
+          "entities": [
+            {
+              "entity_id": "T71",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T72",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T73",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T74",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 77,
+              "end_idx": 79
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T72"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "同时，在治疗过程中，应及时进行临床评价，进行适当调整。",
+          "start_idx": 91,
+          "end_idx": 118,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "1.制定个体化的治疗目标：(1)长期血糖控制目标：一般而言，以反映最近2~3个月血糖控制情况的HbA1c为主要目标，兼顾空腹和餐后血糖达标(具体可参照《中国成人2型糖尿病Hbh1c控制目标的专家共识》，表3)。(2)短期血糖控制目标：一般住院患者，降糖治疗以即时血糖达标为主要目标。一般推荐7.8~10mmol/L(140~180mg/d1)为宜。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.制定个体化的治疗目标：(1)长期血糖控制目标：一般而言，以反映最近2~3个月血糖控制情况的HbA1c为主要目标，兼顾空腹和餐后血糖达标(具体可参照《中国成人2型糖尿病Hbh1c控制目标的专家共识》，表3)。",
+          "start_idx": 0,
+          "end_idx": 105,
+          "entities": [
+            {
+              "entity_id": "T75",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T76",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T77",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T78",
+              "entity": "空腹和餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T79",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 67,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T80",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 80,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T81",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 80,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T82",
+              "entity": "Hbh1c",
+              "entity_type": "Test_items",
+              "start_idx": 85,
+              "end_idx": 90
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T80"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T80"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "(2)短期血糖控制目标：一般住院患者，降糖治疗以即时血糖达标为主要目标。",
+          "start_idx": 105,
+          "end_idx": 141,
+          "entities": [
+            {
+              "entity_id": "T83",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T84",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T85",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 28,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "一般推荐7.8~10mmol/L(140~180mg/d1)为宜。",
+          "start_idx": 141,
+          "end_idx": 174,
+          "entities": [
+            {
+              "entity_id": "T86",
+              "entity": "7.8~10mmol/L(140~180mg/d1)",
+              "entity_type": "Test_Value",
+              "start_idx": 4,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "2.各种治疗方案的特点：目前临床中常见的胰岛素治疗方案有1天1次或2次基础胰岛素联合口服药、1天2次预混胰岛素方案、基础+餐时胰岛素方案。各种方案适用于不同的临床情况(根据患者的治疗意愿、能力、生活方式和血糖状况做出选择)，具体详见表4。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.各种治疗方案的特点：目前临床中常见的胰岛素治疗方案有1天1次或2次基础胰岛素联合口服药、1天2次预混胰岛素方案、基础+餐时胰岛素方案。",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T87",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T88",
+              "entity": "1天1次或2次",
+              "entity_type": "Frequency",
+              "start_idx": 28,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T89",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T90",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T91",
+              "entity": "1天2次",
+              "entity_type": "Frequency",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T92",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T93",
+              "entity": "基础+餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 66
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R29",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T89"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R30",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R31",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T93"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "各种方案适用于不同的临床情况(根据患者的治疗意愿、能力、生活方式和血糖状况做出选择)，具体详见表4。",
+          "start_idx": 69,
+          "end_idx": 119,
+          "entities": [
+            {
+              "entity_id": "T94",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "3.不同治疗方案的选择：目前尚无循证医学证据证实何种胰岛素起始治疗方案更优，各权威学术组织推荐的胰岛素启动治疗方案不尽相同。多数国家和地区[美国糖尿病学会(ADA)/欧洲糖尿病研究协会(EASD)联合共识、中国台湾糖尿病临床照护指引、英国国家健康与临床优化研究所(ICE)临床指南、国际糖尿病联盟(IDF)欧洲指南]推荐起始使用基础胰岛素。若血糖控制不达标，可加用餐时胰岛素。美国临床内分泌医师协会(AACE)/美国内分泌学院(ACE)专家共识推荐基础胰岛素、预混胰岛素、基础-餐时胰岛素或餐时胰岛素1日多次注射、餐时胰岛素加二甲双胍这4种胰岛素方案中任一种均可作为起始治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.不同治疗方案的选择：目前尚无循证医学证据证实何种胰岛素起始治疗方案更优，各权威学术组织推荐的胰岛素启动治疗方案不尽相同。多数国家和地区[美国糖尿病学会(ADA)/欧洲糖尿病研究协会(EASD)联合共识、中国台湾糖尿病临床照护指引、英国国家健康与临床优化研究所(ICE)临床指南、国际糖尿病联盟(IDF)欧洲指南]推荐起始使用基础胰岛素。若血糖控制不达标，可加用餐时胰岛素。美国临床内分泌医师协会(AACE)/美国内分泌学院(ACE)专家共识推荐基础胰岛素、预混胰岛素、基础-餐时胰岛素或餐时胰岛素1日多次注射、餐时胰岛素加二甲双胍这4种胰岛素方案中任一种均可作为起始治疗。",
+          "start_idx": 0,
+          "end_idx": 288,
+          "entities": [
+            {
+              "entity_id": "T95",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T96",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T97",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T98",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T99",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 107,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T100",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T101",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 166,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T102",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 171,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T103",
+              "entity": "控制不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 173,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T104",
+              "entity": "餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 182,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T105",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 224,
+              "end_idx": 229
+            },
+            {
+              "entity_id": "T106",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 230,
+              "end_idx": 235
+            },
+            {
+              "entity_id": "T107",
+              "entity": "基础-餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 236,
+              "end_idx": 244
+            },
+            {
+              "entity_id": "T108",
+              "entity": "餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 245,
+              "end_idx": 250
+            },
+            {
+              "entity_id": "T109",
+              "entity": "1日多次",
+              "entity_type": "Frequency",
+              "start_idx": 250,
+              "end_idx": 254
+            },
+            {
+              "entity_id": "T110",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 254,
+              "end_idx": 256
+            },
+            {
+              "entity_id": "T111",
+              "entity": "餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 257,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T112",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 263,
+              "end_idx": 267
+            },
+            {
+              "entity_id": "T113",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 270,
+              "end_idx": 273
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T106"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R35",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T106"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T107"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T107"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T108"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R39",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "总体而言，预混胰岛素治疗达标率更高，基础胰岛素治疗低血糖发生率相对较低。亚裔糖尿病患者中以餐后血糖增高更常见，餐后血糖在血糖控制中的作用尤为重要。中国2型糖尿病防治指南(2010年版)指出，每日1次基础胰岛素或每日1~2次预混胰岛素均可作为胰岛素起始治疗方案，如基础胰岛素或预混胰岛素与口服药物联合治疗控制血糖不达标则应将治疗方案调整为多次胰岛素治疗(基础胰岛素加餐时胰岛素或每日3次预混胰岛素。图1)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "总体而言，预混胰岛素治疗达标率更高，基础胰岛素治疗低血糖发生率相对较低。亚裔糖尿病患者中以餐后血糖增高更常见，餐后血糖在血糖控制中的作用尤为重要。中国2型糖尿病防治指南(2010年版)指出，每日1次基础胰岛素或每日1~2次预混胰岛素均可作为胰岛素起始治疗方案，如基础胰岛素或预混胰岛素与口服药物联合治疗控制血糖不达标则应将治疗方案调整为多次胰岛素治疗(基础胰岛素加餐时胰岛素或每日3次预混胰岛素。",
+          "start_idx": 0,
+          "end_idx": 198,
+          "entities": [
+            {
+              "entity_id": "T114",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T115",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T116",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T117",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T118",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T119",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T120",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T121",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T122",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T123",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T124",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T125",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 99,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T126",
+              "entity": "每日1~2次",
+              "entity_type": "Frequency",
+              "start_idx": 105,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T127",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T128",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T129",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T130",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 137,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T131",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 143,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T132",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 153,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T133",
+              "entity": "不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 155,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T134",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 170,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T135",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 176,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T136",
+              "entity": "餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 182,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T137",
+              "entity": "每日3次",
+              "entity_type": "Frequency",
+              "start_idx": 188,
+              "end_idx": 192
+            },
+            {
+              "entity_id": "T138",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 192,
+              "end_idx": 197
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T117"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T123",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R46",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R47",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T138"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "图1)。",
+          "start_idx": 198,
+          "end_idx": 202,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "三、不同类别胰岛素的选择",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、不同类别胰岛素的选择",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [
+            {
+              "entity_id": "T139",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "药物经济学已经成为评价临床治疗方案的重要手段之一。在选择2型糖尿病治疗方案时，应综合考虑控制医疗费用、患者病情及其支付能力等多方面因素。作为发展中国家，我国医疗资源仍相对匮乏，且糖尿病患者人数众多且增长迅猛，在为2型糖尿病制定胰岛素治疗方案时需考虑以上诸多因素。人胰岛素经济、安全、有效，在2型糖尿病治疗中发挥重要的作用。正是基于成本和效益比基础上，《国家基本医疗保险、工伤保险和生育保险药品目录(2009年版)》亦对胰岛素的选择做出规定(表5)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "药物经济学已经成为评价临床治疗方案的重要手段之一。在选择2型糖尿病治疗方案时，应综合考虑控制医疗费用、患者病情及其支付能力等多方面因素。作为发展中国家，我国医疗资源仍相对匮乏，且糖尿病患者人数众多且增长迅猛，在为2型糖尿病制定胰岛素治疗方案时需考虑以上诸多因素。",
+          "start_idx": 0,
+          "end_idx": 131,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T141",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T142",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 89,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T143",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T144",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 106,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T145",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 116
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T143"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "人胰岛素经济、安全、有效，在2型糖尿病治疗中发挥重要的作用。",
+          "start_idx": 131,
+          "end_idx": 161,
+          "entities": [
+            {
+              "entity_id": "T146",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T147",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T148",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T147",
+              "tail_entity_id": "T146"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T146"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "正是基于成本和效益比基础上，《国家基本医疗保险、工伤保险和生育保险药品目录(2009年版)》亦对胰岛素的选择做出规定(表5)。",
+          "start_idx": 161,
+          "end_idx": 224,
+          "entities": [
+            {
+              "entity_id": "T149",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "目前用于临床的胰岛素包括动物胰岛素、人胰岛素和胰岛素类似物。由于潜在免疫原性等问题，动物胰岛素在大多数地区使用逐渐减少，人胰岛素和胰岛素类似物使用逐渐增多。人胰岛素与人体自身分泌的胰岛素结构完全相同，胰岛素类似物通过改变胰岛素结构而改变胰岛素药代动力学特性。短期研究表明，胰岛素类似物与人胰岛素相比，控制HbA1c的能力相似，但使用更方便，在减少低血糖发生的潜在危险方面胰岛素类似物优于人胰岛素，这一优势主要表现在1型糖尿病患者。目前尚缺乏胰岛素类似物对患者长期终点事件，如死亡率、糖尿病相关微血管和大血管并发症等方面的证据。多项meta分析及临床研究显示，在2型糖尿病患者中，胰岛素类似物在HbA1c达标率、胰岛素剂量、体重、日问低血糖、严重低血糖和不良反应方面与人胰岛素相当，长效胰岛素类似物对夜间低血糖的改善优于NPH。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前用于临床的胰岛素包括动物胰岛素、人胰岛素和胰岛素类似物。由于潜在免疫原性等问题，动物胰岛素在大多数地区使用逐渐减少，人胰岛素和胰岛素类似物使用逐渐增多。人胰岛素与人体自身分泌的胰岛素结构完全相同，胰岛素类似物通过改变胰岛素结构而改变胰岛素药代动力学特性。短期研究表明，胰岛素类似物与人胰岛素相比，控制HbA1c的能力相似，但使用更方便，在减少低血糖发生的潜在危险方面胰岛素类似物优于人胰岛素，这一优势主要表现在1型糖尿病患者。目前尚缺乏胰岛素类似物对患者长期终点事件，如死亡率、糖尿病相关微血管和大血管并发症等方面的证据。多项meta分析及临床研究显示，在2型糖尿病患者中，胰岛素类似物在HbA1c达标率、胰岛素剂量、体重、日问低血糖、严重低血糖和不良反应方面与人胰岛素相当，长效胰岛素类似物对夜间低血糖的改善优于NPH。",
+          "start_idx": 0,
+          "end_idx": 363,
+          "entities": [
+            {
+              "entity_id": "T150",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T151",
+              "entity": "动物胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T152",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T153",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T154",
+              "entity": "动物胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T155",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T156",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T157",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T158",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 100,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T159",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T160",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 136,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T161",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T162",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 152,
+              "end_idx": 157
+            },
+            {
+              "entity_id": "T163",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 173,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T164",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 185,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T165",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 193,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T166",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T167",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 207,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T168",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 220,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T169",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 241,
+              "end_idx": 244
+            },
+            {
+              "entity_id": "T170",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 246,
+              "end_idx": 249
+            },
+            {
+              "entity_id": "T171",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 250,
+              "end_idx": 253
+            },
+            {
+              "entity_id": "T172",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 280,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T173",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 280,
+              "end_idx": 282
+            },
+            {
+              "entity_id": "T174",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 289,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T175",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 296,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T176",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 305,
+              "end_idx": 308
+            },
+            {
+              "entity_id": "T177",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 316,
+              "end_idx": 319
+            },
+            {
+              "entity_id": "T178",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 320,
+              "end_idx": 322
+            },
+            {
+              "entity_id": "T179",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 322,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T180",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 333,
+              "end_idx": 337
+            },
+            {
+              "entity_id": "T181",
+              "entity": "长效胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 340,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T182",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 351,
+              "end_idx": 354
+            },
+            {
+              "entity_id": "T183",
+              "entity": "NPH",
+              "entity_type": "Drug",
+              "start_idx": 359,
+              "end_idx": 362
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R54",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T164"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R55",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T181",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T175",
+              "tail_entity_id": "T172"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "四、胰岛素应用中应注意的问题",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、胰岛素应用中应注意的问题",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T184",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "1.在积极使用胰岛素的同时，应合理使用胰岛素，避免过度应用。对于肥胖(体重指数>28kg/m2)的患者，应在口服药充分治疗的基础上起始胰岛素治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.在积极使用胰岛素的同时，应合理使用胰岛素，避免过度应用。对于肥胖(体重指数>28kg/m2)的患者，应在口服药充分治疗的基础上起始胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 73,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T186",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T187",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T188",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T189",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T189",
+              "tail_entity_id": "T187"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "2.合理的联合用药，避免药物不良反应的产生和叠加。单独使用胰岛素的主要不良反应是低血糖和体重增加。推荐采用胰岛素/口服药联合方案，以增加降糖疗效，同时减少低血糖和体重增加的不良反应。二甲双胍与胰岛素联用可减少体重增加，减少外源性胰岛素用量。α-葡萄糖苷酶抑制剂与胰岛素联用在有效改善血糖的同时，减少胰岛素使用剂量，减少体重增加的幅度和趋势。因此，在无禁忌证的2型糖尿病患者中均可采用二甲双胍或α糖苷酶抑制剂与胰岛素联用。促泌剂可发生低血糖和体重增加的不良反应，因此，除基础胰岛素外，不建议胰岛素和促泌剂联合使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.合理的联合用药，避免药物不良反应的产生和叠加。单独使用胰岛素的主要不良反应是低血糖和体重增加。推荐采用胰岛素/口服药联合方案，以增加降糖疗效，同时减少低血糖和体重增加的不良反应。二甲双胍与胰岛素联用可减少体重增加，减少外源性胰岛素用量。α-葡萄糖苷酶抑制剂与胰岛素联用在有效改善血糖的同时，减少胰岛素使用剂量，减少体重增加的幅度和趋势。因此，在无禁忌证的2型糖尿病患者中均可采用二甲双胍或α糖苷酶抑制剂与胰岛素联用。",
+          "start_idx": 0,
+          "end_idx": 210,
+          "entities": [
+            {
+              "entity_id": "T190",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T191",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T192",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T193",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T194",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T195",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 77,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T196",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 81,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T197",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T198",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T199",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 104,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T200",
+              "entity": "外源性胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T201",
+              "entity": "α-葡萄糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 120,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T202",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T203",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 141,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T204",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 149,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T205",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 159,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T206",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 179,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T207",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 179,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T208",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 191,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T209",
+              "entity": "α糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 196,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T210",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 204,
+              "end_idx": 207
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R69",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R71",
+              "head_entity_id": "T199",
+              "tail_entity_id": "T197"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R72",
+              "head_entity_id": "T199",
+              "tail_entity_id": "T198"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R73",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T204"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T206"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T206"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T209",
+              "tail_entity_id": "T206"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T206"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "促泌剂可发生低血糖和体重增加的不良反应，因此，除基础胰岛素外，不建议胰岛素和促泌剂联合使用。",
+          "start_idx": 210,
+          "end_idx": 256,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T212",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T213",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T214",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T215",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T216",
+              "entity": "促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 38,
+              "end_idx": 41
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R78",
+              "head_entity_id": "T212",
+              "tail_entity_id": "T211"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R79",
+              "head_entity_id": "T213",
+              "tail_entity_id": "T211"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "3.对已合并心脑血管疾病或危险因素的2型糖尿病患者，或老年糖尿病患者，过于激进的降糖治疗策略可能产生潜在的风险，进而抵消或掩盖其潜在的心血管获益。由于脑组织代谢的特殊性，卒中患者对低血糖的耐受性更低，在使用胰岛素时，应采取相对宽松的降糖治疗策略与目标值，避免低血糖的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.对已合并心脑血管疾病或危险因素的2型糖尿病患者，或老年糖尿病患者，过于激进的降糖治疗策略可能产生潜在的风险，进而抵消或掩盖其潜在的心血管获益。由于脑组织代谢的特殊性，卒中患者对低血糖的耐受性更低，在使用胰岛素时，应采取相对宽松的降糖治疗策略与目标值，避免低血糖的发生。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T217",
+              "entity": "心脑血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T218",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T219",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T220",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T221",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T222",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T223",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T224",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T225",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 129,
+              "end_idx": 132
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T222"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T223"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R84",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T224"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "4.肾功能不全时肾脏对胰岛素的降解明显减少，同时胰岛素排出速率下降，胰岛素可能在体内蓄积，患者出现氮质血症即血液中的尿素氮达9mmol[/L(25mg/d1)以上、肌酐达178μmol/L以上时，应根据血糖的监测及时减少和调整胰岛素的用量，使血糖维持在适当的范围内。胰岛素应优先选择短效、速效剂型。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.肾功能不全时肾脏对胰岛素的降解明显减少，同时胰岛素排出速率下降，胰岛素可能在体内蓄积，患者出现氮质血症即血液中的尿素氮达9mmol[/L(25mg/d1)以上、肌酐达178μmol/L以上时，应根据血糖的监测及时减少和调整胰岛素的用量，使血糖维持在适当的范围内。",
+          "start_idx": 0,
+          "end_idx": 133,
+          "entities": [
+            {
+              "entity_id": "T226",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T227",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T228",
+              "entity": "肾脏对胰岛素的降解明显减少",
+              "entity_type": "Pathogenesis",
+              "start_idx": 8,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T229",
+              "entity": "胰岛素排出速率下降",
+              "entity_type": "Pathogenesis",
+              "start_idx": 24,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T230",
+              "entity": "胰岛素可能在体内蓄积",
+              "entity_type": "Pathogenesis",
+              "start_idx": 34,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T231",
+              "entity": "氮质血症",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T232",
+              "entity": "尿素氮",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T233",
+              "entity": "肌酐",
+              "entity_type": "Test_items",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T234",
+              "entity": "达178μmol/L以上",
+              "entity_type": "Test_Value",
+              "start_idx": 84,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T235",
+              "entity": "达9mmol[/L(25mg/d1)以上",
+              "entity_type": "Test_Value",
+              "start_idx": 61,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T236",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T237",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 121,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T239",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 101,
+              "end_idx": 103
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T226"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T228",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T230",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T232",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T233",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T231"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "胰岛素应优先选择短效、速效剂型。",
+          "start_idx": 133,
+          "end_idx": 149,
+          "entities": [
+            {
+              "entity_id": "T238",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "5.在治疗过程中，应加强患者教育，通过多学科的专业合作，提升患者的自我管理能力。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.在治疗过程中，应加强患者教育，通过多学科的专业合作，提升患者的自我管理能力。",
+          "start_idx": 0,
+          "end_idx": 40,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "6.对于注射胰岛素的患者，必须进行自我血糖监测。监测的频率取决于治疗的目标和方式[具体可参考：中国血糖监测临床应用指南(2011年版)]。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "6.对于注射胰岛素的患者，必须进行自我血糖监测。监测的频率取决于治疗的目标和方式[具体可参考：中国血糖监测临床应用指南(2011年版)]。",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T240",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T241",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T242",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T243",
+              "entity": "自我血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 17,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R92",
+              "head_entity_id": "T241",
+              "tail_entity_id": "T240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "基于以上，成人2型糖尿病胰岛素临床应用中国专家共识推荐如下：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基于以上，成人2型糖尿病胰岛素临床应用中国专家共识推荐如下：",
+          "start_idx": 0,
+          "end_idx": 30,
+          "entities": [
+            {
+              "entity_id": "T244",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T245",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T246",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 15
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "合理把握胰岛素启动治疗时机。新诊断2型糖尿病患者HbA1c≥9.0%同时合并明显临床症状，或合并严重并发症，2种或2种以上口服降糖药次大剂量治疗3个月后仍不达标者(HbA1c≥7.0%)，应启动胰岛素治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "合理把握胰岛素启动治疗时机。新诊断2型糖尿病患者HbA1c≥9.0%同时合并明显临床症状，或合并严重并发症，2种或2种以上口服降糖药次大剂量治疗3个月后仍不达标者(HbA1c≥7.0%)，应启动胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 103,
+          "entities": [
+            {
+              "entity_id": "T247",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T248",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T249",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T250",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T251",
+              "entity": "≥9.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T252",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T253",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 82,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T254",
+              "entity": "≥7.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 87,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T255",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 97,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T250",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T253",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T248"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "基础胰岛素或预混胰岛素均可作为胰岛素起始治疗方案。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基础胰岛素或预混胰岛素均可作为胰岛素起始治疗方案。",
+          "start_idx": 0,
+          "end_idx": 25,
+          "entities": [
+            {
+              "entity_id": "T256",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T257",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T258",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 18
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "应综合考虑患者病情、经济能力等各方面的因素，对血糖控制的风险与益处、成本与效益以及可行性进行科学评估，选择合理的胰岛素。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "应综合考虑患者病情、经济能力等各方面的因素，对血糖控制的风险与益处、成本与效益以及可行性进行科学评估，选择合理的胰岛素。",
+          "start_idx": 0,
+          "end_idx": 60,
+          "entities": [
+            {
+              "entity_id": "T259",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T260",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 59
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

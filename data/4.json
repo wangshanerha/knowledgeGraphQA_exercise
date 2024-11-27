@@ -1,0 +1,4761 @@
+{
+  "doc_id": "4",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "2型糖尿病合并慢性肾脏病患者口服降糖药用药原则中国专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2型糖尿病合并慢性肾脏病患者口服降糖药用药原则中国专家共识",
+          "start_idx": 0,
+          "end_idx": 29,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T2",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T3",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T4",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T3",
+              "tail_entity_id": "T2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "慢性肾脏病(CKD)是严重威胁人类健康的常见慢性病，病因多种多样，由糖尿病所引发的肾脏病称为糖尿病肾脏病(DKD)。T2DM常合并CKD，高血糖是CKD发展的主要原因之一，降糖治疗至关重要。口服降糖药作为临床最常用的降糖手段，对于血糖控制具有重要意义。近年来，T2DM合并CKD患者中口服降糖药治疗证据不断丰富，国外糖尿病及肾脏病权威指南规范了口服降糖药的应用，但我国尚缺乏T2DM合并CKD用药指南或共识。为规范临床用药，中国医师协会内分泌代谢科医师分会组织国内的内分泌科和肾内科领域专家共同制定了本共识。对于口服降糖药在T2DM合并CKD患者的应用，参考药品说明书、近期国际指南及经典专著，如“The Kidney”，若缺乏用药经验，则依据从严原则，以保护医患利益。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "慢性肾脏病(CKD)是严重威胁人类健康的常见慢性病，病因多种多样，由糖尿病所引发的肾脏病称为糖尿病肾脏病(DKD)。T2DM常合并CKD，高血糖是CKD发展的主要原因之一，降糖治疗至关重要。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T5",
+              "entity": "慢性肾脏病(CKD)",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T6",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T7",
+              "entity": "糖尿病",
+              "entity_type": "Reason",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T8",
+              "entity": "糖尿病肾脏病(DKD)",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T9",
+              "entity": "肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T10",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 41,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T11",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T12",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T13",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T14",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T15",
+              "entity": "高血糖",
+              "entity_type": "Reason",
+              "start_idx": 69,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T16",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 76
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T6",
+              "tail_entity_id": "T5"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T9"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T8"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T9"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T16"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "口服降糖药作为临床最常用的降糖手段，对于血糖控制具有重要意义。",
+          "start_idx": 95,
+          "end_idx": 126,
+          "entities": [
+            {
+              "entity_id": "T17",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T18",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "近年来，T2DM合并CKD患者中口服降糖药治疗证据不断丰富，国外糖尿病及肾脏病权威指南规范了口服降糖药的应用，但我国尚缺乏T2DM合并CKD用药指南或共识。",
+          "start_idx": 126,
+          "end_idx": 204,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T20",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T21",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T22",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T23",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T24",
+              "entity": "肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T25",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 36,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T26",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T27",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T28",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T29",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T20",
+              "tail_entity_id": "T19"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T24"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T28",
+              "tail_entity_id": "T27"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "为规范临床用药，中国医师协会内分泌代谢科医师分会组织国内的内分泌科和肾内科领域专家共同制定了本共识。",
+          "start_idx": 204,
+          "end_idx": 254,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "对于口服降糖药在T2DM合并CKD患者的应用，参考药品说明书、近期国际指南及经典专著，如“The Kidney”，若缺乏用药经验，则依据从严原则，以保护医患利益。",
+          "start_idx": 254,
+          "end_idx": 335,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T31",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T32",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T33",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T32",
+              "tail_entity_id": "T31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "一、T2DM合并CKD的流行病学",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、T2DM合并CKD的流行病学",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T34",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T35",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T36",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T34"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "我国糖尿病患病率逐年升高，目前糖尿病患者约9240万，其中T2DM占90%以上。糖尿病与CKD关系密切。糖尿病患者CKD发生风险较非糖尿病者增加2.6倍。近年，各地CKD流行病学调查成年人CKD的患病率存在一定差异，为9%~14%。近期全国CKD流行病学调查显示，我国成年人中CKD患病率为10.8%，据此估算18岁以上人群CKD患者人数约1.195亿。在发达国家，糖尿病已是导致CKD的主要病因，而且在发展中国家，糖尿病正逐渐成为CKD的主要致病原因。美国流行病学调查显示，年龄≥20岁的T2DM患者有39.7%合并CKD。对我国住院糖尿病患者的回顾性研究表明，33.6%的糖尿病患者合并肾脏并发症。上海市区30岁以上T2DM患者CKD患病率可达63.9%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "我国糖尿病患病率逐年升高，目前糖尿病患者约9240万，其中T2DM占90%以上。糖尿病与CKD关系密切。糖尿病患者CKD发生风险较非糖尿病者增加2.6倍。近年，各地CKD流行病学调查成年人CKD的患病率存在一定差异，为9%~14%。近期全国CKD流行病学调查显示，我国成年人中CKD患病率为10.8%，据此估算18岁以上人群CKD患者人数约1.195亿。在发达国家，糖尿病已是导致CKD的主要病因，而且在发展中国家，糖尿病正逐渐成为CKD的主要致病原因。美国流行病学调查显示，年龄≥20岁的T2DM患者有39.7%合并CKD。对我国住院糖尿病患者的回顾性研究表明，33.6%的糖尿病患者合并肾脏并发症。",
+          "start_idx": 0,
+          "end_idx": 301,
+          "entities": [
+            {
+              "entity_id": "T37",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T38",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T39",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T40",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T41",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T42",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T43",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T44",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T45",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T46",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T47",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T48",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 94,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T49",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 138,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T50",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 162,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T51",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 190,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T52",
+              "entity": "糖尿病",
+              "entity_type": "Reason",
+              "start_idx": 183,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T53",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 259,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T54",
+              "entity": "糖尿病",
+              "entity_type": "Reason",
+              "start_idx": 208,
+              "end_idx": 211
+            },
+            {
+              "entity_id": "T55",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 216,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T56",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 288,
+              "end_idx": 291
+            },
+            {
+              "entity_id": "T57",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 295,
+              "end_idx": 297
+            },
+            {
+              "entity_id": "T61",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 268,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T62",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 245,
+              "end_idx": 249
+            },
+            {
+              "entity_id": "T63",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 245,
+              "end_idx": 247
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T39"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T55"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T57",
+              "tail_entity_id": "T56"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T62"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "上海市区30岁以上T2DM患者CKD患病率可达63.9%。",
+          "start_idx": 301,
+          "end_idx": 330,
+          "entities": [
+            {
+              "entity_id": "T58",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T59",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T60",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T58"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "二、T2DM合并CKD的诊断与分期",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、T2DM合并CKD的诊断与分期",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T64",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T65",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T66",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T64"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "CKD是指肾脏结构或功能异常持续超过3个月，其诊断标准见表1。目前国内外大部分指南是根据GFR来进行CKD的肾功能分期。(表2)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CKD是指肾脏结构或功能异常持续超过3个月，其诊断标准见表1。目前国内外大部分指南是根据GFR来进行CKD的肾功能分期。",
+          "start_idx": 0,
+          "end_idx": 60,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T68",
+              "entity": "肾脏结构或功能异常",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T69",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T70",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T71",
+              "entity": "肾功能",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 57
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T70"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "(表2)",
+          "start_idx": 60,
+          "end_idx": 64,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "GFR是评价肾脏功能的重要指标之一，我国估算肾小球滤过率(eGFR)课题协作组改良简化MDRD方程，制定了适合我国CKD患者的eGFR的评估公式：eGFR[ml/(min·1.73m2)]=175×Scr-1.234(mg/dL)×年龄-0.179(女性×0.79)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GFR是评价肾脏功能的重要指标之一，我国估算肾小球滤过率(eGFR)课题协作组改良简化MDRD方程，制定了适合我国CKD患者的eGFR的评估公式：eGFR[ml/(min·1.73m2)]=175×Scr-1.234(mg/dL)×年龄-0.179(女性×0.79)。",
+          "start_idx": 0,
+          "end_idx": 134,
+          "entities": [
+            {
+              "entity_id": "T72",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T73",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T74",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T75",
+              "entity": "肾小球滤过率(eGFR)",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T76",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 73,
+              "end_idx": 77
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T75",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T72"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "三、T2DM合并CKD的口服降糖药选择",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、T2DM合并CKD的口服降糖药选择",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T77",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T78",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T79",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T80",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 12,
+              "end_idx": 14
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T77"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "1.选药原则：T2DM合并CKD的理想降糖治疗策略是在有效降糖的同时，不增加低血糖发生的风险，也应避免诱发乳酸性酸中毒或增加心力衰竭风险。口服降糖药的选择应基于药物的药代动力学特征以及患者的肾功能水平综合判断。在使用某些低血糖风险较大的口服降糖药时需严格监测血糖，确保随机血糖>5mmol/L以避免低血糖的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.选药原则：T2DM合并CKD的理想降糖治疗策略是在有效降糖的同时，不增加低血糖发生的风险，也应避免诱发乳酸性酸中毒或增加心力衰竭风险。",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T82",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T83",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T84",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T85",
+              "entity": "乳酸性酸中毒",
+              "entity_type": "ADE",
+              "start_idx": 53,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T86",
+              "entity": "心力衰竭",
+              "entity_type": "ADE",
+              "start_idx": 62,
+              "end_idx": 66
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T81"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "口服降糖药的选择应基于药物的药代动力学特征以及患者的肾功能水平综合判断。",
+          "start_idx": 69,
+          "end_idx": 105,
+          "entities": [
+            {
+              "entity_id": "T87",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "在使用某些低血糖风险较大的口服降糖药时需严格监测血糖，确保随机血糖>5mmol/L以避免低血糖的发生。",
+          "start_idx": 105,
+          "end_idx": 156,
+          "entities": [
+            {
+              "entity_id": "T88",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T89",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T90",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T91",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T92",
+              "entity": ">5mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 33,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T93",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 44,
+              "end_idx": 47
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "2.血糖控制目标值：对T2DM合并CKD患者的血糖控制目标应遵循个体化原则，尽量避免低血糖的发生。《中国成人2型糖尿病HbA1c控制目标的专家共识》建议对T2DM合并CKD患者的HbA1c可适当放宽控制在7%~9%，一方面避免血糖水平控制过低而出现低血糖，另一方面避免血糖水平过高而出现代谢异常及感染。当CKD导致红细胞寿命缩短时，HbA1c检测结果可能被低估。在晚期CKD患者，使用糖化血清蛋白反映血糖控制水平可能更可靠。应监测空腹及餐后血糖以更好地了解血糖控制情况。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.血糖控制目标值：对T2DM合并CKD患者的血糖控制目标应遵循个体化原则，尽量避免低血糖的发生。《中国成人2型糖尿病HbA1c控制目标的专家共识》建议对T2DM合并CKD患者的HbA1c可适当放宽控制在7%~9%，一方面避免血糖水平控制过低而出现低血糖，另一方面避免血糖水平过高而出现代谢异常及感染。当CKD导致红细胞寿命缩短时，HbA1c检测结果可能被低估。在晚期CKD患者，使用糖化血清蛋白反映血糖控制水平可能更可靠。",
+          "start_idx": 0,
+          "end_idx": 212,
+          "entities": [
+            {
+              "entity_id": "T94",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T95",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T96",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T97",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T98",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T99",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T100",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T101",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T102",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T103",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 77,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T104",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 77,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T105",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 83,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T106",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 89,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T107",
+              "entity": "7%~9%",
+              "entity_type": "Test_Value",
+              "start_idx": 102,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T108",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T109",
+              "entity": "过低",
+              "entity_type": "Test_Value",
+              "start_idx": 119,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T110",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 124,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T111",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 134,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T112",
+              "entity": "过高",
+              "entity_type": "Test_Value",
+              "start_idx": 138,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T113",
+              "entity": "代谢异常",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T114",
+              "entity": "感染",
+              "entity_type": "Disease",
+              "start_idx": 148,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T115",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 152,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T116",
+              "entity": "红细胞寿命缩短",
+              "entity_type": "Pathogenesis",
+              "start_idx": 157,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T117",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 166,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T118",
+              "entity": "晚期CKD",
+              "entity_type": "Disease",
+              "start_idx": 182,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T119",
+              "entity": "晚期",
+              "entity_type": "Class",
+              "start_idx": 182,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T120",
+              "entity": "糖化血清蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 192,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T121",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 200,
+              "end_idx": 202
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T100"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T108",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T118"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "应监测空腹及餐后血糖以更好地了解血糖控制情况。",
+          "start_idx": 212,
+          "end_idx": 235,
+          "entities": [
+            {
+              "entity_id": "T122",
+              "entity": "空腹及餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T123",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 18
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "3.口服降糖药的选择：口服降糖药作为临床最常用的降糖手段，对于T2DM合并CKD患者的血糖控制具有重要意义。但口服降糖药种类繁多，各类药物的药代动力学差异显著，某些CKD患者对经肾排泄药物或其活性代谢产物的清除减少，因而伴随着不同程度的低血糖风险。因此，必须充分了解各种药物的药代动力学特点，结合患者肾功能情况进行个体化选择，确保在有效降糖的同时不增加低血糖风险。对于大多数药物，当GFR低于60ml/(min·1.73m2)时需酌情减量或停药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.口服降糖药的选择：口服降糖药作为临床最常用的降糖手段，对于T2DM合并CKD患者的血糖控制具有重要意义。",
+          "start_idx": 0,
+          "end_idx": 54,
+          "entities": [
+            {
+              "entity_id": "T124",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T125",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T126",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T127",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T128",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T129",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T126"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T126"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T128"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "但口服降糖药种类繁多，各类药物的药代动力学差异显著，某些CKD患者对经肾排泄药物或其活性代谢产物的清除减少，因而伴随着不同程度的低血糖风险。",
+          "start_idx": 54,
+          "end_idx": 124,
+          "entities": [
+            {
+              "entity_id": "T130",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 1,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T131",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T132",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 64,
+              "end_idx": 67
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "因此，必须充分了解各种药物的药代动力学特点，结合患者肾功能情况进行个体化选择，确保在有效降糖的同时不增加低血糖风险。",
+          "start_idx": 124,
+          "end_idx": 182,
+          "entities": [
+            {
+              "entity_id": "T133",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 52,
+              "end_idx": 55
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "对于大多数药物，当GFR低于60ml/(min·1.73m2)时需酌情减量或停药。",
+          "start_idx": 182,
+          "end_idx": 223,
+          "entities": [
+            {
+              "entity_id": "T134",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T135",
+              "entity": "低于60ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "常用口服降糖药的药代动力学特征及其在T2DM合并CKD人群中应用的临床证据以及适用人群见图1及表3。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "常用口服降糖药的药代动力学特征及其在T2DM合并CKD人群中应用的临床证据以及适用人群见图1及表3。",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T136",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T137",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T138",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T139",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 27
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "(1)双胍类：目前，国内外指南均一致推荐二甲双胍作为T2DM控制血糖的一线用药，其主要药理作用是通过减少肝糖输出和改善外周胰岛素抵抗而降低血糖。二甲双胍可使HbA1c降低1%~2%，并可减轻体重且不增加低血糖风险。英国前瞻性糖尿病研究(UKPDS)显示，二甲双胍可降低肥胖T2DM患者心血管事件和死亡风险。二甲双胍直接以原形经肾脏排泄，当肾功能损害时易发生二甲双胍与乳酸在体内蓄积，从而增加乳酸性酸中毒风险。二甲双胍用于CKD3a期患者时减量，当GFR<45ml/(min·1.73m2)停用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)双胍类：目前，国内外指南均一致推荐二甲双胍作为T2DM控制血糖的一线用药，其主要药理作用是通过减少肝糖输出和改善外周胰岛素抵抗而降低血糖。二甲双胍可使HbA1c降低1%~2%，并可减轻体重且不增加低血糖风险。英国前瞻性糖尿病研究(UKPDS)显示，二甲双胍可降低肥胖T2DM患者心血管事件和死亡风险。二甲双胍直接以原形经肾脏排泄，当肾功能损害时易发生二甲双胍与乳酸在体内蓄积，从而增加乳酸性酸中毒风险。二甲双胍用于CKD3a期患者时减量，当GFR<45ml/(min·1.73m2)停用。",
+          "start_idx": 0,
+          "end_idx": 247,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "双胍类",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T141",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T142",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T143",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T144",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T145",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T146",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T147",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 78,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T148",
+              "entity": "降低1%~2%",
+              "entity_type": "Test_Value",
+              "start_idx": 83,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T149",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T150",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T151",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T152",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T153",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T154",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 136,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T155",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T156",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T157",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 153,
+              "end_idx": 157
+            },
+            {
+              "entity_id": "T158",
+              "entity": "肾功能损害",
+              "entity_type": "Disease",
+              "start_idx": 169,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T159",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 169,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T160",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 178,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T161",
+              "entity": "乳酸性酸中毒",
+              "entity_type": "ADE",
+              "start_idx": 195,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T162",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 204,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T163",
+              "entity": "CKD3a期",
+              "entity_type": "Disease",
+              "start_idx": 210,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T164",
+              "entity": "3a期",
+              "entity_type": "Class",
+              "start_idx": 213,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T165",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 223,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T166",
+              "entity": "<45ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 226,
+              "end_idx": 244
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R53",
+              "head_entity_id": "T149",
+              "tail_entity_id": "T146"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T152"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T153"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T155"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T154",
+              "tail_entity_id": "T153"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T155"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T157",
+              "tail_entity_id": "T158"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T161",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T158"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T158"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T163"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "(2)磺脲类：为胰岛素促泌剂，主要药理作用是通过刺激胰岛β细胞释放胰岛素，增加体内的胰岛素水平而降低血糖。磺脲类药物可降低HbA1c1%~2%，是目前国内外指南中推荐的控制T2DM患者高血糖的主要用药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)磺脲类：为胰岛素促泌剂，主要药理作用是通过刺激胰岛β细胞释放胰岛素，增加体内的胰岛素水平而降低血糖。磺脲类药物可降低HbA1c1%~2%，是目前国内外指南中推荐的控制T2DM患者高血糖的主要用药。",
+          "start_idx": 0,
+          "end_idx": 101,
+          "entities": [
+            {
+              "entity_id": "T167",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T168",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T169",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T170",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T171",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T172",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T173",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T174",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 95
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T172"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "第一代磺脲类药物(如氯磺丙脲、妥拉磺脲、甲苯磺丁脲)的药物原型及其活性代谢产物主要依赖肾脏排泄，在CKD患者应用时半衰期延长，低血糖风险明显增加，因此禁用于该类患者，目前此类药物在临床上已基本被淘汰。在第二代磺脲类药物中，格列本脲的半衰期较长，其活性代谢产物约50%经肾脏排泄，可在CKD患者体内积聚，可能引起严重的低血糖，且持续时间超过24h。格列本脲仅可用于CKD1~2期的患者；3~5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "第一代磺脲类药物(如氯磺丙脲、妥拉磺脲、甲苯磺丁脲)的药物原型及其活性代谢产物主要依赖肾脏排泄，在CKD患者应用时半衰期延长，低血糖风险明显增加，因此禁用于该类患者，目前此类药物在临床上已基本被淘汰。在第二代磺脲类药物中，格列本脲的半衰期较长，其活性代谢产物约50%经肾脏排泄，可在CKD患者体内积聚，可能引起严重的低血糖，且持续时间超过24h。格列本脲仅可用于CKD1~2期的患者；3~5期禁用。",
+          "start_idx": 0,
+          "end_idx": 199,
+          "entities": [
+            {
+              "entity_id": "T175",
+              "entity": "第一代磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T176",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T177",
+              "entity": "妥拉磺脲",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T178",
+              "entity": "甲苯磺丁脲",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T179",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T180",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T181",
+              "entity": "第二代磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 101,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T182",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T183",
+              "entity": "严重的低血糖",
+              "entity_type": "ADE",
+              "start_idx": 155,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T184",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 173,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T185",
+              "entity": "CKD1~2期",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T186",
+              "entity": "1~2期",
+              "entity_type": "Class",
+              "start_idx": 184,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T187",
+              "entity": "3~5期",
+              "entity_type": "Class",
+              "start_idx": 192,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T188",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 141,
+              "end_idx": 144
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T175",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R72",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R74",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T176"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R76",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R78",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T178"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T181",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R80",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T181"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R82",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T182"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T185"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T186",
+              "tail_entity_id": "T185"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T187",
+              "tail_entity_id": "T185"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "格列美脲的代谢产物仍有降糖活性，其代谢产物及原型的60%经肾脏排泄。格列美脲用于CKD1~2期患者无需调整剂量；3a期减量；3b~5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列美脲的代谢产物仍有降糖活性，其代谢产物及原型的60%经肾脏排泄。格列美脲用于CKD1~2期患者无需调整剂量；3a期减量；3b~5期禁用。",
+          "start_idx": 0,
+          "end_idx": 70,
+          "entities": [
+            {
+              "entity_id": "T189",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T190",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T191",
+              "entity": "CKD1~2期",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T192",
+              "entity": "1~2期",
+              "entity_type": "Class",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T193",
+              "entity": "3a期",
+              "entity_type": "Class",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T194",
+              "entity": "3b~5期",
+              "entity_type": "Class",
+              "start_idx": 62,
+              "end_idx": 67
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "格列吡嗪和格列齐特的代谢产物均无降糖活性，虽然主要经肾脏排泄，但低血糖风险小于格列本脲和格列美脲。格列吡嗪用于CKD1~2期患者无需调整剂量；3期减量，4~5期禁用。格列齐特用于CKD1~2期患者无需调整剂量；在3a期减量，3b期用药经验有限，需谨慎用药；4~5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列吡嗪和格列齐特的代谢产物均无降糖活性，虽然主要经肾脏排泄，但低血糖风险小于格列本脲和格列美脲。格列吡嗪用于CKD1~2期患者无需调整剂量；3期减量，4~5期禁用。格列齐特用于CKD1~2期患者无需调整剂量；在3a期减量，3b期用药经验有限，需谨慎用药；4~5期禁用。",
+          "start_idx": 0,
+          "end_idx": 135,
+          "entities": [
+            {
+              "entity_id": "T195",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T196",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T197",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T198",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T199",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T200",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T201",
+              "entity": "CKD1~2期",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T202",
+              "entity": "1~2期",
+              "entity_type": "Class",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T203",
+              "entity": "3期",
+              "entity_type": "Class",
+              "start_idx": 71,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T204",
+              "entity": "4~5期",
+              "entity_type": "Class",
+              "start_idx": 76,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T205",
+              "entity": "CKD1~2期",
+              "entity_type": "Disease",
+              "start_idx": 89,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T206",
+              "entity": "1~2期",
+              "entity_type": "Class",
+              "start_idx": 92,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T207",
+              "entity": "3a期",
+              "entity_type": "Class",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T208",
+              "entity": "3b期",
+              "entity_type": "Class",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T209",
+              "entity": "4~5期",
+              "entity_type": "Class",
+              "start_idx": 128,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T210",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 83,
+              "end_idx": 87
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R90",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T195"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R91",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T196"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R92",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T198"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R93",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T200",
+              "tail_entity_id": "T201"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T201"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T203",
+              "tail_entity_id": "T201"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T202",
+              "tail_entity_id": "T201"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T209",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T205"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "格列喹酮的代谢产物无降糖作用且大部分从粪便排泄，仅5%经肾脏排泄，受肾功能影响较小，但用于CKD患者的临床证据有限，格列喹酮曾用于GFR10~50ml/(min·1.73m2)患者，但试验设计不尽完善。格列喹酮可用于CKD1~3期的患者且无需调整剂量；4期用药经验有限，需谨慎用药；5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮的代谢产物无降糖作用且大部分从粪便排泄，仅5%经肾脏排泄，受肾功能影响较小，但用于CKD患者的临床证据有限，格列喹酮曾用于GFR10~50ml/(min·1.73m2)患者，但试验设计不尽完善。格列喹酮可用于CKD1~3期的患者且无需调整剂量；4期用药经验有限，需谨慎用药；5期禁用。",
+          "start_idx": 0,
+          "end_idx": 146,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T212",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T213",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T214",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T215",
+              "entity": "10~50ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 68,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T216",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 101,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T217",
+              "entity": "CKD1~3期",
+              "entity_type": "Disease",
+              "start_idx": 108,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T218",
+              "entity": "1~3期",
+              "entity_type": "Class",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T219",
+              "entity": "4期",
+              "entity_type": "Class",
+              "start_idx": 126,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T220",
+              "entity": "5期",
+              "entity_type": "Class",
+              "start_idx": 141,
+              "end_idx": 143
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T211",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T213",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T216",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T219",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T217"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "(3)格列奈类：格列奈类降糖药为非磺脲类胰岛素促泌剂，主要通过刺激早相胰岛素分泌而降低餐后血糖，具有吸收快、起效快和作用时间短的特点，可降低HbA1c0.5%~2.0%，其低血糖的风险和程度较磺脲类药物轻。格列奈类主要代表药物为那格列奈和瑞格列奈。那格列奈及其代谢产物83%经肾脏排泄，随着肾功能的降低，那格列奈的活性代谢产物水平增加，而瑞格列奈却未发现此现象。瑞格列奈及其代谢产物仅8%经肾脏排泄。瑞格列奈Ⅰ期临床试验表明，使用瑞格列奈7d后，肾功能正常患者与不同程度CKD患者相比，血药浓度没有明显差别，提示瑞格列奈在CKD患者体内无蓄积。一项入选281例伴或不伴肾功能不全T2DM患者的多中心研究提示，使用瑞格列奈替换原有降糖治疗，不同程度肾功能不全亚组患者(正常、轻、中、重、极重肾功能损害)低血糖发生率均低于2%，且瑞格列奈治疗期低血糖发生率与肾功能损害程度无关。瑞格列奈用于CKD1~5期的患者无需调整剂量；如起始用药，应0.5mg起始。那格列奈用于CKD1~3a期患者时，无需调整剂量；3b~4期减量；5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)格列奈类：格列奈类降糖药为非磺脲类胰岛素促泌剂，主要通过刺激早相胰岛素分泌而降低餐后血糖，具有吸收快、起效快和作用时间短的特点，可降低HbA1c0.5%~2.0%，其低血糖的风险和程度较磺脲类药物轻。格列奈类主要代表药物为那格列奈和瑞格列奈。那格列奈及其代谢产物83%经肾脏排泄，随着肾功能的降低，那格列奈的活性代谢产物水平增加，而瑞格列奈却未发现此现象。瑞格列奈及其代谢产物仅8%经肾脏排泄。瑞格列奈Ⅰ期临床试验表明，使用瑞格列奈7d后，肾功能正常患者与不同程度CKD患者相比，血药浓度没有明显差别，提示瑞格列奈在CKD患者体内无蓄积。一项入选281例伴或不伴肾功能不全T2DM患者的多中心研究提示，使用瑞格列奈替换原有降糖治疗，不同程度肾功能不全亚组患者(正常、轻、中、重、极重肾功能损害)低血糖发生率均低于2%，且瑞格列奈治疗期低血糖发生率与肾功能损害程度无关。瑞格列奈用于CKD1~5期的患者无需调整剂量；如起始用药，应0.5mg起始。那格列奈用于CKD1~3a期患者时，无需调整剂量；3b~4期减量；5期禁用。",
+          "start_idx": 0,
+          "end_idx": 463,
+          "entities": [
+            {
+              "entity_id": "T221",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T222",
+              "entity": "格列奈类降糖药",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T223",
+              "entity": "非磺脲类胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T224",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T225",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 70,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T226",
+              "entity": "0.5%~2.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 75,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T227",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T228",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T229",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 103,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T230",
+              "entity": "那格列奈",
+              "entity_type": "Drug",
+              "start_idx": 114,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T231",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T232",
+              "entity": "那格列奈",
+              "entity_type": "Drug",
+              "start_idx": 124,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T233",
+              "entity": "那格列奈",
+              "entity_type": "Drug",
+              "start_idx": 152,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T234",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T235",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 181,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T236",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 200,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T237",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 215,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T238",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 235,
+              "end_idx": 238
+            },
+            {
+              "entity_id": "T239",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 256,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T240",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 261,
+              "end_idx": 264
+            },
+            {
+              "entity_id": "T241",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 284,
+              "end_idx": 289
+            },
+            {
+              "entity_id": "T242",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 284,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T243",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 289,
+              "end_idx": 293
+            },
+            {
+              "entity_id": "T244",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 289,
+              "end_idx": 291
+            },
+            {
+              "entity_id": "T245",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 306,
+              "end_idx": 310
+            },
+            {
+              "entity_id": "T246",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 323,
+              "end_idx": 328
+            },
+            {
+              "entity_id": "T247",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 323,
+              "end_idx": 324
+            },
+            {
+              "entity_id": "T248",
+              "entity": "正常、轻、中、重、极重肾功能损害",
+              "entity_type": "Disease",
+              "start_idx": 333,
+              "end_idx": 349
+            },
+            {
+              "entity_id": "T249",
+              "entity": "正常、轻、中、重、极重",
+              "entity_type": "Level",
+              "start_idx": 333,
+              "end_idx": 344
+            },
+            {
+              "entity_id": "T250",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 344,
+              "end_idx": 345
+            },
+            {
+              "entity_id": "T251",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 350,
+              "end_idx": 353
+            },
+            {
+              "entity_id": "T252",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 363,
+              "end_idx": 367
+            },
+            {
+              "entity_id": "T253",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 370,
+              "end_idx": 373
+            },
+            {
+              "entity_id": "T254",
+              "entity": "肾功能损害",
+              "entity_type": "Disease",
+              "start_idx": 377,
+              "end_idx": 382
+            },
+            {
+              "entity_id": "T255",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 377,
+              "end_idx": 378
+            },
+            {
+              "entity_id": "T256",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 387,
+              "end_idx": 391
+            },
+            {
+              "entity_id": "T257",
+              "entity": "CKD1~5期",
+              "entity_type": "Disease",
+              "start_idx": 393,
+              "end_idx": 400
+            },
+            {
+              "entity_id": "T258",
+              "entity": "1~5期",
+              "entity_type": "Class",
+              "start_idx": 396,
+              "end_idx": 400
+            },
+            {
+              "entity_id": "T259",
+              "entity": "0.5mg",
+              "entity_type": "Amount",
+              "start_idx": 417,
+              "end_idx": 422
+            },
+            {
+              "entity_id": "T260",
+              "entity": "那格列奈",
+              "entity_type": "Drug",
+              "start_idx": 425,
+              "end_idx": 429
+            },
+            {
+              "entity_id": "T261",
+              "entity": "CKD1~3a期",
+              "entity_type": "Disease",
+              "start_idx": 431,
+              "end_idx": 439
+            },
+            {
+              "entity_id": "T262",
+              "entity": "1~3a期",
+              "entity_type": "Class",
+              "start_idx": 434,
+              "end_idx": 439
+            },
+            {
+              "entity_id": "T263",
+              "entity": "3b~4期",
+              "entity_type": "Class",
+              "start_idx": 450,
+              "end_idx": 455
+            },
+            {
+              "entity_id": "T264",
+              "entity": "5期",
+              "entity_type": "Class",
+              "start_idx": 458,
+              "end_idx": 460
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R110",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R111",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T222"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R112",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T223"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R113",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T228"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T237",
+              "tail_entity_id": "T238"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T240"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T242",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T246"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R122",
+              "head_entity_id": "T251",
+              "tail_entity_id": "T245"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T246"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T250",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R125",
+              "head_entity_id": "T253",
+              "tail_entity_id": "T252"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T252",
+              "tail_entity_id": "T254"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T254"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R128",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T257"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R129",
+              "head_entity_id": "T259",
+              "tail_entity_id": "T256"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R130",
+              "head_entity_id": "T258",
+              "tail_entity_id": "T257"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R131",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T261"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R132",
+              "head_entity_id": "T262",
+              "tail_entity_id": "T261"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T263",
+              "tail_entity_id": "T261"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R134",
+              "head_entity_id": "T264",
+              "tail_entity_id": "T261"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "(4)噻唑烷二酮类：噻唑烷二酮类为胰岛素增敏剂，主要通过增加靶细胞对IS而降低血糖，可降低HbA1c1.0%~1.5%。主要代表药物为吡格列酮和罗格列酮，均经肝脏代谢，不增加低血糖风险。该类药物的常见不良反应是液体潴留，因而对于重度心力衰竭患者应慎用。此外，绝经后妇女服用该类药物发生骨折及骨质疏松的风险增加，因此慎用于潜在骨疾病的患者(如肾性骨营养不良)。吡格列酮用于CKD1~3a期患者时，无需调整剂量；3b~5期患者用药经验有限，需谨慎用药。罗格列酮因增加心血管风险的安全性问题引起了国内外的警惕，目前美国食品药品监督管理局(FDA)已严格限制其使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)噻唑烷二酮类：噻唑烷二酮类为胰岛素增敏剂，主要通过增加靶细胞对IS而降低血糖，可降低HbA1c1.0%~1.5%。主要代表药物为吡格列酮和罗格列酮，均经肝脏代谢，不增加低血糖风险。该类药物的常见不良反应是液体潴留，因而对于重度心力衰竭患者应慎用。此外，绝经后妇女服用该类药物发生骨折及骨质疏松的风险增加，因此慎用于潜在骨疾病的患者(如肾性骨营养不良)。吡格列酮用于CKD1~3a期患者时，无需调整剂量；3b~5期患者用药经验有限，需谨慎用药。罗格列酮因增加心血管风险的安全性问题引起了国内外的警惕，目前美国食品药品监督管理局(FDA)已严格限制其使用。",
+          "start_idx": 0,
+          "end_idx": 279,
+          "entities": [
+            {
+              "entity_id": "T265",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T266",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T267",
+              "entity": "胰岛素增敏剂",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T268",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T269",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T270",
+              "entity": "1.0%~1.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 50,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T271",
+              "entity": "吡格列酮",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T272",
+              "entity": "罗格列酮",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T273",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 87,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T274",
+              "entity": "液体潴留",
+              "entity_type": "ADE",
+              "start_idx": 105,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T275",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T276",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 116,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T277",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 116,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T278",
+              "entity": "骨折",
+              "entity_type": "ADE",
+              "start_idx": 142,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T279",
+              "entity": "骨质疏松",
+              "entity_type": "ADE",
+              "start_idx": 145,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T280",
+              "entity": "肾性骨营养不良",
+              "entity_type": "Disease",
+              "start_idx": 170,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T281",
+              "entity": "骨",
+              "entity_type": "Anatomy",
+              "start_idx": 172,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T282",
+              "entity": "吡格列酮",
+              "entity_type": "Drug",
+              "start_idx": 179,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T283",
+              "entity": "CKD1~3a期",
+              "entity_type": "Disease",
+              "start_idx": 185,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T284",
+              "entity": "1~3a期",
+              "entity_type": "Class",
+              "start_idx": 188,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T285",
+              "entity": "3b~5期",
+              "entity_type": "Class",
+              "start_idx": 204,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T286",
+              "entity": "罗格列酮",
+              "entity_type": "Drug",
+              "start_idx": 224,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T287",
+              "entity": "增加心血管风险",
+              "entity_type": "ADE",
+              "start_idx": 229,
+              "end_idx": 236
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R135",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T271"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R136",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R137",
+              "head_entity_id": "T277",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R138",
+              "head_entity_id": "T281",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R139",
+              "head_entity_id": "T282",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R140",
+              "head_entity_id": "T284",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R141",
+              "head_entity_id": "T285",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R142",
+              "head_entity_id": "T287",
+              "tail_entity_id": "T286"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "(5)α-糖苷酶抑制剂：α-糖苷酶抑制剂通过延缓碳水化合物在小肠上段的吸收而降低餐后血糖，适用于饮食结构以碳水化合物为主且餐后血糖升高的患者，可降低HbA1c0.5%~0.8%，不增加体重且有减轻体重的趋势。主要代表药物有阿卡波糖、伏格列波糖等。阿卡波糖口服后很少部分被吸收，随着肾功能的降低，阿卡波糖及其代谢产物的血药浓度显著增加。阿卡波糖可用于CKD1~3期患者；4~5期禁用。伏格列波糖可用于CKD1~3期患者；4~5期禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(5)α-糖苷酶抑制剂：α-糖苷酶抑制剂通过延缓碳水化合物在小肠上段的吸收而降低餐后血糖，适用于饮食结构以碳水化合物为主且餐后血糖升高的患者，可降低HbA1c0.5%~0.8%，不增加体重且有减轻体重的趋势。主要代表药物有阿卡波糖、伏格列波糖等。阿卡波糖口服后很少部分被吸收，随着肾功能的降低，阿卡波糖及其代谢产物的血药浓度显著增加。阿卡波糖可用于CKD1~3期患者；4~5期禁用。",
+          "start_idx": 0,
+          "end_idx": 191,
+          "entities": [
+            {
+              "entity_id": "T288",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T289",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T290",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T291",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T292",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T293",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T294",
+              "entity": "0.5%~0.8%",
+              "entity_type": "Test_Value",
+              "start_idx": 79,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T295",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T296",
+              "entity": "伏格列波糖",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T297",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 123,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T298",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 127,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T299",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 147,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T300",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 167,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T301",
+              "entity": "CKD1~3期",
+              "entity_type": "Disease",
+              "start_idx": 174,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T302",
+              "entity": "1~3期",
+              "entity_type": "Class",
+              "start_idx": 177,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T303",
+              "entity": "4~5期",
+              "entity_type": "Class",
+              "start_idx": 184,
+              "end_idx": 188
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R143",
+              "head_entity_id": "T298",
+              "tail_entity_id": "T297"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R144",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T301"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R145",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T301"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R146",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T301"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "伏格列波糖可用于CKD1~3期患者；4~5期禁用。",
+          "start_idx": 191,
+          "end_idx": 216,
+          "entities": [
+            {
+              "entity_id": "T304",
+              "entity": "伏格列波糖",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T305",
+              "entity": "CKD1~3期",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T306",
+              "entity": "1~3期",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T307",
+              "entity": "4~5期",
+              "entity_type": "Class",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R147",
+              "head_entity_id": "T304",
+              "tail_entity_id": "T305"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R148",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T305"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R149",
+              "head_entity_id": "T307",
+              "tail_entity_id": "T305"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "(6)二肽基肽酶-4(DPP-4)抑制剂：DPP-4抑制剂通过抑制DPP-4而减少胰升糖素样肽-1(GLP-1)在体内的失活，从而增加体内GLP-1的水平。GLP-1以葡萄糖浓度依赖的方式增强胰岛素分泌，抑制胰升血糖素分泌，并能延缓胃排空，通过中枢性食欲抑制来减少进食量。这一类降糖药由于上市较晚，缺乏临床用药经验，因此用于合并CKD的患者时应酌情减量。DPP-4抑制剂降低HbA1c弱于其他胰岛素促泌剂。目前在国内上市的DPP-4抑制剂为西格列汀、沙格列汀、维格列汀和利格列汀。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(6)二肽基肽酶-4(DPP-4)抑制剂：DPP-4抑制剂通过抑制DPP-4而减少胰升糖素样肽-1(GLP-1)在体内的失活，从而增加体内GLP-1的水平。",
+          "start_idx": 0,
+          "end_idx": 78,
+          "entities": [
+            {
+              "entity_id": "T314",
+              "entity": "二肽基肽酶-4(DPP-4)抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T315",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 29
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "GLP-1以葡萄糖浓度依赖的方式增强胰岛素分泌，抑制胰升血糖素分泌，并能延缓胃排空，通过中枢性食欲抑制来减少进食量。",
+          "start_idx": 78,
+          "end_idx": 136,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "这一类降糖药由于上市较晚，缺乏临床用药经验，因此用于合并CKD的患者时应酌情减量。",
+          "start_idx": 136,
+          "end_idx": 177,
+          "entities": [
+            {
+              "entity_id": "T316",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "DPP-4抑制剂降低HbA1c弱于其他胰岛素促泌剂。",
+          "start_idx": 177,
+          "end_idx": 203,
+          "entities": [
+            {
+              "entity_id": "T313",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T317",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T318",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T319",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "目前在国内上市的DPP-4抑制剂为西格列汀、沙格列汀、维格列汀和利格列汀。",
+          "start_idx": 203,
+          "end_idx": 240,
+          "entities": [
+            {
+              "entity_id": "T308",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T309",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T310",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T311",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T312",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "西格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量；GFR在30~50ml/(min·1.73m2)时减量至50mg，qd；GFR<30ml/(min·1.73m2)时用药经验有限，减量至25mg，qd。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "西格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量；GFR在30~50ml/(min·1.73m2)时减量至50mg，qd；GFR<30ml/(min·1.73m2)时用药经验有限，减量至25mg，qd。",
+          "start_idx": 0,
+          "end_idx": 117,
+          "entities": [
+            {
+              "entity_id": "T320",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T321",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T322",
+              "entity": "≥50ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T323",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T324",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T325",
+              "entity": "30~50ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 45,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T326",
+              "entity": "50mg",
+              "entity_type": "Amount",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T327",
+              "entity": "qd",
+              "entity_type": "Frequency",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T328",
+              "entity": "qd",
+              "entity_type": "Frequency",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T329",
+              "entity": "25mg",
+              "entity_type": "Amount",
+              "start_idx": 109,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T330",
+              "entity": "<30ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 80,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T331",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 77,
+              "end_idx": 80
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R150",
+              "head_entity_id": "T320",
+              "tail_entity_id": "T323"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R151",
+              "head_entity_id": "T327",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R152",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R153",
+              "head_entity_id": "T329",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R154",
+              "head_entity_id": "T328",
+              "tail_entity_id": "T320"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R155",
+              "head_entity_id": "T321",
+              "tail_entity_id": "T323"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R156",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T323"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R157",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T323"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "沙格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量，当GFR在30~49ml/(min·1.73m2)时减量；CKD4~5期患者禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "沙格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量，当GFR在30~49ml/(min·1.73m2)时减量；CKD4~5期患者禁用。",
+          "start_idx": 0,
+          "end_idx": 82,
+          "entities": [
+            {
+              "entity_id": "T332",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T333",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T334",
+              "entity": "≥50ml/(min·1.73m2",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T335",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T336",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T337",
+              "entity": "30~49ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 46,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T338",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T339",
+              "entity": "4~5期",
+              "entity_type": "Class",
+              "start_idx": 73,
+              "end_idx": 77
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R158",
+              "head_entity_id": "T332",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R159",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R160",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R161",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T338"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "维格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量，当GFR<50ml/(min·1.73m2)时禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "维格列汀用于GFR≥50ml/(min·1.73m2)的CKD患者时无需调整剂量，当GFR<50ml/(min·1.73m2)时禁用。",
+          "start_idx": 0,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T340",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T341",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T342",
+              "entity": "≥50ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T343",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T344",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T345",
+              "entity": "<50ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 45,
+              "end_idx": 63
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R162",
+              "head_entity_id": "T340",
+              "tail_entity_id": "T343"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R163",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T343"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R164",
+              "head_entity_id": "T344",
+              "tail_entity_id": "T343"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "一项为期52周的随机、双盲试验评估了利格列汀的疗效及安全性。受试者为既往接受其他降糖药治疗的T2DM患者，GFR<30ml/(min·1.73m2)，分别给予利格列汀或安慰剂，结果显示与安慰剂组相比，利格列汀降低HbA1c达0.6%，但利格列汀组低血糖发生率高于安慰剂组。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一项为期52周的随机、双盲试验评估了利格列汀的疗效及安全性。受试者为既往接受其他降糖药治疗的T2DM患者，GFR<30ml/(min·1.73m2)，分别给予利格列汀或安慰剂，结果显示与安慰剂组相比，利格列汀降低HbA1c达0.6%，但利格列汀组低血糖发生率高于安慰剂组。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T346",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T347",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T348",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T349",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T350",
+              "entity": "<30ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 56,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T351",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 79,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T352",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 100,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T353",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 106,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T354",
+              "entity": "达0.6%",
+              "entity_type": "Test_Value",
+              "start_idx": 111,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T355",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 118,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T356",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 123,
+              "end_idx": 126
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R165",
+              "head_entity_id": "T348",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R166",
+              "head_entity_id": "T349",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R167",
+              "head_entity_id": "T351",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R168",
+              "head_entity_id": "T352",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R169",
+              "head_entity_id": "T353",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R170",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T355"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "利格列汀用于CKD1~4期患者时无需调整剂量，5期患者用药经验有限。需谨慎用药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "利格列汀用于CKD1~4期患者时无需调整剂量，5期患者用药经验有限。",
+          "start_idx": 0,
+          "end_idx": 34,
+          "entities": [
+            {
+              "entity_id": "T357",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T358",
+              "entity": "CKD1~4期",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T359",
+              "entity": "1~4期",
+              "entity_type": "Class",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T360",
+              "entity": "5期",
+              "entity_type": "Class",
+              "start_idx": 23,
+              "end_idx": 25
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R171",
+              "head_entity_id": "T357",
+              "tail_entity_id": "T358"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R172",
+              "head_entity_id": "T359",
+              "tail_entity_id": "T358"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R173",
+              "head_entity_id": "T360",
+              "tail_entity_id": "T358"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "需谨慎用药。",
+          "start_idx": 34,
+          "end_idx": 40,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "4.特殊人群的治疗：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.特殊人群的治疗：",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "(1)儿童和青少年T2DM合并CKD患者：在儿童和青少年T2DM合并CKD患者中，缺乏对高血糖、高血压和血脂异常治疗的相关数据。但是生活方式的改变(饮食、锻炼、减肥)对减少以上危险因素有益，因此对高血糖的起始干预应从改变生活方式开始。若生活方式干预不能控制血糖，应考虑降糖药治疗。尽管ADA推荐口服降糖药作为儿童和青少年T2DM患者的一线治疗，但其中仅二甲双胍被FDA批准用于10岁以上的儿童，其使用注意事项与成人相同。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)儿童和青少年T2DM合并CKD患者：在儿童和青少年T2DM合并CKD患者中，缺乏对高血糖、高血压和血脂异常治疗的相关数据。但是生活方式的改变(饮食、锻炼、减肥)对减少以上危险因素有益，因此对高血糖的起始干预应从改变生活方式开始。若生活方式干预不能控制血糖，应考虑降糖药治疗。尽管ADA推荐口服降糖药作为儿童和青少年T2DM患者的一线治疗，但其中仅二甲双胍被FDA批准用于10岁以上的儿童，其使用注意事项与成人相同。",
+          "start_idx": 0,
+          "end_idx": 210,
+          "entities": [
+            {
+              "entity_id": "T361",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T362",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T363",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T364",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T365",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T366",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T367",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T368",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T369",
+              "entity": "血脂异常",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T370",
+              "entity": "生活方式的改变",
+              "entity_type": "Treatment",
+              "start_idx": 66,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T371",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T372",
+              "entity": "锻炼",
+              "entity_type": "Treatment",
+              "start_idx": 77,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T373",
+              "entity": "减肥",
+              "entity_type": "Treatment",
+              "start_idx": 80,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T374",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T375",
+              "entity": "改变生活方式",
+              "entity_type": "Treatment",
+              "start_idx": 108,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T376",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 118,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T377",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 128,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T378",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T379",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 160,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T380",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 160,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T381",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 176,
+              "end_idx": 180
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R174",
+              "head_entity_id": "T362",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R175",
+              "head_entity_id": "T365",
+              "tail_entity_id": "T364"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R176",
+              "head_entity_id": "T370",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R177",
+              "head_entity_id": "T371",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R178",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R179",
+              "head_entity_id": "T373",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R180",
+              "head_entity_id": "T375",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R181",
+              "head_entity_id": "T380",
+              "tail_entity_id": "T379"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R182",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T379"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(2)老年T2DM合并CKD患者：老年T2DM合并CKD患者通常有多种合并症，尤其是心血管疾病以及认知功能障碍，因此应加强对多种危险因素的管理。对该类患者尤其应注意避免低血糖的发生，适当调整降糖目标，并视患者的具体情况而选用口服降糖药；应从小剂量开始逐渐增加剂量并注意观察患者的反应和可能的不良反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)老年T2DM合并CKD患者：老年T2DM合并CKD患者通常有多种合并症，尤其是心血管疾病以及认知功能障碍，因此应加强对多种危险因素的管理。",
+          "start_idx": 0,
+          "end_idx": 72,
+          "entities": [
+            {
+              "entity_id": "T382",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T383",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T384",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T385",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T386",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T387",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T388",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T389",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T390",
+              "entity": "认知功能障碍",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 55
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R183",
+              "head_entity_id": "T383",
+              "tail_entity_id": "T382"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R184",
+              "head_entity_id": "T386",
+              "tail_entity_id": "T385"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R185",
+              "head_entity_id": "T389",
+              "tail_entity_id": "T388"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "对该类患者尤其应注意避免低血糖的发生，适当调整降糖目标，并视患者的具体情况而选用口服降糖药；应从小剂量开始逐渐增加剂量并注意观察患者的反应和可能的不良反应。",
+          "start_idx": 72,
+          "end_idx": 150,
+          "entities": [
+            {
+              "entity_id": "T391",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T392",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 40,
+              "end_idx": 42
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "四、小结",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、小结",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "我国T2DM合并CKD患者是一个数量庞大且不容忽视的人群，患者预后较仅有T2DM或仅有CKD患者更差。在临床实践中，应重视T2DM合并CKD患者口服降糖药的正确选择和规范使用。一旦GFR<60ml/(min·1.73m2)，大多数口服降糖药的药代动力学特征将会改变，低血糖及其他不良反应风险显著增加。遵循指南可使降糖达标率显著升高，低血糖风险显著降低，且入院率和治疗费用均显著下降。因而，对于T2DM合并CKD患者的口服降糖药治疗，尤应重视指南推荐和规范应用。在临床实践中，T2DM合并CKD患者应监测血糖，依据患者的肾功能分期选择合适降糖药并调整剂量，以保证有效控制血糖的同时能够最大程度减少低血糖风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "我国T2DM合并CKD患者是一个数量庞大且不容忽视的人群，患者预后较仅有T2DM或仅有CKD患者更差。在临床实践中，应重视T2DM合并CKD患者口服降糖药的正确选择和规范使用。一旦GFR<60ml/(min·1.73m2)，大多数口服降糖药的药代动力学特征将会改变，低血糖及其他不良反应风险显著增加。遵循指南可使降糖达标率显著升高，低血糖风险显著降低，且入院率和治疗费用均显著下降。因而，对于T2DM合并CKD患者的口服降糖药治疗，尤应重视指南推荐和规范应用。在临床实践中，T2DM合并CKD患者应监测血糖，依据患者的肾功能分期选择合适降糖药并调整剂量，以保证有效控制血糖的同时能够最大程度减少低血糖风险。",
+          "start_idx": 0,
+          "end_idx": 303,
+          "entities": [
+            {
+              "entity_id": "T393",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T394",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T395",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T396",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T397",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 36,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T398",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T399",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T400",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T401",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T402",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T403",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T404",
+              "entity": "<60ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 93,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T405",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 115,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T406",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 133,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T407",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 166,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T408",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T409",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 196,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T410",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 202,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T411",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 208,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T412",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 237,
+              "end_idx": 241
+            },
+            {
+              "entity_id": "T413",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 237,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T414",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 243,
+              "end_idx": 246
+            },
+            {
+              "entity_id": "T415",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 251,
+              "end_idx": 253
+            },
+            {
+              "entity_id": "T416",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 284,
+              "end_idx": 286
+            },
+            {
+              "entity_id": "T417",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 297,
+              "end_idx": 300
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R186",
+              "head_entity_id": "T394",
+              "tail_entity_id": "T393"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R187",
+              "head_entity_id": "T397",
+              "tail_entity_id": "T396"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R188",
+              "head_entity_id": "T401",
+              "tail_entity_id": "T400"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R189",
+              "head_entity_id": "T409",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R190",
+              "head_entity_id": "T413",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R191",
+              "head_entity_id": "T415",
+              "tail_entity_id": "T412"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5073 @@
+{
+  "doc_id": "36",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "基层糖尿病微血管病变筛查与防治专家共识 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基层糖尿病微血管病变筛查与防治专家共识 ",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "糖尿病微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T1",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 5,
+              "end_idx": 8
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "随着人们生活方式的改变和社会人口老龄化进程的加剧，糖尿病正成为一种全球范围内的慢性流行性疾病。据国际糖尿病联盟估计，至2030年，世界范围内2型糖尿病患者数量将达到5.92亿。糖尿病的管理不仅要实现理想的血糖控制，更要通过良好的代谢控制达到预防慢性并发症、提高患者生活质量及延长患者寿命的目的。在糖尿病慢性并发症中，视网膜、肾脏及外周神经的微血管并发症是各类型糖尿病的特异性表现，对患者生活质量的影响非常严重，是糖尿病患者致死、致残的重要原因，严重降低了患者的生活质量，加重了家庭和社会的经济负担。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "随着人们生活方式的改变和社会人口老龄化进程的加剧，糖尿病正成为一种全球范围内的慢性流行性疾病。据国际糖尿病联盟估计，至2030年，世界范围内2型糖尿病患者数量将达到5.92亿。糖尿病的管理不仅要实现理想的血糖控制，更要通过良好的代谢控制达到预防慢性并发症、提高患者生活质量及延长患者寿命的目的。",
+          "start_idx": 0,
+          "end_idx": 147,
+          "entities": [
+            {
+              "entity_id": "T2",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T3",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 70,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T5",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T10",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T15",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 102,
+              "end_idx": 104
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T4"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T5"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在糖尿病慢性并发症中，视网膜、肾脏及外周神经的微血管并发症是各类型糖尿病的特异性表现，对患者生活质量的影响非常严重，是糖尿病患者致死、致残的重要原因，严重降低了患者的生活质量，加重了家庭和社会的经济负担。",
+          "start_idx": 147,
+          "end_idx": 249,
+          "entities": [
+            {
+              "entity_id": "T6",
+              "entity": "糖尿病慢性并发症",
+              "entity_type": "Disease",
+              "start_idx": 1,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T7",
+              "entity": "视网膜、肾脏及外周神经的微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T8",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T9",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T11",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T12",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T13",
+              "entity": "外周神经",
+              "entity_type": "Anatomy",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T14",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 23,
+              "end_idx": 26
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 249,
+          "end_idx": 250,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "1 我国糖尿病微血管并发症的流行病学现状及卫生经济负担 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1 我国糖尿病微血管并发症的流行病学现状及卫生经济负担 ",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T16",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T17",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T17",
+              "tail_entity_id": "T16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "糖尿病微血管并发症最主要的危险因素是糖尿病病程和高血糖。资料显示，我国糖尿病视网膜病变(diabetic retinopathy，DR)的患病率为24.7%~37.5%，病程<5年者眼底病变患病率为38.0% ~39.0%；病程5~10年者眼底病变患病率为5 0.0%~56.7%；病程>10年者眼底病变患病率增至69.0%~90.0%。目前我国尚缺乏全国性的糖尿病肾脏疾病(diabetic kidney disease，DKD)流行病学调查资料，但就基层而言，2009-2013年的资料提示，我国社区2型糖尿病患者DKD患病率已高达40%左右，我国16.4%的终末期肾病患者由DKD所致。糖尿病诊断后，病程3年、 10年、15年、20年、25年的DKD累计患病率分别为3%、6%、10%、28%、56%。最近关于新诊断2型糖尿病患者的全国多中心研究显示，平均病程为8.1年的2型糖尿病患者神经病变的患病率为15.2%。本共识主要描述糖尿病周围神经病变 (diabetic peripheral neuropathy，DPN)。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微血管并发症最主要的危险因素是糖尿病病程和高血糖。资料显示，我国糖尿病视网膜病变(diabetic retinopathy，DR)的患病率为24.7%~37.5%，病程<5年者眼底病变患病率为38.0% ~39.0%；病程5~10年者眼底病变患病率为5 0.0%~56.7%；病程>10年者眼底病变患病率增至69.0%~90.0%。目前我国尚缺乏全国性的糖尿病肾脏疾病(diabetic kidney disease，DKD)流行病学调查资料，但就基层而言，2009-2013年的资料提示，我国社区2型糖尿病患者DKD患病率已高达40%左右，我国16.4%的终末期肾病患者由DKD所致。",
+          "start_idx": 0,
+          "end_idx": 296,
+          "entities": [
+            {
+              "entity_id": "T18",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T19",
+              "entity": "糖尿病视网膜病变(diabetic retinopathy，DR)",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T20",
+              "entity": "眼底病变",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T21",
+              "entity": "眼底病变",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T22",
+              "entity": "眼底病变",
+              "entity_type": "Disease",
+              "start_idx": 148,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T23",
+              "entity": "糖尿病肾脏疾病(diabetic kidney disease，DKD)",
+              "entity_type": "Disease",
+              "start_idx": 180,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T24",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 252,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T25",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 259,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T26",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 285,
+              "end_idx": 287
+            },
+            {
+              "entity_id": "T27",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 290,
+              "end_idx": 293
+            },
+            {
+              "entity_id": "T34",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T35",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T36",
+              "entity": "眼底",
+              "entity_type": "Anatomy",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T37",
+              "entity": "眼底",
+              "entity_type": "Anatomy",
+              "start_idx": 120,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T38",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 183,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T39",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 285,
+              "end_idx": 286
+            },
+            {
+              "entity_id": "T42",
+              "entity": "糖尿病病程",
+              "entity_type": "Reason",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T43",
+              "entity": "高血糖",
+              "entity_type": "Reason",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T44",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 282,
+              "end_idx": 285
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T34",
+              "tail_entity_id": "T18"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T18"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T18"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T19"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T37",
+              "tail_entity_id": "T21"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T23"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T26"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T26"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "糖尿病诊断后，病程3年、 10年、15年、20年、25年的DKD累计患病率分别为3%、6%、10%、28%、56%。",
+          "start_idx": 296,
+          "end_idx": 354,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T29",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "最近关于新诊断2型糖尿病患者的全国多中心研究显示，平均病程为8.1年的2型糖尿病患者神经病变的患病率为15.2%。",
+          "start_idx": 354,
+          "end_idx": 411,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T31",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T32",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T40",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T45",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T46",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T46",
+              "tail_entity_id": "T30"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T45",
+              "tail_entity_id": "T31"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T32"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "本共识主要描述糖尿病周围神经病变 (diabetic peripheral neuropathy，DPN)。",
+          "start_idx": 411,
+          "end_idx": 465,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "糖尿病周围神经病变 (diabetic peripheral neuropathy，DPN)",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T41",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 14
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T33"
+            }
+          ]
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 465,
+          "end_idx": 466,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "数据显示，伴微血管并发症的糖尿病患者年直接医疗费用是无并发症患者的3.18倍，因此，微血管并发症的防治是2型糖尿病管理中非常重要的环节。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "数据显示，伴微血管并发症的糖尿病患者年直接医疗费用是无并发症患者的3.18倍，因此，微血管并发症的防治是2型糖尿病管理中非常重要的环节。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T47",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T48",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T49",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T50",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T51",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T52",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T53",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 52,
+              "end_idx": 54
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T50"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 68,
+          "end_idx": 69,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "2 基层医疗卫生机构糖尿病微血管并发症管理现状 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2 基层医疗卫生机构糖尿病微血管并发症管理现状 ",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T54",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T55",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T54"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "基层医疗卫生机构在糖尿病及其并发症的防控中担任重要角色。我国87%的糖尿病患者就诊于县级及以下医疗机构，而农村人群糖尿病的知晓率、治疗率及控制率均低于城市人群(24.6%vs38.7%，21.5%vs32.7%，38.6%vs40.8%)。然而，基层医疗卫生机构尚缺乏完整和规范的糖尿病微血管并发症筛查、防治及管理流程。以DR为例，50%以上就诊于基层医疗卫生机构的糖尿病患者未被告知应定期接受眼底检查，近70%的糖尿病患者未接受规范的眼科治疗，90%具有激光治疗指征的DR患者未接受激光治疗。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基层医疗卫生机构在糖尿病及其并发症的防控中担任重要角色。我国87%的糖尿病患者就诊于县级及以下医疗机构，而农村人群糖尿病的知晓率、治疗率及控制率均低于城市人群(24.6%vs38.7%，21.5%vs32.7%，38.6%vs40.8%)。然而，基层医疗卫生机构尚缺乏完整和规范的糖尿病微血管并发症筛查、防治及管理流程。以DR为例，50%以上就诊于基层医疗卫生机构的糖尿病患者未被告知应定期接受眼底检查，近70%的糖尿病患者未接受规范的眼科治疗，90%具有激光治疗指征的DR患者未接受激光治疗。",
+          "start_idx": 0,
+          "end_idx": 247,
+          "entities": [
+            {
+              "entity_id": "T56",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T57",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T58",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T59",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 140,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T60",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 183,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T61",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T62",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 235,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T63",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 161,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T64",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 143,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T65",
+              "entity": "眼底检查",
+              "entity_type": "Test",
+              "start_idx": 197,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T66",
+              "entity": "激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 242,
+              "end_idx": 246
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T60"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T62"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 247,
+          "end_idx": 248,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "3 基层医疗卫生机构糖尿病微血管并发症的筛查、诊断、随访教育及分级诊疗建议 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3 基层医疗卫生机构糖尿病微血管并发症的筛查、诊断、随访教育及分级诊疗建议 ",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T68",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T67"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "3.1 基本配置建议(参考附录1)我国2017年发布的《中国糖尿病视网膜病变防治指南(基层版)》和同年美国糖尿病学会(American Diabetes Assoc- iation，ADA) 发布的DR指南中都强调了2型糖尿病患者应在诊断后进行眼底筛查，并明确了眼底照相在DR筛查和诊断中的地位与意义。在当地医院缺乏有资质的眼科医师时，免散瞳眼底照相可以作为DR筛查的有效措施；但应由有经验的眼科医师或经过认证的智能远程系统辅助读片。同时，眼底照相操作简便，应在患者初诊时进行。因此，本共识建议将免散瞳眼底照相机作为基层医疗卫生机构筛查DR的首选设备进行配置，在无相关技术及设备的情况下，建议转诊至上一级医院进行检查。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.1 基本配置建议(参考附录1)我国2017年发布的《中国糖尿病视网膜病变防治指南(基层版)》和同年美国糖尿病学会(American Diabetes Assoc- iation，ADA) 发布的DR指南中都强调了2型糖尿病患者应在诊断后进行眼底筛查，并明确了眼底照相在DR筛查和诊断中的地位与意义。",
+          "start_idx": 0,
+          "end_idx": 151,
+          "entities": [
+            {
+              "entity_id": "T69",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T70",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T71",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T72",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 108,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T73",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T76",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T77",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 108,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T78",
+              "entity": "眼底筛查",
+              "entity_type": "Test",
+              "start_idx": 122,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T79",
+              "entity": "眼底照相",
+              "entity_type": "Test",
+              "start_idx": 131,
+              "end_idx": 135
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T73"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在当地医院缺乏有资质的眼科医师时，免散瞳眼底照相可以作为DR筛查的有效措施；但应由有经验的眼科医师或经过认证的智能远程系统辅助读片。",
+          "start_idx": 151,
+          "end_idx": 217,
+          "entities": [
+            {
+              "entity_id": "T74",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T80",
+              "entity": "免散瞳眼底照相",
+              "entity_type": "Test",
+              "start_idx": 17,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T74"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "同时，眼底照相操作简便，应在患者初诊时进行。",
+          "start_idx": 217,
+          "end_idx": 239,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "眼底照相",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "因此，本共识建议将免散瞳眼底照相机作为基层医疗卫生机构筛查DR的首选设备进行配置，在无相关技术及设备的情况下，建议转诊至上一级医院进行检查。",
+          "start_idx": 239,
+          "end_idx": 309,
+          "entities": [
+            {
+              "entity_id": "T75",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T82",
+              "entity": "免散瞳眼底照相机",
+              "entity_type": "Test",
+              "start_idx": 9,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T75"
+            }
+          ]
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 309,
+          "end_idx": 310,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "尿微量白蛋白排泄的检测方法包括尿白蛋白/尿肌酐比值(ACR)及尿白蛋白定量等，检测技术已较为成熟，ACR与尿白蛋白定量比较，具有快速、简便、精确等特点。这些检测方法在多数基层医疗卫生机构均能开展或可外送第三方检测机构，因此本项共识建议将尿ACR作为基层医疗卫生机构DKD筛查的首选方法。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "尿微量白蛋白排泄的检测方法包括尿白蛋白/尿肌酐比值(ACR)及尿白蛋白定量等，检测技术已较为成熟，ACR与尿白蛋白定量比较，具有快速、简便、精确等特点。这些检测方法在多数基层医疗卫生机构均能开展或可外送第三方检测机构，因此本项共识建议将尿ACR作为基层医疗卫生机构DKD筛查的首选方法。",
+          "start_idx": 0,
+          "end_idx": 143,
+          "entities": [
+            {
+              "entity_id": "T83",
+              "entity": "尿微量白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T84",
+              "entity": "尿白蛋白/尿肌酐比值(ACR)",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T85",
+              "entity": "尿白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T86",
+              "entity": "ACR",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T87",
+              "entity": "尿白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T88",
+              "entity": "尿ACR",
+              "entity_type": "Test_items",
+              "start_idx": 118,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T89",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 135
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T89"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 143,
+          "end_idx": 144,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "近年来，随着检查技术的进步，DPN的诊断率有所提高。目前的评估主要依据患者临床症状和体征。5项检查(踝反射、针刺痛觉、震动觉、压力觉、温度觉)等方法半定量评估患者的神经病变程度。本共识建议基层医疗卫生机构配置神经病变筛查工具，条件允许的情况下可考虑配备感觉阈值测定仪，用以评估DPN。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "近年来，随着检查技术的进步，DPN的诊断率有所提高。目前的评估主要依据患者临床症状和体征。5项检查(踝反射、针刺痛觉、震动觉、压力觉、温度觉)等方法半定量评估患者的神经病变程度。本共识建议基层医疗卫生机构配置神经病变筛查工具，条件允许的情况下可考虑配备感觉阈值测定仪，用以评估DPN。",
+          "start_idx": 0,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T90",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T91",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 138,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T92",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 104,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T93",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T94",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T95",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T96",
+              "entity": "踝反射",
+              "entity_type": "Test",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T97",
+              "entity": "针刺痛觉",
+              "entity_type": "Test",
+              "start_idx": 54,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T98",
+              "entity": "震动觉",
+              "entity_type": "Test",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T99",
+              "entity": "压力觉",
+              "entity_type": "Test",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T100",
+              "entity": "温度觉",
+              "entity_type": "Test",
+              "start_idx": 67,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T93"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "3.2 筛查与随访筛查项目与随访频率推荐见表1。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.2 筛查与随访筛查项目与随访频率推荐见表1。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 24,
+          "end_idx": 25,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "3.3糖尿病微血管并发症的诊断DR的诊断参考2 017年《中国糖尿病视网膜病变防治指南(基层版)》，依据散瞳后眼底镜检查或眼底照相结果进行诊断与分级。DKD的诊断标准参考《美国肾脏基金会肾脏病预后质量倡议(NKF-K/DOQI)指南标准》。DPN的诊断参考《中国2型糖尿病防治指南(2017年版)》的诊断标准(详见附录2 )。如要确诊是否为DKD或糖尿病合并肾脏疾病，需行肾穿刺活检。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.3糖尿病微血管并发症的诊断DR的诊断参考2 017年《中国糖尿病视网膜病变防治指南(基层版)》，依据散瞳后眼底镜检查或眼底照相结果进行诊断与分级。DKD的诊断标准参考《美国肾脏基金会肾脏病预后质量倡议(NKF-K/DOQI)指南标准》。DPN的诊断参考《中国2型糖尿病防治指南(2017年版)》的诊断标准(详见附录2 )。如要确诊是否为DKD或糖尿病合并肾脏疾病，需行肾穿刺活检。",
+          "start_idx": 0,
+          "end_idx": 192,
+          "entities": [
+            {
+              "entity_id": "T101",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T102",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T103",
+              "entity": "糖尿病视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T104",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T105",
+              "entity": "肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 93,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T106",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T107",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 131,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T108",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 170,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T109",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 174,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T110",
+              "entity": "肾脏疾病",
+              "entity_type": "Disease",
+              "start_idx": 179,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T111",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T112",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T113",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T114",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 179,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T115",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 131,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T116",
+              "entity": "散瞳后眼底镜检查",
+              "entity_type": "Test",
+              "start_idx": 52,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T117",
+              "entity": "眼底照相",
+              "entity_type": "Test",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T118",
+              "entity": "肾穿刺活检",
+              "entity_type": "Test",
+              "start_idx": 186,
+              "end_idx": 191
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T111",
+              "tail_entity_id": "T101"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T105"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T107"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T108"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T109"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T110"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T110"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 192,
+          "end_idx": 193,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "3.4 分级诊疗服务目标与转诊机制 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.4 分级诊疗服务目标与转诊机制 ",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "(1)国家分级诊疗制度中关于不同等级医院的分工：2015年9月，国务院办公厅印发《国务院办公厅关于推进分级诊疗制度建设的指导意见(国办发(2015)70号)》，部署加快推进分级诊疗制度建设，形成科学有序的就医秩序，全面提高人民卫生服务水平，进一步保障和改善民生。分级诊疗模式可概括为16个字：基层首诊、双向转诊、急慢分治、上下联动。基层医疗卫生机构具备常见慢性病的诊疗能力，是实施分级诊疗的重要基础。在糖尿病患者的长期管理中，加强基层医疗卫生机构医师和护士糖尿病专业知识的规范化培训，以患者的需求为中心，充当糖尿病首诊、知识宣教、长期随访的主力军。二级医院组建糖尿病专业管理团队，全面管理糖尿病患者的血糖、血压、血脂，着力于糖尿病的诊断、并发症的筛查及慢性并发症的诊治，发挥承上启下作用。三级医院积极将诊断明确、病情稳定的患者转诊至基层医疗卫生机构是实施分级诊疗的关键。由不同等级医院实现有效的临床交流和互动，构建专科联盟，达到迅速、便捷、规范化的双向转诊，真正做到上下联动。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)国家分级诊疗制度中关于不同等级医院的分工：2015年9月，国务院办公厅印发《国务院办公厅关于推进分级诊疗制度建设的指导意见(国办发(2015)70号)》，部署加快推进分级诊疗制度建设，形成科学有序的就医秩序，全面提高人民卫生服务水平，进一步保障和改善民生。分级诊疗模式可概括为16个字：基层首诊、双向转诊、急慢分治、上下联动。基层医疗卫生机构具备常见慢性病的诊疗能力，是实施分级诊疗的重要基础。在糖尿病患者的长期管理中，加强基层医疗卫生机构医师和护士糖尿病专业知识的规范化培训，以患者的需求为中心，充当糖尿病首诊、知识宣教、长期随访的主力军。二级医院组建糖尿病专业管理团队，全面管理糖尿病患者的血糖、血压、血脂，着力于糖尿病的诊断、并发症的筛查及慢性并发症的诊治，发挥承上启下作用。",
+          "start_idx": 0,
+          "end_idx": 344,
+          "entities": [
+            {
+              "entity_id": "T119",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 201,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T120",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 228,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T121",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 254,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T122",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 280,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T123",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 294,
+              "end_idx": 297
+            },
+            {
+              "entity_id": "T124",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 312,
+              "end_idx": 315
+            },
+            {
+              "entity_id": "T125",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 300,
+              "end_idx": 302
+            },
+            {
+              "entity_id": "T126",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 303,
+              "end_idx": 305
+            },
+            {
+              "entity_id": "T127",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 306,
+              "end_idx": 308
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T123"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "三级医院积极将诊断明确、病情稳定的患者转诊至基层医疗卫生机构是实施分级诊疗的关键。",
+          "start_idx": 344,
+          "end_idx": 385,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "由不同等级医院实现有效的临床交流和互动，构建专科联盟，达到迅速、便捷、规范化的双向转诊，真正做到上下联动。",
+          "start_idx": 385,
+          "end_idx": 438,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": " ",
+          "start_idx": 438,
+          "end_idx": 439,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "(2)基层医疗卫生机构糖尿病微血管并发症分级诊疗和双向转诊建议：糖尿病患者适时地双向转诊是为了确保患者得到早期筛查和安全有效的治疗，最大限度地发挥基层医疗卫生机构和专科医疗机构各自的优势；同时也是应对在糖尿病微血管病变筛查中所面临的我国基层医疗卫生机构资源配置不平衡、尤其是筛查设备配备不足问题的有效解决方法之一。转诊对象的纳入标准(以糖尿病微血管并发症患者为对象)如下，满足下列任一条件者需进行双向转诊。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)基层医疗卫生机构糖尿病微血管并发症分级诊疗和双向转诊建议：糖尿病患者适时地双向转诊是为了确保患者得到早期筛查和安全有效的治疗，最大限度地发挥基层医疗卫生机构和专科医疗机构各自的优势；同时也是应对在糖尿病微血管病变筛查中所面临的我国基层医疗卫生机构资源配置不平衡、尤其是筛查设备配备不足问题的有效解决方法之一。",
+          "start_idx": 0,
+          "end_idx": 157,
+          "entities": [
+            {
+              "entity_id": "T128",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T129",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T130",
+              "entity": "糖尿病微血管病",
+              "entity_type": "Disease",
+              "start_idx": 101,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T132",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T133",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 104,
+              "end_idx": 107
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T128"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T130"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "转诊对象的纳入标准(以糖尿病微血管并发症患者为对象)如下，满足下列任一条件者需进行双向转诊。",
+          "start_idx": 157,
+          "end_idx": 203,
+          "entities": [
+            {
+              "entity_id": "T131",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T134",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T131"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "转往上级医院：①基层医疗卫生机构缺乏糖尿病微血管并发症筛查设备；②糖尿病微血管并发症患者需调整治疗方案；③糖尿病患者出现严重微血管并发症或病情进一步恶化，基层医疗卫生机构缺乏进一步改善微血管并发症的治疗手段，医患双方均同意转往上级医院就诊。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "转往上级医院：①基层医疗卫生机构缺乏糖尿病微血管并发症筛查设备；②糖尿病微血管并发症患者需调整治疗方案；③糖尿病患者出现严重微血管并发症或病情进一步恶化，基层医疗卫生机构缺乏进一步改善微血管并发症的治疗手段，医患双方均同意转往上级医院就诊。",
+          "start_idx": 0,
+          "end_idx": 120,
+          "entities": [
+            {
+              "entity_id": "T135",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T136",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T137",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T138",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 62,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T139",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T140",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 21,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T141",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T142",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 62,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T143",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 92,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T144",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 60,
+              "end_idx": 62
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T140",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T136"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T138"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T139"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "转往基层医疗卫生机构：①患者在当地中心医院或三级甲等医院完成糖尿病微血管并发症的筛查项目；②治疗方案确定且血糖基本控制稳定；③糖尿病微血管并发症患者的症状和体征得到控制或改善，医患双方均同意转回基层医疗卫生机构。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "转往基层医疗卫生机构：①患者在当地中心医院或三级甲等医院完成糖尿病微血管并发症的筛查项目；②治疗方案确定且血糖基本控制稳定；③糖尿病微血管并发症患者的症状和体征得到控制或改善，医患双方均同意转回基层医疗卫生机构。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T145",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T146",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T147",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T148",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T149",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T150",
+              "entity": "稳定",
+              "entity_type": "Test_Value",
+              "start_idx": 59,
+              "end_idx": 61
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T147",
+              "tail_entity_id": "T145"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T146"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 106,
+          "end_idx": 107,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "糖尿病微血管病变筛查与防治双向转诊流程见图1，具体并发症筛查与防治双向转诊流程见图2一4。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微血管病变筛查与防治双向转诊流程见图1，具体并发症筛查与防治双向转诊流程见图2一4。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "糖尿病微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T152",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T151"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 45,
+          "end_idx": 46,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "3.5 患者管理与教育基层医疗卫生机构医师需要为患者建立糖尿病及其并发症相关档案，主要包括患者的基本信息、一般资料、DR、DKD、DPN、自主神经病变筛查记录，具体筛查记录表格见附录1。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.5 患者管理与教育基层医疗卫生机构医师需要为患者建立糖尿病及其并发症相关档案，主要包括患者的基本信息、一般资料、DR、DKD、DPN、自主神经病变筛查记录，具体筛查记录表格见附录1。",
+          "start_idx": 0,
+          "end_idx": 93,
+          "entities": [
+            {
+              "entity_id": "T153",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T154",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T155",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T156",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T157",
+              "entity": "自主神经病变",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T158",
+              "entity": "自主神经",
+              "entity_type": "Anatomy",
+              "start_idx": 69,
+              "end_idx": 73
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T157"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 93,
+          "end_idx": 94,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "4 基层医疗卫生机构糖尿病微血管并发症的预防和治疗 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4 基层医疗卫生机构糖尿病微血管并发症的预防和治疗 ",
+          "start_idx": 0,
+          "end_idx": 26,
+          "entities": [
+            {
+              "entity_id": "T159",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T160",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T159"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "4.1 糖尿病微血管并发症的筛查与预防 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.1 糖尿病微血管并发症的筛查与预防 ",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T161",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T162",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T161"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "积极控制血糖、血压、血脂等危险因素是预防和延缓糖尿病微血管并发症的基础，基本原则包括纠正高血糖、高血压及血脂异常。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "积极控制血糖、血压、血脂等危险因素是预防和延缓糖尿病微血管并发症的基础，基本原则包括纠正高血糖、高血压及血脂异常。",
+          "start_idx": 0,
+          "end_idx": 57,
+          "entities": [
+            {
+              "entity_id": "T163",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T164",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 26,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T165",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T166",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T167",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T168",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T169",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T170",
+              "entity": "血脂异常",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 56
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T166",
+              "tail_entity_id": "T163"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "(1)血糖控制：DCCT、UKPDS、VADT等多项临床研究结果均显示强化血糖控制可以降低糖尿病微血管并发症的发生风险。大多数成人2型糖尿病患者合理的糖化血红蛋白(HbA1c)目标是<7%。研究证明，严格控制血糖，使HbA1c<6.5%，可以更好地预防糖尿病微血管并发症的发生。对于经过生活方式干预和规范口服降糖药治疗3个月血糖仍不能达标的2型糖尿病患者，需及时使用胰岛素治疗。此外，具有降糖之外微血管病变防治效应的降糖药应优先选择。基层医疗卫生机构在使用胰岛素时可优先考虑使用方便、低血糖风险小的胰岛素产品，如基础胰岛素等。目前，国内外指南对糖尿病微血管并发症防治的降糖药物并无特别推荐，但有研究显示，及时开始胰岛素治疗可以延缓糖尿病患者微血管瘤和DR的进展。ORIGIN研究亦显示，甘精胰岛素可延缓糖尿病患者DKD和微量白蛋白尿的进展。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)血糖控制：DCCT、UKPDS、VADT等多项临床研究结果均显示强化血糖控制可以降低糖尿病微血管并发症的发生风险。大多数成人2型糖尿病患者合理的糖化血红蛋白(HbA1c)目标是<7%。研究证明，严格控制血糖，使HbA1c<6.5%，可以更好地预防糖尿病微血管并发症的发生。对于经过生活方式干预和规范口服降糖药治疗3个月血糖仍不能达标的2型糖尿病患者，需及时使用胰岛素治疗。此外，具有降糖之外微血管病变防治效应的降糖药应优先选择。基层医疗卫生机构在使用胰岛素时可优先考虑使用方便、低血糖风险小的胰岛素产品，如基础胰岛素等。目前，国内外指南对糖尿病微血管并发症防治的降糖药物并无特别推荐，但有研究显示，及时开始胰岛素治疗可以延缓糖尿病患者微血管瘤和DR的进展。ORIGIN研究亦显示，甘精胰岛素可延缓糖尿病患者DKD和微量白蛋白尿的进展。",
+          "start_idx": 0,
+          "end_idx": 370,
+          "entities": [
+            {
+              "entity_id": "T171",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T172",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T173",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 126,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T174",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 170,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T175",
+              "entity": "微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 198,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T176",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 272,
+              "end_idx": 281
+            },
+            {
+              "entity_id": "T177",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 315,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T178",
+              "entity": "微血管瘤",
+              "entity_type": "Disease",
+              "start_idx": 320,
+              "end_idx": 324
+            },
+            {
+              "entity_id": "T179",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 325,
+              "end_idx": 327
+            },
+            {
+              "entity_id": "T180",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 315,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T181",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 351,
+              "end_idx": 354
+            },
+            {
+              "entity_id": "T182",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 356,
+              "end_idx": 359
+            },
+            {
+              "entity_id": "T183",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T184",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 129,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T185",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 198,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T186",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 275,
+              "end_idx": 278
+            },
+            {
+              "entity_id": "T187",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 320,
+              "end_idx": 323
+            },
+            {
+              "entity_id": "T188",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T189",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 170,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T190",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T191",
+              "entity": "糖化血红蛋白(HbA1c)",
+              "entity_type": "Test_items",
+              "start_idx": 75,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T192",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T193",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 108,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T194",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 162,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T195",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 343,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T196",
+              "entity": "微量白蛋白尿",
+              "entity_type": "Test_items",
+              "start_idx": 360,
+              "end_idx": 366
+            },
+            {
+              "entity_id": "T197",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 91,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T198",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 113,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T199",
+              "entity": "不能达标",
+              "entity_type": "Test_Value",
+              "start_idx": 165,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T200",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 152,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T201",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 183,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T202",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T203",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 249,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T204",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 256,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T205",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 306,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T206",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 143,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T207",
+              "entity": "3个月",
+              "entity_type": "Duration",
+              "start_idx": 159,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T208",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 242,
+              "end_idx": 245
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T171"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T171"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T188",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T172"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T189",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T185",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T186",
+              "tail_entity_id": "T176"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T187",
+              "tail_entity_id": "T178"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T178"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T180"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T181"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T182"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R86",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T202"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 370,
+          "end_idx": 371,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "(2)血压控制：2型糖尿病患者每次随访均需监测血压。对于糖尿病合并高血压的患者，除接受生活方式干预外，需立即行药物治疗，以及时达到血压控制目标，无DKD的糖尿病患者血压控制目标为≤140/90mmHg，有DR、DKD或脑血管损伤患者的血压控制目标为≤130/80mmHg。降压药物的选择如下：血管紧张素转化酶抑制剂/血管紧张素Ⅱ受体拮抗剂(ACEI/ARB)、噻嗪类利尿剂或钙通道阻滞剂(CCB)，通常需联用多种降压药物。对于微量白蛋白/肌酐比值(UACR)≥300mg/g肌酐或30~299mg/g肌酐的糖尿病患者，推荐采用最大可耐受剂量ACEI或ARB作为高血压治疗的一线用药。不建议ACEI和ARB联用。使用ACEI、ARB或利尿剂时，需注意检测患者血肌酐、估算肾小球滤过率(eGFR)及血钾水平。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)血压控制：2型糖尿病患者每次随访均需监测血压。对于糖尿病合并高血压的患者，除接受生活方式干预外，需立即行药物治疗，以及时达到血压控制目标，无DKD的糖尿病患者血压控制目标为≤140/90mmHg，有DR、DKD或脑血管损伤患者的血压控制目标为≤130/80mmHg。降压药物的选择如下：血管紧张素转化酶抑制剂/血管紧张素Ⅱ受体拮抗剂(ACEI/ARB)、噻嗪类利尿剂或钙通道阻滞剂(CCB)，通常需联用多种降压药物。对于微量白蛋白/肌酐比值(UACR)≥300mg/g肌酐或30~299mg/g肌酐的糖尿病患者，推荐采用最大可耐受剂量ACEI或ARB作为高血压治疗的一线用药。",
+          "start_idx": 0,
+          "end_idx": 291,
+          "entities": [
+            {
+              "entity_id": "T209",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T210",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T211",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 77,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T212",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T213",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T214",
+              "entity": "脑血管损伤",
+              "entity_type": "Disease",
+              "start_idx": 109,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T215",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 280,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T216",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T217",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T218",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T219",
+              "entity": "脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 109,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T220",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T221",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T222",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T223",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 117,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T224",
+              "entity": "微量白蛋白/肌酐比值(UACR)",
+              "entity_type": "Test_items",
+              "start_idx": 213,
+              "end_idx": 229
+            },
+            {
+              "entity_id": "T230",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 253,
+              "end_idx": 256
+            },
+            {
+              "entity_id": "T231",
+              "entity": "≤140/90mmHg",
+              "entity_type": "Test_Value",
+              "start_idx": 89,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T232",
+              "entity": "≤130/80mmHg",
+              "entity_type": "Test_Value",
+              "start_idx": 124,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T233",
+              "entity": "≥300mg/g肌酐",
+              "entity_type": "Test_Value",
+              "start_idx": 229,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T234",
+              "entity": "30~299mg/g肌酐",
+              "entity_type": "Test_Value",
+              "start_idx": 240,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T235",
+              "entity": "血管紧张素转化酶抑制剂/血管紧张素Ⅱ受体拮抗剂(ACEI/ARB)",
+              "entity_type": "Drug",
+              "start_idx": 146,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T236",
+              "entity": "噻嗪类利尿剂",
+              "entity_type": "Drug",
+              "start_idx": 180,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T237",
+              "entity": "钙通道阻滞剂(CCB)",
+              "entity_type": "Drug",
+              "start_idx": 187,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T238",
+              "entity": "ACEI",
+              "entity_type": "Drug",
+              "start_idx": 270,
+              "end_idx": 274
+            },
+            {
+              "entity_id": "T239",
+              "entity": "ARB",
+              "entity_type": "Drug",
+              "start_idx": 275,
+              "end_idx": 278
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T216",
+              "tail_entity_id": "T209"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T209"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T222",
+              "tail_entity_id": "T211"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T219",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T238",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T218"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T230"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "不建议ACEI和ARB联用。",
+          "start_idx": 291,
+          "end_idx": 305,
+          "entities": [
+            {
+              "entity_id": "T225",
+              "entity": "ACEI",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T226",
+              "entity": "ARB",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "使用ACEI、ARB或利尿剂时，需注意检测患者血肌酐、估算肾小球滤过率(eGFR)及血钾水平。",
+          "start_idx": 305,
+          "end_idx": 352,
+          "entities": [
+            {
+              "entity_id": "T227",
+              "entity": "血肌酐",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T228",
+              "entity": "肾小球滤过率(eGFR)",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T229",
+              "entity": "血钾",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T240",
+              "entity": "ACEI",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T241",
+              "entity": "ARB",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T242",
+              "entity": "利尿剂",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": " ",
+          "start_idx": 352,
+          "end_idx": 353,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "(3)血脂控制：2型糖尿病患者每年应至少进行1次血脂检查。接受调脂药物治疗者，根据评估疗效的需要可增加检查次数。目前常用的降脂药物主要包括：他汀类、贝特类、烟酸类、胆酸螯合剂、依折麦布、n-3脂肪酸制剂。在进行降脂药物治疗时，应将降低低密度脂蛋白胆固醇(LDL-C)作为首要目标。未合并冠心病患者的LDL-C<2.6mmol/L，合并冠心病患者的LDL-C<1.8mmol/L。若甘油三酯>5.7mmol/L，可在生活方式干预的基础上使用降低甘油三酯的药物，以降低急性胰腺炎的发生风险。FIELD研究显示，非诺贝特可减缓DR进展，减少激光治疗需求。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)血脂控制：2型糖尿病患者每年应至少进行1次血脂检查。接受调脂药物治疗者，根据评估疗效的需要可增加检查次数。目前常用的降脂药物主要包括：他汀类、贝特类、烟酸类、胆酸螯合剂、依折麦布、n-3脂肪酸制剂。在进行降脂药物治疗时，应将降低低密度脂蛋白胆固醇(LDL-C)作为首要目标。未合并冠心病患者的LDL-C<2.6mmol/L，合并冠心病患者的LDL-C<1.8mmol/L。若甘油三酯>5.7mmol/L，可在生活方式干预的基础上使用降低甘油三酯的药物，以降低急性胰腺炎的发生风险。FIELD研究显示，非诺贝特可减缓DR进展，减少激光治疗需求。",
+          "start_idx": 0,
+          "end_idx": 274,
+          "entities": [
+            {
+              "entity_id": "T243",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T244",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T245",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T246",
+              "entity": "血脂检查",
+              "entity_type": "Test",
+              "start_idx": 24,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T247",
+              "entity": "他汀类",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T248",
+              "entity": "贝特类",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T249",
+              "entity": "烟酸类",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T250",
+              "entity": "胆酸螯合剂",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T251",
+              "entity": "依折麦布",
+              "entity_type": "Drug",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T252",
+              "entity": "n-3脂肪酸制剂",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T253",
+              "entity": "非诺贝特",
+              "entity_type": "Drug",
+              "start_idx": 253,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T254",
+              "entity": "低密度脂蛋白胆固醇(LDL-C)",
+              "entity_type": "Test_items",
+              "start_idx": 117,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T255",
+              "entity": "LDL-C",
+              "entity_type": "Test_items",
+              "start_idx": 149,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T256",
+              "entity": "LDL-C",
+              "entity_type": "Test_items",
+              "start_idx": 173,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T257",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 190,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T258",
+              "entity": "<1.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 178,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T259",
+              "entity": ">5.7mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 194,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T260",
+              "entity": "<2.6mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 154,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T261",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 221,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T262",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T263",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 207,
+              "end_idx": 213
+            },
+            {
+              "entity_id": "T264",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 167,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T265",
+              "entity": "急性胰腺炎",
+              "entity_type": "Disease",
+              "start_idx": 232,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T266",
+              "entity": "胰腺",
+              "entity_type": "Anatomy",
+              "start_idx": 234,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T267",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 260,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T268",
+              "entity": "激光治疗",
+              "entity_type": "Treatment",
+              "start_idx": 267,
+              "end_idx": 271
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T253",
+              "tail_entity_id": "T267"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T262"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T264"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T263",
+              "tail_entity_id": "T264"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T266",
+              "tail_entity_id": "T265"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T268",
+              "tail_entity_id": "T267"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 274,
+          "end_idx": 275,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "糖尿病微血管并发症预防的推荐意见见表2。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微血管并发症预防的推荐意见见表2。",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T269",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T270",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T271",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T270",
+              "tail_entity_id": "T269"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "4.2 糖尿病微血管并发症的治疗对于己合并DR、DKD或DPN的糖尿病患者，延缓并发症进展、及时给予针对性治疗可最大限度地保护靶器官，减少失明、终末期肾病及糖尿病足等事件的发生。积极控制血糖、血压、血脂仍是糖尿病治疗的基础。改善微循环治疗是针对糖尿病微血管病变重要的临床治疗方法，改善糖尿病微循环用药应遵循“早期、个体化、合理联合、重视安全”的原则。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.2 糖尿病微血管并发症的治疗对于己合并DR、DKD或DPN的糖尿病患者，延缓并发症进展、及时给予针对性治疗可最大限度地保护靶器官，减少失明、终末期肾病及糖尿病足等事件的发生。积极控制血糖、血压、血脂仍是糖尿病治疗的基础。改善微循环治疗是针对糖尿病微血管病变重要的临床治疗方法，改善糖尿病微循环用药应遵循“早期、个体化、合理联合、重视安全”的原则。",
+          "start_idx": 0,
+          "end_idx": 175,
+          "entities": [
+            {
+              "entity_id": "T272",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T273",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T274",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T275",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T276",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T277",
+              "entity": "失明",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T278",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T279",
+              "entity": "糖尿病足",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T280",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T281",
+              "entity": "糖尿病微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 122,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T282",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T283",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T284",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 75,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T285",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 125,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T286",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T287",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T288",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 96,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T289",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T290",
+              "entity": "改善微循环治疗",
+              "entity_type": "Treatment",
+              "start_idx": 112,
+              "end_idx": 119
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T283",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T284",
+              "tail_entity_id": "T278"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T286",
+              "tail_entity_id": "T278"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T287",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T289",
+              "tail_entity_id": "T280"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T285",
+              "tail_entity_id": "T281"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T290",
+              "tail_entity_id": "T281"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 175,
+          "end_idx": 176,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "(1)DR：改善微循环治疗可能延缓DR的进展。①胰激肽原酶，可增加毛细血管血流量，激活纤溶酶，降低血液黏度，改善血流变；②羟苯磺酸钙，可抗氧化应激和炎症，维护视网膜屏障完整性，抑制新生血管生成，延缓DR进展；③抗血管内皮生长因子药物，包括雷珠单抗和贝伐单抗，可用于各种原因引起的黄斑水肿、视网膜新生血管等。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)DR：改善微循环治疗可能延缓DR的进展。①胰激肽原酶，可增加毛细血管血流量，激活纤溶酶，降低血液黏度，改善血流变；②羟苯磺酸钙，可抗氧化应激和炎症，维护视网膜屏障完整性，抑制新生血管生成，延缓DR进展；③抗血管内皮生长因子药物，包括雷珠单抗和贝伐单抗，可用于各种原因引起的黄斑水肿、视网膜新生血管等。",
+          "start_idx": 0,
+          "end_idx": 153,
+          "entities": [
+            {
+              "entity_id": "T291",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T292",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T293",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T294",
+              "entity": "黄斑水肿",
+              "entity_type": "Disease",
+              "start_idx": 139,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T295",
+              "entity": "视网膜新生血管",
+              "entity_type": "Disease",
+              "start_idx": 144,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T296",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 139,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T297",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 144,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T298",
+              "entity": "改善微循环治疗",
+              "entity_type": "Treatment",
+              "start_idx": 6,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T299",
+              "entity": "胰激肽原酶",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T300",
+              "entity": "羟苯磺酸钙",
+              "entity_type": "Drug",
+              "start_idx": 61,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T301",
+              "entity": "抗血管内皮生长因子药物",
+              "entity_type": "Drug",
+              "start_idx": 105,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T302",
+              "entity": "雷珠单抗",
+              "entity_type": "Drug",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T303",
+              "entity": "贝伐单抗",
+              "entity_type": "Drug",
+              "start_idx": 124,
+              "end_idx": 128
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T298",
+              "tail_entity_id": "T292"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T293"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T296",
+              "tail_entity_id": "T294"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T294"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T294"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T294"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T295"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 153,
+          "end_idx": 154,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "对于重度非增殖型糖尿病视网膜病变(non-proli- ferative diabetic retinopathy，NPDR) 及增殖型糖尿病视网膜病变(proliferative diabetic retinopathy，PDR) 的糖尿病患者需请眼科医师会诊。高危PDR和部分严重NPDR患者可行激光光凝术。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于重度非增殖型糖尿病视网膜病变(non-proli- ferative diabetic retinopathy，NPDR) 及增殖型糖尿病视网膜病变(proliferative diabetic retinopathy，PDR) 的糖尿病患者需请眼科医师会诊。高危PDR和部分严重NPDR患者可行激光光凝术。",
+          "start_idx": 0,
+          "end_idx": 156,
+          "entities": [
+            {
+              "entity_id": "T304",
+              "entity": "增殖型糖尿病视网膜病变(proliferative diabetic retinopathy，PDR)",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T305",
+              "entity": "非增殖型糖尿病视网膜病变(non-proli- ferative diabetic retinopathy，NPDR)",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T306",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T307",
+              "entity": "PDR",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T308",
+              "entity": "NPDR",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T309",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T310",
+              "entity": "高危",
+              "entity_type": "Level",
+              "start_idx": 132,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T311",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 140,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T312",
+              "entity": "激光光凝术",
+              "entity_type": "Treatment",
+              "start_idx": 150,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T313",
+              "entity": "非增殖型",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T314",
+              "entity": "增殖型",
+              "entity_type": "Class",
+              "start_idx": 65,
+              "end_idx": 68
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T314",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T313",
+              "tail_entity_id": "T305"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R128",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R129",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T308"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 156,
+          "end_idx": 157,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "对于eGFR<30ml/(min·1.73m2) 的DKD患者应请肾脏专科医师治疗；若eGFR<15ml/(min·1.73m2) ，需考虑替代治疗，如进行血液透析治疗等。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于eGFR<30ml/(min·1.73m2) 的DKD患者应请肾脏专科医师治疗；若eGFR<15ml/(min·1.73m2) ，需考虑替代治疗，如进行血液透析治疗等。",
+          "start_idx": 0,
+          "end_idx": 86,
+          "entities": [
+            {
+              "entity_id": "T315",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T316",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T317",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T318",
+              "entity": "<30ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 6,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T319",
+              "entity": "<15ml/(min·1.73m2)",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T320",
+              "entity": "血液透析治疗",
+              "entity_type": "Treatment",
+              "start_idx": 78,
+              "end_idx": 84
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R130",
+              "head_entity_id": "T316",
+              "tail_entity_id": "T315"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 86,
+          "end_idx": 87,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "(3)DPN：积极严格地控制高血糖并保持血糖稳定是预防和治疗DPN最重要的措施，",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)DPN：积极严格地控制高血糖并保持血糖稳定是预防和治疗DPN最重要的措施，",
+          "start_idx": 0,
+          "end_idx": 40,
+          "entities": [
+            {
+              "entity_id": "T321",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T322",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T323",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T324",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T325",
+              "entity": "稳定",
+              "entity_type": "Test_Value",
+              "start_idx": 22,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R131",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T322"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "针对神经病变发病机制的治疗包括：①神经修复，常用药物有甲钴胺、神经生长因子等；②神经营养因子、肌醇、神经节苷酯及亚麻酸等。针对神经病变发病机制的治疗包括：①抗氧化应激：通过抑制脂质过氧化，增加神经营养血管的血流量，提高神经Na+-K+-ATP酶活性，保护血管内皮功能，常用药物为硫辛酸；②改善代谢素乱：醛糖还原酶抑制剂，常用依帕司他等；③改善微循环：周围神经血流减少是导致DPN发生的重要因素，通过扩张血管，改善血液高凝状态和微循环，提高神经细胞的血氧供应，可有效改善DPN患者的临床症状，常用药物包括前列地尔、贝前列素钠、西洛他唑、己酮可可碱、胰激肽原酶、CCB及活血化瘀类中药等。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "针对神经病变发病机制的治疗包括：①神经修复，常用药物有甲钴胺、神经生长因子等；②神经营养因子、肌醇、神经节苷酯及亚麻酸等。针对神经病变发病机制的治疗包括：①抗氧化应激：通过抑制脂质过氧化，增加神经营养血管的血流量，提高神经Na+-K+-ATP酶活性，保护血管内皮功能，常用药物为硫辛酸；②改善代谢素乱：醛糖还原酶抑制剂，常用依帕司他等；③改善微循环：周围神经血流减少是导致DPN发生的重要因素，通过扩张血管，改善血液高凝状态和微循环，提高神经细胞的血氧供应，可有效改善DPN患者的临床症状，常用药物包括前列地尔、贝前列素钠、西洛他唑、己酮可可碱、胰激肽原酶、CCB及活血化瘀类中药等。",
+          "start_idx": 0,
+          "end_idx": 292,
+          "entities": [
+            {
+              "entity_id": "T326",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T327",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 234,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T328",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 186,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T329",
+              "entity": "神经病变",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T330",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T331",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 63,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T332",
+              "entity": "周围神经血流减少",
+              "entity_type": "Reason",
+              "start_idx": 175,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T333",
+              "entity": "甲钴胺",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T334",
+              "entity": "神经生长因子",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T335",
+              "entity": "神经营养因子",
+              "entity_type": "Drug",
+              "start_idx": 40,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T336",
+              "entity": "肌醇",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T337",
+              "entity": "神经节苷酯",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T338",
+              "entity": "亚麻酸",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T339",
+              "entity": "硫辛酸",
+              "entity_type": "Drug",
+              "start_idx": 139,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T340",
+              "entity": "醛糖还原酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 151,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T341",
+              "entity": "依帕司他",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T342",
+              "entity": "前列地尔",
+              "entity_type": "Drug",
+              "start_idx": 251,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T343",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 256,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T344",
+              "entity": "西洛他唑",
+              "entity_type": "Drug",
+              "start_idx": 262,
+              "end_idx": 266
+            },
+            {
+              "entity_id": "T345",
+              "entity": "己酮可可碱",
+              "entity_type": "Drug",
+              "start_idx": 267,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T346",
+              "entity": "胰激肽原酶",
+              "entity_type": "Drug",
+              "start_idx": 273,
+              "end_idx": 278
+            },
+            {
+              "entity_id": "T347",
+              "entity": "CCB",
+              "entity_type": "Drug",
+              "start_idx": 279,
+              "end_idx": 282
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R132",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T326"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T326"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R134",
+              "head_entity_id": "T334",
+              "tail_entity_id": "T326"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R135",
+              "head_entity_id": "T342",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R136",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R137",
+              "head_entity_id": "T344",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R138",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R139",
+              "head_entity_id": "T346",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R140",
+              "head_entity_id": "T347",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R141",
+              "head_entity_id": "T332",
+              "tail_entity_id": "T328"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R142",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T329"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 292,
+          "end_idx": 293,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "糖尿病微血管并发症治疗的推荐意见见表3。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病微血管并发症治疗的推荐意见见表3。",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T348",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T349",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R143",
+              "head_entity_id": "T349",
+              "tail_entity_id": "T348"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "5 总结与展望 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5 总结与展望 ",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "衷心希望《基层糖尿病微血管病变筛查与防治专家共识》的发布能够为推动我国基层糖尿病防控的发展贡献力量，希望基层医疗卫生机构能在微血管并发症筛查和管理方面多方联动，逐步完善，真正有效地预防和控制糖尿病微血管并发症的发生发展，改善患者生存质量，减轻患者家庭和社会卫生经济负担。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "衷心希望《基层糖尿病微血管病变筛查与防治专家共识》的发布能够为推动我国基层糖尿病防控的发展贡献力量，希望基层医疗卫生机构能在微血管并发症筛查和管理方面多方联动，逐步完善，真正有效地预防和控制糖尿病微血管并发症的发生发展，改善患者生存质量，减轻患者家庭和社会卫生经济负担。",
+          "start_idx": 0,
+          "end_idx": 135,
+          "entities": [
+            {
+              "entity_id": "T350",
+              "entity": "糖尿病微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T351",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T352",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T353",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 62,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T354",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 62,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T355",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T356",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 98,
+              "end_idx": 101
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R144",
+              "head_entity_id": "T351",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R145",
+              "head_entity_id": "T354",
+              "tail_entity_id": "T353"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R146",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T355"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 135,
+          "end_idx": 136,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "附录2：糖尿病微血管并发症诊断",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "附录2：糖尿病微血管并发症诊断",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T357",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T358",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R147",
+              "head_entity_id": "T358",
+              "tail_entity_id": "T357"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "(1)糖尿病视网膜病变(DR)的诊断：DR依据散瞳后眼底镜检查或眼底照相结果进行诊断与分级诊断与分级标准参照目前全球统一的“糖黄斑水肿疾病严重程度分级标准。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)糖尿病视网膜病变(DR)的诊断：DR依据散瞳后眼底镜检查或眼底照相结果进行诊断与分级诊断与分级标准参照目前全球统一的“糖黄斑水肿疾病严重程度分级标准。",
+          "start_idx": 0,
+          "end_idx": 78,
+          "entities": [
+            {
+              "entity_id": "T359",
+              "entity": "糖尿病视网膜病变(DR)",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T360",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T361",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T362",
+              "entity": "散瞳后眼底镜检查",
+              "entity_type": "Test",
+              "start_idx": 23,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T363",
+              "entity": "眼底照相",
+              "entity_type": "Test",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T364",
+              "entity": "糖黄斑水肿",
+              "entity_type": "Disease",
+              "start_idx": 62,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T365",
+              "entity": "黄斑",
+              "entity_type": "Anatomy",
+              "start_idx": 63,
+              "end_idx": 65
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R148",
+              "head_entity_id": "T360",
+              "tail_entity_id": "T359"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R149",
+              "head_entity_id": "T362",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R150",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R151",
+              "head_entity_id": "T365",
+              "tail_entity_id": "T364"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "(3)糖尿病周围神经病变(DPN)的诊断：DPN是指在排除其他原因的情况下，糖尿病患者出现周障碍相关的症状或体征，其中最常见及最具代尿病远端对称性多发性神经病变(DSPN)。DSPN诊断标准如下：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)糖尿病周围神经病变(DPN)的诊断：DPN是指在排除其他原因的情况下，糖尿病患者出现周障碍相关的症状或体征，其中最常见及最具代尿病远端对称性多发性神经病变(DSPN)。",
+          "start_idx": 0,
+          "end_idx": 87,
+          "entities": [
+            {
+              "entity_id": "T366",
+              "entity": "糖尿病周围神经病变(DPN)",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T367",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T368",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T369",
+              "entity": "尿病远端对称性多发性神经病变(DSPN)",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T371",
+              "entity": "周围神经",
+              "entity_type": "Anatomy",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T372",
+              "entity": "神经",
+              "entity_type": "Anatomy",
+              "start_idx": 76,
+              "end_idx": 78
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R152",
+              "head_entity_id": "T371",
+              "tail_entity_id": "T366"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R153",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T369"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "DSPN诊断标准如下：",
+          "start_idx": 87,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T370",
+              "entity": "DSPN",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "附录3 各项糖尿病微血管并发症检查方法DR：眼底检查或眼底照相。DKD：指导患者留取血、尿标本。DPN：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "附录3 各项糖尿病微血管并发症检查方法DR：眼底检查或眼底照相。DKD：指导患者留取血、尿标本。",
+          "start_idx": 0,
+          "end_idx": 48,
+          "entities": [
+            {
+              "entity_id": "T373",
+              "entity": "糖尿病微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T374",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T375",
+              "entity": "DR",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T376",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T378",
+              "entity": "眼底检查",
+              "entity_type": "Test",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T379",
+              "entity": "眼底照相",
+              "entity_type": "Test",
+              "start_idx": 27,
+              "end_idx": 31
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R154",
+              "head_entity_id": "T374",
+              "tail_entity_id": "T373"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R155",
+              "head_entity_id": "T378",
+              "tail_entity_id": "T375"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R156",
+              "head_entity_id": "T379",
+              "tail_entity_id": "T375"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "DPN：",
+          "start_idx": 48,
+          "end_idx": 52,
+          "entities": [
+            {
+              "entity_id": "T377",
+              "entity": "DPN",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "(1)音叉：深感觉评估，初步评估粗将振动的128Hz音叉末端置于双足趾背面的骨测试3次，在患者闭眼的状况下，询问患叉的振动，3次中2次以上回答错误判为振动中2次以上回答正确则判为振动觉存在。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)音叉：深感觉评估，初步评估粗将振动的128Hz音叉末端置于双足趾背面的骨测试3次，在患者闭眼的状况下，询问患叉的振动，3次中2次以上回答错误判为振动中2次以上回答正确则判为振动觉存在。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T380",
+              "entity": "音叉",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "(2)尼龙单丝：深感觉评估。初步评估粗感觉能。以双足趾及第I、第V跖骨头的掌面为检查部位胼胝及溃疡部位)，将单丝置于检察部位压弯，1~2，在患者闭眼的情况下，回答是否感觉到单丝的每个部位各测试3次，3次中2次以上回答错误则判为力觉缺失，3次中2次以上回答正确则判为压力觉存在。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)尼龙单丝：深感觉评估。",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T381",
+              "entity": "尼龙单丝",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T382",
+              "entity": "深感觉评估",
+              "entity_type": "Test",
+              "start_idx": 8,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "初步评估粗感觉能。",
+          "start_idx": 14,
+          "end_idx": 23,
+          "entities": [
+            {
+              "entity_id": "T383",
+              "entity": "评估粗感觉能",
+              "entity_type": "Test",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "以双足趾及第I、第V跖骨头的掌面为检查部位胼胝及溃疡部位)，将单丝置于检察部位压弯，1~2，在患者闭眼的情况下，回答是否感觉到单丝的每个部位各测试3次，3次中2次以上回答错误则判为力觉缺失，3次中2次以上回答正确则判为压力觉存在。",
+          "start_idx": 23,
+          "end_idx": 138,
+          "entities": [
+            {
+              "entity_id": "T384",
+              "entity": "溃疡",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 26
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "(3)温觉：浅感觉评估，初步评估细录患者温度觉正常或异常。任意一侧温阳性；双侧温度觉正常，则判为阴性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)温觉：浅感觉评估，初步评估细录患者温度觉正常或异常。",
+          "start_idx": 0,
+          "end_idx": 29,
+          "entities": [
+            {
+              "entity_id": "T385",
+              "entity": "温觉",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T386",
+              "entity": "浅感觉评估",
+              "entity_type": "Test",
+              "start_idx": 6,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "任意一侧温阳性；双侧温度觉正常，则判为阴性。",
+          "start_idx": 29,
+          "end_idx": 51,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "(4)痛觉：浅感觉评估，初步评估细感觉纤意一侧针刺痛觉缺失，即判为阳性；双侧针刺判为阴性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)痛觉：浅感觉评估，初步评估细感觉纤意一侧针刺痛觉缺失，即判为阳性；双侧针刺判为阴性。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T387",
+              "entity": "痛觉",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T388",
+              "entity": "浅感觉评估",
+              "entity_type": "Test",
+              "start_idx": 6,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "(5)踝反射：深反射检查，针对胫神经的传侧踝反射同时出现减弱或消失时判为阳性；反射减弱、消失、亢进及正常时均判为阴性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(5)踝反射：深反射检查，针对胫神经的传侧踝反射同时出现减弱或消失时判为阳性；反射减弱、消失、亢进及正常时均判为阴性。",
+          "start_idx": 0,
+          "end_idx": 59,
+          "entities": [
+            {
+              "entity_id": "T389",
+              "entity": "踝反射",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T390",
+              "entity": "深反射检查",
+              "entity_type": "Test",
+              "start_idx": 7,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "(2)DKD：DKD患者需优质低蛋白饮食，戒烟，严格控制血压、血糖、血脂及尿酸水平。肾功能不全患者可优先选择经肾脏排泄较少的降糖药，严重肾功能不全患者应采用胰岛素治疗。使用过程中应加强血糖监测，及时调整胰岛素的用量。降压药首选ACEI/ARB，在降低血压的同时可有效减少蛋白尿。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)DKD：DKD患者需优质低蛋白饮食，戒烟，严格控制血压、血糖、血脂及尿酸水平。肾功能不全患者可优先选择经肾脏排泄较少的降糖药，严重肾功能不全患者应采用胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 84,
+          "entities": [
+            {
+              "entity_id": "T391",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T392",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T393",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T394",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T395",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 42,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T396",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 68,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T397",
+              "entity": "优质低蛋白饮食",
+              "entity_type": "Treatment",
+              "start_idx": 13,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T398",
+              "entity": "戒烟",
+              "entity_type": "Treatment",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T399",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T400",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T401",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T402",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T405",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T408",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 66,
+              "end_idx": 68
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R157",
+              "head_entity_id": "T397",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R158",
+              "head_entity_id": "T398",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R159",
+              "head_entity_id": "T399",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R160",
+              "head_entity_id": "T400",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R161",
+              "head_entity_id": "T401",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R162",
+              "head_entity_id": "T402",
+              "tail_entity_id": "T392"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R163",
+              "head_entity_id": "T395",
+              "tail_entity_id": "T393"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R164",
+              "head_entity_id": "T396",
+              "tail_entity_id": "T394"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R165",
+              "head_entity_id": "T405",
+              "tail_entity_id": "T394"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "使用过程中应加强血糖监测，及时调整胰岛素的用量。",
+          "start_idx": 84,
+          "end_idx": 108,
+          "entities": [
+            {
+              "entity_id": "T403",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T406",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "降压药首选ACEI/ARB，在降低血压的同时可有效减少蛋白尿。",
+          "start_idx": 108,
+          "end_idx": 139,
+          "entities": [
+            {
+              "entity_id": "T404",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T407",
+              "entity": "ACEI/ARB",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T409",
+              "entity": "蛋白尿",
+              "entity_type": "Symptom",
+              "start_idx": 27,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": " ",
+          "start_idx": 139,
+          "end_idx": 140,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "此外，改善微循环治疗可能延缓DKD进展；①胰激肽原酶对DKD具有一定疗效，但同样需要高质量的随机对照研究进一步证实；②前列地尔与贝前列素钠可舒张血管平滑肌，发挥扩血管作用，同时通过降低血液黏度、改善红细胞变形能力，从而改善微循环；③文献报道，银杏叶提取物、丹参提取物、黄芪制剂等中药制剂可能发挥一定的肾脏保护作用，但总体上仍缺乏高质量和大型研究数据的支持。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "此外，改善微循环治疗可能延缓DKD进展；①胰激肽原酶对DKD具有一定疗效，但同样需要高质量的随机对照研究进一步证实；②前列地尔与贝前列素钠可舒张血管平滑肌，发挥扩血管作用，同时通过降低血液黏度、改善红细胞变形能力，从而改善微循环；③文献报道，银杏叶提取物、丹参提取物、黄芪制剂等中药制剂可能发挥一定的肾脏保护作用，但总体上仍缺乏高质量和大型研究数据的支持。",
+          "start_idx": 0,
+          "end_idx": 178,
+          "entities": [
+            {
+              "entity_id": "T410",
+              "entity": "改善微循环治疗",
+              "entity_type": "Treatment",
+              "start_idx": 3,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T411",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T412",
+              "entity": "DKD",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T413",
+              "entity": "胰激肽原酶",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T414",
+              "entity": "前列地尔",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T415",
+              "entity": "贝前列素钠",
+              "entity_type": "Drug",
+              "start_idx": 64,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T416",
+              "entity": "银杏叶提取物",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T417",
+              "entity": "丹参提取物",
+              "entity_type": "Drug",
+              "start_idx": 128,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T418",
+              "entity": "黄芪制剂",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 138
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R166",
+              "head_entity_id": "T410",
+              "tail_entity_id": "T411"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R167",
+              "head_entity_id": "T413",
+              "tail_entity_id": "T412"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 178,
+          "end_idx": 179,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "(6)感觉阈值测定：一般选用振动感觉阈值(VPT)检测仪进行测定，对平仰卧的糖尿病患者肢体进行感觉检查，可选择内踝及第一足趾部位进行测定，对两侧分别检测，首先用低档的初始电压，随时间慢慢增加电压，直至患者四肢有较明显的感觉为止，记录测定的感觉阈值。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(6)感觉阈值测定：一般选用振动感觉阈值(VPT)检测仪进行测定，对平仰卧的糖尿病患者肢体进行感觉检查，可选择内踝及第一足趾部位进行测定，对两侧分别检测，首先用低档的初始电压，随时间慢慢增加电压，直至患者四肢有较明显的感觉为止，记录测定的感觉阈值。",
+          "start_idx": 0,
+          "end_idx": 124,
+          "entities": [
+            {
+              "entity_id": "T419",
+              "entity": "感觉阈值测定",
+              "entity_type": "Test",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T420",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}
