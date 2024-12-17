@@ -6,16 +6,20 @@
 
 - [version1](version1/README.md)
 
-以天池瑞金数据集和Dacorp问答数据为基础使用neo4j构建知识图谱并完成问答系统。
+以天池瑞金数据集和Dacorp问答数据为基础使用`neo4j`构建知识图谱并完成问答系统。
 
-**知识图谱**选用天池瑞金数据集，读取json文件进行构建KG。
+**知识图谱**：选用天池瑞金数据集，读取json文件进行构建KG。
 
-**命名实体识别**选择`jieba`分词构建自定义字典，对问句query进行识别。
+**命名实体识别**：选择`jieba`分词构建自定义字典，对问句query进行识别。
 
-**意图识别**抽象为基于`bert`的中文文本分类任务。共有23个意图label。
+**意图识别**：抽象为基于`bert`的中文文本分类任务。共有23个意图label。
 
-**LLM**选择`ChatGlm4-flash`
+**LLM**：选择`ChatGlm4-flash`
+
+具体内容请看文件夹`version1`
 
 - [version2](version2/README.md)
 
 将结合RAG技术进行增强生成，目前正在持续更新中。
+
+具体内容请看文件夹`version2`
