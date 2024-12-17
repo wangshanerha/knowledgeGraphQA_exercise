@@ -1,0 +1,6350 @@
+{
+  "doc_id": "40",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "中国超重/肥胖医学营养治疗专家共识(2016年版) ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国超重/肥胖医学营养治疗专家共识(2016年版) ",
+          "start_idx": 0,
+          "end_idx": 26,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T1",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "一、背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、背景",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "近二十年来，我国超重/肥胖的患病率逐年增长，呈流行态势。中国健康营养调查(China Health and Nutrition Survey，CHNS)的数据显示，从1993年至2009年的17年间，成年人超重/肥胖的患病率从13.4%增加至26.4%，总体呈线性增长；成年人腹型肥胖的患病率从18.6%增长至37.4%，平均年增长1.1%，显著高于超重/肥胖的增长速度。肥胖是糖尿病、心血管疾病及其他代谢性疾病和肿瘤的潜在危险因素。减重治疗包括生活方式(膳食和体育运动)调整、内科药物及外科手术治疗等多种手段。科学合理的营养治疗联合运动干预仍是目前最有效、最安全的基础治疗。近年来，国际上对肥胖/超重的营养管理已经形成了一些共识。然而，以营养和生活方式干预为核心的肥胖/超重管理必须与特定的地域性饮食习惯及社会文化相适应。为更好地发挥医学营养治疗在肥胖防治中的作用，结合国内外发表的诸多证据和专家的集体智慧，特制定本共识，以便使医学减重更加科学、规范和易于实施。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "近二十年来，我国超重/肥胖的患病率逐年增长，呈流行态势。中国健康营养调查(China Health and Nutrition Survey，CHNS)的数据显示，从1993年至2009年的17年间，成年人超重/肥胖的患病率从13.4%增加至26.4%，总体呈线性增长；成年人腹型肥胖的患病率从18.6%增长至37.4%，平均年增长1.1%，显著高于超重/肥胖的增长速度。肥胖是糖尿病、心血管疾病及其他代谢性疾病和肿瘤的潜在危险因素。减重治疗包括生活方式(膳食和体育运动)调整、内科药物及外科手术治疗等多种手段。科学合理的营养治疗联合运动干预仍是目前最有效、最安全的基础治疗。近年来，国际上对肥胖/超重的营养管理已经形成了一些共识。然而，以营养和生活方式干预为核心的肥胖/超重管理必须与特定的地域性饮食习惯及社会文化相适应。为更好地发挥医学营养治疗在肥胖防治中的作用，结合国内外发表的诸多证据和专家的集体智慧，特制定本共识，以便使医学减重更加科学、规范和易于实施。",
+          "start_idx": 0,
+          "end_idx": 432,
+          "entities": [
+            {
+              "entity_id": "T2",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T3",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T4",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T5",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T6",
+              "entity": "腹型肥胖",
+              "entity_type": "Disease",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T7",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 175,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T8",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 178,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T9",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 186,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 189,
+              "end_idx": 192
+            },
+            {
+              "entity_id": "T11",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 193,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T12",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T13",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 193,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T14",
+              "entity": "减重治疗",
+              "entity_type": "Treatment",
+              "start_idx": 217,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T15",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 267,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T16",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 296,
+              "end_idx": 298
+            },
+            {
+              "entity_id": "T17",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 299,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T18",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 323,
+              "end_idx": 329
+            },
+            {
+              "entity_id": "T19",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 333,
+              "end_idx": 335
+            },
+            {
+              "entity_id": "T20",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 336,
+              "end_idx": 338
+            },
+            {
+              "entity_id": "T21",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 375,
+              "end_idx": 377
+            },
+            {
+              "entity_id": "T22",
+              "entity": "减重",
+              "entity_type": "Treatment",
+              "start_idx": 417,
+              "end_idx": 419
+            },
+            {
+              "entity_id": "T23",
+              "entity": "营养治疗",
+              "entity_type": "Treatment",
+              "start_idx": 261,
+              "end_idx": 265
+            },
+            {
+              "entity_id": "T24",
+              "entity": "营养治疗",
+              "entity_type": "Treatment",
+              "start_idx": 370,
+              "end_idx": 374
+            },
+            {
+              "entity_id": "T25",
+              "entity": "生活方式(膳食和体育运动)调整",
+              "entity_type": "Treatment",
+              "start_idx": 223,
+              "end_idx": 238
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T19"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T21"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T22",
+              "tail_entity_id": "T21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "二、证据分级与推荐意见的形成",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、证据分级与推荐意见的形成",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "在制定本共识的过程中，首先参照世界卫生组织(World Health Organization，WHO)出版的《WHO指南编写手册》和AGREE(Appraisal of Guideline Research and Evaluation) 协作网发表的临床指南编写的方法学原则(表1)，结合中国现况，建立制定本共识的方法学，将2009年更新后的AGREEⅡ协作网推出的指南方法学质量评价标准作为质控标准。2015年9月，成立了超重/肥胖医学营养治疗专家共识(2016)(以下简称“共识”)撰写证据方法学小组，负责起草方法学工作方案，并协助编委会进行证据评价的相关工作。证据级别与推荐意见分级标准的制定见表2。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在制定本共识的过程中，首先参照世界卫生组织(World Health Organization，WHO)出版的《WHO指南编写手册》和AGREE(Appraisal of Guideline Research and Evaluation) 协作网发表的临床指南编写的方法学原则(表1)，结合中国现况，建立制定本共识的方法学，将2009年更新后的AGREEⅡ协作网推出的指南方法学质量评价标准作为质控标准。",
+          "start_idx": 0,
+          "end_idx": 203,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "2015年9月，成立了超重/肥胖医学营养治疗专家共识(2016)(以下简称“共识”)撰写证据方法学小组，负责起草方法学工作方案，并协助编委会进行证据评价的相关工作。",
+          "start_idx": 203,
+          "end_idx": 285,
+          "entities": [
+            {
+              "entity_id": "T26",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T27",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "证据级别与推荐意见分级标准的制定见表2。",
+          "start_idx": 285,
+          "end_idx": 305,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "三、共识编写委员会组织机构",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、共识编写委员会组织机构",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "由中国医疗保健国际交流促进会营养与代谢管理分会以及中国医师协会营养医师专业委员会、中国营养学会的67位专家组成了本共识编写委员会。所有参与指南编写的人员均基于志愿工作。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "由中国医疗保健国际交流促进会营养与代谢管理分会以及中国医师协会营养医师专业委员会、中国营养学会的67位专家组成了本共识编写委员会。",
+          "start_idx": 0,
+          "end_idx": 65,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "所有参与指南编写的人员均基于志愿工作。",
+          "start_idx": 65,
+          "end_idx": 84,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "四、目标及愿景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、目标及愿景 ",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "通过“共识”的撰写与发布，期望能提高社会及专业人士对营养干预在代谢性疾病治疗中的重要性认识。并能进一步规范医学营养减重的原则和路径，设立标准化医学营养治疗减重管理工作流程，以便临床营养专业人员及医疗保健人员掌握和使用，更好地为减重者服务。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "通过“共识”的撰写与发布，期望能提高社会及专业人士对营养干预在代谢性疾病治疗中的重要性认识。",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "营养干预",
+              "entity_type": "Treatment",
+              "start_idx": 26,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "并能进一步规范医学营养减重的原则和路径，设立标准化医学营养治疗减重管理工作流程，以便临床营养专业人员及医疗保健人员掌握和使用，更好地为减重者服务。",
+          "start_idx": 46,
+          "end_idx": 119,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "营养减重",
+              "entity_type": "Treatment",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T30",
+              "entity": "营养治疗减重",
+              "entity_type": "Treatment",
+              "start_idx": 27,
+              "end_idx": 33
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "五、本共识常用名词 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、本共识常用名词 ",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "1.体质指数(body mass index，BMI)：结合身高和体重用于判断人体超重/肥胖与否和程度的指数，计算公式为体重/身高2(kg/m2)。目前我国成人BMI的切点为：18.5≤BMI<24kg/m2为正常体重范围，24≤BMI<28kg/m2为超重，BMI≥28kg/m2为肥胖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.体质指数(body mass index，BMI)：结合身高和体重用于判断人体超重/肥胖与否和程度的指数，计算公式为体重/身高2(kg/m2)。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T32",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 46
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "目前我国成人BMI的切点为：18.5≤BMI<24kg/m2为正常体重范围，24≤BMI<28kg/m2为超重，BMI≥28kg/m2为肥胖。",
+          "start_idx": 74,
+          "end_idx": 145,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T34",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 70
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "2.肥胖(obesity)：由于体内脂肪的体积和(或）脂肪细胞数量的增加导致的体重增加，或体脂占体重的百分比异常增高，并在某些局部过多沉积脂肪，通常用BMI进行判定。在本共识中，肥胖的主要定义即基于BMI做出，在一些情况下(如代谢综合征) ，也酌情采纳权威国际学术组织(如WHO、美国糖尿病学会等)推荐的相关诊断指标(如腰围，腰臀比)。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.肥胖(obesity)：由于体内脂肪的体积和(或）脂肪细胞数量的增加导致的体重增加，或体脂占体重的百分比异常增高，并在某些局部过多沉积脂肪，通常用BMI进行判定。",
+          "start_idx": 0,
+          "end_idx": 83,
+          "entities": [
+            {
+              "entity_id": "T35",
+              "entity": "肥胖(obesity)",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在本共识中，肥胖的主要定义即基于BMI做出，在一些情况下(如代谢综合征) ，也酌情采纳权威国际学术组织(如WHO、美国糖尿病学会等)推荐的相关诊断指标(如腰围，腰臀比)。",
+          "start_idx": 83,
+          "end_idx": 168,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T37",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 62
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 168,
+          "end_idx": 169,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "3.超重(overweight)：介于正常和肥胖间的身体状态。通常以24≤BMI<28kg/m2作为判断标准。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.超重(overweight)：介于正常和肥胖间的身体状态。",
+          "start_idx": 0,
+          "end_idx": 31,
+          "entities": [
+            {
+              "entity_id": "T38",
+              "entity": "超重(overweight)",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T39",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "通常以24≤BMI<28kg/m2作为判断标准。",
+          "start_idx": 31,
+          "end_idx": 55,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "4.儿童肥胖(childhood obesity)：WHO推荐以身高标准体重法对儿童肥胖进行判定，同等身高、营养良好的儿童体重为标准体重(100%)，±10%标准体重的范围为正常。>I5%为超重，>20%为轻度肥胖，>30%为中度肥胖，>50%为重度肥胖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.儿童肥胖(childhood obesity)：WHO推荐以身高标准体重法对儿童肥胖进行判定，同等身高、营养良好的儿童体重为标准体重(100%)，±10%标准体重的范围为正常。",
+          "start_idx": 0,
+          "end_idx": 90,
+          "entities": [
+            {
+              "entity_id": "T40",
+              "entity": "儿童肥胖(childhood obesity)",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T41",
+              "entity": "儿童肥胖",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 44
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": ">I5%为超重，>20%为轻度肥胖，>30%为中度肥胖，>50%为重度肥胖。",
+          "start_idx": 90,
+          "end_idx": 128,
+          "entities": [
+            {
+              "entity_id": "T42",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T43",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T44",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T45",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T46",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T47",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T48",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "5.限能量平衡膳食(calorie-restricted diet. CRD)：一类在限制能量摄入的同时保证基本营养需求的膳食模式，其宏量营养素的供能比例应符合平衡膳食的要求。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.限能量平衡膳食(calorie-restricted diet. CRD)：一类在限制能量摄入的同时保证基本营养需求的膳食模式，其宏量营养素的供能比例应符合平衡膳食的要求。",
+          "start_idx": 0,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T49",
+              "entity": "限能量平衡膳食(calorie-restricted diet. CRD)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 39
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 88,
+          "end_idx": 89,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "6.低能量膳食(low calorie diet.LCD)：一类在满足蛋白质、维生素、矿物质、膳食纤维和水这五大营养素的基础上，适量减少脂肪和碳水化合物的摄取，将正常自由进食的能量减去30%~50%的膳食模式。通常需要在医生监督下进行。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "6.低能量膳食(low calorie diet.LCD)：一类在满足蛋白质、维生素、矿物质、膳食纤维和水这五大营养素的基础上，适量减少脂肪和碳水化合物的摄取，将正常自由进食的能量减去30%~50%的膳食模式。",
+          "start_idx": 0,
+          "end_idx": 105,
+          "entities": [
+            {
+              "entity_id": "T50",
+              "entity": "低能量膳食(low calorie diet.LCD)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 29
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "通常需要在医生监督下进行。",
+          "start_idx": 105,
+          "end_idx": 118,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "7.极低能量膳食(very-low calorie diet，VLCD)：通常指每日只摄入400-800kcal(1kcal=4.2kJ)能量，主要来自于蛋白质，而脂肪和碳水化合物的摄入受到严格限制。机体处于饥饿状态，因其能引起瘦体重减少、痛风发生风险增加以及电解质平衡紊乱等不良反应并不作推荐。该方法必须在医生严格指导下进行，预防并发症的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "7.极低能量膳食(very-low calorie diet，VLCD)：通常指每日只摄入400-800kcal(1kcal=4.2kJ)能量，主要来自于蛋白质，而脂肪和碳水化合物的摄入受到严格限制。",
+          "start_idx": 0,
+          "end_idx": 100,
+          "entities": [
+            {
+              "entity_id": "T51",
+              "entity": "极低能量膳食(very-low calorie diet，VLCD)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "机体处于饥饿状态，因其能引起瘦体重减少、痛风发生风险增加以及电解质平衡紊乱等不良反应并不作推荐。",
+          "start_idx": 100,
+          "end_idx": 148,
+          "entities": [
+            {
+              "entity_id": "T52",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T53",
+              "entity": "电解质平衡紊乱",
+              "entity_type": "ADE",
+              "start_idx": 30,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "该方法必须在医生严格指导下进行，预防并发症的发生。",
+          "start_idx": 148,
+          "end_idx": 173,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "8.高蛋白质膳食(high protein diet，HPD)：高蛋白质膳食是一类每日蛋白质摄入量超过每日总能量的20%或1.5g·kg-1·d-1，但一般不超过每日总能量的30%(或2.0g·kg-1·d-1)的膳食模式。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "8.高蛋白质膳食(high protein diet，HPD)：高蛋白质膳食是一类每日蛋白质摄入量超过每日总能量的20%或1.5g·kg-1·d-1，但一般不超过每日总能量的30%(或2.0g·kg-1·d-1)的膳食模式。",
+          "start_idx": 0,
+          "end_idx": 112,
+          "entities": [
+            {
+              "entity_id": "T54",
+              "entity": "高蛋白质膳食(high protein diet，HPD)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "9.轻断食模式(intermittent fasting)：也称间歇式断食，一类采用5+2模式，即1周中5天相对正常进食，其他2天(非连续)则摄取平常的1/4能量(约女性500kcal/d，男性600kcal/d)的膳食模式。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "9.轻断食模式(intermittent fasting)：也称间歇式断食，一类采用5+2模式，即1周中5天相对正常进食，其他2天(非连续)则摄取平常的1/4能量(约女性500kcal/d，男性600kcal/d)的膳食模式。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T55",
+              "entity": "轻断食模式(intermittent fasting)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T56",
+              "entity": "间歇式断食",
+              "entity_type": "Treatment",
+              "start_idx": 32,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "10.血糖指数(glycemic index，GI)：进食恒量的食物(含50g碳水化合物)后，2~3h内的血糖曲线下面积相比空腹时的增幅除以进食50g葡萄糖后的相应增幅。通常定义GI≤55%为低GI食物，55%~ 70%为中GI食物，CI≥70%为高GI食物。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "10.血糖指数(glycemic index，GI)：进食恒量的食物(含50g碳水化合物)后，2~3h内的血糖曲线下面积相比空腹时的增幅除以进食50g葡萄糖后的相应增幅。",
+          "start_idx": 0,
+          "end_idx": 85,
+          "entities": [
+            {
+              "entity_id": "T57",
+              "entity": "血糖指数(glycemic index，GI)",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T58",
+              "entity": "血糖曲线下面积",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 60
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "通常定义GI≤55%为低GI食物，55%~ 70%为中GI食物，CI≥70%为高GI食物。",
+          "start_idx": 85,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T59",
+              "entity": "GI",
+              "entity_type": "Test_items",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T60",
+              "entity": "≤55%",
+              "entity_type": "Test_Value",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T61",
+              "entity": "GI",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T62",
+              "entity": "GI",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T63",
+              "entity": "CI",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T64",
+              "entity": "≥70%",
+              "entity_type": "Test_Value",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T65",
+              "entity": "GI",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "总论 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "总论 ",
+          "start_idx": 0,
+          "end_idx": 3,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "一、肥胖的病理生理 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、肥胖的病理生理 ",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T66",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "众所周知，肥胖的发生常常是由遗传、少动以及摄入过多能量共同导致的结果。从代谢研究角度看则是基于代谢紊乱(metabolic disorders) ，代谢紊乱是肥胖从基因到临床表现的中心环节。肥胖者多存在脂类代谢紊乱，脂肪合成过多，而脂肪水解和脂肪分解氧化无明显异常。血浆甘油三酯、游离脂肪酸和胆固醇一般高于正常水平。应用低能量饮食治疗肥胖症时，血浆酮体增加或酮血症倾向往往低于正常人。随着基因组学研究的快速进展，人们发现在基因多态性上的差异，使得在各年龄层次的人群都有对肥胖更易感者。在上述背景下，加之膳食结构变化后肠道菌群结构发生的适应性变化，使得这类具有遗传易感性者对三大宏量营养素(碳水化合物、蛋白质、脂肪)的应答出现显著差异，进面造成肥胖的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "众所周知，肥胖的发生常常是由遗传、少动以及摄入过多能量共同导致的结果。从代谢研究角度看则是基于代谢紊乱(metabolic disorders) ，代谢紊乱是肥胖从基因到临床表现的中心环节。肥胖者多存在脂类代谢紊乱，脂肪合成过多，而脂肪水解和脂肪分解氧化无明显异常。血浆甘油三酯、游离脂肪酸和胆固醇一般高于正常水平。应用低能量饮食治疗肥胖症时，血浆酮体增加或酮血症倾向往往低于正常人。",
+          "start_idx": 0,
+          "end_idx": 192,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T68",
+              "entity": "代谢紊乱(metabolic disorders)",
+              "entity_type": "Reason",
+              "start_idx": 47,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T69",
+              "entity": "代谢紊乱",
+              "entity_type": "Reason",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T70",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T71",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T72",
+              "entity": "脂类代谢紊乱",
+              "entity_type": "Reason",
+              "start_idx": 101,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T73",
+              "entity": "脂肪合成过多",
+              "entity_type": "Reason",
+              "start_idx": 108,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T74",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 135,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T75",
+              "entity": "游离脂肪酸",
+              "entity_type": "Test_items",
+              "start_idx": 140,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T76",
+              "entity": "胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 146,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T77",
+              "entity": "低能量饮食",
+              "entity_type": "Treatment",
+              "start_idx": 160,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T78",
+              "entity": "肥胖症",
+              "entity_type": "Disease",
+              "start_idx": 167,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T79",
+              "entity": "酮体",
+              "entity_type": "Test_items",
+              "start_idx": 174,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T80",
+              "entity": "酮血症",
+              "entity_type": "Disease",
+              "start_idx": 179,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T83",
+              "entity": "遗传",
+              "entity_type": "Reason",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T84",
+              "entity": "少动",
+              "entity_type": "Reason",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T85",
+              "entity": "摄入过多能量",
+              "entity_type": "Reason",
+              "start_idx": 21,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T86",
+              "entity": "高于正常水平",
+              "entity_type": "Test_Value",
+              "start_idx": 151,
+              "end_idx": 157
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T71"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T71"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T78"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T80"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "随着基因组学研究的快速进展，人们发现在基因多态性上的差异，使得在各年龄层次的人群都有对肥胖更易感者。",
+          "start_idx": 192,
+          "end_idx": 242,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 45
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "在上述背景下，加之膳食结构变化后肠道菌群结构发生的适应性变化，使得这类具有遗传易感性者对三大宏量营养素(碳水化合物、蛋白质、脂肪)的应答出现显著差异，进面造成肥胖的发生。",
+          "start_idx": 242,
+          "end_idx": 327,
+          "entities": [
+            {
+              "entity_id": "T82",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T87",
+              "entity": "膳食结构变化后肠道菌群结构发生的适应性变化",
+              "entity_type": "Reason",
+              "start_idx": 9,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T88",
+              "entity": "遗传易感性",
+              "entity_type": "Reason",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T89",
+              "entity": "三大宏量营养素(碳水化合物、蛋白质、脂肪)的应答出现显著差异",
+              "entity_type": "Reason",
+              "start_idx": 44,
+              "end_idx": 74
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T82"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T82"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T82"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "二、限制能量平衡膳食(calorie restrict dict，CRD) ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、限制能量平衡膳食(calorie restrict dict，CRD) ",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [
+            {
+              "entity_id": "T90",
+              "entity": "限制能量平衡膳食(calorie restrict dict，CRD)",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "(一)背景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "CRD对于延长寿命、延迟衰老相关疾病的发生具有明确干预作用。CRD目前主要有三种类型：(1)在目标摄入量基础上按一定比例递减(减少30%-50%)；(2)在目标摄入量基础上每日减少500kcal左右：(3)每日供能1000-1500kcal",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CRD对于延长寿命、延迟衰老相关疾病的发生具有明确干预作用。",
+          "start_idx": 0,
+          "end_idx": 30,
+          "entities": [
+            {
+              "entity_id": "T91",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "CRD目前主要有三种类型：(1)在目标摄入量基础上按一定比例递减(减少30%-50%)；(2)在目标摄入量基础上每日减少500kcal左右：(3)每日供能1000-1500kcal",
+          "start_idx": 30,
+          "end_idx": 120,
+          "entities": [
+            {
+              "entity_id": "T92",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "Huffman等对超重者进行了6个月CRD干预(能量摄入减少25%)，发现与非CRD相比，CRD组的胰岛素敏感性有明显改善，并认为这是降低体重的原因。Yoshimura等对内脏脂肪面积≥100cm2的成人进行12周CRD(CRD目标：25kcal/kg，基线能量摄入约为30kcal/kg)干预后，有效降低了体重、脂肪组织重量、内脏脂肪面积以及动脉粥样硬化的发生风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "Huffman等对超重者进行了6个月CRD干预(能量摄入减少25%)，发现与非CRD相比，CRD组的胰岛素敏感性有明显改善，并认为这是降低体重的原因。Yoshimura等对内脏脂肪面积≥100cm2的成人进行12周CRD(CRD目标：25kcal/kg，基线能量摄入约为30kcal/kg)干预后，有效降低了体重、脂肪组织重量、内脏脂肪面积以及动脉粥样硬化的发生风险。",
+          "start_idx": 0,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T93",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T94",
+              "entity": "CRD干预",
+              "entity_type": "Treatment",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T95",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 39,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T96",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T97",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 107,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T98",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 111,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T99",
+              "entity": "动脉粥样硬化",
+              "entity_type": "Disease",
+              "start_idx": 172,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T100",
+              "entity": "动脉",
+              "entity_type": "Anatomy",
+              "start_idx": 172,
+              "end_idx": 174
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T93"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T99"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "1.脂肪：多项研究证实CRD的脂肪供能比例应与正常膳食(20%~30%)一致，过低或过高都会导致膳食模式的不平衡。在CRD中补充海鱼或鱼油制剂的研究均报道n-3多不饱和脂肪酸(polyunsaturated fatty acids，n-3PUFA)对肥胖者动脉弹性、收缩压、心率、血甘油三酯及炎症指标等均有明显改善，可增强CRD的减重效果。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.脂肪：多项研究证实CRD的脂肪供能比例应与正常膳食(20%~30%)一致，过低或过高都会导致膳食模式的不平衡。在CRD中补充海鱼或鱼油制剂的研究均报道n-3多不饱和脂肪酸(polyunsaturated fatty acids，n-3PUFA)对肥胖者动脉弹性、收缩压、心率、血甘油三酯及炎症指标等均有明显改善，可增强CRD的减重效果。",
+          "start_idx": 0,
+          "end_idx": 170,
+          "entities": [
+            {
+              "entity_id": "T101",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T102",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T103",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T104",
+              "entity": "收缩压",
+              "entity_type": "Test_items",
+              "start_idx": 133,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T105",
+              "entity": "心率",
+              "entity_type": "Test_items",
+              "start_idx": 137,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T106",
+              "entity": "血甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 140,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T107",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 161,
+              "end_idx": 164
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "2.蛋白质：由于CRD降低了摄入的总能量，必然导致产热的宏量营养素摄入降低，应适当提高蛋白质供给量比例(1.2~1.5g/kg，或15%~20%)，这样就能在减重过程中维持氮平衡，同时具有降低心血管疾病风险、增加骨矿物质含量等作用。不同来源蛋白质的减重效果可能不同，有研究发现大豆蛋白的减脂作用优于酪蛋白，且其降低血液中总胆固醇和低密度脂蛋白胆固醇的作用也更明显。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.蛋白质：由于CRD降低了摄入的总能量，必然导致产热的宏量营养素摄入降低，应适当提高蛋白质供给量比例(1.2~1.5g/kg，或15%~20%)，这样就能在减重过程中维持氮平衡，同时具有降低心血管疾病风险、增加骨矿物质含量等作用。",
+          "start_idx": 0,
+          "end_idx": 116,
+          "entities": [
+            {
+              "entity_id": "T108",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T109",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 96,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T110",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 96,
+              "end_idx": 99
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T110",
+              "tail_entity_id": "T109"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "不同来源蛋白质的减重效果可能不同，有研究发现大豆蛋白的减脂作用优于酪蛋白，且其降低血液中总胆固醇和低密度脂蛋白胆固醇的作用也更明显。",
+          "start_idx": 116,
+          "end_idx": 182,
+          "entities": [
+            {
+              "entity_id": "T111",
+              "entity": "总胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T112",
+              "entity": "低密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 58
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "3.碳水化合物：根据蛋白质、脂肪的摄入量来确定碳水化合物的供给量(40%~55%)。过高或过低都将导致膳食模式不平衡。碳水化合物的来源应参照《中国居民膳食指南》，以淀粉类复杂碳水化合物为主，保证膳食纤维的摄入量25~30g/d。严格限制简单糖(单糖、双糖)食物或饮料的摄入",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.碳水化合物：根据蛋白质、脂肪的摄入量来确定碳水化合物的供给量(40%~55%)。",
+          "start_idx": 0,
+          "end_idx": 42,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "过高或过低都将导致膳食模式不平衡。",
+          "start_idx": 42,
+          "end_idx": 59,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "碳水化合物的来源应参照《中国居民膳食指南》，以淀粉类复杂碳水化合物为主，保证膳食纤维的摄入量25~30g/d。",
+          "start_idx": 59,
+          "end_idx": 114,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "严格限制简单糖(单糖、双糖)食物或饮料的摄入",
+          "start_idx": 114,
+          "end_idx": 136,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "4.微量营养素：肥胖与某些微量营养素的代谢异常相关，尤其是钙、铁、锌、维生素A、维生素D及叶酸的缺乏。肥胖和膳食减重也可引起骨量丢失。一项Meta分析显示肥胖群体患维生素D缺乏的风险比正常人群高35%，比超重人群高24%。在减重干预的同时补充维生素D和钙可以增强减重效果。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.微量营养素：肥胖与某些微量营养素的代谢异常相关，尤其是钙、铁、锌、维生素A、维生素D及叶酸的缺乏。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T113",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T114",
+              "entity": "微量营养素的代谢异常",
+              "entity_type": "Pathogenesis",
+              "start_idx": 13,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T115",
+              "entity": "维生素D及叶酸的缺乏",
+              "entity_type": "Reason",
+              "start_idx": 40,
+              "end_idx": 50
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T113"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T113"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "肥胖和膳食减重也可引起骨量丢失。",
+          "start_idx": 51,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T116",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "一项Meta分析显示肥胖群体患维生素D缺乏的风险比正常人群高35%，比超重人群高24%。",
+          "start_idx": 67,
+          "end_idx": 111,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T118",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "在减重干预的同时补充维生素D和钙可以增强减重效果。",
+          "start_idx": 111,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T119",
+              "entity": "减重干预",
+              "entity_type": "Treatment",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T120",
+              "entity": "补充维生素D和钙",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "CRD除能量摄入限制之外，也对营养均衡提出推荐。近年研究认为采用营养代餐方法能兼顾体重减轻和营养均衡。Wadden等对Look AHEAD研究(纳入5145例肥胖合并糖尿病的患者)进行了后续分析，该后续分析考察了接受食支持和教育以及强化生活方式干预的减重情况。强化生活方式干预，在对患者进行均衡营养模式教育的同时也给以营养代餐作为一种支持措施。总的来说，配合营养代餐的强化生活方式干预比单纯的膳食支持和教育能更有效地降低患者的体重(强化生活方式干预组中37.7%的惠者在干预第一年结束时达到了减重10%的目标，而膳食支持和教育组只有3.3%的患者达到此目标)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CRD除能量摄入限制之外，也对营养均衡提出推荐。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T121",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "近年研究认为采用营养代餐方法能兼顾体重减轻和营养均衡。Wadden等对Look AHEAD研究(纳入5145例肥胖合并糖尿病的患者)进行了后续分析，该后续分析考察了接受食支持和教育以及强化生活方式干预的减重情况。",
+          "start_idx": 24,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T122",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T123",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T124",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 94,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T133",
+              "entity": "营养代餐",
+              "entity_type": "Treatment",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T134",
+              "entity": "接受食支持和教育",
+              "entity_type": "Treatment",
+              "start_idx": 82,
+              "end_idx": 90
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T123"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "强化生活方式干预，在对患者进行均衡营养模式教育的同时也给以营养代餐作为一种支持措施。",
+          "start_idx": 130,
+          "end_idx": 172,
+          "entities": [
+            {
+              "entity_id": "T125",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T126",
+              "entity": "均衡营养模式教育",
+              "entity_type": "Treatment",
+              "start_idx": 15,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T127",
+              "entity": "营养代餐",
+              "entity_type": "Treatment",
+              "start_idx": 29,
+              "end_idx": 33
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "总的来说，配合营养代餐的强化生活方式干预比单纯的膳食支持和教育能更有效地降低患者的体重(强化生活方式干预组中37.7%的惠者在干预第一年结束时达到了减重10%的目标，而膳食支持和教育组只有3.3%的患者达到此目标)。",
+          "start_idx": 172,
+          "end_idx": 280,
+          "entities": [
+            {
+              "entity_id": "T128",
+              "entity": "营养代餐",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T129",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 14,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T130",
+              "entity": "膳食支持和教育",
+              "entity_type": "Treatment",
+              "start_idx": 24,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T131",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 46,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T132",
+              "entity": "膳食支持和教育",
+              "entity_type": "Treatment",
+              "start_idx": 84,
+              "end_idx": 91
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "三、高蛋白膳食模式 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、高蛋白膳食模式 ",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T135",
+              "entity": "高蛋白膳食模式",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "(一)背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "高蛋白膳食中，蛋白质的供给量一般为占供热比的20%以上，或至少在1.5g/kg体重以上。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "高蛋白膳食中，蛋白质的供给量一般为占供热比的20%以上，或至少在1.5g/kg体重以上。",
+          "start_idx": 0,
+          "end_idx": 44,
+          "entities": [
+            {
+              "entity_id": "T136",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "(二)证据 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "研究表明，接受高蛋白膳食6个月的肥胖者比接受正常蛋白质饮食者体重下降更明显，1年随诊后高蛋白膳食仍较对照组多降低了10%腹部脂肪。Noakes等证实，采用高蛋白膳食比高碳水化合物膳食的肥胖人群体重下降更多(6.4kg比3.4kg，P=0.035)。当受试者每日允许能量摄入为20kcal/kg时，其蛋白质占总能量的30%，碳水化合物占45%，脂肪占25%，同时补充维生素和钾，12周后体重明显减轻(4.72±4.09)kg，BMI、腰围和腰臀比(WHR)也分别下降(1.87±1.57)kg/m2、(3.73±2.91)cm和(0.017±0.029)。Layman等将健康成年肥胖个体随机分为高蛋白低碳水化合物组(PRO组)和低蛋白高碳水化合物饮食组(CHO组)，4个月后，两组体重减少量虽无明显差别，但是PRO组的机体脂肪(体脂)含量减少更明显；相对于CHO组，PRO组对肥胖者血清中的甘油三酯、高密度脂蛋白胆固醇的改善更明显，并且依从性更高。一项为期2年的实验比较了高蛋白和高碳水化合物饮食在糖尿病超重者的减重效果，结果提示高蛋白膳食可能对存在糖尿病、心血管疾病和代谢综合征风险的患者有帮助。113例中度肥胖患者经过4周的极低能量饮食的减重治疗后，体重降低了5%~10%，而随后6个月采用高蛋白膳食(18%)及正常蛋白饮食(15%)进行体重维持，结果显示高蛋白膳食体重反弹率更低。由于慢性肾病患者可能因高蛋白饮食而增加肾脏血流负荷，建议合并慢性肾病患者应慎重选择高蛋白饮食。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "研究表明，接受高蛋白膳食6个月的肥胖者比接受正常蛋白质饮食者体重下降更明显，1年随诊后高蛋白膳食仍较对照组多降低了10%腹部脂肪。Noakes等证实，采用高蛋白膳食比高碳水化合物膳食的肥胖人群体重下降更多(6.4kg比3.4kg，P=0.035)。当受试者每日允许能量摄入为20kcal/kg时，其蛋白质占总能量的30%，碳水化合物占45%，脂肪占25%，同时补充维生素和钾，12周后体重明显减轻(4.72±4.09)kg，BMI、腰围和腰臀比(WHR)也分别下降(1.87±1.57)kg/m2、(3.73±2.91)cm和(0.017±0.029)。Layman等将健康成年肥胖个体随机分为高蛋白低碳水化合物组(PRO组)和低蛋白高碳水化合物饮食组(CHO组)，4个月后，两组体重减少量虽无明显差别，但是PRO组的机体脂肪(体脂)含量减少更明显；相对于CHO组，PRO组对肥胖者血清中的甘油三酯、高密度脂蛋白胆固醇的改善更明显，并且依从性更高。一项为期2年的实验比较了高蛋白和高碳水化合物饮食在糖尿病超重者的减重效果，结果提示高蛋白膳食可能对存在糖尿病、心血管疾病和代谢综合征风险的患者有帮助。113例中度肥胖患者经过4周的极低能量饮食的减重治疗后，体重降低了5%~10%，而随后6个月采用高蛋白膳食(18%)及正常蛋白饮食(15%)进行体重维持，结果显示高蛋白膳食体重反弹率更低。",
+          "start_idx": 0,
+          "end_idx": 593,
+          "entities": [
+            {
+              "entity_id": "T137",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T138",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T139",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T140",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 77,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T141",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T142",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 289,
+              "end_idx": 291
+            },
+            {
+              "entity_id": "T143",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 388,
+              "end_idx": 390
+            },
+            {
+              "entity_id": "T144",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 395,
+              "end_idx": 399
+            },
+            {
+              "entity_id": "T145",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 400,
+              "end_idx": 409
+            },
+            {
+              "entity_id": "T146",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 449,
+              "end_idx": 452
+            },
+            {
+              "entity_id": "T147",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 452,
+              "end_idx": 454
+            },
+            {
+              "entity_id": "T148",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 465,
+              "end_idx": 470
+            },
+            {
+              "entity_id": "T149",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 475,
+              "end_idx": 478
+            },
+            {
+              "entity_id": "T150",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 479,
+              "end_idx": 484
+            },
+            {
+              "entity_id": "T151",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 485,
+              "end_idx": 490
+            },
+            {
+              "entity_id": "T152",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 479,
+              "end_idx": 482
+            },
+            {
+              "entity_id": "T153",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 505,
+              "end_idx": 507
+            },
+            {
+              "entity_id": "T154",
+              "entity": "极低能量饮食",
+              "entity_type": "Treatment",
+              "start_idx": 514,
+              "end_idx": 520
+            },
+            {
+              "entity_id": "T155",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 547,
+              "end_idx": 552
+            },
+            {
+              "entity_id": "T156",
+              "entity": "正常蛋白饮食",
+              "entity_type": "Treatment",
+              "start_idx": 558,
+              "end_idx": 564
+            },
+            {
+              "entity_id": "T157",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 580,
+              "end_idx": 585
+            },
+            {
+              "entity_id": "T164",
+              "entity": "高碳水化合物膳食",
+              "entity_type": "Treatment",
+              "start_idx": 83,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T165",
+              "entity": "补充维生素和钾",
+              "entity_type": "Treatment",
+              "start_idx": 180,
+              "end_idx": 187
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T137"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T140",
+              "tail_entity_id": "T141"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T149"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T151"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T150"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T154",
+              "tail_entity_id": "T153"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T153"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T153"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "由于慢性肾病患者可能因高蛋白饮食而增加肾脏血流负荷，建议合并慢性肾病患者应慎重选择高蛋白饮食。",
+          "start_idx": 593,
+          "end_idx": 640,
+          "entities": [
+            {
+              "entity_id": "T158",
+              "entity": "慢性肾病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T159",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T160",
+              "entity": "高蛋白饮食",
+              "entity_type": "Treatment",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T161",
+              "entity": "慢性肾病",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T162",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 32,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T163",
+              "entity": "高蛋白饮食",
+              "entity_type": "Treatment",
+              "start_idx": 41,
+              "end_idx": 46
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T158"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T158"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T161"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "具体推荐见表4。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表4。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "四、轻断食膳食模式",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、轻断食膳食模式",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T166",
+              "entity": "轻断食膳食模式",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "(一)背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "轻断食模式也称间歇式断食(intermittent fasting)5：2模式，即1周内5d正常进食，其他2d(非连续)则摄取平常的1/4能量(女性约500kcal/d，男性600kcal/d)的饮食模式。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "轻断食模式也称间歇式断食(intermittent fasting)5：2模式，即1周内5d正常进食，其他2d(非连续)则摄取平常的1/4能量(女性约500kcal/d，男性600kcal/d)的饮食模式。",
+          "start_idx": 0,
+          "end_idx": 103,
+          "entities": [
+            {
+              "entity_id": "T167",
+              "entity": "轻断食模式",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T168",
+              "entity": "间歇式断食(intermittent fasting)",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 34
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 103,
+          "end_idx": 104,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "(二）证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二）证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "具体推荐见表5。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表5。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "48",
+      "paragraph": "五、运动治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、运动治疗",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [
+            {
+              "entity_id": "T169",
+              "entity": "运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "49",
+      "paragraph": "(一)背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "50",
+      "paragraph": "运动对减肥的影响取决于运动方式、强度、时间、频率和总量。2013年美国关于成年人肥胖管理指南推荐，增加有氧运动(如快走)至每周150min以上(每天30min以上，每周的大多数天)；推荐更高水平的身体活动(每周200-300min)，以维持体重下降及防止减重后的体重反弹(长期，1年以上)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "运动对减肥的影响取决于运动方式、强度、时间、频率和总量。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "2013年美国关于成年人肥胖管理指南推荐，增加有氧运动(如快走)至每周150min以上(每天30min以上，每周的大多数天)；推荐更高水平的身体活动(每周200-300min)，以维持体重下降及防止减重后的体重反弹(长期，1年以上)",
+          "start_idx": 28,
+          "end_idx": 144,
+          "entities": [
+            {
+              "entity_id": "T170",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T171",
+              "entity": "增加有氧运动(如快走)",
+              "entity_type": "Treatment",
+              "start_idx": 21,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T172",
+              "entity": "身体活动(每周200-300min)",
+              "entity_type": "Treatment",
+              "start_idx": 70,
+              "end_idx": 88
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T170"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "51",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "52",
+      "paragraph": "1.运动与成年人减肥：一项纳入35个随机对照试验的Meta分析发现，有氧运动对降低内脏脂肪有显著效果(干预时间4周~2年，每次运动20~75min)，而渐进性抗阻运动和有氧结合抗阻运动均无显著效果，建议有氧运动作为降低内脏脂肪的核心运动。另一项Meta分析纳人了741例受试者，其BMI在27.8~33.8kg/m2，运动干预时间为2.5~6.0个月，结果显示有氧运动的减肥效果更明显：抗阻运动对提高瘦体重更有效，与抗阻运动比较，有氧结合抗阻减肥效果更明显。在一项单中心、平行随机对照试验中，比较了4种不同的运动量和运动强度，结果显示与对照组相比，各运动组体重和腰围均显著减少，各组间差异无统计学意义。这项研究表明不同运动量和运动强度对腹型肥胖可能均具有减肥效果。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.运动与成年人减肥：一项纳入35个随机对照试验的Meta分析发现，有氧运动对降低内脏脂肪有显著效果(干预时间4周~2年，每次运动20~75min)，而渐进性抗阻运动和有氧结合抗阻运动均无显著效果，建议有氧运动作为降低内脏脂肪的核心运动。",
+          "start_idx": 0,
+          "end_idx": 119,
+          "entities": [
+            {
+              "entity_id": "T173",
+              "entity": "有氧运动",
+              "entity_type": "Treatment",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T174",
+              "entity": "渐进性抗阻运动",
+              "entity_type": "Treatment",
+              "start_idx": 76,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T175",
+              "entity": "有氧结合抗阻运动",
+              "entity_type": "Treatment",
+              "start_idx": 84,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T176",
+              "entity": "有氧运动",
+              "entity_type": "Treatment",
+              "start_idx": 101,
+              "end_idx": 105
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "另一项Meta分析纳人了741例受试者，其BMI在27.8~33.8kg/m2，运动干预时间为2.5~6.0个月，结果显示有氧运动的减肥效果更明显：抗阻运动对提高瘦体重更有效，与抗阻运动比较，有氧结合抗阻减肥效果更明显。",
+          "start_idx": 119,
+          "end_idx": 229,
+          "entities": [
+            {
+              "entity_id": "T177",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 40,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T178",
+              "entity": "有氧运动",
+              "entity_type": "Treatment",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T179",
+              "entity": "抗阻运动",
+              "entity_type": "Treatment",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T180",
+              "entity": "抗阻运动",
+              "entity_type": "Treatment",
+              "start_idx": 89,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T182",
+              "entity": "有氧结合抗阻",
+              "entity_type": "Treatment",
+              "start_idx": 96,
+              "end_idx": 102
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "在一项单中心、平行随机对照试验中，比较了4种不同的运动量和运动强度，结果显示与对照组相比，各运动组体重和腰围均显著减少，各组间差异无统计学意义。",
+          "start_idx": 229,
+          "end_idx": 301,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "这项研究表明不同运动量和运动强度对腹型肥胖可能均具有减肥效果。",
+          "start_idx": 301,
+          "end_idx": 332,
+          "entities": [
+            {
+              "entity_id": "T181",
+              "entity": "腹型肥胖",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "53",
+      "paragraph": "2.运动结合营养干预与减重：一项纳入了3521名受试者的Mela分析，干预时间12-72个月，营养干预方式为降低能量摄入，主要为低脂(≤总能量的30%)、低饱和脂肪酸、增加水果蔬菜和膳食纤维的摄入。运动干预主要是在监督下进行有氧运动和抗阻训练，强度为50%~85%最大心率。结果发现与单纯饮食组或运动组相比，饮食结合运动的减重效果更加显著，同时可以看到在改善人体测量指标方面，营养干预优于运动治疗。Stephens等在2014年对60项Meta分析和23个系统性综述进行了再评价，认为多种干预措施都可以帮助受试者达到减重目标，但其中营养干预研究得出的结论较为一致，即对于减重效果最为明确。而运动干预研究在不同的作者所做的Meta分析中得出的结论则有较大差异。这种结果的异质性与研究者选定的结局评价指标、研究设计存在很大关联。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.运动结合营养干预与减重：一项纳入了3521名受试者的Mela分析，干预时间12-72个月，营养干预方式为降低能量摄入，主要为低脂(≤总能量的30%)、低饱和脂肪酸、增加水果蔬菜和膳食纤维的摄入。",
+          "start_idx": 0,
+          "end_idx": 99,
+          "entities": [
+            {
+              "entity_id": "T183",
+              "entity": "运动结合营养干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T184",
+              "entity": "营养干预",
+              "entity_type": "Treatment",
+              "start_idx": 47,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "运动干预主要是在监督下进行有氧运动和抗阻训练，强度为50%~85%最大心率。",
+          "start_idx": 99,
+          "end_idx": 137,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T186",
+              "entity": "有氧运动",
+              "entity_type": "Treatment",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T187",
+              "entity": "抗阻训练",
+              "entity_type": "Treatment",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "结果发现与单纯饮食组或运动组相比，饮食结合运动的减重效果更加显著，同时可以看到在改善人体测量指标方面，营养干预优于运动治疗。",
+          "start_idx": 137,
+          "end_idx": 199,
+          "entities": [
+            {
+              "entity_id": "T188",
+              "entity": "营养干预",
+              "entity_type": "Treatment",
+              "start_idx": 51,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T189",
+              "entity": "运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 57,
+              "end_idx": 61
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "Stephens等在2014年对60项Meta分析和23个系统性综述进行了再评价，认为多种干预措施都可以帮助受试者达到减重目标，但其中营养干预研究得出的结论较为一致，即对于减重效果最为明确。",
+          "start_idx": 199,
+          "end_idx": 294,
+          "entities": [
+            {
+              "entity_id": "T190",
+              "entity": "营养干预",
+              "entity_type": "Treatment",
+              "start_idx": 67,
+              "end_idx": 71
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "而运动干预研究在不同的作者所做的Meta分析中得出的结论则有较大差异。",
+          "start_idx": 294,
+          "end_idx": 329,
+          "entities": [
+            {
+              "entity_id": "T191",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 1,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "这种结果的异质性与研究者选定的结局评价指标、研究设计存在很大关联。",
+          "start_idx": 329,
+          "end_idx": 362,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "54",
+      "paragraph": "3.运动治疗与儿童减肥：一筒纳入了2项Meta分析的系统性综述，均显示体脂率有显著性降低。而其他肥胖指标(BMI、体重、中心性肥胖)则没有显著性差异。一篇纳入40项研究的系统性综述和Meta分析，评价了抗阻训练对肥胖儿童力量、体成分等的影响，显示抗阻运动对体成分有极小影响，且亚组分析显示运动量越大、年龄越小、随机对照设计产生更显著效果。一项纳入15个随机对照试验的系统性综述和Meta分析，比较仅饮食干预与饮食结合运动或仅运动干预对超重儿童减重和降低代谢风险的效果，结果显示，短期干预中仅饮食和饮食结合运动均产生了减重和代谢指标改善的效果，而长期干预显示饮食结合运动干预可以显著改善高密度脂蛋白胆固醇和空腹血糖、空腹胰岛素水平。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.运动治疗与儿童减肥：一筒纳入了2项Meta分析的系统性综述，均显示体脂率有显著性降低。而其他肥胖指标(BMI、体重、中心性肥胖)则没有显著性差异。一篇纳入40项研究的系统性综述和Meta分析，评价了抗阻训练对肥胖儿童力量、体成分等的影响，显示抗阻运动对体成分有极小影响，且亚组分析显示运动量越大、年龄越小、随机对照设计产生更显著效果。一项纳入15个随机对照试验的系统性综述和Meta分析，比较仅饮食干预与饮食结合运动或仅运动干预对超重儿童减重和降低代谢风险的效果，结果显示，短期干预中仅饮食和饮食结合运动均产生了减重和代谢指标改善的效果，而长期干预显示饮食结合运动干预可以显著改善高密度脂蛋白胆固醇和空腹血糖、空腹胰岛素水平。",
+          "start_idx": 0,
+          "end_idx": 315,
+          "entities": [
+            {
+              "entity_id": "T192",
+              "entity": "运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T193",
+              "entity": "中心性肥胖",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T194",
+              "entity": "抗阻训练",
+              "entity_type": "Treatment",
+              "start_idx": 101,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T195",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T196",
+              "entity": "抗阻运动",
+              "entity_type": "Treatment",
+              "start_idx": 123,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T197",
+              "entity": "饮食干预",
+              "entity_type": "Treatment",
+              "start_idx": 199,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T198",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 212,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T199",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 217,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T200",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 292,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T201",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 302,
+              "end_idx": 306
+            },
+            {
+              "entity_id": "T202",
+              "entity": "空腹胰岛素",
+              "entity_type": "Test_items",
+              "start_idx": 307,
+              "end_idx": 312
+            },
+            {
+              "entity_id": "T203",
+              "entity": "饮食结合运动",
+              "entity_type": "Treatment",
+              "start_idx": 204,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T204",
+              "entity": "饮食结合运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 278,
+              "end_idx": 286
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T195"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T198",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T200",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T202",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T203",
+              "tail_entity_id": "T199"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "55",
+      "paragraph": "4.运动治疗与孕期体重管理：一项纳人910名产后女性的系统性综述发现，单纯坚持有氧运动(步行)者与对照组相比体重变化没有显著差异。而饮食干预或饮食结合运动干预者与对照组相比体重显著降低，干预措施对哺乳行为并无消极影响。另一项合并了11个随机对照试验的Meta分析纳入769名产后女性，干预10-52周，结果显示最有效的减重方式是设定客观目标的运动干预，如心率监测或计步器的使用，表明生活方式干预对产后女性的减重是有益的，运动结合强化饮食干预并设定客观目标是最有效的干预方式。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.运动治疗与孕期体重管理：一项纳人910名产后女性的系统性综述发现，单纯坚持有氧运动(步行)者与对照组相比体重变化没有显著差异。",
+          "start_idx": 0,
+          "end_idx": 65,
+          "entities": [
+            {
+              "entity_id": "T205",
+              "entity": "运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T206",
+              "entity": "单纯坚持有氧运动(步行)",
+              "entity_type": "Treatment",
+              "start_idx": 35,
+              "end_idx": 47
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "而饮食干预或饮食结合运动干预者与对照组相比体重显著降低，干预措施对哺乳行为并无消极影响。",
+          "start_idx": 65,
+          "end_idx": 109,
+          "entities": [
+            {
+              "entity_id": "T207",
+              "entity": "饮食干预",
+              "entity_type": "Treatment",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T208",
+              "entity": "饮食结合运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 6,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "另一项合并了11个随机对照试验的Meta分析纳入769名产后女性，干预10-52周，结果显示最有效的减重方式是设定客观目标的运动干预，如心率监测或计步器的使用，表明生活方式干预对产后女性的减重是有益的，运动结合强化饮食干预并设定客观目标是最有效的干预方式。",
+          "start_idx": 109,
+          "end_idx": 237,
+          "entities": [
+            {
+              "entity_id": "T209",
+              "entity": "运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T210",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 82,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T211",
+              "entity": "运动结合强化饮食干预",
+              "entity_type": "Treatment",
+              "start_idx": 101,
+              "end_idx": 111
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "56",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "57",
+      "paragraph": "具体推荐见表6。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表6。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "58",
+      "paragraph": "六、认知-行为及心理干预 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "六、认知-行为及心理干预 ",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "认知-行为及心理干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "59",
+      "paragraph": "(一)背景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "60",
+      "paragraph": "生活方式干预作为基础治疗，是一种囊括营养、运动、认知-行为及心理多方面的综合干预模式。认知-行为及心理干预是通过调整超重和肥胖患者的生活环境及心理状态，帮助患者理解和认识体重管理、肥胖及其危害，从而做出行为改变。其中包括自我监控、控制进食、刺激控制、认知重建和放松技巧等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "生活方式干预作为基础治疗，是一种囊括营养、运动、认知-行为及心理多方面的综合干预模式。认知-行为及心理干预是通过调整超重和肥胖患者的生活环境及心理状态，帮助患者理解和认识体重管理、肥胖及其危害，从而做出行为改变。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T213",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T214",
+              "entity": "认知-行为及心理干预",
+              "entity_type": "Treatment",
+              "start_idx": 43,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T215",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T216",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T217",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 92
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T216"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "其中包括自我监控、控制进食、刺激控制、认知重建和放松技巧等。",
+          "start_idx": 106,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T218",
+              "entity": "自我监控",
+              "entity_type": "Treatment",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T219",
+              "entity": "控制进食",
+              "entity_type": "Treatment",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T220",
+              "entity": "刺激控制",
+              "entity_type": "Treatment",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T221",
+              "entity": "认知重建",
+              "entity_type": "Treatment",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T222",
+              "entity": "放松技巧",
+              "entity_type": "Treatment",
+              "start_idx": 24,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "61",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "62",
+      "paragraph": "1.认知-行为干预：认知-行为干预配合体力活动和饮食调整，能够明显降低体重，且超过6个月的行为干预比低于6个月的效果更明显。美国女性健康研究发现进行6-54个月的干预后，干预组的体重和腰围较对照组明显下降。行为干预对减重后体重的维持也有明显作用。研究证明行为干预提升了患者的理论认识，包括对其激励、支持，指导自我监控(饮食、运动和情绪管理)，从而更有利于保持减重效果。通过小组和面对面个人辅导的干预可以从不同方式进行指导，以维持远期减重效果。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.认知-行为干预：认知-行为干预配合体力活动和饮食调整，能够明显降低体重，且超过6个月的行为干预比低于6个月的效果更明显。",
+          "start_idx": 0,
+          "end_idx": 62,
+          "entities": [
+            {
+              "entity_id": "T223",
+              "entity": "认知-行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T224",
+              "entity": "认知-行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 10,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T225",
+              "entity": "体力活动",
+              "entity_type": "Treatment",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T226",
+              "entity": "饮食调整",
+              "entity_type": "Treatment",
+              "start_idx": 24,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T227",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 45,
+              "end_idx": 49
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "美国女性健康研究发现进行6-54个月的干预后，干预组的体重和腰围较对照组明显下降。",
+          "start_idx": 62,
+          "end_idx": 103,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "行为干预对减重后体重的维持也有明显作用。",
+          "start_idx": 103,
+          "end_idx": 123,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "研究证明行为干预提升了患者的理论认识，包括对其激励、支持，指导自我监控(饮食、运动和情绪管理)，从而更有利于保持减重效果。",
+          "start_idx": 123,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T229",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 4,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "通过小组和面对面个人辅导的干预可以从不同方式进行指导，以维持远期减重效果。",
+          "start_idx": 184,
+          "end_idx": 221,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "63",
+      "paragraph": "2.精神-心理支持：肥胖者常见的心理因素如压力、沮丧、抑郁容易导致过度进食，并引发罪恶感面陷人恶性循环中。精神-心理支持中需要医务人员能识别干扰减重管理成功的心理或精神疾患，并请专科医师进行治疗。在医疗活动中，肥胖患者可能会因为各种心理社会原因而拒绝寻求减重帮助。应对患者表达充分尊重，仔细倾听并建立信任，通过健康教育提高其对肥胖加重疾病危险性的认识，不应忽略任何细微进步，给予及时、适当的奖励和称赞，这对于肥胖儿童的管理尤其重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.精神-心理支持：肥胖者常见的心理因素如压力、沮丧、抑郁容易导致过度进食，并引发罪恶感面陷人恶性循环中。精神-心理支持中需要医务人员能识别干扰减重管理成功的心理或精神疾患，并请专科医师进行治疗。",
+          "start_idx": 0,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T230",
+              "entity": "精神-心理支持",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T231",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T232",
+              "entity": "精神-心理支持",
+              "entity_type": "Treatment",
+              "start_idx": 53,
+              "end_idx": 60
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T230",
+              "tail_entity_id": "T231"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在医疗活动中，肥胖患者可能会因为各种心理社会原因而拒绝寻求减重帮助。",
+          "start_idx": 98,
+          "end_idx": 132,
+          "entities": [
+            {
+              "entity_id": "T233",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "应对患者表达充分尊重，仔细倾听并建立信任，通过健康教育提高其对肥胖加重疾病危险性的认识，不应忽略任何细微进步，给予及时、适当的奖励和称赞，这对于肥胖儿童的管理尤其重要。",
+          "start_idx": 132,
+          "end_idx": 216,
+          "entities": [
+            {
+              "entity_id": "T234",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T235",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T236",
+              "entity": "健康教育",
+              "entity_type": "Treatment",
+              "start_idx": 23,
+              "end_idx": 27
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T236",
+              "tail_entity_id": "T234"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "64",
+      "paragraph": "(三)推荐意见 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见 ",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "65",
+      "paragraph": "具体推荐见表7。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表7。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 8,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "66",
+      "paragraph": "七、减重治疗后的维持 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "七、减重治疗后的维持 ",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T237",
+              "entity": "减重治疗",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "67",
+      "paragraph": "(一)背景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "68",
+      "paragraph": "治疗后减重的维持非常重要。机体存在多种机制调控能量平衡以维持自身体重相对稳定，通常减重计划结束后一年，大部分人会恢复已减掉体重(复重)的30%~35%，4年内基本恢复到减重前水平。发表于新英格兰医学杂志和美国医学会杂志的2项随机对照试验表明，适当的干预措施可在一定程度上延长减重后体重的维持时间。世界胃肠病学会对肥胖管理制定的全球指南(WGO)强调，为了维持减重效果，医务人员和营养医师应向患者提供面对面或电话随访的减重维持计划，保持与患者的规律接触(每月或更加频繁)，帮助其进行高强度体力活动(如200~300min/周)，规律监测体重变化(如每周或更加频繁)，并保持低能量饮食(维持更低体重所必需)。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "治疗后减重的维持非常重要。",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "机体存在多种机制调控能量平衡以维持自身体重相对稳定，通常减重计划结束后一年，大部分人会恢复已减掉体重(复重)的30%~35%，4年内基本恢复到减重前水平。发表于新英格兰医学杂志和美国医学会杂志的2项随机对照试验表明，适当的干预措施可在一定程度上延长减重后体重的维持时间。世界胃肠病学会对肥胖管理制定的全球指南(WGO)强调，为了维持减重效果，医务人员和营养医师应向患者提供面对面或电话随访的减重维持计划，保持与患者的规律接触(每月或更加频繁)，帮助其进行高强度体力活动(如200~300min/周)，规律监测体重变化(如每周或更加频繁)，并保持低能量饮食(维持更低体重所必需)。",
+          "start_idx": 13,
+          "end_idx": 302,
+          "entities": [
+            {
+              "entity_id": "T238",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T239",
+              "entity": "体力活动(如200~300min/周)",
+              "entity_type": "Treatment",
+              "start_idx": 230,
+              "end_idx": 249
+            },
+            {
+              "entity_id": "T240",
+              "entity": "低能量饮食",
+              "entity_type": "Treatment",
+              "start_idx": 272,
+              "end_idx": 277
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T238"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T240",
+              "tail_entity_id": "T238"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 302,
+          "end_idx": 303,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "69",
+      "paragraph": "(二)证据 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "71",
+      "paragraph": "1.饮食控制和体育锻炼：一篇纳入了从1984年至2007年间42项随机对照试验的系统性综述认为，生活方式和行为干预措施[包括饮食控制和(或)代餐、体育锻炼、保持减重小组间人员交流等]配合一定的药物治疗，对减少减重后复重有效型。Dombrowski等对非手术干预成人肥胖者减重后的长期维持进行了系统回顾和Mela分析，包含45项研究的7788例患者，结果显示包括食物摄取和体力活动在内的行为干预可以使患者较对照组复重减少1.56kg。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.饮食控制和体育锻炼：一篇纳入了从1984年至2007年间42项随机对照试验的系统性综述认为，生活方式和行为干预措施[包括饮食控制和(或)代餐、体育锻炼、保持减重小组间人员交流等]配合一定的药物治疗，对减少减重后复重有效型。Dombrowski等对非手术干预成人肥胖者减重后的长期维持进行了系统回顾和Mela分析，包含45项研究的7788例患者，结果显示包括食物摄取和体力活动在内的行为干预可以使患者较对照组复重减少1.56kg。",
+          "start_idx": 0,
+          "end_idx": 216,
+          "entities": [
+            {
+              "entity_id": "T241",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T242",
+              "entity": "体育锻炼",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T243",
+              "entity": "生活方式",
+              "entity_type": "Treatment",
+              "start_idx": 48,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T244",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T245",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T246",
+              "entity": "代餐",
+              "entity_type": "Treatment",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T247",
+              "entity": "体育锻炼",
+              "entity_type": "Treatment",
+              "start_idx": 73,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T248",
+              "entity": "保持减重小组间人员交流",
+              "entity_type": "Treatment",
+              "start_idx": 78,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T249",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T250",
+              "entity": "食物摄取",
+              "entity_type": "Treatment",
+              "start_idx": 180,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T251",
+              "entity": "体力活动",
+              "entity_type": "Treatment",
+              "start_idx": 185,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T252",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 192,
+              "end_idx": 196
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T250",
+              "tail_entity_id": "T249"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T251",
+              "tail_entity_id": "T249"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T252",
+              "tail_entity_id": "T249"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "72",
+      "paragraph": "2.心理因素：减重所引起的能量负平衡和能量储备的降低会促使关键中枢和外周调节因素发生改变，从而导致减重者食欲的增加和能量消耗的减少，而导致减重成功后的复重。这种调节作用不会在新的体重稳态形成后消退，这会促使减重成功者在心理和身体诱因的驱动下恢复减掉的体重。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.心理因素：减重所引起的能量负平衡和能量储备的降低会促使关键中枢和外周调节因素发生改变，从而导致减重者食欲的增加和能量消耗的减少，而导致减重成功后的复重。",
+          "start_idx": 0,
+          "end_idx": 78,
+          "entities": [
+            {
+              "entity_id": "T253",
+              "entity": "心理因素",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "这种调节作用不会在新的体重稳态形成后消退，这会促使减重成功者在心理和身体诱因的驱动下恢复减掉的体重。",
+          "start_idx": 78,
+          "end_idx": 128,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "73",
+      "paragraph": "3.网络干预：随着互联网时代对健康产生的深远影响，越来越多的研究表明网络干预对维持减重(尤其在2年以内)有效。2项设计良好的大样本随机对照试验结果均显示，在短期随访(24个月内)利用相互帮扶技术干预组的体重回升明显低于自我控制组。一个纳入5项研究的Meta分析发现，网络干预与面对面干预效果相同，高网站利用率与减重维持正相关。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.网络干预：随着互联网时代对健康产生的深远影响，越来越多的研究表明网络干预对维持减重(尤其在2年以内)有效。",
+          "start_idx": 0,
+          "end_idx": 55,
+          "entities": [
+            {
+              "entity_id": "T254",
+              "entity": "网络干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T255",
+              "entity": "网络干预",
+              "entity_type": "Treatment",
+              "start_idx": 34,
+              "end_idx": 38
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "2项设计良好的大样本随机对照试验结果均显示，在短期随访(24个月内)利用相互帮扶技术干预组的体重回升明显低于自我控制组。",
+          "start_idx": 55,
+          "end_idx": 115,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "一个纳入5项研究的Meta分析发现，网络干预与面对面干预效果相同，高网站利用率与减重维持正相关。",
+          "start_idx": 115,
+          "end_idx": 163,
+          "entities": [
+            {
+              "entity_id": "T256",
+              "entity": "网络干预",
+              "entity_type": "Treatment",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T257",
+              "entity": "面对面干预",
+              "entity_type": "Treatment",
+              "start_idx": 23,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "74",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "75",
+      "paragraph": "具体推荐见表8。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表8。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 8,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "76",
+      "paragraph": "分论  ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "分论  ",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "77",
+      "paragraph": "一、儿童/青少年肥胖体重管理 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、儿童/青少年肥胖体重管理 ",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T258",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "78",
+      "paragraph": "(一)背景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "79",
+      "paragraph": "儿童期肥胖容易伴随焦虑、自卑等心理问题，同时也是成人肥胖、糖尿病、心血管疾病及其他代谢性疾病和肿病的潜在危险因素。医学营养治疗主要通过培养良好的生活习惯而达到控制体重的目的。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "儿童期肥胖容易伴随焦虑、自卑等心理问题，同时也是成人肥胖、糖尿病、心血管疾病及其他代谢性疾病和肿病的潜在危险因素。医学营养治疗主要通过培养良好的生活习惯而达到控制体重的目的。",
+          "start_idx": 0,
+          "end_idx": 87,
+          "entities": [
+            {
+              "entity_id": "T259",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T260",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T261",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T262",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T263",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T263",
+              "tail_entity_id": "T262"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 87,
+          "end_idx": 88,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "80",
+      "paragraph": "(二)证据 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "81",
+      "paragraph": "1.母乳喂养与肥胖：一篇纳入25项研究的Meta分析发现，相对于未母乳喂养过的新生儿，母乳喂养者发生儿童期肥胖的比率降低22%，且母乳喂养时间与肥胖发生率有剂量-效应关系。这与配方喂养提供了较高的脂肪和蛋白质，以及缺乏母乳中含有较多的活性物质可能有关。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.母乳喂养与肥胖：一篇纳入25项研究的Meta分析发现，相对于未母乳喂养过的新生儿，母乳喂养者发生儿童期肥胖的比率降低22%，且母乳喂养时间与肥胖发生率有剂量-效应关系。",
+          "start_idx": 0,
+          "end_idx": 86,
+          "entities": [
+            {
+              "entity_id": "T264",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T265",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T266",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 74
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "这与配方喂养提供了较高的脂肪和蛋白质，以及缺乏母乳中含有较多的活性物质可能有关。",
+          "start_idx": 86,
+          "end_idx": 126,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 126,
+          "end_idx": 127,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "82",
+      "paragraph": "2.规律早餐与BMI：横断面研究表明，不爱吃早餐的群体发生超重和肥胖的比例更大。芬兰一项出生队列研究发现，相对于规律进食早餐的青少年，很少吃早餐的群体更容易吸烟、喝酒、咖啡以及含有咖啡因的碳酸饮料，并且很少锻炼，BMI值更高。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.规律早餐与BMI：横断面研究表明，不爱吃早餐的群体发生超重和肥胖的比例更大。芬兰一项出生队列研究发现，相对于规律进食早餐的青少年，很少吃早餐的群体更容易吸烟、喝酒、咖啡以及含有咖啡因的碳酸饮料，并且很少锻炼，BMI值更高。",
+          "start_idx": 0,
+          "end_idx": 113,
+          "entities": [
+            {
+              "entity_id": "T267",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T268",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T269",
+              "entity": "规律早餐",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T267"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "83",
+      "paragraph": "3.零食摄入与肥胖：一项队列研究表明，高能量零食的摄入频率及进食时间与青少年肥胖有紧密联系。每日2次以上零食的青少年其肥胖风险比(risk ratio，RR) 高于很少吃零食的青少年；以在早晨吃高能量零食的青少年为对照组，夜间进食零食的受试者发生肥胖和超重的RR为3.12。一项长达19个月的队列研究表明，每天多喝12盎司(ounce，I盎司=28.4ml，12盎司约合340ml)的含糖饮料，将会导致BMI升高0.24kg/m2。横断面研究发现，碳酸饮料与儿童期的肥胖有着密切关系，每周多摄入碳酸饮料240ml的青少年发生肥胖的危险增加29%。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.零食摄入与肥胖：一项队列研究表明，高能量零食的摄入频率及进食时间与青少年肥胖有紧密联系。",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T270",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T271",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 40
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "每日2次以上零食的青少年其肥胖风险比(risk ratio，RR) 高于很少吃零食的青少年；以在早晨吃高能量零食的青少年为对照组，夜间进食零食的受试者发生肥胖和超重的RR为3.12。",
+          "start_idx": 46,
+          "end_idx": 137,
+          "entities": [
+            {
+              "entity_id": "T272",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T273",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 77,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T274",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 80,
+              "end_idx": 82
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "一项长达19个月的队列研究表明，每天多喝12盎司(ounce，I盎司=28.4ml，12盎司约合340ml)的含糖饮料，将会导致BMI升高0.24kg/m2。",
+          "start_idx": 137,
+          "end_idx": 216,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "横断面研究发现，碳酸饮料与儿童期的肥胖有着密切关系，每周多摄入碳酸饮料240ml的青少年发生肥胖的危险增加29%。",
+          "start_idx": 216,
+          "end_idx": 273,
+          "entities": [
+            {
+              "entity_id": "T275",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T276",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 48
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 273,
+          "end_idx": 274,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "84",
+      "paragraph": "4.碳水化合物与肥胖：一项队列研究表明.青少年女性膳食中血糖指数(glycemic-index)每升高1SD，BMI和腰围分别增加0.77kg/m2和1.45cm；而膳食纤维摄入最每增加1SD，会导致青少年女性BMI值降低0.44kg/m2和青少年男性腰降低1.45cm。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.碳水化合物与肥胖：一项队列研究表明.青少年女性膳食中血糖指数(glycemic-index)每升高1SD，BMI和腰围分别增加0.77kg/m2和1.45cm；而膳食纤维摄入最每增加1SD，会导致青少年女性BMI值降低0.44kg/m2和青少年男性腰降低1.45cm。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T277",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T278",
+              "entity": "血糖指数(glycemic-index)",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 48
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T278",
+              "tail_entity_id": "T277"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "85",
+      "paragraph": "5.微量营养素摄入与肥胖：研究表明血清维生素B12和叶酸的浓度与青少年BMI值、躯干脂肪面积以及总脂肪面积呈负相关。一项病例对照研究表明，肥胖儿童血清中维生素B12水平为400ng/L，明显低于正常体重的儿童血清中维生素B12的水平(530ng/L)；相对于正常体重儿童，在调整性别和年龄等混杂因素的影响后，肥胖儿童血清中维生素B12偏低的风险比(odds ratio，OR)高达4.33。也有研究发现，肥胖儿童血清中含有更低水平的Zn、Se和Fe，但血清Cu的水平较高；血清Zn的水平和血清中总胆固醇水平有呈明显负相关，而与血清中HDL-C水平正相关。维生素D的水平与儿童肥胖的负相关也得到了进一步的证实。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.微量营养素摄入与肥胖：研究表明血清维生素B12和叶酸的浓度与青少年BMI值、躯干脂肪面积以及总脂肪面积呈负相关。一项病例对照研究表明，肥胖儿童血清中维生素B12水平为400ng/L，明显低于正常体重的儿童血清中维生素B12的水平(530ng/L)；相对于正常体重儿童，在调整性别和年龄等混杂因素的影响后，肥胖儿童血清中维生素B12偏低的风险比(odds ratio，OR)高达4.33。也有研究发现，肥胖儿童血清中含有更低水平的Zn、Se和Fe，但血清Cu的水平较高；血清Zn的水平和血清中总胆固醇水平有呈明显负相关，而与血清中HDL-C水平正相关。",
+          "start_idx": 0,
+          "end_idx": 277,
+          "entities": [
+            {
+              "entity_id": "T279",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T280",
+              "entity": "血清维生素B12",
+              "entity_type": "Test_items",
+              "start_idx": 17,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T281",
+              "entity": "叶酸",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T282",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T283",
+              "entity": "维生素B12",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T284",
+              "entity": "400ng/L",
+              "entity_type": "Test_Value",
+              "start_idx": 85,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T285",
+              "entity": "维生素B12",
+              "entity_type": "Test_items",
+              "start_idx": 107,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T286",
+              "entity": "530ng/L",
+              "entity_type": "Test_Value",
+              "start_idx": 117,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T287",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 154,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T288",
+              "entity": "维生素B12",
+              "entity_type": "Test_items",
+              "start_idx": 161,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T289",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 202,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T290",
+              "entity": "Zn",
+              "entity_type": "Test_items",
+              "start_idx": 216,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T291",
+              "entity": "Se",
+              "entity_type": "Test_items",
+              "start_idx": 219,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T292",
+              "entity": "Fe",
+              "entity_type": "Test_items",
+              "start_idx": 222,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T293",
+              "entity": "血清Cu",
+              "entity_type": "Test_items",
+              "start_idx": 226,
+              "end_idx": 230
+            },
+            {
+              "entity_id": "T294",
+              "entity": "血清Zn",
+              "entity_type": "Test_items",
+              "start_idx": 236,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T295",
+              "entity": "总胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 247,
+              "end_idx": 251
+            },
+            {
+              "entity_id": "T296",
+              "entity": "HDL-C",
+              "entity_type": "Test_items",
+              "start_idx": 266,
+              "end_idx": 271
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T280",
+              "tail_entity_id": "T279"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T281",
+              "tail_entity_id": "T279"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T283",
+              "tail_entity_id": "T282"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T287"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T290",
+              "tail_entity_id": "T289"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T289"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T292",
+              "tail_entity_id": "T289"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T289"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "维生素D的水平与儿童肥胖的负相关也得到了进一步的证实。",
+          "start_idx": 277,
+          "end_idx": 304,
+          "entities": [
+            {
+              "entity_id": "T297",
+              "entity": "维生素D",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T298",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T298"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 304,
+          "end_idx": 305,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "86",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "87",
+      "paragraph": "具体推荐见表9。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表9。",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 8,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "88",
+      "paragraph": "二、围孕期体重管理 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、围孕期体重管理 ",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "89",
+      "paragraph": "(一)背景 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景 ",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "90",
+      "paragraph": "大量研究显示，母体孕前及孕期的肥胖均与孕期合并症及不良妊娠结局相关，包括妊娠期糖尿病、妊娠高血压、子痫、早产、死胎、巨大儿、过期产、剖宫产、先天畸形等；远期不良影响包括产后母体及子代肥胖，增加母婴罹患2型糖尿病、高血压及其他代谢综合征的风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "大量研究显示，母体孕前及孕期的肥胖均与孕期合并症及不良妊娠结局相关，包括妊娠期糖尿病、妊娠高血压、子痫、早产、死胎、巨大儿、过期产、剖宫产、先天畸形等；远期不良影响包括产后母体及子代肥胖，增加母婴罹患2型糖尿病、高血压及其他代谢综合征的风险。",
+          "start_idx": 0,
+          "end_idx": 121,
+          "entities": [
+            {
+              "entity_id": "T299",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T300",
+              "entity": "妊娠期糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T301",
+              "entity": "妊娠高血压",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T302",
+              "entity": "子痫",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T303",
+              "entity": "早产",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T304",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T305",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 100,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T306",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 100,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T307",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 109
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T305"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "91",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "92",
+      "paragraph": "1.肥胖与生育能力：一项前瞻性研究发现，超重女性生育能力下降8%，肥胖者下降达18%。肥胖不仅影响自然受孕，同样影响辅助生殖的成功，增加自然流产及孕期并发症的风险。应强调在辅助生殖实施前进行减重。同时也有研究证实减重5%~10%就可以成功减掉30%的内脏脂肪，更有利于排卵发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.肥胖与生育能力：一项前瞻性研究发现，超重女性生育能力下降8%，肥胖者下降达18%。",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T308",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T309",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T310",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 35
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "肥胖不仅影响自然受孕，同样影响辅助生殖的成功，增加自然流产及孕期并发症的风险。",
+          "start_idx": 43,
+          "end_idx": 82,
+          "entities": [
+            {
+              "entity_id": "T311",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "应强调在辅助生殖实施前进行减重。",
+          "start_idx": 82,
+          "end_idx": 98,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "同时也有研究证实减重5%~10%就可以成功减掉30%的内脏脂肪，更有利于排卵发生。",
+          "start_idx": 98,
+          "end_idx": 139,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "93",
+      "paragraph": "2.肥胖女性孕期体重：2009年美国医学研究所推荐建议孕早期增重0.5~2.0kg，超重女性孕期增重7.0~11.5kg，肥胖女性孕期增重5.0~9.0kg。相对于孕期增重超过7.0kg的肥胖女性，孕期增重低于7.0kg的肥胖女性发生子痫前期、剖宫产及巨大儿的几率明显降低。美国一项涉及113019例新生儿研究中，肥胖孕妇过低的体重增加加重孕妇早产的风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.肥胖女性孕期体重：2009年美国医学研究所推荐建议孕早期增重0.5~2.0kg，超重女性孕期增重7.0~11.5kg，肥胖女性孕期增重5.0~9.0kg。",
+          "start_idx": 0,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T312",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T313",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T314",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 63
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "相对于孕期增重超过7.0kg的肥胖女性，孕期增重低于7.0kg的肥胖女性发生子痫前期、剖宫产及巨大儿的几率明显降低。",
+          "start_idx": 79,
+          "end_idx": 137,
+          "entities": [
+            {
+              "entity_id": "T315",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T316",
+              "entity": "子痫",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 40
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "美国一项涉及113019例新生儿研究中，肥胖孕妇过低的体重增加加重孕妇早产的风险。",
+          "start_idx": 137,
+          "end_idx": 178,
+          "entities": [
+            {
+              "entity_id": "T317",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T318",
+              "entity": "早产",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "94",
+      "paragraph": "3.肥胖女性妊娠期体重管理：在一项1777例妊娠妇女队列研究中，用替代健康饮食指数(the alternative healthy eating index，AHEI)进行膳食评价，发现肥胖孕妇AHEI分数更低。另一项2247例妊娠妇女队列研究也发现，高能量、低营养素含量的食物(如碳酸饮料、果汁饮料、精制面粉)也是过高能量摄入的主要贡献者，同时此类膳食富含饱和脂肪酸。小样本研究显示：当肥胖合并妊娠期糖尿病的孕妇能量限制在1800kcal左右时，孕妇体重能够得到控制且不出现酮症，也能够改善孕妇血糖水平并对新生儿出生体重无不良影响。建议根据肥胖孕妇的身高、体重、年龄、活动水平等因素制定个体化的膳食能量计划。相对于BMI正常的孕妇，肥胖孕妇的新生儿神经管畸形发病率更高。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.肥胖女性妊娠期体重管理：在一项1777例妊娠妇女队列研究中，用替代健康饮食指数(the alternative healthy eating index，AHEI)进行膳食评价，发现肥胖孕妇AHEI分数更低。另一项2247例妊娠妇女队列研究也发现，高能量、低营养素含量的食物(如碳酸饮料、果汁饮料、精制面粉)也是过高能量摄入的主要贡献者，同时此类膳食富含饱和脂肪酸。小样本研究显示：当肥胖合并妊娠期糖尿病的孕妇能量限制在1800kcal左右时，孕妇体重能够得到控制且不出现酮症，也能够改善孕妇血糖水平并对新生儿出生体重无不良影响。",
+          "start_idx": 0,
+          "end_idx": 267,
+          "entities": [
+            {
+              "entity_id": "T319",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T320",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T321",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 194,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T322",
+              "entity": "妊娠期糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 198,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T323",
+              "entity": "酮症",
+              "entity_type": "Disease",
+              "start_idx": 238,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T324",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 248,
+              "end_idx": 250
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T321"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T322"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "建议根据肥胖孕妇的身高、体重、年龄、活动水平等因素制定个体化的膳食能量计划。",
+          "start_idx": 267,
+          "end_idx": 305,
+          "entities": [
+            {
+              "entity_id": "T325",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "相对于BMI正常的孕妇，肥胖孕妇的新生儿神经管畸形发病率更高。",
+          "start_idx": 305,
+          "end_idx": 336,
+          "entities": [
+            {
+              "entity_id": "T326",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T327",
+              "entity": "神经管畸形",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "95",
+      "paragraph": "4.超重/肥胖女性产后体重的恢复：相对于正常BMI的女性，孕期增重过多的肥胖女性产后可能储备更多的体重。哺乳期进行膳食及运动干预可以帮助其产后恢复到孕前体重，产后哺乳至少6个月后可以降低产后体重。有研究显示，产后哺乳更有利于体重恢复。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.超重/肥胖女性产后体重的恢复：相对于正常BMI的女性，孕期增重过多的肥胖女性产后可能储备更多的体重。",
+          "start_idx": 0,
+          "end_idx": 52,
+          "entities": [
+            {
+              "entity_id": "T328",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T329",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T330",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 38
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "哺乳期进行膳食及运动干预可以帮助其产后恢复到孕前体重，产后哺乳至少6个月后可以降低产后体重。",
+          "start_idx": 52,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T331",
+              "entity": "膳食及运动干预",
+              "entity_type": "Treatment",
+              "start_idx": 5,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "有研究显示，产后哺乳更有利于体重恢复。",
+          "start_idx": 98,
+          "end_idx": 117,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "96",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "97",
+      "paragraph": "具体推荐见表10。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "具体推荐见表10。",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "98",
+      "paragraph": "三、多囊卵巢综合征(polyeystic ovary syndrome，PCOS)的体重管理",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、多囊卵巢综合征(polyeystic ovary syndrome，PCOS)的体重管理",
+          "start_idx": 0,
+          "end_idx": 46,
+          "entities": [
+            {
+              "entity_id": "T332",
+              "entity": "多囊卵巢综合征(polyeystic ovary syndrome，PCOS)",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 41
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "99",
+      "paragraph": "(一)背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)背景",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "100",
+      "paragraph": "在我国19~45岁的女性中PCOS的发病率约为5.6%。不同国家的研究显示PCOS患者肥胖的发生率在30%~70%。系统性综述表明，与正常体重的PCOS女性相比，肥胖PCOS患者所有代谢和生殖的指标(除多毛症外)，包括性激素结合球蛋白(sex hormone-binding globulin)下降，总睾酮、空腹血糖、空腹胰岛素增加和血脂升高。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在我国19~45岁的女性中PCOS的发病率约为5.6%。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T333",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "不同国家的研究显示PCOS患者肥胖的发生率在30%~70%。系统性综述表明，与正常体重的PCOS女性相比，肥胖PCOS患者所有代谢和生殖的指标(除多毛症外)，包括性激素结合球蛋白(sex hormone-binding globulin)下降，总睾酮、空腹血糖、空腹胰岛素增加和血脂升高。",
+          "start_idx": 28,
+          "end_idx": 172,
+          "entities": [
+            {
+              "entity_id": "T334",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T335",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T336",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T337",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T338",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T339",
+              "entity": "多毛症",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T340",
+              "entity": "性激素结合球蛋白(sex hormone-binding globulin)",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T341",
+              "entity": "总睾酮",
+              "entity_type": "Test_items",
+              "start_idx": 122,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T342",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 126,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T343",
+              "entity": "空腹胰岛素",
+              "entity_type": "Test_items",
+              "start_idx": 131,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T344",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 139,
+              "end_idx": 141
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T340",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T342",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T344",
+              "tail_entity_id": "T338"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "101",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "102",
+      "paragraph": "1.生活方式干预与PCOS：临床研究显示，PCOS患者对富含碳水化合物、高血糖指数食物以及高饱和脂肪的食物摄入均显著增加；同时具有总能量摄入过高以及久坐的特点。一项系统性综述表明，对于PCOS患者，在减轻体重、改善胰岛素抵抗及高雄激素血症等方面，生活方式干预(饮食、运动和行为干预)比药物治疗更有效。研究表明，超重或肥胖的PCOS患者轻度体重减轻(减少5%~10%)即可使血清睾酮浓度下降，也可恢复正常的排卵周期，并提高妊娠成功率。因此，对于超重和肥胖的PCOS患者，建议首先进行生活方式干预(饮食和运动)以减轻体重。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.生活方式干预与PCOS：临床研究显示，PCOS患者对富含碳水化合物、高血糖指数食物以及高饱和脂肪的食物摄入均显著增加；同时具有总能量摄入过高以及久坐的特点。一项系统性综述表明，对于PCOS患者，在减轻体重、改善胰岛素抵抗及高雄激素血症等方面，生活方式干预(饮食、运动和行为干预)比药物治疗更有效。研究表明，超重或肥胖的PCOS患者轻度体重减轻(减少5%~10%)即可使血清睾酮浓度下降，也可恢复正常的排卵周期，并提高妊娠成功率。因此，对于超重和肥胖的PCOS患者，建议首先进行生活方式干预(饮食和运动)以减轻体重。",
+          "start_idx": 0,
+          "end_idx": 259,
+          "entities": [
+            {
+              "entity_id": "T345",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T346",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T347",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T348",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T349",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T350",
+              "entity": "高雄激素血症",
+              "entity_type": "Disease",
+              "start_idx": 113,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T351",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 107,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T352",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 123,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T353",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 130,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T354",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 133,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T355",
+              "entity": "行为干预",
+              "entity_type": "Treatment",
+              "start_idx": 136,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T356",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 155,
+              "end_idx": 157
+            },
+            {
+              "entity_id": "T357",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 158,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T358",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 161,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T359",
+              "entity": "血清睾酮",
+              "entity_type": "Test_items",
+              "start_idx": 186,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T360",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 221,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T361",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 224,
+              "end_idx": 226
+            },
+            {
+              "entity_id": "T362",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 227,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T363",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 240,
+              "end_idx": 246
+            },
+            {
+              "entity_id": "T364",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 247,
+              "end_idx": 249
+            },
+            {
+              "entity_id": "T365",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 250,
+              "end_idx": 252
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T346"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T352",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T353",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T354",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T355",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T359",
+              "tail_entity_id": "T358"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T362"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T362"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T365",
+              "tail_entity_id": "T362"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "103",
+      "paragraph": "2.饮食干预与PCOS：(1)限制总能量摄入：超重和肥胖的PCOS患者在减重时应以CRD为首选治疗。随机对照试验表明，CRD可改善肥胖PCOS女性的代谢及激素水平，每日饮食总能量中减少500~1000kcal，即在6~12个月减少7%~10%的原体重。(2)宏量营养素和血糖指数的选择：国内外研究显示，在限制总能量的基础上，高蛋白/低碳水化合物饮食(蛋白质30%、碳水化合物40%、脂肪30%，MHCD)和低蛋白/高碳水化合物饮食(蛋白质15%、碳水化合物55%、脂肪30%，CHCD)相比，均可降低体重和雄激素水平，MHCD明显增加胰岛素敏感性、减轻高胰岛素血症继而减轻胰岛素抵抗；低血糖指数饮食亦可通过降低PCOS患者(无论是否肥胖)胰岛素、睾酮水平，改善多毛和痤疮。因此，在限制总能量基础上，无论宏量营养素如何配比，均可实现体重减轻及改善临床结局的目的。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.饮食干预与PCOS：(1)限制总能量摄入：超重和肥胖的PCOS患者在减重时应以CRD为首选治疗。随机对照试验表明，CRD可改善肥胖PCOS女性的代谢及激素水平，每日饮食总能量中减少500~1000kcal，即在6~12个月减少7%~10%的原体重。(2)宏量营养素和血糖指数的选择：国内外研究显示，在限制总能量的基础上，高蛋白/低碳水化合物饮食(蛋白质30%、碳水化合物40%、脂肪30%，MHCD)和低蛋白/高碳水化合物饮食(蛋白质15%、碳水化合物55%、脂肪30%，CHCD)相比，均可降低体重和雄激素水平，MHCD明显增加胰岛素敏感性、减轻高胰岛素血症继而减轻胰岛素抵抗；低血糖指数饮食亦可通过降低PCOS患者(无论是否肥胖)胰岛素、睾酮水平，改善多毛和痤疮。",
+          "start_idx": 0,
+          "end_idx": 336,
+          "entities": [
+            {
+              "entity_id": "T366",
+              "entity": "饮食干预",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T367",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T368",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T369",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T370",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T371",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T372",
+              "entity": "CRD",
+              "entity_type": "Treatment",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T373",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T374",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T375",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 135,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T376",
+              "entity": "高胰岛素血症",
+              "entity_type": "Disease",
+              "start_idx": 276,
+              "end_idx": 282
+            },
+            {
+              "entity_id": "T377",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 286,
+              "end_idx": 291
+            },
+            {
+              "entity_id": "T378",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 305,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T379",
+              "entity": "胰岛素",
+              "entity_type": "Test_items",
+              "start_idx": 319,
+              "end_idx": 322
+            },
+            {
+              "entity_id": "T380",
+              "entity": "睾酮",
+              "entity_type": "Test_items",
+              "start_idx": 323,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T381",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 293,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T382",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 316,
+              "end_idx": 318
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T366",
+              "tail_entity_id": "T367"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T371",
+              "tail_entity_id": "T370"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T379",
+              "tail_entity_id": "T378"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T380",
+              "tail_entity_id": "T378"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T378"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，在限制总能量基础上，无论宏量营养素如何配比，均可实现体重减轻及改善临床结局的目的。",
+          "start_idx": 336,
+          "end_idx": 380,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "104",
+      "paragraph": "在限制总能量、减轻体重的前提下，宏量营养素比例和质量选择对PCOS患者的生育、代谢、心理的影响存在着细微差别。低碳水化合物或低血糖指数饮食可更明显降低胰岛素抵抗、纤维蛋白原、总胆固醇和高密度脂蛋白胆固醇，低血糖指数饮食明显改善月经周期和生活质量，高蛋白膳食可明显改善抑郁和增强自尊；反之，高碳水化合物饮食明显增加游离睾酮指数。有研究显示，肥胖PCOS患者使用限能量代餐可降低患者BMI，改善代谢及激素指标，增加受孕几率。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在限制总能量、减轻体重的前提下，宏量营养素比例和质量选择对PCOS患者的生育、代谢、心理的影响存在着细微差别。低碳水化合物或低血糖指数饮食可更明显降低胰岛素抵抗、纤维蛋白原、总胆固醇和高密度脂蛋白胆固醇，低血糖指数饮食明显改善月经周期和生活质量，高蛋白膳食可明显改善抑郁和增强自尊；反之，高碳水化合物饮食明显增加游离睾酮指数。有研究显示，肥胖PCOS患者使用限能量代餐可降低患者BMI，改善代谢及激素指标，增加受孕几率。",
+          "start_idx": 0,
+          "end_idx": 210,
+          "entities": [
+            {
+              "entity_id": "T383",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T384",
+              "entity": "低血糖指数饮食",
+              "entity_type": "Treatment",
+              "start_idx": 62,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T385",
+              "entity": "纤维蛋白原",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T386",
+              "entity": "总胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 87,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T387",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T388",
+              "entity": "低血糖指数饮食",
+              "entity_type": "Treatment",
+              "start_idx": 102,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T389",
+              "entity": "高蛋白膳食",
+              "entity_type": "Treatment",
+              "start_idx": 123,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T390",
+              "entity": "游离睾酮指数",
+              "entity_type": "Test_items",
+              "start_idx": 156,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T391",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 169,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T392",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 171,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T393",
+              "entity": "限能量代餐",
+              "entity_type": "Treatment",
+              "start_idx": 179,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T394",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 75,
+              "end_idx": 80
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T393",
+              "tail_entity_id": "T392"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "105",
+      "paragraph": "3.综合管理：超重/肥胖PCOS的综合管理应包括持续的社会、家庭支持和教育，个体化方案、密切随访、医师监督以及医师、家庭、配偶和同事的支持都会促进体重达标与维持。PCOS患者记录饮食运动日记有利于长期坚持，以减轻体重并维持长期疗效。强化运动管理可降低并维持体重、改善心血管危险因素，且可改善排卵及胰岛素感性。国内研究显示，超重及肥胖的PCOS患者采用饮食联合运动治疗，可改善其内分泌激素及糖脂代谢紊乱。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.综合管理：超重/肥胖PCOS的综合管理应包括持续的社会、家庭支持和教育，个体化方案、密切随访、医师监督以及医师、家庭、配偶和同事的支持都会促进体重达标与维持。PCOS患者记录饮食运动日记有利于长期坚持，以减轻体重并维持长期疗效。强化运动管理可降低并维持体重、改善心血管危险因素，且可改善排卵及胰岛素感性。国内研究显示，超重及肥胖的PCOS患者采用饮食联合运动治疗，可改善其内分泌激素及糖脂代谢紊乱。",
+          "start_idx": 0,
+          "end_idx": 201,
+          "entities": [
+            {
+              "entity_id": "T395",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T396",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T397",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T398",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 81,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T399",
+              "entity": "强化运动管理",
+              "entity_type": "Treatment",
+              "start_idx": 116,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T400",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 161,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T401",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 164,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T402",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 167,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T403",
+              "entity": "饮食联合运动治疗",
+              "entity_type": "Treatment",
+              "start_idx": 175,
+              "end_idx": 183
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T403",
+              "tail_entity_id": "T402"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "106",
+      "paragraph": "(三)推荐意见",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)推荐意见",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "107",
+      "paragraph": "PCOS体重管理推荐见表11。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "PCOS体重管理推荐见表11。",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T404",
+              "entity": "PCOS",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "108",
+      "paragraph": "四、超重/肥胖者合并代谢综合征的体重管理",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、超重/肥胖者合并代谢综合征的体重管理",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T405",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T406",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T407",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "109",
+      "paragraph": "（一）背景",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "（一）背景",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "110",
+      "paragraph": "代谢综合征是以超重/肥胖为中心并伴有一系列代谢紊乱的病症。随着社会生活水平的提高，以及国人膳食模式的变化，代谢综合征的流行呈现快速上升趋势，2000年至2001年的全国性横断面调查显示，男性和女性代谢综合征的惠病车分别为10.0%和23.3%。2011年美国Joslin糖尿病中心发布了合并糖尿病的肥胖患者临床营养指南，整部指南的目标人群实际是代谢综合征患者，其将体重管理置于营养管理的首要目标。与此同时，该指南还提出将膳食管理与胰岛素治疗相配合，同时需要考虑与营养有关的代谢并发症的控制。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "代谢综合征是以超重/肥胖为中心并伴有一系列代谢紊乱的病症。",
+          "start_idx": 0,
+          "end_idx": 29,
+          "entities": [
+            {
+              "entity_id": "T408",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T409",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T410",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "随着社会生活水平的提高，以及国人膳食模式的变化，代谢综合征的流行呈现快速上升趋势，2000年至2001年的全国性横断面调查显示，男性和女性代谢综合征的惠病车分别为10.0%和23.3%。2011年美国Joslin糖尿病中心发布了合并糖尿病的肥胖患者临床营养指南，整部指南的目标人群实际是代谢综合征患者，其将体重管理置于营养管理的首要目标。与此同时，该指南还提出将膳食管理与胰岛素治疗相配合，同时需要考虑与营养有关的代谢并发症的控制。",
+          "start_idx": 29,
+          "end_idx": 245,
+          "entities": [
+            {
+              "entity_id": "T411",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T412",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T413",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T414",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 116,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T415",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T416",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T417",
+              "entity": "膳食管理",
+              "entity_type": "Treatment",
+              "start_idx": 181,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T418",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 186,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T419",
+              "entity": "代谢并发症",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 212
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T417",
+              "tail_entity_id": "T419"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T418",
+              "tail_entity_id": "T419"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "111",
+      "paragraph": "(二)证据",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)证据",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "20世纪80年代，Vertes等对519例门诊患者进行断食治疗，78%的患者体重下降超过18.2kg，总体减重为每周1.5kg，女性平均每周减重1.3kg，男性每周减重2.1kg，大多数均能接受该方案而无任何严重副作用。一项基于16例肥胖患者的研究显示，在隔日断食法干预8周后，患者体重平均下降(5.6±1.0)kg，腰围平均缩小4.0cm，体脂含量从原来的(45±2)%降到(42±2)%，收缩压由(124±5)mmHg(1mmHg=0.133kPa)降到(116±3)mmHg，总胆固醇、低密度脂蛋白胆固醇和甘油三酯浓度也分别下降(21±4)%、(25±10)%和(32±6)%，而高密度脂蛋白胆固醇水平无变化。Johnson等的研究也发现，在隔日断食法干预8周后，肥胖患者的BMI较基线值下降8%，而低密度脂蛋白胆固醇和甘油三酯分别下降10%和40%。2013年发表的一项基于115例肥胖女性的研究显示，干预3个月后，两日断食法的肥胖患者体重平均下降4kg，而传统能量限制的肥胖患者体重平均下降2.4kg，且前者胰岛素抵抗改善更明显。2014年一项关于2型糖尿病预防的Meta分析发现轻断食可有效减重及预防2型糖尿病，对超重和肥胖患者的血糖、胰岛素及低密度脂蛋白胆固醇、高密度脂蛋白胆固醇等代谢标记物均有改善。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "20世纪80年代，Vertes等对519例门诊患者进行断食治疗，78%的患者体重下降超过18.2kg，总体减重为每周1.5kg，女性平均每周减重1.3kg，男性每周减重2.1kg，大多数均能接受该方案而无任何严重副作用。一项基于16例肥胖患者的研究显示，在隔日断食法干预8周后，患者体重平均下降(5.6±1.0)kg，腰围平均缩小4.0cm，体脂含量从原来的(45±2)%降到(42±2)%，收缩压由(124±5)mmHg(1mmHg=0.133kPa)降到(116±3)mmHg，总胆固醇、低密度脂蛋白胆固醇和甘油三酯浓度也分别下降(21±4)%、(25±10)%和(32±6)%，而高密度脂蛋白胆固醇水平无变化。Johnson等的研究也发现，在隔日断食法干预8周后，肥胖患者的BMI较基线值下降8%，而低密度脂蛋白胆固醇和甘油三酯分别下降10%和40%。2013年发表的一项基于115例肥胖女性的研究显示，干预3个月后，两日断食法的肥胖患者体重平均下降4kg，而传统能量限制的肥胖患者体重平均下降2.4kg，且前者胰岛素抵抗改善更明显。2014年一项关于2型糖尿病预防的Meta分析发现轻断食可有效减重及预防2型糖尿病，对超重和肥胖患者的血糖、胰岛素及低密度脂蛋白胆固醇、高密度脂蛋白胆固醇等代谢标记物均有改善。",
+          "start_idx": 0,
+          "end_idx": 558,
+          "entities": [
+            {
+              "entity_id": "T420",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 117,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T421",
+              "entity": "隔日断食法干预",
+              "entity_type": "Treatment",
+              "start_idx": 128,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T422",
+              "entity": "收缩压",
+              "entity_type": "Test",
+              "start_idx": 196,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T423",
+              "entity": "(124±5)mmHg(1mmHg=0.133kPa)",
+              "entity_type": "Test_Value",
+              "start_idx": 200,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T424",
+              "entity": "(116±3)mmHg",
+              "entity_type": "Test_Value",
+              "start_idx": 229,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T425",
+              "entity": "总胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 241,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T426",
+              "entity": "低密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 246,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T427",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 256,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T428",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 293,
+              "end_idx": 302
+            },
+            {
+              "entity_id": "T429",
+              "entity": "隔日断食法干预",
+              "entity_type": "Treatment",
+              "start_idx": 324,
+              "end_idx": 331
+            },
+            {
+              "entity_id": "T430",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 335,
+              "end_idx": 337
+            },
+            {
+              "entity_id": "T431",
+              "entity": "低密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 353,
+              "end_idx": 362
+            },
+            {
+              "entity_id": "T432",
+              "entity": "甘油三酯",
+              "entity_type": "Test_items",
+              "start_idx": 363,
+              "end_idx": 367
+            },
+            {
+              "entity_id": "T433",
+              "entity": "下降10%",
+              "entity_type": "Test_Value",
+              "start_idx": 369,
+              "end_idx": 374
+            },
+            {
+              "entity_id": "T434",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 395,
+              "end_idx": 397
+            },
+            {
+              "entity_id": "T435",
+              "entity": "两日断食法",
+              "entity_type": "Treatment",
+              "start_idx": 412,
+              "end_idx": 417
+            },
+            {
+              "entity_id": "T436",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 418,
+              "end_idx": 420
+            },
+            {
+              "entity_id": "T437",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 440,
+              "end_idx": 442
+            },
+            {
+              "entity_id": "T438",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 459,
+              "end_idx": 464
+            },
+            {
+              "entity_id": "T439",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 479,
+              "end_idx": 484
+            },
+            {
+              "entity_id": "T440",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 479,
+              "end_idx": 481
+            },
+            {
+              "entity_id": "T441",
+              "entity": "轻断食",
+              "entity_type": "Treatment",
+              "start_idx": 495,
+              "end_idx": 498
+            },
+            {
+              "entity_id": "T442",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 506,
+              "end_idx": 511
+            },
+            {
+              "entity_id": "T443",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 506,
+              "end_idx": 508
+            },
+            {
+              "entity_id": "T444",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 513,
+              "end_idx": 515
+            },
+            {
+              "entity_id": "T445",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 516,
+              "end_idx": 518
+            },
+            {
+              "entity_id": "T446",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 521,
+              "end_idx": 523
+            },
+            {
+              "entity_id": "T447",
+              "entity": "胰岛素",
+              "entity_type": "Test_items",
+              "start_idx": 524,
+              "end_idx": 527
+            },
+            {
+              "entity_id": "T448",
+              "entity": "低密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 528,
+              "end_idx": 537
+            },
+            {
+              "entity_id": "T449",
+              "entity": "高密度脂蛋白胆固醇",
+              "entity_type": "Test_items",
+              "start_idx": 538,
+              "end_idx": 547
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T429",
+              "tail_entity_id": "T430"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T431",
+              "tail_entity_id": "T430"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T432",
+              "tail_entity_id": "T430"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T435",
+              "tail_entity_id": "T436"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T438",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T440",
+              "tail_entity_id": "T439"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T441",
+              "tail_entity_id": "T442"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T443",
+              "tail_entity_id": "T442"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T446",
+              "tail_entity_id": "T444"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T447",
+              "tail_entity_id": "T444"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T448",
+              "tail_entity_id": "T444"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T449",
+              "tail_entity_id": "T444"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T446",
+              "tail_entity_id": "T445"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T447",
+              "tail_entity_id": "T445"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T448",
+              "tail_entity_id": "T445"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T449",
+              "tail_entity_id": "T445"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "112",
+      "paragraph": "对于合并代谢综合征的肥胖患者，临床证据中较为一致的将生活行为方式干预作为减重和改善代谢紊乱的基础治疗措施。同时，对于各种膳食模式的比较发现，在控制总能量摄入的前提下，它们的总体效果相似。需要指出的是，目前的研究样本量均不大，且干预时间较短(12~24周)，尚欠缺长时间干预的研究证据。2015年，澳大利亚启动了一项针对中老年(50~69岁)MS患者的大样本(500例)减重干预研究，旨在检验综合性行为、营养和心理干预的影响，或将在未来几年得出一些有指导意义的结论。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于合并代谢综合征的肥胖患者，临床证据中较为一致的将生活行为方式干预作为减重和改善代谢紊乱的基础治疗措施。同时，对于各种膳食模式的比较发现，在控制总能量摄入的前提下，它们的总体效果相似。需要指出的是，目前的研究样本量均不大，且干预时间较短(12~24周)，尚欠缺长时间干预的研究证据。",
+          "start_idx": 0,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T450",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T451",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T452",
+              "entity": "生活行为方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 26,
+              "end_idx": 34
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T452",
+              "tail_entity_id": "T450"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T452",
+              "tail_entity_id": "T451"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "2015年，澳大利亚启动了一项针对中老年(50~69岁)MS患者的大样本(500例)减重干预研究，旨在检验综合性行为、营养和心理干预的影响，或将在未来几年得出一些有指导意义的结论。",
+          "start_idx": 142,
+          "end_idx": 232,
+          "entities": [
+            {
+              "entity_id": "T453",
+              "entity": "营养和心理干预",
+              "entity_type": "Treatment",
+              "start_idx": 59,
+              "end_idx": 66
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "70",
+      "paragraph": "英国国家卫生与临床优化研究所(NICE)指南认为肥胖管理包括节食、运动、行为改变，且需要长期随访并推荐低脂、高纤维饮食，增加体力活动，避免久坐，规律监测体重和腰围变化。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "英国国家卫生与临床优化研究所(NICE)指南认为肥胖管理包括节食、运动、行为改变，且需要长期随访并推荐低脂、高纤维饮食，增加体力活动，避免久坐，规律监测体重和腰围变化。",
+          "start_idx": 0,
+          "end_idx": 84,
+          "entities": [
+            {
+              "entity_id": "T454",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T455",
+              "entity": "节食",
+              "entity_type": "Treatment",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T456",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T457",
+              "entity": "行为改变",
+              "entity_type": "Treatment",
+              "start_idx": 36,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T458",
+              "entity": "低脂",
+              "entity_type": "Treatment",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T459",
+              "entity": "高纤维饮食",
+              "entity_type": "Treatment",
+              "start_idx": 54,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T460",
+              "entity": "体力活动",
+              "entity_type": "Treatment",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T461",
+              "entity": "避免久坐",
+              "entity_type": "Treatment",
+              "start_idx": 67,
+              "end_idx": 71
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T455",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T456",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T457",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T458",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T459",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T460",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T461",
+              "tail_entity_id": "T454"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 84,
+          "end_idx": 85,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

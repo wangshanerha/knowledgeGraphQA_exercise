@@ -1,0 +1,4406 @@
+{
+  "doc_id": "32",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "中国慢性肾脏病患者合并高尿酸血症诊治专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国慢性肾脏病患者合并高尿酸血症诊治专家共识",
+          "start_idx": 0,
+          "end_idx": 22,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T1",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T2",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "前言",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "前言",
+          "start_idx": 0,
+          "end_idx": 2,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "慢性肾脏病(chronic kidney disease，CKD)已成为全球性重要公共卫生问题，中国流行病学研究显示，我国普通人群CKD的患病率为10.8%，中国南方地区普通人群为12.1%，农村地区为13.6%，高原地区藏族人群为19.1%，北方地区普通人群为16.9%。CKD持续进展至终末期肾病(end stage renal disease，ESRD)会严重影响患者的生存和生活质量。ESRD所需的医疗费用也对国家、社会和患者家庭造成巨大的经济负担。寻找可控的危险因素进而采取针对性措施对于延缓CKD的持续进展非常重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "慢性肾脏病(chronic kidney disease，CKD)已成为全球性重要公共卫生问题，中国流行病学研究显示，我国普通人群CKD的患病率为10.8%，中国南方地区普通人群为12.1%，农村地区为13.6%，高原地区藏族人群为19.1%，北方地区普通人群为16.9%。CKD持续进展至终末期肾病(end stage renal disease，ESRD)会严重影响患者的生存和生活质量。",
+          "start_idx": 0,
+          "end_idx": 196,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "慢性肾脏病(chronic kidney disease，CKD)",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T4",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T5",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 137,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T6",
+              "entity": "终末期肾病(end stage renal disease，ESRD)",
+              "entity_type": "Disease",
+              "start_idx": 145,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T9",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T10",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 148,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T11",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 145,
+              "end_idx": 148
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T9",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T6"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "ESRD所需的医疗费用也对国家、社会和患者家庭造成巨大的经济负担。",
+          "start_idx": 196,
+          "end_idx": 229,
+          "entities": [
+            {
+              "entity_id": "T7",
+              "entity": "ESRD",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "寻找可控的危险因素进而采取针对性措施对于延缓CKD的持续进展非常重要。",
+          "start_idx": 229,
+          "end_idx": 264,
+          "entities": [
+            {
+              "entity_id": "T8",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "我国CKD患者中的高尿酸血症(hyperuricemia，HUA)患病率为36.6%~50.0%，随CKD的进展其患病率明显升高。在IgA肾病患者队列中的研究显示，HUA是肾功能进展的独立危险因素，且该作用独立于患者的基线eGFR水平。维持性腹膜透析(腹透)患者的队列研究显示，血尿酸水平与腹透患者的全因死亡及心血管疾病(cardiovascular disease，CVD)死亡均独立相关。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "我国CKD患者中的高尿酸血症(hyperuricemia，HUA)患病率为36.6%~50.0%，随CKD的进展其患病率明显升高。在IgA肾病患者队列中的研究显示，HUA是肾功能进展的独立危险因素，且该作用独立于患者的基线eGFR水平。维持性腹膜透析(腹透)患者的队列研究显示，血尿酸水平与腹透患者的全因死亡及心血管疾病(cardiovascular disease，CVD)死亡均独立相关。",
+          "start_idx": 0,
+          "end_idx": 196,
+          "entities": [
+            {
+              "entity_id": "T12",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T13",
+              "entity": "高尿酸血症(hyperuricemia，HUA)",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T14",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T15",
+              "entity": "IgA肾病",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T16",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T17",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T18",
+              "entity": "维持性腹膜透析(腹透)",
+              "entity_type": "Treatment",
+              "start_idx": 118,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T19",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 139,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T20",
+              "entity": "腹透",
+              "entity_type": "Treatment",
+              "start_idx": 145,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T21",
+              "entity": "心血管疾病(cardiovascular disease，CVD)",
+              "entity_type": "Disease",
+              "start_idx": 155,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T22",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 155,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T23",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 69,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T23",
+              "tail_entity_id": "T15"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T17",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T19",
+              "tail_entity_id": "T21"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T22",
+              "tail_entity_id": "T21"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "然而，目前对于CKD患者中无症状HUA的治疗仍存在争议。我们需要基于目前已有的证据和经验，制定符合中国CKD患者实际情况的专家共识，指导临床医生关注和重视CKD患者HUA的诊断和治疗，并为将来制定临床指南提供基础。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "然而，目前对于CKD患者中无症状HUA的治疗仍存在争议。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T24",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T25",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "我们需要基于目前已有的证据和经验，制定符合中国CKD患者实际情况的专家共识，指导临床医生关注和重视CKD患者HUA的诊断和治疗，并为将来制定临床指南提供基础。",
+          "start_idx": 28,
+          "end_idx": 107,
+          "entities": [
+            {
+              "entity_id": "T26",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T27",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T28",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 57
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "证据来源",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "证据来源",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "1.证据来源：本共识以关键词检索当前关CKD合并HUA的相关研究证据，主要关键词包括：慢性肾脏病(chronic kidney disease)、高尿酸血症(hyperuricemia)、指南(guideline)、荟萃分析(met中国生物医学文献数据库(CBM)、中国期刊网全文数据库(CNKI)、万方数据资源系统和中文科技期刊全文数据库(VIP)。检索时间从建库至2016年8月底。同时检索医脉通、Uptodate、Dynamed补充指南和相关入研究，查看纳入研究的参考文献。若缺乏指南和系统评价证剧支持，则选用随机对照试验(RCT)，若RCT缺乏，则补充观察性研究和综述。见图1。a analysis)、系统评价(systemic review)、随机对照试验(randomized controlled trial)。检索数据库包括：Embase、Medline PubMed、循证医学数据库(包括CDSR DARE、CCTR及ACP Journal Club)、OVID平台数据库、Springer—Link、Elsevier ScienceDirect电子期刊、",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.证据来源：本共识以关键词检索当前关CKD合并HUA的相关研究证据，主要关键词包括：慢性肾脏病(chronic kidney disease)、高尿酸血症(hyperuricemia)、指南(guideline)、荟萃分析(met中国生物医学文献数据库(CBM)、中国期刊网全文数据库(CNKI)、万方数据资源系统和中文科技期刊全文数据库(VIP)。",
+          "start_idx": 0,
+          "end_idx": 176,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T30",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T31",
+              "entity": "慢性肾脏病(chronic kidney disease)",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T32",
+              "entity": "高尿酸血症(hyperuricemia)",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T33",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 45,
+              "end_idx": 47
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T33",
+              "tail_entity_id": "T31"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "检索时间从建库至2016年8月底。",
+          "start_idx": 176,
+          "end_idx": 193,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "同时检索医脉通、Uptodate、Dynamed补充指南和相关入研究，查看纳入研究的参考文献。",
+          "start_idx": 193,
+          "end_idx": 240,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "若缺乏指南和系统评价证剧支持，则选用随机对照试验(RCT)，若RCT缺乏，则补充观察性研究和综述。",
+          "start_idx": 240,
+          "end_idx": 289,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "见图1。",
+          "start_idx": 289,
+          "end_idx": 293,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "a analysis)、系统评价(systemic review)、随机对照试验(randomized controlled trial)。",
+          "start_idx": 293,
+          "end_idx": 363,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "6",
+          "sentence": "检索数据库包括：Embase、Medline PubMed、循证医学数据库(包括CDSR DARE、CCTR及ACP Journal Club)、OVID平台数据库、Springer—Link、Elsevier ScienceDirect电子期刊、",
+          "start_idx": 363,
+          "end_idx": 487,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "2.纳入、排除标准：纳入所有CKD合并HUA相关的研究，研究类型包括指南、系统评价、观察性研究、综述。部分研究作为支撑推荐意见的相关证据，部分研究作为提供参考的背景材料。未纳入非中、英文发表的研究和摘要。见图1。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.纳入、排除标准：纳入所有CKD合并HUA相关的研究，研究类型包括指南、系统评价、观察性研究、综述。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T34",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T35",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "部分研究作为支撑推荐意见的相关证据，部分研究作为提供参考的背景材料。",
+          "start_idx": 51,
+          "end_idx": 85,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "未纳入非中、英文发表的研究和摘要。",
+          "start_idx": 85,
+          "end_idx": 102,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "见图1。",
+          "start_idx": 102,
+          "end_idx": 106,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "3.方法学质量评价：对检索到的文献进行质量评价，其中对指南使用AGREE II工具，对系统评价使用AMSTAR工具，对RCT使用Cochrane Risk of Bias工具，对观察性研究使用对应的方法学质量评价工具。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.方法学质量评价：对检索到的文献进行质量评价，其中对指南使用AGREE II工具，对系统评价使用AMSTAR工具，对RCT使用Cochrane Risk of Bias工具，对观察性研究使用对应的方法学质量评价工具。",
+          "start_idx": 0,
+          "end_idx": 109,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "诊断标准和分型",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "诊断标准和分型",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "1.CKD的诊断标准和分期：CKD的诊断标准：①肾脏损伤(肾脏结构或功能异常)≥3个月，伴或不伴肾小球滤过率(GFR)下降，肾脏病理学检查异常或肾脏损伤(血、尿成分或影像学检查异常)；②GFR<60ml·min-1·1.73m2)-1达到或超过3个月，有或无肾脏损伤证据。CKD的分期参考改善全球肾脏病预后组织(The Kidney Disease：Improving Global Outcomes，KDIGO)的标准。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.CKD的诊断标准和分期：CKD的诊断标准：①肾脏损伤(肾脏结构或功能异常)≥3个月，伴或不伴肾小球滤过率(GFR)下降，肾脏病理学检查异常或肾脏损伤(血、尿成分或影像学检查异常)；②GFR<60ml·min-1·1.73m2)-1达到或超过3个月，有或无肾脏损伤证据。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T37",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T38",
+              "entity": "肾小球滤过率(GFR)",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T39",
+              "entity": "下降",
+              "entity_type": "Test_Value",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T40",
+              "entity": "肾脏病理学检查",
+              "entity_type": "Test",
+              "start_idx": 62,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T41",
+              "entity": "血、尿成分或影像学检查",
+              "entity_type": "Test",
+              "start_idx": 77,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T42",
+              "entity": "GFR",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T43",
+              "entity": "<60ml·min-1·1.73m2)-1",
+              "entity_type": "Test_Value",
+              "start_idx": 96,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T44",
+              "entity": "达到或超过3个月",
+              "entity_type": "Test_Value",
+              "start_idx": 117,
+              "end_idx": 125
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T36"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T36"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T36"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T38",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T37"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "CKD的分期参考改善全球肾脏病预后组织(The Kidney Disease：Improving Global Outcomes，KDIGO)的标准。",
+          "start_idx": 136,
+          "end_idx": 211,
+          "entities": [
+            {
+              "entity_id": "T45",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "2.HUA的诊断标准和分型：HUA的诊断标准：嘌呤饮食状态下，非同日2次空腹血尿酸(serum uric acid，SUA)水平，男性>420μmol/L，女性>357μmol/L；没有出现痛风或痛风石时为无症状HUA。HUA的分型诊断，是根据患者低嘌呤饮食5d后，留取24h尿检测尿尿酸水平的结果，分为3型，具体如下：(1)尿酸排泄不良型：尿酸排泄<0.48mg·kg-1·h-1，尿酸清除率<6.2ml/min；⑵尿酸生成过多型：尿酸排泄>0.51mg·kg-1·h-1，尿酸清除率≥6.2ml/min；(3)混合型：尿酸排泄>0.51mg·kg-1·h-1，尿酸清除率<6.2ml/min。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.HUA的诊断标准和分型：HUA的诊断标准：嘌呤饮食状态下，非同日2次空腹血尿酸(serum uric acid，SUA)水平，男性>420μmol/L，女性>357μmol/L；没有出现痛风或痛风石时为无症状HUA。HUA的分型诊断，是根据患者低嘌呤饮食5d后，留取24h尿检测尿尿酸水平的结果，分为3型，具体如下：(1)尿酸排泄不良型：尿酸排泄<0.48mg·kg-1·h-1，尿酸清除率<6.2ml/min；⑵尿酸生成过多型：尿酸排泄>0.51mg·kg-1·h-1，尿酸清除率≥6.2ml/min；(3)混合型：尿酸排泄>0.51mg·kg-1·h-1，尿酸清除率<6.2ml/min。",
+          "start_idx": 0,
+          "end_idx": 298,
+          "entities": [
+            {
+              "entity_id": "T46",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T47",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T48",
+              "entity": "男性>420μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 65,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T49",
+              "entity": "女性>357μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 78,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T50",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T51",
+              "entity": "痛风石",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T52",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T53",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 110,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T54",
+              "entity": "尿尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 141,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T55",
+              "entity": "尿酸排泄",
+              "entity_type": "Test_items",
+              "start_idx": 171,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T56",
+              "entity": "尿酸清除率",
+              "entity_type": "Test_items",
+              "start_idx": 192,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T57",
+              "entity": "尿酸排泄",
+              "entity_type": "Test_items",
+              "start_idx": 217,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T58",
+              "entity": "尿酸清除率",
+              "entity_type": "Test_items",
+              "start_idx": 238,
+              "end_idx": 243
+            },
+            {
+              "entity_id": "T59",
+              "entity": "尿酸排泄",
+              "entity_type": "Test_items",
+              "start_idx": 261,
+              "end_idx": 265
+            },
+            {
+              "entity_id": "T60",
+              "entity": "尿酸清除率",
+              "entity_type": "Test_items",
+              "start_idx": 282,
+              "end_idx": 287
+            },
+            {
+              "entity_id": "T61",
+              "entity": "<0.48mg·kg-1·h-1",
+              "entity_type": "Test_Value",
+              "start_idx": 175,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T62",
+              "entity": "<6.2ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 197,
+              "end_idx": 207
+            },
+            {
+              "entity_id": "T63",
+              "entity": ">0.51mg·kg-1·h-1",
+              "entity_type": "Test_Value",
+              "start_idx": 221,
+              "end_idx": 237
+            },
+            {
+              "entity_id": "T64",
+              "entity": "≥6.2ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 243,
+              "end_idx": 253
+            },
+            {
+              "entity_id": "T65",
+              "entity": ">0.51mg·kg-1·h-1",
+              "entity_type": "Test_Value",
+              "start_idx": 265,
+              "end_idx": 281
+            },
+            {
+              "entity_id": "T66",
+              "entity": "<6.2ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 287,
+              "end_idx": 297
+            },
+            {
+              "entity_id": "T67",
+              "entity": "空腹血尿酸(serum uric acid，SUA)",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 62
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T53"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "治疗",
+          "start_idx": 0,
+          "end_idx": 2,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "一、患者教育和规律随访监测",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、患者教育和规律随访监测",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "积极开展患者教育，提高患者防病、治病的意识，提高治疗依从性，对于伴有HUA的CKD患者的治疗至关重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "积极开展患者教育，提高患者防病、治病的意识，提高治疗依从性，对于伴有HUA的CKD患者的治疗至关重要。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T68",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T69",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "1.生活方式指导：对患者生活方式的指导应包括以下方面：健康饮食(详见表1)、坚持适度运动、限制体重和限制烟酒等。建议患者根据个人情况坚持适度运动(每天30min以上中等强度的锻炼，如散步、太极拳、瑜伽、阻力训练等有氧运动)。患者在运动中应避免剧烈运动及突然受凉。肥胖者应减体重，控制体重在正常范围。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.生活方式指导：对患者生活方式的指导应包括以下方面：健康饮食(详见表1)、坚持适度运动、限制体重和限制烟酒等。",
+          "start_idx": 0,
+          "end_idx": 56,
+          "entities": [
+            {
+              "entity_id": "T70",
+              "entity": "健康饮食",
+              "entity_type": "Treatment",
+              "start_idx": 27,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T71",
+              "entity": "坚持适度运动",
+              "entity_type": "Treatment",
+              "start_idx": 38,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T72",
+              "entity": "限制体重",
+              "entity_type": "Treatment",
+              "start_idx": 45,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T73",
+              "entity": "限制烟酒",
+              "entity_type": "Treatment",
+              "start_idx": 50,
+              "end_idx": 54
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "建议患者根据个人情况坚持适度运动(每天30min以上中等强度的锻炼，如散步、太极拳、瑜伽、阻力训练等有氧运动)。",
+          "start_idx": 56,
+          "end_idx": 112,
+          "entities": [
+            {
+              "entity_id": "T74",
+              "entity": "坚持适度运动(每天30min以上中等强度的锻炼，如散步、太极拳、瑜伽、阻力训练等有氧运动)",
+              "entity_type": "Treatment",
+              "start_idx": 10,
+              "end_idx": 55
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "患者在运动中应避免剧烈运动及突然受凉。",
+          "start_idx": 112,
+          "end_idx": 131,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "肥胖者应减体重，控制体重在正常范围。",
+          "start_idx": 131,
+          "end_idx": 149,
+          "entities": [
+            {
+              "entity_id": "T75",
+              "entity": "减体重",
+              "entity_type": "Treatment",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "2.规律随访监测：对伴有HUA的CKD患者，建议治疗前全面评估肾功能和合并症、并发症情况，并在治疗过程中向患者强调规律随访监测的重要性。建议患者在监测估算肾小球滤过率(eGFR)、尿蛋白水平的同时，至少每3~6个月检测1次血尿酸水平。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.规律随访监测：对伴有HUA的CKD患者，建议治疗前全面评估肾功能和合并症、并发症情况，并在治疗过程中向患者强调规律随访监测的重要性。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T76",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T77",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "建议患者在监测估算肾小球滤过率(eGFR)、尿蛋白水平的同时，至少每3~6个月检测1次血尿酸水平。",
+          "start_idx": 68,
+          "end_idx": 117,
+          "entities": [
+            {
+              "entity_id": "T78",
+              "entity": "肾小球滤过率(eGFR)",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T79",
+              "entity": "尿蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T80",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 46
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "二、饮食治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、饮食治疗",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "饮食治疗",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "1.健康饮食：饮食治疗在伴有HUA的CKD患者治疗中占有非常重要的地位，研究显示饮食治疗可以降低10%~18%的血尿酸水平或使血尿酸降低70~90μmol/L。推荐患者的饮食应以低嘌呤食物为主，具体建议详见表1。对于患者正在接受非透析治疗的CKD患者，应结合低蛋白饮食营养方案。避免高蛋白饮食、海鲜、动物内脏、大量乳制品的食用。避免啤酒、白酒，也应减少富含果糖的饮料摄入。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.健康饮食：饮食治疗在伴有HUA的CKD患者治疗中占有非常重要的地位，研究显示饮食治疗可以降低10%~18%的血尿酸水平或使血尿酸降低70~90μmol/L。推荐患者的饮食应以低嘌呤食物为主，具体建议详见表1。对于患者正在接受非透析治疗的CKD患者，应结合低蛋白饮食营养方案。",
+          "start_idx": 0,
+          "end_idx": 139,
+          "entities": [
+            {
+              "entity_id": "T82",
+              "entity": "健康饮食",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T83",
+              "entity": "饮食治疗",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T84",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T85",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T86",
+              "entity": "饮食治疗",
+              "entity_type": "Treatment",
+              "start_idx": 40,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T87",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T88",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T89",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T90",
+              "entity": "低蛋白饮食",
+              "entity_type": "Treatment",
+              "start_idx": 129,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T91",
+              "entity": "降低70~90μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 66,
+              "end_idx": 79
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T85"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T89"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "避免高蛋白饮食、海鲜、动物内脏、大量乳制品的食用。",
+          "start_idx": 139,
+          "end_idx": 164,
+          "entities": [
+            {
+              "entity_id": "T92",
+              "entity": "避免高蛋白饮食、海鲜、动物内脏、大量乳制品的食用",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "避免啤酒、白酒，也应减少富含果糖的饮料摄入。",
+          "start_idx": 164,
+          "end_idx": 186,
+          "entities": [
+            {
+              "entity_id": "T93",
+              "entity": "避免啤酒、白酒，也应减少富含果糖的饮料摄入",
+              "entity_type": "Treatment",
+              "start_idx": 0,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "2.多饮水：建议患者每日饮水量2000ml以上，可促进尿酸排泄并预防尿路结石。结合患者肾功能及血压情况，从患者尿量的角度，建议保证每日的尿量在1500ml以上，最好2000ml。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.多饮水：建议患者每日饮水量2000ml以上，可促进尿酸排泄并预防尿路结石。",
+          "start_idx": 0,
+          "end_idx": 39,
+          "entities": [
+            {
+              "entity_id": "T94",
+              "entity": "多饮水",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T95",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T96",
+              "entity": "尿路结石",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 38
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T96"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "结合患者肾功能及血压情况，从患者尿量的角度，建议保证每日的尿量在1500ml以上，最好2000ml。",
+          "start_idx": 39,
+          "end_idx": 89,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "3.适当碱化尿液：建议碱化尿液，尿pH在6.2~6.9范围间内最有利于尿酸盐结晶溶解和从尿液排出，但尿pH>7.0易形成草酸钙及其他类结石。因此，碱化尿液过程中要注意检测患者的尿pH值。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.适当碱化尿液：建议碱化尿液，尿pH在6.2~6.9范围间内最有利于尿酸盐结晶溶解和从尿液排出，但尿pH>7.0易形成草酸钙及其他类结石。",
+          "start_idx": 0,
+          "end_idx": 70,
+          "entities": [
+            {
+              "entity_id": "T97",
+              "entity": "尿pH",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T98",
+              "entity": "尿pH",
+              "entity_type": "Test_items",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T99",
+              "entity": ">7.0",
+              "entity_type": "Test_Value",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T101",
+              "entity": "6.2~6.9",
+              "entity_type": "Test_Value",
+              "start_idx": 20,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，碱化尿液过程中要注意检测患者的尿pH值。",
+          "start_idx": 70,
+          "end_idx": 93,
+          "entities": [
+            {
+              "entity_id": "T100",
+              "entity": "尿pH值",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "建议碱化尿液的方法：碳酸氢钠或枸橼酸合剂。碳酸氢钠(小苏打)口服：每次0.5~1g，每日3次。在CKD患者中碳酸氢钠可同时改善代谢性酸中毒，因此具有双重功效。但也需要注意钠负荷诱发患者充血性心力衰竭和水肿的可能。枸橼酸合剂口服时应注意监测CKD患者的血钾水平，避免发生高钾血症。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议碱化尿液的方法：碳酸氢钠或枸橼酸合剂。",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [
+            {
+              "entity_id": "T102",
+              "entity": "枸橼酸合剂",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T103",
+              "entity": "碳酸氢钠",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "碳酸氢钠(小苏打)口服：每次0.5~1g，每日3次。在CKD患者中碳酸氢钠可同时改善代谢性酸中毒，因此具有双重功效。但也需要注意钠负荷诱发患者充血性心力衰竭和水肿的可能。枸橼酸合剂口服时应注意监测CKD患者的血钾水平，避免发生高钾血症。",
+          "start_idx": 21,
+          "end_idx": 139,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "碳酸氢钠(小苏打)",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T105",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T106",
+              "entity": "每次0.5~1g",
+              "entity_type": "Amount",
+              "start_idx": 12,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T107",
+              "entity": "每日3次",
+              "entity_type": "Frequency",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T108",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T109",
+              "entity": "碳酸氢钠",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T110",
+              "entity": "充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T111",
+              "entity": "水肿",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T112",
+              "entity": "枸橼酸合剂",
+              "entity_type": "Drug",
+              "start_idx": 85,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T113",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T114",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T115",
+              "entity": "血钾",
+              "entity_type": "Test_items",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T116",
+              "entity": "高钾血症",
+              "entity_type": "ADE",
+              "start_idx": 113,
+              "end_idx": 117
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T104"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T104"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T107",
+              "tail_entity_id": "T104"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T108"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T112"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T112"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T114"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "三、药物治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、药物治疗",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "(一)急性痛风发作治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)急性痛风发作治疗",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "急性痛风",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "痛风关节炎急性发作期的治疗建议：及早(应在24h内)给予抗炎止痛治疗，推荐的用药包括：非甾体抗炎药(NSAIDs)、糖皮质激素和秋水仙碱。建议使用选择性环氧化酶2(COX-2)抑制剂，该药可针对性地抑制COX-2，减少对CKD患者胃肠道损伤的不良作用。研究显示，依托考昔治疗急性痛风疗效优于吲哚美辛、双氯芬酸、塞来昔布。但CKD患者在使用NSAIDs时应警惕引起急性肾损伤，更应充分水化，密切注意肾功能情况。NSAIDs不耐受或禁忌的患者可考虑用糖皮质激素(如泼尼松30~35mg/d，共3~5d)或秋水仙碱。秋水仙碱最好在症状出现的12~24h内开始使用，但其不能用于重度肾功能或肝功能损害的患者。急性期不宜积极降尿酸治疗，除非一直在服用降尿酸药物。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "痛风关节炎急性发作期的治疗建议：及早(应在24h内)给予抗炎止痛治疗，推荐的用药包括：非甾体抗炎药(NSAIDs)、糖皮质激素和秋水仙碱。建议使用选择性环氧化酶2(COX-2)抑制剂，该药可针对性地抑制COX-2，减少对CKD患者胃肠道损伤的不良作用。研究显示，依托考昔治疗急性痛风疗效优于吲哚美辛、双氯芬酸、塞来昔布。但CKD患者在使用NSAIDs时应警惕引起急性肾损伤，更应充分水化，密切注意肾功能情况。NSAIDs不耐受或禁忌的患者可考虑用糖皮质激素(如泼尼松30~35mg/d，共3~5d)或秋水仙碱。秋水仙碱最好在症状出现的12~24h内开始使用，但其不能用于重度肾功能或肝功能损害的患者。",
+          "start_idx": 0,
+          "end_idx": 300,
+          "entities": [
+            {
+              "entity_id": "T118",
+              "entity": "痛风关节炎",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T119",
+              "entity": "非甾体抗炎药(NSAIDs)",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T120",
+              "entity": "糖皮质激素",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T121",
+              "entity": "秋水仙碱",
+              "entity_type": "Drug",
+              "start_idx": 64,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T122",
+              "entity": "选择性环氧化酶2(COX-2)抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T123",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 110,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T124",
+              "entity": "依托考昔",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T125",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 139,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T126",
+              "entity": "吲哚美辛",
+              "entity_type": "Drug",
+              "start_idx": 145,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T127",
+              "entity": "双氯芬酸",
+              "entity_type": "Drug",
+              "start_idx": 150,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T128",
+              "entity": "塞来昔布",
+              "entity_type": "Drug",
+              "start_idx": 155,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T129",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 161,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T130",
+              "entity": "NSAIDs",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T131",
+              "entity": "急性肾损伤",
+              "entity_type": "ADE",
+              "start_idx": 181,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T132",
+              "entity": "NSAIDs",
+              "entity_type": "Drug",
+              "start_idx": 204,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T133",
+              "entity": "糖皮质激素",
+              "entity_type": "Drug",
+              "start_idx": 223,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T134",
+              "entity": "泼尼松",
+              "entity_type": "Drug",
+              "start_idx": 230,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T135",
+              "entity": "秋水仙碱",
+              "entity_type": "Drug",
+              "start_idx": 250,
+              "end_idx": 254
+            },
+            {
+              "entity_id": "T136",
+              "entity": "30~35mg/d",
+              "entity_type": "Amount",
+              "start_idx": 233,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T137",
+              "entity": "共3~5d",
+              "entity_type": "Duration",
+              "start_idx": 243,
+              "end_idx": 248
+            },
+            {
+              "entity_id": "T138",
+              "entity": "秋水仙碱",
+              "entity_type": "Drug",
+              "start_idx": 255,
+              "end_idx": 259
+            },
+            {
+              "entity_id": "T141",
+              "entity": "胃肠道损伤",
+              "entity_type": "ADE",
+              "start_idx": 115,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T142",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 285,
+              "end_idx": 287
+            },
+            {
+              "entity_id": "T143",
+              "entity": "肾功能或肝功能损害",
+              "entity_type": "Disease",
+              "start_idx": 287,
+              "end_idx": 296
+            },
+            {
+              "entity_id": "T144",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 287,
+              "end_idx": 288
+            },
+            {
+              "entity_id": "T145",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 291,
+              "end_idx": 292
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T130",
+              "tail_entity_id": "T129"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R49",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R50",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T144",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T143"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "急性期不宜积极降尿酸治疗，除非一直在服用降尿酸药物。",
+          "start_idx": 300,
+          "end_idx": 326,
+          "entities": [
+            {
+              "entity_id": "T139",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T140",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "CKD患者痛风急性发作时应特别重视水化和碱化尿液，并在上述治疗的同时辅以局部NSAIDs药物的使用，改善患者的症状，最大限度减少全身用药的毒副作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CKD患者痛风急性发作时应特别重视水化和碱化尿液，并在上述治疗的同时辅以局部NSAIDs药物的使用，改善患者的症状，最大限度减少全身用药的毒副作用。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T146",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T147",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T148",
+              "entity": "NSAIDs药物",
+              "entity_type": "Drug",
+              "start_idx": 38,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T149",
+              "entity": "水化和碱化尿液",
+              "entity_type": "Symptom",
+              "start_idx": 17,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T146"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            },
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T149",
+              "tail_entity_id": "T147"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "(二)降尿酸治疗",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)降尿酸治疗",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [
+            {
+              "entity_id": "T150",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "1.抑制尿酸生成药物：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.抑制尿酸生成药物：",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(1)别嘌醇：适应证：①慢性原发性或继发性痛风的治疗；②伴或不伴痛风症状的高尿酸血症的CKD患者；③反复发作性尿酸结石患者；④预防白血病、淋巴瘤或其他肿瘤在化疗或放疗后继发的组织内尿酸盐沉积、肾结石等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)别嘌醇：适应证：①慢性原发性或继发性痛风的治疗；②伴或不伴痛风症状的高尿酸血症的CKD患者；③反复发作性尿酸结石患者；④预防白血病、淋巴瘤或其他肿瘤在化疗或放疗后继发的组织内尿酸盐沉积、肾结石等。",
+          "start_idx": 0,
+          "end_idx": 101,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T152",
+              "entity": "继发性痛风",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T153",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T154",
+              "entity": "高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T155",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 43,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T156",
+              "entity": "尿酸结石",
+              "entity_type": "Disease",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T157",
+              "entity": "白血病",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T158",
+              "entity": "淋巴瘤",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T159",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T160",
+              "entity": "肾结石",
+              "entity_type": "Disease",
+              "start_idx": 96,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T161",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 96,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T162",
+              "entity": "化疗",
+              "entity_type": "Treatment",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T163",
+              "entity": "放疗",
+              "entity_type": "Treatment",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T164",
+              "entity": "尿酸盐沉积",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 95
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T152"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T159"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T159"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T161",
+              "tail_entity_id": "T160"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "用法及用量：从小剂量起始，逐渐加量。初始剂量：每次50~100mg，每日1~3次。2~3周后增至每日300mg，分2~3次服用。肾功能下降时，如eGFR<60ml/min时别嘌醇应减量，推荐剂量为50~100mg/d，eGFR<15ml/min时应禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "用法及用量：从小剂量起始，逐渐加量。",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "初始剂量：每次50~100mg，每日1~3次。2~3周后增至每日300mg，分2~3次服用。肾功能下降时，如eGFR<60ml/min时别嘌醇应减量，推荐剂量为50~100mg/d，eGFR<15ml/min时应禁用。",
+          "start_idx": 18,
+          "end_idx": 127,
+          "entities": [
+            {
+              "entity_id": "T165",
+              "entity": "每次50~100mg",
+              "entity_type": "Amount",
+              "start_idx": 5,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T166",
+              "entity": "每日300mg",
+              "entity_type": "Amount",
+              "start_idx": 30,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T167",
+              "entity": "分2~3次",
+              "entity_type": "Frequency",
+              "start_idx": 38,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T168",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T169",
+              "entity": "<60ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 58,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T170",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T171",
+              "entity": "50~100mg/d",
+              "entity_type": "Amount",
+              "start_idx": 80,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T172",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T173",
+              "entity": "<15ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 95,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T174",
+              "entity": "每日1~3次",
+              "entity_type": "Frequency",
+              "start_idx": 16,
+              "end_idx": 22
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "注意事项：①别嘌醇的严重不良反应与所用剂量相关，当使用最小有效剂量能够使血尿酸达标时，尽量不增加剂量。②控制急性痛风发作时，建议同时应用秋水仙碱或其他消炎药，尤其是在治疗的早期。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "注意事项：①别嘌醇的严重不良反应与所用剂量相关，当使用最小有效剂量能够使血尿酸达标时，尽量不增加剂量。②控制急性痛风发作时，建议同时应用秋水仙碱或其他消炎药，尤其是在治疗的早期。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T175",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T176",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T177",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T178",
+              "entity": "秋水仙碱",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 72
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T177"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "不良反应：包括胃肠道症状、皮疹、肝功能损害、骨髓抑制等，应密切监测。偶有发生严重的“别嘌醇超敏反应综合征”，应予以重视和积极处理。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "不良反应：包括胃肠道症状、皮疹、肝功能损害、骨髓抑制等，应密切监测。",
+          "start_idx": 0,
+          "end_idx": 34,
+          "entities": [
+            {
+              "entity_id": "T179",
+              "entity": "胃肠道症状",
+              "entity_type": "ADE",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T180",
+              "entity": "皮疹",
+              "entity_type": "ADE",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T181",
+              "entity": "肝功能损害",
+              "entity_type": "ADE",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T182",
+              "entity": "骨髓抑制",
+              "entity_type": "ADE",
+              "start_idx": 22,
+              "end_idx": 26
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "偶有发生严重的“别嘌醇超敏反应综合征”，应予以重视和积极处理。",
+          "start_idx": 34,
+          "end_idx": 65,
+          "entities": [
+            {
+              "entity_id": "T183",
+              "entity": "别嘌醇超敏反应综合征",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 18
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "禁忌证：对别嘌醇过敏、严重肝肾功能不全和明显血细胞低下者、孕妇、有可能怀孕妇女以及哺乳期妇女。禁用于正在接受硫唑嘌呤治疗的患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "禁忌证：对别嘌醇过敏、严重肝肾功能不全和明显血细胞低下者、孕妇、有可能怀孕妇女以及哺乳期妇女。",
+          "start_idx": 0,
+          "end_idx": 47,
+          "entities": [
+            {
+              "entity_id": "T184",
+              "entity": "肝肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T185",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T186",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 14,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T188",
+              "entity": "别嘌醇过敏",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T189",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T185",
+              "tail_entity_id": "T184"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T186",
+              "tail_entity_id": "T184"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "禁用于正在接受硫唑嘌呤治疗的患者。",
+          "start_idx": 47,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T187",
+              "entity": "硫唑嘌呤",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "密切监测别嘌醇的超敏反应。别嘌醇的超敏反应主要发生在最初使用的几个月内，最常见的是剥脱性皮炎。使用噻嗪类利尿剂及肾功能不全是发生超敏反应的危险因素。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "密切监测别嘌醇的超敏反应。别嘌醇的超敏反应主要发生在最初使用的几个月内，最常见的是剥脱性皮炎。使用噻嗪类利尿剂及肾功能不全是发生超敏反应的危险因素。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T190",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T191",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T192",
+              "entity": "剥脱性皮炎",
+              "entity_type": "ADE",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T193",
+              "entity": "噻嗪类利尿剂",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T194",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T195",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 56,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T196",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T197",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T198",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 64,
+              "end_idx": 68
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R64",
+              "head_entity_id": "T196",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R65",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R66",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R67",
+              "head_entity_id": "T198",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T194"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "对于特定人群(3期或3期以上CKD的朝鲜人、所有中国汉族和泰国人)，其HLA-B*5801等位基因频率较高，HLA-B*5801阳性个体发生严重别嘌醇超敏反应危险性极高。因此，HLA-B*5801阳性的患者忌用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于特定人群(3期或3期以上CKD的朝鲜人、所有中国汉族和泰国人)，其HLA-B*5801等位基因频率较高，HLA-B*5801阳性个体发生严重别嘌醇超敏反应危险性极高。",
+          "start_idx": 0,
+          "end_idx": 85,
+          "entities": [
+            {
+              "entity_id": "T199",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T200",
+              "entity": "HLA-B*5801",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T201",
+              "entity": "阳性",
+              "entity_type": "Test_Value",
+              "start_idx": 64,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T202",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T205",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 75,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T206",
+              "entity": "3期或3期以上",
+              "entity_type": "Class",
+              "start_idx": 7,
+              "end_idx": 14
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T202"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，HLA-B*5801阳性的患者忌用。",
+          "start_idx": 85,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T203",
+              "entity": "HLA-B*5801",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T204",
+              "entity": "阳性",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "(2)非布司他：适用于痛风患者HUA的长期治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)非布司他：适用于痛风患者HUA的长期治疗。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T207",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T208",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T209",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T208"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T209"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "用法及用量：①口服推荐剂量为40mg或80mg，每日1次。推荐起始剂量为40mg，每日1次。若2周后，血尿酸水平仍不低于360μmol/L，建议剂量增至80mg，每日1次。②给药时，无需考虑食物和抗酸剂的影响。③轻、中度肾功能不全(eGFR30~89ml/min)的患者无需调整剂量。④对于CKD4期及以上患者，已有多项研究示非布司他的有效性及安全性，建议起始剂量为20mg，每日1次。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "用法及用量：①口服推荐剂量为40mg或80mg，每日1次。",
+          "start_idx": 0,
+          "end_idx": 29,
+          "entities": [
+            {
+              "entity_id": "T210",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T211",
+              "entity": "40mg或80mg",
+              "entity_type": "Amount",
+              "start_idx": 14,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T212",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 24,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "推荐起始剂量为40mg，每日1次。若2周后，血尿酸水平仍不低于360μmol/L，建议剂量增至80mg，每日1次。②给药时，无需考虑食物和抗酸剂的影响。③轻、中度肾功能不全(eGFR30~89ml/min)的患者无需调整剂量。④对于CKD4期及以上患者，已有多项研究示非布司他的有效性及安全性，建议起始剂量为20mg，每日1次。",
+          "start_idx": 29,
+          "end_idx": 193,
+          "entities": [
+            {
+              "entity_id": "T213",
+              "entity": "起始剂量为40mg",
+              "entity_type": "Amount",
+              "start_idx": 2,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T214",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T215",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T216",
+              "entity": "不低于360μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 28,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T217",
+              "entity": "80mg",
+              "entity_type": "Amount",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T218",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T219",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 81,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T220",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 81,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T221",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 87,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T222",
+              "entity": "30~89ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 91,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T223",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 116,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T224",
+              "entity": "4期",
+              "entity_type": "Class",
+              "start_idx": 119,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T225",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T226",
+              "entity": "起始剂量为20mg",
+              "entity_type": "Amount",
+              "start_idx": 149,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T227",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 159,
+              "end_idx": 163
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T221",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T223"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T223"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R77",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R78",
+              "head_entity_id": "T226",
+              "tail_entity_id": "T225"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "不良反应：主要有肝功能异常、恶心、关节痛、皮疹。数项研究显示非布司他的不良反应发生率低于别嘌醇。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "不良反应：主要有肝功能异常、恶心、关节痛、皮疹。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "肝功能异常",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T229",
+              "entity": "恶心",
+              "entity_type": "ADE",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T230",
+              "entity": "关节痛",
+              "entity_type": "ADE",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T231",
+              "entity": "皮疹",
+              "entity_type": "ADE",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "数项研究显示非布司他的不良反应发生率低于别嘌醇。",
+          "start_idx": 24,
+          "end_idx": 48,
+          "entities": [
+            {
+              "entity_id": "T232",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T233",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 23
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "禁忌证：本品禁用于正在接受硫唑嘌呤、巯嘌呤治疗的患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "禁忌证：本品禁用于正在接受硫唑嘌呤、巯嘌呤治疗的患者。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [
+            {
+              "entity_id": "T234",
+              "entity": "硫唑嘌呤",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T235",
+              "entity": "巯嘌呤",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "注意事项：在服用非布司他的初期，可见痛风发作频率增加。源于血尿酸浓度降低，导致组织中沉积的尿酸盐动员。为预防治疗初期的痛风发作，建议同时服用非甾体类抗炎药或秋水仙碱。在非布司他治疗期间，若痛风发作，无需中止非布司他治疗。应根据患者的具体情况进行适当调整。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "注意事项：在服用非布司他的初期，可见痛风发作频率增加。源于血尿酸浓度降低，导致组织中沉积的尿酸盐动员。为预防治疗初期的痛风发作，建议同时服用非甾体类抗炎药或秋水仙碱。在非布司他治疗期间，若痛风发作，无需中止非布司他治疗。",
+          "start_idx": 0,
+          "end_idx": 110,
+          "entities": [
+            {
+              "entity_id": "T236",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T237",
+              "entity": "痛风发作频率增加",
+              "entity_type": "ADE",
+              "start_idx": 18,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T238",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T239",
+              "entity": "非甾体类抗炎药",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T240",
+              "entity": "秋水仙碱",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T241",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 84,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T242",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 94,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T243",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 103,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T244",
+              "entity": "血尿酸浓度",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T245",
+              "entity": "降低",
+              "entity_type": "Test_Value",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R79",
+              "head_entity_id": "T237",
+              "tail_entity_id": "T236"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T240",
+              "tail_entity_id": "T238"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T238"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T242"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "应根据患者的具体情况进行适当调整。",
+          "start_idx": 110,
+          "end_idx": 127,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "针对高尿酸血症不同治疗方法的有效性和安全性比较的研究分析显示，与其他药物相比，非布司他具有更好的疗效和安全性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "针对高尿酸血症不同治疗方法的有效性和安全性比较的研究分析显示，与其他药物相比，非布司他具有更好的疗效和安全性。",
+          "start_idx": 0,
+          "end_idx": 55,
+          "entities": [
+            {
+              "entity_id": "T246",
+              "entity": "高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T247",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 39,
+              "end_idx": 43
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T246"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "2.促进尿酸排泄药物：若使用促排尿酸药物(包括苯溴马隆、丙磺舒)降低患者血尿酸水平，在治疗开始前和治疗过程中，要特别注意多饮水和使用碱化尿液的药物。若患者24h尿尿酸的排出量已经增加(>3.54mmol)或有泌尿系尿酸结石则应禁用此类药物，在溃疡病或肾功能不全者慎用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.促进尿酸排泄药物：若使用促排尿酸药物(包括苯溴马隆、丙磺舒)降低患者血尿酸水平，在治疗开始前和治疗过程中，要特别注意多饮水和使用碱化尿液的药物。若患者24h尿尿酸的排出量已经增加(>3.54mmol)或有泌尿系尿酸结石则应禁用此类药物，在溃疡病或肾功能不全者慎用。",
+          "start_idx": 0,
+          "end_idx": 134,
+          "entities": [
+            {
+              "entity_id": "T248",
+              "entity": "苯溴马隆",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T249",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T250",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T251",
+              "entity": "多饮水",
+              "entity_type": "Treatment",
+              "start_idx": 60,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T252",
+              "entity": "24h尿尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 77,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T253",
+              "entity": "增加",
+              "entity_type": "Test_Value",
+              "start_idx": 89,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T254",
+              "entity": ">3.54mmol",
+              "entity_type": "Test_Value",
+              "start_idx": 92,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T255",
+              "entity": "泌尿系尿酸结石",
+              "entity_type": "Disease",
+              "start_idx": 104,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T256",
+              "entity": "溃疡病",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T257",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T258",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 125,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T259",
+              "entity": "泌尿系",
+              "entity_type": "Anatomy",
+              "start_idx": 104,
+              "end_idx": 107
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T259",
+              "tail_entity_id": "T255"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T258",
+              "tail_entity_id": "T257"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "(1)苯溴马隆：适用于原发性和继发性高尿酸血症。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)苯溴马隆：适用于原发性和继发性高尿酸血症。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T260",
+              "entity": "苯溴马隆",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T261",
+              "entity": "继发性高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T261"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "用法及用量：成人起始剂量为每次口服50mg，每日1次，早餐后服用。成人及14岁以上患者每日50~100mg。轻、中度肾功能不全患者(eGFR>60ml/min)无须调整剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "用法及用量：成人起始剂量为每次口服50mg，每日1次，早餐后服用。成人及14岁以上患者每日50~100mg。轻、中度肾功能不全患者(eGFR>60ml/min)无须调整剂量。",
+          "start_idx": 0,
+          "end_idx": 87,
+          "entities": [
+            {
+              "entity_id": "T262",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T263",
+              "entity": "50mg",
+              "entity_type": "Amount",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T264",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T265",
+              "entity": "每日50~100mg",
+              "entity_type": "Amount",
+              "start_idx": 43,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T266",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T267",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 58,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T268",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 66,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T269",
+              "entity": ">60ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 70,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T270",
+              "entity": "轻、中度",
+              "entity_type": "Level",
+              "start_idx": 54,
+              "end_idx": 58
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T268",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T266"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "不良反应：可能出现肝损、胃肠不适、腹泻、皮疹、阳痿等，但较为少见。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "不良反应：可能出现肝损、胃肠不适、腹泻、皮疹、阳痿等，但较为少见。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [
+            {
+              "entity_id": "T271",
+              "entity": "肝损",
+              "entity_type": "ADE",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T272",
+              "entity": "胃肠不适",
+              "entity_type": "ADE",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T273",
+              "entity": "腹泻",
+              "entity_type": "ADE",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T274",
+              "entity": "皮疹",
+              "entity_type": "ADE",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T275",
+              "entity": "阳痿",
+              "entity_type": "ADE",
+              "start_idx": 23,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "禁忌证：对本品中任何成分过敏者。严重肾功能损害者(eGFR<30ml/min)及有肾结石的患者，孕妇、有可能怀孕妇女以及哺乳期妇女。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "禁忌证：对本品中任何成分过敏者。",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "严重肾功能损害者(eGFR<30ml/min)及有肾结石的患者，孕妇、有可能怀孕妇女以及哺乳期妇女。",
+          "start_idx": 16,
+          "end_idx": 66,
+          "entities": [
+            {
+              "entity_id": "T276",
+              "entity": "肾功能损害",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T277",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 2,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T278",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T279",
+              "entity": "<30ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T280",
+              "entity": "肾结石",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T281",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 25,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T282",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T278",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T277",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T281",
+              "tail_entity_id": "T280"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "注意事项：①治疗期间需大量饮水以增加尿量(治疗初期饮水量不得少于1500~2000ml/d)，避免排泄尿酸过多而在泌尿系统形成尿酸结石；2监测肝肾功能；③开始用药期间，建议给予碳酸氢钠或枸橼酸合剂，使患者的pH控制在6.2~6.9。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "注意事项：①治疗期间需大量饮水以增加尿量(治疗初期饮水量不得少于1500~2000ml/d)，避免排泄尿酸过多而在泌尿系统形成尿酸结石；2监测肝肾功能；③开始用药期间，建议给予碳酸氢钠或枸橼酸合剂，使患者的pH控制在6.2~6.9。",
+          "start_idx": 0,
+          "end_idx": 116,
+          "entities": [
+            {
+              "entity_id": "T283",
+              "entity": "大量饮水",
+              "entity_type": "Treatment",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T284",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T285",
+              "entity": "尿酸结石",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T286",
+              "entity": "监测肝肾功能",
+              "entity_type": "Test",
+              "start_idx": 69,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T287",
+              "entity": "碳酸氢钠",
+              "entity_type": "Drug",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T288",
+              "entity": "枸橼酸合剂",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 98
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "48",
+      "paragraph": "(2)丙磺舒：促排降尿酸治疗中，可选择丙磺舒作为单药疗法促排尿酸。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)丙磺舒：促排降尿酸治疗中，可选择丙磺舒作为单药疗法促排尿酸。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [
+            {
+              "entity_id": "T289",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T290",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T291",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T292",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 32
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "49",
+      "paragraph": "用法及用量：成人起始剂量为每次口服0.25g，1日2次，1周后可增至每次0.5g，1日2次。根据临床表现及血和尿尿酸水平调整药物用量，原则上以最小有效量维持。丙磺舒的不良反应为肠胃不适、食欲下降、皮肤出疹，泌尿系尿酸结石等；当eGFR<30ml/min时无效，应避免使用。丙磺舒目前已较少临床使用，注意事项与苯溴马隆相似。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "用法及用量：成人起始剂量为每次口服0.25g，1日2次，1周后可增至每次0.5g，1日2次。根据临床表现及血和尿尿酸水平调整药物用量，原则上以最小有效量维持。丙磺舒的不良反应为肠胃不适、食欲下降、皮肤出疹，泌尿系尿酸结石等；当eGFR<30ml/min时无效，应避免使用。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T293",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T294",
+              "entity": "0.25g",
+              "entity_type": "Amount",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T295",
+              "entity": "1日2次",
+              "entity_type": "Frequency",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T296",
+              "entity": "每次0.5g",
+              "entity_type": "Amount",
+              "start_idx": 34,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T297",
+              "entity": "1日2次",
+              "entity_type": "Frequency",
+              "start_idx": 41,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T298",
+              "entity": "血和尿尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T299",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 79,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T300",
+              "entity": "肠胃不适",
+              "entity_type": "ADE",
+              "start_idx": 88,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T301",
+              "entity": "食欲下降",
+              "entity_type": "ADE",
+              "start_idx": 93,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T302",
+              "entity": "皮肤出疹",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T303",
+              "entity": "泌尿系尿酸结石",
+              "entity_type": "ADE",
+              "start_idx": 103,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T304",
+              "entity": "eGFR",
+              "entity_type": "Test_items",
+              "start_idx": 113,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T305",
+              "entity": "<30ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 117,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T308",
+              "entity": "1周",
+              "entity_type": "Duration",
+              "start_idx": 28,
+              "end_idx": 30
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R92",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R93",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R94",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R95",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T299"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "丙磺舒目前已较少临床使用，注意事项与苯溴马隆相似。",
+          "start_idx": 136,
+          "end_idx": 161,
+          "entities": [
+            {
+              "entity_id": "T306",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T307",
+              "entity": "苯溴马隆",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "50",
+      "paragraph": "3.兼有降尿酸作用的其他药物：氯沙坦不但能降血压，同时能促进尿酸排泄。高血压患者，可考虑使用氯沙坦，但单独使用的降尿酸作用较弱。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.兼有降尿酸作用的其他药物：氯沙坦不但能降血压，同时能促进尿酸排泄。高血压患者，可考虑使用氯沙坦，但单独使用的降尿酸作用较弱。",
+          "start_idx": 0,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T309",
+              "entity": "氯沙坦",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T310",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T311",
+              "entity": "氯沙坦",
+              "entity_type": "Drug",
+              "start_idx": 46,
+              "end_idx": 49
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T310"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "51",
+      "paragraph": "有研究显示，非诺贝特与他汀类药物(尤其是阿托伐他汀)具有促进尿酸排泄作用。伴有高脂血症的患者，可考虑使用非诺贝特或他汀类药物，但两者的降尿酸作用都较弱。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "有研究显示，非诺贝特与他汀类药物(尤其是阿托伐他汀)具有促进尿酸排泄作用。伴有高脂血症的患者，可考虑使用非诺贝特或他汀类药物，但两者的降尿酸作用都较弱。",
+          "start_idx": 0,
+          "end_idx": 76,
+          "entities": [
+            {
+              "entity_id": "T312",
+              "entity": "非诺贝特",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T313",
+              "entity": "他汀类药物",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T314",
+              "entity": "阿托伐他汀",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T315",
+              "entity": "高脂血症",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T316",
+              "entity": "非诺贝特",
+              "entity_type": "Drug",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T317",
+              "entity": "他汀类药物",
+              "entity_type": "Drug",
+              "start_idx": 57,
+              "end_idx": 62
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T316",
+              "tail_entity_id": "T315"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T315"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "52",
+      "paragraph": "4.降尿酸药物的使用推荐意见：CKD患者HUA建议治疗流程见图2，各期CKD患者HUA的推荐治疗方案见表2。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.降尿酸药物的使用推荐意见：CKD患者HUA建议治疗流程见图2，各期CKD患者HUA的推荐治疗方案见表2。",
+          "start_idx": 0,
+          "end_idx": 54,
+          "entities": [
+            {
+              "entity_id": "T318",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T319",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T320",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T321",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "53",
+      "paragraph": "(三)药物相互作用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(三)药物相互作用",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "54",
+      "paragraph": "在应用降尿酸药物治疗CKD患者HUA时，应注意各药物之间的相互作用，详见表3。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在应用降尿酸药物治疗CKD患者HUA时，应注意各药物之间的相互作用，详见表3。",
+          "start_idx": 0,
+          "end_idx": 39,
+          "entities": [
+            {
+              "entity_id": "T322",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T323",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "55",
+      "paragraph": "综上，HUA是CKD发生、发展和预后的危险因素。充分重视和积极干预HUA将有利于CKD患者的预后。在临床实践工作中，应参考指南共识，并根据患者的具体情况实施个体化治疗，提高疗效，减少和防范药物的不良反应，改善患者的长期预后。我们期待在该领域有更多大样本、长随访的RCT研究为将来的临床指南的制定提供更多循证医学依据。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "综上，HUA是CKD发生、发展和预后的危险因素。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T324",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T325",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "充分重视和积极干预HUA将有利于CKD患者的预后。",
+          "start_idx": 24,
+          "end_idx": 49,
+          "entities": [
+            {
+              "entity_id": "T326",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T327",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "在临床实践工作中，应参考指南共识，并根据患者的具体情况实施个体化治疗，提高疗效，减少和防范药物的不良反应，改善患者的长期预后。",
+          "start_idx": 49,
+          "end_idx": 112,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "我们期待在该领域有更多大样本、长随访的RCT研究为将来的临床指南的制定提供更多循证医学依据。",
+          "start_idx": 112,
+          "end_idx": 158,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "CKD患者HUA的降尿酸治疗，建议根据患者的伴随症状、合并症、并发症、肾功能情况和尿酸水平合理实施。对于伴有痛风的CKD患者，应在早期积极给予非药物治疗及降尿酸治疗。对于无症状的伴有HUA的CKD患者，男性血尿酸>420μmoI/L，女性血尿酸>360μmol/L，建议降尿酸治疗。降尿酸一线药物包括抑制尿酸生成药物(别嘌醇和非布司他)，促进尿酸排泄药物(苯溴马隆和丙磺舒)可为备选药物，治疗的血尿酸水平最低控制目标应<360μmol/L，在伴有严重痛风时建议控制目标<300μmol/L。不推荐长期维持血尿酸水平<180μmol/L。目前，对于无症状的伴有HUA的CKD患者，降尿酸的起始治疗阈值仍有争议，需要未来的进一步研究来确定。对于降尿酸治疗对肾脏的益处也需要更多高质、大样本的RCT来证实。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CKD患者HUA的降尿酸治疗，建议根据患者的伴随症状、合并症、并发症、肾功能情况和尿酸水平合理实施。对于伴有痛风的CKD患者，应在早期积极给予非药物治疗及降尿酸治疗。对于无症状的伴有HUA的CKD患者，男性血尿酸>420μmoI/L，女性血尿酸>360μmol/L，建议降尿酸治疗。降尿酸一线药物包括抑制尿酸生成药物(别嘌醇和非布司他)，促进尿酸排泄药物(苯溴马隆和丙磺舒)可为备选药物，治疗的血尿酸水平最低控制目标应<360μmol/L，在伴有严重痛风时建议控制目标<300μmol/L。不推荐长期维持血尿酸水平<180μmol/L。目前，对于无症状的伴有HUA的CKD患者，降尿酸的起始治疗阈值仍有争议，需要未来的进一步研究来确定。",
+          "start_idx": 0,
+          "end_idx": 318,
+          "entities": [
+            {
+              "entity_id": "T328",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T329",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T330",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T331",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 41,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T332",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T333",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T334",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T335",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T336",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T337",
+              "entity": "男性血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 101,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T338",
+              "entity": ">420μmoI/L",
+              "entity_type": "Test_Value",
+              "start_idx": 106,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T339",
+              "entity": "女性血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 117,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T340",
+              "entity": ">360μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 122,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T341",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 136,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T342",
+              "entity": "别嘌醇",
+              "entity_type": "Drug",
+              "start_idx": 159,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T343",
+              "entity": "非布司他",
+              "entity_type": "Drug",
+              "start_idx": 163,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T344",
+              "entity": "抑制尿酸生成药物",
+              "entity_type": "Drug",
+              "start_idx": 150,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T345",
+              "entity": "促进尿酸排泄药物",
+              "entity_type": "Drug",
+              "start_idx": 169,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T346",
+              "entity": "苯溴马隆",
+              "entity_type": "Drug",
+              "start_idx": 178,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T347",
+              "entity": "丙磺舒",
+              "entity_type": "Drug",
+              "start_idx": 183,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T348",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 197,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T349",
+              "entity": "<360μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 209,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T350",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 225,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T351",
+              "entity": "<300μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 234,
+              "end_idx": 244
+            },
+            {
+              "entity_id": "T352",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 252,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T353",
+              "entity": "<180μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 257,
+              "end_idx": 267
+            },
+            {
+              "entity_id": "T354",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 279,
+              "end_idx": 282
+            },
+            {
+              "entity_id": "T355",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 283,
+              "end_idx": 286
+            },
+            {
+              "entity_id": "T356",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 290,
+              "end_idx": 292
+            },
+            {
+              "entity_id": "T358",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 223,
+              "end_idx": 225
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T328"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T328"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T331",
+              "tail_entity_id": "T329"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T334",
+              "tail_entity_id": "T332"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T334",
+              "tail_entity_id": "T333"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T335"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T336"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T336"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T336"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T342",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T344",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T346",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T347",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T348",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T354"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T355"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "对于降尿酸治疗对肾脏的益处也需要更多高质、大样本的RCT来证实。",
+          "start_idx": 318,
+          "end_idx": 350,
+          "entities": [
+            {
+              "entity_id": "T357",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

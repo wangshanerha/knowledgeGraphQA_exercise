@@ -1,0 +1,3012 @@
+{
+  "doc_id": "26",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "格列喹酮临床应用中国专家共识(2017年版)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮临床应用中国专家共识(2017年版)",
+          "start_idx": 0,
+          "end_idx": 22,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "磺脲类胰岛素促泌剂是最早发现并使用最广泛的口服降糖药物，《中国2型糖尿病防治指南(2013)》推荐该类药物为中国2型糖尿病患者降糖治疗的一线备选用药。其中格列喹酮作为二代磺脲类促泌剂，具有良好的降糖作用及安全性，同时兼具肾脏保护作用，获得全球多个权威指南推荐。为进一步指导规范格列喹酮的临床应用，中国50余位知名内分泌代谢领域专家起草、讨论、制订了此专家共识。全文回顾了格列酮相关循证依据，并对药物安全性、有效性、使用人群及使用方法进行了总结和推荐，希望藉此为临床医生提供指导与帮助。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "磺脲类胰岛素促泌剂是最早发现并使用最广泛的口服降糖药物，《中国2型糖尿病防治指南(2013)》推荐该类药物为中国2型糖尿病患者降糖治疗的一线备选用药。",
+          "start_idx": 0,
+          "end_idx": 75,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "磺脲类胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T2",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T3",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T5",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T6",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 56,
+              "end_idx": 58
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R0",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T1"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T6",
+              "tail_entity_id": "T5"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "其中格列喹酮作为二代磺脲类促泌剂，具有良好的降糖作用及安全性，同时兼具肾脏保护作用，获得全球多个权威指南推荐。",
+          "start_idx": 75,
+          "end_idx": 130,
+          "entities": [
+            {
+              "entity_id": "T7",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T8",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "为进一步指导规范格列喹酮的临床应用，中国50余位知名内分泌代谢领域专家起草、讨论、制订了此专家共识。",
+          "start_idx": 130,
+          "end_idx": 180,
+          "entities": [
+            {
+              "entity_id": "T9",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "全文回顾了格列酮相关循证依据，并对药物安全性、有效性、使用人群及使用方法进行了总结和推荐，希望藉此为临床医生提供指导与帮助。",
+          "start_idx": 180,
+          "end_idx": 242,
+          "entities": [
+            {
+              "entity_id": "T10",
+              "entity": "格列酮",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "一、格列喹酮药代动力学及药理特点",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、格列喹酮药代动力学及药理特点",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T11",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "格列喹酮口服吸收迅速完全，血药浓度2~3h达峰值，平均半衰期1.5h，降糖持续时间为5~8h；其代谢途径95%经粪便排泄，仅5%经肾脏排泄；格列喹酮在肝脏中经羟基化被代谢为大量非活性代谢产物，该代谢过程在肝功能不全患者体内仍可进行，且长期应用亦不影响肝胆疾病患者的肝功能；由于代谢产物无活性，不易产生药物蓄积作用，具有很高的安全性。格列喹酮药代动力学不受血糖、年龄、肾功能的影响。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮口服吸收迅速完全，血药浓度2~3h达峰值，平均半衰期1.5h，降糖持续时间为5~8h；其代谢途径95%经粪便排泄，仅5%经肾脏排泄；格列喹酮在肝脏中经羟基化被代谢为大量非活性代谢产物，该代谢过程在肝功能不全患者体内仍可进行，且长期应用亦不影响肝胆疾病患者的肝功能；由于代谢产物无活性，不易产生药物蓄积作用，具有很高的安全性。",
+          "start_idx": 0,
+          "end_idx": 166,
+          "entities": [
+            {
+              "entity_id": "T12",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T13",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T14",
+              "entity": "血药浓度",
+              "entity_type": "Pathogenesis",
+              "start_idx": 13,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T15",
+              "entity": "5~8h",
+              "entity_type": "Duration",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T16",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T17",
+              "entity": "肝胆疾病",
+              "entity_type": "Disease",
+              "start_idx": 125,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T18",
+              "entity": "肝胆",
+              "entity_type": "Anatomy",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T20",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T21",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 102,
+              "end_idx": 103
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R4",
+              "head_entity_id": "T13",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R5",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T12"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "格列喹酮药代动力学不受血糖、年龄、肾功能的影响。",
+          "start_idx": 166,
+          "end_idx": 190,
+          "entities": [
+            {
+              "entity_id": "T19",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T22",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "格列喹酮通过与胰岛β细胞膜上磺脲受体结合促进胰岛素分泌，该结合作用短效可逆，避免了对细胞的持续刺激，降低了发生低血糖的风险。动物试验和床研究均证实，格列喹酮可有效控制餐后血糖(PPG)及血糖波动，促胰岛素分泌的达峰时间为30-~0min，在120~180min后逐渐下降，可见格列喹酮通过促进胰岛素早期时相分泌，较好地模拟生理胰岛素分泌模式，同时降糖作用维持时间适中，可避免下餐前低血糖。研究表明，格列喹酮还可有效改善β细胞功能障碍，改善胰岛素抵抗，增强胰岛素敏感性，其作用机制与增强PPAR靶基因的表达有关，另外，格列喹酮还可通过增加外周组织细胞上胰岛素受体的数目、促进肌细胞葡萄糖摄取等胰外作用协同降低血糖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮通过与胰岛β细胞膜上磺脲受体结合促进胰岛素分泌，该结合作用短效可逆，避免了对细胞的持续刺激，降低了发生低血糖的风险。动物试验和床研究均证实，格列喹酮可有效控制餐后血糖(PPG)及血糖波动，促胰岛素分泌的达峰时间为30-~0min，在120~180min后逐渐下降，可见格列喹酮通过促进胰岛素早期时相分泌，较好地模拟生理胰岛素分泌模式，同时降糖作用维持时间适中，可避免下餐前低血糖。",
+          "start_idx": 0,
+          "end_idx": 194,
+          "entities": [
+            {
+              "entity_id": "T23",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T24",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 55,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T25",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T26",
+              "entity": "餐后血糖(PPG)",
+              "entity_type": "Test_items",
+              "start_idx": 83,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T27",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T28",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T29",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T30",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 190,
+              "end_idx": 193
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R8",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T23"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R9",
+              "head_entity_id": "T30",
+              "tail_entity_id": "T29"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "研究表明，格列喹酮还可有效改善β细胞功能障碍，改善胰岛素抵抗，增强胰岛素敏感性，其作用机制与增强PPAR靶基因的表达有关，另外，格列喹酮还可通过增加外周组织细胞上胰岛素受体的数目、促进肌细胞葡萄糖摄取等胰外作用协同降低血糖。",
+          "start_idx": 194,
+          "end_idx": 306,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T32",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T33",
+              "entity": "β细胞功能障碍",
+              "entity_type": "Pathogenesis",
+              "start_idx": 15,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T34",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 64,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T35",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 109,
+              "end_idx": 111
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "格列酮可有效降低尿白蛋白排率泄，并能够抑制NF-κB及其下游炎症因子的激活，抑制糖基化终产物诱导的人肾系膜细胞RANTES的表达和分泌，从而减缓糖尿病肾病的发生发展.。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列酮可有效降低尿白蛋白排率泄，并能够抑制NF-κB及其下游炎症因子的激活，抑制糖基化终产物诱导的人肾系膜细胞RANTES的表达和分泌，从而减缓糖尿病肾病的发生发展.。",
+          "start_idx": 0,
+          "end_idx": 84,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "格列酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T37",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T38",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T39",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 75,
+              "end_idx": 76
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T39",
+              "tail_entity_id": "T38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "格列喹酮对胰岛β细胞具高度选择性，对心肌细胞、血管平滑肌细胞亲和力弱，因此安全性更高。动物研究显示，格列喹酮具有抗血小板聚集的活性，抗动脉粥样硬化，改善血脂指标，对体重无影响。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮对胰岛β细胞具高度选择性，对心肌细胞、血管平滑肌细胞亲和力弱，因此安全性更高。动物研究显示，格列喹酮具有抗血小板聚集的活性，抗动脉粥样硬化，改善血脂指标，对体重无影响。",
+          "start_idx": 0,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T40",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T41",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T42",
+              "entity": "血脂",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T43",
+              "entity": "动脉粥样硬化",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T44",
+              "entity": "动脉",
+              "entity_type": "Anatomy",
+              "start_idx": 67,
+              "end_idx": 69
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T41",
+              "tail_entity_id": "T43"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T42",
+              "tail_entity_id": "T43"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T43"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "二、格列喹酮临床有效性及安全性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、格列喹酮临床有效性及安全性",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T45",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "1.格列喹酮单药治疗降糖有效性及安全性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.格列喹酮单药治疗降糖有效性及安全性",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T46",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "我国一项使用格列哇喹4.5年的同回性分析结果显示：格列喹酮单药治疗2型糖尿病，HbA1c降幅1.31%，PPG降幅4.88mmol/L，空腹血糖(FPG)降3幅.88mmol/L。而格列喹酮早期的队列研究结果显示：服用格列哇喹的患者仅有0.13%发生轻度低血糖事件，无严重低血糖发生。可见格列喹酮单药治疗能够全面控制患者血糖，并具有良好的安全性和耐受性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "我国一项使用格列哇喹4.5年的同回性分析结果显示：格列喹酮单药治疗2型糖尿病，HbA1c降幅1.31%，PPG降幅4.88mmol/L，空腹血糖(FPG)降3幅.88mmol/L。而格列喹酮早期的队列研究结果显示：服用格列哇喹的患者仅有0.13%发生轻度低血糖事件，无严重低血糖发生。",
+          "start_idx": 0,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T47",
+              "entity": "格列哇喹",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T48",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T49",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T50",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T51",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T52",
+              "entity": "降幅1.31%",
+              "entity_type": "Test_Value",
+              "start_idx": 44,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T53",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T54",
+              "entity": "降幅4.88mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 55,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T55",
+              "entity": "空腹血糖(FPG)",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T56",
+              "entity": "降3幅.88mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 77,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T57",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 91,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T58",
+              "entity": "格列哇喹",
+              "entity_type": "Drug",
+              "start_idx": 109,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T59",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T60",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 136,
+              "end_idx": 139
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T50",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R19",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T58"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "可见格列喹酮单药治疗能够全面控制患者血糖，并具有良好的安全性和耐受性。",
+          "start_idx": 142,
+          "end_idx": 177,
+          "entities": [
+            {
+              "entity_id": "T61",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T62",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "国内一项涉及10家医疗机构、2型糖尿病患者的多中心、自身对照临床试验对格列哇喹的量效关系研究显示，2/3的患者使用30-~20mg/d，若血糖控制不佳可增加剂量，平均剂量为112mg/dl即使剂量增加至270mg/d也无更多低血糖反应发生。提示在一定剂量范围内，格列哇喹降糖作用呈剂量依赖性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "国内一项涉及10家医疗机构、2型糖尿病患者的多中心、自身对照临床试验对格列哇喹的量效关系研究显示，2/3的患者使用30-~20mg/d，若血糖控制不佳可增加剂量，平均剂量为112mg/dl即使剂量增加至270mg/d也无更多低血糖反应发生。",
+          "start_idx": 0,
+          "end_idx": 120,
+          "entities": [
+            {
+              "entity_id": "T63",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T64",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T65",
+              "entity": "格列哇喹",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T66",
+              "entity": "30-~20mg/d",
+              "entity_type": "Amount",
+              "start_idx": 57,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T67",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T68",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 71,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T69",
+              "entity": "112mg/dl",
+              "entity_type": "Amount",
+              "start_idx": 86,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T70",
+              "entity": "270mg/d",
+              "entity_type": "Amount",
+              "start_idx": 101,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T71",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 112,
+              "end_idx": 115
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R23",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R24",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R25",
+              "head_entity_id": "T70",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R26",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T65"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "提示在一定剂量范围内，格列哇喹降糖作用呈剂量依赖性。",
+          "start_idx": 120,
+          "end_idx": 146,
+          "entities": [
+            {
+              "entity_id": "T72",
+              "entity": "格列哇喹",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "2.格列喹酮联合治疗降糖有效性及安全性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.格列喹酮联合治疗降糖有效性及安全性",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T73",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "(1)格列喹酮与二甲双胍联合：一项多中心、随机、开放、平行分组对照研究显示：格列喹酮在单药和(或)联合治疗失败的2型糖尿病患者中与二甲双胍联合治疗14周后，平均HbA1c下降1.7%，HbA1c<6.5%及HbA1c<7.0%的达标率分别为25.71%及42.86%，均高于阿卡波糖联合二甲双胍组；格列喹酮组对PPG降低幅度达4.75mmol/L，是阿卡波糖组的2倍以上：对FPG降低度为1.0mmol/L。此外，格列喹酮组可改善胰岛素抵抗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)格列喹酮与二甲双胍联合：一项多中心、随机、开放、平行分组对照研究显示：格列喹酮在单药和(或)联合治疗失败的2型糖尿病患者中与二甲双胍联合治疗14周后，平均HbA1c下降1.7%，HbA1c<6.5%及HbA1c<7.0%的达标率分别为25.71%及42.86%，均高于阿卡波糖联合二甲双胍组；格列喹酮组对PPG降低幅度达4.75mmol/L，是阿卡波糖组的2倍以上：对FPG降低度为1.0mmol/L。",
+          "start_idx": 0,
+          "end_idx": 204,
+          "entities": [
+            {
+              "entity_id": "T74",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T75",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T76",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 38,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T77",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T78",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T79",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T80",
+              "entity": "14周后",
+              "entity_type": "Duration",
+              "start_idx": 73,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T81",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 80,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T82",
+              "entity": "下降1.7%",
+              "entity_type": "Test_Value",
+              "start_idx": 85,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T83",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T84",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 97,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T85",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 103,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T86",
+              "entity": "<7.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 108,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T87",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 137,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T88",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T89",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 149,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T90",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 155,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T91",
+              "entity": "降低幅度达4.75mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 158,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T92",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 175,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T93",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 187,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T94",
+              "entity": "降低度为1.0mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 190,
+              "end_idx": 203
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T75",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R29",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T76"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T79"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "此外，格列喹酮组可改善胰岛素抵抗。",
+          "start_idx": 204,
+          "end_idx": 221,
+          "entities": [
+            {
+              "entity_id": "T95",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T96",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 11,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "(2)格列喹酮与胰岛素联合：格列喹酮与中效胰岛素联合治疗降低患者HbA1c、PPG及FPG的效果优于预混胰岛素组(P<0.05)，同时不增加低血糖发生率。中效胰岛素可以明显改善空腹血糖，但对餐后血糖控制欠佳者，联合格列喹酮治疗可以很好地克服这一问题。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)格列喹酮与胰岛素联合：格列喹酮与中效胰岛素联合治疗降低患者HbA1c、PPG及FPG的效果优于预混胰岛素组(P<0.05)，同时不增加低血糖发生率。",
+          "start_idx": 0,
+          "end_idx": 77,
+          "entities": [
+            {
+              "entity_id": "T97",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T98",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T99",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T100",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T101",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T102",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T103",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T104",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T105",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 70,
+              "end_idx": 73
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "中效胰岛素可以明显改善空腹血糖，但对餐后血糖控制欠佳者，联合格列喹酮治疗可以很好地克服这一问题。",
+          "start_idx": 77,
+          "end_idx": 125,
+          "entities": [
+            {
+              "entity_id": "T106",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T107",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T108",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T109",
+              "entity": "控制欠佳",
+              "entity_type": "Test_Value",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T110",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 30,
+              "end_idx": 34
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "(4)格列喹酮与二肽基肽酶-Ⅳ抑制剂(DPP-4i)联合：格列喹酮与西格列汀联合治疗初诊2型糖尿病患者的研究结果显示：联合用药治疗后患者平均血糖FPG6.5mmol/L、PPG7.3mmol/L、HbA1c6.2%，降糖效果优于单用西格列汀(P<0.01)，无低血糖发生，且能够改善胰岛素抵抗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)格列喹酮与二肽基肽酶-Ⅳ抑制剂(DPP-4i)联合：格列喹酮与西格列汀联合治疗初诊2型糖尿病患者的研究结果显示：联合用药治疗后患者平均血糖FPG6.5mmol/L、PPG7.3mmol/L、HbA1c6.2%，降糖效果优于单用西格列汀(P<0.01)，无低血糖发生，且能够改善胰岛素抵抗。",
+          "start_idx": 0,
+          "end_idx": 147,
+          "entities": [
+            {
+              "entity_id": "T111",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T112",
+              "entity": "二肽基肽酶-Ⅳ抑制剂(DPP-4i)",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T113",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T114",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T115",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T116",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 44,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T117",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T118",
+              "entity": "6.5mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 75,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T119",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T120",
+              "entity": "7.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 88,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T121",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 98,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T122",
+              "entity": "6.2%",
+              "entity_type": "Test_Value",
+              "start_idx": 103,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T123",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T124",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 130,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T125",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 141,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T126",
+              "entity": "平均血糖",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 72
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T115"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "(5)格列喹酮与噻唑烷二酮类(TZDs)联合：格列喹酮等磺脲类药物与罗格列酮联合应用治疗2型糖尿病患者的研究结果显示，可有效降低HbA1c、PPG及FPG(P<0.05)，改善胰岛素抵抗及高胰岛素血症，且未监测到低血糖发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(5)格列喹酮与噻唑烷二酮类(TZDs)联合：格列喹酮等磺脲类药物与罗格列酮联合应用治疗2型糖尿病患者的研究结果显示，可有效降低HbA1c、PPG及FPG(P<0.05)，改善胰岛素抵抗及高胰岛素血症，且未监测到低血糖发生。",
+          "start_idx": 0,
+          "end_idx": 112,
+          "entities": [
+            {
+              "entity_id": "T127",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T128",
+              "entity": "噻唑烷二酮类(TZDs)",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T129",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T130",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T131",
+              "entity": "罗格列酮",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T132",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T133",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 44,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T134",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 64,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T135",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T136",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T137",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 88,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T138",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T139",
+              "entity": "高胰岛素血症",
+              "entity_type": "Disease",
+              "start_idx": 94,
+              "end_idx": 100
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T130",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "建议：对于应用基础胰岛素或其他口服降糖药不能有效控制血糖的患者，格列喹酮可与多种降糖药物联合使用，通过机制互补增加降糖作用，降低不良反应。一般不推荐与餐时胰岛素或其他促泌剂联用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议：对于应用基础胰岛素或其他口服降糖药不能有效控制血糖的患者，格列喹酮可与多种降糖药物联合使用，通过机制互补增加降糖作用，降低不良反应。",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T141",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T142",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T143",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "一般不推荐与餐时胰岛素或其他促泌剂联用。",
+          "start_idx": 69,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T144",
+              "entity": "餐时胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "三、格列喹酮应用于特殊人群",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、格列喹酮应用于特殊人群",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T145",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "1.老年患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.老年患者",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "对于格列喹酮治疗平均年龄60岁老年患者、近4年半的回顾性分析中，格列喹酮单药及联合治疗1年后，HbA1c下降1.7%，PPG下降6.38mmol/L，FPG下降4.45mmo/L(P<0.01)；另一项针对老年患者的研究显示格列喹酮在降糖的同时可有效改善尿蛋白排泄率(UAE)、β细胞功能指数(HOMA-β)(P<0.001)。以上两项研究的安全性分析显示格列喹酮长期应用低血糖发生人次较少且均为轻度低血糖，进食或调整药物剂量后好转，无低血糖昏迷。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于格列喹酮治疗平均年龄60岁老年患者、近4年半的回顾性分析中，格列喹酮单药及联合治疗1年后，HbA1c下降1.7%，PPG下降6.38mmol/L，FPG下降4.45mmo/L(P<0.01)；另一项针对老年患者的研究显示格列喹酮在降糖的同时可有效改善尿蛋白排泄率(UAE)、β细胞功能指数(HOMA-β)(P<0.001)。以上两项研究的安全性分析显示格列喹酮长期应用低血糖发生人次较少且均为轻度低血糖，进食或调整药物剂量后好转，无低血糖昏迷。",
+          "start_idx": 0,
+          "end_idx": 224,
+          "entities": [
+            {
+              "entity_id": "T146",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T147",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T148",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T149",
+              "entity": "下降1.7%",
+              "entity_type": "Test_Value",
+              "start_idx": 52,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T150",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T151",
+              "entity": "下降6.38mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 62,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T152",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 75,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T153",
+              "entity": "下降4.45mmo/L",
+              "entity_type": "Test_Value",
+              "start_idx": 78,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T154",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T155",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 178,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T156",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 186,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T157",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 198,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T158",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 200,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T159",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 218,
+              "end_idx": 221
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T155"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "建议：格列喹酮治疗老年2型糖尿病患者低血糖发生率较低，且调整剂量方便，推荐作为老年2型糖尿病患者磺脲类药物的优先选择之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议：格列喹酮治疗老年2型糖尿病患者低血糖发生率较低，且调整剂量方便，推荐作为老年2型糖尿病患者磺脲类药物的优先选择之一。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T160",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T161",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T162",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T163",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T164",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T165",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 41,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T166",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 53
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T161"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R50",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T160"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T161"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T164"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "2.慢性肾病(CKD)1~5期患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.慢性肾病(CKD)1~5期患者",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T167",
+              "entity": "慢性肾病(CKD)",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T168",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 5
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T167"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "老年男性2型糖尿病早期肾病患者[尿白蛋白/肌酐比值(ACR)≥30μg/mg，血肌酐(SCr)<177.8μmol/L]经格列喹酮治疗2个月后血糖各指标显著下降，研究结果显示不升高患者尿氮素(BUN)、SCr、ACR。甚至UAE明显降低，SCr水平呈下降趋势，内皮素(ET)、血栓因子2(TXB2)降低，一氧化氮(NO)浓度、前列腺素Flα(PGFlα)升高，意味着格列喹酮通过减少血小板聚集，改善肾血管收缩状态，纠正缺血和炎症，增加肾血流量，实现肾功能改善作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "老年男性2型糖尿病早期肾病患者[尿白蛋白/肌酐比值(ACR)≥30μg/mg，血肌酐(SCr)<177.8μmol/L]经格列喹酮治疗2个月后血糖各指标显著下降，研究结果显示不升高患者尿氮素(BUN)、SCr、ACR。",
+          "start_idx": 0,
+          "end_idx": 109,
+          "entities": [
+            {
+              "entity_id": "T169",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T170",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T171",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T172",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T173",
+              "entity": "尿白蛋白/肌酐比值(ACR)",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T174",
+              "entity": "≥30μg/mg",
+              "entity_type": "Test_Value",
+              "start_idx": 30,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T175",
+              "entity": "血肌酐(SCr)",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T176",
+              "entity": "<177.8μmol/L]",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T177",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T178",
+              "entity": "2个月后",
+              "entity_type": "Duration",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T179",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 71,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T180",
+              "entity": "下降",
+              "entity_type": "Test_Value",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T181",
+              "entity": "尿氮素(BUN)",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T182",
+              "entity": "SCr",
+              "entity_type": "Test_items",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T183",
+              "entity": "ACR",
+              "entity_type": "Test_items",
+              "start_idx": 105,
+              "end_idx": 108
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T175",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T171"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T177"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "甚至UAE明显降低，SCr水平呈下降趋势，内皮素(ET)、血栓因子2(TXB2)降低，一氧化氮(NO)浓度、前列腺素Flα(PGFlα)升高，意味着格列喹酮通过减少血小板聚集，改善肾血管收缩状态，纠正缺血和炎症，增加肾血流量，实现肾功能改善作用。",
+          "start_idx": 109,
+          "end_idx": 232,
+          "entities": [
+            {
+              "entity_id": "T184",
+              "entity": "SCr",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T185",
+              "entity": "下降",
+              "entity_type": "Test_Value",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T186",
+              "entity": "降低",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T187",
+              "entity": "UAE",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T188",
+              "entity": "内皮素(ET)",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T189",
+              "entity": "血栓因子2(TXB2)",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T190",
+              "entity": "降低",
+              "entity_type": "Test_Value",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T191",
+              "entity": "一氧化氮(NO)浓度",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T192",
+              "entity": "前列腺素Flα(PGFlα)",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T193",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T194",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 78
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "四、总结",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、总结",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "格列喹酮是具有肾脏保护作用的胰岛素促泌剂，降糖效果明确，低血糖风险低，不影响体重。单药治疗可全面降糖，亦可与其他非胰岛素促泌剂广泛联合，剂量调整方便，利于个体化治疗，价格合理。主要适用人群为2型糖尿病患者，包括：PPG升高为主的2型糖尿病患者、老年患者和CKD各期患者。由此，格列喹酮可作为中国2型糖尿病患者降糖治疗的一线用药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列喹酮是具有肾脏保护作用的胰岛素促泌剂，降糖效果明确，低血糖风险低，不影响体重。单药治疗可全面降糖，亦可与其他非胰岛素促泌剂广泛联合，剂量调整方便，利于个体化治疗，价格合理。主要适用人群为2型糖尿病患者，包括：PPG升高为主的2型糖尿病患者、老年患者和CKD各期患者。由此，格列喹酮可作为中国2型糖尿病患者降糖治疗的一线用药。",
+          "start_idx": 0,
+          "end_idx": 164,
+          "entities": [
+            {
+              "entity_id": "T195",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T196",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T197",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T198",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 57,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T199",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T200",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T201",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T202",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 109,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T203",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 114,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T204",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T205",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T206",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T207",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 147,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T208",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 147,
+              "end_idx": 149
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R61",
+              "head_entity_id": "T197",
+              "tail_entity_id": "T195"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T200",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T203"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T207"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T207"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "建议：2015年《2型糖尿病合并慢性肾脏病口服降糖药用药原则中国专家共识(2015)》建议格列喹酮在2型糖尿病合并CKD1~3b期(GFR≥30ml/min)患者中可用，GFR<60ml/min时只有格列喹酮是唯一无需调整剂量的口服磺脲类降糖药；2010年《美国综合临床肾脏病学》推荐格列喹酮在CKD~-5期全程均可使用；2015年欧洲肾脏最佳临床实践(European Renal Best Practice，ERBP)颁布了《糖尿病合并慢性肾脏病3b期或以上(DM-CKD3b~5)患者的诊疗指南》，建议格列喹酮用于CKD1~5期，全程均不需要剂量调整；格列喹酮可有效降低蛋白尿水平，延缓或逆转糖尿病肾病的进一步进展；格列喹酮在老年2型糖尿病合并肾病患者中降糖安全有效。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议：2015年《2型糖尿病合并慢性肾脏病口服降糖药用药原则中国专家共识(2015)》建议格列喹酮在2型糖尿病合并CKD1~3b期(GFR≥30ml/min)患者中可用，GFR<60ml/min时只有格列喹酮是唯一无需调整剂量的口服磺脲类降糖药；2010年《美国综合临床肾脏病学》推荐格列喹酮在CKD~-5期全程均可使用；2015年欧洲肾脏最佳临床实践(European Renal Best Practice，ERBP)颁布了《糖尿病合并慢性肾脏病3b期或以上(DM-CKD3b~5)患者的诊疗指南》，建议格列喹酮用于CKD1~5期，全程均不需要剂量调整；格列喹酮可有效降低蛋白尿水平，延缓或逆转糖尿病肾病的进一步进展；格列喹酮在老年2型糖尿病合并肾病患者中降糖安全有效。",
+          "start_idx": 0,
+          "end_idx": 337,
+          "entities": [
+            {
+              "entity_id": "T209",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T210",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T211",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T212",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T213",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T214",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 45,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T215",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T216",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T217",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T218",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 100,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T219",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T220",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T221",
+              "entity": "肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 135,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T222",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 135,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T223",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 142,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T224",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 147,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T225",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T226",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 220,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T227",
+              "entity": "DM",
+              "entity_type": "Disease",
+              "start_idx": 232,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T228",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 235,
+              "end_idx": 238
+            },
+            {
+              "entity_id": "T229",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 254,
+              "end_idx": 258
+            },
+            {
+              "entity_id": "T230",
+              "entity": "CKD",
+              "entity_type": "Disease",
+              "start_idx": 260,
+              "end_idx": 263
+            },
+            {
+              "entity_id": "T231",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 279,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T232",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 299,
+              "end_idx": 304
+            },
+            {
+              "entity_id": "T233",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 311,
+              "end_idx": 315
+            },
+            {
+              "entity_id": "T234",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 318,
+              "end_idx": 323
+            },
+            {
+              "entity_id": "T235",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 318,
+              "end_idx": 320
+            },
+            {
+              "entity_id": "T236",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 325,
+              "end_idx": 327
+            },
+            {
+              "entity_id": "T237",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 325,
+              "end_idx": 326
+            },
+            {
+              "entity_id": "T238",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 222,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T239",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 302,
+              "end_idx": 303
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T210",
+              "tail_entity_id": "T209"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T216",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T219",
+              "tail_entity_id": "T220"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T222",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T238",
+              "tail_entity_id": "T226"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T231",
+              "tail_entity_id": "T232"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T232"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T233",
+              "tail_entity_id": "T234"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T234"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T237",
+              "tail_entity_id": "T236"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "(3)格列喹酮与α-糖苷酶抑制剂联合：格列喹酮与阿卡波糖联合治疗老年2型糖尿病患者的研究结果显示：联合用药对PPG及FPG的降幅均大于单用阿卡波糖，同时由于药物剂量减少，胃肠道不适等不良反应发生率明显降低，且无一例出现低血糖反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)格列喹酮与α-糖苷酶抑制剂联合：格列喹酮与阿卡波糖联合治疗老年2型糖尿病患者的研究结果显示：联合用药对PPG及FPG的降幅均大于单用阿卡波糖，同时由于药物剂量减少，胃肠道不适等不良反应发生率明显降低，且无一例出现低血糖反应。",
+          "start_idx": 0,
+          "end_idx": 115,
+          "entities": [
+            {
+              "entity_id": "T240",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T241",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T242",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T243",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T244",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T245",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T246",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T247",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T248",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T249",
+              "entity": "胃肠道不适",
+              "entity_type": "ADE",
+              "start_idx": 85,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T250",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 109,
+              "end_idx": 112
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T242",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R80",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T242"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R82",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T244"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T244"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "建议：(1)格列喹酮对2型糖尿病患者各项血糖指标均有很好的控制作用，可作为2型糖尿病降糖选择的一线用药之一；对于主要以PPG升高为主的，或新发2型糖尿病患者，格列喹酮可作为磺脲类药物的优先选择。(2)格列喹酮临床处方剂量范围为15~180mg/d，根据长期临床使用经验，在综合考虑患者耐受程度及经济情况等条件的前提下，推荐使用格列喹酮单药治疗90mg/d(30mg，Tid)能够尽快使血糖达标；若患者控糖效果不理想，可综合考虑患者基本情况增加临床处方剂量，推荐最大剂量180mg/d(60mg，Tid)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "建议：(1)格列喹酮对2型糖尿病患者各项血糖指标均有很好的控制作用，可作为2型糖尿病降糖选择的一线用药之一；对于主要以PPG升高为主的，或新发2型糖尿病患者，格列喹酮可作为磺脲类药物的优先选择。(2)格列喹酮临床处方剂量范围为15~180mg/d，根据长期临床使用经验，在综合考虑患者耐受程度及经济情况等条件的前提下，推荐使用格列喹酮单药治疗90mg/d(30mg，Tid)能够尽快使血糖达标；若患者控糖效果不理想，可综合考虑患者基本情况增加临床处方剂量，推荐最大剂量180mg/d(60mg，Tid)。",
+          "start_idx": 0,
+          "end_idx": 252,
+          "entities": [
+            {
+              "entity_id": "T251",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T252",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T253",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T254",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T255",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T256",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T257",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T258",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 62,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T259",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T260",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 71,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T261",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 79,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T262",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T263",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 100,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T264",
+              "entity": "15~180mg/d",
+              "entity_type": "Amount",
+              "start_idx": 113,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T265",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 163,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T266",
+              "entity": "90mg/d(30mg，Tid)",
+              "entity_type": "Amount",
+              "start_idx": 171,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T267",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 192,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T268",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 194,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T269",
+              "entity": "180mg/d(60mg，Tid)",
+              "entity_type": "Amount",
+              "start_idx": 234,
+              "end_idx": 251
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T251",
+              "tail_entity_id": "T252"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T253",
+              "tail_entity_id": "T252"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T254",
+              "tail_entity_id": "T252"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T255"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T261",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T262",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R94",
+              "head_entity_id": "T264",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R95",
+              "head_entity_id": "T266",
+              "tail_entity_id": "T265"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R96",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T265"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

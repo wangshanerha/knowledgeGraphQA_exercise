@@ -1,0 +1,2642 @@
+{
+  "doc_id": "38",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "《中国高尿酸血症相关疾病诊疗多学科专家共识》解读",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "《中国高尿酸血症相关疾病诊疗多学科专家共识》解读",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "高尿酸血症(HUA)的流行总体呈现逐年升高的趋势，常与高血压、高脂血症、2型糖尿病、肥胖、胰岛素抵抗等传统的代谢性心血管危险因素伴发，因此长期以来HUA仅仅被认为是代谢异常的一种标志。但近年来多个前瞻性大规模临床结果显示，HUA是心血管疾病、糖尿病的独立危险因素，也是全因死亡、总心血管事件和缺血性卒中的独立危险因素。HUA可增加糖尿病肾病的风险，是急慢性肾衰竭的强有力的预测因素。在此背景下，风湿免疫、肾脏、内分泌代谢、心血管、神经、泌尿和中医科等学科专家组成的HUA相关疾病诊疗多学科共识专家组，经过充分讨论制定出《中国高尿酸血症相关疾病诊疗多学科专家共识》，并于发布在《中华内科杂志》2017年第3期上，该专家共识旨在推动多学科协作，指导和规范HUA相关疾病的临床实践。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "高尿酸血症(HUA)的流行总体呈现逐年升高的趋势，常与高血压、高脂血症、2型糖尿病、肥胖、胰岛素抵抗等传统的代谢性心血管危险因素伴发，因此长期以来HUA仅仅被认为是代谢异常的一种标志。但近年来多个前瞻性大规模临床结果显示，HUA是心血管疾病、糖尿病的独立危险因素，也是全因死亡、总心血管事件和缺血性卒中的独立危险因素。HUA可增加糖尿病肾病的风险，是急慢性肾衰竭的强有力的预测因素。",
+          "start_idx": 0,
+          "end_idx": 191,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "高尿酸血症(HUA)",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T2",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T3",
+              "entity": "高脂血症",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T5",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 36,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T6",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T7",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T8",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T9",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 111,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T10",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 115,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T11",
+              "entity": "缺血性卒中",
+              "entity_type": "Disease",
+              "start_idx": 146,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T12",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 159,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T13",
+              "entity": "急慢性肾衰竭",
+              "entity_type": "Disease",
+              "start_idx": 175,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T17",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 178,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T18",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 168,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T19",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T20",
+              "entity": "高尿酸血症(HUA)",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T21",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T22",
+              "entity": "糖尿病肾病",
+              "entity_type": "Disease",
+              "start_idx": 165,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T23",
+              "entity": "全因死亡",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T24",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 140,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T25",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 140,
+              "end_idx": 143
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T5",
+              "tail_entity_id": "T4"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T10"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T17",
+              "tail_entity_id": "T13"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T22"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T24"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在此背景下，风湿免疫、肾脏、内分泌代谢、心血管、神经、泌尿和中医科等学科专家组成的HUA相关疾病诊疗多学科共识专家组，经过充分讨论制定出《中国高尿酸血症相关疾病诊疗多学科专家共识》，并于发布在《中华内科杂志》2017年第3期上，该专家共识旨在推动多学科协作，指导和规范HUA相关疾病的临床实践。",
+          "start_idx": 191,
+          "end_idx": 338,
+          "entities": [
+            {
+              "entity_id": "T14",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T15",
+              "entity": "高尿酸血症",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T16",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 137
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "HUA的定义",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA的定义",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [
+            {
+              "entity_id": "T26",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "HUA的流行病学特征",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA的流行病学特征",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T27",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "血尿酸水平受年龄、性别、种族、遗传、饮食习惯、药物、环境等多种因素影响，我国目前尚缺乏全国范围的HUA流行病学调查资料。来自不同时间、地区的资料显示，目前我国HUA呈现高流行、年轻化、男性高于女性、沿海高于内陆的流行趋势，原因可能与人群饮食结构、平均寿命的延长和医疗保健水平的不断提高有关。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血尿酸水平受年龄、性别、种族、遗传、饮食习惯、药物、环境等多种因素影响，我国目前尚缺乏全国范围的HUA流行病学调查资料。来自不同时间、地区的资料显示，目前我国HUA呈现高流行、年轻化、男性高于女性、沿海高于内陆的流行趋势，原因可能与人群饮食结构、平均寿命的延长和医疗保健水平的不断提高有关。",
+          "start_idx": 0,
+          "end_idx": 145,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T29",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T30",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 79,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T31",
+              "entity": "人群饮食结构",
+              "entity_type": "Reason",
+              "start_idx": 116,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T32",
+              "entity": "平均寿命的延长",
+              "entity_type": "Reason",
+              "start_idx": 123,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T33",
+              "entity": "医疗保健水平的不断提高",
+              "entity_type": "Reason",
+              "start_idx": 131,
+              "end_idx": 142
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T28",
+              "tail_entity_id": "T29"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T31",
+              "tail_entity_id": "T30"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T32",
+              "tail_entity_id": "T30"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T33",
+              "tail_entity_id": "T30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "HUA及痛风的诊断",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA及痛风的诊断",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T34",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T35",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "共识明确提出，正常饮食下，非同日两次空腹血尿酸水平>420μmol/L即可诊断为HUA。同时指出，年龄<25岁、具有痛风家族史的HUA患者需排查遗传性嘌呤代谢异常疾病。关于痛风的诊断既往多采用1977年美国风湿病学会(ACR)痛风分类标准。近年来，关节B超检查和双能CT检查逐渐普及，共识建议采用2015年ACR/欧洲抗风湿病联盟(EULAR)提出的ACR/EULAR痛风分类标准，新标准不仅可用于痛风急性发作期的诊断分类，同时也可应用于间歇期痛风患者的分类，能够真正有效地将痛风从其他疾病中区分出来，从而更好地进行临床研究和药物临床试验。新的标准将影像学诊断纳入评分体系中，体现了对新的影像技术的肯定，但由于关节超声检查易受操作者技术水平影响，超声及双能CT的迅速推广也给痛风的诊断带来新的挑战。因此，规范、可靠的影像学诊断十分必要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识明确提出，正常饮食下，非同日两次空腹血尿酸水平>420μmol/L即可诊断为HUA。同时指出，年龄<25岁、具有痛风家族史的HUA患者需排查遗传性嘌呤代谢异常疾病。关于痛风的诊断既往多采用1977年美国风湿病学会(ACR)痛风分类标准。近年来，关节B超检查和双能CT检查逐渐普及，共识建议采用2015年ACR/欧洲抗风湿病联盟(EULAR)提出的ACR/EULAR痛风分类标准，新标准不仅可用于痛风急性发作期的诊断分类，同时也可应用于间歇期痛风患者的分类，能够真正有效地将痛风从其他疾病中区分出来，从而更好地进行临床研究和药物临床试验。新的标准将影像学诊断纳入评分体系中，体现了对新的影像技术的肯定，但由于关节超声检查易受操作者技术水平影响，超声及双能CT的迅速推广也给痛风的诊断带来新的挑战。",
+          "start_idx": 0,
+          "end_idx": 349,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "空腹血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T37",
+              "entity": ">420μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 25,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T38",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T39",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T40",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T41",
+              "entity": "遗传性嘌呤代谢异常",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T42",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T43",
+              "entity": "风湿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T44",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T45",
+              "entity": "B超",
+              "entity_type": "Test",
+              "start_idx": 126,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T46",
+              "entity": "风湿病",
+              "entity_type": "Disease",
+              "start_idx": 160,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T47",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 184,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T48",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 199,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T49",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 222,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T50",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 238,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T51",
+              "entity": "关节超声",
+              "entity_type": "Test",
+              "start_idx": 305,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T52",
+              "entity": "超声",
+              "entity_type": "Test",
+              "start_idx": 323,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T53",
+              "entity": "双能CT",
+              "entity_type": "Test",
+              "start_idx": 326,
+              "end_idx": 330
+            },
+            {
+              "entity_id": "T54",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 337,
+              "end_idx": 339
+            },
+            {
+              "entity_id": "T55",
+              "entity": "双能CT",
+              "entity_type": "Test",
+              "start_idx": 131,
+              "end_idx": 135
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T38"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T45",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T54"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T54"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T53",
+              "tail_entity_id": "T54"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，规范、可靠的影像学诊断十分必要。",
+          "start_idx": 349,
+          "end_idx": 368,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "HUA的危害性",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA的危害性",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [
+            {
+              "entity_id": "T56",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "尿酸来源部分由人体摄入，部分由体内分解代谢的嘌呤化合物在肝脏中产生，三分之二通过肾脏排泄，其余由消化道、皮肤汗腺等排泄。正常情况下，体内尿酸产生和排泄保持动态平衡，凡导致尿酸生成过多和/或排泄减少的因素均可导致HUA。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "尿酸来源部分由人体摄入，部分由体内分解代谢的嘌呤化合物在肝脏中产生，三分之二通过肾脏排泄，其余由消化道、皮肤汗腺等排泄。正常情况下，体内尿酸产生和排泄保持动态平衡，凡导致尿酸生成过多和/或排泄减少的因素均可导致HUA。",
+          "start_idx": 0,
+          "end_idx": 109,
+          "entities": [
+            {
+              "entity_id": "T57",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T58",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T59",
+              "entity": "尿酸生成过多",
+              "entity_type": "Reason",
+              "start_idx": 85,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T60",
+              "entity": "排泄减少",
+              "entity_type": "Reason",
+              "start_idx": 94,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T61",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 108
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T61"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T59",
+              "tail_entity_id": "T61"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "HUA的危害性越来越受到重视。当血尿酸超过饱和浓度，尿酸盐晶体析出可直接黏附、沉积于关节及周围软组织、肾小管和血管等部位，趋化中性粒细胞和巨噬细胞；细胞与晶体相互作用后释放致炎因子、金属蛋白酶9、水解酶等，导致关节软骨、骨质、肾脏以及血管内膜等急慢性炎症损伤，故普遍认为HUA是多种心血管危险因素及相关疾病(代谢综合征、2型糖尿病、高血压、心血管事件及死亡、慢性肾病等)的独立危险因素。共识明确指出，HUA是痛风发生的最重要生化基础和最直接的病因，痛风性关节炎患者首先遵循HUA管理原则。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA的危害性越来越受到重视。当血尿酸超过饱和浓度，尿酸盐晶体析出可直接黏附、沉积于关节及周围软组织、肾小管和血管等部位，趋化中性粒细胞和巨噬细胞；细胞与晶体相互作用后释放致炎因子、金属蛋白酶9、水解酶等，导致关节软骨、骨质、肾脏以及血管内膜等急慢性炎症损伤，故普遍认为HUA是多种心血管危险因素及相关疾病(代谢综合征、2型糖尿病、高血压、心血管事件及死亡、慢性肾病等)的独立危险因素。共识明确指出，HUA是痛风发生的最重要生化基础和最直接的病因，痛风性关节炎患者首先遵循HUA管理原则。",
+          "start_idx": 0,
+          "end_idx": 244,
+          "entities": [
+            {
+              "entity_id": "T62",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T64",
+              "entity": "致炎因子",
+              "entity_type": "Reason",
+              "start_idx": 86,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T65",
+              "entity": "金属蛋白酶9",
+              "entity_type": "Reason",
+              "start_idx": 91,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T66",
+              "entity": "水解酶",
+              "entity_type": "Reason",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T67",
+              "entity": "关节软骨、骨质、肾脏以及血管内膜等急慢性炎症损伤",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T68",
+              "entity": "关节软骨",
+              "entity_type": "Anatomy",
+              "start_idx": 105,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T69",
+              "entity": "骨质",
+              "entity_type": "Anatomy",
+              "start_idx": 110,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T70",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T71",
+              "entity": "血管内膜",
+              "entity_type": "Anatomy",
+              "start_idx": 117,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T72",
+              "entity": "HUA",
+              "entity_type": "Reason",
+              "start_idx": 135,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T73",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 154,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T74",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 160,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T75",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 160,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T76",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 166,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T77",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 170,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T78",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 170,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T79",
+              "entity": "慢性肾病",
+              "entity_type": "Disease",
+              "start_idx": 179,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T80",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 181,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T81",
+              "entity": "HUA",
+              "entity_type": "Reason",
+              "start_idx": 200,
+              "end_idx": 203
+            },
+            {
+              "entity_id": "T82",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 204,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T83",
+              "entity": "痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 224,
+              "end_idx": 230
+            },
+            {
+              "entity_id": "T84",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 236,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T85",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 227,
+              "end_idx": 229
+            },
+            {
+              "entity_id": "T86",
+              "entity": "超过饱和浓度",
+              "entity_type": "Test_Value",
+              "start_idx": 19,
+              "end_idx": 25
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T70",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T73"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T74"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T76"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T79"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T75",
+              "tail_entity_id": "T74"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T77"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T82"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T83"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "HUA和痛风的多学科联合诊治",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA和痛风的多学科联合诊治",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T87",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T88",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "本共识特别强调在HUA以及痛风患者治疗过程中必须做到多学科联合治疗。(1)应关注高危人群：高龄男性、肥胖、一级亲属中有痛风史者、患有心血管疾病、肾脏疾病人群，应定期监测血清血尿酸(SUA)浓度。同时尽量避免各种危险因素因素；饮食因素、其他疾病治疗过程中的药物因素如小剂量阿司匹林、利尿剂，环孢素A、麦考酚酯、吡嗪酰胺、乙胺丁醇均可抑制尿酸在肾小管的排泄导致HUA。同时在高危人群中强调非药物治疗，包括正确生活方式指导。共时指出，健康饮食、戒烟限酒、坚持运动和控制体质量、大量饮水适当碱化尿液等生活方式改变可预防HUA，这些需要专科医师体验中心、营养师、慢病管理团队等多学科联合进行。(2)确诊的HUA或痛风患者应积极筛查并发症或合并症，及时制定多学科联合治疗方案：肾病患者须避免使用损害肾脏药物并定期监测肾功能；肾石症患者须碱化尿液，必要时给予溶石或手术治疗；合并高血糖、血脂紊乱、高血压者须同时积极降糖、调脂、降压治疗，尽量选择有利于尿酸排泄的药物，如对于高胆固醇血症或动脉粥样硬化合并HUA的患者，优先考虑阿托伐他汀；对于高甘油三酯血症合并HUA的患者，优先选用非诺贝特；高血压合并HUA患者降压药物优选氯沙坦、二氢吡啶类钙通道阻滞剂等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "本共识特别强调在HUA以及痛风患者治疗过程中必须做到多学科联合治疗。(1)应关注高危人群：高龄男性、肥胖、一级亲属中有痛风史者、患有心血管疾病、肾脏疾病人群，应定期监测血清血尿酸(SUA)浓度。同时尽量避免各种危险因素因素；饮食因素、其他疾病治疗过程中的药物因素如小剂量阿司匹林、利尿剂，环孢素A、麦考酚酯、吡嗪酰胺、乙胺丁醇均可抑制尿酸在肾小管的排泄导致HUA。同时在高危人群中强调非药物治疗，包括正确生活方式指导。共时指出，健康饮食、戒烟限酒、坚持运动和控制体质量、大量饮水适当碱化尿液等生活方式改变可预防HUA，这些需要专科医师体验中心、营养师、慢病管理团队等多学科联合进行。(2)确诊的HUA或痛风患者应积极筛查并发症或合并症，及时制定多学科联合治疗方案：肾病患者须避免使用损害肾脏药物并定期监测肾功能；肾石症患者须碱化尿液，必要时给予溶石或手术治疗；合并高血糖、血脂紊乱、高血压者须同时积极降糖、调脂、降压治疗，尽量选择有利于尿酸排泄的药物，如对于高胆固醇血症或动脉粥样硬化合并HUA的患者，优先考虑阿托伐他汀；对于高甘油三酯血症合并HUA的患者，优先选用非诺贝特；高血压合并HUA患者降压药物优选氯沙坦、二氢吡啶类钙通道阻滞剂等。",
+          "start_idx": 0,
+          "end_idx": 521,
+          "entities": [
+            {
+              "entity_id": "T89",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T90",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T91",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T92",
+              "entity": "肾脏疾病",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T93",
+              "entity": "血清血尿酸(SUA)",
+              "entity_type": "Test_items",
+              "start_idx": 84,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T94",
+              "entity": "饮食因素",
+              "entity_type": "Reason",
+              "start_idx": 112,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T95",
+              "entity": "药物因素如小剂量阿司匹林、利尿剂，环孢素A、麦考酚酯、吡嗪酰胺、乙胺丁醇",
+              "entity_type": "Reason",
+              "start_idx": 127,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T96",
+              "entity": "抑制尿酸在肾小管的排泄",
+              "entity_type": "Pathogenesis",
+              "start_idx": 165,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T97",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 178,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T98",
+              "entity": "健康饮食",
+              "entity_type": "Treatment",
+              "start_idx": 214,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T99",
+              "entity": "戒烟限酒",
+              "entity_type": "Treatment",
+              "start_idx": 219,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T100",
+              "entity": "坚持运动",
+              "entity_type": "Treatment",
+              "start_idx": 224,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T101",
+              "entity": "控制体质量",
+              "entity_type": "Treatment",
+              "start_idx": 229,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T102",
+              "entity": "大量饮水",
+              "entity_type": "Treatment",
+              "start_idx": 235,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T103",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 255,
+              "end_idx": 258
+            },
+            {
+              "entity_id": "T104",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 297,
+              "end_idx": 300
+            },
+            {
+              "entity_id": "T105",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 301,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T106",
+              "entity": "肾病",
+              "entity_type": "Disease",
+              "start_idx": 332,
+              "end_idx": 334
+            },
+            {
+              "entity_id": "T107",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 332,
+              "end_idx": 333
+            },
+            {
+              "entity_id": "T108",
+              "entity": "肾石",
+              "entity_type": "Disease",
+              "start_idx": 356,
+              "end_idx": 358
+            },
+            {
+              "entity_id": "T109",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 356,
+              "end_idx": 357
+            },
+            {
+              "entity_id": "T110",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 382,
+              "end_idx": 385
+            },
+            {
+              "entity_id": "T111",
+              "entity": "血脂紊乱",
+              "entity_type": "Disease",
+              "start_idx": 386,
+              "end_idx": 390
+            },
+            {
+              "entity_id": "T112",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 391,
+              "end_idx": 394
+            },
+            {
+              "entity_id": "T113",
+              "entity": "正确生活方式指导",
+              "entity_type": "Treatment",
+              "start_idx": 200,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T114",
+              "entity": "溶石",
+              "entity_type": "Treatment",
+              "start_idx": 372,
+              "end_idx": 374
+            },
+            {
+              "entity_id": "T115",
+              "entity": "高胆固醇血症",
+              "entity_type": "Disease",
+              "start_idx": 429,
+              "end_idx": 435
+            },
+            {
+              "entity_id": "T116",
+              "entity": "动脉粥样硬化",
+              "entity_type": "Disease",
+              "start_idx": 436,
+              "end_idx": 442
+            },
+            {
+              "entity_id": "T117",
+              "entity": "阿托伐他汀",
+              "entity_type": "Drug",
+              "start_idx": 455,
+              "end_idx": 460
+            },
+            {
+              "entity_id": "T118",
+              "entity": "高甘油三酯血症",
+              "entity_type": "Disease",
+              "start_idx": 463,
+              "end_idx": 470
+            },
+            {
+              "entity_id": "T119",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 472,
+              "end_idx": 475
+            },
+            {
+              "entity_id": "T120",
+              "entity": "非诺贝特",
+              "entity_type": "Drug",
+              "start_idx": 483,
+              "end_idx": 487
+            },
+            {
+              "entity_id": "T121",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 488,
+              "end_idx": 491
+            },
+            {
+              "entity_id": "T122",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 493,
+              "end_idx": 496
+            },
+            {
+              "entity_id": "T123",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T124",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T125",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T126",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T127",
+              "entity": "监测肾功能",
+              "entity_type": "Test",
+              "start_idx": 350,
+              "end_idx": 355
+            },
+            {
+              "entity_id": "T128",
+              "entity": "氯沙坦",
+              "entity_type": "Drug",
+              "start_idx": 504,
+              "end_idx": 507
+            },
+            {
+              "entity_id": "T129",
+              "entity": "二氢吡啶类钙通道阻滞剂",
+              "entity_type": "Drug",
+              "start_idx": 508,
+              "end_idx": 519
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T96",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T107",
+              "tail_entity_id": "T106"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T106"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T108"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T108"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T115"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T116"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T118"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T119"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T121"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T121"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T122"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T124"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "降尿酸治疗的起点和目标值",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "降尿酸治疗的起点和目标值",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "共识在总结国内外痛风治疗指南和大量痛风及HUA治疗临床研究的基础上，对降尿酸药物治疗的指征、SUA控制的目标以及药物的选择给出了清晰的建议。并强调了痛风治疗的长期性和SUA定期复查的重要性。HUA的治疗应根据不同的危险因素进行分层管理。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识在总结国内外痛风治疗指南和大量痛风及HUA治疗临床研究的基础上，对降尿酸药物治疗的指征、SUA控制的目标以及药物的选择给出了清晰的建议。并强调了痛风治疗的长期性和SUA定期复查的重要性。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T130",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T131",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T132",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T133",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T135",
+              "entity": "SUA",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T136",
+              "entity": "SUA",
+              "entity_type": "Test_items",
+              "start_idx": 83,
+              "end_idx": 86
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T130"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T135",
+              "tail_entity_id": "T132"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T133"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "HUA的治疗应根据不同的危险因素进行分层管理。",
+          "start_idx": 95,
+          "end_idx": 118,
+          "entities": [
+            {
+              "entity_id": "T134",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "共识指出对HUA和痛风患者，在尿酸测定之后，必须要针对患者的具体情况进行评估，不同的尿酸水平在不同的人群对器官的损害水平是不同的。在治疗上遵循个体化、分层、达标、长程管理的原则，逐步调整剂量以避免短期内血尿酸水平波动过大诱发痛风急性发作。共识指出应该根据患者SUA水平的不同和是否合并心血管危险因素或心血管及代谢性疾病的状态给予积极的分层治疗；在今后的临床实践中灵活应用，可有效预防和降低HUA对机体各脏器的危害。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识指出对HUA和痛风患者，在尿酸测定之后，必须要针对患者的具体情况进行评估，不同的尿酸水平在不同的人群对器官的损害水平是不同的。在治疗上遵循个体化、分层、达标、长程管理的原则，逐步调整剂量以避免短期内血尿酸水平波动过大诱发痛风急性发作。共识指出应该根据患者SUA水平的不同和是否合并心血管危险因素或心血管及代谢性疾病的状态给予积极的分层治疗；在今后的临床实践中灵活应用，可有效预防和降低HUA对机体各脏器的危害。",
+          "start_idx": 0,
+          "end_idx": 207,
+          "entities": [
+            {
+              "entity_id": "T137",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T138",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T139",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T140",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T141",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T142",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 112,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T143",
+              "entity": "SUA",
+              "entity_type": "Test_items",
+              "start_idx": 129,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T144",
+              "entity": "心血管及代谢性疾病",
+              "entity_type": "Disease",
+              "start_idx": 150,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T145",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T146",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 150,
+              "end_idx": 153
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T137"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T138"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T144"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "降尿酸药物的选择",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "降尿酸药物的选择",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "共识分别对目前临床上使用的两类降尿酸药物：抑制尿酸合成的药物和促进尿酸排泄的药物进行了详细的介绍，包括起始剂量、最大剂量以及在肾功能不全患者中的使用情况。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识分别对目前临床上使用的两类降尿酸药物：抑制尿酸合成的药物和促进尿酸排泄的药物进行了详细的介绍，包括起始剂量、最大剂量以及在肾功能不全患者中的使用情况。",
+          "start_idx": 0,
+          "end_idx": 77,
+          "entities": [
+            {
+              "entity_id": "T147",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T148",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 63,
+              "end_idx": 64
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "特别提到使用过程中需注意药物不良反应，强调亚裔人群使用别嘌呤醇时发生严重超敏反应的风险明显高于白种人。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "特别提到使用过程中需注意药物不良反应，强调亚裔人群使用别嘌呤醇时发生严重超敏反应的风险明显高于白种人。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T149",
+              "entity": "嘌呤醇",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T150",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 36,
+              "end_idx": 40
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R66",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T149"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "共识还对近年来国外上市的尿酸酶以及降尿酸药物的联合使用等做了简要述评，给出适用情况及可能的不良反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识还对近年来国外上市的尿酸酶以及降尿酸药物的联合使用等做了简要述评，给出适用情况及可能的不良反应。",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "尿酸酶",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "HUA在中国呈现高流行、年轻化趋势，同时HUA也是多种心血管事件危险因素及相关疾病的独立危险因素，本共识是我国首个HUA相关疾病的多学科专家共识，强调从系统医学角度全面认识该疾病，结合中国国情和国内诊疗实践特点，多学科协作、内外兼治，连续、全程、系统地管控HUA及其相关疾病，对HUA的诊断标准、药物选择、控制目标及预防的核心策略均给予明确阐述，对中国HUA的规范化管理具有积极的推动意义。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA在中国呈现高流行、年轻化趋势，同时HUA也是多种心血管事件危险因素及相关疾病的独立危险因素，本共识是我国首个HUA相关疾病的多学科专家共识，强调从系统医学角度全面认识该疾病，结合中国国情和国内诊疗实践特点，多学科协作、内外兼治，连续、全程、系统地管控HUA及其相关疾病，对HUA的诊断标准、药物选择、控制目标及预防的核心策略均给予明确阐述，对中国HUA的规范化管理具有积极的推动意义。",
+          "start_idx": 0,
+          "end_idx": 195,
+          "entities": [
+            {
+              "entity_id": "T152",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T153",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T154",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T155",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T156",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T157",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T158",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 139,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T159",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 176,
+              "end_idx": 179
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T154"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "共识根据痛风是否发作、危险因素、SUA浓度等分为三种情况：第一种情况是当有痛风发作且发作频繁时(≥2次)或者痛风性关节炎只发作1次，但合并有其他相关危险因素(年龄<40岁、有痛风石或关节腔尿酸盐沉积证据、尿酸性肾结石或肾功能损害≥G2期、高血压、糖尿病、血脂异常、肥胖、卒中、冠心病、心力衰竭)中的—项，不论尿酸水平如何，都需要进行降尿酸治疗，尿酸控制目标值应<360μmol/L，如果出现痛风石、慢性痛风性关节炎、痛风性关节炎发作频繁，患者尿酸控制目标值应<300μmol/L；第二种情况是痛风性关节炎只发作1次，或者没有急性发作但合并有其他相关危险因素(尿酸性肾结石或肾功能损害≥G2期、高血压、糖尿病、血脂异常、卒中、冠心病、肥胖、心力衰竭)，当尿酸浓度超过480μmol/L，应启动降尿酸治疗，尿酸控制目标值同第一种况；第三种情况是如果没有危险因素，也没有痛风发作，但尿酸>540μmol/L，也建议启动降尿酸治疗，尿酸控制目标值应<420μmol/L。共识指出，这三种情况都不应将血尿酸降至180μmol/L以下。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识根据痛风是否发作、危险因素、SUA浓度等分为三种情况：第一种情况是当有痛风发作且发作频繁时(≥2次)或者痛风性关节炎只发作1次，但合并有其他相关危险因素(年龄<40岁、有痛风石或关节腔尿酸盐沉积证据、尿酸性肾结石或肾功能损害≥G2期、高血压、糖尿病、血脂异常、肥胖、卒中、冠心病、心力衰竭)中的—项，不论尿酸水平如何，都需要进行降尿酸治疗，尿酸控制目标值应<360μmol/L，如果出现痛风石、慢性痛风性关节炎、痛风性关节炎发作频繁，患者尿酸控制目标值应<300μmol/L；第二种情况是痛风性关节炎只发作1次，或者没有急性发作但合并有其他相关危险因素(尿酸性肾结石或肾功能损害≥G2期、高血压、糖尿病、血脂异常、卒中、冠心病、肥胖、心力衰竭)，当尿酸浓度超过480μmol/L，应启动降尿酸治疗，尿酸控制目标值同第一种况；第三种情况是如果没有危险因素，也没有痛风发作，但尿酸>540μmol/L，也建议启动降尿酸治疗，尿酸控制目标值应<420μmol/L。",
+          "start_idx": 0,
+          "end_idx": 431,
+          "entities": [
+            {
+              "entity_id": "T160",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T161",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T162",
+              "entity": "SUA",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T163",
+              "entity": "痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T164",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T165",
+              "entity": "尿酸性肾结石",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T166",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 105,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T167",
+              "entity": "肾功能损害≥G2期",
+              "entity_type": "Disease",
+              "start_idx": 109,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T168",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 109,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T169",
+              "entity": "G2期",
+              "entity_type": "Class",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T170",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 119,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T171",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 123,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T172",
+              "entity": "血脂异常",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T173",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T174",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 135,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T175",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 138,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T176",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 139,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T177",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T178",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 142,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T179",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 154,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T180",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 172,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T181",
+              "entity": "<360μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 180,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T182",
+              "entity": "痛风石",
+              "entity_type": "Disease",
+              "start_idx": 195,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T183",
+              "entity": "慢性痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 199,
+              "end_idx": 207
+            },
+            {
+              "entity_id": "T184",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 204,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T185",
+              "entity": "痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 208,
+              "end_idx": 214
+            },
+            {
+              "entity_id": "T186",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 211,
+              "end_idx": 213
+            },
+            {
+              "entity_id": "T187",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 221,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T188",
+              "entity": "<300μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 229,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T189",
+              "entity": "痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 246,
+              "end_idx": 252
+            },
+            {
+              "entity_id": "T190",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 249,
+              "end_idx": 251
+            },
+            {
+              "entity_id": "T191",
+              "entity": "尿酸性肾结石",
+              "entity_type": "Disease",
+              "start_idx": 279,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T192",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 282,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T193",
+              "entity": "肾功能损害≥G2期",
+              "entity_type": "Disease",
+              "start_idx": 286,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T194",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 286,
+              "end_idx": 287
+            },
+            {
+              "entity_id": "T195",
+              "entity": "G2期",
+              "entity_type": "Class",
+              "start_idx": 292,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T196",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 296,
+              "end_idx": 299
+            },
+            {
+              "entity_id": "T197",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 300,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T198",
+              "entity": "血脂异常",
+              "entity_type": "Disease",
+              "start_idx": 304,
+              "end_idx": 308
+            },
+            {
+              "entity_id": "T199",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 309,
+              "end_idx": 311
+            },
+            {
+              "entity_id": "T200",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 312,
+              "end_idx": 315
+            },
+            {
+              "entity_id": "T201",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 313,
+              "end_idx": 314
+            },
+            {
+              "entity_id": "T202",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 316,
+              "end_idx": 318
+            },
+            {
+              "entity_id": "T203",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 319,
+              "end_idx": 323
+            },
+            {
+              "entity_id": "T204",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 326,
+              "end_idx": 328
+            },
+            {
+              "entity_id": "T205",
+              "entity": "超过480μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 330,
+              "end_idx": 341
+            },
+            {
+              "entity_id": "T206",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 351,
+              "end_idx": 353
+            },
+            {
+              "entity_id": "T207",
+              "entity": "痛风",
+              "entity_type": "Disease",
+              "start_idx": 382,
+              "end_idx": 384
+            },
+            {
+              "entity_id": "T208",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 388,
+              "end_idx": 390
+            },
+            {
+              "entity_id": "T209",
+              "entity": ">540μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 390,
+              "end_idx": 400
+            },
+            {
+              "entity_id": "T210",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 412,
+              "end_idx": 414
+            },
+            {
+              "entity_id": "T211",
+              "entity": "<420μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 420,
+              "end_idx": 430
+            },
+            {
+              "entity_id": "T214",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 319,
+              "end_idx": 320
+            },
+            {
+              "entity_id": "T215",
+              "entity": "痛风石",
+              "entity_type": "Disease",
+              "start_idx": 87,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T216",
+              "entity": "关节腔尿酸盐沉积",
+              "entity_type": "Disease",
+              "start_idx": 91,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T217",
+              "entity": "关节腔",
+              "entity_type": "Anatomy",
+              "start_idx": 91,
+              "end_idx": 94
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T160"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T160"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T166",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T177"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T183"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T186",
+              "tail_entity_id": "T185"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T197"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T198"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T199"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T203"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T203"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T207"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T216"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "共识指出，这三种情况都不应将血尿酸降至180μmol/L以下。",
+          "start_idx": 431,
+          "end_idx": 462,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T213",
+              "entity": "180μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 19,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "HUA具有两层含义，一种是理化性质上的定义，另一种流行病学上的定义。既往HUA定义的依据是流行病学数据，即正常嘌呤饮食下，非同日两次空腹血尿酸水平男性>420μmol/L，女性>360μmol/L。而理化性质上的定义，也称为绝对HUA，正常人体血液pH值为7.35~7.45，处于微碱性，而尿酸在这样的酸碱环境下，浓度—H超过420 μmol/L(不分男女)，便会析出尿酸钠结晶而沉积在关节腔和其他组织中，继而引起痛风性关节炎和/或其他相关组织损伤。因此，本共识将血尿酸水平>420μmol/L定义为HUA，更具有临床意义。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "HUA具有两层含义，一种是理化性质上的定义，另一种流行病学上的定义。既往HUA定义的依据是流行病学数据，即正常嘌呤饮食下，非同日两次空腹血尿酸水平男性>420μmol/L，女性>360μmol/L。而理化性质上的定义，也称为绝对HUA，正常人体血液pH值为7.35~7.45，处于微碱性，而尿酸在这样的酸碱环境下，浓度—H超过420 μmol/L(不分男女)，便会析出尿酸钠结晶而沉积在关节腔和其他组织中，继而引起痛风性关节炎和/或其他相关组织损伤。",
+          "start_idx": 0,
+          "end_idx": 225,
+          "entities": [
+            {
+              "entity_id": "T218",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T219",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T220",
+              "entity": "空腹血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 66,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T221",
+              "entity": ">420μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 75,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T222",
+              "entity": ">360μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 88,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T223",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 114,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T224",
+              "entity": "血液pH",
+              "entity_type": "Test_items",
+              "start_idx": 122,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T225",
+              "entity": "7.35~7.45",
+              "entity_type": "Test_Value",
+              "start_idx": 128,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T226",
+              "entity": "尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 145,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T227",
+              "entity": "痛风性关节炎",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 213
+            },
+            {
+              "entity_id": "T231",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 114,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T232",
+              "entity": "尿酸钠结晶而沉积在关节腔和其他组织中",
+              "entity_type": "Reason",
+              "start_idx": 184,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T233",
+              "entity": "420 μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 163,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T234",
+              "entity": "关节",
+              "entity_type": "Anatomy",
+              "start_idx": 210,
+              "end_idx": 212
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T219"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T226",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T232",
+              "tail_entity_id": "T227"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T227"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此，本共识将血尿酸水平>420μmol/L定义为HUA，更具有临床意义。",
+          "start_idx": 225,
+          "end_idx": 262,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "血尿酸",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T229",
+              "entity": ">420μmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T230",
+              "entity": "HUA",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 28
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T228",
+              "tail_entity_id": "T230"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
