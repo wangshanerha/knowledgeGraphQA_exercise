@@ -6,42 +6,52 @@
 
 ![version2](img/version2.jpg)
 
+RAG的数据融合了多个来源，包括PDF数据（ [国家基层糖尿病防治管理指南（ 2022）.pdf](data\国家基层糖尿病防治管理指南（ 2022）.pdf) ）、Excel数据（ [intent_detection.xlsx](data\intent_detection.xlsx) ）等。
+
+
+
+
+
 - **重要提示**
 
-RAG嵌入模型 `bce-embedding-base_v1`在本地，文件过大没有上传。
+本项目用到的模型 `bce-embedding-base_v1`在本地，文件过大没有上传。
 
 ## 2 运行环境
 
-| environment | version           |
-| ----------- | ----------------- |
-| Windows     | 11                |
-| Python      | 3.9               |
-| pytorch     | 2.4.1             |
-| model       | bert-base-chinese |
-| neo4j       | 社区版            |
-| LLM         | chatglm-flash     |
+| environment | version |
+| :---------: | :-----: |
+|   Windows   |   11    |
+|   Python    |   3.9   |
+|   pytorch   |  2.4.1  |
+|    neo4j    | 社区版  |
 
  
 
 ## 3 代码解释
 
+- RAG.py
+
+对PDF进行RAG操作。embeding模型为`bce-embedding-base_v1`
+
+-  RAG_Excel.py
+
+对Excel进行RAG操作。embeding模型为`bce-embedding-base_v1`
 
 
 
 
-## 4 反思
 
-- 基础上个版本
+## 4 工作进度
 
-可以考虑与rag结合，完善图谱结构或者理解文档数据。
+- 2024.12.19
 
-可以考虑建立patient图谱节点，存储病人信息。
+更新`readme`文件
 
-可以做一下命名实体识别，实现可更新的知识图谱。
+稍微修改`RAG.py`，实现多轮对话。
 
-可以比较不同的意图识别模型，进行对比分析。
+完成`RAG_Excel.py`，实现对Excel进行RAG。最初用的是`paraphrase-MiniLM-L6-v2`，但是效果奇差无比。
 
-## 5 工作进度
+在后续的工作中可以尝试其他的embeding模型进行**对比评估**；也可以进行**多路召回和重排序**；可以考虑进行先**问题重述or意图识别再进行RAG**，PDF的知识非常专业，Excel的知识非常口语。
 
 - 2024.12.16
 
@@ -62,3 +72,4 @@ RAG嵌入模型 `bce-embedding-base_v1`在本地，文件过大没有上传。
 > - 输出检索结果时，显示完整的句子内容，不再截断
 
 效果谈不上好，需要优化。
+
