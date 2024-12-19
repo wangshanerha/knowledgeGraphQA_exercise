@@ -151,7 +151,7 @@ def prepare_data(data_path, test_size=0.2, max_len=128):
     )
 
     # 初始化分词器
-    tokenizer = BertTokenizer.from_pretrained("../../doc/bert-base-chinese")
+    tokenizer = BertTokenizer.from_pretrained("bert-base-chinese")
 
     # 创建数据集
     train_dataset = IntentDataset(train_texts, train_labels, tokenizer, max_len)
@@ -177,7 +177,7 @@ def start(data_path, save_path, device, max_len=128, epochs=3):
 
     # 初始化模型
     model = BertForSequenceClassification.from_pretrained(
-        "../../doc/bert-base-chinese", num_labels=len(label_encoder.classes_)
+        "bert-base-chinese", num_labels=len(label_encoder.classes_)
     )
     model.to(device)
 
@@ -197,7 +197,7 @@ def predict_intent(question, model_path, device, max_len=128):
 # ====================
 if __name__ == "__main__":
     data_path = "data/intent_detection.xlsx"  # 数据路径
-    save_path = "../../doc/saved_model"  # 模型保存路径
+    save_path = "saved_model"  # 模型保存路径
     max_len = 128
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 

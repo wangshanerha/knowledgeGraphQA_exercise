@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
     # 意图识别
     data_path = "data/intent_detection.xlsx"  # 数据路径
-    save_path = "../../doc/saved_model"  # 模型保存路径
+    save_path = "saved_model"  # 模型保存路径
     max_len = 128
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     intent = predict_intent(query, save_path, device, max_len)
