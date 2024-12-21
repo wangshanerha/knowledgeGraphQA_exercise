@@ -8,6 +8,8 @@ from torch.nn import CrossEntropyLoss
 from tqdm import tqdm
 import pandas as pd
 import os
+from openpyxl import load_workbook
+from openpyxl.styles import Font, Alignment
 
 # ====================
 # 数据集类
@@ -47,13 +49,33 @@ class IntentDataset(Dataset):
 # 模型相关函数
 # ====================
 def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save_path):
-    """训练模型并保存"""
+    # 1 加载评估文件
+    wb = load_workbook('test.xlsx')
+
+    sheet_name = "bert-base-chinese"
+    if sheet_name not in wb.sheetnames:
+        ws = wb.create_sheet(title=sheet_name)
+    else:
+        ws = wb[sheet_name]
+
+    # 设置表头
+    headers = ["Epoch", "Train_Loss", "Train_Accuracy", "Validation_Loss", "Validation_Accuracy"]
+    if ws.max_row == 1 and ws['A1'].value is None:
+        ws.append(headers)
+
+    # 设置表头样式
+    for cell in ws[1]:
+        cell.font = Font(bold=True)
+        cell.alignment = Alignment(horizontal='center')
+
     optimizer = AdamW(model.parameters(), lr=2e-5)
     criterion = CrossEntropyLoss()
 
     for epoch in range(epochs):
         model.train()
         train_loss = 0
+        correct = 0
+        total = 0
         for batch in tqdm(train_loader, desc=f"Training Epoch {epoch + 1}"):
             input_ids = batch["input_ids"].to(device)
             attention_mask = batch["attention_mask"].to(device)
@@ -72,9 +94,16 @@ def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save
 
             train_loss += loss.item()
 
-        print(f"Epoch {epoch + 1} Train Loss: {train_loss / len(train_loader)}")
+            preds = torch.argmax(outputs.logits, dim=1)
+            correct += (preds == labels).sum().item()
+            total += labels.size(0)
 
-        # 验证
+        train_loss_avg = train_loss / len(train_loader)
+        train_accuracy = correct / total * 100
+        print(f"Epoch {epoch + 1} Train Loss: {train_loss_avg}")
+        print(f"Epoch {epoch + 1} Train Accuracy: {train_accuracy:.2f}%")
+
+        # 验证集
         model.eval()
         val_loss = 0
         correct = 0
@@ -97,12 +126,20 @@ def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save
                 correct += (preds == labels).sum().item()
                 total += labels.size(0)
 
-        print(f"Validation Loss: {val_loss / len(val_loader)}")
-        print(f"Validation Accuracy: {correct / total * 100:.2f}%")
+        val_loss_avg = val_loss / len(val_loader)
+        val_accuracy = correct / total * 100
+        print(f"Validation Loss: {val_loss_avg}")
+        print(f"Validation Accuracy: {val_accuracy:.2f}%")
 
-    # 保存模型和分词器
-    model.save_pretrained(save_path)
-    tokenizer.save_pretrained(save_path)
+        # 保存模型和分词器
+        model.save_pretrained(save_path)
+        tokenizer.save_pretrained(save_path)
+
+        # 将每个epoch的数据写入Excel
+        ws.append([epoch, train_loss_avg, train_accuracy, val_loss_avg, val_accuracy])
+
+    wb.save('test.xlsx')
+    print("数据文件已保存")
     print(f"模型已保存至 {save_path}")
 
 def load_model(model_path, device):
@@ -135,7 +172,7 @@ def predict(question, model, tokenizer, label_encoder, device, max_len):
 # ====================
 # 数据处理函数
 # ====================
-def prepare_data(data_path, test_size=0.2, max_len=128):
+def prepare_data(data_path, test_size=0.2, max_len=128, model_path=None):
     """加载数据并生成数据集和 DataLoader"""
     df = pd.read_excel(data_path)
     texts = df["question"].values
@@ -151,7 +188,7 @@ def prepare_data(data_path, test_size=0.2, max_len=128):
     )
 
     # 初始化分词器
-    tokenizer = BertTokenizer.from_pretrained("bert-base-chinese")
+    tokenizer = BertTokenizer.from_pretrained(model_path)  # 使用动态路径
 
     # 创建数据集
     train_dataset = IntentDataset(train_texts, train_labels, tokenizer, max_len)
@@ -166,18 +203,18 @@ def prepare_data(data_path, test_size=0.2, max_len=128):
 # ====================
 # 封装的核心函数
 # ====================
-def start(data_path, save_path, device, max_len=128, epochs=3):
+def start(data_path, save_path, device, model_path, max_len=128, epochs=3):
     """加载数据、训练模型并保存"""
     os.makedirs(save_path, exist_ok=True)
 
     # 加载数据
     train_loader, val_loader, tokenizer, label_encoder = prepare_data(
-        data_path, max_len=max_len
+        data_path, max_len=max_len, model_path=model_path
     )
 
     # 初始化模型
     model = BertForSequenceClassification.from_pretrained(
-        "bert-base-chinese", num_labels=len(label_encoder.classes_)
+        model_path, num_labels=len(label_encoder.classes_)  # 使用动态路径
     )
     model.to(device)
 
@@ -198,11 +235,12 @@ def predict_intent(question, model_path, device, max_len=128):
 if __name__ == "__main__":
     data_path = "data/intent_detection.xlsx"  # 数据路径
     save_path = "saved_model"  # 模型保存路径
+    model_path = "model/bert-base-chinese"  # 模型路径（可以根据需要修改）
     max_len = 128
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # 启动训练
-    # start(data_path, save_path, device, max_len, epochs=3)
+    start(data_path, save_path, device, model_path, max_len, epochs=20)
 
     # 测试预测
     while True:
