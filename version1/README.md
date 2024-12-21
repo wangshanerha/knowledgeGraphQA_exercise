@@ -18,18 +18,18 @@
 
 - **重要提示**
 
-bert模型`bert-base-chinese`和训练好的模型`saved_model`都在本地。文件过大没有上传。
+bert模型（例如：`bert-base-chinese`）和训练好的模型（例如：`saved_model`）都在本地。文件过大没有上传。
 
 ## 2 运行环境
 
-| environment | version           |
-| ----------- | ----------------- |
-| Windows     | 11                |
-| Python      | 3.9               |
-| pytorch     | 2.4.1             |
-| model       | bert-base-chinese |
-| neo4j       | 社区版            |
-| LLM         | chatglm-flash     |
+| environment |      version      |
+| :---------: | :---------------: |
+|   Windows   |        11         |
+|   Python    |        3.9        |
+|   pytorch   |       2.4.1       |
+|    model    | bert-base-chinese |
+|    neo4j    |      社区版       |
+|     LLM     |   chatglm-flash   |
 
  
 
@@ -83,6 +83,8 @@ bert模型`bert-base-chinese`和训练好的模型`saved_model`都在本地。�
 实现对意图识别模型`bert-base-chinese`的效果评估。
 
 下载其他微调bert模型[Models - Hugging Face](https://huggingface.co/models?other=base_model:finetune:google-bert/bert-base-chinese)
+
+可以clone的代码进行重新上传，记的加时间。
 
 - 2024.12.10
 
