@@ -76,6 +76,12 @@ bert模型（例如：`bert-base-chinese`）和训练好的模型（例如：`sa
 
 ## 5 工作进度
 
+- 2024.12.22
+
+`bert-large-uncased`因为language是英文所以效果不是很好，大概初始的准确率只有27%左右。
+
+评估可以用的模型[中文文本分类-TextCNN+TextRNN+FastText+TextRCNN+TextRNN_Attention+DPCNN+Transformer_基于pytorch深度学习的nlp代码](https://blog.csdn.net/qq_31136513/article/details/131589556)
+
 - 2024.12.21
 
 修改了intent_detection.py代码，可以将模型训练损失、准确率等数据写入Excel。

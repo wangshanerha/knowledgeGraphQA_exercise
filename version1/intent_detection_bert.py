@@ -135,10 +135,10 @@ def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save
         model.save_pretrained(save_path)
         tokenizer.save_pretrained(save_path)
 
-        # 将每个epoch的数据写入Excel
-        ws.append([epoch, train_loss_avg, train_accuracy, val_loss_avg, val_accuracy])
-
-    wb.save('test.xlsx')
+    #     # 将每个epoch的数据写入Excel
+    #     ws.append([epoch, train_loss_avg, train_accuracy, val_loss_avg, val_accuracy])
+    #
+    # wb.save('test.xlsx')
     print("数据文件已保存")
     print(f"模型已保存至 {save_path}")
 
@@ -235,12 +235,12 @@ def predict_intent(question, model_path, device, max_len=128):
 if __name__ == "__main__":
     data_path = "data/intent_detection.xlsx"  # 数据路径
     save_path = "saved_model"  # 模型保存路径
-    model_path = "model/bert-base-chinese"  # 模型路径（可以根据需要修改）
+    model_path = "D:/pycharm/example/nlp/KG/doc/model/bert-base-chinese"  # 模型路径（可以根据需要修改）
     max_len = 128
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # 启动训练
-    start(data_path, save_path, device, model_path, max_len, epochs=20)
+    start(data_path, save_path, device, model_path, max_len, epochs=3)
 
     # 测试预测
     while True:
