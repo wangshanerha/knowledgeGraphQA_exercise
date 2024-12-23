@@ -63,18 +63,22 @@ bert模型（例如：`bert-base-chinese`）和训练好的模型（例如：`sa
 
 ## 4 效果评估
 
-|       model        | params | epoch | optimality | loss |
-| :----------------: | :----: | :---: | :--------: | :--: |
-| bert-base-chinese  |  110M  |  10   |            |      |
-| bert-large-uncased |  340M  |  10   |            |      |
-|                    |        |       |            |      |
-|                    |        |       |            |      |
+|       model       | params | epoch | optimality | loss |
+| :---------------: | :----: | :---: | :--------: | :--: |
+| bert-base-chinese |  110M  |  10   |            |      |
+|                   |        |       |            |      |
+|                   |        |       |            |      |
+|                   |        |       |            |      |
 
 
 
 
 
 ## 5 工作进度
+
+- 2024.12.23
+
+完成textCNN代码。最终效果大概76%左右。
 
 - 2024.12.22
 
