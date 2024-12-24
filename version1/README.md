@@ -76,6 +76,10 @@ bert模型（例如：`bert-base-chinese`）和训练好的模型（例如：`sa
 
 ## 5 工作进度
 
+- 2024.12.24
+
+完成textRNN（BiLSTM）和textCNN_att（BiLSTM+attention）代码。
+
 - 2024.12.23
 
 完成textCNN代码。最终效果大概76%左右。
