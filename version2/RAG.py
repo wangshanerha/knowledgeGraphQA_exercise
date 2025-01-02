@@ -82,7 +82,7 @@ def RAG_ask(question, pdf_content, knowledge_base, embedding_model):
 if __name__ == "__main__":
     print("start")
     # 加载 PDF 文档并提取文本
-    pdf_path = "data/国家基层糖尿病防治管理指南（ 2022）.pdf"
+    pdf_path = "../data/国家基层糖尿病防治管理指南（ 2022）.pdf"
 
     # 嵌入模型加载
     embedding_model = SentenceTransformer("bce-embedding-base_v1")  # 用于生成嵌入向量

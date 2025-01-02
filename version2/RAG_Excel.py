@@ -57,7 +57,7 @@ def RAG_Excel_ask(question, table_knowledge_base, embedding_model):
 # 主函数
 if __name__ == "__main__":
     # 示例：加载 Excel 文件（假设数据已经被加载到 DataFrame 中）
-    excel_path = "data/intent_detection.xlsx"
+    excel_path = "../data/intent_detection.xlsx"
     df = pd.read_excel(excel_path)  # 这里你可以使用自己的 Excel 文件路径
 
     # 加载嵌入模型

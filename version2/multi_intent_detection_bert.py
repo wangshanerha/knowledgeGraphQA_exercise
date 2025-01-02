@@ -239,8 +239,8 @@ def predict_intent(question, model_path, device, max_len=128):
 # 主函数入口
 # ====================
 if __name__ == "__main__":
-    data_path = "data/intent_detection.xlsx"  # 数据路径
-    save_path = "saved_model"  # 模型保存路径
+    data_path = "../data/intent_detection.xlsx"  # 数据路径
+    save_path = "../saved_model"  # 模型保存路径
     model_path = "D:/pycharm/example/nlp/KG/doc/model/bert-base-chinese"  # 模型路径（可以根据需要修改）
     max_len = 128
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
