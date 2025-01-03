@@ -1,20 +1,8 @@
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
-from zhipuai import ZhipuAI
-from langchain_community.chat_models import ChatZhipuAI
-import  os
-from langchain.agents import tool
-import re
+from langchain_core.output_parsers import StrOutputParser
 
-LANGCHAIN_TRACING_V2=True
-LANGCHAIN_ENDPOINT="https://api.smith.langchain.com"
-LANGCHAIN_API_KEY="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"
-LANGCHAIN_PROJECT="example"
-
-os.environ["LANGCHAIN_TRACING_V2"] = "1"  # 规定langchain的版本
-os.environ["LANGCHAIN_API_KEY"] = "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"
-
-def ask_question(question):
+def ask_question(text):
     # 1. 调用api
     # zhipuai_chat = ChatZhipuAI(
     #     temperature=0.5,
@@ -30,23 +18,30 @@ def ask_question(question):
     )
 
     # 2. 创建提示模板
-    # question = "你好我的朋友，请介绍一下你自己"
-    prompt_template = ChatPromptTemplate.from_template("{input}")
+    # prompt_template = ChatPromptTemplate.from_template("{input}")
+    question = {"name": "糖尿病专家", "text": text}
+    prompt_template = ChatPromptTemplate([
+        ("system", "你现在扮演一个： {name}."),
+        ("user", "现在你将接收到一段文字{text}.，按照以下三个问题格式输出：按照background：的格式输出这段文字的背景。请顺理这段文字提出的问题，并按照query：的格式重述成用词更严谨的专业问题。请务必注意，不需要对query本身进行回答。请务必注意，专业问题不要包含“与”、“和”、“及”等有并列关系的文字。请务必注意，专业问题允许多个"),
+    ])
 
-    # 3. 创建Chain
+    # 3 创建数据响应器
+    parser = StrOutputParser()
+
+    # 4. 创建Chain
     chain = (
             prompt_template
             | model
+            | parser
     )
 
-    # 4. 运行Chain并获取回答
-    response = chain.invoke({"input": question})
-
-    # 5. 提取并打印模型的回答内容
-    model_answer = response.content
-    print(model_answer)
+    # 5. 运行Chain并获取回答
+    response = chain.invoke(question)
+    return  (response)
 
 if __name__ == '__main__':
-    question = input()
-    ask_question(question)
+    # question = input()
+    text =  "餐前低血糖、皮肤瘙痒或反复的皮肤感染、视物模糊、胃肠功能紊乱、反复发生的泌尿系感染、尿中泡沫增多或者蛋白尿等"
+    model_answer = ask_question(text)
+    print(model_answer)
 

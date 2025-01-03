@@ -1,33 +1,74 @@
 import streamlit as st
-from web_function import  ask
+import torch
+from streamlit_chat import message
+from entity import extract_entities
+from langchain_glm import ask_question
+from intent_detection_bert import predict_intent
+def on_input_change():
+    user_input = st.session_state.user_input
+    st.session_state.past.append(user_input)
+    st.session_state.generated.append("感谢您的提问，我会尽力回答。")
 
-# 假设我们有两个模型的选择（可以替换为实际的模型加载逻辑）
-def model_1_answer(query):
-    answer = ask(query)
-    # 模型1的回答逻辑（替换为实际模型）
-    return f"模型1的回答：{(answer)}的答案是A。"
+def on_btn_click():
+    del st.session_state.past[:]
+    del st.session_state.generated[:]
 
-def model_2_answer(query):
-    # 模型2的回答逻辑（替换为实际模型）
-    return f"模型2的回答：{query}的答案是B。"
+# 初始化对话状态
+st.session_state.setdefault('past', [])
+st.session_state.setdefault('generated', [])
 
 # 设置Streamlit应用界面
-st.title("问答系统")
 st.sidebar.title("功能列表")
 
-# 左侧：模型选择
-model_option = st.sidebar.selectbox("选择模型或解释", ["模型1", "模型2", "解释"])
+# 左侧：功能选择
+option = st.sidebar.selectbox("选择模型或解释", ["问答系统", "问题重述","实体识别", "意图识别"])
 
-# 右侧：问答框
-query = st.text_input("请输入您的问题:")
+if option == "问答系统":
+    st.header("问答系统")
 
-# 显示答案
-if query:
-    if model_option == "模型1":
-        answer = model_1_answer(query)
-    elif model_option == "模型2":
-        answer = model_2_answer(query)
-    elif model_option == "解释":
-        answer = "这是一个示例解释。如果您有具体问题，选择模型进行回答。"
+    chat_placeholder = st.empty()
 
-    st.write("回答：", answer)
+    with chat_placeholder.container():
+        for i in range(len(st.session_state['generated'])):
+            message(st.session_state['past'][i], is_user=True, key=f"{i}_user")
+            message(st.session_state['generated'][i], key=f"{i}")
+
+        st.button("清除对话", on_click=on_btn_click)
+
+    with st.container():
+        st.text_input("请输入您的问题:", on_change=on_input_change, key="user_input")
+
+elif option == "实体识别":
+    st.header("实体识别")
+    query = st.text_input("请输入您的问题:", key="entity_input")
+    if st.button("确认", key="entity_confirm"):
+        if query.strip() == "":
+            st.warning("请输入内容后再点击确认。")
+        else:
+            res = []
+            res.append(query)
+            answer = extract_entities(res)
+            st.write("回答：", answer)
+
+elif option == "意图识别":
+    st.header("意图识别")
+    query = st.text_input("请输入您的问题:", key="intent_input")
+    if st.button("确认", key="intent_confirm"):
+        if query.strip() == "":
+            st.warning("请输入内容后再点击确认。")
+        else:
+            save_path = "saved_model"  # 模型保存路径
+            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+            max_len = 128
+            intent = predict_intent(query, save_path, device, max_len)
+            st.write("回答：", intent)
+
+elif option == "问题重述":
+    st.header("问题重述")
+    query = st.text_input("请输入您的问题:", key="rewrite_input")
+    if st.button("确认", key="rewrite_confirm"):
+        if query.strip() == "":
+            st.warning("请输入内容后再点击确认。")
+        else:
+            answer = ask_question(query)
+            st.write("回答：", answer)
