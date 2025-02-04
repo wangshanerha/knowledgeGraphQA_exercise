@@ -3,6 +3,8 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 from transformers import Trainer, TrainingArguments
 from datasets import Dataset
 import torch
+import numpy as np
+from sklearn.metrics import accuracy_score
 
 # 数据路径
 data_path = "data/intent_detection.xlsx"  # 数据路径
@@ -26,15 +28,29 @@ def preprocess_function(examples):
 
 tokenized_datasets = dataset.map(preprocess_function, batched=True)
 
+# 定义计算指标的函数
+def compute_metrics(eval_pred):
+    logits, labels = eval_pred
+    predictions = np.argmax(logits, axis=1)
+    accuracy = accuracy_score(labels, predictions)
+    return {"accuracy": accuracy}
+
 # 定义训练参数
 training_args = TrainingArguments(
     output_dir="./results",
-    eval_strategy="epoch",  # 替换为 eval_strategy
+    eval_strategy="epoch",  # 使用 eval_strategy 替代 evaluation_strategy
     learning_rate=2e-5,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=64,
     num_train_epochs=3,
     weight_decay=0.01,
+    logging_dir="./logs",  # 日志保存路径
+    logging_steps=100,  # 每隔多少步打印日志
+    save_strategy="epoch",  # 修改为与 eval_strategy 一致
+    save_total_limit=2,  # 最多保存的模型数量
+    load_best_model_at_end=True,  # 在训练结束后加载最佳模型
+    metric_for_best_model="accuracy",  # 用于选择最佳模型的指标
+    greater_is_better=True,  # 指标值越大越好
 )
 
 # 定义Trainer
@@ -43,6 +59,7 @@ trainer = Trainer(
     args=training_args,
     train_dataset=tokenized_datasets,
     eval_dataset=tokenized_datasets,  # 提供一个验证数据集
+    compute_metrics=compute_metrics,  # 使用自定义的指标计算函数
 )
 
 # 开始训练
