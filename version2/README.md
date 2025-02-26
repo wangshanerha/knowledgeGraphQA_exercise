@@ -30,19 +30,15 @@ RAG的数据融合了多个来源，包括PDF数据（ [国家基层糖尿病防
 
 ## 3 代码解释
 
-- RAG.py
-
-对PDF进行RAG操作。embeding模型为`bce-embedding-base_v1`
-
--  RAG_Excel.py
-
-对Excel进行RAG操作。embeding模型为`bce-embedding-base_v1`
-
 
 
 
 
 ## 4 工作进度
+
+- 2025.2.26
+
+完成DeBERTa部分的代码，更新test
 
 - 2025.2.4
 
