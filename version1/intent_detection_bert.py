@@ -22,7 +22,7 @@ class IntentDataset(Dataset):
         self.max_len = max_len
 
     def __len__(self):
-        return len(self.texts)
+        return len(self.texts)  # 长度方法
 
     def __getitem__(self, idx):
         text = self.texts[idx]
@@ -36,8 +36,8 @@ class IntentDataset(Dataset):
             max_length=self.max_len,
             return_tensors="pt",
         )
-        input_ids = encoding["input_ids"].squeeze()
-        attention_mask = encoding["attention_mask"].squeeze()
+        input_ids = encoding["input_ids"].squeeze()   # 从编码结果中提取input_ids，并使用squeeze方法去除多余的维度。
+        attention_mask = encoding["attention_mask"].squeeze() # 从编码结果中提取attention_mask，并使用squeeze方法去除多余的维度。
 
         return {
             "input_ids": input_ids,
@@ -49,25 +49,26 @@ class IntentDataset(Dataset):
 # 模型相关函数
 # ====================
 def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save_path):
-    # 1 加载评估文件
-    wb = load_workbook('test.xlsx')
+    # # 1 加载评估文件
+    # wb = load_workbook('test.xlsx')
+    #
+    # sheet_name = "bert-base-chinese"
+    # if sheet_name not in wb.sheetnames:
+    #     ws = wb.create_sheet(title=sheet_name)
+    # else:
+    #     ws = wb[sheet_name]
+    #
+    # # 设置表头
+    # headers = ["Epoch", "Train_Loss", "Train_Accuracy", "Validation_Loss", "Validation_Accuracy"]
+    # if ws.max_row == 1 and ws['A1'].value is None:
+    #     ws.append(headers)
+    #
+    # # 设置表头样式
+    # for cell in ws[1]:
+    #     cell.font = Font(bold=True)
+    #     cell.alignment = Alignment(horizontal='center')
 
-    sheet_name = "bert-base-chinese"
-    if sheet_name not in wb.sheetnames:
-        ws = wb.create_sheet(title=sheet_name)
-    else:
-        ws = wb[sheet_name]
-
-    # 设置表头
-    headers = ["Epoch", "Train_Loss", "Train_Accuracy", "Validation_Loss", "Validation_Accuracy"]
-    if ws.max_row == 1 and ws['A1'].value is None:
-        ws.append(headers)
-
-    # 设置表头样式
-    for cell in ws[1]:
-        cell.font = Font(bold=True)
-        cell.alignment = Alignment(horizontal='center')
-
+    # 2 训练
     optimizer = AdamW(model.parameters(), lr=2e-5)
     criterion = CrossEntropyLoss()
 
@@ -88,7 +89,7 @@ def train_model(train_loader, val_loader, model, tokenizer, device, epochs, save
                 attention_mask=attention_mask,
                 labels=labels,
             )
-            loss = outputs.loss
+            loss = outputs.loss  # 型已经内置了交叉熵损失函数 (因为使用了BertForSequenceClassification，它自动包含了一个交叉熵损失），所以不需要额外定义一个CrossEntropyLoss 实例。
             loss.backward()
             optimizer.step()
 
@@ -240,7 +241,7 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # 启动训练
-    start(data_path, save_path, device, model_path, max_len, epochs=3)
+    start(data_path, save_path, device, model_path, max_len, epochs=1)
 
     # 测试预测
     while True:
