@@ -40,6 +40,8 @@ RAG的数据融合了多个来源，包括PDF数据（ [国家基层糖尿病防
 
 更新ELECTRA，DeBERTa和bert的部分代码。模型已上传huggingface。
 
+完成Restatement.py
+
 - 2025.2.26
 
 完成DeBERTa部分的代码，更新test
