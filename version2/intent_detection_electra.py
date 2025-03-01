@@ -44,7 +44,7 @@ class IntentDataset(Dataset):
         }
 
 # 加载tokenizer和模型
-model_path = "D:/pycharm/example/nlp/doc/model/electra"  # 使用指定路径
+model_path = "D:/pycharm/example/nlp/doc/model/chinese-electra-large-generator"  # 使用指定路径
 tokenizer = ElectraTokenizer.from_pretrained(model_path)
 model = ElectraForSequenceClassification.from_pretrained(model_path, num_labels=len(data['label'].unique()))
 
@@ -160,7 +160,7 @@ for epoch in range(epochs):
         print(f"Best Validation accuracy {best_accuracy:.4f}.")
         model.save_pretrained("./saved_model_electra")
         tokenizer.save_pretrained("./saved_model_electra")
-     # 将每个epoch的数据写入Excel
+#      # 将每个epoch的数据写入Excel
 #     ws.append([
 #         epoch,
 #         train_loss,
@@ -197,8 +197,8 @@ def predict(text, model, tokenizer, device):
 
 # 启动while循环进行预测
 while True:
-    text = input("请输入文本进行预测（输入'quit'退出）：")
-    if text.lower() == "quit":
+    text = input("请输入文本进行预测（输入'end'退出）：")
+    if text.lower() == "end":
         print("退出预测程序。")
         break
 
