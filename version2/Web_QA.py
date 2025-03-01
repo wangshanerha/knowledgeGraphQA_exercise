@@ -2,7 +2,7 @@ import streamlit as st
 import torch
 from streamlit_chat import message
 from entity import extract_entities
-from langchain_glm import ask_question
+from Restatement import ask_question
 from intent_detection_bert import predict_intent
 def on_input_change():
     user_input = st.session_state.user_input
@@ -71,4 +71,4 @@ elif option == "问题重述":
             st.warning("请输入内容后再点击确认。")
         else:
             answer = ask_question(query)
-            st.write("回答：", answer)
+            st.write(answer)
