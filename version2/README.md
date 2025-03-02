@@ -36,6 +36,10 @@ RAG的数据融合了多个来源，包括PDF数据（ [国家基层糖尿病防
 
 ## 4 工作进度
 
+- 2025.3.2
+
+完成intent_detection 更新web代码
+
 - 2025.3.1
 
 更新ELECTRA，DeBERTa和bert的部分代码。模型已上传huggingface。

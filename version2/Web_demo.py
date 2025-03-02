@@ -6,19 +6,12 @@ def main():
     if 'page' not in session_state:
         session_state['page'] = 'introduce'
 
-    # # 导航栏
-    # page = st.sidebar.radio('Navigate', ['introduce', 'QA'])
-    # st.sidebar.success("在上方选择一个演示。")
-    # if page == 'introduce':
-    #     page_introduce()
-    # elif page == 'QA':
-    #     page_QA()
-
     # 页面
-    page1 = st.Page("introduce.py", title="introduce")
-    page2 = st.Page("web_QA.py", title="QA")
+    page1 = st.Page("Web_introduce.py", title="Introduce")
+    page2 = st.Page("Web_KGshow.py", title="KGshow")
+    page3 = st.Page("Web_QA.py", title="QA")
 
-    pg = st.navigation([page1, page2])
+    pg = st.navigation([page1, page2,page3])
     pg.run()
 
 if __name__ == '__main__':

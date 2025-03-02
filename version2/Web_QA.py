@@ -3,7 +3,7 @@ import torch
 from streamlit_chat import message
 from entity import extract_entities
 from Restatement import ask_question
-from intent_detection_bert import predict_intent
+from intent_detection import predict
 def on_input_change():
     user_input = st.session_state.user_input
     st.session_state.past.append(user_input)
@@ -57,10 +57,9 @@ elif option == "意图识别":
         if query.strip() == "":
             st.warning("请输入内容后再点击确认。")
         else:
-            save_path = "saved_model"  # 模型保存路径
-            device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-            max_len = 128
-            intent = predict_intent(query, save_path, device, max_len)
+            # 模型路径
+            model_path = "D:/pycharm/example/nlp/graduate/version2/chinese-electra-large-Diabetes-question-intent"
+            intent = predict(query,model_path)
             st.write("回答：", intent)
 
 elif option == "问题重述":
