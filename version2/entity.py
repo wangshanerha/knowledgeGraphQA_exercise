@@ -1,8 +1,8 @@
 from transformers import AutoModelForTokenClassification, BertTokenizerFast
 
 def extract_entities(sentences):
-    tokenizer = BertTokenizerFast.from_pretrained('bert-base-chinese-medical-ner')
-    model = AutoModelForTokenClassification.from_pretrained("bert-base-chinese-medical-ner")
+    tokenizer = BertTokenizerFast.from_pretrained('D:/pycharm/example/nlp/graduate/version2/bert-base-chinese-medical-ner')
+    model = AutoModelForTokenClassification.from_pretrained("D:/pycharm/example/nlp/graduate/version2/bert-base-chinese-medical-ner")
     # 对所有句子进行分词，不添加特殊符号，保持分词结果与原始句子对齐
     inputs = tokenizer(sentences, return_tensors="pt", padding=True, add_special_tokens=False)
     # 获取模型预测的标签

@@ -11,7 +11,6 @@ def get_history(session_id: str):
         store[session_id] = ChatMessageHistory()
     return store[session_id]
 
-
 if __name__ == '__main__':
     # text = "介绍一下你自己"
     # 1. 调用api
@@ -43,7 +42,7 @@ if __name__ == '__main__':
     do_message = RunnableWithMessageHistory(
         chain,
         get_history,  # 直接传递函数
-        input_messages_key='haha'  # 每次聊天发送的key
+        input_messages_key='haha' , # 每次聊天发送的key
     )
         # 第一轮
     config = {"configurable": {"session_id": "1"}}
@@ -62,12 +61,12 @@ if __name__ == '__main__':
         config=config
     )
     print(res2)
-        # 第三轮：流式输出
-    for res in do_message.stream(
-        {
-            'haha': [HumanMessage(content="你好，给我讲个笑话")],
-        },
-        config=config
-    ):
-        # 每次的res都是一个token
-        print(res,end='-')
+    #     # 第三轮：流式输出
+    # for res in do_message.stream(
+    #     {
+    #         'haha': [HumanMessage(content="你好，给我讲个笑话")],
+    #     },
+    #     config=config
+    # ):
+    #     # 每次的res都是一个token
+    #     print(res,end='-')
