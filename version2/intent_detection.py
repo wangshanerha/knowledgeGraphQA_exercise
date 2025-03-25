@@ -1,8 +1,8 @@
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
-# 定义标签映射表（根据你提供的分类体系）
-label_map = [
+# 定义标签映射表（根据分类体系）
+label_map1 = [
     "A：诊断 A0：其他",
     "A：诊断 A1：interpretation of clinical（临床解释）",
     "A：诊断 A2：症状/表现",
@@ -26,6 +26,32 @@ label_map = [
     "E：流行病学 E1：感染（传染性）",
     "E：流行病学 E2：Prevention（预防）",
     "E：流行病学 E3：并发症",
+    "F：其他 -"
+]
+label_map = [
+    "A0：其他",
+    "A1：interpretation of clinical（临床解释）",
+    "A2：症状/表现",
+    "A3：test（检查）",
+    "B0：其他",
+    "B1：how to use drug（如何用药）",
+    "B2：drug choice（药物选择）",
+    "B3：药物不良反应（药物副作用）",
+    "B4：药物禁忌",
+    "B5：Other Therapy（其他治疗方法）",
+    "B6：Treatment Seeking（寻求治疗）",
+    "C0：other（其他）",
+    "C1：定义",
+    "C2：病因学",
+    "C3：Fertility（生育力）",
+    "C4：Hereditary（遗传性）",
+    "D0：other（其他）",
+    "D1：饮食",
+    "D2：Exercise（锻炼）",
+    "D3：weight-losing（减肥）",
+    "E1：感染（传染性）",
+    "E2：Prevention（预防）",
+    "E3：并发症",
     "F：其他 -"
 ]
 

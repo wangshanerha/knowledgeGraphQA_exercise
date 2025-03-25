@@ -3,6 +3,45 @@ from langchain_openai import ChatOpenAI
 from langchain_core.output_parsers import StrOutputParser
 
 def ask_question(text):
+        # 1. 调用api
+        # zhipuai_chat = ChatZhipuAI(
+        #     temperature=0.5,
+        #     api_key="f037f80bb31908ef8d2159b5e4f17e6d.kDBaHZjpplHWU6pl",
+        #     model_name="glm-4-flash",
+        #
+        # )
+        model = ChatOpenAI(
+            temperature=0.95,
+            model="glm-4-flash",
+            openai_api_key="f037f80bb31908ef8d2159b5e4f17e6d.kDBaHZjpplHWU6pl",
+            openai_api_base="https://open.bigmodel.cn/api/paas/v4/"
+        )
+
+        # 2. 创建提示模板
+        # prompt_template = ChatPromptTemplate.from_template("{input}")
+        question = {"name": "糖尿病专家", "text": text}
+        prompt_template = ChatPromptTemplate([
+            ("system", "你现在扮演一个： {name}."),
+            ("user",
+             "现在你将接收到一段文字{text}"),
+        ])
+
+        # 3 创建数据响应器
+        parser = StrOutputParser()
+
+        # 4. 创建Chain
+        chain = (
+                prompt_template
+                | model
+                | parser
+        )
+
+        # 5. 运行Chain并获取回答
+        response = chain.invoke(question)
+        return (response)
+
+
+def Restatement_problem(text):
     # 1. 调用api
     # zhipuai_chat = ChatZhipuAI(
     #     temperature=0.5,
@@ -58,6 +97,6 @@ def ask_question(text):
 if __name__ == '__main__':
     # question = input()
     text =  "患者还出现视物模糊的症状，尤其是在看近处物体时感觉模糊不清。患者还提到，近期皮肤经常出现瘙痒，尤其是四肢部位，且容易感染，愈合缓慢。患者无明显低血糖发作史，无其他慢性病史。如何治疗"
-    model_answer = ask_question(text)
+    model_answer = Restatement_problem(text)
     print(model_answer)
 

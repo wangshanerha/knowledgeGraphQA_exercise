@@ -5,6 +5,8 @@ from py2neo import Graph
 import pandas as pd
 
 
+
+# neo4j.bat console
 def viewerjs_image(image_path):
     with open(image_path, "rb") as f:
         img_data = base64.b64encode(f.read()).decode()
@@ -42,6 +44,30 @@ def KG_load():
         st.error(f"数据库连接失败: {str(e)}")
         return None
 
+def neo4j_query(graph,entities, relations):
+    print(entities)
+    print(relations)
+    results = []
+    for entity in entities:
+        for rel in relations:
+            cypher = """
+                        MATCH (d)-[r:%s]-(n)
+                        WHERE d.name=$entity
+                        RETURN type(r) AS relation, collect(n.name) AS values
+                        """ % rel
+
+            try:
+                data = graph.run(cypher, entity=entity).data()
+                print(data)
+                if data and data[0]["values"]:
+                    results.append({
+                        "实体": entity,
+                        "对应关系": rel,
+                        "参考知识": data[0]["values"]
+                    })
+            except Exception as e:
+                st.error(f"查询失败: {str(e)}")
+    return results
 
 # 主界面
 st.title('糖尿病图谱的构建与查询')
