@@ -1,0 +1,2824 @@
+{
+  "doc_id": "28",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "糖尿病患者血糖波动管理专家共识 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病患者血糖波动管理专家共识 ",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T1",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T2",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "血糖波动是评价血糖控制的重要指标之一。糖化血红蛋白(hemoglobin Alc，HbA1c)虽能反映3个月内血糖的平均水平，但无法反映血糖波动的情况，HbA1c控制相似的糖尿病患者可能因血糖波动的程度不同，发生并发症的风险也不相同。糖尿病患者理想的血糖控制不仅要HbA1c达标，还应尽可能减少血糖波动的幅度。目前，针对血糖波动相关指标的评估方法较为复杂、可操作性差，不利于临床医生对血糖波动进行有效的管理，因此，中华医学会内分泌学分会组织部分临床内分泌学领域专家，通过系统性回顾分析现有循证医学证据并结合专家临床经验，制定了《糖尿病患者血糖波动管理专家共识》。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖波动是评价血糖控制的重要指标之一。糖化血红蛋白(hemoglobin Alc，HbA1c)虽能反映3个月内血糖的平均水平，但无法反映血糖波动的情况，HbA1c控制相似的糖尿病患者可能因血糖波动的程度不同，发生并发症的风险也不相同。糖尿病患者理想的血糖控制不仅要HbA1c达标，还应尽可能减少血糖波动的幅度。目前，针对血糖波动相关指标的评估方法较为复杂、可操作性差，不利于临床医生对血糖波动进行有效的管理，因此，中华医学会内分泌学分会组织部分临床内分泌学领域专家，通过系统性回顾分析现有循证医学证据并结合专家临床经验，制定了《糖尿病患者血糖波动管理专家共识》。",
+          "start_idx": 0,
+          "end_idx": 281,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T4",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T5",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T6",
+              "entity": "糖化血红蛋白(hemoglobin Alc，HbA1c)",
+              "entity_type": "Test_items",
+              "start_idx": 19,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T7",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T8",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T9",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T10",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T11",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T12",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 94,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T13",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 96,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T14",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T15",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T16",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 132,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T17",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 137,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T18",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T19",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 149,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T20",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 160,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T21",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 162,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T22",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 192,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T23",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 194,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T24",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 264,
+              "end_idx": 267
+            },
+            {
+              "entity_id": "T25",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 269,
+              "end_idx": 271
+            },
+            {
+              "entity_id": "T26",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 271,
+              "end_idx": 273
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T6",
+              "tail_entity_id": "T11"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T11"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T14"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T16",
+              "tail_entity_id": "T14"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T25",
+              "tail_entity_id": "T24"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "1血糖波动的定义?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1血糖波动的定义?",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T27",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 1,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T28",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "血糖波动指血糖水平在其高峰和低谷之间变化的不稳定状态，不仅包括短期血糖波动，即日间血糖波动和日内血糖波动，还包括长期血糖波动，即HbA1c变异性，本共识着重介绍日内血糖波动的相关危害及管理。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖波动指血糖水平在其高峰和低谷之间变化的不稳定状态，不仅包括短期血糖波动，即日间血糖波动和日内血糖波动，还包括长期血糖波动，即HbA1c变异性，本共识着重介绍日内血糖波动的相关危害及管理。",
+          "start_idx": 0,
+          "end_idx": 95,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T30",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T31",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T32",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T33",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T34",
+              "entity": "日间血糖",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T35",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T36",
+              "entity": "日内血糖",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T37",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T38",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T39",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T40",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 64,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T41",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T42",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 84,
+              "end_idx": 86
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "2.哪些因素可导致血糖波动?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.哪些因素可导致血糖波动?",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T43",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T44",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "糖尿病患者血糖波动的主要原因包括胰岛β细胞功能状态、饮食、运动和药物等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病患者血糖波动的主要原因包括胰岛β细胞功能状态、饮食、运动和药物等。",
+          "start_idx": 0,
+          "end_idx": 36,
+          "entities": [
+            {
+              "entity_id": "T45",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T46",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T47",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T46",
+              "tail_entity_id": "T45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "(1)胰岛β细胞功能：糖尿病患者自身β细胞功能减退甚至衰竭，导致体内胰岛素水平不足，血糖调节能力低下，导致血糖容易波动。并且β细胞功能越差，血糖波动幅度越大。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)胰岛β细胞功能：糖尿病患者自身β细胞功能减退甚至衰竭，导致体内胰岛素水平不足，血糖调节能力低下，导致血糖容易波动。",
+          "start_idx": 0,
+          "end_idx": 60,
+          "entities": [
+            {
+              "entity_id": "T48",
+              "entity": "自身β细胞功能减退",
+              "entity_type": "Pathogenesis",
+              "start_idx": 16,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T49",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T50",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T51",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T52",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 57,
+              "end_idx": 59
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T50",
+              "tail_entity_id": "T49"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "并且β细胞功能越差，血糖波动幅度越大。",
+          "start_idx": 60,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T53",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T54",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T55",
+              "entity": "β细胞功能越差",
+              "entity_type": "Pathogenesis",
+              "start_idx": 2,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "(2)饮食：饮食的“质”和“量”；均可影响血糖波动，摄入高升糖指数(glycemic index，GI)食物以及食物摄入量过多均可引起餐后血糖迅速升高，导致血糖波动的幅度增加。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)饮食：饮食的“质”和“量”；均可影响血糖波动，摄入高升糖指数(glycemic index，GI)食物以及食物摄入量过多均可引起餐后血糖迅速升高，导致血糖波动的幅度增加。",
+          "start_idx": 0,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T56",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T57",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T58",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 67,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T59",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 73,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T60",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T61",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 80,
+              "end_idx": 82
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "(3)药物：应用降糖药物所带来的低血糖也是血糖波动增加的诱因之一。如促进胰岛素分泌的药物或者胰岛素本身等均会增加患者的低血糖风险，增加血糖波动。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)药物：应用降糖药物所带来的低血糖也是血糖波动增加的诱因之一。如促进胰岛素分泌的药物或者胰岛素本身等均会增加患者的低血糖风险，增加血糖波动。",
+          "start_idx": 0,
+          "end_idx": 72,
+          "entities": [
+            {
+              "entity_id": "T62",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T64",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T65",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T66",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 67,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T67",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 69,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T68",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 46,
+              "end_idx": 49
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R9",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T68"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "此外，饮食和运动不规律、治疗依从性差、情绪应激、睡眠障碍、酣酒、感染、胰岛素不规范注射等多种因素也可增加血糖波动，而应对餐后血糖的药物作用不足也是导致血波动的原因之一。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "此外，饮食和运动不规律、治疗依从性差、情绪应激、睡眠障碍、酣酒、感染、胰岛素不规范注射等多种因素也可增加血糖波动，而应对餐后血糖的药物作用不足也是导致血波动的原因之一。",
+          "start_idx": 0,
+          "end_idx": 84,
+          "entities": [
+            {
+              "entity_id": "T69",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T70",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T71",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T72",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 76,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T73",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T74",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 41,
+              "end_idx": 43
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R10",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T73"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "3血糖波动会带米哪些危害?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3血糖波动会带米哪些危害?",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T75",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 1,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T76",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "血糖波动对于糖尿病慢性并发症的危害甚至比持续性高血糖更为严重，血糖波动通过激活氧化应激通路，损伤内皮细胞功能，加剧慢性炎症状态等造成血管损伤，增加糖尿病并发症的发生风险。血糖波动与糖尿病慢性并发症的发生和发展密切相关：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖波动对于糖尿病慢性并发症的危害甚至比持续性高血糖更为严重，血糖波动通过激活氧化应激通路，损伤内皮细胞功能，加剧慢性炎症状态等造成血管损伤，增加糖尿病并发症的发生风险。血糖波动与糖尿病慢性并发症的发生和发展密切相关：",
+          "start_idx": 0,
+          "end_idx": 109,
+          "entities": [
+            {
+              "entity_id": "T77",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T78",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T79",
+              "entity": "糖尿病慢性并发症",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T80",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T81",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T82",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T83",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T84",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T85",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 85,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T86",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T87",
+              "entity": "糖尿病慢性并发症",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 98
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T79"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T87"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "(1)大血管并发症：血糖波动与糖尿病患者冠心病严重程度显著相关，其作用独立于血糖水平本身，平均血糖波动幅度(mean amplitude of glucose excursions，MAGE)与患者急性心肌梗死事件再发显著相关。荟萃分析亦提示，血糖波动与心血管疾病的发生风险显著相关。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)大血管并发症：血糖波动与糖尿病患者冠心病严重程度显著相关，其作用独立于血糖水平本身，平均血糖波动幅度(mean amplitude of glucose excursions，MAGE)与患者急性心肌梗死事件再发显著相关。荟萃分析亦提示，血糖波动与心血管疾病的发生风险显著相关。",
+          "start_idx": 0,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T88",
+              "entity": "大血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T89",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T90",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T91",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T92",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T93",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T94",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T95",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T96",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T97",
+              "entity": "急性心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 99,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T98",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 101,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T99",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 122,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T100",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 124,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T101",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T102",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T103",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T103",
+              "tail_entity_id": "T88"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T101"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "(2)微血管并发症：动态血糖监测系统(continuous glucose monitoring system，CGMS)测得的血糖波动与尿微量白蛋白排泄率具有相关性，血糖波动也是糖尿病视网膜病变的相关危险因素。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)微血管并发症：动态血糖监测系统(continuous glucose monitoring system，CGMS)测得的血糖波动与尿微量白蛋白排泄率具有相关性，血糖波动也是糖尿病视网膜病变的相关危险因素。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "微血管并发症",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T105",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T106",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T107",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 64,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T108",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 66,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T109",
+              "entity": "尿微量白蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 69,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T110",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T111",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 86,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T112",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 90,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T113",
+              "entity": "视网膜病变",
+              "entity_type": "Disease",
+              "start_idx": 93,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T114",
+              "entity": "视网膜",
+              "entity_type": "Anatomy",
+              "start_idx": 93,
+              "end_idx": 96
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T104"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T107",
+              "tail_entity_id": "T112"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T109",
+              "tail_entity_id": "T112"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T114",
+              "tail_entity_id": "T113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "4临床上有哪些血糖波动的监测方式?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4临床上有哪些血糖波动的监测方式?",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T115",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T116",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "目前动态血糖监测(continuous glucose monitoring，CGM)和自我血糖监测(self-monitoring of blood glucose，SMBG)都可以有效评估血糖波动程度。CGM能够准确、全面地反映血糖波动的特征，但监测成本较高，操作相对复杂，不易在糖尿病人群中普及。SMBG灵活方便、易操作、相对经济、可行性高，通过每日7-8次SMBG值能够较为准确地估计2型糖尿病患者的日内血糖波动，且与CGM有较好的相关性。但SMBG测定的血糖结果变异性大，用以评估血糖波动时所采用的个别指标计算复杂，缺乏正常参考值。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前动态血糖监测(continuous glucose monitoring，CGM)和自我血糖监测(self-monitoring of blood glucose，SMBG)都可以有效评估血糖波动程度。CGM能够准确、全面地反映血糖波动的特征，但监测成本较高，操作相对复杂，不易在糖尿病人群中普及。SMBG灵活方便、易操作、相对经济、可行性高，通过每日7-8次SMBG值能够较为准确地估计2型糖尿病患者的日内血糖波动，且与CGM有较好的相关性。但SMBG测定的血糖结果变异性大，用以评估血糖波动时所采用的个别指标计算复杂，缺乏正常参考值。",
+          "start_idx": 0,
+          "end_idx": 271,
+          "entities": [
+            {
+              "entity_id": "T117",
+              "entity": "动态血糖监测(continuous glucose monitoring，CGM)",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T118",
+              "entity": "自我血糖监测(self-monitoring of blood glucose，SMBG)",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T119",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 96,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T120",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 98,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T121",
+              "entity": "CGM",
+              "entity_type": "Test_items",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T122",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 116,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T123",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 118,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T124",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T125",
+              "entity": "SMBG",
+              "entity_type": "Test_items",
+              "start_idx": 151,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T126",
+              "entity": "SMBG",
+              "entity_type": "Test_items",
+              "start_idx": 182,
+              "end_idx": 186
+            },
+            {
+              "entity_id": "T127",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T128",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 196,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T129",
+              "entity": "日内血糖",
+              "entity_type": "Test_items",
+              "start_idx": 204,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T130",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 208,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T131",
+              "entity": "CGM",
+              "entity_type": "Test_items",
+              "start_idx": 213,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T132",
+              "entity": "SMBG",
+              "entity_type": "Test_items",
+              "start_idx": 225,
+              "end_idx": 229
+            },
+            {
+              "entity_id": "T133",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 232,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T134",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 245,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T135",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 247,
+              "end_idx": 249
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T119",
+              "tail_entity_id": "T124"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T124"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T133",
+              "tail_entity_id": "T127"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "5 CGM评估血糖波动有哪些指标?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5 CGM评估血糖波动有哪些指标?",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T136",
+              "entity": "CGM",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T137",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T138",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "CGM已成为评估血糖波动的主要手段。常用的CGM评估血糖波动的指标及正常参考值见表1.",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CGM已成为评估血糖波动的主要手段。",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [
+            {
+              "entity_id": "T139",
+              "entity": "CGM",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T140",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T141",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "常用的CGM评估血糖波动的指标及正常参考值见表1.",
+          "start_idx": 18,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T142",
+              "entity": "CGM",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T143",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T144",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "6 SMBG评估血糖波动的指标有哪些?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "6 SMBG评估血糖波动的指标有哪些?",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T145",
+              "entity": "SMBG",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T146",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T147",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "常用的7点SMBG评估血糖波动的指标及正常参考值见表2。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "常用的7点SMBG评估血糖波动的指标及正常参考值见表2。",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T148",
+              "entity": "SMBG",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T149",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T150",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "7不同的降糖药物对血糖波动的影响是否不同?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "7不同的降糖药物对血糖波动的影响是否不同?",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T152",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 11,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "餐后高血糖和低血糖是引起糖尿病患者血糖波动的两个重要原因。常用降糖药对餐后高血糖和低血糖的影响见表3。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "餐后高血糖和低血糖是引起糖尿病患者血糖波动的两个重要原因。常用降糖药对餐后高血糖和低血糖的影响见表3。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T153",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T154",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T155",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T156",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T157",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T158",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T159",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 44
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T155"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "8哪些患者需要重点关注血糖波动?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "8哪些患者需要重点关注血糖波动?",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T160",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T161",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "餐后血糖高、胰岛功能差、使用胰岛素/胰岛素类似物或胰岛素促泌剂、低血糖风险高、长病程、高龄的糖尿病患者一般血糖波动大，应重点关注，尤其是使用胰岛素/胰岛素类似物或磺脲类药物的患者，因为这两类药物的低血糖风险较高，故更易造成血糖波动。研究提示，在磺脲类促泌剂基础上联合α-糖苷酶抑制剂，可减少低血糖，改善血糖波动；使用胰岛素/胰岛素类似物治疗的患者联合α-糖苷酶抑制剂后MAGE显著改善。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "餐后血糖高、胰岛功能差、使用胰岛素/胰岛素类似物或胰岛素促泌剂、低血糖风险高、长病程、高龄的糖尿病患者一般血糖波动大，应重点关注，尤其是使用胰岛素/胰岛素类似物或磺脲类药物的患者，因为这两类药物的低血糖风险较高，故更易造成血糖波动。研究提示，在磺脲类促泌剂基础上联合α-糖苷酶抑制剂，可减少低血糖，改善血糖波动；使用胰岛素/胰岛素类似物治疗的患者联合α-糖苷酶抑制剂后MAGE显著改善。",
+          "start_idx": 0,
+          "end_idx": 193,
+          "entities": [
+            {
+              "entity_id": "T162",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T163",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T164",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T165",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T166",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T167",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T168",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T169",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T170",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 81,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T171",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T172",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 111,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T173",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T174",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 122,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T175",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 133,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T176",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 145,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T177",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 151,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T178",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 153,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T179",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 158,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T180",
+              "entity": "胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T181",
+              "entity": "α-糖苷酶抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 175,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T182",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T183",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 32,
+              "end_idx": 35
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R29",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R31",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T163",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T183",
+              "tail_entity_id": "T164"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T166",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T170"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T174"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R39",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T180"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "9特殊人群的血糖波动管理应注意哪些问题?",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "9特殊人群的血糖波动管理应注意哪些问题?",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T184",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T185",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 8,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "以下患者应适当放宽血糖控制目标，并视患者的具体情况而选用降糖药物，以避免低血糖的发生，如果选择使用具有低血糖风险的药物时，应从小剂量开始，逐渐加量并注意观察患者的血糖变化及对药物的反应。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "以下患者应适当放宽血糖控制目标，并视患者的具体情况而选用降糖药物，以避免低血糖的发生，如果选择使用具有低血糖风险的药物时，应从小剂量开始，逐渐加量并注意观察患者的血糖变化及对药物的反应。",
+          "start_idx": 0,
+          "end_idx": 93,
+          "entities": [
+            {
+              "entity_id": "T186",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T187",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T188",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 51,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T189",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 83
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "(1)儿童及青少年糖尿病患者：推荐理想的HbA1c控制在7%以下，强调糖尿病血糖控制应权衡利弊，实行个体化，低血糖风险较高或尚无低血糖风险意识的患儿可适当放标准。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)儿童及青少年糖尿病患者：推荐理想的HbA1c控制在7%以下，强调糖尿病血糖控制应权衡利弊，实行个体化，低血糖风险较高或尚无低血糖风险意识的患儿可适当放标准。",
+          "start_idx": 0,
+          "end_idx": 81,
+          "entities": [
+            {
+              "entity_id": "T190",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T191",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T192",
+              "entity": "7%以下",
+              "entity_type": "Test_Value",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T193",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T194",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T195",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 54,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T196",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 67
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T191",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T190"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "(2)老年糖尿病患者：老年糖尿病患者病情复杂，病程较长，对低血糖的感知和耐受性差，慢性并发症常见，尤其是心血管疾病以及认知功能障碍等，因此，应加强对多重危险因素的管理。有研究显示，老年糖尿病患者的血糖波动存在性别差异，女性高于男性，此外，糖尿病病程、HbA1c水平也是老年2型糖尿病患者血糖波动的重要影响因素。国内外指南均建议在全面评估的基础上，遵循个体化的原则，根据忠者病情等综合情况，设定更具针对性和实用性的血糖控制分层管理目标.。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)老年糖尿病患者：老年糖尿病患者病情复杂，病程较长，对低血糖的感知和耐受性差，慢性并发症常见，尤其是心血管疾病以及认知功能障碍等，因此，应加强对多重危险因素的管理。有研究显示，老年糖尿病患者的血糖波动存在性别差异，女性高于男性，此外，糖尿病病程、HbA1c水平也是老年2型糖尿病患者血糖波动的重要影响因素。",
+          "start_idx": 0,
+          "end_idx": 155,
+          "entities": [
+            {
+              "entity_id": "T197",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T198",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T199",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T200",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T201",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 52,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T202",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T203",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 98,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T204",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 100,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T205",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 119,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T206",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 125,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T207",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T208",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 136,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T209",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 143,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T210",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 145,
+              "end_idx": 147
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T201",
+              "tail_entity_id": "T200"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T203",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T208",
+              "tail_entity_id": "T207"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "国内外指南均建议在全面评估的基础上，遵循个体化的原则，根据忠者病情等综合情况，设定更具针对性和实用性的血糖控制分层管理目标.。",
+          "start_idx": 155,
+          "end_idx": 218,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 51,
+              "end_idx": 53
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "(3)妊娠期的糖尿病忠者：糖尿病合并妊娠、妊娠期糖尿病患者的血糖控制目标在餐前及餐后2h分别为≤5.3mmol/L、6.7mmol/L，特殊情况下可测定餐后1h血糖，其控制目标是≤7.8mmol/L；但夜间血糖不低于3.3mmol/L。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)妊娠期的糖尿病忠者：糖尿病合并妊娠、妊娠期糖尿病患者的血糖控制目标在餐前及餐后2h分别为≤5.3mmol/L、6.7mmol/L，特殊情况下可测定餐后1h血糖，其控制目标是≤7.8mmol/L；但夜间血糖不低于3.3mmol/L。",
+          "start_idx": 0,
+          "end_idx": 118,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T213",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T214",
+              "entity": "妊娠期糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T215",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T216",
+              "entity": "≤5.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T217",
+              "entity": "6.7mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 58,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T218",
+              "entity": "餐后1h血糖",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T219",
+              "entity": "≤7.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 89,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T220",
+              "entity": "夜间血糖",
+              "entity_type": "Test_items",
+              "start_idx": 101,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T221",
+              "entity": "不低于3.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 105,
+              "end_idx": 117
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T212"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(4)糖尿病合并慢性肾脏病患者：糖尿病合并慢性肾脏病，尤其是估算肾小球滤过率(estimated glomerular filtration rate，eGFR)<45mL·min-1(1.73m2)-2的患者，其血糖控制目标应遵循个体化原则，尽量避免低血糖的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(4)糖尿病合并慢性肾脏病患者：糖尿病合并慢性肾脏病，尤其是估算肾小球滤过率(estimated glomerular filtration rate，eGFR)<45mL·min-1(1.73m2)-2的患者，其血糖控制目标应遵循个体化原则，尽量避免低血糖的发生。",
+          "start_idx": 0,
+          "end_idx": 133,
+          "entities": [
+            {
+              "entity_id": "T222",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T223",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T224",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T225",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T226",
+              "entity": "慢性肾脏病",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T227",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 107,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T228",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 126,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T229",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T230",
+              "entity": "肾小球滤过率(estimated glomerular filtration rate，eGFR)",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T231",
+              "entity": "<45mL·min-1(1.73m2)-2",
+              "entity_type": "Test_Value",
+              "start_idx": 81,
+              "end_idx": 102
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T223"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T230",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T226"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "(5)糖尿病合并心血管疾病患者：在合并心血管疾病的糖尿病患者中，一旦发生严重低血糖，可能诱发心肌梗死、严重心律失常、卒中、猝死等严重事件，对于这类人群，应尽量在避免低血糖的情况下使血糖控制达标。因此，本共识建议，对于老年、病程长、合并心血管疾病的糖尿病患者，为了避免低血糖带来的风险，HbA1c控制目标应适当宽松(<7.5%-8.0%)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(5)糖尿病合并心血管疾病患者：在合并心血管疾病的糖尿病患者中，一旦发生严重低血糖，可能诱发心肌梗死、严重心律失常、卒中、猝死等严重事件，对于这类人群，应尽量在避免低血糖的情况下使血糖控制达标。因此，本共识建议，对于老年、病程长、合并心血管疾病的糖尿病患者，为了避免低血糖带来的风险，HbA1c控制目标应适当宽松(<7.5%-8.0%)。",
+          "start_idx": 0,
+          "end_idx": 169,
+          "entities": [
+            {
+              "entity_id": "T232",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T233",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T234",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T235",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T236",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T237",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T238",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T239",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 36,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T240",
+              "entity": "心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T241",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T242",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T243",
+              "entity": "心律失常",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T244",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 53,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T245",
+              "entity": "卒中",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T246",
+              "entity": "猝死",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T247",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 64,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T248",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T249",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T250",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 94,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T251",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 117,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T252",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T253",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 123,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T254",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 133,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T255",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 142,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T256",
+              "entity": "<7.5%-8.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 157,
+              "end_idx": 167
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T236",
+              "tail_entity_id": "T235"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T241",
+              "tail_entity_id": "T240"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T252",
+              "tail_entity_id": "T251"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T253"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "血糖波动与糖尿病慢性并发症的关系越来越受到重视，血糖波动控制的重要性将比肩于HbA1c、空腹血糖、餐后血糖控制。未来，血糖波动的评价指标仍需不断地优化、量化，以易于计算，继续寻找基于终点事件的血糖波动指标的切点及血糖波动与终点事件因果关系的证据，都将有助于优化降糖药物治疗策略，使更多的糖尿病患者受益。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖波动与糖尿病慢性并发症的关系越来越受到重视，血糖波动控制的重要性将比肩于HbA1c、空腹血糖、餐后血糖控制。未来，血糖波动的评价指标仍需不断地优化、量化，以易于计算，继续寻找基于终点事件的血糖波动指标的切点及血糖波动与终点事件因果关系的证据，都将有助于优化降糖药物治疗策略，使更多的糖尿病患者受益。",
+          "start_idx": 0,
+          "end_idx": 151,
+          "entities": [
+            {
+              "entity_id": "T257",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T258",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T259",
+              "entity": "糖尿病慢性并发症",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T260",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T261",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T262",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T263",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T264",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T265",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T266",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T267",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 96,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T268",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 98,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T269",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 106,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T270",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 108,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T271",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 143,
+              "end_idx": 146
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T262",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T263",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T264",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T265",
+              "tail_entity_id": "T259"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T271"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

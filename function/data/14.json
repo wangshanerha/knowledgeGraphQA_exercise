@@ -1,0 +1,5094 @@
+{
+  "doc_id": "14",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "围术期血糖管理专家共识(快捷版)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖管理专家共识(快捷版)",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "血糖异常增高是围术期的常见问题。一方面，手术创伤应激诱发机体分泌儿茶酚胺、皮质醇和炎性介质等胰岛素拮抗因子，促使血糖增高。另一方面，合并糖尿病、代谢综合征等胰岛素抵抗或胰岛素分泌障碍疾病的患者更容易发生围术期高血糖。另外，围术期经常使用的激素、含糖营养液等进一步增加了高血糖的风险。值得注意的是，长时间禁食和不恰当的降糖治疗也有引起患者低血糖和血糖剧烈波动的可能。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖异常增高是围术期的常见问题。一方面，手术创伤应激诱发机体分泌儿茶酚胺、皮质醇和炎性介质等胰岛素拮抗因子，促使血糖增高。另一方面，合并糖尿病、代谢综合征等胰岛素抵抗或胰岛素分泌障碍疾病的患者更容易发生围术期高血糖。另外，围术期经常使用的激素、含糖营养液等进一步增加了高血糖的风险。值得注意的是，长时间禁食和不恰当的降糖治疗也有引起患者低血糖和血糖剧烈波动的可能。",
+          "start_idx": 0,
+          "end_idx": 182,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T2",
+              "entity": "异常增高",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T3",
+              "entity": "手术创伤",
+              "entity_type": "Reason",
+              "start_idx": 20,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T4",
+              "entity": "应激诱发机体分泌儿茶酚胺、皮质醇和炎性介质等胰岛素拮抗因子",
+              "entity_type": "Pathogenesis",
+              "start_idx": 24,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T5",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T6",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 58,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T7",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T8",
+              "entity": "代谢综合征",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T9",
+              "entity": "围术期高血糖",
+              "entity_type": "Disease",
+              "start_idx": 101,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T10",
+              "entity": "围术期",
+              "entity_type": "Class",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T11",
+              "entity": "激素",
+              "entity_type": "Reason",
+              "start_idx": 119,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T12",
+              "entity": "含糖营养液",
+              "entity_type": "Reason",
+              "start_idx": 122,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T13",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T14",
+              "entity": "长时间禁食",
+              "entity_type": "Reason",
+              "start_idx": 148,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T15",
+              "entity": "不恰当的降糖治疗",
+              "entity_type": "Reason",
+              "start_idx": 154,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T16",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 168,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T17",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 172,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T18",
+              "entity": "剧烈波动",
+              "entity_type": "Test_Value",
+              "start_idx": 174,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T19",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T20",
+              "entity": "胰岛素分泌障碍疾病",
+              "entity_type": "Disease",
+              "start_idx": 84,
+              "end_idx": 93
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T9"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T13"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T13"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T17",
+              "tail_entity_id": "T16"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "大量证据表明，围术期血糖异常(包括高血糖、低血糖和血糖波动)增加手术患者的死亡率，增加感染伤口不愈合以及心脑血管事件等并发症的发生率，延长住院时间，影响远期预后。合理的血糖监测和调控是围术期管理的重要组成部分，应当得到重视。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "大量证据表明，围术期血糖异常(包括高血糖、低血糖和血糖波动)增加手术患者的死亡率，增加感染伤口不愈合以及心脑血管事件等并发症的发生率，延长住院时间，影响远期预后。",
+          "start_idx": 0,
+          "end_idx": 81,
+          "entities": [
+            {
+              "entity_id": "T21",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T22",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T23",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T24",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 21,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T25",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 25,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T26",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T27",
+              "entity": "感染",
+              "entity_type": "ADE",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T28",
+              "entity": "伤口不愈合",
+              "entity_type": "ADE",
+              "start_idx": 45,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T29",
+              "entity": "心脑血管事件",
+              "entity_type": "ADE",
+              "start_idx": 52,
+              "end_idx": 58
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T23"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T24"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "合理的血糖监测和调控是围术期管理的重要组成部分，应当得到重视。",
+          "start_idx": 81,
+          "end_idx": 112,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "据此，中华医学会麻醉学分会于2014年组织专家组起草和制订了《围术期血糖管理专家共识》，本文是在此基础上进一步修订的2015年快捷版本。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "据此，中华医学会麻醉学分会于2014年组织专家组起草和制订了《围术期血糖管理专家共识》，本文是在此基础上进一步修订的2015年快捷版本。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T31",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "围术期血糖管理的基本原则",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖管理的基本原则",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [
+            {
+              "entity_id": "T32",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "识别围术期血糖异常的高危人群围术期血糖异常以高血糖为主，可分为合并糖尿病的高血糖和应激性高血糖两类(stress-induced hyperglycemia)。一般手术围术期高血糖以合并糖尿病者居多。目前我国糖尿病患病率逐年增高，合并糖尿病的外科手术患者也日趋增多，其中相当比例的患者术前并未得到正确诊断和有效控制。有国外研究报道，择期手术中10%以上的患者合并隐匿性糖尿病。与普通人群相比，合并糖尿病尤其是未发现、未治疗的糖尿病患者血糖升高更加显著，围术期死亡率和并发症发生率更高，应当在术前加以识别。而单纯由于应激导致血糖显著增高者往往提示手术应激很强，或合并感染、败血症等并发症，可能为危重患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "识别围术期血糖异常的高危人群围术期血糖异常以高血糖为主，可分为合并糖尿病的高血糖和应激性高血糖两类(stress-induced hyperglycemia)。一般手术围术期高血糖以合并糖尿病者居多。目前我国糖尿病患病率逐年增高，合并糖尿病的外科手术患者也日趋增多，其中相当比例的患者术前并未得到正确诊断和有效控制。有国外研究报道，择期手术中10%以上的患者合并隐匿性糖尿病。与普通人群相比，合并糖尿病尤其是未发现、未治疗的糖尿病患者血糖升高更加显著，围术期死亡率和并发症发生率更高，应当在术前加以识别。",
+          "start_idx": 0,
+          "end_idx": 252,
+          "entities": [
+            {
+              "entity_id": "T33",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T34",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T35",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T36",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T37",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T38",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T39",
+              "entity": "应激性高血糖",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T40",
+              "entity": "应激性",
+              "entity_type": "Class",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T41",
+              "entity": "stress-induced hyperglycemia",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T42",
+              "entity": "围术期高血糖",
+              "entity_type": "Disease",
+              "start_idx": 84,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T43",
+              "entity": "围术期",
+              "entity_type": "Class",
+              "start_idx": 84,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T44",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 93,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T45",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 104,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T46",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T47",
+              "entity": "隐匿性糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T48",
+              "entity": "隐匿性",
+              "entity_type": "Class",
+              "start_idx": 181,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T49",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 198,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T50",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 212,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T51",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 217,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T52",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 219,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T59",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 19,
+              "end_idx": 21
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T36"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T37"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T38"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T39"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T41"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T40",
+              "tail_entity_id": "T39"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T43",
+              "tail_entity_id": "T42"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T47"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T51",
+              "tail_entity_id": "T50"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "而单纯由于应激导致血糖显著增高者往往提示手术应激很强，或合并感染、败血症等并发症，可能为危重患者。",
+          "start_idx": 252,
+          "end_idx": 301,
+          "entities": [
+            {
+              "entity_id": "T53",
+              "entity": "应激",
+              "entity_type": "Reason",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T54",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T55",
+              "entity": "显著增高",
+              "entity_type": "Test_Value",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T56",
+              "entity": "手术应激",
+              "entity_type": "Reason",
+              "start_idx": 20,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T57",
+              "entity": "感染",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T58",
+              "entity": "败血症",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "合理的血糖控制目标大量循证医学证据表明，血糖控制有利于减少外科重症患者术后感染等并发症，但控制过于严格(如降至“正常”范围)则增加低血糖风险，对降低总死亡率并无益处。尽管目前的结论主要来源于对ICU重症患者以及体外循环心脏手术患者的研究，对一般外科手术患者的理想血糖值尚缺乏高级别的研究证据，但采用适当宽松的血糖控制目标已得到了广泛的共识。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "合理的血糖控制目标大量循证医学证据表明，血糖控制有利于减少外科重症患者术后感染等并发症，但控制过于严格(如降至“正常”范围)则增加低血糖风险，对降低总死亡率并无益处。",
+          "start_idx": 0,
+          "end_idx": 83,
+          "entities": [
+            {
+              "entity_id": "T60",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T61",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T65",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T66",
+              "entity": "术后感染",
+              "entity_type": "ADE",
+              "start_idx": 35,
+              "end_idx": 39
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "尽管目前的结论主要来源于对ICU重症患者以及体外循环心脏手术患者的研究，对一般外科手术患者的理想血糖值尚缺乏高级别的研究证据，但采用适当宽松的血糖控制目标已得到了广泛的共识。",
+          "start_idx": 83,
+          "end_idx": 170,
+          "entities": [
+            {
+              "entity_id": "T62",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 71,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T64",
+              "entity": "外循环心脏手术",
+              "entity_type": "Operation",
+              "start_idx": 23,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "围术期血糖管理的要点围术期血糖管理的要点在于控制高血糖，同时避免发生低血糖，维持血糖平稳。因禁食、降糖方案未及时调整或降糖治疗中断等因素造成的围术期血糖波动比稳定的高血糖危害更大。严密的血糖监测、及时调整降糖治疗方案是保持围术期血糖平稳的关键。应根据患者术前血糖水平、治疗方案、有无并发症、手术类型等进行全面评估，制定个体化的管理方案。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖管理的要点围术期血糖管理的要点在于控制高血糖，同时避免发生低血糖，维持血糖平稳。因禁食、降糖方案未及时调整或降糖治疗中断等因素造成的围术期血糖波动比稳定的高血糖危害更大。",
+          "start_idx": 0,
+          "end_idx": 90,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T68",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T69",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T70",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T71",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T72",
+              "entity": "禁食",
+              "entity_type": "Treatment",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T73",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T74",
+              "entity": "波动比稳定",
+              "entity_type": "Test_Value",
+              "start_idx": 76,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T75",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 82,
+              "end_idx": 85
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T67",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T72",
+              "tail_entity_id": "T75"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T75"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "严密的血糖监测、及时调整降糖治疗方案是保持围术期血糖平稳的关键。",
+          "start_idx": 90,
+          "end_idx": 122,
+          "entities": [
+            {
+              "entity_id": "T76",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T77",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T78",
+              "entity": "平稳",
+              "entity_type": "Test_Value",
+              "start_idx": 26,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "应根据患者术前血糖水平、治疗方案、有无并发症、手术类型等进行全面评估，制定个体化的管理方案。",
+          "start_idx": 122,
+          "end_idx": 168,
+          "entities": [
+            {
+              "entity_id": "T79",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "血糖术前评估与术前准备",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖术前评估与术前准备",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T80",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "术前评估",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "术前评估",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "1.糖化血红蛋白HbA1c反映采血前三个月的平均血糖水平，可用于术前筛查糖尿病和评价血糖控制效果。对既往无糖尿病病史者，如果年龄≥45岁或体重指数BMI≥25kg/m2，同时合并高血压、高血脂、心血管疾病、糖尿病家族史等高危因素，行心脏外科、神经外科、骨科、创伤外科、器官移植等高危手术者，推荐术前筛查HbA1c；HbA1c≥6.5%即可诊断糖尿病。既往已有明确糖尿病病史的患者，HbA1c≤7%提示血糖控制满意，围术期风险较低；HbA1c>8.5%者建议考虑推迟择期手术。单纯应激性高血糖者HbA1c正常。注意贫血、近期输血等因素可能干扰HbA1c测量的准确性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.糖化血红蛋白HbA1c反映采血前三个月的平均血糖水平，可用于术前筛查糖尿病和评价血糖控制效果。对既往无糖尿病病史者，如果年龄≥45岁或体重指数BMI≥25kg/m2，同时合并高血压、高血脂、心血管疾病、糖尿病家族史等高危因素，行心脏外科、神经外科、骨科、创伤外科、器官移植等高危手术者，推荐术前筛查HbA1c；HbA1c≥6.5%即可诊断糖尿病。既往已有明确糖尿病病史的患者，HbA1c≤7%提示血糖控制满意，围术期风险较低；HbA1c>8.5%者建议考虑推迟择期手术。单纯应激性高血糖者HbA1c正常。",
+          "start_idx": 0,
+          "end_idx": 254,
+          "entities": [
+            {
+              "entity_id": "T81",
+              "entity": "糖化血红蛋白HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T82",
+              "entity": "采血",
+              "entity_type": "Test",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T83",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T84",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T85",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T86",
+              "entity": "高血压",
+              "entity_type": "Disease",
+              "start_idx": 89,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T87",
+              "entity": "高血脂",
+              "entity_type": "Disease",
+              "start_idx": 93,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T88",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 97,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T89",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 97,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T90",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T91",
+              "entity": "器官移植",
+              "entity_type": "Operation",
+              "start_idx": 134,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T92",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 151,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T93",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 157,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T94",
+              "entity": "≥6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 162,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T95",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 171,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T96",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T97",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 190,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T98",
+              "entity": "≤7%",
+              "entity_type": "Test_Value",
+              "start_idx": 195,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T99",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 200,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T100",
+              "entity": "控制满意",
+              "entity_type": "Test_Value",
+              "start_idx": 202,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T101",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 215,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T102",
+              "entity": ">8.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 220,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T103",
+              "entity": "应激性高血糖",
+              "entity_type": "Disease",
+              "start_idx": 239,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T104",
+              "entity": "应激性",
+              "entity_type": "Class",
+              "start_idx": 239,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T105",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 246,
+              "end_idx": 251
+            },
+            {
+              "entity_id": "T106",
+              "entity": "正常",
+              "entity_type": "Test_Value",
+              "start_idx": 251,
+              "end_idx": 253
+            },
+            {
+              "entity_id": "T110",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T88"
+            },
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T103"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T103"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "注意贫血、近期输血等因素可能干扰HbA1c测量的准确性。",
+          "start_idx": 254,
+          "end_idx": 282,
+          "entities": [
+            {
+              "entity_id": "T107",
+              "entity": "贫血",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T108",
+              "entity": "输血",
+              "entity_type": "Treatment",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T109",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "2.对合并糖尿病的患者，术前还应了解糖尿病类型、病程、目前的治疗方案、低血糖发作情况，特别是有无糖尿病并发症。合并糖尿病酮症酸中毒、高渗综合症是非急诊手术的禁忌。病程长的糖尿病患者可能并发冠心病等心脑血管疾病，且心肌缺血症状往往不典型、容易漏诊，应引起警惕。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.对合并糖尿病的患者，术前还应了解糖尿病类型、病程、目前的治疗方案、低血糖发作情况，特别是有无糖尿病并发症。合并糖尿病酮症酸中毒、高渗综合症是非急诊手术的禁忌。病程长的糖尿病患者可能并发冠心病等心脑血管疾病，且心肌缺血症状往往不典型、容易漏诊，应引起警惕。",
+          "start_idx": 0,
+          "end_idx": 129,
+          "entities": [
+            {
+              "entity_id": "T111",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T112",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T113",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T114",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T115",
+              "entity": "糖尿病酮症酸中毒",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T116",
+              "entity": "高渗综合症",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T117",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T118",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 94,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T119",
+              "entity": "心脑血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 98,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T120",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 98,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T121",
+              "entity": "心肌缺血",
+              "entity_type": "Disease",
+              "start_idx": 106,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T122",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 106,
+              "end_idx": 108
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T119"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T122",
+              "tail_entity_id": "T121"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "3.手术类型与围术期高血糖风险相关。手术越大、应激越强，血糖增高越明显。与区域麻醉比较，全身麻醉特别是吸入性麻醉药刺激血糖升高的作用更显著，但目前并没有证据证明糖尿病患者必须首选区域麻醉。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.手术类型与围术期高血糖风险相关。手术越大、应激越强，血糖增高越明显。与区域麻醉比较，全身麻醉特别是吸入性麻醉药刺激血糖升高的作用更显著，但目前并没有证据证明糖尿病患者必须首选区域麻醉。",
+          "start_idx": 0,
+          "end_idx": 94,
+          "entities": [
+            {
+              "entity_id": "T123",
+              "entity": "围术期高血糖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T124",
+              "entity": "手术越大",
+              "entity_type": "Reason",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T125",
+              "entity": "应激越强",
+              "entity_type": "Reason",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T126",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T127",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T128",
+              "entity": "区域麻醉",
+              "entity_type": "Operation",
+              "start_idx": 37,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T129",
+              "entity": "全身麻醉",
+              "entity_type": "Operation",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T130",
+              "entity": "区域麻醉",
+              "entity_type": "Operation",
+              "start_idx": 89,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T131",
+              "entity": "吸入性麻醉药",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T132",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T133",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T134",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 80,
+              "end_idx": 83
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Operation_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T130",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T134"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T134"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "术前准备",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "术前准备",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "胰岛素是围术期唯一安全的降糖药物。术前应将原有降糖方案过渡至胰岛素，并根据禁食情况减去控制餐后血糖的胰岛素剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "胰岛素是围术期唯一安全的降糖药物。",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T135",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "术前应将原有降糖方案过渡至胰岛素，并根据禁食情况减去控制餐后血糖的胰岛素剂量。",
+          "start_idx": 17,
+          "end_idx": 56,
+          "entities": [
+            {
+              "entity_id": "T136",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T137",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T138",
+              "entity": "禁食",
+              "entity_type": "Treatment",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T139",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 32
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "1.糖尿病患者手术当日停用口服降糖药和非胰岛素注射剂。磺脲类和格列奈类口服降糖药可能造成低血糖，术前应停用至少24小时；二甲双胍有引起乳酸酸中毒的风险，肾功能不全者术前停用24~48小时。停药期间监测血糖，使用常规胰岛素控制血糖水平。术前住院时间超过3天的患者可在入院后即换用短效胰岛素皮下注射控制血糖，术前调整到适合的剂量。无需禁食水的短小局麻手术可保留口服降糖药。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.糖尿病患者手术当日停用口服降糖药和非胰岛素注射剂。磺脲类和格列奈类口服降糖药可能造成低血糖，术前应停用至少24小时；二甲双胍有引起乳酸酸中毒的风险，肾功能不全者术前停用24~48小时。",
+          "start_idx": 0,
+          "end_idx": 94,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T141",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T142",
+              "entity": "非胰岛素注射剂",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T143",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T144",
+              "entity": "格列奈类口服降糖药",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T145",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T146",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T147",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T148",
+              "entity": "乳酸酸中毒",
+              "entity_type": "ADE",
+              "start_idx": 67,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T149",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 76,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T150",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 76,
+              "end_idx": 77
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R47",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T145",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R49",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R50",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T149"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "停药期间监测血糖，使用常规胰岛素控制血糖水平。",
+          "start_idx": 94,
+          "end_idx": 117,
+          "entities": [
+            {
+              "entity_id": "T151",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T152",
+              "entity": "常规胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T153",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "术前住院时间超过3天的患者可在入院后即换用短效胰岛素皮下注射控制血糖，术前调整到适合的剂量。",
+          "start_idx": 117,
+          "end_idx": 163,
+          "entities": [
+            {
+              "entity_id": "T154",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T155",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 26,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T156",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 34
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R52",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T154"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "无需禁食水的短小局麻手术可保留口服降糖药。",
+          "start_idx": 163,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T157",
+              "entity": "禁食水",
+              "entity_type": "Treatment",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T158",
+              "entity": "局麻手术",
+              "entity_type": "Operation",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T159",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 15,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "2.入院前长期胰岛素治疗者，方案多为控制基础血糖的中长效胰岛素联合控制餐后血糖的短效胰岛素皮下注射。长时间大手术、术后无法恢复进食的糖尿病患者，手术日换用短效胰岛素持续静脉泵注控制血糖。短小门诊手术者，手术当日可保留中长效胰岛素，剂量不变或减少1/3~1/2，停用餐前短效胰岛素。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.入院前长期胰岛素治疗者，方案多为控制基础血糖的中长效胰岛素联合控制餐后血糖的短效胰岛素皮下注射。长时间大手术、术后无法恢复进食的糖尿病患者，手术日换用短效胰岛素持续静脉泵注控制血糖。短小门诊手术者，手术当日可保留中长效胰岛素，剂量不变或减少1/3~1/2，停用餐前短效胰岛素。",
+          "start_idx": 0,
+          "end_idx": 140,
+          "entities": [
+            {
+              "entity_id": "T160",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T161",
+              "entity": "基础血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T162",
+              "entity": "中长效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T163",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T164",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 40,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T165",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 45,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T166",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T167",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 77,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T168",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T169",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 84,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T170",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T171",
+              "entity": "中长效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 108,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T172",
+              "entity": "剂量不变或减少1/3~1/2",
+              "entity_type": "Amount",
+              "start_idx": 115,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T173",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 139
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R53",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T162"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R54",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T164"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R57",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R58",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R59",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T171"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "3.术前控制餐前血糖≤140mg/dl(7.8mmol/L)，餐后血糖≤180mg/dl(10.0mmol/L)。手术风险越高，术前血糖控制达标的重要性越强。另一方面，术前血糖长期显著增高者，围术期血糖不宜下降过快。因此，应当综合评估风险，合理选择手术时机，可适当放宽术前血糖目标上限至空腹≤180mg/dl(10mmol/L)，随机或餐后2小时≤216mg/dl(12mmol/L)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.术前控制餐前血糖≤140mg/dl(7.8mmol/L)，餐后血糖≤180mg/dl(10.0mmol/L)。",
+          "start_idx": 0,
+          "end_idx": 57,
+          "entities": [
+            {
+              "entity_id": "T174",
+              "entity": "餐前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T175",
+              "entity": "≤140mg/dl(7.8mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 10,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T176",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T177",
+              "entity": "≤180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 35,
+              "end_idx": 56
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "手术风险越高，术前血糖控制达标的重要性越强。",
+          "start_idx": 57,
+          "end_idx": 79,
+          "entities": [
+            {
+              "entity_id": "T178",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "另一方面，术前血糖长期显著增高者，围术期血糖不宜下降过快。",
+          "start_idx": 79,
+          "end_idx": 108,
+          "entities": [
+            {
+              "entity_id": "T179",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T180",
+              "entity": "长期显著增高",
+              "entity_type": "Test_Value",
+              "start_idx": 9,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T181",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T187",
+              "entity": "下降过快",
+              "entity_type": "Test_Value",
+              "start_idx": 24,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "因此，应当综合评估风险，合理选择手术时机，可适当放宽术前血糖目标上限至空腹≤180mg/dl(10mmol/L)，随机或餐后2小时≤216mg/dl(12mmol/L)。",
+          "start_idx": 108,
+          "end_idx": 193,
+          "entities": [
+            {
+              "entity_id": "T182",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T183",
+              "entity": "≤180mg/dl(10mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 37,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T184",
+              "entity": "随机或餐后2小时",
+              "entity_type": "Test_items",
+              "start_idx": 57,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T185",
+              "entity": "≤216mg/dl(12mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 65,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T186",
+              "entity": "空腹",
+              "entity_type": "Test_items",
+              "start_idx": 35,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "4.避免术前不必要的长时间禁食，糖尿病患者择期手术应安排在当日第一台进行。禁食期间注意血糖监测，必要时输注含糖液体。由于术前精神紧张应激，手术患者发生低血糖的风险低于普通住院患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.避免术前不必要的长时间禁食，糖尿病患者择期手术应安排在当日第一台进行。禁食期间注意血糖监测，必要时输注含糖液体。由于术前精神紧张应激，手术患者发生低血糖的风险低于普通住院患者。",
+          "start_idx": 0,
+          "end_idx": 90,
+          "entities": [
+            {
+              "entity_id": "T188",
+              "entity": "禁食",
+              "entity_type": "Treatment",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T189",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T190",
+              "entity": "禁食",
+              "entity_type": "Treatment",
+              "start_idx": 37,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T191",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T192",
+              "entity": "输注",
+              "entity_type": "Method",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T193",
+              "entity": "含糖液体",
+              "entity_type": "Drug",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T194",
+              "entity": "精神紧张应激",
+              "entity_type": "Reason",
+              "start_idx": 62,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T195",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 78
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T188",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R61",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "围术期血糖监测和控制目标",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖监测和控制目标",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [
+            {
+              "entity_id": "T196",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "围术期血糖测量方法床旁快速血糖仪测量指血(毛细血管血)血糖用于血流动力学稳定的患者。血糖仪需定期校准。严重低血糖时血糖仪所测得的数值可能偏高，应与中心实验室测量的静脉血结果进行对照。动脉或静脉血气分析是围术期血糖监测的金标准。在低血压、组织低灌注、贫血以及高血脂、高胆红素血症等代谢异常的情况下，指血血糖准确性下降，应使用动脉血气监测血糖。生理情况下，动脉血糖较毛细血管血糖高0.3mmol/L。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖测量方法床旁快速血糖仪测量指血(毛细血管血)血糖用于血流动力学稳定的患者。血糖仪需定期校准。严重低血糖时血糖仪所测得的数值可能偏高，应与中心实验室测量的静脉血结果进行对照。动脉或静脉血气分析是围术期血糖监测的金标准。在低血压、组织低灌注、贫血以及高血脂、高胆红素血症等代谢异常的情况下，指血血糖准确性下降，应使用动脉血气监测血糖。",
+          "start_idx": 0,
+          "end_idx": 170,
+          "entities": [
+            {
+              "entity_id": "T197",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T198",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T199",
+              "entity": "指血(毛细血管血)血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T200",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T203",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T204",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 167,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T205",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T206",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T207",
+              "entity": "偏高",
+              "entity_type": "Test_Value",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T208",
+              "entity": "动脉或静脉血气分析",
+              "entity_type": "Test",
+              "start_idx": 91,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T209",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T210",
+              "entity": "低血压",
+              "entity_type": "Symptom",
+              "start_idx": 114,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T211",
+              "entity": "组织低灌注",
+              "entity_type": "Symptom",
+              "start_idx": 118,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T212",
+              "entity": "贫血",
+              "entity_type": "Disease",
+              "start_idx": 124,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T213",
+              "entity": "高血脂",
+              "entity_type": "Disease",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T214",
+              "entity": "高胆红素血症",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T215",
+              "entity": "指血血糖",
+              "entity_type": "Test_items",
+              "start_idx": 148,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T216",
+              "entity": "准确性下降",
+              "entity_type": "Test_Value",
+              "start_idx": 152,
+              "end_idx": 157
+            },
+            {
+              "entity_id": "T217",
+              "entity": "动脉血气",
+              "entity_type": "Test",
+              "start_idx": 161,
+              "end_idx": 165
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T205"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T213"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T214"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "生理情况下，动脉血糖较毛细血管血糖高0.3mmol/L。",
+          "start_idx": 170,
+          "end_idx": 198,
+          "entities": [
+            {
+              "entity_id": "T201",
+              "entity": "动脉血糖",
+              "entity_type": "Test_items",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T202",
+              "entity": "毛细血管血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T218",
+              "entity": "高0.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 17,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "围术期血糖监测频率正常饮食的患者监测空腹血糖、三餐后血糖和睡前血糖。禁食患者每4~6小时监测一次血糖。术中血糖波动风险高，低血糖表现难以发现，应1~2小时监测一次血糖。危重患者、大手术或持续静脉输注胰岛素的患者，每0.5~1小时监测一次。体外循环手术中，降温复温期间血糖波动大，每15分钟监测一次。血糖≤70mg/dl(3.9mmol/L)时每5~15分钟监测一次直至低血糖得到纠正。病情稳定的门诊手术患者，如手术时间≤2小时，在入院后和离院前分别监测一次血糖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖监测频率正常饮食的患者监测空腹血糖、三餐后血糖和睡前血糖。禁食患者每4~6小时监测一次血糖。术中血糖波动风险高，低血糖表现难以发现，应1~2小时监测一次血糖。危重患者、大手术或持续静脉输注胰岛素的患者，每0.5~1小时监测一次。体外循环手术中，降温复温期间血糖波动大，每15分钟监测一次。血糖≤70mg/dl(3.9mmol/L)时每5~15分钟监测一次直至低血糖得到纠正。",
+          "start_idx": 0,
+          "end_idx": 192,
+          "entities": [
+            {
+              "entity_id": "T219",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T220",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T221",
+              "entity": "三餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T222",
+              "entity": "睡前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T223",
+              "entity": "禁食",
+              "entity_type": "Treatment",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T224",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T225",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T226",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T227",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T228",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T229",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 93,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T230",
+              "entity": "静脉输注",
+              "entity_type": "Method",
+              "start_idx": 95,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T231",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 99,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T232",
+              "entity": "体外循环手术",
+              "entity_type": "Operation",
+              "start_idx": 119,
+              "end_idx": 125
+            },
+            {
+              "entity_id": "T233",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 133,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T234",
+              "entity": "波动大",
+              "entity_type": "Test_Value",
+              "start_idx": 135,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T235",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 149,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T236",
+              "entity": "≤70mg/dl(3.9mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 151,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T237",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 184,
+              "end_idx": 187
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T227"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T228",
+              "tail_entity_id": "T227"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R75",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R76",
+              "head_entity_id": "T230",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T237"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "病情稳定的门诊手术患者，如手术时间≤2小时，在入院后和离院前分别监测一次血糖。",
+          "start_idx": 192,
+          "end_idx": 231,
+          "entities": [
+            {
+              "entity_id": "T238",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 38
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "围术期血糖控制目标",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖控制目标",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T239",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "1.推荐围术期血糖控制在140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)，不建议控制过严。正常饮食的患者控制餐前血糖≤140mg/dl(7.8mmol/L)，餐后血糖≤180mg/dl(10.0mmol/L)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.推荐围术期血糖控制在140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)，不建议控制过严。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T240",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T241",
+              "entity": "140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 52
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "正常饮食的患者控制餐前血糖≤140mg/dl(7.8mmol/L)，餐后血糖≤180mg/dl(10.0mmol/L)。",
+          "start_idx": 61,
+          "end_idx": 121,
+          "entities": [
+            {
+              "entity_id": "T242",
+              "entity": "餐前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T243",
+              "entity": "≤140mg/dl(7.8mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T244",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T245",
+              "entity": "≤180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 38,
+              "end_idx": 59
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "2.术后ICU住院时间≥3d的危重患者，推荐血糖目标值≤150mg/dl(8.4mmol/L)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.术后ICU住院时间≥3d的危重患者，推荐血糖目标值≤150mg/dl(8.4mmol/L)。",
+          "start_idx": 0,
+          "end_idx": 48,
+          "entities": [
+            {
+              "entity_id": "T246",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T247",
+              "entity": "≤150mg/dl(8.4mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 27,
+              "end_idx": 47
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "3.根据患者手术类型、术前血糖水平、脏器功能，建立围术期血糖控制的个体化目标。整形手术对伤口愈合要求高，血糖目标降低至108mg/dl(6.0mmol/L)~144mg/dl(8.0mmol/L)有利于减少术后伤口感染。脑血管疾病患者对低血糖耐受差，血糖目标值可适当放宽至≤214mg/dl(12.0mmol/L)。高龄、有严重合并症、频繁发作低血糖的患者，血糖目标值也可适当放宽。原则上血糖最高不宜超过250mg/dl(13.9mmol/L)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.根据患者手术类型、术前血糖水平、脏器功能，建立围术期血糖控制的个体化目标。整形手术对伤口愈合要求高，血糖目标降低至108mg/dl(6.0mmol/L)~144mg/dl(8.0mmol/L)有利于减少术后伤口感染。脑血管疾病患者对低血糖耐受差，血糖目标值可适当放宽至≤214mg/dl(12.0mmol/L)。",
+          "start_idx": 0,
+          "end_idx": 158,
+          "entities": [
+            {
+              "entity_id": "T248",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T249",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T250",
+              "entity": "整形手术",
+              "entity_type": "Operation",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T251",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T252",
+              "entity": "108mg/dl(6.0mmol/L)~144mg/dl(8.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 59,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T253",
+              "entity": "伤口感染",
+              "entity_type": "ADE",
+              "start_idx": 105,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T254",
+              "entity": "脑血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 110,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T255",
+              "entity": "脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 110,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T256",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T257",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T258",
+              "entity": "≤214mg/dl(12.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 136,
+              "end_idx": 157
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T254"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T254"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "高龄、有严重合并症、频繁发作低血糖的患者，血糖目标值也可适当放宽。",
+          "start_idx": 158,
+          "end_idx": 191,
+          "entities": [
+            {
+              "entity_id": "T259",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T260",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T259"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "原则上血糖最高不宜超过250mg/dl(13.9mmol/L)。",
+          "start_idx": 191,
+          "end_idx": 223,
+          "entities": [
+            {
+              "entity_id": "T261",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T262",
+              "entity": "最高不宜超过250mg/dl(13.9mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 5,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "血糖管理实施方案",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖管理实施方案",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [
+            {
+              "entity_id": "T263",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "高血糖",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "高血糖",
+          "start_idx": 0,
+          "end_idx": 3,
+          "entities": [
+            {
+              "entity_id": "T264",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "1.糖尿病患者围术期需要输注葡萄糖者，建议液体中按糖(g)：胰岛素(U)=3~4：1的比例加用胰岛素中和。肠内外营养的患者应注意营养液中的糖负荷，选用糖尿病专用型制剂，适当降低糖与脂肪的比例，缓慢输注，通过降低糖类总量、减慢吸收速度，降低血糖峰值，减少血糖波动。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.糖尿病患者围术期需要输注葡萄糖者，建议液体中按糖(g)：胰岛素(U)=3~4：1的比例加用胰岛素中和。肠内外营养的患者应注意营养液中的糖负荷，选用糖尿病专用型制剂，适当降低糖与脂肪的比例，缓慢输注，通过降低糖类总量、减慢吸收速度，降低血糖峰值，减少血糖波动。",
+          "start_idx": 0,
+          "end_idx": 131,
+          "entities": [
+            {
+              "entity_id": "T265",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T266",
+              "entity": "输注",
+              "entity_type": "Method",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T267",
+              "entity": "葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T268",
+              "entity": "糖(g)：胰岛素(U)",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T269",
+              "entity": "3~4：1",
+              "entity_type": "Amount",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T270",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T271",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 75,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T272",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 119,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T273",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 126,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T274",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 128,
+              "end_idx": 130
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T265"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R82",
+              "head_entity_id": "T266",
+              "tail_entity_id": "T267"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R83",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T268"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T272",
+              "tail_entity_id": "T271"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T271"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "2.尽量避免引起血糖升高的其他因素。地塞米松常用于预防术后恶心呕吐，可升高血糖水平。使用其他糖皮质激素、儿茶酚胺类药物、生长抑素和免疫抑制剂也可能造成血糖增高。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.尽量避免引起血糖升高的其他因素。",
+          "start_idx": 0,
+          "end_idx": 18,
+          "entities": [
+            {
+              "entity_id": "T275",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T276",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 10,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "地塞米松常用于预防术后恶心呕吐，可升高血糖水平。",
+          "start_idx": 18,
+          "end_idx": 42,
+          "entities": [
+            {
+              "entity_id": "T277",
+              "entity": "地塞米松",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T278",
+              "entity": "恶心",
+              "entity_type": "ADE",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T279",
+              "entity": "呕吐",
+              "entity_type": "ADE",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T280",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 19,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "使用其他糖皮质激素、儿茶酚胺类药物、生长抑素和免疫抑制剂也可能造成血糖增高。",
+          "start_idx": 42,
+          "end_idx": 80,
+          "entities": [
+            {
+              "entity_id": "T281",
+              "entity": "糖皮质激素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T282",
+              "entity": "儿茶酚胺类药物",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T283",
+              "entity": "生长抑素",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T284",
+              "entity": "免疫抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T285",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T286",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 35,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "3.血糖>180mg/dl(10.0mmol/L)开始胰岛素治疗。静脉给胰岛素起效快，方便滴定剂量，术中和术后ICU期间适宜静脉给药。持续静脉泵注胰岛素有利于减少血糖波动，糖尿病患者以及术前已经使用静脉胰岛素的患者术中首选持续静脉泵注胰岛素。应激性高血糖的患者可选择单次或间断静脉推注胰岛素，如血糖仍高，则予持续泵注。通常使用短效胰岛素加入生理盐水，浓度1U/ml配泵，参照患者的血糖水平、术前胰岛素用量、手术刺激大小等因素来确定胰岛素的用量，密切监测，根据血糖升降适当调整泵速，注意个体化给药，避免发生低血糖。胰岛素皮下注射适合病情稳定的非重症患者，常用于术前术后过渡；注意避免短时问内反复给药造成降糖药效叠加。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.血糖>180mg/dl(10.0mmol/L)开始胰岛素治疗。静脉给胰岛素起效快，方便滴定剂量，术中和术后ICU期间适宜静脉给药。持续静脉泵注胰岛素有利于减少血糖波动，糖尿病患者以及术前已经使用静脉胰岛素的患者术中首选持续静脉泵注胰岛素。应激性高血糖的患者可选择单次或间断静脉推注胰岛素，如血糖仍高，则予持续泵注。通常使用短效胰岛素加入生理盐水，浓度1U/ml配泵，参照患者的血糖水平、术前胰岛素用量、手术刺激大小等因素来确定胰岛素的用量，密切监测，根据血糖升降适当调整泵速，注意个体化给药，避免发生低血糖。",
+          "start_idx": 0,
+          "end_idx": 256,
+          "entities": [
+            {
+              "entity_id": "T287",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T288",
+              "entity": ">180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 4,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T289",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T290",
+              "entity": "静脉",
+              "entity_type": "Method",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T291",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T292",
+              "entity": "静脉给药",
+              "entity_type": "Method",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T293",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 67,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T294",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T295",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T296",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 81,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T297",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 83,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T298",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T299",
+              "entity": "静脉",
+              "entity_type": "Method",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T300",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T301",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 111,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T302",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 113,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T303",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T304",
+              "entity": "应激性高血糖",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T305",
+              "entity": "应激性",
+              "entity_type": "Class",
+              "start_idx": 121,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T306",
+              "entity": "单次或间断",
+              "entity_type": "Frequency",
+              "start_idx": 133,
+              "end_idx": 138
+            },
+            {
+              "entity_id": "T307",
+              "entity": "静脉推注",
+              "entity_type": "Method",
+              "start_idx": 138,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T308",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T309",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T310",
+              "entity": "仍高",
+              "entity_type": "Test_Value",
+              "start_idx": 149,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T311",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 154,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T312",
+              "entity": "泵注",
+              "entity_type": "Method",
+              "start_idx": 156,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T313",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 163,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T314",
+              "entity": "生理盐水",
+              "entity_type": "Drug",
+              "start_idx": 170,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T315",
+              "entity": "浓度1U/ml",
+              "entity_type": "Amount",
+              "start_idx": 175,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T316",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 190,
+              "end_idx": 192
+            },
+            {
+              "entity_id": "T317",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 197,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T318",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T319",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 229,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T320",
+              "entity": "升降",
+              "entity_type": "Test_Value",
+              "start_idx": 231,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T321",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 252,
+              "end_idx": 255
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R86",
+              "head_entity_id": "T290",
+              "tail_entity_id": "T291"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R87",
+              "head_entity_id": "T292",
+              "tail_entity_id": "T291"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R88",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R89",
+              "head_entity_id": "T294",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T296",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R93",
+              "head_entity_id": "T299",
+              "tail_entity_id": "T300"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R94",
+              "head_entity_id": "T301",
+              "tail_entity_id": "T303"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R95",
+              "head_entity_id": "T302",
+              "tail_entity_id": "T303"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T305",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T308",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T309",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R99",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R100",
+              "head_entity_id": "T307",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R101",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R102",
+              "head_entity_id": "T312",
+              "tail_entity_id": "T308"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R103",
+              "head_entity_id": "T315",
+              "tail_entity_id": "T313"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R104",
+              "head_entity_id": "T315",
+              "tail_entity_id": "T314"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "胰岛素皮下注射适合病情稳定的非重症患者，常用于术前术后过渡；注意避免短时问内反复给药造成降糖药效叠加。",
+          "start_idx": 256,
+          "end_idx": 307,
+          "entities": [
+            {
+              "entity_id": "T322",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T323",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 3,
+              "end_idx": 7
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R105",
+              "head_entity_id": "T323",
+              "tail_entity_id": "T322"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "4.严重高血糖可能造成渗透性利尿，引起高渗性脱水和低钾血症，应注意维持水电解质平衡。术中由于多数患者血糖水平增高，一般输注无糖液体。术后和过长时间的手术当中，为了减少酮体合成和酸中毒风险，在血糖<250mg/dl(13.9mmol/L)的前提下，静脉泵注胰岛素的同时可泵注加入中和比例胰岛素的含糖液体，根据测得的血糖水平调节泵速。胰岛素+糖双泵同时输注有利于减少血糖波动，但可能促使钾向细胞内转移，进一步加重低钾血症。因此，持续静脉泵注胰岛素时应注意监测血钾，可预防性补钾。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.严重高血糖可能造成渗透性利尿，引起高渗性脱水和低钾血症，应注意维持水电解质平衡。术中由于多数患者血糖水平增高，一般输注无糖液体。术后和过长时间的手术当中，为了减少酮体合成和酸中毒风险，在血糖<250mg/dl(13.9mmol/L)的前提下，静脉泵注胰岛素的同时可泵注加入中和比例胰岛素的含糖液体，根据测得的血糖水平调节泵速。胰岛素+糖双泵同时输注有利于减少血糖波动，但可能促使钾向细胞内转移，进一步加重低钾血症。因此，持续静脉泵注胰岛素时应注意监测血钾，可预防性补钾。",
+          "start_idx": 0,
+          "end_idx": 237,
+          "entities": [
+            {
+              "entity_id": "T324",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T325",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T326",
+              "entity": "渗透性利尿",
+              "entity_type": "Symptom",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T327",
+              "entity": "高渗性脱水",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T328",
+              "entity": "高渗性",
+              "entity_type": "Class",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T329",
+              "entity": "低钾血症",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T330",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T331",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T332",
+              "entity": "输注",
+              "entity_type": "Method",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T333",
+              "entity": "酮体合成",
+              "entity_type": "ADE",
+              "start_idx": 83,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T334",
+              "entity": "酸中毒",
+              "entity_type": "ADE",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T335",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T336",
+              "entity": "<250mg/dl(13.9mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 97,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T337",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 123,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T338",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T339",
+              "entity": "泵注",
+              "entity_type": "Method",
+              "start_idx": 134,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T340",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T341",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 156,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T342",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 165,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T343",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 181,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T344",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 183,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T345",
+              "entity": "钾向细胞内转移",
+              "entity_type": "Pathogenesis",
+              "start_idx": 191,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T346",
+              "entity": "加重",
+              "entity_type": "Level",
+              "start_idx": 202,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T347",
+              "entity": "低钾血症",
+              "entity_type": "Disease",
+              "start_idx": 204,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T348",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 212,
+              "end_idx": 214
+            },
+            {
+              "entity_id": "T349",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 214,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T350",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 218,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T351",
+              "entity": "血钾",
+              "entity_type": "Test_items",
+              "start_idx": 227,
+              "end_idx": 229
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Symptom_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T328",
+              "tail_entity_id": "T327"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R108",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R109",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T340"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T345",
+              "tail_entity_id": "T347"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R112",
+              "head_entity_id": "T348",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R113",
+              "head_entity_id": "T349",
+              "tail_entity_id": "T350"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "低血糖",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "低血糖",
+          "start_idx": 0,
+          "end_idx": 3,
+          "entities": [
+            {
+              "entity_id": "T352",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "1.低血糖的危害超过高血糖。血糖≤50mg/dl(2.8mmol/L)时出现认知功能障碍，长时间≤40mg/dl(2.2mmol/L)的严重低血糖可造成脑死亡。发生一次低血糖围术期死亡率即可增加。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.低血糖的危害超过高血糖。",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T353",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T354",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "血糖≤50mg/dl(2.8mmol/L)时出现认知功能障碍，长时间≤40mg/dl(2.2mmol/L)的严重低血糖可造成脑死亡。",
+          "start_idx": 14,
+          "end_idx": 80,
+          "entities": [
+            {
+              "entity_id": "T355",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T356",
+              "entity": "≤50mg/dl(2.8mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 2,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T357",
+              "entity": "≤40mg/dl(2.2mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 34,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T358",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T359",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T361",
+              "entity": "认知功能障碍",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T362",
+              "entity": "脑死亡",
+              "entity_type": "Disease",
+              "start_idx": 62,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T363",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 62,
+              "end_idx": 63
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T355",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T362"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "发生一次低血糖围术期死亡率即可增加。",
+          "start_idx": 80,
+          "end_idx": 98,
+          "entities": [
+            {
+              "entity_id": "T360",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "2.低血糖重在预防和及时发现。衰弱、严重感染、肝肾功能不全的患者低血糖风险增加。长期未得到有效控制的糖尿病患者可能在正常的血糖水平即发生低血糖反应。脑损伤患者难以耐受100mg/dl(5.6mmol/L)以下的血糖水平。需要警惕的是，全麻镇静患者的低血糖症状可能被掩盖，不易及时发现。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.低血糖重在预防和及时发现。",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T364",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "衰弱、严重感染、肝肾功能不全的患者低血糖风险增加。长期未得到有效控制的糖尿病患者可能在正常的血糖水平即发生低血糖反应。脑损伤患者难以耐受100mg/dl(5.6mmol/L)以下的血糖水平。",
+          "start_idx": 15,
+          "end_idx": 110,
+          "entities": [
+            {
+              "entity_id": "T366",
+              "entity": "100mg/dl(5.6mmol/L)以下",
+              "entity_type": "Test_Value",
+              "start_idx": 68,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T367",
+              "entity": "衰弱",
+              "entity_type": "Reason",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T368",
+              "entity": "严重感染",
+              "entity_type": "Reason",
+              "start_idx": 3,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T369",
+              "entity": "肝肾功能不全",
+              "entity_type": "Reason",
+              "start_idx": 8,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T370",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T371",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T372",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T373",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T374",
+              "entity": "脑损伤",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T375",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 59,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T376",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 92
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T367",
+              "tail_entity_id": "T370"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T368",
+              "tail_entity_id": "T370"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T369",
+              "tail_entity_id": "T370"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T371"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T372",
+              "tail_entity_id": "T373"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T376",
+              "tail_entity_id": "T374"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T375",
+              "tail_entity_id": "T374"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "需要警惕的是，全麻镇静患者的低血糖症状可能被掩盖，不易及时发现。",
+          "start_idx": 110,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T365",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T377",
+              "entity": "全麻",
+              "entity_type": "Operation",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "3.静脉输注胰岛素的患者血糖≤100mg/dl(5.6mmol/L)应重新评估，调整泵速。血糖≤70mg/dl(3.9mmol/L)立即停用胰岛素，开始升血糖处理。可进食的清醒患者立即口服10~25g快速吸收的碳水化合物(如含糖饮料)，不能口服的静脉推注50%葡萄糖20~50rnl，之后持续静脉点滴5%或10%葡萄糖维持血糖，每5~15分钟监测一次直至血糖≥100mg/dl(5.6mmol/L)。仔细筛查引起低血糖的可能原因。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.静脉输注胰岛素的患者血糖≤100mg/dl(5.6mmol/L)应重新评估，调整泵速。血糖≤70mg/dl(3.9mmol/L)立即停用胰岛素，开始升血糖处理。可进食的清醒患者立即口服10~25g快速吸收的碳水化合物(如含糖饮料)，不能口服的静脉推注50%葡萄糖20~50rnl，之后持续静脉点滴5%或10%葡萄糖维持血糖，每5~15分钟监测一次直至血糖≥100mg/dl(5.6mmol/L)。",
+          "start_idx": 0,
+          "end_idx": 200,
+          "entities": [
+            {
+              "entity_id": "T378",
+              "entity": "静脉输注",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T379",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T380",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T381",
+              "entity": "≤100mg/dl(5.6mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 14,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T382",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T383",
+              "entity": "≤70mg/dl(3.9mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T384",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T385",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 77,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T386",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 92,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T387",
+              "entity": "10~25g",
+              "entity_type": "Amount",
+              "start_idx": 94,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T388",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 120,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T389",
+              "entity": "静脉推注",
+              "entity_type": "Method",
+              "start_idx": 123,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T390",
+              "entity": "50%葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 127,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T391",
+              "entity": "20~50rnl",
+              "entity_type": "Amount",
+              "start_idx": 133,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T392",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 144,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T393",
+              "entity": "静脉点滴",
+              "entity_type": "Method",
+              "start_idx": 146,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T394",
+              "entity": "5%或10%葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 150,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T395",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 161,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T396",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 177,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T397",
+              "entity": "≥100mg/dl(5.6mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 179,
+              "end_idx": 199
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R123",
+              "head_entity_id": "T378",
+              "tail_entity_id": "T379"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R124",
+              "head_entity_id": "T391",
+              "tail_entity_id": "T390"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R125",
+              "head_entity_id": "T392",
+              "tail_entity_id": "T394"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R126",
+              "head_entity_id": "T393",
+              "tail_entity_id": "T394"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "仔细筛查引起低血糖的可能原因。",
+          "start_idx": 200,
+          "end_idx": 215,
+          "entities": [
+            {
+              "entity_id": "T398",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "血糖术后管理",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖术后管理",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [
+            {
+              "entity_id": "T399",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "术后早期管理",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "术后早期管理",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "1.术后因疼痛应激、感染、肠内外营养液输注，是血糖波动的高危时期，也是血糖管理的重要时期。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.术后因疼痛应激、感染、肠内外营养液输注，是血糖波动的高危时期，也是血糖管理的重要时期。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T400",
+              "entity": "疼痛应激",
+              "entity_type": "Symptom",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T401",
+              "entity": "感染",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T402",
+              "entity": "肠内外营养液",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T403",
+              "entity": "输注",
+              "entity_type": "Method",
+              "start_idx": 19,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T404",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T405",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 25,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T406",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 35,
+              "end_idx": 37
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R127",
+              "head_entity_id": "T403",
+              "tail_entity_id": "T402"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "2.术中持续静脉泵注胰岛素者，建议术后继续泵注24小时以上。机械通气和应用血管活性药物的ICU患者容易出现血糖波动，胰岛素应静脉泵注。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.术中持续静脉泵注胰岛素者，建议术后继续泵注24小时以上。机械通气和应用血管活性药物的ICU患者容易出现血糖波动，胰岛素应静脉泵注。",
+          "start_idx": 0,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T407",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T408",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T409",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T410",
+              "entity": "泵注",
+              "entity_type": "Method",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T411",
+              "entity": "24小时以上",
+              "entity_type": "Duration",
+              "start_idx": 23,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T412",
+              "entity": "机械通气",
+              "entity_type": "Treatment",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T413",
+              "entity": "血管活性药物",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T414",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T415",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T416",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T417",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 62,
+              "end_idx": 66
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R128",
+              "head_entity_id": "T407",
+              "tail_entity_id": "T409"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R129",
+              "head_entity_id": "T408",
+              "tail_entity_id": "T409"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R130",
+              "head_entity_id": "T411",
+              "tail_entity_id": "T409"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R131",
+              "head_entity_id": "T410",
+              "tail_entity_id": "T409"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R132",
+              "head_entity_id": "T417",
+              "tail_entity_id": "T416"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "3.病情稳定后过渡到皮下注射胰岛素。根据过渡前静脉泵速推算皮下胰岛素剂量。皮下注射和静脉泵注应有2小时左右的重叠，便于平稳过渡。积极预防术后恶心呕吐，尽早恢复正常饮食，根据进食情况逐步增加餐前短效胰岛素剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.病情稳定后过渡到皮下注射胰岛素。根据过渡前静脉泵速推算皮下胰岛素剂量。皮下注射和静脉泵注应有2小时左右的重叠，便于平稳过渡。",
+          "start_idx": 0,
+          "end_idx": 64,
+          "entities": [
+            {
+              "entity_id": "T418",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T419",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T420",
+              "entity": "静脉泵",
+              "entity_type": "Method",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T421",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T422",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 37,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T423",
+              "entity": "静脉泵",
+              "entity_type": "Method",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T424",
+              "entity": "2小时",
+              "entity_type": "Duration",
+              "start_idx": 48,
+              "end_idx": 51
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R133",
+              "head_entity_id": "T418",
+              "tail_entity_id": "T419"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R134",
+              "head_entity_id": "T420",
+              "tail_entity_id": "T421"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "积极预防术后恶心呕吐，尽早恢复正常饮食，根据进食情况逐步增加餐前短效胰岛素剂量。",
+          "start_idx": 64,
+          "end_idx": 104,
+          "entities": [
+            {
+              "entity_id": "T425",
+              "entity": "恶心",
+              "entity_type": "ADE",
+              "start_idx": 6,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T426",
+              "entity": "呕吐",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T427",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 37
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "出院前准备",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "出院前准备",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "1.长期胰岛素治疗的患者在出院前1~2天恢复原有方案。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.长期胰岛素治疗的患者在出院前1~2天恢复原有方案。",
+          "start_idx": 0,
+          "end_idx": 27,
+          "entities": [
+            {
+              "entity_id": "T428",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "2.饮食正常规律、器官功能稳定后，如无禁忌证，可恢复口服降糖药。二甲双胍在肾功能稳定后加用，并且不早于术后48小时。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.饮食正常规律、器官功能稳定后，如无禁忌证，可恢复口服降糖药。",
+          "start_idx": 0,
+          "end_idx": 32,
+          "entities": [
+            {
+              "entity_id": "T429",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 26,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "二甲双胍在肾功能稳定后加用，并且不早于术后48小时。",
+          "start_idx": 32,
+          "end_idx": 58,
+          "entities": [
+            {
+              "entity_id": "T430",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "3.对于围术期新发现的糖尿病患者以及调整了治疗方案的患者，应进行出院前宣教，安排内分泌科随诊。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.对于围术期新发现的糖尿病患者以及调整了治疗方案的患者，应进行出院前宣教，安排内分泌科随诊。",
+          "start_idx": 0,
+          "end_idx": 47,
+          "entities": [
+            {
+              "entity_id": "T431",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "4.门诊手术术后监测直至排除低血糖风险后方可离院。皮下注射速效胰岛素1.5小时内、常规胰岛素3~4小时内有发生低血糖的危险。离院途中应随身携带含糖饮料。常规降糖治疗需推迟到恢复正常饮食以后。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.门诊手术术后监测直至排除低血糖风险后方可离院。皮下注射速效胰岛素1.5小时内、常规胰岛素3~4小时内有发生低血糖的危险。",
+          "start_idx": 0,
+          "end_idx": 62,
+          "entities": [
+            {
+              "entity_id": "T432",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T433",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T434",
+              "entity": "速效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T435",
+              "entity": "常规胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T436",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 55,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T437",
+              "entity": "1.5小时",
+              "entity_type": "Duration",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T438",
+              "entity": "3~4小时",
+              "entity_type": "Duration",
+              "start_idx": 46,
+              "end_idx": 51
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R135",
+              "head_entity_id": "T433",
+              "tail_entity_id": "T434"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R136",
+              "head_entity_id": "T433",
+              "tail_entity_id": "T435"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R137",
+              "head_entity_id": "T436",
+              "tail_entity_id": "T434"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R138",
+              "head_entity_id": "T437",
+              "tail_entity_id": "T434"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R139",
+              "head_entity_id": "T436",
+              "tail_entity_id": "T435"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R140",
+              "head_entity_id": "T438",
+              "tail_entity_id": "T435"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "离院途中应随身携带含糖饮料。",
+          "start_idx": 62,
+          "end_idx": 76,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "常规降糖治疗需推迟到恢复正常饮食以后。",
+          "start_idx": 76,
+          "end_idx": 95,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "小结",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "小结",
+          "start_idx": 0,
+          "end_idx": 2,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "围术期血糖管理对于减少血糖异常相关的并发症、促进患者术后快速康复、改善手术患者预后具有重要意义。术前筛查糖化血红蛋白有助于识别围术期高血糖相关不良事件的高危人群。“合理、有效、安全”是血糖管理的宗旨，围术期血糖目标值定为140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)兼顾了血糖管理的有效性和安全性，较为合理。血糖>180mg/dl(10.0mmol/L)即可启动胰岛素治疗，短效胰岛素持续静脉泵注便于及时调整剂量，减少血糖波动，是高危患者围术期血糖控制的首选方案。严密监测血糖，个体化管理，方可实现围术期平稳过渡。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "围术期血糖管理对于减少血糖异常相关的并发症、促进患者术后快速康复、改善手术患者预后具有重要意义。术前筛查糖化血红蛋白有助于识别围术期高血糖相关不良事件的高危人群。“合理、有效、安全”是血糖管理的宗旨，围术期血糖目标值定为140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)兼顾了血糖管理的有效性和安全性，较为合理。血糖>180mg/dl(10.0mmol/L)即可启动胰岛素治疗，短效胰岛素持续静脉泵注便于及时调整剂量，减少血糖波动，是高危患者围术期血糖控制的首选方案。",
+          "start_idx": 0,
+          "end_idx": 249,
+          "entities": [
+            {
+              "entity_id": "T439",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T440",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 11,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T441",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T442",
+              "entity": "糖化血红蛋白",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T443",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T444",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T445",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 103,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T446",
+              "entity": "140mg/dl(7.8mmol/L)~180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 110,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T447",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 153,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T448",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 171,
+              "end_idx": 173
+            },
+            {
+              "entity_id": "T449",
+              "entity": ">180mg/dl(10.0mmol/L)",
+              "entity_type": "Test_Value",
+              "start_idx": 173,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T450",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 198,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T451",
+              "entity": "短效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 204,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T452",
+              "entity": "持续",
+              "entity_type": "Duration",
+              "start_idx": 209,
+              "end_idx": 211
+            },
+            {
+              "entity_id": "T453",
+              "entity": "静脉泵注",
+              "entity_type": "Method",
+              "start_idx": 211,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T454",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 226,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T455",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 228,
+              "end_idx": 230
+            },
+            {
+              "entity_id": "T456",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 239,
+              "end_idx": 241
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R141",
+              "head_entity_id": "T442",
+              "tail_entity_id": "T443"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R142",
+              "head_entity_id": "T452",
+              "tail_entity_id": "T451"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R143",
+              "head_entity_id": "T453",
+              "tail_entity_id": "T451"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "严密监测血糖，个体化管理，方可实现围术期平稳过渡。",
+          "start_idx": 249,
+          "end_idx": 274,
+          "entities": [
+            {
+              "entity_id": "T457",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

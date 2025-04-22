@@ -1,0 +1,4387 @@
+{
+  "doc_id": "27",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "成人2 型糖尿病基础胰岛素临床应用中国专家指导建议",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "成人2 型糖尿病基础胰岛素临床应用中国专家指导建议",
+          "start_idx": 0,
+          "end_idx": 25,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2 型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T2",
+              "entity": "2 型",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T0",
+              "tail_entity_id": "T1"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "一、前言",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、前言",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "T2DM是慢性进展性疾病，随着自然病程的进展，胰岛β细胞功能进行性减退，胰岛素补充或替代治疗成为控制T2DM患者高血糖的有效手段。基础胰岛素是常用的胰岛素治疗方案，具有低血糖风险低，使用简单方便等优点，国内外指南均推荐，口服降糖药治疗血糖控制不佳时即可起始基础胰岛素与口服药联合治疗。但临床研究显示，中国T2DM患者起始基础胰岛素治疗较晚(起始胰岛素时HbA1c已达9.6 %)，起始剂量偏低且在起始治疗后剂量调整不足，是导致起始胰岛素治疗后血糖控制不满意的重要原因。为规范基础胰岛素在临床中的合理使用，我国内分泌临床专家基于循证医学依据，共同制定了《成人2 型糖尿病基础胰岛素临床应用中国专家指导建议》，以供临床参考。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "T2DM是慢性进展性疾病，随着自然病程的进展，胰岛β细胞功能进行性减退，胰岛素补充或替代治疗成为控制T2DM患者高血糖的有效手段。基础胰岛素是常用的胰岛素治疗方案，具有低血糖风险低，使用简单方便等优点，国内外指南均推荐，口服降糖药治疗血糖控制不佳时即可起始基础胰岛素与口服药联合治疗。但临床研究显示，中国T2DM患者起始基础胰岛素治疗较晚(起始胰岛素时HbA1c已达9.6 %)，起始剂量偏低且在起始治疗后剂量调整不足，是导致起始胰岛素治疗后血糖控制不满意的重要原因。为规范基础胰岛素在临床中的合理使用，我国内分泌临床专家基于循证医学依据，共同制定了《成人2 型糖尿病基础胰岛素临床应用中国专家指导建议》，以供临床参考。",
+          "start_idx": 0,
+          "end_idx": 310,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T4",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T5",
+              "entity": "胰岛β细胞功能进行性减退",
+              "entity_type": "Pathogenesis",
+              "start_idx": 23,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T6",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T7",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T8",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T9",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T10",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T11",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 84,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T12",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 110,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T13",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 117,
+              "end_idx": 119
+            },
+            {
+              "entity_id": "T14",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 119,
+              "end_idx": 123
+            },
+            {
+              "entity_id": "T15",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 130,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T16",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 134,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T17",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 152,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T18",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 152,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T19",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T20",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 172,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T21",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 176,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T22",
+              "entity": "9.6 %",
+              "entity_type": "Test_Value",
+              "start_idx": 183,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T23",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T24",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 221,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T25",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 239,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T26",
+              "entity": "2 型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 278,
+              "end_idx": 284
+            },
+            {
+              "entity_id": "T27",
+              "entity": "2 型",
+              "entity_type": "Class",
+              "start_idx": 278,
+              "end_idx": 281
+            },
+            {
+              "entity_id": "T28",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 286,
+              "end_idx": 289
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T5",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R5",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T9"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T19",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T27",
+              "tail_entity_id": "T26"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T28",
+              "tail_entity_id": "T26"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "二、基础胰岛素种类及其特点",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、基础胰岛素种类及其特点",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "在生理非进食状态下胰岛β细胞持续分泌的胰岛素被称为基础胰岛素，约占胰岛素全天分泌总量的50%。基础胰岛素通过抑制肝脏中肝糖原分解和糖异生作用而减少肝糖输出控制基础血糖。经皮下注射的外源性基础胰岛素药物具有和内源性基础胰岛素相似的特性，能模拟正常人体的生理性基础胰岛素作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "在生理非进食状态下胰岛β细胞持续分泌的胰岛素被称为基础胰岛素，约占胰岛素全天分泌总量的50%。基础胰岛素通过抑制肝脏中肝糖原分解和糖异生作用而减少肝糖输出控制基础血糖。经皮下注射的外源性基础胰岛素药物具有和内源性基础胰岛素相似的特性，能模拟正常人体的生理性基础胰岛素作用。",
+          "start_idx": 0,
+          "end_idx": 136,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 85,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T31",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T32",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 108,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T33",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 130,
+              "end_idx": 133
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R10",
+              "head_entity_id": "T30",
+              "tail_entity_id": "T31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "目前，国内临床使用的基础胰岛素主要包括中效胰岛素(NPH，中性鱼精蛋白锌胰岛素)、长效胰岛素(PZI，精蛋白锌胰岛素)和长效人胰岛素类似物(甘精胰岛素，地特胰岛素等)(表1)。NPH是人胰岛素锌晶体与鱼精蛋白结合而制成的基础胰岛素，作用时间13~16h，且具有明显峰值，变异性较大，低血糖发生的风险相对高。长效人胰岛素类似物甘精胰岛素在人胰岛素的基础上经氨基酸序列修饰，能更好地模拟生理性胰岛素分泌，减少低血糖风险，是我国使用最广泛的基础胰岛素。甘精胰岛素在中性pH液中溶解度低，皮下注射后形成细微沉淀物，其中的多聚体在皮下持续缓慢释放，达到24h平稳、无峰的血药浓度。地特胰岛素是另一种长效人胰岛素类似物，在人胰岛素的基础上经分子结构修饰，皮下注射后自我聚集作用增强，同时添加的脂肪酸侧链与白蛋白可逆结合，从而可延长药物的吸收和作用时间，相对长效人胰岛素类似物，中效胰岛素的价格较低。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前，国内临床使用的基础胰岛素主要包括中效胰岛素(NPH，中性鱼精蛋白锌胰岛素)、长效胰岛素(PZI，精蛋白锌胰岛素)和长效人胰岛素类似物(甘精胰岛素，地特胰岛素等)(表1)。NPH是人胰岛素锌晶体与鱼精蛋白结合而制成的基础胰岛素，作用时间13~16h，且具有明显峰值，变异性较大，低血糖发生的风险相对高。长效人胰岛素类似物甘精胰岛素在人胰岛素的基础上经氨基酸序列修饰，能更好地模拟生理性胰岛素分泌，减少低血糖风险，是我国使用最广泛的基础胰岛素。甘精胰岛素在中性pH液中溶解度低，皮下注射后形成细微沉淀物，其中的多聚体在皮下持续缓慢释放，达到24h平稳、无峰的血药浓度。地特胰岛素是另一种长效人胰岛素类似物，在人胰岛素的基础上经分子结构修饰，皮下注射后自我聚集作用增强，同时添加的脂肪酸侧链与白蛋白可逆结合，从而可延长药物的吸收和作用时间，相对长效人胰岛素类似物，中效胰岛素的价格较低。",
+          "start_idx": 0,
+          "end_idx": 393,
+          "entities": [
+            {
+              "entity_id": "T34",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T35",
+              "entity": "NPH",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T36",
+              "entity": "中性鱼精蛋白锌胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T37",
+              "entity": "长效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T38",
+              "entity": "PZI",
+              "entity_type": "Drug",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T39",
+              "entity": "精蛋白锌胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T40",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 60,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T41",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T42",
+              "entity": "地特胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 76,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T43",
+              "entity": "NPH",
+              "entity_type": "Drug",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T44",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 141,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T45",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T46",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 153,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T47",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T48",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 168,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T49",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 202,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T50",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 219,
+              "end_idx": 222
+            },
+            {
+              "entity_id": "T51",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 223,
+              "end_idx": 228
+            },
+            {
+              "entity_id": "T52",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 240,
+              "end_idx": 244
+            },
+            {
+              "entity_id": "T53",
+              "entity": "血药浓度",
+              "entity_type": "Pathogenesis",
+              "start_idx": 280,
+              "end_idx": 284
+            },
+            {
+              "entity_id": "T54",
+              "entity": "地特胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 285,
+              "end_idx": 290
+            },
+            {
+              "entity_id": "T55",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 294,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T56",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 305,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T57",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 321,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T58",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 372,
+              "end_idx": 381
+            },
+            {
+              "entity_id": "T59",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 382,
+              "end_idx": 387
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R11",
+              "head_entity_id": "T44",
+              "tail_entity_id": "T43"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R12",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R13",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R14",
+              "head_entity_id": "T57",
+              "tail_entity_id": "T56"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "三、基础胰岛素临床使用方案",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、基础胰岛素临床使用方案",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T60",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "1.概述：控制高血糖与微血管、大血管病变发生的风险下降相关。临床研究证实，糖尿病患者早期进行积极有效的降糖治疗，能够显著降低血管并发症的发生风险，而在病程较长的患者中，强化降糖并未带来心血管获益。所以糖尿病患者在早期即维持良好的血糖控制至关重要。随着病情进展，T2DM患者胰岛β细胞功能逐渐减退，胰岛素补充或替代治疗成为T2DM高血糖管理的重要手段。对于使用1~2种口服药血糖控制不佳的患者，即可以考虑联合基础胰岛素注射以进一步改善血糖控制。对于口服降糖药与基础胰岛素联合使用后血糖仍无法达标的患者，可以使用基础胰岛素联合1~3次餐时胰岛素治疗进一步控制血糖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.概述：控制高血糖与微血管、大血管病变发生的风险下降相关。临床研究证实，糖尿病患者早期进行积极有效的降糖治疗，能够显著降低血管并发症的发生风险，而在病程较长的患者中，强化降糖并未带来心血管获益。所以糖尿病患者在早期即维持良好的血糖控制至关重要。随着病情进展，T2DM患者胰岛β细胞功能逐渐减退，胰岛素补充或替代治疗成为T2DM高血糖管理的重要手段。对于使用1~2种口服药血糖控制不佳的患者，即可以考虑联合基础胰岛素注射以进一步改善血糖控制。对于口服降糖药与基础胰岛素联合使用后血糖仍无法达标的患者，可以使用基础胰岛素联合1~3次餐时胰岛素治疗进一步控制血糖。",
+          "start_idx": 0,
+          "end_idx": 280,
+          "entities": [
+            {
+              "entity_id": "T61",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T62",
+              "entity": "微血管、大血管病变",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T63",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T64",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T65",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T66",
+              "entity": "血管并发症",
+              "entity_type": "ADE",
+              "start_idx": 62,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T67",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 100,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T68",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T69",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 130,
+              "end_idx": 134
+            },
+            {
+              "entity_id": "T70",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 130,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T71",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 148,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T72",
+              "entity": "胰岛β细胞功能逐渐减退",
+              "entity_type": "Pathogenesis",
+              "start_idx": 136,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T73",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 160,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T74",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 160,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T75",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 164,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T76",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 183,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T77",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 186,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T78",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 205,
+              "end_idx": 208
+            },
+            {
+              "entity_id": "T79",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 208,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T80",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 216,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T81",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 223,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T82",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 231,
+              "end_idx": 234
+            },
+            {
+              "entity_id": "T83",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 239,
+              "end_idx": 241
+            },
+            {
+              "entity_id": "T84",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 256,
+              "end_idx": 259
+            },
+            {
+              "entity_id": "T85",
+              "entity": "1~3次",
+              "entity_type": "Frequency",
+              "start_idx": 261,
+              "end_idx": 265
+            },
+            {
+              "entity_id": "T86",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 267,
+              "end_idx": 270
+            },
+            {
+              "entity_id": "T87",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 277,
+              "end_idx": 279
+            },
+            {
+              "entity_id": "T88",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 188,
+              "end_idx": 192
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T70",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T73"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R21",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T78"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R22",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T84"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "血糖控制的目标应根据个体化原则，综合考虑患者的年龄、病程、预期寿命、伴发疾病、降糖治疗方案及患者意愿等情况制定。对于大多数非妊娠成年T2DM患者，合理的血糖控制目标为HbA1c<7%、FPG4.4~7.0mmol/L；对于病程较短、预期寿命较长、无严重并发症或低血糖风险低的患者可设定较为严格的血糖控制目标，HbA1c≤6.5%、FPG<6.1mmol/L；而对于有严重低血糖史、预期寿命较短、合并严重并发症的患者，血糖控制目标较为宽松，HbA1c<8.0%、FPG<8.0mmol/L或更高(表2)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "血糖控制的目标应根据个体化原则，综合考虑患者的年龄、病程、预期寿命、伴发疾病、降糖治疗方案及患者意愿等情况制定。对于大多数非妊娠成年T2DM患者，合理的血糖控制目标为HbA1c<7%、FPG4.4~7.0mmol/L；对于病程较短、预期寿命较长、无严重并发症或低血糖风险低的患者可设定较为严格的血糖控制目标，HbA1c≤6.5%、FPG<6.1mmol/L；而对于有严重低血糖史、预期寿命较短、合并严重并发症的患者，血糖控制目标较为宽松，HbA1c<8.0%、FPG<8.0mmol/L或更高(表2)。",
+          "start_idx": 0,
+          "end_idx": 251,
+          "entities": [
+            {
+              "entity_id": "T89",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 0,
+              "end_idx": 2
+            },
+            {
+              "entity_id": "T90",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 66,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T91",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 66,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T92",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T93",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 83,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T94",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T95",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T96",
+              "entity": "4.4~7.0mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 95,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T97",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 124,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T98",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 130,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T99",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T100",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 154,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T101",
+              "entity": "≤6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 159,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T102",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 165,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T103",
+              "entity": "<6.1mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 168,
+              "end_idx": 178
+            },
+            {
+              "entity_id": "T104",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 183,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T105",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 185,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T106",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 199,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T107",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 208,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T108",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 219,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T109",
+              "entity": "<8.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 224,
+              "end_idx": 229
+            },
+            {
+              "entity_id": "T110",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 230,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T111",
+              "entity": "<8.0mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 233,
+              "end_idx": 243
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T90"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T92",
+              "tail_entity_id": "T90"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T90"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T95",
+              "tail_entity_id": "T90"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "2.口服降糖药联合基础胰岛素方案",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.口服降糖药联合基础胰岛素方案",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T112",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T113",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 14
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R27",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T113"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "(1)适用人群：高血糖(FPG>11.1mmol/L，或HbA1c>9%)伴明显高血糖症状的新诊断T2DM患者；1~2种口服降糖药(超重或肥胖患者1~3种口服降糖药)规范治疗3个月以上血糖控制仍未达标者；正在接受预混胰岛素治疗(低于50U/d)的患者血糖控制不佳，频繁发作低血糖者，或对每日2次预混胰岛素注射依从性差者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)适用人群：高血糖(FPG>11.1mmol/L，或HbA1c>9%)伴明显高血糖症状的新诊断T2DM患者；1~2种口服降糖药(超重或肥胖患者1~3种口服降糖药)规范治疗3个月以上血糖控制仍未达标者；正在接受预混胰岛素治疗(低于50U/d)的患者血糖控制不佳，频繁发作低血糖者，或对每日2次预混胰岛素注射依从性差者。",
+          "start_idx": 0,
+          "end_idx": 160,
+          "entities": [
+            {
+              "entity_id": "T114",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T115",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T116",
+              "entity": ">11.1mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 15,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T117",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T118",
+              "entity": ">9%",
+              "entity_type": "Test_Value",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T119",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T120",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T121",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 49,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T122",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 60,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T123",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 77,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T124",
+              "entity": "3个月以上",
+              "entity_type": "Duration",
+              "start_idx": 87,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T125",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T126",
+              "entity": "未达标",
+              "entity_type": "Test_Value",
+              "start_idx": 97,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T127",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 106,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T128",
+              "entity": "低于50U/d",
+              "entity_type": "Amount",
+              "start_idx": 114,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T129",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T130",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 127,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T131",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 136,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T132",
+              "entity": "每日2次",
+              "entity_type": "Frequency",
+              "start_idx": 143,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T133",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 147,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T134",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 152,
+              "end_idx": 154
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T121",
+              "tail_entity_id": "T120"
+            },
+            {
+              "relation_type": "Duration_Drug",
+              "relation_id": "R31",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T132",
+              "tail_entity_id": "T127"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R35",
+              "head_entity_id": "T134",
+              "tail_entity_id": "T133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "早期良好的血糖控制是降低远期并发症风险的重要手段。对于血糖较高伴高血糖症状的新诊断糖尿病患者，口服降糖药很难在短期内使血糖得到满意的控制，可使用口服降糖药与基础胰岛素联合治疗，使血糖达标，并部分恢复胰岛β细胞功能。对于已使用口服降糖药治疗的患者，当1~2种较大剂量的口服降糖药规范治疗3个月以上血糖仍未达标时，也可联合使用基础胰岛素以进一步控制血糖。对15项随机对照研究进行的汇总分析也提示，使用二甲双胍和/或磺脲类药物血糖控制不佳的T2DM患者，起始基础胰岛素治疗后，能有效控制血糖，且不会增加严重低血糖发生的风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "早期良好的血糖控制是降低远期并发症风险的重要手段。对于血糖较高伴高血糖症状的新诊断糖尿病患者，口服降糖药很难在短期内使血糖得到满意的控制，可使用口服降糖药与基础胰岛素联合治疗，使血糖达标，并部分恢复胰岛β细胞功能。对于已使用口服降糖药治疗的患者，当1~2种较大剂量的口服降糖药规范治疗3个月以上血糖仍未达标时，也可联合使用基础胰岛素以进一步控制血糖。对15项随机对照研究进行的汇总分析也提示，使用二甲双胍和/或磺脲类药物血糖控制不佳的T2DM患者，起始基础胰岛素治疗后，能有效控制血糖，且不会增加严重低血糖发生的风险。",
+          "start_idx": 0,
+          "end_idx": 259,
+          "entities": [
+            {
+              "entity_id": "T135",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T136",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T137",
+              "entity": "较高",
+              "entity_type": "Test_Value",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T138",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T139",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T140",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 47,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T141",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T142",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T143",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 80,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T144",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 89,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T145",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T146",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 112,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T147",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 133,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T148",
+              "entity": "3个月以上",
+              "entity_type": "Duration",
+              "start_idx": 142,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T149",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 147,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T150",
+              "entity": "未达标",
+              "entity_type": "Test_Value",
+              "start_idx": 150,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T151",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 163,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T152",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 172,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T153",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 198,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T154",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 205,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T155",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 210,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T156",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 212,
+              "end_idx": 216
+            },
+            {
+              "entity_id": "T157",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 217,
+              "end_idx": 221
+            },
+            {
+              "entity_id": "T158",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 217,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T159",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 231
+            },
+            {
+              "entity_id": "T160",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 240,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T161",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 248,
+              "end_idx": 250
+            },
+            {
+              "entity_id": "T162",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 250,
+              "end_idx": 253
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T141",
+              "tail_entity_id": "T139"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T153",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T154",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T162",
+              "tail_entity_id": "T159"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "对于临床中使用口服药联合预混胰岛素治疗的患者，若其血糖控制不满意且患者病程较短，有一定残存胰岛β细胞功能，也可尝试调整为基础胰岛素与口服降糖药联合治疗。研究发现，在血糖控制不满意，病程<10年，预混胰岛素剂量<50U/d的患者中，将预混胰岛素转换为基础胰岛素联合口服药治疗方案后，能够显著改善血糖，并较继续使用并优化预混胰岛素低血糖发生的风险低。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于临床中使用口服药联合预混胰岛素治疗的患者，若其血糖控制不满意且患者病程较短，有一定残存胰岛β细胞功能，也可尝试调整为基础胰岛素与口服降糖药联合治疗。研究发现，在血糖控制不满意，病程<10年，预混胰岛素剂量<50U/d的患者中，将预混胰岛素转换为基础胰岛素联合口服药治疗方案后，能够显著改善血糖，并较继续使用并优化预混胰岛素低血糖发生的风险低。",
+          "start_idx": 0,
+          "end_idx": 173,
+          "entities": [
+            {
+              "entity_id": "T163",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T164",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T165",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 25,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T166",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 62,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T167",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 66,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T168",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T169",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 97,
+              "end_idx": 102
+            },
+            {
+              "entity_id": "T170",
+              "entity": "<50U/d",
+              "entity_type": "Amount",
+              "start_idx": 104,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T171",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 116,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T172",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 126,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T173",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 131,
+              "end_idx": 133
+            },
+            {
+              "entity_id": "T174",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 146,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T175",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 158,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T176",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 163,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T177",
+              "entity": "控制不满意",
+              "entity_type": "Test_Value",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T178",
+              "entity": "控制不满意",
+              "entity_type": "Test_Value",
+              "start_idx": 84,
+              "end_idx": 89
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R41",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T169"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R42",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "(2)与基础胰岛素联合使用的口服降糖药种类及注意事项：不同口服降糖药的降糖作用机制不同，临床上与基础胰岛素联合使用时，需根据药物特点，注意监测血糖及可能出现的不良反应(表3)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)与基础胰岛素联合使用的口服降糖药种类及注意事项：不同口服降糖药的降糖作用机制不同，临床上与基础胰岛素联合使用时，需根据药物特点，注意监测血糖及可能出现的不良反应(表3)。",
+          "start_idx": 0,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T179",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T180",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T181",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T182",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T183",
+              "entity": "监测血糖",
+              "entity_type": "Test_items",
+              "start_idx": 69,
+              "end_idx": 73
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "(3)临床使用建议",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(3)临床使用建议",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "①? 基础胰岛素起始方法：血糖明显增高伴有明显高血糖症状的新诊断糖尿病患者或口服降糖药治疗血糖控制不佳的患者起始基础胰岛素时，可根据体重计算起始剂量，通常为0.1~0.3U/(kg·d)，肥胖患者或HbA1c>8.0%时，可考虑0.2~0.3U/（kg·d)起始。从预混胰岛素治疗转换为基础胰岛素时，可依据血糖水平，按照原预混胰岛素总剂量的60%~80%起始基础胰岛素。如HbA1c≤8.0%时，甘精胰岛素起始剂量=原预混胰岛素总量×0.6；HbA1c>8%时，甘精胰岛素推荐起始剂量=原预混胰岛素总量×0.8。口服药种类和剂量根据患者个体情况酌情选择和调整。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "①? 基础胰岛素起始方法：血糖明显增高伴有明显高血糖症状的新诊断糖尿病患者或口服降糖药治疗血糖控制不佳的患者起始基础胰岛素时，可根据体重计算起始剂量，通常为0.1~0.3U/(kg·d)，肥胖患者或HbA1c>8.0%时，可考虑0.2~0.3U/（kg·d)起始。",
+          "start_idx": 0,
+          "end_idx": 132,
+          "entities": [
+            {
+              "entity_id": "T184",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T185",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T186",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T187",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T188",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T189",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T190",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T191",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T192",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T193",
+              "entity": "0.1~0.3U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 78,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T194",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 99,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T195",
+              "entity": ">8.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 104,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T196",
+              "entity": "0.2~0.3U/（kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 114,
+              "end_idx": 129
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T185",
+              "tail_entity_id": "T187"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T188"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R47",
+              "head_entity_id": "T193",
+              "tail_entity_id": "T192"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T196",
+              "tail_entity_id": "T192"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "从预混胰岛素治疗转换为基础胰岛素时，可依据血糖水平，按照原预混胰岛素总剂量的60%~80%起始基础胰岛素。",
+          "start_idx": 132,
+          "end_idx": 185,
+          "entities": [
+            {
+              "entity_id": "T197",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T198",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T199",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T200",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T201",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 52
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "如HbA1c≤8.0%时，甘精胰岛素起始剂量=原预混胰岛素总量×0.6；HbA1c>8%时，甘精胰岛素推荐起始剂量=原预混胰岛素总量×0.8。",
+          "start_idx": 185,
+          "end_idx": 256,
+          "entities": [
+            {
+              "entity_id": "T202",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 1,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T203",
+              "entity": "≤8.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 6,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T204",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T205",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T206",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T207",
+              "entity": ">8%",
+              "entity_type": "Test_Value",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T208",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 46,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T209",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 64
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "口服药种类和剂量根据患者个体情况酌情选择和调整。",
+          "start_idx": 256,
+          "end_idx": 280,
+          "entities": [
+            {
+              "entity_id": "T210",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 0,
+              "end_idx": 2
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "②剂量调整方案：剂量调整是胰岛素治疗中至关重要的一环，起始基础胰岛素治疗后，需根据FPG，在避免低血糖的情况下及时调整胰岛素剂量。只有通过积极的剂量调整，才能获得有效的血糖控制。多数患者长效胰岛素类似物剂量达到约0.5U/(kg·d)前，可通过继续调整剂量控制血糖，而无需调整治疗方案。在血糖未达到设定的血糖目标值前，建议患者在医生指导下，根据FPG，每周调整2~6U基础胰岛素直至FPG达标。对于能进行血糖监测、感知低血糖、进行自我管理的患者，医生可指导其进行简便易行的自我胰岛素剂量调整，每3天调整2~3U直至FPG达标(表4)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "②剂量调整方案：剂量调整是胰岛素治疗中至关重要的一环，起始基础胰岛素治疗后，需根据FPG，在避免低血糖的情况下及时调整胰岛素剂量。只有通过积极的剂量调整，才能获得有效的血糖控制。多数患者长效胰岛素类似物剂量达到约0.5U/(kg·d)前，可通过继续调整剂量控制血糖，而无需调整治疗方案。在血糖未达到设定的血糖目标值前，建议患者在医生指导下，根据FPG，每周调整2~6U基础胰岛素直至FPG达标。对于能进行血糖监测、感知低血糖、进行自我管理的患者，医生可指导其进行简便易行的自我胰岛素剂量调整，每3天调整2~3U直至FPG达标(表4)。",
+          "start_idx": 0,
+          "end_idx": 267,
+          "entities": [
+            {
+              "entity_id": "T211",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T212",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T213",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T214",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T215",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T216",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T217",
+              "entity": "长效胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T218",
+              "entity": "0.5U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 106,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T219",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 130,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T220",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 144,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T221",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 152,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T222",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 172,
+              "end_idx": 175
+            },
+            {
+              "entity_id": "T223",
+              "entity": "2~6U",
+              "entity_type": "Amount",
+              "start_idx": 180,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T224",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 191,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T225",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 194,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T226",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 202,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T227",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 209,
+              "end_idx": 212
+            },
+            {
+              "entity_id": "T228",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 238,
+              "end_idx": 241
+            },
+            {
+              "entity_id": "T229",
+              "entity": "2~3U",
+              "entity_type": "Amount",
+              "start_idx": 251,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T230",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 257,
+              "end_idx": 260
+            },
+            {
+              "entity_id": "T231",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 260,
+              "end_idx": 262
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R49",
+              "head_entity_id": "T214",
+              "tail_entity_id": "T215"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R50",
+              "head_entity_id": "T218",
+              "tail_entity_id": "T217"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R51",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T228"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R52",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T228"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R53",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "3.基础胰岛素联合餐时胰岛素方案",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.基础胰岛素联合餐时胰岛素方案",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T232",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T233",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "(1)适用人群和使用方案：口服降糖药联合基础胰岛素治疗后，FPG达标，HbA1c仍不达标者，或使用较大剂量基础胰岛素后[如0.6U/(kg·d)]，血糖仍不达标者；使用多次预混胰岛素治疗，血糖控制不佳者或反复发作低血糖者；需短时间内纠正高血糖的糖尿病患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)适用人群和使用方案：口服降糖药联合基础胰岛素治疗后，FPG达标，HbA1c仍不达标者，或使用较大剂量基础胰岛素后[如0.6U/(kg·d)]，血糖仍不达标者；使用多次预混胰岛素治疗，血糖控制不佳者或反复发作低血糖者；需短时间内纠正高血糖的糖尿病患者。",
+          "start_idx": 0,
+          "end_idx": 128,
+          "entities": [
+            {
+              "entity_id": "T234",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T235",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T236",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T237",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T238",
+              "entity": "不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T239",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T240",
+              "entity": "0.6U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 61,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T241",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T242",
+              "entity": "不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 77,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T243",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T244",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 94,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T245",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 96,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T246",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 106,
+              "end_idx": 109
+            },
+            {
+              "entity_id": "T247",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 118,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T248",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 122,
+              "end_idx": 125
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R54",
+              "head_entity_id": "T240",
+              "tail_entity_id": "T239"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T248"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R56",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T248"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "患者采用口服降糖药联合基础胰岛素治疗，FPG已达标，但HbA1c仍未达标时，可逐步增加1~3次餐时胰岛素注射以更好的控制血糖。如果患者在接受较高剂量基础胰岛素治疗后，血糖仍未达标，建议逐步增加餐时胰岛素进行治疗。预混胰岛素由于其短/速效胰岛素和中效胰岛素的比例固定，在提供个体化的胰岛素需求上有一定的局限性。对于每日多次预混胰岛素方案治疗，仍无法满意控制血糖或频发低血糖的患者，可以考虑使用基础联合餐时胰岛素治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "患者采用口服降糖药联合基础胰岛素治疗，FPG已达标，但HbA1c仍未达标时，可逐步增加1~3次餐时胰岛素注射以更好的控制血糖。如果患者在接受较高剂量基础胰岛素治疗后，血糖仍未达标，建议逐步增加餐时胰岛素进行治疗。预混胰岛素由于其短/速效胰岛素和中效胰岛素的比例固定，在提供个体化的胰岛素需求上有一定的局限性。对于每日多次预混胰岛素方案治疗，仍无法满意控制血糖或频发低血糖的患者，可以考虑使用基础联合餐时胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 207,
+          "entities": [
+            {
+              "entity_id": "T249",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T250",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T251",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T252",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T253",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T254",
+              "entity": "未达标",
+              "entity_type": "Test_Value",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T255",
+              "entity": "1~3次",
+              "entity_type": "Frequency",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T256",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T257",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T258",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 76,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T259",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 83,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T260",
+              "entity": "未达标",
+              "entity_type": "Test_Value",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T261",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T262",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 106,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T263",
+              "entity": "短/速效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 114,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T264",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 122,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T265",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 140,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T266",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 160,
+              "end_idx": 165
+            },
+            {
+              "entity_id": "T267",
+              "entity": "每日多次",
+              "entity_type": "Frequency",
+              "start_idx": 156,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T268",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 177,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T269",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 182,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T270",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 201,
+              "end_idx": 204
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R58",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T256"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R59",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T256"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R61",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T266"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "4.肠内/肠外营养患者：接受肠内/肠外营养的住院糖尿病患者如血糖得不到满意控制，可增加并发症和死亡风险。无论是否诊断为糖尿病，接受人工营养的患者血糖>7.8mmol/L即可起始胰岛素治疗。已接受胰岛素治疗的大部分患者血糖控制目标推荐7.8~10.0mmol/L，更为严格的目标，如6.1~7.8mmol/L适用于某些需要严格控制血糖的重症患者。持续肠内营养采用基础联合餐时方案(每日1~2次基础胰岛素联合每4~6h一次短效/速效胰岛素)，基础胰岛素按0.15~0.25U/(kg·d)起始。接受肠外营养的糖尿病患者可根据7~10U/100g葡萄糖的比例酌情添加胰岛素，皮下胰岛素注射也可作为补充。接受持续肠内/肠外营养的患者，推荐每4~6h进行1次血糖监测。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.肠内/肠外营养患者：接受肠内/肠外营养的住院糖尿病患者如血糖得不到满意控制，可增加并发症和死亡风险。无论是否诊断为糖尿病，接受人工营养的患者血糖>7.8mmol/L即可起始胰岛素治疗。已接受胰岛素治疗的大部分患者血糖控制目标推荐7.8~10.0mmol/L，更为严格的目标，如6.1~7.8mmol/L适用于某些需要严格控制血糖的重症患者。持续肠内营养采用基础联合餐时方案(每日1~2次基础胰岛素联合每4~6h一次短效/速效胰岛素)，基础胰岛素按0.15~0.25U/(kg·d)起始。接受肠外营养的糖尿病患者可根据7~10U/100g葡萄糖的比例酌情添加胰岛素，皮下胰岛素注射也可作为补充。",
+          "start_idx": 0,
+          "end_idx": 298,
+          "entities": [
+            {
+              "entity_id": "T271",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T272",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T273",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T274",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 72,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T275",
+              "entity": ">7.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 74,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T276",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 88,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T277",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 97,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T278",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 108,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T279",
+              "entity": "7.8~10.0mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 116,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T280",
+              "entity": "6.1~7.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 140,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T281",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 164,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T282",
+              "entity": "每日1~2次",
+              "entity_type": "Frequency",
+              "start_idx": 189,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T283",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 197,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T284",
+              "entity": "每4~6h一次",
+              "entity_type": "Frequency",
+              "start_idx": 202,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T285",
+              "entity": "短效/速效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 209,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T286",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 221,
+              "end_idx": 224
+            },
+            {
+              "entity_id": "T287",
+              "entity": "0.15~0.25U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 225,
+              "end_idx": 242
+            },
+            {
+              "entity_id": "T288",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 252,
+              "end_idx": 255
+            },
+            {
+              "entity_id": "T289",
+              "entity": "7~10U/100g",
+              "entity_type": "Amount",
+              "start_idx": 260,
+              "end_idx": 270
+            },
+            {
+              "entity_id": "T290",
+              "entity": "葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 270,
+              "end_idx": 273
+            },
+            {
+              "entity_id": "T291",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 280,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T292",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 286,
+              "end_idx": 289
+            },
+            {
+              "entity_id": "T293",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 289,
+              "end_idx": 291
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T272",
+              "tail_entity_id": "T273"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T276",
+              "tail_entity_id": "T273"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R64",
+              "head_entity_id": "T282",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R65",
+              "head_entity_id": "T284",
+              "tail_entity_id": "T285"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T288"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R67",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T292"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "接受持续肠内/肠外营养的患者，推荐每4~6h进行1次血糖监测。",
+          "start_idx": 298,
+          "end_idx": 329,
+          "entities": [
+            {
+              "entity_id": "T294",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 30
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "对于血糖水平显著增高并伴有高血糖症状的新诊断T2DM患者；或在糖尿病治疗过程中，需短时间内纠正高血糖的患者，推荐进行基础-餐时模式的短期胰岛素强化治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于血糖水平显著增高并伴有高血糖症状的新诊断T2DM患者；或在糖尿病治疗过程中，需短时间内纠正高血糖的患者，推荐进行基础-餐时模式的短期胰岛素强化治疗。",
+          "start_idx": 0,
+          "end_idx": 76,
+          "entities": [
+            {
+              "entity_id": "T295",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T296",
+              "entity": "增高",
+              "entity_type": "Test_Value",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T297",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T298",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T299",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T300",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T301",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T302",
+              "entity": "短期胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 66,
+              "end_idx": 71
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T295",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T299",
+              "tail_entity_id": "T298"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "(2)临床使用建议",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)临床使用建议",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "①基础/餐时胰岛素起始方法：对于口服降糖药联合基础胰岛素治疗的患者，基础胰岛素可维持原剂量，主餐/早餐前给予餐时胰岛素4U；对于之前使用预混胰岛素的患者，可按照原先预混胰岛素剂量的40%~50%作为基础胰岛素，剩余量作为餐时胰岛素，三餐平均分配；对于需短时间内纠正高血糖的患者，可根据0.3~0.5U/(kg·d)估算起始胰岛素总量，其中，50%为基础胰岛素，50%为餐时胰岛素，三餐平均分配。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "①基础/餐时胰岛素起始方法：对于口服降糖药联合基础胰岛素治疗的患者，基础胰岛素可维持原剂量，主餐/早餐前给予餐时胰岛素4U；对于之前使用预混胰岛素的患者，可按照原先预混胰岛素剂量的40%~50%作为基础胰岛素，剩余量作为餐时胰岛素，三餐平均分配；对于需短时间内纠正高血糖的患者，可根据0.3~0.5U/(kg·d)估算起始胰岛素总量，其中，50%为基础胰岛素，50%为餐时胰岛素，三餐平均分配。",
+          "start_idx": 0,
+          "end_idx": 197,
+          "entities": [
+            {
+              "entity_id": "T303",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T304",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T305",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T306",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T307",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T308",
+              "entity": "4U",
+              "entity_type": "Amount",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T309",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T310",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 87
+            },
+            {
+              "entity_id": "T311",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 101,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T312",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T313",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T314",
+              "entity": "0.3~0.5U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 142,
+              "end_idx": 157
+            },
+            {
+              "entity_id": "T315",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 161,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T316",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 176,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T317",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 186,
+              "end_idx": 189
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R70",
+              "head_entity_id": "T308",
+              "tail_entity_id": "T307"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R71",
+              "head_entity_id": "T314",
+              "tail_entity_id": "T315"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "四、基础胰岛素在特殊人群中的应用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、基础胰岛素在特殊人群中的应用",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T318",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "1.老年糖尿病患者：老年糖尿病患者常合并多种疾病，器官功能减退，且低血糖感知性弱、耐受性差，认知能力、自我管理能力下降。因此，老年糖尿病患者血糖控制目标一般较为宽松，HbA1c为7.5%~8.0%，对于出现糖尿病并发症或合并多种疾病的患者，血糖控制目标可进一步放宽。在使用降糖药物控制血糖，预防和减少并发症的同时，需考虑老年患者的肝、肾功能及合并用药的相互作用问题，减少低血糖发生。临床上常采用口服降糖药治疗，需胰岛素治疗情况下通常推荐使用基础胰岛素，尤其是低血糖风险较低的长效胰岛素类似物。除新诊断伴严重高血糖症状及某些特殊情况外，不推荐多次胰岛素注射的方案。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.老年糖尿病患者：老年糖尿病患者常合并多种疾病，器官功能减退，且低血糖感知性弱、耐受性差，认知能力、自我管理能力下降。因此，老年糖尿病患者血糖控制目标一般较为宽松，HbA1c为7.5%~8.0%，对于出现糖尿病并发症或合并多种疾病的患者，血糖控制目标可进一步放宽。在使用降糖药物控制血糖，预防和减少并发症的同时，需考虑老年患者的肝、肾功能及合并用药的相互作用问题，减少低血糖发生。临床上常采用口服降糖药治疗，需胰岛素治疗情况下通常推荐使用基础胰岛素，尤其是低血糖风险较低的长效胰岛素类似物。除新诊断伴严重高血糖症状及某些特殊情况外，不推荐多次胰岛素注射的方案。",
+          "start_idx": 0,
+          "end_idx": 281,
+          "entities": [
+            {
+              "entity_id": "T319",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T320",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T321",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T322",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 65,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T323",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T324",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 83,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T325",
+              "entity": "7.5%~8.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 89,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T326",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T327",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 120,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T328",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 142,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T329",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 185,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T330",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 197,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T331",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 206,
+              "end_idx": 209
+            },
+            {
+              "entity_id": "T332",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 222,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T333",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 229,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T334",
+              "entity": "长效胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 237,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T335",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 251,
+              "end_idx": 253
+            },
+            {
+              "entity_id": "T336",
+              "entity": "高血糖",
+              "entity_type": "ADE",
+              "start_idx": 253,
+              "end_idx": 256
+            },
+            {
+              "entity_id": "T337",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 272,
+              "end_idx": 275
+            },
+            {
+              "entity_id": "T338",
+              "entity": "注射",
+              "entity_type": "Method",
+              "start_idx": 275,
+              "end_idx": 277
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T323",
+              "tail_entity_id": "T322"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T322"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R74",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R75",
+              "head_entity_id": "T338",
+              "tail_entity_id": "T337"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "②胰岛素治疗方案和剂量调整：逐步增加餐时胰岛素的治疗方案中，主餐/早餐起始4~6U餐时胰岛素后，根据下一餐前血糖值，每周调整1~2次餐时胰岛素剂量，每次调整1~2U或10%~15%直至达到下次餐前血糖目标；根据每3~6个月HbA1c结果，如需要可逐渐增加至2~3次餐时胰岛素治疗。采用基础-三餐前胰岛素治疗方案时，如果血糖水平整体偏高，可先调整基础胰岛素剂量，对于需尽快解除高血糖状态的情况，则可同时调整基础和餐时的剂量。条件允许时，在起始胰岛素治疗的早期可通过住院密切监测血糖每天调整胰岛素剂量。根据FPG，调整基础胰岛素剂量1~4U或10%~20%；根据下一餐前血糖值，调整餐时胰岛素剂量1~2U或10%。如果出现空腹或夜间低血糖(<3.9mmol/L)或低血糖症状，则可减少基础胰岛素和/或晚餐前的餐时胰岛素剂量10%~20%；如果日间两餐间出现低血糖，则减少上一餐的餐时胰岛素剂量10%~20%；如出现需他人协助的严重低血糖或随机血糖<2.2mmol/L，则减少20%~40%胰岛素剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "②胰岛素治疗方案和剂量调整：逐步增加餐时胰岛素的治疗方案中，主餐/早餐起始4~6U餐时胰岛素后，根据下一餐前血糖值，每周调整1~2次餐时胰岛素剂量，每次调整1~2U或10%~15%直至达到下次餐前血糖目标；根据每3~6个月HbA1c结果，如需要可逐渐增加至2~3次餐时胰岛素治疗。采用基础-三餐前胰岛素治疗方案时，如果血糖水平整体偏高，可先调整基础胰岛素剂量，对于需尽快解除高血糖状态的情况，则可同时调整基础和餐时的剂量。条件允许时，在起始胰岛素治疗的早期可通过住院密切监测血糖每天调整胰岛素剂量。根据FPG，调整基础胰岛素剂量1~4U或10%~20%；根据下一餐前血糖值，调整餐时胰岛素剂量1~2U或10%。如果出现空腹或夜间低血糖(<3.9mmol/L)或低血糖症状，则可减少基础胰岛素和/或晚餐前的餐时胰岛素剂量10%~20%；如果日间两餐间出现低血糖，则减少上一餐的餐时胰岛素剂量10%~20%；如出现需他人协助的严重低血糖或随机血糖<2.2mmol/L，则减少20%~40%胰岛素剂量。",
+          "start_idx": 0,
+          "end_idx": 448,
+          "entities": [
+            {
+              "entity_id": "T339",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T340",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T341",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T342",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T343",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T344",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 148,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T345",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 174,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T346",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 220,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T347",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 243,
+              "end_idx": 246
+            },
+            {
+              "entity_id": "T348",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 259,
+              "end_idx": 262
+            },
+            {
+              "entity_id": "T349",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 291,
+              "end_idx": 294
+            },
+            {
+              "entity_id": "T350",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 342,
+              "end_idx": 345
+            },
+            {
+              "entity_id": "T351",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 354,
+              "end_idx": 357
+            },
+            {
+              "entity_id": "T352",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 389,
+              "end_idx": 392
+            },
+            {
+              "entity_id": "T353",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 442,
+              "end_idx": 445
+            },
+            {
+              "entity_id": "T354",
+              "entity": "4~6U",
+              "entity_type": "Amount",
+              "start_idx": 37,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T355",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T356",
+              "entity": "1~2次",
+              "entity_type": "Frequency",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T357",
+              "entity": "1~2U",
+              "entity_type": "Amount",
+              "start_idx": 78,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T358",
+              "entity": "餐前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 96,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T359",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 111,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T360",
+              "entity": "2~3次",
+              "entity_type": "Frequency",
+              "start_idx": 128,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T361",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 159,
+              "end_idx": 161
+            },
+            {
+              "entity_id": "T362",
+              "entity": "偏高",
+              "entity_type": "Test_Value",
+              "start_idx": 165,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T363",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 187,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T364",
+              "entity": "监测血糖",
+              "entity_type": "Test_items",
+              "start_idx": 235,
+              "end_idx": 239
+            },
+            {
+              "entity_id": "T365",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 251,
+              "end_idx": 254
+            },
+            {
+              "entity_id": "T366",
+              "entity": "1~4U",
+              "entity_type": "Amount",
+              "start_idx": 264,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T367",
+              "entity": "餐前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 281,
+              "end_idx": 285
+            },
+            {
+              "entity_id": "T368",
+              "entity": "1~2U",
+              "entity_type": "Amount",
+              "start_idx": 296,
+              "end_idx": 300
+            },
+            {
+              "entity_id": "T369",
+              "entity": "夜间低血糖",
+              "entity_type": "Test_items",
+              "start_idx": 312,
+              "end_idx": 317
+            },
+            {
+              "entity_id": "T370",
+              "entity": "<3.9mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 318,
+              "end_idx": 328
+            },
+            {
+              "entity_id": "T371",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 330,
+              "end_idx": 333
+            },
+            {
+              "entity_id": "T372",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 376,
+              "end_idx": 379
+            },
+            {
+              "entity_id": "T373",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 411,
+              "end_idx": 413
+            },
+            {
+              "entity_id": "T374",
+              "entity": "随机血糖",
+              "entity_type": "Test_items",
+              "start_idx": 417,
+              "end_idx": 421
+            },
+            {
+              "entity_id": "T375",
+              "entity": "<2.2mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 421,
+              "end_idx": 431
+            },
+            {
+              "entity_id": "T376",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 413,
+              "end_idx": 416
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R76",
+              "head_entity_id": "T354",
+              "tail_entity_id": "T341"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R77",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T342"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R78",
+              "head_entity_id": "T357",
+              "tail_entity_id": "T342"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R79",
+              "head_entity_id": "T360",
+              "tail_entity_id": "T343"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R80",
+              "head_entity_id": "T366",
+              "tail_entity_id": "T348"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R81",
+              "head_entity_id": "T368",
+              "tail_entity_id": "T349"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R82",
+              "head_entity_id": "T371",
+              "tail_entity_id": "T350"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R83",
+              "head_entity_id": "T376",
+              "tail_entity_id": "T353"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "2.GDM患者与糖尿病合并妊娠(PGDM)患者：妊娠期间高血糖会增加围生期母婴发生不良临床结局的风险，故相比一般糖尿病患者血糖控制应更加严格。GDM血糖值控制在餐前≤5.3mmol/L，1hPG及2 hPG分别为≤7.8或6.7mmol/L，HbA1c<5.5%；PGDM妊娠期餐前、夜间血糖及FPG宜控制在≤5.6mmol/L，餐后峰值血糖5.6~7.1mmol/L，HbA1c<6.0%。GDM与PGDM患者，通过饮食治疗血糖不能得到满意控制时，需起始胰岛素治疗。由于人胰岛素不通过胎盘屏障，因此NPH在妊娠期间使用不限制。长效人胰岛素类似物在妊娠妇女中临床对照研究证据有限，患者起始长效人胰岛素类似物治疗前，临床医生需充分考虑获益及潜在风险后选择治疗方案。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.GDM患者与糖尿病合并妊娠(PGDM)患者：妊娠期间高血糖会增加围生期母婴发生不良临床结局的风险，故相比一般糖尿病患者血糖控制应更加严格。GDM血糖值控制在餐前≤5.3mmol/L，1hPG及2 hPG分别为≤7.8或6.7mmol/L，HbA1c<5.5%；PGDM妊娠期餐前、夜间血糖及FPG宜控制在≤5.6mmol/L，餐后峰值血糖5.6~7.1mmol/L，HbA1c<6.0%。GDM与PGDM患者，通过饮食治疗血糖不能得到满意控制时，需起始胰岛素治疗。",
+          "start_idx": 0,
+          "end_idx": 234,
+          "entities": [
+            {
+              "entity_id": "T377",
+              "entity": "GDM",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T378",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T379",
+              "entity": "PGDM",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T380",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T381",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T382",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T383",
+              "entity": "GDM",
+              "entity_type": "Disease",
+              "start_idx": 71,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T384",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 74,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T385",
+              "entity": "≤5.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 82,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T386",
+              "entity": "1hPG",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T387",
+              "entity": "2 hPG",
+              "entity_type": "Test_items",
+              "start_idx": 98,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T388",
+              "entity": "≤7.8",
+              "entity_type": "Test_Value",
+              "start_idx": 106,
+              "end_idx": 110
+            },
+            {
+              "entity_id": "T389",
+              "entity": "6.7mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 111,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T390",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 121,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T391",
+              "entity": "<5.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 126,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T392",
+              "entity": "PGDM",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T393",
+              "entity": "夜间血糖",
+              "entity_type": "Test_items",
+              "start_idx": 142,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T394",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 147,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T395",
+              "entity": "≤5.6mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 154,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T396",
+              "entity": "餐后峰值血糖",
+              "entity_type": "Test_items",
+              "start_idx": 165,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T397",
+              "entity": "5.6~7.1mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 171,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T398",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 185,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T399",
+              "entity": "<6.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 190,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T400",
+              "entity": "GDM",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T401",
+              "entity": "PGDM",
+              "entity_type": "Disease",
+              "start_idx": 200,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T402",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 213,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T403",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 231
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T382",
+              "tail_entity_id": "T381"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T384",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T386",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T387",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T390",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T393",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T394",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T396",
+              "tail_entity_id": "T383"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T403",
+              "tail_entity_id": "T400"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T403",
+              "tail_entity_id": "T401"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T402",
+              "tail_entity_id": "T401"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "由于人胰岛素不通过胎盘屏障，因此NPH在妊娠期间使用不限制。",
+          "start_idx": 234,
+          "end_idx": 264,
+          "entities": [
+            {
+              "entity_id": "T404",
+              "entity": "人胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T405",
+              "entity": "NPH",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "长效人胰岛素类似物在妊娠妇女中临床对照研究证据有限，患者起始长效人胰岛素类似物治疗前，临床医生需充分考虑获益及潜在风险后选择治疗方案。",
+          "start_idx": 264,
+          "end_idx": 331,
+          "entities": [
+            {
+              "entity_id": "T406",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T407",
+              "entity": "长效人胰岛素类似物",
+              "entity_type": "Drug",
+              "start_idx": 30,
+              "end_idx": 39
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "3.围手术期患者：高血糖会增加感染发生率，延迟伤口愈合，因此对于择期手术的患者，手术前血糖控制在FPG<7.8mmol/L，2hPG<10.0mmol/L。对于血糖长期升高者、特殊手术患者等需建立个体化目标。围手术期需使用胰岛素控制血糖，入院前口服降糖药的患者，接受小手术的术前当晚及手术当天应停用口服降糖药，接受大中手术则应在术前3天停用口服降糖药，均改为胰岛素治疗。术前和术后可正常饮食的高血糖患者可采用基础联合餐时胰岛素方案，大中型手术术中需要静脉使用胰岛素。对于常规(非心脏)手术患者，基础联合餐时方案相比仅使用短效或速效胰岛素的方案血糖控制更佳、围手术期并发症更少。入院前已使用胰岛素者，手术日停用早餐前短效/速效胰岛素，继续使用基础胰岛素。长效胰岛素在手术当日早晨予常规剂量的50%~100%；中效胰岛素如为晚间注射，术前1d予常规剂量的75%，手术当日早晨予常规剂量的50%~75%；预混胰岛素在手术当日早晨应更换为基础胰岛素，剂量为预混胰岛素中的中效成分的50%~75%。大中型手术术后病情稳定、恢复正常饮食者可予胰岛素皮下注射。一般起始总剂量为0.4~0.5U(kg·d)，年龄≥70岁或eGFR≤60ml/min者减量至0.2~0.3U/(kg·d)，其中，基础和餐时胰岛素各占50%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.围手术期患者：高血糖会增加感染发生率，延迟伤口愈合，因此对于择期手术的患者，手术前血糖控制在FPG<7.8mmol/L，2hPG<10.0mmol/L。对于血糖长期升高者、特殊手术患者等需建立个体化目标。围手术期需使用胰岛素控制血糖，入院前口服降糖药的患者，接受小手术的术前当晚及手术当天应停用口服降糖药，接受大中手术则应在术前3天停用口服降糖药，均改为胰岛素治疗。术前和术后可正常饮食的高血糖患者可采用基础联合餐时胰岛素方案，大中型手术术中需要静脉使用胰岛素。对于常规(非心脏)手术患者，基础联合餐时方案相比仅使用短效或速效胰岛素的方案血糖控制更佳、围手术期并发症更少。入院前已使用胰岛素者，手术日停用早餐前短效/速效胰岛素，继续使用基础胰岛素。长效胰岛素在手术当日早晨予常规剂量的50%~100%；中效胰岛素如为晚间注射，术前1d予常规剂量的75%，手术当日早晨予常规剂量的50%~75%；预混胰岛素在手术当日早晨应更换为基础胰岛素，剂量为预混胰岛素中的中效成分的50%~75%。大中型手术术后病情稳定、恢复正常饮食者可予胰岛素皮下注射。一般起始总剂量为0.4~0.5U(kg·d)，年龄≥70岁或eGFR≤60ml/min者减量至0.2~0.3U/(kg·d)，其中，基础和餐时胰岛素各占50%。",
+          "start_idx": 0,
+          "end_idx": 553,
+          "entities": [
+            {
+              "entity_id": "T408",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T409",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T410",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T411",
+              "entity": "<7.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 51,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T412",
+              "entity": "2hPG",
+              "entity_type": "Test_items",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T413",
+              "entity": "<10.0mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 66,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T414",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 80,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T415",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T416",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T417",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 116,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T418",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 122,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T419",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 149,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T420",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 170,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T421",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 179,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T422",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 199
+            },
+            {
+              "entity_id": "T423",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 210,
+              "end_idx": 213
+            },
+            {
+              "entity_id": "T424",
+              "entity": "静脉",
+              "entity_type": "Method",
+              "start_idx": 225,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T425",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 229,
+              "end_idx": 232
+            },
+            {
+              "entity_id": "T426",
+              "entity": "速效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 263,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T427",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 271,
+              "end_idx": 273
+            },
+            {
+              "entity_id": "T428",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 294,
+              "end_idx": 297
+            },
+            {
+              "entity_id": "T429",
+              "entity": "短效/速效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 307,
+              "end_idx": 315
+            },
+            {
+              "entity_id": "T430",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 322,
+              "end_idx": 325
+            },
+            {
+              "entity_id": "T431",
+              "entity": "长效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 326,
+              "end_idx": 331
+            },
+            {
+              "entity_id": "T432",
+              "entity": "中效胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 353,
+              "end_idx": 358
+            },
+            {
+              "entity_id": "T433",
+              "entity": "晚间注射",
+              "entity_type": "Method",
+              "start_idx": 360,
+              "end_idx": 364
+            },
+            {
+              "entity_id": "T434",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 399,
+              "end_idx": 404
+            },
+            {
+              "entity_id": "T435",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 417,
+              "end_idx": 420
+            },
+            {
+              "entity_id": "T436",
+              "entity": "预混胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 424,
+              "end_idx": 429
+            },
+            {
+              "entity_id": "T437",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 465,
+              "end_idx": 468
+            },
+            {
+              "entity_id": "T438",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 468,
+              "end_idx": 472
+            },
+            {
+              "entity_id": "T439",
+              "entity": "0.4~0.5U(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 481,
+              "end_idx": 495
+            },
+            {
+              "entity_id": "T440",
+              "entity": "0.2~0.3U/(kg·d)",
+              "entity_type": "Amount",
+              "start_idx": 520,
+              "end_idx": 535
+            },
+            {
+              "entity_id": "T441",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 544,
+              "end_idx": 547
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T409",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T410",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T412",
+              "tail_entity_id": "T408"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T423",
+              "tail_entity_id": "T422"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R99",
+              "head_entity_id": "T424",
+              "tail_entity_id": "T425"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R100",
+              "head_entity_id": "T433",
+              "tail_entity_id": "T432"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R101",
+              "head_entity_id": "T438",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R102",
+              "head_entity_id": "T439",
+              "tail_entity_id": "T441"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R103",
+              "head_entity_id": "T440",
+              "tail_entity_id": "T441"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "五、总结及展望",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、总结及展望",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "基础胰岛素是T2DM管理中重要的降糖措施，基础胰岛素的及时起始和合理充分的剂量调整能改善T2DM患者的整体血糖控制，也为之后更复杂的基础联合餐时胰岛素的治疗方案奠定了基础。临床工作中我们需加强对患者的教育和管理，适时起始基础胰岛素治疗并根据血糖水平进行剂量调整，通过适当的血糖监测和随访，实现长期平稳的血糖控制，降低糖尿病并发症发生的风险，改善患者生活质量和延长寿命。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基础胰岛素是T2DM管理中重要的降糖措施，基础胰岛素的及时起始和合理充分的剂量调整能改善T2DM患者的整体血糖控制，也为之后更复杂的基础联合餐时胰岛素的治疗方案奠定了基础。临床工作中我们需加强对患者的教育和管理，适时起始基础胰岛素治疗并根据血糖水平进行剂量调整，通过适当的血糖监测和随访，实现长期平稳的血糖控制，降低糖尿病并发症发生的风险，改善患者生活质量和延长寿命。",
+          "start_idx": 0,
+          "end_idx": 184,
+          "entities": [
+            {
+              "entity_id": "T442",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T443",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T444",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 6,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T445",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T446",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T447",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 44,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T448",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T449",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T450",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 112,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T451",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 120,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T452",
+              "entity": "血糖监测",
+              "entity_type": "Test_items",
+              "start_idx": 136,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T453",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 151,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T454",
+              "entity": "糖尿病并发症",
+              "entity_type": "Disease",
+              "start_idx": 158,
+              "end_idx": 164
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T442",
+              "tail_entity_id": "T443"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T444",
+              "tail_entity_id": "T443"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T447",
+              "tail_entity_id": "T446"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T448",
+              "tail_entity_id": "T446"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T450",
+              "tail_entity_id": "T454"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T453",
+              "tail_entity_id": "T454"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

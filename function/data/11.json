@@ -1,0 +1,5985 @@
+{
+  "doc_id": "11",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "基于胰高血糖素样肽1降糖药物的临床应用共识 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基于胰高血糖素样肽1降糖药物的临床应用共识 ",
+          "start_idx": 0,
+          "end_idx": 22,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "胰高血糖素样肽1降糖药物",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "自从2005年国际上第一个肠促胰素类药上市以来，此类药物的研究和临床应用有了飞速的发展。目前在我国已经上市2种胰高血糖素样肽1(GLP-1)受体激动剂和5种二肽基肽酶Ⅳ(DPP-4)抑制剂，为了便于使用者全面和快速地了解此类药物的基本知识以及在我国的临床研究和应用情况，中华医学会糖尿病学分会达成以下共识。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "自从2005年国际上第一个肠促胰素类药上市以来，此类药物的研究和临床应用有了飞速的发展。目前在我国已经上市2种胰高血糖素样肽1(GLP-1)受体激动剂和5种二肽基肽酶Ⅳ(DPP-4)抑制剂，为了便于使用者全面和快速地了解此类药物的基本知识以及在我国的临床研究和应用情况，中华医学会糖尿病学分会达成以下共识。",
+          "start_idx": 0,
+          "end_idx": 153,
+          "entities": [
+            {
+              "entity_id": "T1",
+              "entity": "肠促胰素类药",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T2",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 140,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T3",
+              "entity": "胰高血糖素样肽1(GLP-1)受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 75
+            },
+            {
+              "entity_id": "T4",
+              "entity": "二肽基肽酶Ⅳ(DPP-4)抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 94
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T3",
+              "tail_entity_id": "T2"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "—、肠促胰素类药物的发现和发展 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "—、肠促胰素类药物的发现和发展 ",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T5",
+              "entity": "肠促胰素类药物",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "胃肠道是机体重要的内分泌器官，肠道内分泌细胞在代谢调节中的作用日益受到重视。二十世纪初期，人们发现营养物质摄入后，从肠道分泌的某种激素可以刺激胰岛素分泌从而产生降低血糖的作用。1929年，中国学者冯德培、侯祥川、林可胜教授在国际上率先发现并命名了肠抑胃素(enterogastrone)。同年，Zunz和LaBarre教授发现在狗身上应用这种物质后可引发低血糖，进而将该物质命名为\"肠促胰素\"(incretin)。1969年，Unger和Eisentraut等首先以“肠-胰岛轴”来描述肠道与胰岛之间的关联，提示这样一个系统能够整合从肠道到胰岛细胞之间的营养、神经和激素信号，从而调控胰岛素、胰高糖素、生长抑素或胰多肽的分泌。营养物质尤其是碳水化合物可刺激这类激素的释放，当血糖升高时刺激胰岛素释放。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "胃肠道是机体重要的内分泌器官，肠道内分泌细胞在代谢调节中的作用日益受到重视。",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "二十世纪初期，人们发现营养物质摄入后，从肠道分泌的某种激素可以刺激胰岛素分泌从而产生降低血糖的作用。",
+          "start_idx": 38,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T7",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 44,
+              "end_idx": 46
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "1929年，中国学者冯德培、侯祥川、林可胜教授在国际上率先发现并命名了肠抑胃素(enterogastrone)。",
+          "start_idx": 88,
+          "end_idx": 144,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "同年，Zunz和LaBarre教授发现在狗身上应用这种物质后可引发低血糖，进而将该物质命名为\"肠促胰素\"(incretin)。",
+          "start_idx": 144,
+          "end_idx": 207,
+          "entities": [
+            {
+              "entity_id": "T6",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 33,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "1969年，Unger和Eisentraut等首先以“肠-胰岛轴”来描述肠道与胰岛之间的关联，提示这样一个系统能够整合从肠道到胰岛细胞之间的营养、神经和激素信号，从而调控胰岛素、胰高糖素、生长抑素或胰多肽的分泌。",
+          "start_idx": 207,
+          "end_idx": 313,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "营养物质尤其是碳水化合物可刺激这类激素的释放，当血糖升高时刺激胰岛素释放。",
+          "start_idx": 313,
+          "end_idx": 350,
+          "entities": [
+            {
+              "entity_id": "T8",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T9",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 26,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "Elrick等发现，在血糖变化水平相同的情况下，与静脉注射葡萄糖相比，口服葡萄糖可引起更多的胰岛素分泌，这种现象被称为“肠促胰素效应”。人体内主要有两种肠促胰素：葡萄糖依赖性胰岛素释放肽(GIP)和GLP-I。GIP早在1930年被发现，是第一个被发现的肠促胰素，它是从猪小肠提取物中分离出来的物质，由于其具有抑制胃酸和胃蛋白酵分泌的作用，早期被命名为抑胃肽。但在1973年，Pederson等学者发现它在狗、大鼠乃至人体内呈现出葡萄糖依赖性刺激胰岛素释放的特性，即被更名为葡萄糖依赖性胰岛素释放肽。1986至1987年间，Drucker等和Orskov等分别在对哺乳动物胰高糖素原基因的克隆和序列测定过程中，发现第二个可以刺激胰岛素释放的肠促胰素，即GLP-1。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "Elrick等发现，在血糖变化水平相同的情况下，与静脉注射葡萄糖相比，口服葡萄糖可引起更多的胰岛素分泌，这种现象被称为“肠促胰素效应”。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T10",
+              "entity": "静脉注射",
+              "entity_type": "Method",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T11",
+              "entity": "葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T12",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T13",
+              "entity": "葡萄糖",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 40
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R2",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T11"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R3",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T13"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "人体内主要有两种肠促胰素：葡萄糖依赖性胰岛素释放肽(GIP)和GLP-I。",
+          "start_idx": 68,
+          "end_idx": 105,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "GIP早在1930年被发现，是第一个被发现的肠促胰素，它是从猪小肠提取物中分离出来的物质，由于其具有抑制胃酸和胃蛋白酵分泌的作用，早期被命名为抑胃肽。",
+          "start_idx": 105,
+          "end_idx": 180,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "但在1973年，Pederson等学者发现它在狗、大鼠乃至人体内呈现出葡萄糖依赖性刺激胰岛素释放的特性，即被更名为葡萄糖依赖性胰岛素释放肽。",
+          "start_idx": 180,
+          "end_idx": 250,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "1986至1987年间，Drucker等和Orskov等分别在对哺乳动物胰高糖素原基因的克隆和序列测定过程中，发现第二个可以刺激胰岛素释放的肠促胰素，即GLP-1。",
+          "start_idx": 250,
+          "end_idx": 332,
+          "entities": [
+            {
+              "entity_id": "T14",
+              "entity": "哺乳动物胰高糖素原基因的克隆和序列测定",
+              "entity_type": "Test",
+              "start_idx": 32,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "肠促胰素引起的胰岛素分泌能力约占全部胰岛素分泌量的50%-70%，而且肠促素刺激胰岛素分泌的作用具有葡萄糖浓度依赖的特点，故在调节血糖的同时，引起低血糖的风险很低。GIP是人17号常染色体长臂基因编码的具有42个氨基酸的肽类物质，在碳水化合物和脂类刺激下，主要由十二指肠和空肠近端的K细胞分泌。GIP与胰腺β细胞上的特异性受体结合，促进胰岛素分泌。但2型糖尿病患者的循环CIP水平正常或升高，同时GIP对β细胞的促胰岛素分泌作用显著降低，对a细胞也没有作用，因而限制了其临床应用。GLP-1是人2号常染色体长臂的胰高血糖素原基因编码，而后经修饰的具有30个氨基酸的肠肽类激素，在食物的刺激下由回肠和结肠的L细胞分泌释放入血，从而发挥葡萄糖依赖性促进胰岛素的合成和分泌、抑制β细胞凋亡、抑制胰高糖素分泌等生理作用。1993年，在Nauck等发表的文章中，提示对磺脲类药物不能有效控制的2型糖尿病患者，持续静脉输注CLP-1后，能够显著降低血糖；当血糖达到正常水平时，持续输注GLP-1并未继续刺激胰岛素分泌、血糖呈稳定状态，进一步表明了GLP-1的葡萄糖浓度依赖性降糖的特征。此外，研究还发现肠促胰素，尤其是GLP-1可抑制胰腺α细胞分泌胰高糖素，并有减轻体重、改善β细胞功能和在动物模型中增加β细胞量的作用，可对2型糖尿病患者的代谢异常进行多方面的调控。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "肠促胰素引起的胰岛素分泌能力约占全部胰岛素分泌量的50%-70%，而且肠促素刺激胰岛素分泌的作用具有葡萄糖浓度依赖的特点，故在调节血糖的同时，引起低血糖的风险很低。GIP是人17号常染色体长臂基因编码的具有42个氨基酸的肽类物质，在碳水化合物和脂类刺激下，主要由十二指肠和空肠近端的K细胞分泌。GIP与胰腺β细胞上的特异性受体结合，促进胰岛素分泌。但2型糖尿病患者的循环CIP水平正常或升高，同时GIP对β细胞的促胰岛素分泌作用显著降低，对a细胞也没有作用，因而限制了其临床应用。GLP-1是人2号常染色体长臂的胰高血糖素原基因编码，而后经修饰的具有30个氨基酸的肠肽类激素，在食物的刺激下由回肠和结肠的L细胞分泌释放入血，从而发挥葡萄糖依赖性促进胰岛素的合成和分泌、抑制β细胞凋亡、抑制胰高糖素分泌等生理作用。1993年，在Nauck等发表的文章中，提示对磺脲类药物不能有效控制的2型糖尿病患者，持续静脉输注CLP-1后，能够显著降低血糖；当血糖达到正常水平时，持续输注GLP-1并未继续刺激胰岛素分泌、血糖呈稳定状态，进一步表明了GLP-1的葡萄糖浓度依赖性降糖的特征。",
+          "start_idx": 0,
+          "end_idx": 487,
+          "entities": [
+            {
+              "entity_id": "T15",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 65,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T16",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T17",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 175,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T18",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 175,
+              "end_idx": 177
+            },
+            {
+              "entity_id": "T19",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 379,
+              "end_idx": 384
+            },
+            {
+              "entity_id": "T20",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 391,
+              "end_idx": 396
+            },
+            {
+              "entity_id": "T21",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 391,
+              "end_idx": 393
+            },
+            {
+              "entity_id": "T22",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 418,
+              "end_idx": 420
+            },
+            {
+              "entity_id": "T25",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 453,
+              "end_idx": 455
+            },
+            {
+              "entity_id": "T26",
+              "entity": "稳定状态",
+              "entity_type": "Test_Value",
+              "start_idx": 456,
+              "end_idx": 460
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T15",
+              "tail_entity_id": "T16"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T18",
+              "tail_entity_id": "T17"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T19",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T22",
+              "tail_entity_id": "T20"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "此外，研究还发现肠促胰素，尤其是GLP-1可抑制胰腺α细胞分泌胰高糖素，并有减轻体重、改善β细胞功能和在动物模型中增加β细胞量的作用，可对2型糖尿病患者的代谢异常进行多方面的调控。",
+          "start_idx": 487,
+          "end_idx": 577,
+          "entities": [
+            {
+              "entity_id": "T23",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 69,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T24",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 69,
+              "end_idx": 71
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T23"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "二、作用机制",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、作用机制",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "GLP-1通过与其广泛存在于器官上的特异受体相结合，从而发挥相应的作用。目前明确存在GLP-1受体的器官包括胰岛细胞、胃肠、肺、脑、肾脏、下丘脑、心血管系统等。另外，肝脏、脂肪组织和骨骼肌也可能存在GLP-1受体。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GLP-1通过与其广泛存在于器官上的特异受体相结合，从而发挥相应的作用。",
+          "start_idx": 0,
+          "end_idx": 36,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "目前明确存在GLP-1受体的器官包括胰岛细胞、胃肠、肺、脑、肾脏、下丘脑、心血管系统等。",
+          "start_idx": 36,
+          "end_idx": 80,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "另外，肝脏、脂肪组织和骨骼肌也可能存在GLP-1受体。",
+          "start_idx": 80,
+          "end_idx": 107,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "不像其他胰岛素促泌剂通过KATP通道释放胰岛素,GLP-1还通过刺激胰岛素前体基因表达面合成胰岛素。这个效应主要是通过GLP-1与β细胞的GLP-1受体结合后激活了cAMP依赖的PKA信号通路。另外，GLP-1也可以通过抑制胰岛α细胞释放胰高糖素而降低血糖。这个机制尚不明确，可能是通过存在于α细胞上的GLP-1受体直接作用或间接通过刺激分泌的胰岛素和生长抑素的旁路效应。在临床前研究中发现，GLP-1对胰腺的作用还包括保护β细胞、增加β细胞量(可能是通过促进β细胞分化、增殖、抑制细胞凋亡通路)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "不像其他胰岛素促泌剂通过KATP通道释放胰岛素,GLP-1还通过刺激胰岛素前体基因表达面合成胰岛素。",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T27",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "这个效应主要是通过GLP-1与β细胞的GLP-1受体结合后激活了cAMP依赖的PKA信号通路。",
+          "start_idx": 50,
+          "end_idx": 97,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "另外，GLP-1也可以通过抑制胰岛α细胞释放胰高糖素而降低血糖。",
+          "start_idx": 97,
+          "end_idx": 129,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "这个机制尚不明确，可能是通过存在于α细胞上的GLP-1受体直接作用或间接通过刺激分泌的胰岛素和生长抑素的旁路效应。",
+          "start_idx": 129,
+          "end_idx": 186,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "在临床前研究中发现，GLP-1对胰腺的作用还包括保护β细胞、增加β细胞量(可能是通过促进β细胞分化、增殖、抑制细胞凋亡通路)。",
+          "start_idx": 186,
+          "end_idx": 249,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "GLP-1除了对胰腺作用外，还通过与存在于其他脏器上的特异受体结合发挥胰腺外作用，其胰腺外作用可能通盖多个方面：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GLP-1除了对胰腺作用外，还通过与存在于其他脏器上的特异受体结合发挥胰腺外作用，其胰腺外作用可能通盖多个方面：",
+          "start_idx": 0,
+          "end_idx": 56,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "1.作用于胃肠道，延缓胃挂空和肠道蠕动的作用，并可以抑制胃酸和五肽胃泌素分泌，从而减少餐后血糖波动和减轻体重。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.作用于胃肠道，延缓胃挂空和肠道蠕动的作用，并可以抑制胃酸和五肽胃泌素分泌，从而减少餐后血糖波动和减轻体重。",
+          "start_idx": 0,
+          "end_idx": 55,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "减轻体重",
+              "entity_type": "Symptom",
+              "start_idx": 50,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T30",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T31",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 47,
+              "end_idx": 49
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "2.作用于中枢神经系统，发挥抑制食欲、增加饱感等作用.从而达到减少摄食的目的。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.作用于中枢神经系统，发挥抑制食欲、增加饱感等作用.从而达到减少摄食的目的。",
+          "start_idx": 0,
+          "end_idx": 39,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "3.作用于心血管系统，降低收缩压、改善心肌缺血和心肌收缩功能。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.作用于心血管系统，降低收缩压、改善心肌缺血和心肌收缩功能。",
+          "start_idx": 0,
+          "end_idx": 31,
+          "entities": [
+            {
+              "entity_id": "T32",
+              "entity": "收缩压",
+              "entity_type": "Test",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T33",
+              "entity": "心肌缺血",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T34",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 21
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T34",
+              "tail_entity_id": "T33"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "4.作用于肝、肾，抑制肝脏葡萄糖生成、降低肝酶、降低血脂，改善肝功能。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.作用于肝、肾，抑制肝脏葡萄糖生成、降低肝酶、降低血脂，改善肝功能。",
+          "start_idx": 0,
+          "end_idx": 35,
+          "entities": [
+            {
+              "entity_id": "T35",
+              "entity": "血脂",
+              "entity_type": "Test",
+              "start_idx": 26,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "5.增加肥胖者的钠排泄、减少H+分泌、降低肾小球高滤过，从而对肾脏可能起到保护作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "5.增加肥胖者的钠排泄、减少H+分泌、降低肾小球高滤过，从而对肾脏可能起到保护作用。",
+          "start_idx": 0,
+          "end_idx": 42,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "三、药物分类",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、药物分类",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "目前有两大类药物：分别为GLP-1受体激动剂和DPP-4抑制剂。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前有两大类药物：分别为GLP-1受体激动剂和DPP-4抑制剂。",
+          "start_idx": 0,
+          "end_idx": 32,
+          "entities": [
+            {
+              "entity_id": "T37",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T38",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "CLP-1受体激动剂通过模拟天然CLP-1激活GLP-1受体而发挥作用，且不容易被DPP-4快速降解，延长了半衰期，增加了活性GLP-1在体内的浓度。GLP-1受体激动剂主要通过外源性补充GLP-1以使体内的GLP-1水平达到药理浓度而发挥作用，其降糖效果显著，降低HbA1c幅度约0.8%~1.5%。目前，在中国上市的GLP-1受体激动剂有两种：一种是短效GLP-1受体激动剂艾塞那肽(exenatide，商品名百泌达)，是两栖动物美洲毒蜥唾液中多肽exendin-4的人工合成多肽，其与人GLP-1的同源性为53%；另一种是长效人GLP-1类似物利拉鲁肽(liraglutide，商品名诺和力)，通过对人GLP-1分子结构局部修饰加工而成，与GLP-1的同源性为97%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CLP-1受体激动剂通过模拟天然CLP-1激活GLP-1受体而发挥作用，且不容易被DPP-4快速降解，延长了半衰期，增加了活性GLP-1在体内的浓度。",
+          "start_idx": 0,
+          "end_idx": 75,
+          "entities": [
+            {
+              "entity_id": "T39",
+              "entity": "CLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "GLP-1受体激动剂主要通过外源性补充GLP-1以使体内的GLP-1水平达到药理浓度而发挥作用，其降糖效果显著，降低HbA1c幅度约0.8%~1.5%。",
+          "start_idx": 75,
+          "end_idx": 151,
+          "entities": [
+            {
+              "entity_id": "T40",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T41",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T42",
+              "entity": "0.8%~1.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 66,
+              "end_idx": 75
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "目前，在中国上市的GLP-1受体激动剂有两种：一种是短效GLP-1受体激动剂艾塞那肽(exenatide，商品名百泌达)，是两栖动物美洲毒蜥唾液中多肽exendin-4的人工合成多肽，其与人GLP-1的同源性为53%；另一种是长效人GLP-1类似物利拉鲁肽(liraglutide，商品名诺和力)，通过对人GLP-1分子结构局部修饰加工而成，与GLP-1的同源性为97%。",
+          "start_idx": 151,
+          "end_idx": 337,
+          "entities": [
+            {
+              "entity_id": "T43",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T44",
+              "entity": "长效人GLP-1类似物利拉鲁肽(liraglutide，商品名诺和力)",
+              "entity_type": "Drug",
+              "start_idx": 113,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T45",
+              "entity": "短效GLP-1受体激动剂艾塞那肽(exenatide，商品名百泌达)",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 60
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "另外，根据降糖作用时间长短，可以把GPL-I受体激动剂分为短效和长效制剂，短效制剂对延迟胃排空作用较强，餐后血糖降低明显，长效制剂对延迟胃排空作用较弱，但通过刺激胰岛素分泌和抑制胰高糖素分泌，对空腹血糖降低明显。短效制剂有艾塞那肽，每天注射两次；利司那肽(lixisenatide)，每天一次。长效制剂有利拉鲁肽，每天一次；艾塞那肽周制剂，每周一次；阿必鲁肽(albiglutide)，每周一次；dulaglutide，每周一次。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "另外，根据降糖作用时间长短，可以把GPL-I受体激动剂分为短效和长效制剂，短效制剂对延迟胃排空作用较强，餐后血糖降低明显，长效制剂对延迟胃排空作用较弱，但通过刺激胰岛素分泌和抑制胰高糖素分泌，对空腹血糖降低明显。短效制剂有艾塞那肽，每天注射两次；利司那肽(lixisenatide)，每天一次。",
+          "start_idx": 0,
+          "end_idx": 147,
+          "entities": [
+            {
+              "entity_id": "T46",
+              "entity": "GPL-I受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T47",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T48",
+              "entity": "降低明显",
+              "entity_type": "Test_Value",
+              "start_idx": 56,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T49",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 97,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T50",
+              "entity": "降低明显",
+              "entity_type": "Test_Value",
+              "start_idx": 101,
+              "end_idx": 105
+            },
+            {
+              "entity_id": "T51",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T52",
+              "entity": "每天注射两次",
+              "entity_type": "Frequency",
+              "start_idx": 116,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T53",
+              "entity": "利司那肽(lixisenatide)",
+              "entity_type": "Drug",
+              "start_idx": 123,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T54",
+              "entity": "每天一次",
+              "entity_type": "Frequency",
+              "start_idx": 142,
+              "end_idx": 146
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R11",
+              "head_entity_id": "T52",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R12",
+              "head_entity_id": "T54",
+              "tail_entity_id": "T53"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "长效制剂有利拉鲁肽，每天一次；艾塞那肽周制剂，每周一次；阿必鲁肽(albiglutide)，每周一次；dulaglutide，每周一次。",
+          "start_idx": 147,
+          "end_idx": 215,
+          "entities": [
+            {
+              "entity_id": "T55",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T56",
+              "entity": "每天一次",
+              "entity_type": "Frequency",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T57",
+              "entity": "艾塞那肽周制剂",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T58",
+              "entity": "每周一次",
+              "entity_type": "Frequency",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T59",
+              "entity": "阿必鲁肽(albiglutide)",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T60",
+              "entity": "每周一次",
+              "entity_type": "Frequency",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T61",
+              "entity": "dulaglutide",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T62",
+              "entity": "每周一次",
+              "entity_type": "Frequency",
+              "start_idx": 63,
+              "end_idx": 67
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R13",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T55"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R14",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T57"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R15",
+              "head_entity_id": "T60",
+              "tail_entity_id": "T59"
+            },
+            {
+              "relation_type": "Frequency_Drug",
+              "relation_id": "R16",
+              "head_entity_id": "T62",
+              "tail_entity_id": "T61"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "DPP-4抑制剂通过阻止DPP-4酶降解体内CLP-1，使得CLP-1在生理浓度范围内有一定程度的升高，其降低HbA1c幅度约为0.4%~1.0%。目前在中国已上市的DPP-4抑制剂药物有西格列汀(sitagliptin,商品名捷诺维)、沙格列汀(saxagliptin，商品名安立泽)、维格列汀(vildagliptin，商品名佳维乐)、利格列汀(linagliptin，商品名欧唐宁)和阿格列汀(alogliptin，商品名尼欣那)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂通过阻止DPP-4酶降解体内CLP-1，使得CLP-1在生理浓度范围内有一定程度的升高，其降低HbA1c幅度约为0.4%~1.0%。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T63",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T64",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 55,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T65",
+              "entity": "0.4%~1.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 64,
+              "end_idx": 73
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "目前在中国已上市的DPP-4抑制剂药物有西格列汀(sitagliptin,商品名捷诺维)、沙格列汀(saxagliptin，商品名安立泽)、维格列汀(vildagliptin，商品名佳维乐)、利格列汀(linagliptin，商品名欧唐宁)和阿格列汀(alogliptin，商品名尼欣那)。",
+          "start_idx": 74,
+          "end_idx": 219,
+          "entities": [
+            {
+              "entity_id": "T66",
+              "entity": "DPP-4抑制剂药物",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T67",
+              "entity": "西格列汀(sitagliptin,商品名捷诺维)",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T68",
+              "entity": "沙格列汀(saxagliptin，商品名安立泽)",
+              "entity_type": "Drug",
+              "start_idx": 45,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T69",
+              "entity": "维格列汀(vildagliptin，商品名佳维乐)",
+              "entity_type": "Drug",
+              "start_idx": 70,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T70",
+              "entity": "利格列汀(linagliptin，商品名欧唐宁)",
+              "entity_type": "Drug",
+              "start_idx": 96,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T71",
+              "entity": "阿格列汀(alogliptin，商品名尼欣那)",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 144
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "四、临床应用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、临床应用",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "(一)GLP-1受体激动剂",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(一)GLP-1受体激动剂",
+          "start_idx": 0,
+          "end_idx": 13,
+          "entities": [
+            {
+              "entity_id": "T72",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 13
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "CLP-1受体激动剂不但具有显著的降糖效果，还同时兼有低血糖发生率低的优点。另外具有降低体重、收缩压，改善血脂紊乱的作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "CLP-1受体激动剂不但具有显著的降糖效果，还同时兼有低血糖发生率低的优点。",
+          "start_idx": 0,
+          "end_idx": 38,
+          "entities": [
+            {
+              "entity_id": "T73",
+              "entity": "CLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "另外具有降低体重、收缩压，改善血脂紊乱的作用。",
+          "start_idx": 38,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T74",
+              "entity": "降低体重",
+              "entity_type": "Symptom",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T75",
+              "entity": "收缩压",
+              "entity_type": "Test",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T76",
+              "entity": "血脂",
+              "entity_type": "Test",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T77",
+              "entity": "紊乱",
+              "entity_type": "Test_Value",
+              "start_idx": 17,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "1.CLP-1受体激动剂的临床疗效",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.CLP-1受体激动剂的临床疗效",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T78",
+              "entity": "CLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "目前国内上市的GLP-1受体激动剂为艾塞那肽和利拉鲁肽，均需皮下注射。包括我国2型糖尿病患者在内的临床试验显示艾塞那肽可以使HbA1c降低0.8%，利拉鲁肽的疗效和格列美脲相当。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前国内上市的GLP-1受体激动剂为艾塞那肽和利拉鲁肽，均需皮下注射。包括我国2型糖尿病患者在内的临床试验显示艾塞那肽可以使HbA1c降低0.8%，利拉鲁肽的疗效和格列美脲相当。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T79",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T80",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T81",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T82",
+              "entity": "皮下注射",
+              "entity_type": "Method",
+              "start_idx": 30,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T83",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T84",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 39,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T85",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T86",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 62,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T87",
+              "entity": "降低0.8%",
+              "entity_type": "Test_Value",
+              "start_idx": 67,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T88",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T89",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 86
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R17",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T80"
+            },
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R18",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T81"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T83"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T89",
+              "tail_entity_id": "T83"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "25",
+      "paragraph": "2.GLP-1受体激动剂的适应证",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.GLP-1受体激动剂的适应证",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T90",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "26",
+      "paragraph": "GLP-1受体激动剂适用于成人2型糖尿病患者。艾塞那肽是在国内最早上市的GLP-1受体激动剂，用于改善2型糖尿病患者的血糖控制，适用于单用二甲双胍、磺脲类，以及二甲双胍合用磺脲类，而血糖仍控制不佳的患者(表1)。在国外，艾塞那肽还可与噻唑烷二酮类、二甲双胍合用磺脲类、二甲双胍合用噻唑烷二酮类、以及基础胰岛素联合使用等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GLP-1受体激动剂适用于成人2型糖尿病患者。艾塞那肽是在国内最早上市的GLP-1受体激动剂，用于改善2型糖尿病患者的血糖控制，适用于单用二甲双胍、磺脲类，以及二甲双胍合用磺脲类，而血糖仍控制不佳的患者(表1)。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T91",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T92",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T93",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T94",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T95",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T96",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 51,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T97",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 51,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T98",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T99",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T100",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 80,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T101",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T102",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T103",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 94,
+              "end_idx": 98
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T91",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T94",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T97",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T98",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T101",
+              "tail_entity_id": "T96"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在国外，艾塞那肽还可与噻唑烷二酮类、二甲双胍合用磺脲类、二甲双胍合用噻唑烷二酮类、以及基础胰岛素联合使用等。",
+          "start_idx": 106,
+          "end_idx": 160,
+          "entities": [
+            {
+              "entity_id": "T104",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T105",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 11,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T106",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T107",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T108",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T109",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T110",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 48
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "27",
+      "paragraph": "利拉鲁肽在国内适用于单用二甲双胍或磺脲类药物最大可耐受剂量治疗后血糖仍控制不佳的患者，与二甲双胍或磺脲类药物联合应用(表1)。在国外，利拉鲁肽在此应用基础上还有单药使用，与二甲双胍合用磺脲类或与二甲双胍合用噻唑烷二酮类或与胰岛素联合应用的适应证等。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "利拉鲁肽在国内适用于单用二甲双胍或磺脲类药物最大可耐受剂量治疗后血糖仍控制不佳的患者，与二甲双胍或磺脲类药物联合应用(表1)。",
+          "start_idx": 0,
+          "end_idx": 63,
+          "entities": [
+            {
+              "entity_id": "T111",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T112",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T113",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T114",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T115",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T116",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T117",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 49,
+              "end_idx": 54
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "在国外，利拉鲁肽在此应用基础上还有单药使用，与二甲双胍合用磺脲类或与二甲双胍合用噻唑烷二酮类或与胰岛素联合应用的适应证等。",
+          "start_idx": 63,
+          "end_idx": 124,
+          "entities": [
+            {
+              "entity_id": "T118",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T119",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            },
+            {
+              "entity_id": "T120",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 29,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T121",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T122",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 40,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T123",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 48,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "28",
+      "paragraph": "3.GLP-1受体激动剂的不良反应及注意事项",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.GLP-1受体激动剂的不良反应及注意事项",
+          "start_idx": 0,
+          "end_idx": 22,
+          "entities": [
+            {
+              "entity_id": "T124",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "29",
+      "paragraph": "(1)不良反应：GLP-1受体激动剂的主要不良反应为恶心、呕吐、腹泻、消化不良、食欲下降、低血糖等。罕见的不良反应包括胰腺炎、皮疹等。详细信息请参考各种GLP-1受体激动剂的说明书。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)不良反应：GLP-1受体激动剂的主要不良反应为恶心、呕吐、腹泻、消化不良、食欲下降、低血糖等。",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T125",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T126",
+              "entity": "恶心",
+              "entity_type": "ADE",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T127",
+              "entity": "呕吐",
+              "entity_type": "ADE",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T128",
+              "entity": "腹泻",
+              "entity_type": "ADE",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T129",
+              "entity": "消化不良",
+              "entity_type": "ADE",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T130",
+              "entity": "食欲下降",
+              "entity_type": "ADE",
+              "start_idx": 40,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T131",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 45,
+              "end_idx": 48
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T127",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R35",
+              "head_entity_id": "T128",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R36",
+              "head_entity_id": "T129",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T130",
+              "tail_entity_id": "T125"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T131",
+              "tail_entity_id": "T125"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "罕见的不良反应包括胰腺炎、皮疹等。",
+          "start_idx": 50,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T132",
+              "entity": "胰腺炎",
+              "entity_type": "ADE",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T133",
+              "entity": "皮疹",
+              "entity_type": "ADE",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "详细信息请参考各种GLP-1受体激动剂的说明书。",
+          "start_idx": 67,
+          "end_idx": 91,
+          "entities": [
+            {
+              "entity_id": "T134",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "30",
+      "paragraph": "(2)注意事项",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)注意事项",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "31",
+      "paragraph": "①GLP-1受体激动剂不能替代胰岛素，不适用于1型糖尿病患者或糖尿病酮症酸中毒的治疗。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "①GLP-1受体激动剂不能替代胰岛素，不适用于1型糖尿病患者或糖尿病酮症酸中毒的治疗。",
+          "start_idx": 0,
+          "end_idx": 43,
+          "entities": [
+            {
+              "entity_id": "T135",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T136",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T137",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T138",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T139",
+              "entity": "糖尿病酮症酸中毒",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 39
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T137"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T139"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T138",
+              "tail_entity_id": "T137"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "32",
+      "paragraph": "②严重胃肠道疾病患者、妊娠期和哺乳期妇女以及儿童不推荐使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "②严重胃肠道疾病患者、妊娠期和哺乳期妇女以及儿童不推荐使用。",
+          "start_idx": 0,
+          "end_idx": 30,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "胃肠道疾病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T141",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 1,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T142",
+              "entity": "胃",
+              "entity_type": "Anatomy",
+              "start_idx": 3,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T143",
+              "entity": "肠道",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T140"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T143",
+              "tail_entity_id": "T140"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "33",
+      "paragraph": "③艾塞那肽和利拉鲁肽使用中有少数急性胰腺炎病例报道，应当告知患者急性胰腺炎的特征性症状。如果怀疑发生了腹腺炎，应该立即停用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "③艾塞那肽和利拉鲁肽使用中有少数急性胰腺炎病例报道，应当告知患者急性胰腺炎的特征性症状。",
+          "start_idx": 0,
+          "end_idx": 44,
+          "entities": [
+            {
+              "entity_id": "T144",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T145",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T146",
+              "entity": "急性胰腺炎",
+              "entity_type": "ADE",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T147",
+              "entity": "急性胰腺炎",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T148",
+              "entity": "胰腺",
+              "entity_type": "Anatomy",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T151",
+              "entity": "胰腺",
+              "entity_type": "Anatomy",
+              "start_idx": 18,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R44",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R45",
+              "head_entity_id": "T146",
+              "tail_entity_id": "T145"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T147"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "如果怀疑发生了腹腺炎，应该立即停用。",
+          "start_idx": 44,
+          "end_idx": 62,
+          "entities": [
+            {
+              "entity_id": "T149",
+              "entity": "腹腺炎",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T150",
+              "entity": "腹腺",
+              "entity_type": "Anatomy",
+              "start_idx": 7,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T149"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "35",
+      "paragraph": "⑤艾塞那肽有罕见肾功能改变报告，不推荐艾塞那肽用于终末期肾病或严重肾功能不全(肌酐清除率<30ml/min)的患者；利拉鲁肽由于经验有限，不推荐利拉鲁肽用于肾脏终末期患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑤艾塞那肽有罕见肾功能改变报告，不推荐艾塞那肽用于终末期肾病或严重肾功能不全(肌酐清除率<30ml/min)的患者；利拉鲁肽由于经验有限，不推荐利拉鲁肽用于肾脏终末期患者。",
+          "start_idx": 0,
+          "end_idx": 86,
+          "entities": [
+            {
+              "entity_id": "T152",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T153",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T154",
+              "entity": "终末期肾病",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T155",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T156",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T157",
+              "entity": "严重肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T158",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T159",
+              "entity": "肌酐清除率",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T160",
+              "entity": "<30ml/min",
+              "entity_type": "Test_Value",
+              "start_idx": 44,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T161",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T162",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 72,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T163",
+              "entity": "肾脏终末期",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T164",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T165",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 80,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T166",
+              "entity": "肾功能改变",
+              "entity_type": "ADE",
+              "start_idx": 8,
+              "end_idx": 13
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R48",
+              "head_entity_id": "T166",
+              "tail_entity_id": "T152"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T154"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T154"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T157"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T164",
+              "tail_entity_id": "T163"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T165",
+              "tail_entity_id": "T163"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "36",
+      "paragraph": "⑥利拉鲁肽在纽约心脏病学会(NYHA)分级Ⅰ-Ⅱ级的充血性心力衰竭的患者中的治疗经验有限，尚无在Ⅲ-Ⅳ级充血性心力衰竭患者中的应用经验。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑥利拉鲁肽在纽约心脏病学会(NYHA)分级Ⅰ-Ⅱ级的充血性心力衰竭的患者中的治疗经验有限，尚无在Ⅲ-Ⅳ级充血性心力衰竭患者中的应用经验。",
+          "start_idx": 0,
+          "end_idx": 68,
+          "entities": [
+            {
+              "entity_id": "T167",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T168",
+              "entity": "心脏病",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T169",
+              "entity": "心脏",
+              "entity_type": "Anatomy",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T170",
+              "entity": "Ⅰ-Ⅱ级",
+              "entity_type": "Class",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T171",
+              "entity": "Ⅲ-Ⅳ级",
+              "entity_type": "Class",
+              "start_idx": 48,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T172",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 55,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T173",
+              "entity": "充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T174",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 29,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T175",
+              "entity": "充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 52,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T176",
+              "entity": "充血性",
+              "entity_type": "Class",
+              "start_idx": 52,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T177",
+              "entity": "充血性",
+              "entity_type": "Class",
+              "start_idx": 26,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T169",
+              "tail_entity_id": "T168"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T170",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T171",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T175"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T173"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "37",
+      "paragraph": "⑦利拉鲁肽不得用于有甲状腺髓样癌(MTC)既往史或家族史患者以及2型多发性内分泌肿瘤综合征患者(MEN2)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑦利拉鲁肽不得用于有甲状腺髓样癌(MTC)既往史或家族史患者以及2型多发性内分泌肿瘤综合征患者(MEN2)。",
+          "start_idx": 0,
+          "end_idx": 54,
+          "entities": [
+            {
+              "entity_id": "T178",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T179",
+              "entity": "甲状腺髓样癌(MTC)",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T180",
+              "entity": "甲状腺",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T181",
+              "entity": "2型多发性内分泌肿瘤综合征患者(MEN2)",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T182",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 34
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T180",
+              "tail_entity_id": "T179"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T181"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "38",
+      "paragraph": "4.禁忌证",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.禁忌证",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "39",
+      "paragraph": "GLP-1受体激动剂禁用于对该类产品活性成分或任何其他辅料过敏者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "GLP-1受体激动剂禁用于对该类产品活性成分或任何其他辅料过敏者。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [
+            {
+              "entity_id": "T183",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T184",
+              "entity": "过敏",
+              "entity_type": "ADE",
+              "start_idx": 29,
+              "end_idx": 31
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R65",
+              "head_entity_id": "T184",
+              "tail_entity_id": "T183"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "40",
+      "paragraph": "(二)DPP-4抑制剂",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(二)DPP-4抑制剂",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "41",
+      "paragraph": "DPP-4抑制剂可抑制DPP-4活性，有效减少GLP-1的失活，在生理范围内增加有活性的GLP-1水平，以葡萄糖浓度依赖的方式促进胰岛素释放，并降低胰高糖素水平，发挥降低糖化血红蛋白(HbA1c)、空腹血糖及餐后血糖的作用。最近临床试验的研究结果证实了阿格列汀和沙格列汀对心血管疾病(CVD)的长期良好安全性。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂可抑制DPP-4活性，有效减少GLP-1的失活，在生理范围内增加有活性的GLP-1水平，以葡萄糖浓度依赖的方式促进胰岛素释放，并降低胰高糖素水平，发挥降低糖化血红蛋白(HbA1c)、空腹血糖及餐后血糖的作用。最近临床试验的研究结果证实了阿格列汀和沙格列汀对心血管疾病(CVD)的长期良好安全性。",
+          "start_idx": 0,
+          "end_idx": 155,
+          "entities": [
+            {
+              "entity_id": "T186",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T187",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 99,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T188",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 104,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T189",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 126,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T190",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T191",
+              "entity": "心血管疾病(CVD)",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T192",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 136,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T193",
+              "entity": "糖化血红蛋白(HbA1c)",
+              "entity_type": "Test_items",
+              "start_idx": 85,
+              "end_idx": 98
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T189",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T190",
+              "tail_entity_id": "T191"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T192",
+              "tail_entity_id": "T191"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "42",
+      "paragraph": "1.DPP-4抑制剂的临床疗效(表2)",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.DPP-4抑制剂的临床疗效(表2)",
+          "start_idx": 0,
+          "end_idx": 19,
+          "entities": [
+            {
+              "entity_id": "T194",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "43",
+      "paragraph": "DPP-4抑制剂国内注册研究的主要疗效见表1。此外，在以二甲双胍为基础治疗，再加用DPP-4抑制剂与其他多种降糖药物，包括磺脲类、噻唑烷二酮类的许多对比研究中，显示DPP-4抑制剂在降低HbA1c方面，与对照药的疗效相当。在中国2型尿病人群的对比研究中维格列汀与阿卡波糖降低HbA1c的作用相似。需要注意的是DPP-4抑制剂降低HbA1c程度与基线HbA1c水平有一定的关系，即基线HbA1c水平高的降低幅度明显。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂国内注册研究的主要疗效见表1。此外，在以二甲双胍为基础治疗，再加用DPP-4抑制剂与其他多种降糖药物，包括磺脲类、噻唑烷二酮类的许多对比研究中，显示DPP-4抑制剂在降低HbA1c方面，与对照药的疗效相当。在中国2型尿病人群的对比研究中维格列汀与阿卡波糖降低HbA1c的作用相似。",
+          "start_idx": 0,
+          "end_idx": 148,
+          "entities": [
+            {
+              "entity_id": "T195",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T196",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 28,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T197",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T198",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T199",
+              "entity": "噻唑烷二酮类",
+              "entity_type": "Drug",
+              "start_idx": 65,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T200",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 82,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T201",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 93,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T202",
+              "entity": "2型尿病",
+              "entity_type": "Disease",
+              "start_idx": 114,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T203",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 114,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T204",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 126,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T205",
+              "entity": "阿卡波糖",
+              "entity_type": "Drug",
+              "start_idx": 131,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T206",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 137,
+              "end_idx": 142
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T204",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T206",
+              "tail_entity_id": "T202"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T203",
+              "tail_entity_id": "T202"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "需要注意的是DPP-4抑制剂降低HbA1c程度与基线HbA1c水平有一定的关系，即基线HbA1c水平高的降低幅度明显。",
+          "start_idx": 148,
+          "end_idx": 207,
+          "entities": [
+            {
+              "entity_id": "T207",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T208",
+              "entity": "基线HbA1c水平",
+              "entity_type": "Test_items",
+              "start_idx": 41,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T209",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T210",
+              "entity": "基线HbA1c水平",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T211",
+              "entity": "高",
+              "entity_type": "Test_Value",
+              "start_idx": 50,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "44",
+      "paragraph": "2.DPP-4抑制剂的适应证",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.DPP-4抑制剂的适应证",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "45",
+      "paragraph": "DPP-4抑制剂适用于成人2型糖尿病患者的血糖控制。目前国内批准该类药物的适应证为：西格列汀可配合饮食控制与运动，进行单药或与二甲双胍联合使用治疗改善血糖控制；沙格列汀和阿格列汀可在饮食和运动基础上单药治疗，亦可在单独使用二甲双胍血糖控制不佳时与二甲双胍联合使用；维格列汀在二甲双胍作为单药治疗用至最大耐受剂量仍不能有效控制血糖时，与二甲双胍联合使用；利格列汀可配合饮食控制和运动，与二甲双胍和磺脲类药物联合使用改善血糖控制(表2)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂适用于成人2型糖尿病患者的血糖控制。目前国内批准该类药物的适应证为：西格列汀可配合饮食控制与运动，进行单药或与二甲双胍联合使用治疗改善血糖控制；沙格列汀和阿格列汀可在饮食和运动基础上单药治疗，亦可在单独使用二甲双胍血糖控制不佳时与二甲双胍联合使用；维格列汀在二甲双胍作为单药治疗用至最大耐受剂量仍不能有效控制血糖时，与二甲双胍联合使用；利格列汀可配合饮食控制和运动，与二甲双胍和磺脲类药物联合使用改善血糖控制(表2)。",
+          "start_idx": 0,
+          "end_idx": 217,
+          "entities": [
+            {
+              "entity_id": "T213",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T214",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T215",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T216",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 42,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T217",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T218",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T219",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T220",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 80,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T221",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 85,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T222",
+              "entity": "饮食",
+              "entity_type": "Treatment",
+              "start_idx": 91,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T223",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 94,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T224",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T225",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 115,
+              "end_idx": 117
+            },
+            {
+              "entity_id": "T226",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 117,
+              "end_idx": 121
+            },
+            {
+              "entity_id": "T227",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 123,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T228",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 132,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T229",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 137,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T230",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 167,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T231",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 162,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T232",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 176,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T233",
+              "entity": "饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 183,
+              "end_idx": 187
+            },
+            {
+              "entity_id": "T234",
+              "entity": "运动",
+              "entity_type": "Treatment",
+              "start_idx": 188,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T235",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 192,
+              "end_idx": 196
+            },
+            {
+              "entity_id": "T236",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 197,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T237",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 208,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T238",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 75,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T239",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 21,
+              "end_idx": 23
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T213",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T215",
+              "tail_entity_id": "T214"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T214"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "46",
+      "paragraph": "3.DPP-4抑制剂的不良反应和注意事项",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.DPP-4抑制剂的不良反应和注意事项",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T240",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "47",
+      "paragraph": "(1)不良反应",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(1)不良反应",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "48",
+      "paragraph": "DPP-4抑制剂的主要不良反应有鼻咽炎，头痛、上呼吸道感染、低血糖等，低血糖的发生率比磺脲类低。其他一些很少见的不良反应有超敏反应、血管神经性水肿、肝酶升高、腹泻、咳嗽、淋巴细胞绝对计数降低等。最近完成的临床研究结果显示，沙格列汀可明显增加心力衰竭住院的风险，但不增加相关的死亡率。详细信息请参考各种DPP-4抑制剂的说明书。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂的主要不良反应有鼻咽炎，头痛、上呼吸道感染、低血糖等，低血糖的发生率比磺脲类低。其他一些很少见的不良反应有超敏反应、血管神经性水肿、肝酶升高、腹泻、咳嗽、淋巴细胞绝对计数降低等。最近完成的临床研究结果显示，沙格列汀可明显增加心力衰竭住院的风险，但不增加相关的死亡率。",
+          "start_idx": 0,
+          "end_idx": 141,
+          "entities": [
+            {
+              "entity_id": "T241",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T242",
+              "entity": "鼻咽炎",
+              "entity_type": "ADE",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T243",
+              "entity": "头痛",
+              "entity_type": "ADE",
+              "start_idx": 20,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T244",
+              "entity": "上呼吸道感染",
+              "entity_type": "ADE",
+              "start_idx": 23,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T245",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T246",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T247",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 43,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T248",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T249",
+              "entity": "血管神经性水肿",
+              "entity_type": "ADE",
+              "start_idx": 66,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T250",
+              "entity": "肝酶升高",
+              "entity_type": "ADE",
+              "start_idx": 74,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T251",
+              "entity": "腹泻",
+              "entity_type": "ADE",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T252",
+              "entity": "咳嗽",
+              "entity_type": "ADE",
+              "start_idx": 82,
+              "end_idx": 84
+            },
+            {
+              "entity_id": "T253",
+              "entity": "淋巴细胞绝对计数降低",
+              "entity_type": "ADE",
+              "start_idx": 85,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T254",
+              "entity": "沙格列汀",
+              "entity_type": "Reason",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T255",
+              "entity": "心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 120,
+              "end_idx": 124
+            },
+            {
+              "entity_id": "T256",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 120,
+              "end_idx": 121
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R76",
+              "head_entity_id": "T242",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R77",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R78",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R79",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R80",
+              "head_entity_id": "T246",
+              "tail_entity_id": "T247"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T254",
+              "tail_entity_id": "T255"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T256",
+              "tail_entity_id": "T255"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "详细信息请参考各种DPP-4抑制剂的说明书。",
+          "start_idx": 141,
+          "end_idx": 163,
+          "entities": [
+            {
+              "entity_id": "T257",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 9,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "49",
+      "paragraph": "(2)注意事项",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "(2)注意事项",
+          "start_idx": 0,
+          "end_idx": 7,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "50",
+      "paragraph": "①DPP-4抑制剂不能用于1型糖尿病或糖尿病酮症酸中毒的患者；不推荐用于妊娠期、哺乳期妇女以及儿童。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "①DPP-4抑制剂不能用于1型糖尿病或糖尿病酮症酸中毒的患者；不推荐用于妊娠期、哺乳期妇女以及儿童。",
+          "start_idx": 0,
+          "end_idx": 50,
+          "entities": [
+            {
+              "entity_id": "T258",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T259",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T260",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T261",
+              "entity": "糖尿病酮症酸中毒",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 27
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T260",
+              "tail_entity_id": "T259"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "51",
+      "paragraph": "②DPP-4抑制剂在肾功能不全患者中的应用：",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "②DPP-4抑制剂在肾功能不全患者中的应用：",
+          "start_idx": 0,
+          "end_idx": 22,
+          "entities": [
+            {
+              "entity_id": "T262",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T263",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T264",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T262",
+              "tail_entity_id": "T263"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T264",
+              "tail_entity_id": "T263"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "52",
+      "paragraph": "a.西格列汀通过肾脏代谢，用于中、重度肾功能不全及需要透析的终末期肾病的患者时需要根据肌酐清除率调整剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "a.西格列汀通过肾脏代谢，用于中、重度肾功能不全及需要透析的终末期肾病的患者时需要根据肌酐清除率调整剂量。",
+          "start_idx": 0,
+          "end_idx": 53,
+          "entities": [
+            {
+              "entity_id": "T265",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T266",
+              "entity": "中、重度肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T267",
+              "entity": "中、重度",
+              "entity_type": "Class",
+              "start_idx": 15,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T268",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 19,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T269",
+              "entity": "终末期肾病",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T270",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T271",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T272",
+              "entity": "肌酐清除率",
+              "entity_type": "Test_items",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T273",
+              "entity": "透析",
+              "entity_type": "Treatment",
+              "start_idx": 27,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T265",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T265",
+              "tail_entity_id": "T269"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T268",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T272",
+              "tail_entity_id": "T266"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T270",
+              "tail_entity_id": "T269"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T271",
+              "tail_entity_id": "T269"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T272",
+              "tail_entity_id": "T269"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T269"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "53",
+      "paragraph": "b.维格列汀均在中度或重度肾功能不全患者或需要接受血液透析治疗的终末期肾脏疾病(ESRD)患者中的应用经验有限，因此不推荐此类者使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "b.维格列汀均在中度或重度肾功能不全患者或需要接受血液透析治疗的终末期肾脏疾病(ESRD)患者中的应用经验有限，因此不推荐此类者使用。",
+          "start_idx": 0,
+          "end_idx": 67,
+          "entities": [
+            {
+              "entity_id": "T274",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T275",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T276",
+              "entity": "终末期肾脏疾病(ESRD)",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T277",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T278",
+              "entity": "肾脏",
+              "entity_type": "Anatomy",
+              "start_idx": 35,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T279",
+              "entity": "中度或重度",
+              "entity_type": "Level",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T280",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T281",
+              "entity": "血液透析",
+              "entity_type": "Treatment",
+              "start_idx": 25,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T280",
+              "tail_entity_id": "T275"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T277",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T278",
+              "tail_entity_id": "T276"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R98",
+              "head_entity_id": "T281",
+              "tail_entity_id": "T276"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "54",
+      "paragraph": "c.沙格列汀在轻度肾功能不全的患者中无需调整剂量。中重度肾功能不全的患者应将剂量调整为2.5mg，每日1次。在重度肾功能不全的患者中临床研究经验有限，因此不推荐使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "c.沙格列汀在轻度肾功能不全的患者中无需调整剂量。中重度肾功能不全的患者应将剂量调整为2.5mg，每日1次。在重度肾功能不全的患者中临床研究经验有限，因此不推荐使用。",
+          "start_idx": 0,
+          "end_idx": 83,
+          "entities": [
+            {
+              "entity_id": "T282",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T283",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T284",
+              "entity": "轻度",
+              "entity_type": "Level",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T285",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T286",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T287",
+              "entity": "中重度",
+              "entity_type": "Level",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T288",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T289",
+              "entity": "2.5mg",
+              "entity_type": "Amount",
+              "start_idx": 43,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T290",
+              "entity": "每日1次",
+              "entity_type": "Frequency",
+              "start_idx": 49,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T291",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T292",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 55,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T293",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 57,
+              "end_idx": 58
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T282",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T285",
+              "tail_entity_id": "T283"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T286"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T293",
+              "tail_entity_id": "T291"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "55",
+      "paragraph": "d.利格列汀极少经过肾脏排泄，在不同程度肾功能不全的患者中使用，均不需要调整剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "d.利格列汀极少经过肾脏排泄，在不同程度肾功能不全的患者中使用，均不需要调整剂量。",
+          "start_idx": 0,
+          "end_idx": 41,
+          "entities": [
+            {
+              "entity_id": "T294",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T295",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T296",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 20,
+              "end_idx": 21
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T294",
+              "tail_entity_id": "T295"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T296",
+              "tail_entity_id": "T295"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "56",
+      "paragraph": "e.阿格列汀在中度肾功能受损患者中使用剂量为推荐剂量减半，重度肾功能受或终末期肾功能衰竭患者中使用剂量为推荐量的四分之一。推荐在开始使用阿格列汀前评估肾功能并定期复查。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "e.阿格列汀在中度肾功能受损患者中使用剂量为推荐剂量减半，重度肾功能受或终末期肾功能衰竭患者中使用剂量为推荐量的四分之一。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T297",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T298",
+              "entity": "肾功能受损",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T299",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T300",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 9,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T301",
+              "entity": "肾功能受",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T302",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 29,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T303",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 31,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T304",
+              "entity": "终末期肾功能衰竭",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T305",
+              "entity": "终末期",
+              "entity_type": "Class",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T306",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 39,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T309",
+              "entity": "推荐量的四分之一",
+              "entity_type": "Amount",
+              "start_idx": 52,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T310",
+              "entity": "推荐剂量减半",
+              "entity_type": "Amount",
+              "start_idx": 22,
+              "end_idx": 28
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T301"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T297",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R108",
+              "head_entity_id": "T310",
+              "tail_entity_id": "T297"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R109",
+              "head_entity_id": "T309",
+              "tail_entity_id": "T297"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T298"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T301"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T305",
+              "tail_entity_id": "T304"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T304"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "推荐在开始使用阿格列汀前评估肾功能并定期复查。",
+          "start_idx": 61,
+          "end_idx": 84,
+          "entities": [
+            {
+              "entity_id": "T307",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T308",
+              "entity": "肾功能",
+              "entity_type": "Test",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "57",
+      "paragraph": "③DPP-4抑制剂在肝功能不全患者中的应用",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "③DPP-4抑制剂在肝功能不全患者中的应用",
+          "start_idx": 0,
+          "end_idx": 21,
+          "entities": [
+            {
+              "entity_id": "T311",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T312",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T313",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T312"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T313",
+              "tail_entity_id": "T312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "58",
+      "paragraph": "a.西格列汀用于轻度或中度肝功能不全的患者，不需要进行剂量调整；尚无严重肝功能不全患者使用的临床经验。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "a.西格列汀用于轻度或中度肝功能不全的患者，不需要进行剂量调整；尚无严重肝功能不全患者使用的临床经验。",
+          "start_idx": 0,
+          "end_idx": 51,
+          "entities": [
+            {
+              "entity_id": "T314",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T315",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T316",
+              "entity": "轻度或中度",
+              "entity_type": "Level",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T317",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 13,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T318",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T319",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 34,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T320",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 36,
+              "end_idx": 37
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T314",
+              "tail_entity_id": "T315"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T315"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T320",
+              "tail_entity_id": "T318"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "59",
+      "paragraph": "b.维格列汀不推荐用于开始给药前血清谷丙转氨酵或谷草转氨酶大于正常上限3倍的患者；罕见有肝功能障碍(包括肝炎)报告，需要进行定期检测肝酶；",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "b.维格列汀不推荐用于开始给药前血清谷丙转氨酵或谷草转氨酶大于正常上限3倍的患者；罕见有肝功能障碍(包括肝炎)报告，需要进行定期检测肝酶；",
+          "start_idx": 0,
+          "end_idx": 69,
+          "entities": [
+            {
+              "entity_id": "T321",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T322",
+              "entity": "血清谷丙转氨酵",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T323",
+              "entity": "谷草转氨酶",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T324",
+              "entity": "大于正常上限3倍",
+              "entity_type": "Test_Value",
+              "start_idx": 29,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T325",
+              "entity": "肝功能障碍",
+              "entity_type": "ADE",
+              "start_idx": 44,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T326",
+              "entity": "肝炎",
+              "entity_type": "ADE",
+              "start_idx": 52,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T327",
+              "entity": "检测肝酶",
+              "entity_type": "Test",
+              "start_idx": 64,
+              "end_idx": 68
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R119",
+              "head_entity_id": "T325",
+              "tail_entity_id": "T321"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R120",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T321"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "60",
+      "paragraph": "对于用药中发生肝酶异常者，在肝功能检测恢复正常后，不建议重新使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于用药中发生肝酶异常者，在肝功能检测恢复正常后，不建议重新使用。",
+          "start_idx": 0,
+          "end_idx": 33,
+          "entities": [
+            {
+              "entity_id": "T328",
+              "entity": "肝酶异常",
+              "entity_type": "ADE",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T329",
+              "entity": "肝功能",
+              "entity_type": "Test",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "61",
+      "paragraph": "c.沙格列汀用于中度肝功能不全的患者时需谨慎，不推荐用于重度肝功能不全的患者。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "c.沙格列汀用于中度肝功能不全的患者时需谨慎，不推荐用于重度肝功能不全的患者。",
+          "start_idx": 0,
+          "end_idx": 39,
+          "entities": [
+            {
+              "entity_id": "T330",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T331",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T332",
+              "entity": "中度",
+              "entity_type": "Level",
+              "start_idx": 8,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T333",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 10,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T334",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T335",
+              "entity": "重度",
+              "entity_type": "Level",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T336",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 30,
+              "end_idx": 31
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T330",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T333",
+              "tail_entity_id": "T331"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T334"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "62",
+      "paragraph": "d.利格列汀在不同程度肝功能不全的患者中使用，均不需要调整剂量。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "d.利格列汀在不同程度肝功能不全的患者中使用，均不需要调整剂量。",
+          "start_idx": 0,
+          "end_idx": 32,
+          "entities": [
+            {
+              "entity_id": "T337",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T338",
+              "entity": "肝功能不全",
+              "entity_type": "Disease",
+              "start_idx": 11,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T339",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 11,
+              "end_idx": 12
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T337",
+              "tail_entity_id": "T338"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T339",
+              "tail_entity_id": "T338"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "63",
+      "paragraph": "e.阿格列汀在肝功能检查结果异常的患者中应慎重使用。如果患者报告发生可能提示肝损伤的症状，迅速进行肝功能检查。如果患者出现具有临床意义的肝酶升高，和肝功能检查异常结果持续或恶化，应停用阿格列汀。如果未发现引起肝功能检查异常的其他原因，不要在此类患者中再次使用阿格列汀。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "e.阿格列汀在肝功能检查结果异常的患者中应慎重使用。如果患者报告发生可能提示肝损伤的症状，迅速进行肝功能检查。如果患者出现具有临床意义的肝酶升高，和肝功能检查异常结果持续或恶化，应停用阿格列汀。",
+          "start_idx": 0,
+          "end_idx": 97,
+          "entities": [
+            {
+              "entity_id": "T340",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T341",
+              "entity": "肝功能",
+              "entity_type": "Test",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T342",
+              "entity": "肝损伤",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T343",
+              "entity": "肝功能",
+              "entity_type": "Test",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T344",
+              "entity": "肝酶",
+              "entity_type": "Test",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T345",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T346",
+              "entity": "肝功能",
+              "entity_type": "Test",
+              "start_idx": 74,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T347",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 92,
+              "end_idx": 96
+            },
+            {
+              "entity_id": "T350",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 38,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T351",
+              "entity": "异常结果持续或恶化",
+              "entity_type": "Test_Value",
+              "start_idx": 79,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T353",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T350",
+              "tail_entity_id": "T342"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T343",
+              "tail_entity_id": "T342"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "如果未发现引起肝功能检查异常的其他原因，不要在此类患者中再次使用阿格列汀。",
+          "start_idx": 97,
+          "end_idx": 134,
+          "entities": [
+            {
+              "entity_id": "T348",
+              "entity": "肝功能",
+              "entity_type": "Test",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T349",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T352",
+              "entity": "异常",
+              "entity_type": "Test_Value",
+              "start_idx": 12,
+              "end_idx": 14
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "64",
+      "paragraph": "④超敏反应",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "④超敏反应",
+          "start_idx": 0,
+          "end_idx": 5,
+          "entities": [
+            {
+              "entity_id": "T354",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 1,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "65",
+      "paragraph": "a.西格列汀在上市后发现有严重超敏反应，包括过敏反应、血管性水肿和脱性皮肤损害，包括Stevens-Johnson综合征。如怀疑发生超敏反应，应停止使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "a.西格列汀在上市后发现有严重超敏反应，包括过敏反应、血管性水肿和脱性皮肤损害，包括Stevens-Johnson综合征。如怀疑发生超敏反应，应停止使用。",
+          "start_idx": 0,
+          "end_idx": 77,
+          "entities": [
+            {
+              "entity_id": "T355",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T356",
+              "entity": "严重超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T357",
+              "entity": "过敏反应",
+              "entity_type": "ADE",
+              "start_idx": 22,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T358",
+              "entity": "血管性水肿",
+              "entity_type": "ADE",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T359",
+              "entity": "脱性皮肤损害",
+              "entity_type": "ADE",
+              "start_idx": 33,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T360",
+              "entity": "Stevens-Johnson综合征",
+              "entity_type": "ADE",
+              "start_idx": 42,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T361",
+              "entity": "超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 66,
+              "end_idx": 70
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R128",
+              "head_entity_id": "T356",
+              "tail_entity_id": "T355"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R129",
+              "head_entity_id": "T357",
+              "tail_entity_id": "T355"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R130",
+              "head_entity_id": "T358",
+              "tail_entity_id": "T355"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R131",
+              "head_entity_id": "T359",
+              "tail_entity_id": "T355"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R132",
+              "head_entity_id": "T360",
+              "tail_entity_id": "T355"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "66",
+      "paragraph": "b.维格列汀和沙格列汀在对猴子进行的毒理学研究中，出现四肢皮肤的损伤报告，尽管未在临床中观察到皮肤损伤的发生率升高，但在合并有糖尿病皮肤并发症的患者中经验有限。建议观察皮肤病变，如水疱、皮疹或溃疡等情况。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "b.维格列汀和沙格列汀在对猴子进行的毒理学研究中，出现四肢皮肤的损伤报告，尽管未在临床中观察到皮肤损伤的发生率升高，但在合并有糖尿病皮肤并发症的患者中经验有限。",
+          "start_idx": 0,
+          "end_idx": 80,
+          "entities": [
+            {
+              "entity_id": "T362",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T363",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T364",
+              "entity": "皮肤损伤",
+              "entity_type": "ADE",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T365",
+              "entity": "四肢皮肤的损伤",
+              "entity_type": "ADE",
+              "start_idx": 27,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T366",
+              "entity": "糖尿病皮肤并发症",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T367",
+              "entity": "皮肤",
+              "entity_type": "Anatomy",
+              "start_idx": 66,
+              "end_idx": 68
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T362",
+              "tail_entity_id": "T366"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R134",
+              "head_entity_id": "T365",
+              "tail_entity_id": "T362"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R135",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T362"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R136",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T366"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R137",
+              "head_entity_id": "T365",
+              "tail_entity_id": "T363"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R138",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T363"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R139",
+              "head_entity_id": "T367",
+              "tail_entity_id": "T366"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "建议观察皮肤病变，如水疱、皮疹或溃疡等情况。",
+          "start_idx": 80,
+          "end_idx": 102,
+          "entities": [
+            {
+              "entity_id": "T368",
+              "entity": "皮肤病变",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T369",
+              "entity": "皮肤",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T370",
+              "entity": "水疱",
+              "entity_type": "Disease",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T371",
+              "entity": "皮疹",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T372",
+              "entity": "溃疡",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 18
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R140",
+              "head_entity_id": "T369",
+              "tail_entity_id": "T368"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "67",
+      "paragraph": "c.阿格列汀在上市后发现严重皮肤不良反应，如怀疑发生严重过敏反应，停用阿格列汀。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "c.阿格列汀在上市后发现严重皮肤不良反应，如怀疑发生严重过敏反应，停用阿格列汀。",
+          "start_idx": 0,
+          "end_idx": 40,
+          "entities": [
+            {
+              "entity_id": "T373",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T374",
+              "entity": "严重过敏反应",
+              "entity_type": "ADE",
+              "start_idx": 26,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T375",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T376",
+              "entity": "严重皮肤不良反应",
+              "entity_type": "ADE",
+              "start_idx": 12,
+              "end_idx": 20
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R141",
+              "head_entity_id": "T376",
+              "tail_entity_id": "T373"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R142",
+              "head_entity_id": "T374",
+              "tail_entity_id": "T375"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "68",
+      "paragraph": "d.沙格列汀和阿格列汀上市后有报告严重超敏反应(包括速发过敏反应和血管性水肿)。如果疑有沙格列汀严重超敏反应，则停止使用，评估是否还存在其他可能的原因，并改用别的方案治疗糖尿病。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "d.沙格列汀和阿格列汀上市后有报告严重超敏反应(包括速发过敏反应和血管性水肿)。如果疑有沙格列汀严重超敏反应，则停止使用，评估是否还存在其他可能的原因，并改用别的方案治疗糖尿病。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T377",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T378",
+              "entity": "严重超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 17,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T379",
+              "entity": "速发过敏反应",
+              "entity_type": "ADE",
+              "start_idx": 26,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T380",
+              "entity": "血管性水肿",
+              "entity_type": "ADE",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T381",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T382",
+              "entity": "严重超敏反应",
+              "entity_type": "ADE",
+              "start_idx": 48,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T383",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T384",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 11
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R143",
+              "head_entity_id": "T378",
+              "tail_entity_id": "T377"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R144",
+              "head_entity_id": "T379",
+              "tail_entity_id": "T377"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R145",
+              "head_entity_id": "T380",
+              "tail_entity_id": "T377"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R146",
+              "head_entity_id": "T378",
+              "tail_entity_id": "T384"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R147",
+              "head_entity_id": "T379",
+              "tail_entity_id": "T384"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R148",
+              "head_entity_id": "T380",
+              "tail_entity_id": "T384"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R149",
+              "head_entity_id": "T382",
+              "tail_entity_id": "T381"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R150",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T383"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "69",
+      "paragraph": "e.利格列汀治疗的临床研究中报告的其他不良反应有高敏反应(例如荨麻疹、血管性水肿、局部皮肤剥脱或支气管高敏反应)。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "e.利格列汀治疗的临床研究中报告的其他不良反应有高敏反应(例如荨麻疹、血管性水肿、局部皮肤剥脱或支气管高敏反应)。",
+          "start_idx": 0,
+          "end_idx": 57,
+          "entities": [
+            {
+              "entity_id": "T385",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T386",
+              "entity": "高敏反应",
+              "entity_type": "ADE",
+              "start_idx": 24,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T387",
+              "entity": "荨麻疹",
+              "entity_type": "ADE",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T388",
+              "entity": "血管性水肿",
+              "entity_type": "ADE",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T389",
+              "entity": "局部皮肤剥脱",
+              "entity_type": "ADE",
+              "start_idx": 41,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T390",
+              "entity": "支气管高敏反应",
+              "entity_type": "ADE",
+              "start_idx": 48,
+              "end_idx": 55
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R151",
+              "head_entity_id": "T386",
+              "tail_entity_id": "T385"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R152",
+              "head_entity_id": "T387",
+              "tail_entity_id": "T385"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R153",
+              "head_entity_id": "T388",
+              "tail_entity_id": "T385"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R154",
+              "head_entity_id": "T389",
+              "tail_entity_id": "T385"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R155",
+              "head_entity_id": "T390",
+              "tail_entity_id": "T385"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "70",
+      "paragraph": "⑤沙格列汀及维格列汀含有乳糖，罕见的半乳糖不耐受遗传疾病、Lapp乳糖酶缺乏症或葡萄糖-半乳糖吸收不良患者不得服用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑤沙格列汀及维格列汀含有乳糖，罕见的半乳糖不耐受遗传疾病、Lapp乳糖酶缺乏症或葡萄糖-半乳糖吸收不良患者不得服用。",
+          "start_idx": 0,
+          "end_idx": 58,
+          "entities": [
+            {
+              "entity_id": "T391",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T392",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T393",
+              "entity": "半乳糖不耐受遗传疾病",
+              "entity_type": "Disease",
+              "start_idx": 18,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T394",
+              "entity": "Lapp乳糖酶缺乏症",
+              "entity_type": "Disease",
+              "start_idx": 29,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T395",
+              "entity": "葡萄糖-半乳糖吸收不良",
+              "entity_type": "Disease",
+              "start_idx": 40,
+              "end_idx": 51
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "71",
+      "paragraph": "⑥维格列汀和沙格列汀在纽约心功能分级(NYHA)为Ⅰ-Ⅱ级的充血性心力衰竭的患者中经验有限，此类患者中慎用；尚未在Ⅲ-Ⅳ级充血性心力衰竭的患者中进行临床试验，不推荐在此类患者中使用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑥维格列汀和沙格列汀在纽约心功能分级(NYHA)为Ⅰ-Ⅱ级的充血性心力衰竭的患者中经验有限，此类患者中慎用；尚未在Ⅲ-Ⅳ级充血性心力衰竭的患者中进行临床试验，不推荐在此类患者中使用。",
+          "start_idx": 0,
+          "end_idx": 91,
+          "entities": [
+            {
+              "entity_id": "T396",
+              "entity": "维格列汀",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T397",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T398",
+              "entity": "Ⅰ-Ⅱ级",
+              "entity_type": "Class",
+              "start_idx": 25,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T399",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 33,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T400",
+              "entity": "Ⅲ-Ⅳ级充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 68
+            },
+            {
+              "entity_id": "T401",
+              "entity": "Ⅲ-Ⅳ级",
+              "entity_type": "Class",
+              "start_idx": 57,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T402",
+              "entity": "心",
+              "entity_type": "Anatomy",
+              "start_idx": 64,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T403",
+              "entity": "充血性心力衰竭",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T404",
+              "entity": "充血性",
+              "entity_type": "Class",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T405",
+              "entity": "充血性",
+              "entity_type": "Class",
+              "start_idx": 61,
+              "end_idx": 64
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R156",
+              "head_entity_id": "T396",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R157",
+              "head_entity_id": "T397",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R158",
+              "head_entity_id": "T398",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R159",
+              "head_entity_id": "T399",
+              "tail_entity_id": "T403"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R160",
+              "head_entity_id": "T402",
+              "tail_entity_id": "T400"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R161",
+              "head_entity_id": "T401",
+              "tail_entity_id": "T400"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R162",
+              "head_entity_id": "T405",
+              "tail_entity_id": "T400"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R163",
+              "head_entity_id": "T404",
+              "tail_entity_id": "T403"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "72",
+      "paragraph": "⑦药物相互作用：西格列汀在与磺脲类药物合用时低血糖风险增加，需适当减少磺脉类药物的剂量。利格列汀在与胰岛素、磺脲类合用时低血糖风险增加，需适当减少胰岛素和磺脲类药物的剂量。沙格列汀的代谢主要由CYP3A4/5介导。沙格列汀的主要代谢产物也是DPP-4抑制剂，其抑制活性作用是沙格列汀的二分之一。因此，CYP3A4/5强抑制剂和强诱导剂能改变沙格列汀及其代谢物的药代动力学。与强效CYP3A4/5抑制剂(如酮康唑、阿扎那韦、克拉霉素、茚地那韦、伊曲康唑、奈法唑酮、奈非那韦、利托那韦、沙奎那书和泰利霉素)合用时，应将沙格列汀的剂量限制为2.5mg/d。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "⑦药物相互作用：西格列汀在与磺脲类药物合用时低血糖风险增加，需适当减少磺脉类药物的剂量。利格列汀在与胰岛素、磺脲类合用时低血糖风险增加，需适当减少胰岛素和磺脲类药物的剂量。沙格列汀的代谢主要由CYP3A4/5介导。沙格列汀的主要代谢产物也是DPP-4抑制剂，其抑制活性作用是沙格列汀的二分之一。因此，CYP3A4/5强抑制剂和强诱导剂能改变沙格列汀及其代谢物的药代动力学。与强效CYP3A4/5抑制剂(如酮康唑、阿扎那韦、克拉霉素、茚地那韦、伊曲康唑、奈法唑酮、奈非那韦、利托那韦、沙奎那书和泰利霉素)合用时，应将沙格列汀的剂量限制为2.5mg/d。",
+          "start_idx": 0,
+          "end_idx": 275,
+          "entities": [
+            {
+              "entity_id": "T406",
+              "entity": "西格列汀",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T407",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T408",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 22,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T409",
+              "entity": "磺脉类药物",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T410",
+              "entity": "利格列汀",
+              "entity_type": "Drug",
+              "start_idx": 44,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T411",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T412",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 54,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T413",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 60,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T414",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T415",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 77,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T416",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T417",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 107,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T418",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 137,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T419",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 170,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T420",
+              "entity": "强效CYP3A4/5抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 187,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T421",
+              "entity": "酮康唑",
+              "entity_type": "Drug",
+              "start_idx": 202,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T422",
+              "entity": "阿扎那韦",
+              "entity_type": "Drug",
+              "start_idx": 206,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T423",
+              "entity": "克拉霉素",
+              "entity_type": "Drug",
+              "start_idx": 211,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T424",
+              "entity": "茚地那韦",
+              "entity_type": "Drug",
+              "start_idx": 216,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T425",
+              "entity": "伊曲康唑",
+              "entity_type": "Drug",
+              "start_idx": 221,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T426",
+              "entity": "奈法唑酮",
+              "entity_type": "Drug",
+              "start_idx": 226,
+              "end_idx": 230
+            },
+            {
+              "entity_id": "T427",
+              "entity": "奈非那韦",
+              "entity_type": "Drug",
+              "start_idx": 231,
+              "end_idx": 235
+            },
+            {
+              "entity_id": "T428",
+              "entity": "利托那韦",
+              "entity_type": "Drug",
+              "start_idx": 236,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T429",
+              "entity": "沙奎那书",
+              "entity_type": "Drug",
+              "start_idx": 241,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T430",
+              "entity": "泰利霉素",
+              "entity_type": "Drug",
+              "start_idx": 246,
+              "end_idx": 250
+            },
+            {
+              "entity_id": "T431",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 257,
+              "end_idx": 261
+            },
+            {
+              "entity_id": "T432",
+              "entity": "CYP3A4/5强抑制剂和强诱导剂",
+              "entity_type": "Drug",
+              "start_idx": 150,
+              "end_idx": 167
+            },
+            {
+              "entity_id": "T433",
+              "entity": "2.5mg/d",
+              "entity_type": "Amount",
+              "start_idx": 267,
+              "end_idx": 274
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R164",
+              "head_entity_id": "T408",
+              "tail_entity_id": "T406"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R165",
+              "head_entity_id": "T408",
+              "tail_entity_id": "T407"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R166",
+              "head_entity_id": "T413",
+              "tail_entity_id": "T410"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R167",
+              "head_entity_id": "T413",
+              "tail_entity_id": "T411"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R168",
+              "head_entity_id": "T413",
+              "tail_entity_id": "T412"
+            },
+            {
+              "relation_type": "Amount_Drug",
+              "relation_id": "R169",
+              "head_entity_id": "T433",
+              "tail_entity_id": "T431"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "73",
+      "paragraph": "4.DPP-4抑制剂的禁忌证",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "4.DPP-4抑制剂的禁忌证",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T434",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 10
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "74",
+      "paragraph": "已知对药物或药物中任何一成分过敏者禁用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "已知对药物或药物中任何一成分过敏者禁用。",
+          "start_idx": 0,
+          "end_idx": 20,
+          "entities": [
+            {
+              "entity_id": "T435",
+              "entity": "过敏",
+              "entity_type": "ADE",
+              "start_idx": 14,
+              "end_idx": 16
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "75",
+      "paragraph": "五、小结",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、小结",
+          "start_idx": 0,
+          "end_idx": 4,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "76",
+      "paragraph": "基于GLP-1类降糖药物的应用是2型糖尿病治疗中的一个重要发展，其药物作用的特点弥补了传统降糖药物治疗中的一些不足之处。多项研究结果显示CLP-1受体激动剂具有葡萄糖浓度依赖性降低血糖作用的特点，低血糖发生率低，还可减轻体重、降低收缩压、减少心血管疾病危险因素。目前GLP-1受体激动剂艾塞那肽和利拉鲁肽在国内均被批准可在一种口服药(二甲双胍或磺脲类)治疗失效后开始使用，艾塞那肽还可在二甲双胍与磺脲类联合治疗失效后开始使用。这为我国2型糖尿病忠者降糖治疗提供了一种新的选择。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "基于GLP-1类降糖药物的应用是2型糖尿病治疗中的一个重要发展，其药物作用的特点弥补了传统降糖药物治疗中的一些不足之处。多项研究结果显示CLP-1受体激动剂具有葡萄糖浓度依赖性降低血糖作用的特点，低血糖发生率低，还可减轻体重、降低收缩压、减少心血管疾病危险因素。",
+          "start_idx": 0,
+          "end_idx": 131,
+          "entities": [
+            {
+              "entity_id": "T436",
+              "entity": "GLP-1类降糖药物",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T437",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T438",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T439",
+              "entity": "CLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T440",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 90,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T441",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T442",
+              "entity": "减轻体重",
+              "entity_type": "Symptom",
+              "start_idx": 108,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T443",
+              "entity": "收缩压",
+              "entity_type": "Test",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T444",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 121,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T445",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 121,
+              "end_idx": 124
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R170",
+              "head_entity_id": "T436",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R171",
+              "head_entity_id": "T438",
+              "tail_entity_id": "T437"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R172",
+              "head_entity_id": "T441",
+              "tail_entity_id": "T439"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R173",
+              "head_entity_id": "T445",
+              "tail_entity_id": "T444"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "目前GLP-1受体激动剂艾塞那肽和利拉鲁肽在国内均被批准可在一种口服药(二甲双胍或磺脲类)治疗失效后开始使用，艾塞那肽还可在二甲双胍与磺脲类联合治疗失效后开始使用。",
+          "start_idx": 131,
+          "end_idx": 213,
+          "entities": [
+            {
+              "entity_id": "T446",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T447",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 12,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T448",
+              "entity": "利拉鲁肽",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T449",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T450",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T451",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T452",
+              "entity": "艾塞那肽",
+              "entity_type": "Drug",
+              "start_idx": 55,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T453",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 62,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T454",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 70
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "这为我国2型糖尿病忠者降糖治疗提供了一种新的选择。",
+          "start_idx": 213,
+          "end_idx": 238,
+          "entities": [
+            {
+              "entity_id": "T455",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T456",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R174",
+              "head_entity_id": "T456",
+              "tail_entity_id": "T455"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "77",
+      "paragraph": "DPP-4抑制剂均为口服制剂，使用方便，也具有葡萄糖浓度依赖性降低血糖作用，低血糖发生率低，对体重的影响小，已有报告阿格列汀和沙格列汀对CVD的长期安全性良好，胃肠道不良反应少。目前DPP-4抑制剂在国内被批准用于单药或与二甲双胍或与磺脲类联合治疗。综上所述，作为新一类2型糖尿病的治疗药物，基于GLP-1的降糖药物为临床控制糖尿病提供了新的治疗手段。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "DPP-4抑制剂均为口服制剂，使用方便，也具有葡萄糖浓度依赖性降低血糖作用，低血糖发生率低，对体重的影响小，已有报告阿格列汀和沙格列汀对CVD的长期安全性良好，胃肠道不良反应少。目前DPP-4抑制剂在国内被批准用于单药或与二甲双胍或与磺脲类联合治疗。综上所述，作为新一类2型糖尿病的治疗药物，基于GLP-1的降糖药物为临床控制糖尿病提供了新的治疗手段。",
+          "start_idx": 0,
+          "end_idx": 176,
+          "entities": [
+            {
+              "entity_id": "T457",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T458",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 10,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T459",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T460",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T461",
+              "entity": "阿格列汀",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T462",
+              "entity": "沙格列汀",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T463",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 68,
+              "end_idx": 71
+            },
+            {
+              "entity_id": "T464",
+              "entity": "DPP-4抑制剂",
+              "entity_type": "Drug",
+              "start_idx": 91,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T465",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 111,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T466",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 117,
+              "end_idx": 120
+            },
+            {
+              "entity_id": "T467",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 135,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T468",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 135,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T469",
+              "entity": "GLP-1的降糖药物",
+              "entity_type": "Drug",
+              "start_idx": 148,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T470",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 163,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T471",
+              "entity": "胃肠道不良反应",
+              "entity_type": "ADE",
+              "start_idx": 80,
+              "end_idx": 87
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R175",
+              "head_entity_id": "T458",
+              "tail_entity_id": "T457"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R176",
+              "head_entity_id": "T460",
+              "tail_entity_id": "T457"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R177",
+              "head_entity_id": "T461",
+              "tail_entity_id": "T463"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R178",
+              "head_entity_id": "T471",
+              "tail_entity_id": "T461"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R179",
+              "head_entity_id": "T462",
+              "tail_entity_id": "T463"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R180",
+              "head_entity_id": "T471",
+              "tail_entity_id": "T462"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R181",
+              "head_entity_id": "T468",
+              "tail_entity_id": "T467"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R182",
+              "head_entity_id": "T469",
+              "tail_entity_id": "T470"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "34",
+      "paragraph": "④GLP-1受体激动剂在与磺脲类药物合用时低血糖发生率升高，适当减少磺脲类药物的剂量可减少低血糖风险。在联合使用GLP-1受体激动剂与磺脲类药物时，应告知患者在驾驶或操作机械时采取必要措施防止发生低血糖。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "④GLP-1受体激动剂在与磺脲类药物合用时低血糖发生率升高，适当减少磺脲类药物的剂量可减少低血糖风险。在联合使用GLP-1受体激动剂与磺脲类药物时，应告知患者在驾驶或操作机械时采取必要措施防止发生低血糖。",
+          "start_idx": 0,
+          "end_idx": 102,
+          "entities": [
+            {
+              "entity_id": "T472",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 1,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T473",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T474",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 21,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T475",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T476",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T477",
+              "entity": "GLP-1受体激动剂",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T478",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 67,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T479",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 101
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R183",
+              "head_entity_id": "T474",
+              "tail_entity_id": "T472"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R184",
+              "head_entity_id": "T474",
+              "tail_entity_id": "T473"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R185",
+              "head_entity_id": "T476",
+              "tail_entity_id": "T475"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R186",
+              "head_entity_id": "T479",
+              "tail_entity_id": "T477"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R187",
+              "head_entity_id": "T479",
+              "tail_entity_id": "T478"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

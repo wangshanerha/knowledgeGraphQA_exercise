@@ -1,0 +1,2923 @@
+{
+  "doc_id": "35",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "评中国成人2型糖尿病胰岛素促泌剂应用专家共识 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "评中国成人2型糖尿病胰岛素促泌剂应用专家共识 ",
+          "start_idx": 0,
+          "end_idx": 23,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T2",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 16
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "胰岛素促泌剂是临床应用最早、最广泛的口服降糖药之一，降糖疗效肯定、安全性高、价格低廉、可与其他口服降糖药联用，在2型糖尿病(T2DM)治疗中占有重要地位，是多数国际权威人T2DM防治指南中的一线降糖药物。为了强调其重要性及正确认识和评价这一大类降糖药、中华医学会内分泌学分会于2011年讨论通过了《中国成人2型糖尿病胰岛素促泌剂应用的专家共识》，并于2012年正式表发。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "胰岛素促泌剂是临床应用最早、最广泛的口服降糖药之一，降糖疗效肯定、安全性高、价格低廉、可与其他口服降糖药联用，在2型糖尿病(T2DM)治疗中占有重要地位，是多数国际权威人T2DM防治指南中的一线降糖药物。为了强调其重要性及正确认识和评价这一大类降糖药、中华医学会内分泌学分会于2011年讨论通过了《中国成人2型糖尿病胰岛素促泌剂应用的专家共识》，并于2012年正式表发。",
+          "start_idx": 0,
+          "end_idx": 185,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T4",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T5",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 47,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T6",
+              "entity": "2型糖尿病(T2DM)",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T7",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 56,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T8",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 85,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T9",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 153,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T10",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 153,
+              "end_idx": 155
+            },
+            {
+              "entity_id": "T11",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 158,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T12",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 85,
+              "end_idx": 87
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Method_Drug",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T7",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T8"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T10",
+              "tail_entity_id": "T9"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T11",
+              "tail_entity_id": "T9"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 185,
+          "end_idx": 186,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "1 胰岛素促泌剂的作用机制及特点 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1 胰岛素促泌剂的作用机制及特点 ",
+          "start_idx": 0,
+          "end_idx": 17,
+          "entities": [
+            {
+              "entity_id": "T13",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "目前国内使用的胰岛素促泌剂包括磺脲类和格列奈类。磺脲类促泌剂包括半衰期较短的短效促泌剂(如格列吡嗪和格列喹酮)和半衰期较长的中长效促泌剂(如普通剂型的格列美脲、格列苯脲和格列齐特，以及通过特殊的胃肠道治疗系统(GITS)技术实现控释的格列吡嗪控释片和采用以亲水性羟丙甲纤维素为基质的缓释技术格列齐特缓释片)。格列奈类半衰期较短，属短效促剂，包括瑞格列奈和那格列奈。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前国内使用的胰岛素促泌剂包括磺脲类和格列奈类。",
+          "start_idx": 0,
+          "end_idx": 24,
+          "entities": [
+            {
+              "entity_id": "T14",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 7,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T15",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T16",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 23
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "磺脲类促泌剂包括半衰期较短的短效促泌剂(如格列吡嗪和格列喹酮)和半衰期较长的中长效促泌剂(如普通剂型的格列美脲、格列苯脲和格列齐特，以及通过特殊的胃肠道治疗系统(GITS)技术实现控释的格列吡嗪控释片和采用以亲水性羟丙甲纤维素为基质的缓释技术格列齐特缓释片)。",
+          "start_idx": 24,
+          "end_idx": 154,
+          "entities": [
+            {
+              "entity_id": "T17",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T18",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T19",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 26,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T20",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T21",
+              "entity": "格列苯脲",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T22",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 61,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T23",
+              "entity": "格列吡嗪控释片",
+              "entity_type": "Drug",
+              "start_idx": 93,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T24",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 121,
+              "end_idx": 128
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "格列奈类半衰期较短，属短效促剂，包括瑞格列奈和那格列奈。",
+          "start_idx": 154,
+          "end_idx": 182,
+          "entities": [
+            {
+              "entity_id": "T25",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T26",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T27",
+              "entity": "那格列奈",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": " ",
+          "start_idx": 182,
+          "end_idx": 183,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "磺脲类促泌剂通过与β细胞膜三磷酸腺苷(ATP)敏感的钾通道(KATP)的磺脲类药物受体(SUR)结合，ATP/ADP比值升高，KATP通道关闭，细胞内的K+外流受阻，胞内K+升高、细胞膜去极化，触发L2型电压依赖的Ca2+通道开放，细胞外Ca2+内流增加，胞质内Ca2+浓度升高，从而刺激胰岛素分泌颗粒向细胞外分泌。KATP通道也存在于大脑、心肌和血管平滑肌等组织。不同组织的SUR存在差异，不同胰岛素促泌剂会与β细胞不同分子量的SUR受体结合，且亲和力和解离速度也各不相同，这些是其产生药效学差异的原因。格列本脲可作用于SUR1和SUR2A，而格列齐特仅作用于SUR1。格列本脲和格列美脲各自与SUR1不同亚单位特异性结合，格列美脲与SUR的亲和力更强、结合和解离速度也更快。格列本脲与两个SUR1位点相结合，不易与受体脱离，且作用时间相对较长。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "磺脲类促泌剂通过与β细胞膜三磷酸腺苷(ATP)敏感的钾通道(KATP)的磺脲类药物受体(SUR)结合，ATP/ADP比值升高，KATP通道关闭，细胞内的K+外流受阻，胞内K+升高、细胞膜去极化，触发L2型电压依赖的Ca2+通道开放，细胞外Ca2+内流增加，胞质内Ca2+浓度升高，从而刺激胰岛素分泌颗粒向细胞外分泌。",
+          "start_idx": 0,
+          "end_idx": 158,
+          "entities": [
+            {
+              "entity_id": "T28",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "KATP通道也存在于大脑、心肌和血管平滑肌等组织。",
+          "start_idx": 158,
+          "end_idx": 183,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "不同组织的SUR存在差异，不同胰岛素促泌剂会与β细胞不同分子量的SUR受体结合，且亲和力和解离速度也各不相同，这些是其产生药效学差异的原因。",
+          "start_idx": 183,
+          "end_idx": 253,
+          "entities": [
+            {
+              "entity_id": "T29",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 21
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "格列本脲可作用于SUR1和SUR2A，而格列齐特仅作用于SUR1。",
+          "start_idx": 253,
+          "end_idx": 286,
+          "entities": [
+            {
+              "entity_id": "T30",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T31",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "格列本脲和格列美脲各自与SUR1不同亚单位特异性结合，格列美脲与SUR的亲和力更强、结合和解离速度也更快。",
+          "start_idx": 286,
+          "end_idx": 339,
+          "entities": [
+            {
+              "entity_id": "T32",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T33",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T34",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 31
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": "格列本脲与两个SUR1位点相结合，不易与受体脱离，且作用时间相对较长。",
+          "start_idx": 339,
+          "end_idx": 374,
+          "entities": [
+            {
+              "entity_id": "T35",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "近年来，通过对β细胞的电压钳研究证实，磺脲类药物可不作用于KATP而直接加强Ca2+依赖的胰岛素分泌作用。通过葡萄糖钳夹技术研究发现，磺脲类药物可使人体外周葡萄糖利用增加10%~52%(平均29%)。但促泌剂改善胰岛素敏感性的作用主要继发于葡萄糖毒性作用的改善。不同的促泌剂对胰岛素敏感性的影响可能存在差异，如格列美脲在离体培养的脂肪细胞和肌肉组织中具有直接的拟胰岛素和胰岛素增敏作用。有研究表明，磺脲类促泌剂还可以通过其他机制降低血糖，其降低空腹血糖的作用与其抑制基础肝糖的生成密切相关。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "近年来，通过对β细胞的电压钳研究证实，磺脲类药物可不作用于KATP而直接加强Ca2+依赖的胰岛素分泌作用。",
+          "start_idx": 0,
+          "end_idx": 53,
+          "entities": [
+            {
+              "entity_id": "T36",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 19,
+              "end_idx": 24
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "通过葡萄糖钳夹技术研究发现，磺脲类药物可使人体外周葡萄糖利用增加10%~52%(平均29%)。",
+          "start_idx": 53,
+          "end_idx": 100,
+          "entities": [
+            {
+              "entity_id": "T37",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 19
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "但促泌剂改善胰岛素敏感性的作用主要继发于葡萄糖毒性作用的改善。",
+          "start_idx": 100,
+          "end_idx": 131,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "不同的促泌剂对胰岛素敏感性的影响可能存在差异，如格列美脲在离体培养的脂肪细胞和肌肉组织中具有直接的拟胰岛素和胰岛素增敏作用。",
+          "start_idx": 131,
+          "end_idx": 193,
+          "entities": [
+            {
+              "entity_id": "T38",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 28
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "有研究表明，磺脲类促泌剂还可以通过其他机制降低血糖，其降低空腹血糖的作用与其抑制基础肝糖的生成密切相关。",
+          "start_idx": 193,
+          "end_idx": 245,
+          "entities": [
+            {
+              "entity_id": "T39",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T40",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T41",
+              "entity": "空腹血糖",
+              "entity_type": "Test_items",
+              "start_idx": 29,
+              "end_idx": 33
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "5",
+          "sentence": " ",
+          "start_idx": 245,
+          "end_idx": 246,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "格列奈类药物也与胰岛β细胞膜SUR结合，与磺脲类药物相比，促胰岛素分泌作用起效快、作用持续时间短，有效降低餐后血糖，同时不增加胰岛素分泌总量，不加重β细胞负荷，低血糖的发生率低。胰岛素促泌剂降糖主要与对β细胞的作用有关，胰外作用不如对β细胞的作用重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "格列奈类药物也与胰岛β细胞膜SUR结合，与磺脲类药物相比，促胰岛素分泌作用起效快、作用持续时间短，有效降低餐后血糖，同时不增加胰岛素分泌总量，不加重β细胞负荷，低血糖的发生率低。",
+          "start_idx": 0,
+          "end_idx": 89,
+          "entities": [
+            {
+              "entity_id": "T42",
+              "entity": "格列奈类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T43",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T45",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T46",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 80,
+              "end_idx": 83
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R7",
+              "head_entity_id": "T46",
+              "tail_entity_id": "T42"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "胰岛素促泌剂降糖主要与对β细胞的作用有关，胰外作用不如对β细胞的作用重要。",
+          "start_idx": 89,
+          "end_idx": 126,
+          "entities": [
+            {
+              "entity_id": "T44",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "2 对胰岛素促泌剂认识的误区 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2 对胰岛素促泌剂认识的误区 ",
+          "start_idx": 0,
+          "end_idx": 15,
+          "entities": [
+            {
+              "entity_id": "T47",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 9
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "2.1 低血糖风险高",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.1 低血糖风险高",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T48",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "低血糖是磺脲类药物最常见的不良反度。但剂型改良后的格列吡嗪控释片、格列齐特缓释片和格列美脲等中长效制剂及餐时血糖调节药格列奈类，因其较低的血药浓度和依赖葡萄糖的降糖作用，低血糖的发生率低。GUIDE结果显示，在血糖水平控制相似的情况下，不同磺脲类促泌剂所致低血糖发生风险不同。糖尿病和心血管疾病行动研究(ADVANCE)以格列齐特缓释片为基瑞的降糖治疗严重低血糖年发生率仅为英国前瞻性糖尿病研究(UKPDS)采用格列本脲和氯磺丙脲为基碗的降糖治疗的1/4。英国一般实践研究数据库表明，磺脲类药物使用者年低血糖的发生半为1.8%，其中2.0%为年龄>65岁。在磺脲类药物中，格列苯脲的低血糖发生率最高，格列齐特和格列吡嗪的低血糖发生风险比格列苯脲低25%和40%。UKPDS对使用氯磺丙脲、格列苯脲和胰岛素的T2DM患者进行10年的随访表明，其年低血糖的发生率分别为11.0%、17.7%和36.5%。公认的低血糖发生少的甘精胰岛素的大型研究最新结果显示，甘精胰岛素低血糖发生的风险明显高于口服药。由此可见，胰岛素促泌剂肯定存在低血糖风险，但是胰岛素的低血糖风险更大。因此需要时一般情况下应优先选择胰岛素促泌剂而不是胰岛素。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "低血糖是磺脲类药物最常见的不良反度。但剂型改良后的格列吡嗪控释片、格列齐特缓释片和格列美脲等中长效制剂及餐时血糖调节药格列奈类，因其较低的血药浓度和依赖葡萄糖的降糖作用，低血糖的发生率低。GUIDE结果显示，在血糖水平控制相似的情况下，不同磺脲类促泌剂所致低血糖发生风险不同。糖尿病和心血管疾病行动研究(ADVANCE)以格列齐特缓释片为基瑞的降糖治疗严重低血糖年发生率仅为英国前瞻性糖尿病研究(UKPDS)采用格列本脲和氯磺丙脲为基碗的降糖治疗的1/4。英国一般实践研究数据库表明，磺脲类药物使用者年低血糖的发生半为1.8%，其中2.0%为年龄>65岁。在磺脲类药物中，格列苯脲的低血糖发生率最高，格列齐特和格列吡嗪的低血糖发生风险比格列苯脲低25%和40%。UKPDS对使用氯磺丙脲、格列苯脲和胰岛素的T2DM患者进行10年的随访表明，其年低血糖的发生率分别为11.0%、17.7%和36.5%。",
+          "start_idx": 0,
+          "end_idx": 400,
+          "entities": [
+            {
+              "entity_id": "T49",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T50",
+              "entity": "格列吡嗪控释片",
+              "entity_type": "Drug",
+              "start_idx": 25,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T51",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T52",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T53",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 63
+            },
+            {
+              "entity_id": "T54",
+              "entity": "磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 120,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T55",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 161,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T56",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 206,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T57",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 211,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T58",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 242,
+              "end_idx": 247
+            },
+            {
+              "entity_id": "T59",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 279,
+              "end_idx": 284
+            },
+            {
+              "entity_id": "T60",
+              "entity": "格列苯脲",
+              "entity_type": "Drug",
+              "start_idx": 286,
+              "end_idx": 290
+            },
+            {
+              "entity_id": "T61",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 300,
+              "end_idx": 304
+            },
+            {
+              "entity_id": "T62",
+              "entity": "格列吡嗪",
+              "entity_type": "Drug",
+              "start_idx": 305,
+              "end_idx": 309
+            },
+            {
+              "entity_id": "T63",
+              "entity": "格列苯脲",
+              "entity_type": "Drug",
+              "start_idx": 318,
+              "end_idx": 322
+            },
+            {
+              "entity_id": "T64",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 339,
+              "end_idx": 343
+            },
+            {
+              "entity_id": "T65",
+              "entity": "格列苯脲",
+              "entity_type": "Drug",
+              "start_idx": 344,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T66",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 349,
+              "end_idx": 352
+            },
+            {
+              "entity_id": "T73",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T74",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 85,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T75",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 128,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T76",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 178,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T77",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 251,
+              "end_idx": 254
+            },
+            {
+              "entity_id": "T78",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 291,
+              "end_idx": 294
+            },
+            {
+              "entity_id": "T79",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 310,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T80",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 372,
+              "end_idx": 375
+            },
+            {
+              "entity_id": "T85",
+              "entity": "血药浓度",
+              "entity_type": "Pathogenesis",
+              "start_idx": 69,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T86",
+              "entity": "餐时血糖",
+              "entity_type": "Test_items",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T87",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 105,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T88",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 138,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T89",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 142,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T90",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 142,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T91",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 192,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T92",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 353,
+              "end_idx": 357
+            },
+            {
+              "entity_id": "T93",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 353,
+              "end_idx": 355
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R8",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T49"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R9",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T50"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R10",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T51"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R11",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R12",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T53"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R13",
+              "head_entity_id": "T75",
+              "tail_entity_id": "T54"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R14",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T55"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T88"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R16",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T56"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T56",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R18",
+              "head_entity_id": "T76",
+              "tail_entity_id": "T57"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T57",
+              "tail_entity_id": "T91"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R20",
+              "head_entity_id": "T77",
+              "tail_entity_id": "T58"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R21",
+              "head_entity_id": "T78",
+              "tail_entity_id": "T60"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R22",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T61"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R23",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R24",
+              "head_entity_id": "T79",
+              "tail_entity_id": "T63"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R25",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T64"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T64",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R27",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T65",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R29",
+              "head_entity_id": "T80",
+              "tail_entity_id": "T66"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T92"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T90",
+              "tail_entity_id": "T89"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T92"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "公认的低血糖发生少的甘精胰岛素的大型研究最新结果显示，甘精胰岛素低血糖发生的风险明显高于口服药。",
+          "start_idx": 400,
+          "end_idx": 448,
+          "entities": [
+            {
+              "entity_id": "T67",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T68",
+              "entity": "甘精胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 27,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T81",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T82",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 32,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T94",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 44,
+              "end_idx": 46
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R31",
+              "head_entity_id": "T81",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R32",
+              "head_entity_id": "T82",
+              "tail_entity_id": "T68"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "由此可见，胰岛素促泌剂肯定存在低血糖风险，但是胰岛素的低血糖风险更大。",
+          "start_idx": 448,
+          "end_idx": 483,
+          "entities": [
+            {
+              "entity_id": "T69",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T70",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T83",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T84",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 27,
+              "end_idx": 30
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R33",
+              "head_entity_id": "T83",
+              "tail_entity_id": "T69"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R34",
+              "head_entity_id": "T84",
+              "tail_entity_id": "T70"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "因此需要时一般情况下应优先选择胰岛素促泌剂而不是胰岛素。",
+          "start_idx": 483,
+          "end_idx": 511,
+          "entities": [
+            {
+              "entity_id": "T71",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T72",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 24,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 511,
+          "end_idx": 512,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "2.2 体重增加明显 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.2 体重增加明显 ",
+          "start_idx": 0,
+          "end_idx": 11,
+          "entities": [
+            {
+              "entity_id": "T95",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 4,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "目前一般认为磺脲类药物治疗可引起患者体重增加。UKPDS表明，以格列本脲为基础的降糖治疗，患者体重增加1.7kg。Schernthaner等对使用格列齐特和格列美脲治疗的患者行27周的随访发现，其体重增加分别为0.5kg和0.6kg。而ADVANCE5年的观察分析并未发现以格列齐特缓释片为基础的降糖治疗增加患者体重。很多大型研究表明胰岛素增加体重更明显，比如ADVANCE新近的分析发现用胰岛素体重增加3.3kg，而磺脲服类为0.7kg。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前一般认为磺脲类药物治疗可引起患者体重增加。UKPDS表明，以格列本脲为基础的降糖治疗，患者体重增加1.7kg。Schernthaner等对使用格列齐特和格列美脲治疗的患者行27周的随访发现，其体重增加分别为0.5kg和0.6kg。",
+          "start_idx": 0,
+          "end_idx": 117,
+          "entities": [
+            {
+              "entity_id": "T96",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 6,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T97",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T98",
+              "entity": "格列齐特",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T99",
+              "entity": "格列美脲",
+              "entity_type": "Drug",
+              "start_idx": 78,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T102",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 18,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T103",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 47,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T104",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 98,
+              "end_idx": 102
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R37",
+              "head_entity_id": "T102",
+              "tail_entity_id": "T96"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R38",
+              "head_entity_id": "T103",
+              "tail_entity_id": "T97"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R39",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R40",
+              "head_entity_id": "T104",
+              "tail_entity_id": "T99"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "而ADVANCE5年的观察分析并未发现以格列齐特缓释片为基础的降糖治疗增加患者体重。",
+          "start_idx": 117,
+          "end_idx": 159,
+          "entities": [
+            {
+              "entity_id": "T100",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 27
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "很多大型研究表明胰岛素增加体重更明显，比如ADVANCE新近的分析发现用胰岛素体重增加3.3kg，而磺脲服类为0.7kg。",
+          "start_idx": 159,
+          "end_idx": 220,
+          "entities": [
+            {
+              "entity_id": "T101",
+              "entity": "磺脲服类",
+              "entity_type": "Drug",
+              "start_idx": 50,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T105",
+              "entity": "增加体重",
+              "entity_type": "ADE",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T106",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 39,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T107",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T108",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 39
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R41",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T107"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R42",
+              "head_entity_id": "T106",
+              "tail_entity_id": "T108"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "不难看出，胰岛素促泌剂增加体重，但胰岛素体重增加更明显。表明超重和肥胖的糖尿病患者选用降药时一般也应是胰岛素促泌剂优于胰岛素。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "不难看出，胰岛素促泌剂增加体重，但胰岛素体重增加更明显。表明超重和肥胖的糖尿病患者选用降药时一般也应是胰岛素促泌剂优于胰岛素。",
+          "start_idx": 0,
+          "end_idx": 63,
+          "entities": [
+            {
+              "entity_id": "T109",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T110",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 17,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T111",
+              "entity": "超重",
+              "entity_type": "Drug",
+              "start_idx": 30,
+              "end_idx": 32
+            },
+            {
+              "entity_id": "T112",
+              "entity": "肥胖",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T113",
+              "entity": "糖尿病",
+              "entity_type": "Drug",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T114",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T115",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T116",
+              "entity": "增加体重",
+              "entity_type": "ADE",
+              "start_idx": 11,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T117",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 20,
+              "end_idx": 24
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R43",
+              "head_entity_id": "T116",
+              "tail_entity_id": "T109"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R44",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T110"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 63,
+          "end_idx": 64,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "2.3加重β细胞功能衰竭",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.3加重β细胞功能衰竭",
+          "start_idx": 0,
+          "end_idx": 12,
+          "entities": [
+            {
+              "entity_id": "T118",
+              "entity": "β细胞功能衰竭",
+              "entity_type": "Pathogenesis",
+              "start_idx": 5,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "有研究认为胰岛素促泌剂可以引起胰岛β细胞凋亡，且促凋亡作用呈时间-剂量依赖性增加。UKPDS的结果显示，无论使用何种降糖治疗，胰岛β细胞功能每年以约7%的速度丧失，使用格列本脲和氯磺丙脲治疗的患者β细胞胰岛素分泌功能有下降趋势，但与采用二甲双胍治疗和单纯饮食控制相似。糖尿病进展试验(ADOPT)对比了3种不同类型降糖药物(罗格列酮、格列本脲和二甲双胍)在新诊断T2DM患者中的疗效，发现格列本脲改善β细胞胰岛素分泌功能明显优于罗格列酮和二甲双胍，并非发现磺脲类药物加重或加速了β细胞的衰竭。迄今的循证医学证据没有发现映岛素促泌剂加重或加速β细胞衰竭。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "有研究认为胰岛素促泌剂可以引起胰岛β细胞凋亡，且促凋亡作用呈时间-剂量依赖性增加。UKPDS的结果显示，无论使用何种降糖治疗，胰岛β细胞功能每年以约7%的速度丧失，使用格列本脲和氯磺丙脲治疗的患者β细胞胰岛素分泌功能有下降趋势，但与采用二甲双胍治疗和单纯饮食控制相似。糖尿病进展试验(ADOPT)对比了3种不同类型降糖药物(罗格列酮、格列本脲和二甲双胍)在新诊断T2DM患者中的疗效，发现格列本脲改善β细胞胰岛素分泌功能明显优于罗格列酮和二甲双胍，并非发现磺脲类药物加重或加速了β细胞的衰竭。",
+          "start_idx": 0,
+          "end_idx": 246,
+          "entities": [
+            {
+              "entity_id": "T119",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 5,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T120",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 84,
+              "end_idx": 88
+            },
+            {
+              "entity_id": "T121",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 89,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T122",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 118,
+              "end_idx": 122
+            },
+            {
+              "entity_id": "T123",
+              "entity": "罗格列酮",
+              "entity_type": "Drug",
+              "start_idx": 162,
+              "end_idx": 166
+            },
+            {
+              "entity_id": "T124",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 167,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T125",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 172,
+              "end_idx": 176
+            },
+            {
+              "entity_id": "T126",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 194,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T127",
+              "entity": "罗格列酮",
+              "entity_type": "Drug",
+              "start_idx": 214,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T128",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 219,
+              "end_idx": 223
+            },
+            {
+              "entity_id": "T129",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 228,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T131",
+              "entity": "胰岛β细胞凋亡",
+              "entity_type": "Pathogenesis",
+              "start_idx": 15,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T132",
+              "entity": "β细胞的衰竭",
+              "entity_type": "Pathogenesis",
+              "start_idx": 239,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T134",
+              "entity": "单纯饮食控制",
+              "entity_type": "Treatment",
+              "start_idx": 125,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T135",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 134,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T136",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T137",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 181,
+              "end_idx": 183
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T123",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R46",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R47",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T137",
+              "tail_entity_id": "T136"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "迄今的循证医学证据没有发现映岛素促泌剂加重或加速β细胞衰竭。",
+          "start_idx": 246,
+          "end_idx": 276,
+          "entities": [
+            {
+              "entity_id": "T130",
+              "entity": "映岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 13,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T133",
+              "entity": "β细胞衰竭",
+              "entity_type": "Pathogenesis",
+              "start_idx": 24,
+              "end_idx": 29
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 276,
+          "end_idx": 277,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "2.4 心血管风险 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.4 心血管风险 ",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T138",
+              "entity": "心血管风险",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T139",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 7
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T139",
+              "tail_entity_id": "T138"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "美国大学组糖尿病研究项目(UGDP)研究提出，甲苯磺丁脲可能增加T2DM患者心血管死亡风险。UKPDS随机给予新发T2DM患者胰岛素注射或口服降糖药治疗，以了解不同治疗方式对心血管并发症的影响。结果显示，磺脲类药物未增加心血管并发症发生；相反，其后续研究发现磺脲类可减少心血管事件发生。ADVANCE对病程较长，合并心血管高危因素的T2DM患者采用以格列齐特缓释片为基础的降糖治疗，主要微血管事件减少14%。Meta分析结果显示，以氯磺丙脲、格列本脲和格列齐特缓释片为基础的降糖治疗可使T2DM患者非致死性心肌梗死风险降低17%、冠心病风险降低15%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "美国大学组糖尿病研究项目(UGDP)研究提出，甲苯磺丁脲可能增加T2DM患者心血管死亡风险。UKPDS随机给予新发T2DM患者胰岛素注射或口服降糖药治疗，以了解不同治疗方式对心血管并发症的影响。结果显示，磺脲类药物未增加心血管并发症发生；相反，其后续研究发现磺脲类可减少心血管事件发生。ADVANCE对病程较长，合并心血管高危因素的T2DM患者采用以格列齐特缓释片为基础的降糖治疗，主要微血管事件减少14%。Meta分析结果显示，以氯磺丙脲、格列本脲和格列齐特缓释片为基础的降糖治疗可使T2DM患者非致死性心肌梗死风险降低17%、冠心病风险降低15%。",
+          "start_idx": 0,
+          "end_idx": 276,
+          "entities": [
+            {
+              "entity_id": "T140",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T141",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 32,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T142",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 57,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T143",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 166,
+              "end_idx": 170
+            },
+            {
+              "entity_id": "T144",
+              "entity": "T2DM患者",
+              "entity_type": "Disease",
+              "start_idx": 243,
+              "end_idx": 249
+            },
+            {
+              "entity_id": "T145",
+              "entity": "心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 253,
+              "end_idx": 257
+            },
+            {
+              "entity_id": "T146",
+              "entity": "冠心病",
+              "entity_type": "Disease",
+              "start_idx": 265,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T147",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 32,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T148",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 57,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T149",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 166,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T150",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 243,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T151",
+              "entity": "甲苯磺丁脲",
+              "entity_type": "Drug",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T152",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T153",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 102,
+              "end_idx": 107
+            },
+            {
+              "entity_id": "T154",
+              "entity": "磺脲类",
+              "entity_type": "Drug",
+              "start_idx": 129,
+              "end_idx": 132
+            },
+            {
+              "entity_id": "T155",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 175,
+              "end_idx": 182
+            },
+            {
+              "entity_id": "T156",
+              "entity": "氯磺丙脲",
+              "entity_type": "Drug",
+              "start_idx": 216,
+              "end_idx": 220
+            },
+            {
+              "entity_id": "T157",
+              "entity": "格列本脲",
+              "entity_type": "Drug",
+              "start_idx": 221,
+              "end_idx": 225
+            },
+            {
+              "entity_id": "T158",
+              "entity": "格列齐特缓释片",
+              "entity_type": "Drug",
+              "start_idx": 226,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T159",
+              "entity": "心血管并发症",
+              "entity_type": "ADE",
+              "start_idx": 87,
+              "end_idx": 93
+            },
+            {
+              "entity_id": "T160",
+              "entity": "心血管死亡",
+              "entity_type": "ADE",
+              "start_idx": 38,
+              "end_idx": 43
+            },
+            {
+              "entity_id": "T161",
+              "entity": "心血管并发症",
+              "entity_type": "ADE",
+              "start_idx": 110,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T162",
+              "entity": "心血管事件",
+              "entity_type": "ADE",
+              "start_idx": 135,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T163",
+              "entity": "微血管事件",
+              "entity_type": "ADE",
+              "start_idx": 193,
+              "end_idx": 198
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T147",
+              "tail_entity_id": "T141"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T141"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T148",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T142"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T149",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T155",
+              "tail_entity_id": "T143"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T156",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T157",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T158",
+              "tail_entity_id": "T144"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R60",
+              "head_entity_id": "T160",
+              "tail_entity_id": "T151"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R61",
+              "head_entity_id": "T159",
+              "tail_entity_id": "T152"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "现有的证据表明，胰岛素促泌剂中的磺脲类药物有利于保护T2DM的心血管，没有随机双盲前瞻性长时间研究发现它增加心血管风险。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "现有的证据表明，胰岛素促泌剂中的磺脲类药物有利于保护T2DM的心血管，没有随机双盲前瞻性长时间研究发现它增加心血管风险。",
+          "start_idx": 0,
+          "end_idx": 60,
+          "entities": [
+            {
+              "entity_id": "T164",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T165",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T166",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 26,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T167",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 26,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T168",
+              "entity": "心血管风险",
+              "entity_type": "ADE",
+              "start_idx": 54,
+              "end_idx": 59
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T167",
+              "tail_entity_id": "T166"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": " ",
+          "start_idx": 60,
+          "end_idx": 61,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "2.5 肿瘤风险 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.5 肿瘤风险 ",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T169",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "有研究表明T2DM患者的肿瘤风险增加，甚至某些回顾性的资料分析发现磺脲类药物可能增加肿瘤的风险，但高水平高级别的证据如从UKPDS到近期发表的ADVANCE亚组分析均未发现磺脲类药物增加患者肿瘤风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "有研究表明T2DM患者的肿瘤风险增加，甚至某些回顾性的资料分析发现磺脲类药物可能增加肿瘤的风险，但高水平高级别的证据如从UKPDS到近期发表的ADVANCE亚组分析均未发现磺脲类药物增加患者肿瘤风险。",
+          "start_idx": 0,
+          "end_idx": 100,
+          "entities": [
+            {
+              "entity_id": "T170",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T171",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 95,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T172",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T173",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T174",
+              "entity": "肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T175",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 33,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T176",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 86,
+              "end_idx": 91
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T173",
+              "tail_entity_id": "T170"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "3 胰岛素促泌剂的临床应用 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3 胰岛素促泌剂的临床应用 ",
+          "start_idx": 0,
+          "end_idx": 14,
+          "entities": [
+            {
+              "entity_id": "T177",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 2,
+              "end_idx": 8
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "共识强调胰岛素促泌剂仍是治疗T2DM的一线药，对于有一定β细胞功能、无胰岛素促泌剂应用禁忌的T2DM患者均可考虑选用胰岛素促泌剂。对无超重和肥胖或二甲双胍不耐受者或其他口服降糖药物治疗血糖控制不佳的T2DM患者促泌剂可作为首选或联合药物。应根据患者血糖谱选择不同类型的胰岛素促泌剂：以餐后血糖(PPG)升高为主者宜选择格列奈类及短效磺脲类促泌剂；以空腹血糖(FPG)升高为主PPG和FPG均升高者宜选择依从性好、低血糖风险低的中长效磺脲类促泌剂。若单药治疗血糖控制不达标，应与其他口服降糖药联用，一般联合两种药物，最多可联用3种药物。胰岛素促泌剂可与基础胰岛素合用，但不主张与格列奈类合用。胰岛素促泌剂与其他药物联合使用时应选择作用机制互补的降糖药物，这样既增强药物降糖效果又减少了各自的剂量及体重增加、严重低血糖等不良反应的发生率，同时要评估联合用药的成本-效益因素，充分考虑患者的经济承受能力和用药的依从性，特别是经济欠发达和农村地区患者。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "共识强调胰岛素促泌剂仍是治疗T2DM的一线药，对于有一定β细胞功能、无胰岛素促泌剂应用禁忌的T2DM患者均可考虑选用胰岛素促泌剂。对无超重和肥胖或二甲双胍不耐受者或其他口服降糖药物治疗血糖控制不佳的T2DM患者促泌剂可作为首选或联合药物。应根据患者血糖谱选择不同类型的胰岛素促泌剂：以餐后血糖(PPG)升高为主者宜选择格列奈类及短效磺脲类促泌剂；以空腹血糖(FPG)升高为主PPG和FPG均升高者宜选择依从性好、低血糖风险低的中长效磺脲类促泌剂。",
+          "start_idx": 0,
+          "end_idx": 223,
+          "entities": [
+            {
+              "entity_id": "T178",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 4,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T179",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 58,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T180",
+              "entity": "二甲双胍",
+              "entity_type": "Drug",
+              "start_idx": 73,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T181",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 134,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T182",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 159,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T183",
+              "entity": "短效磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 164,
+              "end_idx": 172
+            },
+            {
+              "entity_id": "T184",
+              "entity": "中长效磺脲类促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 213,
+              "end_idx": 222
+            },
+            {
+              "entity_id": "T189",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T190",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 46,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T191",
+              "entity": "超重",
+              "entity_type": "Disease",
+              "start_idx": 67,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T192",
+              "entity": "肥胖",
+              "entity_type": "Disease",
+              "start_idx": 70,
+              "end_idx": 72
+            },
+            {
+              "entity_id": "T193",
+              "entity": "T2DM",
+              "entity_type": "Disease",
+              "start_idx": 99,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T194",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T195",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 46,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T196",
+              "entity": "T2",
+              "entity_type": "Class",
+              "start_idx": 99,
+              "end_idx": 101
+            },
+            {
+              "entity_id": "T197",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 35,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T198",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T200",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 92,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T201",
+              "entity": "血糖谱",
+              "entity_type": "Test_items",
+              "start_idx": 124,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T202",
+              "entity": "餐后血糖(PPG)",
+              "entity_type": "Test_items",
+              "start_idx": 142,
+              "end_idx": 151
+            },
+            {
+              "entity_id": "T203",
+              "entity": "空腹血糖(FPG)",
+              "entity_type": "Test_items",
+              "start_idx": 174,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T204",
+              "entity": "PPG",
+              "entity_type": "Test_items",
+              "start_idx": 187,
+              "end_idx": 190
+            },
+            {
+              "entity_id": "T205",
+              "entity": "FPG",
+              "entity_type": "Test_items",
+              "start_idx": 191,
+              "end_idx": 194
+            },
+            {
+              "entity_id": "T207",
+              "entity": "控制不佳",
+              "entity_type": "Test_Value",
+              "start_idx": 94,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T208",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 151,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T209",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 183,
+              "end_idx": 185
+            },
+            {
+              "entity_id": "T210",
+              "entity": "均升高",
+              "entity_type": "Test_Value",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T212",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 206,
+              "end_idx": 209
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T178",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T181",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R67",
+              "head_entity_id": "T212",
+              "tail_entity_id": "T184"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T194",
+              "tail_entity_id": "T189"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T190"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T196",
+              "tail_entity_id": "T193"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T200",
+              "tail_entity_id": "T193"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "若单药治疗血糖控制不达标，应与其他口服降糖药联用，一般联合两种药物，最多可联用3种药物。",
+          "start_idx": 223,
+          "end_idx": 267,
+          "entities": [
+            {
+              "entity_id": "T199",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 17,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T206",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T211",
+              "entity": "控制不达标",
+              "entity_type": "Test_Value",
+              "start_idx": 7,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "胰岛素促泌剂可与基础胰岛素合用，但不主张与格列奈类合用。",
+          "start_idx": 267,
+          "end_idx": 295,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T186",
+              "entity": "基础胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 8,
+              "end_idx": 13
+            },
+            {
+              "entity_id": "T187",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 21,
+              "end_idx": 25
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "胰岛素促泌剂与其他药物联合使用时应选择作用机制互补的降糖药物，这样既增强药物降糖效果又减少了各自的剂量及体重增加、严重低血糖等不良反应的发生率，同时要评估联合用药的成本-效益因素，充分考虑患者的经济承受能力和用药的依从性，特别是经济欠发达和农村地区患者。",
+          "start_idx": 295,
+          "end_idx": 422,
+          "entities": [
+            {
+              "entity_id": "T188",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T213",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 52,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T214",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 59,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T215",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 57,
+              "end_idx": 59
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 422,
+          "end_idx": 423,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "胰岛素促泌剂的降糖作用在常规剂量内呈剂量依赖性，可平均将糖化血红蛋白(HbA1c)水平降低2%左右，且患者的基线HbA1c水平越高，服用胰鸟素促泌剂治疗后HbA1c的降幅越大。剂量应从小量开始，以减少低血糖发生。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "胰岛素促泌剂的降糖作用在常规剂量内呈剂量依赖性，可平均将糖化血红蛋白(HbA1c)水平降低2%左右，且患者的基线HbA1c水平越高，服用胰鸟素促泌剂治疗后HbA1c的降幅越大。",
+          "start_idx": 0,
+          "end_idx": 88,
+          "entities": [
+            {
+              "entity_id": "T216",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T217",
+              "entity": "胰鸟素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 68,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T218",
+              "entity": "糖化血红蛋白(HbA1c)",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T219",
+              "entity": "基线HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T220",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 77,
+              "end_idx": 82
+            },
+            {
+              "entity_id": "T221",
+              "entity": "降低2%左右",
+              "entity_type": "Test_Value",
+              "start_idx": 43,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T222",
+              "entity": "高",
+              "entity_type": "Test_Value",
+              "start_idx": 64,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T223",
+              "entity": "降幅越大",
+              "entity_type": "Test_Value",
+              "start_idx": 83,
+              "end_idx": 87
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "剂量应从小量开始，以减少低血糖发生。",
+          "start_idx": 88,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T224",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 12,
+              "end_idx": 15
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": " ",
+          "start_idx": 106,
+          "end_idx": 107,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "中或重度肝肾功能不全者不宜使用胰岛素促泌剂。轻中度肾功能不全者若不用胰岛素，需要用胰岛素促泌剂时可考虑瑞格列奈和格列喹酮。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中或重度肝肾功能不全者不宜使用胰岛素促泌剂。轻中度肾功能不全者若不用胰岛素，需要用胰岛素促泌剂时可考虑瑞格列奈和格列喹酮。",
+          "start_idx": 0,
+          "end_idx": 61,
+          "entities": [
+            {
+              "entity_id": "T225",
+              "entity": "肝肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T226",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 4,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T227",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 5,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T228",
+              "entity": "中或重度",
+              "entity_type": "Level",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T229",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 15,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T230",
+              "entity": "肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 25,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T231",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 25,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T232",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T233",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 41,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T234",
+              "entity": "瑞格列奈",
+              "entity_type": "Drug",
+              "start_idx": 51,
+              "end_idx": 55
+            },
+            {
+              "entity_id": "T235",
+              "entity": "格列喹酮",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T236",
+              "entity": "轻中度",
+              "entity_type": "Level",
+              "start_idx": 22,
+              "end_idx": 25
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T226",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T227",
+              "tail_entity_id": "T225"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T231",
+              "tail_entity_id": "T230"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T233",
+              "tail_entity_id": "T230"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T230"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T230"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "总之，胰岛素促泌剂符合中国2型糖尿病的特点，是多数权威指南推荐的治疗2型糖尿病的一线药物。磺脲类药物应用时间长、降糖效果强、安全性高、价格低廉，早期使用可减少大血管、微血管、并发症和全因死亡的发生。格列奈类有效降低餐后血糖，在中国也广泛使用。临床医生应以循证医学研究的证据来科学评价胰岛素促泌剂，同时应充分了解各种药物的特点，结合患者的血糖谱、年龄、病程、肝肾功能、胰岛功能、依从性、经济条件等情况综合考虑，制定个体化的用药方案，使患者血糖安全达标的同时减少不良反应的发生，延缓疾病进程，减少并发症，提高患者的生活质量。 ",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "总之，胰岛素促泌剂符合中国2型糖尿病的特点，是多数权威指南推荐的治疗2型糖尿病的一线药物。",
+          "start_idx": 0,
+          "end_idx": 45,
+          "entities": [
+            {
+              "entity_id": "T237",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T241",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T242",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T243",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 13,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T244",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T243",
+              "tail_entity_id": "T241"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T242"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "磺脲类药物应用时间长、降糖效果强、安全性高、价格低廉，早期使用可减少大血管、微血管、并发症和全因死亡的发生。",
+          "start_idx": 45,
+          "end_idx": 99,
+          "entities": [
+            {
+              "entity_id": "T238",
+              "entity": "磺脲类药物",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "格列奈类有效降低餐后血糖，在中国也广泛使用。",
+          "start_idx": 99,
+          "end_idx": 121,
+          "entities": [
+            {
+              "entity_id": "T239",
+              "entity": "格列奈类",
+              "entity_type": "Drug",
+              "start_idx": 0,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T245",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 8,
+              "end_idx": 12
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "临床医生应以循证医学研究的证据来科学评价胰岛素促泌剂，同时应充分了解各种药物的特点，结合患者的血糖谱、年龄、病程、肝肾功能、胰岛功能、依从性、经济条件等情况综合考虑，制定个体化的用药方案，使患者血糖安全达标的同时减少不良反应的发生，延缓疾病进程，减少并发症，提高患者的生活质量。",
+          "start_idx": 121,
+          "end_idx": 260,
+          "entities": [
+            {
+              "entity_id": "T240",
+              "entity": "胰岛素促泌剂",
+              "entity_type": "Drug",
+              "start_idx": 20,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T246",
+              "entity": "血糖谱",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T247",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 97,
+              "end_idx": 99
+            },
+            {
+              "entity_id": "T248",
+              "entity": "安全达标",
+              "entity_type": "Test_Value",
+              "start_idx": 99,
+              "end_idx": 103
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": " ",
+          "start_idx": 260,
+          "end_idx": 261,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    }
+  ]
+}

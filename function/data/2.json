@@ -1,0 +1,4061 @@
+{
+  "doc_id": "2",
+  "paragraphs": [
+    {
+      "paragraph_id": "0",
+      "paragraph": "中国成人2型糖尿病HbA1c控制目标的专家共识",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "中国成人2型糖尿病HbA1c控制目标的专家共识",
+          "start_idx": 0,
+          "end_idx": 23,
+          "entities": [
+            {
+              "entity_id": "T0",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T1",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 4,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T2",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 14
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R0",
+              "head_entity_id": "T1",
+              "tail_entity_id": "T0"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R1",
+              "head_entity_id": "T2",
+              "tail_entity_id": "T0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "1",
+      "paragraph": "目前，2型糖尿病及其并发症已经成为危害公众健康的主要疾病之一，控制血糖是延缓糖尿病进展及其并发症发生的重要措施之一。虽然HbA1c是评价血糖控制水平的公认指标，但应该控制的理想水平即目标值究竟是多少还存在争议。糖尿病控制与并发症试验(DCCT，1993)、熊本(Kumamoto，1995)、英国前瞻性糖尿病研究(UKPDS，1998)等高质量临床研究已经证实，对新诊断的糖尿病患者或病情较轻的患者进行严格的血糖控制会延缓糖尿病微血管病变的发生、发展，其后续研究DCCT-EDIC(2005)、UKPDS一80(2008)还证实早期有效控制血糖对大血管也有保护作用。这些研究终点的HbA1c控制在7.5%左右，那么年龄较大、糖尿病病程较长、部分已有心血管疾病(CVD)或伴CVD极高危因素的糖尿病人群进一步降低血糖，对CVD的影响将会如何?糖尿病患者心血管风险干预研究(ACCORD)、退伍军人糖尿病研究(VADT)和糖尿病与心血管疾病行动研究(ADVANCE)等对该类人群平均5年左右的干预，结果显示强化降糖治疗使HbA1c<6.5%，患者死亡风险和大血管事件发生并无进一步减少，ACCORD甚至表明控制HbA1c水平接近正常值(<6.4%)会增加这类患者死亡率。这些与理论或预期不一致结果产生的原因尚不确定，可能与人组人群差异、低血糖、体重增加、随访时间长短及评估方法等诸多因素有关，但过分苛求血糖正常化可能是主要原因之一。ACCORD、VADT数据分析提示对病程长、有低血糖史、有CVD或合并CVD极高危的患者，盲目地进行强化达标治疗，会明显增加低血糖和心血管事件发生。各权威组织推荐的血糖控制目标HbA1c的水平也不尽相同，美国糖尿病协会(ADA)认为一般情况下血糖控制目标值HbA1c<7%；国际糖尿病联盟(IDF)、美国内分泌医师协会/美国内分泌协会(AACE/ACE)、英国健康与临床优化研究所(NICE)、全球有效管理糖尿病合作组织(GPEDM)和加拿大糖尿病协会(CDA)则建议一般情况时HbA1c<6.5%；中华医学会糖尿病分会推荐的一般HbA1c目标值为<6.5%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "目前，2型糖尿病及其并发症已经成为危害公众健康的主要疾病之一，控制血糖是延缓糖尿病进展及其并发症发生的重要措施之一。虽然HbA1c是评价血糖控制水平的公认指标，但应该控制的理想水平即目标值究竟是多少还存在争议。糖尿病控制与并发症试验(DCCT，1993)、熊本(Kumamoto，1995)、英国前瞻性糖尿病研究(UKPDS，1998)等高质量临床研究已经证实，对新诊断的糖尿病患者或病情较轻的患者进行严格的血糖控制会延缓糖尿病微血管病变的发生、发展，其后续研究DCCT-EDIC(2005)、UKPDS一80(2008)还证实早期有效控制血糖对大血管也有保护作用。这些研究终点的HbA1c控制在7.5%左右，那么年龄较大、糖尿病病程较长、部分已有心血管疾病(CVD)或伴CVD极高危因素的糖尿病人群进一步降低血糖，对CVD的影响将会如何?糖尿病患者心血管风险干预研究(ACCORD)、退伍军人糖尿病研究(VADT)和糖尿病与心血管疾病行动研究(ADVANCE)等对该类人群平均5年左右的干预，结果显示强化降糖治疗使HbA1c<6.5%，患者死亡风险和大血管事件发生并无进一步减少，ACCORD甚至表明控制HbA1c水平接近正常值(<6.4%)会增加这类患者死亡率。这些与理论或预期不一致结果产生的原因尚不确定，可能与人组人群差异、低血糖、体重增加、随访时间长短及评估方法等诸多因素有关，但过分苛求血糖正常化可能是主要原因之一。ACCORD、VADT数据分析提示对病程长、有低血糖史、有CVD或合并CVD极高危的患者，盲目地进行强化达标治疗，会明显增加低血糖和心血管事件发生。各权威组织推荐的血糖控制目标HbA1c的水平也不尽相同，美国糖尿病协会(ADA)认为一般情况下血糖控制目标值HbA1c<7%；国际糖尿病联盟(IDF)、美国内分泌医师协会/美国内分泌协会(AACE/ACE)、英国健康与临床优化研究所(NICE)、全球有效管理糖尿病合作组织(GPEDM)和加拿大糖尿病协会(CDA)则建议一般情况时HbA1c<6.5%；中华医学会糖尿病分会推荐的一般HbA1c目标值为<6.5%。",
+          "start_idx": 0,
+          "end_idx": 894,
+          "entities": [
+            {
+              "entity_id": "T3",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T4",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 3,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T5",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T6",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 38,
+              "end_idx": 41
+            },
+            {
+              "entity_id": "T7",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 60,
+              "end_idx": 65
+            },
+            {
+              "entity_id": "T8",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 68,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T9",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 105,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T10",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 151,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T11",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 186,
+              "end_idx": 189
+            },
+            {
+              "entity_id": "T12",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 204,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T13",
+              "entity": "糖尿病微血管病变",
+              "entity_type": "Disease",
+              "start_idx": 211,
+              "end_idx": 219
+            },
+            {
+              "entity_id": "T14",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 214,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T15",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 270,
+              "end_idx": 272
+            },
+            {
+              "entity_id": "T16",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 273,
+              "end_idx": 276
+            },
+            {
+              "entity_id": "T17",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 290,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T18",
+              "entity": "7.5%左右",
+              "entity_type": "Test_Value",
+              "start_idx": 298,
+              "end_idx": 304
+            },
+            {
+              "entity_id": "T19",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 312,
+              "end_idx": 315
+            },
+            {
+              "entity_id": "T20",
+              "entity": "心血管疾病(CVD)",
+              "entity_type": "Disease",
+              "start_idx": 324,
+              "end_idx": 334
+            },
+            {
+              "entity_id": "T21",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 324,
+              "end_idx": 327
+            },
+            {
+              "entity_id": "T22",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 336,
+              "end_idx": 339
+            },
+            {
+              "entity_id": "T23",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 345,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T24",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 355,
+              "end_idx": 357
+            },
+            {
+              "entity_id": "T25",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 359,
+              "end_idx": 362
+            },
+            {
+              "entity_id": "T26",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 370,
+              "end_idx": 373
+            },
+            {
+              "entity_id": "T27",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 375,
+              "end_idx": 378
+            },
+            {
+              "entity_id": "T28",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 397,
+              "end_idx": 400
+            },
+            {
+              "entity_id": "T29",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 409,
+              "end_idx": 412
+            },
+            {
+              "entity_id": "T30",
+              "entity": "心血管疾病",
+              "entity_type": "Disease",
+              "start_idx": 413,
+              "end_idx": 418
+            },
+            {
+              "entity_id": "T31",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 413,
+              "end_idx": 416
+            },
+            {
+              "entity_id": "T32",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 458,
+              "end_idx": 463
+            },
+            {
+              "entity_id": "T33",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 463,
+              "end_idx": 468
+            },
+            {
+              "entity_id": "T34",
+              "entity": "大血管事件",
+              "entity_type": "Disease",
+              "start_idx": 476,
+              "end_idx": 481
+            },
+            {
+              "entity_id": "T35",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 476,
+              "end_idx": 479
+            },
+            {
+              "entity_id": "T36",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 503,
+              "end_idx": 508
+            },
+            {
+              "entity_id": "T37",
+              "entity": "接近正常值(<6.4%)",
+              "entity_type": "Test_Value",
+              "start_idx": 510,
+              "end_idx": 522
+            },
+            {
+              "entity_id": "T38",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 566,
+              "end_idx": 569
+            },
+            {
+              "entity_id": "T39",
+              "entity": "体重增加",
+              "entity_type": "Symptom",
+              "start_idx": 570,
+              "end_idx": 574
+            },
+            {
+              "entity_id": "T40",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 599,
+              "end_idx": 601
+            },
+            {
+              "entity_id": "T41",
+              "entity": "正常",
+              "entity_type": "Test_Value",
+              "start_idx": 601,
+              "end_idx": 603
+            },
+            {
+              "entity_id": "T42",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 637,
+              "end_idx": 640
+            },
+            {
+              "entity_id": "T43",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 643,
+              "end_idx": 646
+            },
+            {
+              "entity_id": "T44",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 649,
+              "end_idx": 652
+            },
+            {
+              "entity_id": "T45",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 676,
+              "end_idx": 679
+            },
+            {
+              "entity_id": "T46",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 680,
+              "end_idx": 685
+            },
+            {
+              "entity_id": "T47",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 680,
+              "end_idx": 683
+            },
+            {
+              "entity_id": "T48",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 735,
+              "end_idx": 737
+            },
+            {
+              "entity_id": "T49",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 742,
+              "end_idx": 747
+            },
+            {
+              "entity_id": "T50",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 747,
+              "end_idx": 750
+            },
+            {
+              "entity_id": "T51",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 753,
+              "end_idx": 756
+            },
+            {
+              "entity_id": "T52",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 718,
+              "end_idx": 721
+            },
+            {
+              "entity_id": "T53",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 817,
+              "end_idx": 820
+            },
+            {
+              "entity_id": "T54",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 835,
+              "end_idx": 838
+            },
+            {
+              "entity_id": "T55",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 853,
+              "end_idx": 858
+            },
+            {
+              "entity_id": "T56",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 858,
+              "end_idx": 863
+            },
+            {
+              "entity_id": "T57",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 869,
+              "end_idx": 872
+            },
+            {
+              "entity_id": "T58",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 879,
+              "end_idx": 884
+            },
+            {
+              "entity_id": "T59",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 888,
+              "end_idx": 893
+            },
+            {
+              "entity_id": "T60",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 696,
+              "end_idx": 698
+            },
+            {
+              "entity_id": "T61",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 702,
+              "end_idx": 707
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R2",
+              "head_entity_id": "T4",
+              "tail_entity_id": "T3"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R3",
+              "head_entity_id": "T5",
+              "tail_entity_id": "T6"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R4",
+              "head_entity_id": "T12",
+              "tail_entity_id": "T13"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R5",
+              "head_entity_id": "T14",
+              "tail_entity_id": "T13"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R6",
+              "head_entity_id": "T21",
+              "tail_entity_id": "T20"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R7",
+              "head_entity_id": "T24",
+              "tail_entity_id": "T23"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R8",
+              "head_entity_id": "T27",
+              "tail_entity_id": "T26"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R9",
+              "head_entity_id": "T31",
+              "tail_entity_id": "T30"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R10",
+              "head_entity_id": "T32",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R11",
+              "head_entity_id": "T35",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R12",
+              "head_entity_id": "T36",
+              "tail_entity_id": "T34"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R13",
+              "head_entity_id": "T47",
+              "tail_entity_id": "T46"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R14",
+              "head_entity_id": "T48",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R15",
+              "head_entity_id": "T49",
+              "tail_entity_id": "T52"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R16",
+              "head_entity_id": "T55",
+              "tail_entity_id": "T54"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R17",
+              "head_entity_id": "T58",
+              "tail_entity_id": "T57"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "2",
+      "paragraph": "糖尿病患者血糖控制目标应该遵循个体化原则，即对血糖控制的风险(risk)与获益(benefit)、成本(cost)与效益(effectiveness)和可行性(feasibility)方面进行科学评估，寻找较为合理的平衡，这一点已是专家共识。在我国，多数糖尿病患者居住在县以下及农村地区，经济、受教育程度、医疗保障及医疗水平等诸多影响血糖控制的因素差别极大，地域差别较强，因此临床医生在设定糖尿病血糖控制目标时除考虑病理生理因素即病情外，还必须考虑社会因素，社会因素的重要性在某些特定患者甚至超过病情。比如自我血糖监测(SMBG)在我国开展不普遍，因此防范严重低血糖的发生必须放在首位，HbA1c目标的制定应统筹考虑安全性、可行性和科学性。我们不主张笼统推荐成人2型糖尿病的HbA1c控制目标，而是根据病情分层和社会因素的差异建议相对合理的HbA1c值，力争做到安全达标。从病情因素考虑，大致将患者分为以下6类。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病患者血糖控制目标应该遵循个体化原则，即对血糖控制的风险(risk)与获益(benefit)、成本(cost)与效益(effectiveness)和可行性(feasibility)方面进行科学评估，寻找较为合理的平衡，这一点已是专家共识。在我国，多数糖尿病患者居住在县以下及农村地区，经济、受教育程度、医疗保障及医疗水平等诸多影响血糖控制的因素差别极大，地域差别较强，因此临床医生在设定糖尿病血糖控制目标时除考虑病理生理因素即病情外，还必须考虑社会因素，社会因素的重要性在某些特定患者甚至超过病情。比如自我血糖监测(SMBG)在我国开展不普遍，因此防范严重低血糖的发生必须放在首位，HbA1c目标的制定应统筹考虑安全性、可行性和科学性。我们不主张笼统推荐成人2型糖尿病的HbA1c控制目标，而是根据病情分层和社会因素的差异建议相对合理的HbA1c值，力争做到安全达标。",
+          "start_idx": 0,
+          "end_idx": 386,
+          "entities": [
+            {
+              "entity_id": "T62",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T63",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T64",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 25
+            },
+            {
+              "entity_id": "T65",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T66",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 167,
+              "end_idx": 169
+            },
+            {
+              "entity_id": "T67",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 195,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T68",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 198,
+              "end_idx": 200
+            },
+            {
+              "entity_id": "T69",
+              "entity": "自我血糖监测(SMBG)",
+              "entity_type": "Test_items",
+              "start_idx": 253,
+              "end_idx": 265
+            },
+            {
+              "entity_id": "T70",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 280,
+              "end_idx": 283
+            },
+            {
+              "entity_id": "T71",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 293,
+              "end_idx": 298
+            },
+            {
+              "entity_id": "T72",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 331,
+              "end_idx": 336
+            },
+            {
+              "entity_id": "T73",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 331,
+              "end_idx": 333
+            },
+            {
+              "entity_id": "T74",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 337,
+              "end_idx": 342
+            },
+            {
+              "entity_id": "T75",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 370,
+              "end_idx": 375
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R18",
+              "head_entity_id": "T63",
+              "tail_entity_id": "T62"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R19",
+              "head_entity_id": "T66",
+              "tail_entity_id": "T65"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R20",
+              "head_entity_id": "T68",
+              "tail_entity_id": "T67"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R21",
+              "head_entity_id": "T69",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R22",
+              "head_entity_id": "T71",
+              "tail_entity_id": "T70"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R23",
+              "head_entity_id": "T73",
+              "tail_entity_id": "T72"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R24",
+              "head_entity_id": "T74",
+              "tail_entity_id": "T72"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "从病情因素考虑，大致将患者分为以下6类。",
+          "start_idx": 386,
+          "end_idx": 406,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "3",
+      "paragraph": "一、无糖尿病并发症和严重伴发疾病的非老年(<65岁)患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "一、无糖尿病并发症和严重伴发疾病的非老年(<65岁)患者",
+          "start_idx": 0,
+          "end_idx": 28,
+          "entities": [
+            {
+              "entity_id": "T76",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "4",
+      "paragraph": "1.一般将HbA1c控制于<6.5%，若降糖治疗无低血糖或体重增加等不良反应者可使HbA1c<6%。目前，新诊断糖尿病患者的人数逐年增加，越来越年轻化，尤其是30—39岁比例增加引起了临床医生的关注。这些患者绝大多数除糖尿病外并无并发症和其他疾病，考虑对患者预期寿命和生活质量的影响，应该严格控制血糖，目标值HbA1c<6.5%，我们也同意并推荐IDF的建议，对于年轻、病程较短、治疗后无低血糖或体重增加等不良反应发生的患者，血糖控制目标值应该尽量使HbAIc<6%。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "1.一般将HbA1c控制于<6.5%，若降糖治疗无低血糖或体重增加等不良反应者可使HbA1c<6%。目前，新诊断糖尿病患者的人数逐年增加，越来越年轻化，尤其是30—39岁比例增加引起了临床医生的关注。这些患者绝大多数除糖尿病外并无并发症和其他疾病，考虑对患者预期寿命和生活质量的影响，应该严格控制血糖，目标值HbA1c<6.5%，我们也同意并推荐IDF的建议，对于年轻、病程较短、治疗后无低血糖或体重增加等不良反应发生的患者，血糖控制目标值应该尽量使HbAIc<6%。",
+          "start_idx": 0,
+          "end_idx": 234,
+          "entities": [
+            {
+              "entity_id": "T77",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T78",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 13,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T79",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 25,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T80",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 29,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T81",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 41,
+              "end_idx": 46
+            },
+            {
+              "entity_id": "T82",
+              "entity": "<6%",
+              "entity_type": "Test_Value",
+              "start_idx": 46,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T83",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T84",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 109,
+              "end_idx": 112
+            },
+            {
+              "entity_id": "T85",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 154,
+              "end_idx": 159
+            },
+            {
+              "entity_id": "T86",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 148,
+              "end_idx": 150
+            },
+            {
+              "entity_id": "T87",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 213,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T88",
+              "entity": "HbAIc",
+              "entity_type": "Test_items",
+              "start_idx": 225,
+              "end_idx": 230
+            },
+            {
+              "entity_id": "T89",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T90",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 198,
+              "end_idx": 202
+            },
+            {
+              "entity_id": "T91",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 159,
+              "end_idx": 164
+            },
+            {
+              "entity_id": "T92",
+              "entity": "<6%",
+              "entity_type": "Test_Value",
+              "start_idx": 230,
+              "end_idx": 233
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R25",
+              "head_entity_id": "T86",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R26",
+              "head_entity_id": "T85",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R27",
+              "head_entity_id": "T87",
+              "tail_entity_id": "T84"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R28",
+              "head_entity_id": "T88",
+              "tail_entity_id": "T84"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "5",
+      "paragraph": "研究表明，随着HbA1c水平的升高，发生CVD的危险性相对增加，而且糖尿病病史越长的患者治疗后CVD危险性减低越小；流行病学调查结果的meta分析显示，HbA1c每增加1%，2型糖尿病心血管事件的相对危险性为1.18，1型糖尿病为1.15；ACCORD亚组分析也提示，既往无CVD且HbA1c<8%的患者强化治疗后CVD的发生及其死亡率明显下降，这与总体患者(平均病程10年，35%发生过CVD)的研究结果恰恰相反。另一方面，DCCT-EDIC经过后续8年的随访证实1型糖尿病患者早期强化治疗对微血管有持久的保护作用，并延缓动脉粥样硬化的发展；UKPDS-80经过后续10年的长期随访发现对新诊断的2型糖尿病患者，强化降糖治疗不仅能减少微血管并发症的发生，还能显著降低患者的心肌梗死发生率和总死亡率。所以，观察到严格控制血糖对大血管的保护作用可能需要较长的时间。总之，不管从病理生理还是流行病学的角度，在糖尿病诊断时就严格控制血糖，同时控制体重、血脂、血压，抗血小板治疗，全面降低CVD危险因素会延缓慢性并发症的发生、发展。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "研究表明，随着HbA1c水平的升高，发生CVD的危险性相对增加，而且糖尿病病史越长的患者治疗后CVD危险性减低越小；流行病学调查结果的meta分析显示，HbA1c每增加1%，2型糖尿病心血管事件的相对危险性为1.18，1型糖尿病为1.15；ACCORD亚组分析也提示，既往无CVD且HbA1c<8%的患者强化治疗后CVD的发生及其死亡率明显下降，这与总体患者(平均病程10年，35%发生过CVD)的研究结果恰恰相反。另一方面，DCCT-EDIC经过后续8年的随访证实1型糖尿病患者早期强化治疗对微血管有持久的保护作用，并延缓动脉粥样硬化的发展；UKPDS-80经过后续10年的长期随访发现对新诊断的2型糖尿病患者，强化降糖治疗不仅能减少微血管并发症的发生，还能显著降低患者的心肌梗死发生率和总死亡率。所以，观察到严格控制血糖对大血管的保护作用可能需要较长的时间。总之，不管从病理生理还是流行病学的角度，在糖尿病诊断时就严格控制血糖，同时控制体重、血脂、血压，抗血小板治疗，全面降低CVD危险因素会延缓慢性并发症的发生、发展。",
+          "start_idx": 0,
+          "end_idx": 462,
+          "entities": [
+            {
+              "entity_id": "T93",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T94",
+              "entity": "升高",
+              "entity_type": "Test_Value",
+              "start_idx": 15,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T95",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T96",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 37
+            },
+            {
+              "entity_id": "T97",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T98",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 87,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T99",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 87,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T100",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 76,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T101",
+              "entity": "增加1%",
+              "entity_type": "Test_Value",
+              "start_idx": 82,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T102",
+              "entity": "心血管事件",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T103",
+              "entity": "心血管",
+              "entity_type": "Anatomy",
+              "start_idx": 92,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T104",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 109,
+              "end_idx": 114
+            },
+            {
+              "entity_id": "T105",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 109,
+              "end_idx": 111
+            },
+            {
+              "entity_id": "T106",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 137,
+              "end_idx": 140
+            },
+            {
+              "entity_id": "T107",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 141,
+              "end_idx": 146
+            },
+            {
+              "entity_id": "T108",
+              "entity": "<8%",
+              "entity_type": "Test_Value",
+              "start_idx": 146,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T109",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 157,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T110",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 194,
+              "end_idx": 197
+            },
+            {
+              "entity_id": "T111",
+              "entity": "1型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 233,
+              "end_idx": 238
+            },
+            {
+              "entity_id": "T112",
+              "entity": "1型",
+              "entity_type": "Class",
+              "start_idx": 233,
+              "end_idx": 235
+            },
+            {
+              "entity_id": "T113",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 247,
+              "end_idx": 250
+            },
+            {
+              "entity_id": "T114",
+              "entity": "动脉粥样硬化",
+              "entity_type": "Disease",
+              "start_idx": 262,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T115",
+              "entity": "动脉",
+              "entity_type": "Anatomy",
+              "start_idx": 262,
+              "end_idx": 264
+            },
+            {
+              "entity_id": "T116",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 299,
+              "end_idx": 304
+            },
+            {
+              "entity_id": "T117",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 299,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T118",
+              "entity": "微血管",
+              "entity_type": "Anatomy",
+              "start_idx": 318,
+              "end_idx": 321
+            },
+            {
+              "entity_id": "T119",
+              "entity": "心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 337,
+              "end_idx": 341
+            },
+            {
+              "entity_id": "T120",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 337,
+              "end_idx": 339
+            },
+            {
+              "entity_id": "T121",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 360,
+              "end_idx": 362
+            },
+            {
+              "entity_id": "T122",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 363,
+              "end_idx": 366
+            },
+            {
+              "entity_id": "T123",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 402,
+              "end_idx": 405
+            },
+            {
+              "entity_id": "T124",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 413,
+              "end_idx": 415
+            },
+            {
+              "entity_id": "T125",
+              "entity": "血脂",
+              "entity_type": "Test",
+              "start_idx": 423,
+              "end_idx": 425
+            },
+            {
+              "entity_id": "T126",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 426,
+              "end_idx": 428
+            },
+            {
+              "entity_id": "T127",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 440,
+              "end_idx": 443
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R29",
+              "head_entity_id": "T93",
+              "tail_entity_id": "T95"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R30",
+              "head_entity_id": "T100",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R31",
+              "head_entity_id": "T99",
+              "tail_entity_id": "T98"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R32",
+              "head_entity_id": "T103",
+              "tail_entity_id": "T102"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R33",
+              "head_entity_id": "T105",
+              "tail_entity_id": "T104"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R34",
+              "head_entity_id": "T112",
+              "tail_entity_id": "T111"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R35",
+              "head_entity_id": "T113",
+              "tail_entity_id": "T111"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R36",
+              "head_entity_id": "T115",
+              "tail_entity_id": "T114"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R37",
+              "head_entity_id": "T117",
+              "tail_entity_id": "T116"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R38",
+              "head_entity_id": "T118",
+              "tail_entity_id": "T116"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R39",
+              "head_entity_id": "T120",
+              "tail_entity_id": "T119"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R40",
+              "head_entity_id": "T124",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R41",
+              "head_entity_id": "T125",
+              "tail_entity_id": "T123"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R42",
+              "head_entity_id": "T126",
+              "tail_entity_id": "T123"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "6",
+      "paragraph": "2.口服降糖药物未达标加用或改用胰岛素的患者，其血糖控制目标值可适当放宽至HbA1c<7%，以减少低血糖和体重增加这两大不良反应。Miller等对1055例2型糖尿病患者(平均年龄61岁，病程10.8年)的低血糖发生情况调查显示，在随访的7个月中有24.5%的患者至少发生过一次低血糖(有低血糖症状并且血糖<3.3mmol/L)，其中生活方式干预组(HbA1c<6%)占11.8%，口服药物治疗组(HbA1c<7%)占16.2%，胰岛素治疗组(HbA1c<8.1%)占30.5%，而且随访过程中发生的5例严重低血糖事件(0.5%)均在胰岛素治疗组。UKPDS和ACCORD均发现胰岛素使体重增加，若体重增加，可能加重胰岛素抵抗，增加CVD风险。调查结果和临床经验提示对应用胰岛素治疗的患者适当放宽控制目标，也许患者受益更多。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "2.口服降糖药物未达标加用或改用胰岛素的患者，其血糖控制目标值可适当放宽至HbA1c<7%，以减少低血糖和体重增加这两大不良反应。Miller等对1055例2型糖尿病患者(平均年龄61岁，病程10.8年)的低血糖发生情况调查显示，在随访的7个月中有24.5%的患者至少发生过一次低血糖(有低血糖症状并且血糖<3.3mmol/L)，其中生活方式干预组(HbA1c<6%)占11.8%，口服药物治疗组(HbA1c<7%)占16.2%，胰岛素治疗组(HbA1c<8.1%)占30.5%，而且随访过程中发生的5例严重低血糖事件(0.5%)均在胰岛素治疗组。UKPDS和ACCORD均发现胰岛素使体重增加，若体重增加，可能加重胰岛素抵抗，增加CVD风险。",
+          "start_idx": 0,
+          "end_idx": 322,
+          "entities": [
+            {
+              "entity_id": "T128",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 2,
+              "end_idx": 4
+            },
+            {
+              "entity_id": "T129",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T130",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T131",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 37,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T132",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 42,
+              "end_idx": 45
+            },
+            {
+              "entity_id": "T133",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 49,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T134",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 53,
+              "end_idx": 57
+            },
+            {
+              "entity_id": "T135",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T136",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 78,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T137",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 103,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T138",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 139,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T139",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 144,
+              "end_idx": 147
+            },
+            {
+              "entity_id": "T140",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 151,
+              "end_idx": 153
+            },
+            {
+              "entity_id": "T141",
+              "entity": "<3.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 153,
+              "end_idx": 163
+            },
+            {
+              "entity_id": "T142",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 175,
+              "end_idx": 180
+            },
+            {
+              "entity_id": "T143",
+              "entity": "<6%",
+              "entity_type": "Test_Value",
+              "start_idx": 180,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T144",
+              "entity": "口服",
+              "entity_type": "Method",
+              "start_idx": 191,
+              "end_idx": 193
+            },
+            {
+              "entity_id": "T145",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 199,
+              "end_idx": 204
+            },
+            {
+              "entity_id": "T146",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 204,
+              "end_idx": 207
+            },
+            {
+              "entity_id": "T147",
+              "entity": "严重低血糖事件",
+              "entity_type": "ADE",
+              "start_idx": 252,
+              "end_idx": 259
+            },
+            {
+              "entity_id": "T148",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 267,
+              "end_idx": 270
+            },
+            {
+              "entity_id": "T149",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 289,
+              "end_idx": 292
+            },
+            {
+              "entity_id": "T150",
+              "entity": "体重增加",
+              "entity_type": "ADE",
+              "start_idx": 293,
+              "end_idx": 297
+            },
+            {
+              "entity_id": "T151",
+              "entity": "体重增加",
+              "entity_type": "Reason",
+              "start_idx": 299,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T152",
+              "entity": "胰岛素抵抗",
+              "entity_type": "Pathogenesis",
+              "start_idx": 308,
+              "end_idx": 313
+            },
+            {
+              "entity_id": "T153",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 316,
+              "end_idx": 319
+            },
+            {
+              "entity_id": "T155",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 215,
+              "end_idx": 218
+            },
+            {
+              "entity_id": "T156",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 222,
+              "end_idx": 227
+            },
+            {
+              "entity_id": "T157",
+              "entity": "<8.1%",
+              "entity_type": "Test_Value",
+              "start_idx": 227,
+              "end_idx": 232
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R43",
+              "head_entity_id": "T136",
+              "tail_entity_id": "T135"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R44",
+              "head_entity_id": "T140",
+              "tail_entity_id": "T139"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R45",
+              "head_entity_id": "T142",
+              "tail_entity_id": "T139"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R46",
+              "head_entity_id": "T147",
+              "tail_entity_id": "T148"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R47",
+              "head_entity_id": "T150",
+              "tail_entity_id": "T149"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R48",
+              "head_entity_id": "T151",
+              "tail_entity_id": "T153"
+            },
+            {
+              "relation_type": "Pathogenesis_Disease",
+              "relation_id": "R49",
+              "head_entity_id": "T152",
+              "tail_entity_id": "T153"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "调查结果和临床经验提示对应用胰岛素治疗的患者适当放宽控制目标，也许患者受益更多。",
+          "start_idx": 322,
+          "end_idx": 362,
+          "entities": [
+            {
+              "entity_id": "T154",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 14,
+              "end_idx": 17
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "7",
+      "paragraph": "3.目前不必使用降糖药物的患者，即经过一定时间的降糖治疗后已经停用降糖药物，仅使用生活方式干预血糖控制很好，其目标值应该更严格(HbA1c<6%)。这些患者达到目标值的过程中仍存在低血糖风险，但其发生率较低，更严格的血糖控制能显著减缓慢性并发症的发生、发展，因此获益/风险比明显增加。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "3.目前不必使用降糖药物的患者，即经过一定时间的降糖治疗后已经停用降糖药物，仅使用生活方式干预血糖控制很好，其目标值应该更严格(HbA1c<6%)。",
+          "start_idx": 0,
+          "end_idx": 74,
+          "entities": [
+            {
+              "entity_id": "T158",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 47,
+              "end_idx": 49
+            },
+            {
+              "entity_id": "T159",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 64,
+              "end_idx": 69
+            },
+            {
+              "entity_id": "T160",
+              "entity": "<6%",
+              "entity_type": "Test_Value",
+              "start_idx": 69,
+              "end_idx": 72
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "这些患者达到目标值的过程中仍存在低血糖风险，但其发生率较低，更严格的血糖控制能显著减缓慢性并发症的发生、发展，因此获益/风险比明显增加。",
+          "start_idx": 74,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T161",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T162",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "8",
+      "paragraph": "二、已有CVD或CVD极高危患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "二、已有CVD或CVD极高危患者",
+          "start_idx": 0,
+          "end_idx": 16,
+          "entities": [
+            {
+              "entity_id": "T163",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 4,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T164",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 11
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "9",
+      "paragraph": "糖尿病病史长，已患CVD或处于CVD极高危，我们推荐HbA1c≤7.5%，因为他们发生或再次发生CVD风险明显增加，低血糖风险较高，目前还没有足够的证据证明HbA1c控制在7%以下对大血管的益处。大规模随机对照试验，如ACCORD、VADT和ADVANCE的结果表明，强化降糖5年内并未发现大血管受益，ACCORD甚至显示总死亡风险反而有所增加。分析ACCORD的研究资料发现对病情较重的入组患者(平均年龄62岁，病程10年，伴CVD占35%)进行强化降糖，可能是主要原因之一。对这些年龄大、病程长、并发症和伴发疾病多的患者严格控制血糖，若发生低血糖可能诱发CVD，增加患者的死亡风险。ACCORD中3或4种降糖药物同时应用力求快速达到控制目标(HbA1c<6.0%)，这明显增加低血糖的发生率和总死亡率。ADVANCE与ACCORD不同，其血糖控制力求平稳，低血糖发生率较低，效果也更好，至少没有增加CVD事件和死亡率。另外，虽然DCCT-EDIC和UKPDS-80提示，对病情较轻的患者进行早期强化降糖治疗大血管受益较多，但即使是新诊断的糖尿病人群观察到降糖对大血管的保护作用也需要10年以上。对伴CVD或CVD极高危患者血糖控制目标要适当放宽，治疗过程中要避免血糖下降速度过快和发生低血糖；并且该组患者多同时服用其他干预CVD危险因素的药物，应慎重选择降糖药物，注意药物的禁忌证和药物间的相互作用。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病病史长，已患CVD或处于CVD极高危，我们推荐HbA1c≤7.5%，因为他们发生或再次发生CVD风险明显增加，低血糖风险较高，目前还没有足够的证据证明HbA1c控制在7%以下对大血管的益处。大规模随机对照试验，如ACCORD、VADT和ADVANCE的结果表明，强化降糖5年内并未发现大血管受益，ACCORD甚至显示总死亡风险反而有所增加。分析ACCORD的研究资料发现对病情较重的入组患者(平均年龄62岁，病程10年，伴CVD占35%)进行强化降糖，可能是主要原因之一。对这些年龄大、病程长、并发症和伴发疾病多的患者严格控制血糖，若发生低血糖可能诱发CVD，增加患者的死亡风险。",
+          "start_idx": 0,
+          "end_idx": 293,
+          "entities": [
+            {
+              "entity_id": "T165",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T166",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 9,
+              "end_idx": 12
+            },
+            {
+              "entity_id": "T167",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 15,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T168",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 26,
+              "end_idx": 31
+            },
+            {
+              "entity_id": "T169",
+              "entity": "≤7.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 31,
+              "end_idx": 36
+            },
+            {
+              "entity_id": "T170",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            },
+            {
+              "entity_id": "T171",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 58,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T172",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 78,
+              "end_idx": 83
+            },
+            {
+              "entity_id": "T173",
+              "entity": "控制在7%以下",
+              "entity_type": "Test_Value",
+              "start_idx": 83,
+              "end_idx": 90
+            },
+            {
+              "entity_id": "T174",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 91,
+              "end_idx": 94
+            },
+            {
+              "entity_id": "T175",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 214,
+              "end_idx": 217
+            },
+            {
+              "entity_id": "T176",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 266,
+              "end_idx": 268
+            },
+            {
+              "entity_id": "T177",
+              "entity": "低血糖",
+              "entity_type": "Reason",
+              "start_idx": 272,
+              "end_idx": 275
+            },
+            {
+              "entity_id": "T178",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 279,
+              "end_idx": 282
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R50",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R51",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R52",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T165"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R53",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R54",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R55",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T166"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R56",
+              "head_entity_id": "T168",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R57",
+              "head_entity_id": "T174",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R58",
+              "head_entity_id": "T172",
+              "tail_entity_id": "T167"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R59",
+              "head_entity_id": "T176",
+              "tail_entity_id": "T178"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R60",
+              "head_entity_id": "T177",
+              "tail_entity_id": "T178"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "ACCORD中3或4种降糖药物同时应用力求快速达到控制目标(HbA1c<6.0%)，这明显增加低血糖的发生率和总死亡率。",
+          "start_idx": 293,
+          "end_idx": 353,
+          "entities": [
+            {
+              "entity_id": "T179",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 30,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T180",
+              "entity": "<6.0%",
+              "entity_type": "Test_Value",
+              "start_idx": 35,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T181",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 47,
+              "end_idx": 50
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R61",
+              "head_entity_id": "T179",
+              "tail_entity_id": "T181"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "ADVANCE与ACCORD不同，其血糖控制力求平稳，低血糖发生率较低，效果也更好，至少没有增加CVD事件和死亡率。",
+          "start_idx": 353,
+          "end_idx": 411,
+          "entities": [
+            {
+              "entity_id": "T182",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T183",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T184",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 51
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R62",
+              "head_entity_id": "T182",
+              "tail_entity_id": "T183"
+            }
+          ]
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "另外，虽然DCCT-EDIC和UKPDS-80提示，对病情较轻的患者进行早期强化降糖治疗大血管受益较多，但即使是新诊断的糖尿病人群观察到降糖对大血管的保护作用也需要10年以上。",
+          "start_idx": 411,
+          "end_idx": 499,
+          "entities": [
+            {
+              "entity_id": "T185",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 60,
+              "end_idx": 63
+            }
+          ],
+          "relations": []
+        },
+        {
+          "sentence_id": "4",
+          "sentence": "对伴CVD或CVD极高危患者血糖控制目标要适当放宽，治疗过程中要避免血糖下降速度过快和发生低血糖；并且该组患者多同时服用其他干预CVD危险因素的药物，应慎重选择降糖药物，注意药物的禁忌证和药物间的相互作用。",
+          "start_idx": 499,
+          "end_idx": 602,
+          "entities": [
+            {
+              "entity_id": "T186",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T187",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T188",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 14,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T189",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 64,
+              "end_idx": 67
+            },
+            {
+              "entity_id": "T190",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 45,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T191",
+              "entity": "下降速度过快",
+              "entity_type": "Test_Value",
+              "start_idx": 36,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T192",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 34,
+              "end_idx": 36
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R63",
+              "head_entity_id": "T188",
+              "tail_entity_id": "T186"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R64",
+              "head_entity_id": "T188",
+              "tail_entity_id": "T187"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "10",
+      "paragraph": "三、老年糖尿病患者",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "三、老年糖尿病患者",
+          "start_idx": 0,
+          "end_idx": 9,
+          "entities": [
+            {
+              "entity_id": "T193",
+              "entity": "老年糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 7
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "11",
+      "paragraph": "多数指南并未单独设定老年糖尿病患者(>65岁)的血糖控制目标，这是因为老年患者的身体健康状况、脏器功能、认知功能以及预期寿命差异较大，不能一概而论；同时缺乏相关的循证医学证据指导制定个体化治疗目标。本共识专家认为应该就此特殊人群制定血糖控制目标，本共识专家认为应该就此特殊人群制定血糖控制目标，参考国外文献，建议血糖控制目标：若患者脏器功能和认知能力良好、预期生存期>15年，应严格控制HbA1c<7%；若患者合并其他疾病、预期生存期5~15年，可适当放宽HbA1c<8%；若患者既往有严重低血糖史、合并其他严重疾病、预期生存期<5年，美国退伍军人事务局推荐控制目标可放宽到HbA1c<9%。HbA1c较高者应避免发生高血糖症状、急性代谢紊乱和感染。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "多数指南并未单独设定老年糖尿病患者(>65岁)的血糖控制目标，这是因为老年患者的身体健康状况、脏器功能、认知功能以及预期寿命差异较大，不能一概而论；同时缺乏相关的循证医学证据指导制定个体化治疗目标。本共识专家认为应该就此特殊人群制定血糖控制目标，本共识专家认为应该就此特殊人群制定血糖控制目标，参考国外文献，建议血糖控制目标：若患者脏器功能和认知能力良好、预期生存期>15年，应严格控制HbA1c<7%；若患者合并其他疾病、预期生存期5~15年，可适当放宽HbA1c<8%；若患者既往有严重低血糖史、合并其他严重疾病、预期生存期<5年，美国退伍军人事务局推荐控制目标可放宽到HbA1c<9%。HbA1c较高者应避免发生高血糖症状、急性代谢紊乱和感染。",
+          "start_idx": 0,
+          "end_idx": 325,
+          "entities": [
+            {
+              "entity_id": "T194",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 12,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T195",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 26
+            },
+            {
+              "entity_id": "T196",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 116,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T197",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 140,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T198",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 156,
+              "end_idx": 158
+            },
+            {
+              "entity_id": "T199",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 193,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T200",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 198,
+              "end_idx": 201
+            },
+            {
+              "entity_id": "T201",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 228,
+              "end_idx": 233
+            },
+            {
+              "entity_id": "T202",
+              "entity": "<8%",
+              "entity_type": "Test_Value",
+              "start_idx": 233,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T203",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 243,
+              "end_idx": 245
+            },
+            {
+              "entity_id": "T204",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 245,
+              "end_idx": 248
+            },
+            {
+              "entity_id": "T205",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 287,
+              "end_idx": 292
+            },
+            {
+              "entity_id": "T206",
+              "entity": "<9%",
+              "entity_type": "Test_Value",
+              "start_idx": 292,
+              "end_idx": 295
+            },
+            {
+              "entity_id": "T207",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 296,
+              "end_idx": 301
+            },
+            {
+              "entity_id": "T208",
+              "entity": "较高",
+              "entity_type": "Test_Value",
+              "start_idx": 301,
+              "end_idx": 303
+            },
+            {
+              "entity_id": "T209",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 309,
+              "end_idx": 312
+            },
+            {
+              "entity_id": "T210",
+              "entity": "急性代谢紊乱",
+              "entity_type": "Disease",
+              "start_idx": 315,
+              "end_idx": 321
+            },
+            {
+              "entity_id": "T211",
+              "entity": "感染",
+              "entity_type": "Disease",
+              "start_idx": 322,
+              "end_idx": 324
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R65",
+              "head_entity_id": "T195",
+              "tail_entity_id": "T194"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R66",
+              "head_entity_id": "T205",
+              "tail_entity_id": "T204"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R67",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T209"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R68",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T210"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R69",
+              "head_entity_id": "T207",
+              "tail_entity_id": "T211"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "12",
+      "paragraph": "对老年尤其高龄(>80岁)患者的血糖控制目标总体放宽主要原因是，老年人的神经反应比较迟钝或存在神经病变，容易发生无感知低血糖，患者常常在没有任何征兆的情况下发生低血糖昏迷，这种情况如果发生在夜间非常危险，往往因错过抢救时机导致严重脑损伤甚至死亡；而且老年人多伴有心脑血管动脉粥样硬化，一旦发生低血糖可诱发心肌梗死及脑卒中。即使是轻微的低血糖也可能引起患者摔伤、骨折等机体损伤，导致患者入院，增加心理和经济负担。老年患者的预期寿命也很重要，严格的强化治疗会使生活质量下降、心理压力明显增大，如果预期生存期<5年，则获益/风险比显著下降。因此，对老年糖尿病患者的血糖控制目标放宽程度应该因人而异，治疗措施应该简单易行，控制高血糖药物选择还需充分考虑患者脏器功能的减退程度。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对老年尤其高龄(>80岁)患者的血糖控制目标总体放宽主要原因是，老年人的神经反应比较迟钝或存在神经病变，容易发生无感知低血糖，患者常常在没有任何征兆的情况下发生低血糖昏迷，这种情况如果发生在夜间非常危险，往往因错过抢救时机导致严重脑损伤甚至死亡；而且老年人多伴有心脑血管动脉粥样硬化，一旦发生低血糖可诱发心肌梗死及脑卒中。",
+          "start_idx": 0,
+          "end_idx": 161,
+          "entities": [
+            {
+              "entity_id": "T212",
+              "entity": "无感知低血糖",
+              "entity_type": "Disease",
+              "start_idx": 56,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T213",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T214",
+              "entity": "低血糖昏迷",
+              "entity_type": "Disease",
+              "start_idx": 80,
+              "end_idx": 85
+            },
+            {
+              "entity_id": "T215",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 113,
+              "end_idx": 115
+            },
+            {
+              "entity_id": "T216",
+              "entity": "脑损伤",
+              "entity_type": "Disease",
+              "start_idx": 115,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T217",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 115,
+              "end_idx": 116
+            },
+            {
+              "entity_id": "T218",
+              "entity": "心脑血管动脉粥样硬化",
+              "entity_type": "Disease",
+              "start_idx": 131,
+              "end_idx": 141
+            },
+            {
+              "entity_id": "T219",
+              "entity": "心脑血管",
+              "entity_type": "Anatomy",
+              "start_idx": 131,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T220",
+              "entity": "低血糖",
+              "entity_type": "Reason",
+              "start_idx": 146,
+              "end_idx": 149
+            },
+            {
+              "entity_id": "T221",
+              "entity": "心肌梗死",
+              "entity_type": "Disease",
+              "start_idx": 152,
+              "end_idx": 156
+            },
+            {
+              "entity_id": "T222",
+              "entity": "脑卒中",
+              "entity_type": "Disease",
+              "start_idx": 157,
+              "end_idx": 160
+            },
+            {
+              "entity_id": "T223",
+              "entity": "心肌",
+              "entity_type": "Anatomy",
+              "start_idx": 152,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T224",
+              "entity": "脑",
+              "entity_type": "Anatomy",
+              "start_idx": 157,
+              "end_idx": 158
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R70",
+              "head_entity_id": "T213",
+              "tail_entity_id": "T212"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R71",
+              "head_entity_id": "T217",
+              "tail_entity_id": "T216"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R72",
+              "head_entity_id": "T219",
+              "tail_entity_id": "T218"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R73",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R74",
+              "head_entity_id": "T220",
+              "tail_entity_id": "T222"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R75",
+              "head_entity_id": "T223",
+              "tail_entity_id": "T221"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R76",
+              "head_entity_id": "T224",
+              "tail_entity_id": "T222"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "即使是轻微的低血糖也可能引起患者摔伤、骨折等机体损伤，导致患者入院，增加心理和经济负担。",
+          "start_idx": 161,
+          "end_idx": 205,
+          "entities": [
+            {
+              "entity_id": "T225",
+              "entity": "轻微的低血糖",
+              "entity_type": "Reason",
+              "start_idx": 3,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T226",
+              "entity": "摔伤",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 18
+            },
+            {
+              "entity_id": "T227",
+              "entity": "骨折",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 21
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R77",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T226"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R78",
+              "head_entity_id": "T225",
+              "tail_entity_id": "T227"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "老年患者的预期寿命也很重要，严格的强化治疗会使生活质量下降、心理压力明显增大，如果预期生存期<5年，则获益/风险比显著下降。",
+          "start_idx": 205,
+          "end_idx": 267,
+          "entities": [],
+          "relations": []
+        },
+        {
+          "sentence_id": "3",
+          "sentence": "因此，对老年糖尿病患者的血糖控制目标放宽程度应该因人而异，治疗措施应该简单易行，控制高血糖药物选择还需充分考虑患者脏器功能的减退程度。",
+          "start_idx": 267,
+          "end_idx": 334,
+          "entities": [
+            {
+              "entity_id": "T228",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T229",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 12,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T230",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 42,
+              "end_idx": 45
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R79",
+              "head_entity_id": "T229",
+              "tail_entity_id": "T228"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "14",
+      "paragraph": "糖尿病病程>15年、有无感知低血糖病史、有严重伴发病如肝肾功能不全或全天血糖波动较大并反复出现低血糖症状的患者，很难设定其HbA1c的靶目标，最重要的是避免低血糖的发生，也许HbA1c控制在7%~9%是可以接受的。因为Stratton等对4585例2型糖尿病患者10年的随访表明，HbA1c<7%患者慢性并发症的发生和死亡风险最低；HbA1c控制在7%~9%，上述风险虽然增加，但是相对增长缓慢；一旦HbA1c>9%，风险明显增加甚至翻倍。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "糖尿病病程>15年、有无感知低血糖病史、有严重伴发病如肝肾功能不全或全天血糖波动较大并反复出现低血糖症状的患者，很难设定其HbA1c的靶目标，最重要的是避免低血糖的发生，也许HbA1c控制在7%~9%是可以接受的。因为Stratton等对4585例2型糖尿病患者10年的随访表明，HbA1c<7%患者慢性并发症的发生和死亡风险最低；HbA1c控制在7%~9%，上述风险虽然增加，但是相对增长缓慢；一旦HbA1c>9%，风险明显增加甚至翻倍。",
+          "start_idx": 0,
+          "end_idx": 220,
+          "entities": [
+            {
+              "entity_id": "T231",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T232",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 14,
+              "end_idx": 17
+            },
+            {
+              "entity_id": "T233",
+              "entity": "肝肾功能不全",
+              "entity_type": "Disease",
+              "start_idx": 27,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T234",
+              "entity": "肝",
+              "entity_type": "Anatomy",
+              "start_idx": 27,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T235",
+              "entity": "肾",
+              "entity_type": "Anatomy",
+              "start_idx": 28,
+              "end_idx": 29
+            },
+            {
+              "entity_id": "T236",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 36,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T237",
+              "entity": "波动较大",
+              "entity_type": "Test_Value",
+              "start_idx": 38,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T238",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 47,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T239",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 61,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T240",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 78,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T241",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 87,
+              "end_idx": 92
+            },
+            {
+              "entity_id": "T242",
+              "entity": "7%~9%",
+              "entity_type": "Test_Value",
+              "start_idx": 95,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T243",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 124,
+              "end_idx": 129
+            },
+            {
+              "entity_id": "T244",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 124,
+              "end_idx": 126
+            },
+            {
+              "entity_id": "T245",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 140,
+              "end_idx": 145
+            },
+            {
+              "entity_id": "T246",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 145,
+              "end_idx": 148
+            },
+            {
+              "entity_id": "T247",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 166,
+              "end_idx": 171
+            },
+            {
+              "entity_id": "T248",
+              "entity": "7%~9%",
+              "entity_type": "Test_Value",
+              "start_idx": 174,
+              "end_idx": 179
+            },
+            {
+              "entity_id": "T249",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 200,
+              "end_idx": 205
+            },
+            {
+              "entity_id": "T250",
+              "entity": ">9%",
+              "entity_type": "Test_Value",
+              "start_idx": 205,
+              "end_idx": 208
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R80",
+              "head_entity_id": "T236",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R81",
+              "head_entity_id": "T239",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R82",
+              "head_entity_id": "T241",
+              "tail_entity_id": "T231"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R83",
+              "head_entity_id": "T234",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R84",
+              "head_entity_id": "T235",
+              "tail_entity_id": "T233"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R85",
+              "head_entity_id": "T244",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R86",
+              "head_entity_id": "T245",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R87",
+              "head_entity_id": "T249",
+              "tail_entity_id": "T243"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R88",
+              "head_entity_id": "T247",
+              "tail_entity_id": "T243"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "13",
+      "paragraph": "四、低血糖高危险人群",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "四、低血糖高危险人群",
+          "start_idx": 0,
+          "end_idx": 10,
+          "entities": [
+            {
+              "entity_id": "T251",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "15",
+      "paragraph": "所有大样本随机对照研究都证实强化治疗使低血糖的发生率明显增加，虽然严重低血糖事件发生率少，但对UKPDS、前瞻性吡格列酮对大血管事件影响的临床研究(PROactive)、ADVANCE、VADT和ACCORD五大临床研究的meta分析显示强化治疗组的严重低血糖发生率为2.3%，常规治疗组为1.2%，可见，强化治疗增加低血糖发生率是不可避免的。但是，如前面所述，低血糖除了直接造成相应的严重临床后果外，频繁或严重的低血糖影响糖尿病患者的治疗。调查表明患者一旦出现频繁或严重的低血糖会明显降低患者对血糖控制达标的积极性。因此低血糖高危人群的个体化血糖控制格外重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "所有大样本随机对照研究都证实强化治疗使低血糖的发生率明显增加，虽然严重低血糖事件发生率少，但对UKPDS、前瞻性吡格列酮对大血管事件影响的临床研究(PROactive)、ADVANCE、VADT和ACCORD五大临床研究的meta分析显示强化治疗组的严重低血糖发生率为2.3%，常规治疗组为1.2%，可见，强化治疗增加低血糖发生率是不可避免的。但是，如前面所述，低血糖除了直接造成相应的严重临床后果外，频繁或严重的低血糖影响糖尿病患者的治疗。调查表明患者一旦出现频繁或严重的低血糖会明显降低患者对血糖控制达标的积极性。",
+          "start_idx": 0,
+          "end_idx": 259,
+          "entities": [
+            {
+              "entity_id": "T252",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 19,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T253",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 33,
+              "end_idx": 35
+            },
+            {
+              "entity_id": "T254",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 35,
+              "end_idx": 38
+            },
+            {
+              "entity_id": "T255",
+              "entity": "吡格列酮",
+              "entity_type": "Drug",
+              "start_idx": 56,
+              "end_idx": 60
+            },
+            {
+              "entity_id": "T256",
+              "entity": "大血管事件",
+              "entity_type": "Disease",
+              "start_idx": 61,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T257",
+              "entity": "大血管",
+              "entity_type": "Anatomy",
+              "start_idx": 61,
+              "end_idx": 64
+            },
+            {
+              "entity_id": "T258",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 125,
+              "end_idx": 127
+            },
+            {
+              "entity_id": "T259",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 127,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T260",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 159,
+              "end_idx": 162
+            },
+            {
+              "entity_id": "T261",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 181,
+              "end_idx": 184
+            },
+            {
+              "entity_id": "T262",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 204,
+              "end_idx": 206
+            },
+            {
+              "entity_id": "T263",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 207,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T264",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 212,
+              "end_idx": 215
+            },
+            {
+              "entity_id": "T265",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 234,
+              "end_idx": 236
+            },
+            {
+              "entity_id": "T266",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 237,
+              "end_idx": 240
+            },
+            {
+              "entity_id": "T267",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 248,
+              "end_idx": 250
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R89",
+              "head_entity_id": "T255",
+              "tail_entity_id": "T256"
+            },
+            {
+              "relation_type": "Anatomy_Disease",
+              "relation_id": "R90",
+              "head_entity_id": "T257",
+              "tail_entity_id": "T256"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R91",
+              "head_entity_id": "T267",
+              "tail_entity_id": "T266"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "因此低血糖高危人群的个体化血糖控制格外重要。",
+          "start_idx": 259,
+          "end_idx": 281,
+          "entities": [
+            {
+              "entity_id": "T268",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 5
+            },
+            {
+              "entity_id": "T269",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 13,
+              "end_idx": 15
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R92",
+              "head_entity_id": "T269",
+              "tail_entity_id": "T268"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "16",
+      "paragraph": "五、妊娠期高血糖",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "五、妊娠期高血糖",
+          "start_idx": 0,
+          "end_idx": 8,
+          "entities": [
+            {
+              "entity_id": "T270",
+              "entity": "妊娠期高血糖",
+              "entity_type": "Disease",
+              "start_idx": 2,
+              "end_idx": 8
+            },
+            {
+              "entity_id": "T271",
+              "entity": "妊娠期",
+              "entity_type": "Class",
+              "start_idx": 2,
+              "end_idx": 5
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R93",
+              "head_entity_id": "T271",
+              "tail_entity_id": "T270"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "18",
+      "paragraph": "对于计划妊娠的糖尿病患者，应严格控制血糖目标值HbA1c<6.5%，如应用胰岛素可适当放宽HbA1c<7%以防止低血糖发生。不建议HbA1c>8%的患者妊娠，这些患者应首先应控制血糖，因为高血糖会明显增加早期流产和胎儿畸形风险。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对于计划妊娠的糖尿病患者，应严格控制血糖目标值HbA1c<6.5%，如应用胰岛素可适当放宽HbA1c<7%以防止低血糖发生。不建议HbA1c>8%的患者妊娠，这些患者应首先应控制血糖，因为高血糖会明显增加早期流产和胎儿畸形风险。",
+          "start_idx": 0,
+          "end_idx": 114,
+          "entities": [
+            {
+              "entity_id": "T272",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 7,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T273",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 18,
+              "end_idx": 20
+            },
+            {
+              "entity_id": "T274",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 23,
+              "end_idx": 28
+            },
+            {
+              "entity_id": "T275",
+              "entity": "<6.5%",
+              "entity_type": "Test_Value",
+              "start_idx": 28,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T276",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 45,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T277",
+              "entity": "<7%",
+              "entity_type": "Test_Value",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T278",
+              "entity": "胰岛素",
+              "entity_type": "Drug",
+              "start_idx": 37,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T279",
+              "entity": "低血糖",
+              "entity_type": "ADE",
+              "start_idx": 56,
+              "end_idx": 59
+            },
+            {
+              "entity_id": "T280",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 65,
+              "end_idx": 70
+            },
+            {
+              "entity_id": "T281",
+              "entity": ">8%",
+              "entity_type": "Test_Value",
+              "start_idx": 70,
+              "end_idx": 73
+            },
+            {
+              "entity_id": "T282",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 89,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T283",
+              "entity": "高血糖",
+              "entity_type": "Reason",
+              "start_idx": 94,
+              "end_idx": 97
+            },
+            {
+              "entity_id": "T284",
+              "entity": "早期流产",
+              "entity_type": "Disease",
+              "start_idx": 102,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T285",
+              "entity": "早期",
+              "entity_type": "Class",
+              "start_idx": 102,
+              "end_idx": 104
+            },
+            {
+              "entity_id": "T286",
+              "entity": "胎儿畸形",
+              "entity_type": "Disease",
+              "start_idx": 107,
+              "end_idx": 111
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R94",
+              "head_entity_id": "T273",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R95",
+              "head_entity_id": "T274",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R96",
+              "head_entity_id": "T276",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "Drug_Disease",
+              "relation_id": "R97",
+              "head_entity_id": "T278",
+              "tail_entity_id": "T272"
+            },
+            {
+              "relation_type": "ADE_Drug",
+              "relation_id": "R98",
+              "head_entity_id": "T279",
+              "tail_entity_id": "T278"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R99",
+              "head_entity_id": "T283",
+              "tail_entity_id": "T284"
+            },
+            {
+              "relation_type": "Reason_Disease",
+              "relation_id": "R100",
+              "head_entity_id": "T283",
+              "tail_entity_id": "T286"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R101",
+              "head_entity_id": "T285",
+              "tail_entity_id": "T284"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "17",
+      "paragraph": "妊娠期高血糖包括糖尿病合并妊娠(妊娠前糖尿病)、妊娠期发现的糖尿病(overt diabetes，指妊娠期HbA1c或血糖达到糖尿病诊断标准)和妊娠糖尿病(GDM)三种情况。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "妊娠期高血糖包括糖尿病合并妊娠(妊娠前糖尿病)、妊娠期发现的糖尿病(overt diabetes，指妊娠期HbA1c或血糖达到糖尿病诊断标准)和妊娠糖尿病(GDM)三种情况。",
+          "start_idx": 0,
+          "end_idx": 87,
+          "entities": [
+            {
+              "entity_id": "T287",
+              "entity": "妊娠期高血糖",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T288",
+              "entity": "妊娠期",
+              "entity_type": "Class",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T289",
+              "entity": "糖尿病合并妊娠",
+              "entity_type": "Disease",
+              "start_idx": 8,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T290",
+              "entity": "妊娠前糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 16,
+              "end_idx": 22
+            },
+            {
+              "entity_id": "T291",
+              "entity": "妊娠前",
+              "entity_type": "Class",
+              "start_idx": 16,
+              "end_idx": 19
+            },
+            {
+              "entity_id": "T292",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 30,
+              "end_idx": 33
+            },
+            {
+              "entity_id": "T293",
+              "entity": "overt diabetes",
+              "entity_type": "Disease",
+              "start_idx": 34,
+              "end_idx": 48
+            },
+            {
+              "entity_id": "T294",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T295",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T296",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T297",
+              "entity": "妊娠糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 72,
+              "end_idx": 77
+            },
+            {
+              "entity_id": "T298",
+              "entity": "妊娠",
+              "entity_type": "Class",
+              "start_idx": 72,
+              "end_idx": 74
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R102",
+              "head_entity_id": "T288",
+              "tail_entity_id": "T287"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R103",
+              "head_entity_id": "T291",
+              "tail_entity_id": "T290"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R104",
+              "head_entity_id": "T294",
+              "tail_entity_id": "T296"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R105",
+              "head_entity_id": "T295",
+              "tail_entity_id": "T296"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R106",
+              "head_entity_id": "T298",
+              "tail_entity_id": "T297"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "19",
+      "paragraph": "妊娠前糖尿病或妊娠期发现的糖尿病在不发生低血糖前提下孕期血糖控制，理想目标值为HbA1c<6%；毛细血管血糖餐前、睡前及夜间不高于5.4mmol/L，餐后峰值不高于7.1mmol/L。GDM毛细血管血糖餐前<5.3mmol/L，餐后1h<7.8mmol/L或2h<6.7mmol/L。临床研究显示，相对于餐前血糖而言，餐后血糖的良好控制可更好地减少并发症，尤其是巨大儿出生；相对于餐后2h血糖，控制好餐后1h血糖，产科结局更好。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "妊娠前糖尿病或妊娠期发现的糖尿病在不发生低血糖前提下孕期血糖控制，理想目标值为HbA1c<6%；毛细血管血糖餐前、睡前及夜间不高于5.4mmol/L，餐后峰值不高于7.1mmol/L。GDM毛细血管血糖餐前<5.3mmol/L，餐后1h<7.8mmol/L或2h<6.7mmol/L。",
+          "start_idx": 0,
+          "end_idx": 142,
+          "entities": [
+            {
+              "entity_id": "T299",
+              "entity": "妊娠前糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 0,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T300",
+              "entity": "妊娠前",
+              "entity_type": "Class",
+              "start_idx": 0,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T301",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 13,
+              "end_idx": 16
+            },
+            {
+              "entity_id": "T302",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 20,
+              "end_idx": 23
+            },
+            {
+              "entity_id": "T303",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 28,
+              "end_idx": 30
+            },
+            {
+              "entity_id": "T304",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 39,
+              "end_idx": 44
+            },
+            {
+              "entity_id": "T305",
+              "entity": "<6%",
+              "entity_type": "Test_Value",
+              "start_idx": 44,
+              "end_idx": 47
+            },
+            {
+              "entity_id": "T306",
+              "entity": "毛细血管血糖餐前、睡前及夜间",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 62
+            },
+            {
+              "entity_id": "T307",
+              "entity": "不高于5.4mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 62,
+              "end_idx": 74
+            },
+            {
+              "entity_id": "T308",
+              "entity": "餐后峰值",
+              "entity_type": "Test_items",
+              "start_idx": 75,
+              "end_idx": 79
+            },
+            {
+              "entity_id": "T309",
+              "entity": "不高于7.1mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 79,
+              "end_idx": 91
+            },
+            {
+              "entity_id": "T310",
+              "entity": "GDM",
+              "entity_type": "Disease",
+              "start_idx": 92,
+              "end_idx": 95
+            },
+            {
+              "entity_id": "T311",
+              "entity": "毛细血管血糖餐前",
+              "entity_type": "Test_items",
+              "start_idx": 95,
+              "end_idx": 103
+            },
+            {
+              "entity_id": "T312",
+              "entity": "<5.3mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 103,
+              "end_idx": 113
+            },
+            {
+              "entity_id": "T313",
+              "entity": "餐后1h",
+              "entity_type": "Test_items",
+              "start_idx": 114,
+              "end_idx": 118
+            },
+            {
+              "entity_id": "T314",
+              "entity": "<7.8mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 118,
+              "end_idx": 128
+            },
+            {
+              "entity_id": "T315",
+              "entity": "2h",
+              "entity_type": "Test_items",
+              "start_idx": 129,
+              "end_idx": 131
+            },
+            {
+              "entity_id": "T316",
+              "entity": "<6.7mmol/L",
+              "entity_type": "Test_Value",
+              "start_idx": 131,
+              "end_idx": 141
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R107",
+              "head_entity_id": "T303",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R108",
+              "head_entity_id": "T304",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R109",
+              "head_entity_id": "T300",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R110",
+              "head_entity_id": "T306",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R111",
+              "head_entity_id": "T308",
+              "tail_entity_id": "T299"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R112",
+              "head_entity_id": "T311",
+              "tail_entity_id": "T310"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R113",
+              "head_entity_id": "T313",
+              "tail_entity_id": "T310"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R114",
+              "head_entity_id": "T315",
+              "tail_entity_id": "T310"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "临床研究显示，相对于餐前血糖而言，餐后血糖的良好控制可更好地减少并发症，尤其是巨大儿出生；相对于餐后2h血糖，控制好餐后1h血糖，产科结局更好。",
+          "start_idx": 142,
+          "end_idx": 214,
+          "entities": [
+            {
+              "entity_id": "T317",
+              "entity": "餐前血糖",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 14
+            },
+            {
+              "entity_id": "T318",
+              "entity": "餐后血糖",
+              "entity_type": "Test_items",
+              "start_idx": 17,
+              "end_idx": 21
+            },
+            {
+              "entity_id": "T319",
+              "entity": "巨大儿",
+              "entity_type": "Disease",
+              "start_idx": 39,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T320",
+              "entity": "餐后2h血糖",
+              "entity_type": "Test_items",
+              "start_idx": 48,
+              "end_idx": 54
+            },
+            {
+              "entity_id": "T321",
+              "entity": "餐后1h血糖",
+              "entity_type": "Test_items",
+              "start_idx": 58,
+              "end_idx": 64
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R115",
+              "head_entity_id": "T317",
+              "tail_entity_id": "T319"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R116",
+              "head_entity_id": "T318",
+              "tail_entity_id": "T319"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "20",
+      "paragraph": "六、其他情况",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "六、其他情况",
+          "start_idx": 0,
+          "end_idx": 6,
+          "entities": [],
+          "relations": []
+        }
+      ]
+    },
+    {
+      "paragraph_id": "21",
+      "paragraph": "与2型糖尿病并存的其他疾病比较多，这些情况下血糖控制目标目前缺乏相应的循证医学证据和共识。比如：恶性肿瘤、老年痴呆症、癫痫等。若患者预期寿命<5年者，HbA1c不应超过9%；预期寿命更长者，HbA1c可控制在7%左右。执行治疗方案较困难的情况，如精神或智力障碍者、视力障碍者、老年、高龄及独居者等，其血糖的控制目标应适当放宽，HbA1c不应超过9%，主要防止血糖过高引起的症状、急性代谢紊乱、感染和低血糖的发生。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "与2型糖尿病并存的其他疾病比较多，这些情况下血糖控制目标目前缺乏相应的循证医学证据和共识。比如：恶性肿瘤、老年痴呆症、癫痫等。若患者预期寿命<5年者，HbA1c不应超过9%；预期寿命更长者，HbA1c可控制在7%左右。执行治疗方案较困难的情况，如精神或智力障碍者、视力障碍者、老年、高龄及独居者等，其血糖的控制目标应适当放宽，HbA1c不应超过9%，主要防止血糖过高引起的症状、急性代谢紊乱、感染和低血糖的发生。",
+          "start_idx": 0,
+          "end_idx": 206,
+          "entities": [
+            {
+              "entity_id": "T322",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 1,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T323",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 1,
+              "end_idx": 3
+            },
+            {
+              "entity_id": "T324",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 22,
+              "end_idx": 24
+            },
+            {
+              "entity_id": "T325",
+              "entity": "恶性肿瘤",
+              "entity_type": "Disease",
+              "start_idx": 48,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T326",
+              "entity": "恶性",
+              "entity_type": "Class",
+              "start_idx": 48,
+              "end_idx": 50
+            },
+            {
+              "entity_id": "T327",
+              "entity": "老年痴呆症",
+              "entity_type": "Disease",
+              "start_idx": 53,
+              "end_idx": 58
+            },
+            {
+              "entity_id": "T328",
+              "entity": "癫痫",
+              "entity_type": "Disease",
+              "start_idx": 59,
+              "end_idx": 61
+            },
+            {
+              "entity_id": "T329",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 75,
+              "end_idx": 80
+            },
+            {
+              "entity_id": "T330",
+              "entity": "不应超过9%",
+              "entity_type": "Test_Value",
+              "start_idx": 80,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T331",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 95,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T332",
+              "entity": "7%左右",
+              "entity_type": "Test_Value",
+              "start_idx": 104,
+              "end_idx": 108
+            },
+            {
+              "entity_id": "T333",
+              "entity": "精神或智力障碍",
+              "entity_type": "Disease",
+              "start_idx": 123,
+              "end_idx": 130
+            },
+            {
+              "entity_id": "T334",
+              "entity": "视力障碍",
+              "entity_type": "Disease",
+              "start_idx": 132,
+              "end_idx": 136
+            },
+            {
+              "entity_id": "T335",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 150,
+              "end_idx": 152
+            },
+            {
+              "entity_id": "T336",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 163,
+              "end_idx": 168
+            },
+            {
+              "entity_id": "T337",
+              "entity": "不应超过9%",
+              "entity_type": "Test_Value",
+              "start_idx": 168,
+              "end_idx": 174
+            },
+            {
+              "entity_id": "T338",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 179,
+              "end_idx": 181
+            },
+            {
+              "entity_id": "T339",
+              "entity": "过高",
+              "entity_type": "Test_Value",
+              "start_idx": 181,
+              "end_idx": 183
+            },
+            {
+              "entity_id": "T340",
+              "entity": "急性代谢紊乱",
+              "entity_type": "Disease",
+              "start_idx": 189,
+              "end_idx": 195
+            },
+            {
+              "entity_id": "T341",
+              "entity": "急性",
+              "entity_type": "Class",
+              "start_idx": 189,
+              "end_idx": 191
+            },
+            {
+              "entity_id": "T342",
+              "entity": "感染",
+              "entity_type": "Disease",
+              "start_idx": 196,
+              "end_idx": 198
+            },
+            {
+              "entity_id": "T343",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 199,
+              "end_idx": 202
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R117",
+              "head_entity_id": "T323",
+              "tail_entity_id": "T322"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R118",
+              "head_entity_id": "T324",
+              "tail_entity_id": "T322"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R119",
+              "head_entity_id": "T326",
+              "tail_entity_id": "T325"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R120",
+              "head_entity_id": "T335",
+              "tail_entity_id": "T333"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R121",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T333"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R122",
+              "head_entity_id": "T335",
+              "tail_entity_id": "T334"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R123",
+              "head_entity_id": "T336",
+              "tail_entity_id": "T334"
+            },
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R124",
+              "head_entity_id": "T341",
+              "tail_entity_id": "T340"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "22",
+      "paragraph": "社会因素是决定血糖控制目标的另一个重要且必须考虑的问题，对美国不同种族的糖尿病患者在降糖治疗过程中的依从性和血糖控制情况的调查表明，那些医疗保障差的患者，治疗的依从性、血糖的自我管理能力和血糖的控制水平明显下降。但是，医疗保障差的人群总花销并不比平均水平低，这主要是因为忽视糖尿病治疗导致血糖过低或过高，引起相关疾病发生而入院诊治。在我国，很多糖尿病患者居住在县以下及农村地区，家庭收入和受教育程度较低、医疗保障及医疗条件差，他们对糖尿病相关知识知之甚少，对糖尿病的危险性认识不够、依从性差、几乎不能进行血糖自我监测(SMBG)，这类患者的血糖控制目标应依据患者的病情综合考虑，适当放宽，尽量避免因严重的低血糖或高血糖发生，加重患者病情和经济负担。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "社会因素是决定血糖控制目标的另一个重要且必须考虑的问题，对美国不同种族的糖尿病患者在降糖治疗过程中的依从性和血糖控制情况的调查表明，那些医疗保障差的患者，治疗的依从性、血糖的自我管理能力和血糖的控制水平明显下降。",
+          "start_idx": 0,
+          "end_idx": 106,
+          "entities": [
+            {
+              "entity_id": "T344",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 7,
+              "end_idx": 9
+            },
+            {
+              "entity_id": "T345",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 36,
+              "end_idx": 39
+            },
+            {
+              "entity_id": "T346",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 54,
+              "end_idx": 56
+            },
+            {
+              "entity_id": "T347",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 84,
+              "end_idx": 86
+            },
+            {
+              "entity_id": "T348",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 94,
+              "end_idx": 96
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R125",
+              "head_entity_id": "T346",
+              "tail_entity_id": "T345"
+            }
+          ]
+        },
+        {
+          "sentence_id": "1",
+          "sentence": "但是，医疗保障差的人群总花销并不比平均水平低，这主要是因为忽视糖尿病治疗导致血糖过低或过高，引起相关疾病发生而入院诊治。",
+          "start_idx": 106,
+          "end_idx": 166,
+          "entities": [
+            {
+              "entity_id": "T349",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 31,
+              "end_idx": 34
+            },
+            {
+              "entity_id": "T350",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 38,
+              "end_idx": 40
+            },
+            {
+              "entity_id": "T351",
+              "entity": "过低",
+              "entity_type": "Test_Value",
+              "start_idx": 40,
+              "end_idx": 42
+            },
+            {
+              "entity_id": "T352",
+              "entity": "过高",
+              "entity_type": "Test_Value",
+              "start_idx": 43,
+              "end_idx": 45
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R126",
+              "head_entity_id": "T350",
+              "tail_entity_id": "T349"
+            }
+          ]
+        },
+        {
+          "sentence_id": "2",
+          "sentence": "在我国，很多糖尿病患者居住在县以下及农村地区，家庭收入和受教育程度较低、医疗保障及医疗条件差，他们对糖尿病相关知识知之甚少，对糖尿病的危险性认识不够、依从性差、几乎不能进行血糖自我监测(SMBG)，这类患者的血糖控制目标应依据患者的病情综合考虑，适当放宽，尽量避免因严重的低血糖或高血糖发生，加重患者病情和经济负担。",
+          "start_idx": 166,
+          "end_idx": 324,
+          "entities": [
+            {
+              "entity_id": "T353",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 50,
+              "end_idx": 53
+            },
+            {
+              "entity_id": "T354",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 63,
+              "end_idx": 66
+            },
+            {
+              "entity_id": "T355",
+              "entity": "血糖自我监测(SMBG)",
+              "entity_type": "Test_items",
+              "start_idx": 86,
+              "end_idx": 98
+            },
+            {
+              "entity_id": "T356",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 104,
+              "end_idx": 106
+            },
+            {
+              "entity_id": "T357",
+              "entity": "严重",
+              "entity_type": "Level",
+              "start_idx": 133,
+              "end_idx": 135
+            },
+            {
+              "entity_id": "T358",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 136,
+              "end_idx": 139
+            },
+            {
+              "entity_id": "T359",
+              "entity": "高血糖",
+              "entity_type": "Disease",
+              "start_idx": 140,
+              "end_idx": 143
+            },
+            {
+              "entity_id": "T360",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 6,
+              "end_idx": 9
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R127",
+              "head_entity_id": "T355",
+              "tail_entity_id": "T354"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "23",
+      "paragraph": "对中国成人2型糖尿病HbA1c目标值的适用人群以HbA1c水平分层，总结于表1。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "对中国成人2型糖尿病HbA1c目标值的适用人群以HbA1c水平分层，总结于表1。",
+          "start_idx": 0,
+          "end_idx": 40,
+          "entities": [
+            {
+              "entity_id": "T361",
+              "entity": "2型糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 5,
+              "end_idx": 10
+            },
+            {
+              "entity_id": "T362",
+              "entity": "2型",
+              "entity_type": "Class",
+              "start_idx": 5,
+              "end_idx": 7
+            },
+            {
+              "entity_id": "T363",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 10,
+              "end_idx": 15
+            },
+            {
+              "entity_id": "T364",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 24,
+              "end_idx": 29
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Class_Disease",
+              "relation_id": "R128",
+              "head_entity_id": "T362",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R129",
+              "head_entity_id": "T363",
+              "tail_entity_id": "T361"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R130",
+              "head_entity_id": "T364",
+              "tail_entity_id": "T361"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "paragraph_id": "24",
+      "paragraph": "总之，糖尿病患者的血糖控制目标要因人而异，像GPEDM倡导的“量体裁衣”(tailoring)式管理血糖，有些患者可适当放宽，不要因为过分强调HbA1c达标或正常化增加患者低血糖和死亡风险。HbA1c受检测方法和血红蛋白、红细胞转换、年龄等诸多因素的影响，也不能反映瞬时血糖水平及血糖波动，常规开展HbA1c测定还有困难，且目前国内尚缺乏检测方法的标准化，因此必须充分结合血糖监测才能真正了解糖代谢的控制情况。HbA1c的监测可依据病情每3~6个月进行一次。应该依据病情、治疗方案的不同结合患者的经济、文化、对治疗的依从性、医疗条件等多种因素，制定个体化的降糖策略，达到安全平稳降糖。必须强调血糖以外的CVD风险因素如血压、血脂、体重以及促凝状态等控制，戒烟及生活方式干预对防止、延缓或减少糖尿病并发症的发生同样十分重要。",
+      "sentences": [
+        {
+          "sentence_id": "0",
+          "sentence": "总之，糖尿病患者的血糖控制目标要因人而异，像GPEDM倡导的“量体裁衣”(tailoring)式管理血糖，有些患者可适当放宽，不要因为过分强调HbA1c达标或正常化增加患者低血糖和死亡风险。HbA1c受检测方法和血红蛋白、红细胞转换、年龄等诸多因素的影响，也不能反映瞬时血糖水平及血糖波动，常规开展HbA1c测定还有困难，且目前国内尚缺乏检测方法的标准化，因此必须充分结合血糖监测才能真正了解糖代谢的控制情况。HbA1c的监测可依据病情每3~6个月进行一次。应该依据病情、治疗方案的不同结合患者的经济、文化、对治疗的依从性、医疗条件等多种因素，制定个体化的降糖策略，达到安全平稳降糖。必须强调血糖以外的CVD风险因素如血压、血脂、体重以及促凝状态等控制，戒烟及生活方式干预对防止、延缓或减少糖尿病并发症的发生同样十分重要。",
+          "start_idx": 0,
+          "end_idx": 361,
+          "entities": [
+            {
+              "entity_id": "T365",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 3,
+              "end_idx": 6
+            },
+            {
+              "entity_id": "T366",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 9,
+              "end_idx": 11
+            },
+            {
+              "entity_id": "T367",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 50,
+              "end_idx": 52
+            },
+            {
+              "entity_id": "T368",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 71,
+              "end_idx": 76
+            },
+            {
+              "entity_id": "T369",
+              "entity": "达标",
+              "entity_type": "Test_Value",
+              "start_idx": 76,
+              "end_idx": 78
+            },
+            {
+              "entity_id": "T370",
+              "entity": "正常",
+              "entity_type": "Test_Value",
+              "start_idx": 79,
+              "end_idx": 81
+            },
+            {
+              "entity_id": "T371",
+              "entity": "低血糖",
+              "entity_type": "Disease",
+              "start_idx": 86,
+              "end_idx": 89
+            },
+            {
+              "entity_id": "T372",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 95,
+              "end_idx": 100
+            },
+            {
+              "entity_id": "T373",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 135,
+              "end_idx": 137
+            },
+            {
+              "entity_id": "T374",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 149,
+              "end_idx": 154
+            },
+            {
+              "entity_id": "T375",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 186,
+              "end_idx": 188
+            },
+            {
+              "entity_id": "T376",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 140,
+              "end_idx": 142
+            },
+            {
+              "entity_id": "T377",
+              "entity": "波动",
+              "entity_type": "Test_Value",
+              "start_idx": 142,
+              "end_idx": 144
+            },
+            {
+              "entity_id": "T378",
+              "entity": "HbA1c",
+              "entity_type": "Test_items",
+              "start_idx": 205,
+              "end_idx": 210
+            },
+            {
+              "entity_id": "T379",
+              "entity": "血糖",
+              "entity_type": "Test_items",
+              "start_idx": 296,
+              "end_idx": 298
+            },
+            {
+              "entity_id": "T380",
+              "entity": "CVD",
+              "entity_type": "Disease",
+              "start_idx": 301,
+              "end_idx": 304
+            },
+            {
+              "entity_id": "T381",
+              "entity": "血压",
+              "entity_type": "Test",
+              "start_idx": 309,
+              "end_idx": 311
+            },
+            {
+              "entity_id": "T382",
+              "entity": "血脂",
+              "entity_type": "Test",
+              "start_idx": 312,
+              "end_idx": 314
+            },
+            {
+              "entity_id": "T383",
+              "entity": "戒烟",
+              "entity_type": "Treatment",
+              "start_idx": 327,
+              "end_idx": 329
+            },
+            {
+              "entity_id": "T384",
+              "entity": "糖尿病",
+              "entity_type": "Disease",
+              "start_idx": 345,
+              "end_idx": 348
+            },
+            {
+              "entity_id": "T385",
+              "entity": "生活方式干预",
+              "entity_type": "Treatment",
+              "start_idx": 330,
+              "end_idx": 336
+            }
+          ],
+          "relations": [
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R131",
+              "head_entity_id": "T366",
+              "tail_entity_id": "T365"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R132",
+              "head_entity_id": "T368",
+              "tail_entity_id": "T365"
+            },
+            {
+              "relation_type": "Test_items_Disease",
+              "relation_id": "R133",
+              "head_entity_id": "T379",
+              "tail_entity_id": "T380"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R134",
+              "head_entity_id": "T381",
+              "tail_entity_id": "T380"
+            },
+            {
+              "relation_type": "Test_Disease",
+              "relation_id": "R135",
+              "head_entity_id": "T382",
+              "tail_entity_id": "T380"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R136",
+              "head_entity_id": "T383",
+              "tail_entity_id": "T384"
+            },
+            {
+              "relation_type": "Treatment_Disease",
+              "relation_id": "R137",
+              "head_entity_id": "T385",
+              "tail_entity_id": "T384"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
