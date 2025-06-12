@@ -13,6 +13,27 @@ from transformers import (
     Trainer
 )
 from peft import LoraConfig, get_peft_model, TaskType
+from torchcrf import CRF  # 新增CRF导入
+
+class CRFModelWrapper(torch.nn.Module):
+    """CRF模型包装器"""
+    def __init__(self, base_model, num_labels):
+        super().__init__()
+        self.base_model = base_model
+        self.crf = CRF(num_labels, batch_first=True)
+        
+    def forward(self, input_ids, attention_mask, labels=None):
+        outputs = self.base_model(input_ids, attention_mask=attention_mask)
+        logits = outputs.logits
+        
+        if labels is not None:
+            mask = attention_mask.bool()
+            loss = -self.crf(logits, labels, mask=mask, reduction='mean')
+            return {'loss': loss, 'logits': logits}
+        return {'logits': logits}
+
+    def decode(self, logits, attention_mask):
+        return self.crf.decode(logits, mask=attention_mask.bool())
 
 class NERDataset(Dataset):
     def __init__(self, samples, tokenizer, label2id, id2label, max_length=512):
@@ -156,35 +177,30 @@ class NERDataset(Dataset):
         }
 
 def compute_metrics(p):
-    predictions, labels = p
-    predictions = np.argmax(predictions, axis=2)
-
-    true_labels = []
-    true_predictions = []
-    for pred, lab in zip(predictions, labels):
-        valid_labels = []
-        valid_preds = []
-        for p, l in zip(pred, lab):
-            if l != -100:
-                valid_labels.append(label_list[l])
-                valid_preds.append(label_list[p])
+    """支持CRF的评估函数"""
+    model.eval()
+    predictions = []
+    labels = []
+    
+    # 获取原始数据
+    logits = torch.tensor(p.predictions)
+    label_ids = p.label_ids
+    
+    # 解码预测结果
+    for i in range(len(logits)):
+        mask = (label_ids[i] != -100)
+        valid_logits = logits[i][mask.unsqueeze(0).bool()]
+        preds = model.module.decode(valid_logits.unsqueeze(0), mask)
+        predictions.extend(preds[0])
         
-        if len(valid_labels) > 0:
-            true_labels.append(valid_labels)
-            true_predictions.append(valid_preds)
+        valid_labels = label_ids[i][mask]
+        labels.append(valid_labels.tolist())
+    
+    # 转换标签ID到文本
+    true_labels = [[id2label[l] for l in seq] for seq in labels]
+    true_predictions = [[id2label[p] for p in seq] for seq in predictions]
 
-    if len(true_labels) == 0:
-        return {
-            "macro_precision": 0.0,
-            "macro_recall": 0.0,
-            "macro_f1": 0.0,
-            "weighted_precision": 0.0,
-            "weighted_recall": 0.0,
-            "weighted_f1": 0.0,
-            "disease_f1": 0.0,
-            "drug_f1": 0.0
-        }
-
+    # 生成评估报告
     report = classification_report(true_labels, true_predictions, output_dict=True)
     
     return {
@@ -201,13 +217,14 @@ def compute_metrics(p):
 # 参数配置
 MODEL_NAME = "../../models/Qwen2.5-1.5B"
 DATA_PATH = "../../data/"
-OUTPUT_DIR = "../../saved_models/Qwen2.5_NER_results_DlearnRate"
-BATCH_SIZE = 4
-EPOCHS = 1
+OUTPUT_DIR = "../../saved_models/Qwen2.5_NER_results_DlearnRate_CRF"
+BATCH_SIZE = 16
+EPOCHS = 15  # 减少训练轮次
 LEARNING_RATE = 9e-5
-WARMUP_STEPS = 500
-WEIGHT_DECAY = 0.01
-SCHEDULER_TYPE = "cosine"
+MIN_LR = 1e-6  # 新增最小学习率
+WARMUP_RATIO = 0.1  # 比例制预热
+WEIGHT_DECAY = 0.005  # 调整权重衰减
+SCHEDULER_TYPE = "cosine_with_restarts"  # 带重启的cosine
 LOGGING_STEPS = 50
 
 # 初始化组件
@@ -220,6 +237,7 @@ train_dataset, eval_dataset, label2id, id2label = NERDataset.create_datasets(
     DATA_PATH, tokenizer, test_size=0.2
 )
 label_list = list(label2id.keys())
+id2label = {v: k for k, v in label2id.items()}  # 添加反向映射
 
 # 保存标签配置
 os.makedirs(f"{OUTPUT_DIR}/label_config", exist_ok=True)
@@ -228,28 +246,31 @@ with open(f"{OUTPUT_DIR}/label_config/id2label.json", "w") as f:
 with open(f"{OUTPUT_DIR}/label_config/label2id.json", "w") as f:
     json.dump(label2id, f)
 
-# LoRA配置
-lora_config = LoraConfig(
-    task_type=TaskType.TOKEN_CLS,
-    r=8,
-    lora_alpha=32,
-    target_modules=["q_proj", "v_proj"],
-    lora_dropout=0.05,
-    bias="none",
-    inference_mode=False
-)
-
-# 加载模型
-model = AutoModelForTokenClassification.from_pretrained(
+# 初始化基础模型
+base_model = AutoModelForTokenClassification.from_pretrained(
     MODEL_NAME,
     num_labels=len(label2id),
     id2label=id2label,
     label2id=label2id
 )
+
+# 创建CRF包装模型
+model = CRFModelWrapper(base_model, len(label2id))
+
+# 应用LoRA配置
+lora_config = LoraConfig(
+    task_type=TaskType.TOKEN_CLS,
+    r=8,  
+    lora_alpha=64,
+    target_modules=["q_proj", "v_proj", "k_proj", "o_proj"],
+    lora_dropout=0.1,
+    bias="lora_only",
+    modules_to_save=["classifier"]  # 保持分类层全参数
+)
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 
-# 训练参数
+# 配置训练参数
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     learning_rate=LEARNING_RATE,
@@ -257,20 +278,22 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=BATCH_SIZE,
     num_train_epochs=EPOCHS,
     lr_scheduler_type=SCHEDULER_TYPE,
-    warmup_steps=WARMUP_STEPS,
+    warmup_ratio=WARMUP_RATIO,
     weight_decay=WEIGHT_DECAY,
     logging_dir=f"{OUTPUT_DIR}/logs",
-    logging_steps=LOGGING_STEPS, 
-    evaluation_strategy="epoch" if len(eval_dataset) > 0 else "no",
+    logging_steps=LOGGING_STEPS,
+    evaluation_strategy="epoch",
     save_strategy="epoch",
-    load_best_model_at_end=True if len(eval_dataset) > 0 else False,
+    load_best_model_at_end=True,
     metric_for_best_model="eval_macro_f1",
     greater_is_better=True,
     fp16=True,
-    gradient_accumulation_steps=4,
-    eval_accumulation_steps=1,
-    dataloader_num_workers=0,
-    logging_first_step=True ,
+    gradient_accumulation_steps=8,  # 增大有效批次
+    lr_scheduler_kwargs={
+        "num_cycles": 2,  # 重启次数
+        "min_lr": MIN_LR
+    },
+    dataloader_num_workers=2,
     report_to="none"
 )
 
@@ -286,25 +309,26 @@ trainer = Trainer(
     model=model,
     args=training_args,
     train_dataset=train_dataset,
-    eval_dataset=eval_dataset if len(eval_dataset) > 0 else None,
+    eval_dataset=eval_dataset,
     data_collator=data_collator,
-    compute_metrics=compute_metrics if len(eval_dataset) > 0 else None
+    compute_metrics=compute_metrics
 )
 
 # 开始训练
-print("\n>>> Starting training...")
+print("\n>>> Starting CRF-enhanced training...")
 trainer.train()
 
-# 保存最终模型
+# 模型保存
 model.save_pretrained(f"{OUTPUT_DIR}/best_model")
 print(f"\n>>> Training complete! Model saved to {OUTPUT_DIR}/best_model")
 
-# 合并并保存完整模型
-print("\n>>> 合并LoRA适配器到基础模型...")
+# 合并LoRA适配器
+print("\n>>> Merging LoRA adapters...")
 merged_model = model.merge_and_unload()
-merged_model.save_pretrained(f"{OUTPUT_DIR}/merged_model")
+merged_model.base_model.save_pretrained(f"{OUTPUT_DIR}/merged_model")
 tokenizer.save_pretrained(f"{OUTPUT_DIR}/merged_model")
-print(f"\n>>> 合并后的模型已保存至 {OUTPUT_DIR}/merged_model")
+print(f">>> Merged model saved to {OUTPUT_DIR}/merged_model")
+
 
 if len(eval_dataset) > 0:
     try:
@@ -343,7 +367,7 @@ if len(eval_dataset) > 0:
             # 创建评估目录并保存
             assess_dir = "../../assess/"
             os.makedirs(assess_dir, exist_ok=True)
-            excel_path = os.path.join(assess_dir, "Qwen2.5_NER_results_DlearnRate.xlsx")
+            excel_path = os.path.join(assess_dir, "Qwen2.5_NER_results_DlearnRate_CRF.xlsx")
             df.to_excel(excel_path, index=False)
             print(f"\n>>> 评估结果已保存至 {excel_path}")
 

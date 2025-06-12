@@ -1,6 +1,7 @@
 import json
 import os
 import numpy as np
+import pandas as pd
 from collections import Counter
 from sklearn.model_selection import train_test_split
 from seqeval.metrics import classification_report
@@ -202,9 +203,10 @@ def compute_metrics(p):
 MODEL_NAME = "../../models/Qwen2.5-1.5B"
 DATA_PATH = "../../data/"
 OUTPUT_DIR = "../../saved_models/Qwen2.5_NER_results"
+OUTPUT_Excel = "../../assess/"
 BATCH_SIZE = 4
-EPOCHS = 20
-LEARNING_RATE = 3e-4
+EPOCHS = 15
+LEARNING_RATE = 9e-5
 
 # 初始化组件
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -245,7 +247,7 @@ model = AutoModelForTokenClassification.from_pretrained(
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 
-# 训练参数（关键修改点）
+# 训练参数（新增logging_strategy）
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     learning_rate=LEARNING_RATE,
@@ -253,18 +255,18 @@ training_args = TrainingArguments(
     per_device_eval_batch_size=BATCH_SIZE,
     num_train_epochs=EPOCHS,
     logging_dir=f"{OUTPUT_DIR}/logs",
-    logging_steps=20,
+    logging_steps=50,  # 增加日志记录频率
     evaluation_strategy="epoch" if len(eval_dataset) > 0 else "no",
     save_strategy="epoch",
     load_best_model_at_end=True if len(eval_dataset) > 0 else False,
-    # 修改metric_for_best_model参数为新的指标名称
-    metric_for_best_model="eval_macro_f1",  # 这里改为实际存在的指标名称
+    metric_for_best_model="eval_macro_f1",
     greater_is_better=True,
     fp16=True,
     gradient_accumulation_steps=4,
     eval_accumulation_steps=1,
     dataloader_num_workers=0,
-    report_to="none"
+    report_to="none",
+    logging_first_step=True  # 确保记录第一步
 )
 
 def data_collator(features):
@@ -291,6 +293,78 @@ trainer.train()
 # 保存最终模型
 model.save_pretrained(f"{OUTPUT_DIR}/best_model")
 print(f"\n>>> Training complete! Model saved to {OUTPUT_DIR}/best_model")
+
+# 保存评估指标到Excel（增强版）
+print("\n>>> 保存训练指标...")
+
+if len(eval_dataset) > 0:
+    try:
+        # 创建有序的epoch指标字典
+        epoch_metrics = {}
+        
+        # 第一次遍历：收集所有epoch的评估指标
+        for log in trainer.state.log_history:
+            if "eval_macro_f1" in log and "epoch" in log:
+                epoch = int(float(log["epoch"]))  # 处理浮点型epoch
+                epoch_metrics[epoch] = {
+                    "epoch": epoch,
+                    "eval_loss": log.get("eval_loss", 0.0),
+                    "macro_precision": log.get("eval_macro_precision", 0.0),
+                    "macro_recall": log.get("eval_macro_recall", 0.0),
+                    "macro_f1": log.get("eval_macro_f1", 0.0),
+                    "weighted_precision": log.get("eval_weighted_precision", 0.0),
+                    "weighted_recall": log.get("eval_weighted_recall", 0.0),
+                    "weighted_f1": log.get("eval_weighted_f1", 0.0),
+                    "disease_f1": log.get("eval_disease_f1", 0.0),
+                    "drug_f1": log.get("eval_drug_f1", 0.0)
+                }
+        
+        # 第二次遍历：收集训练损失
+        prev_train_loss = None
+        for log in trainer.state.log_history:
+            if "loss" in log and "epoch" in log:
+                epoch = int(float(log["epoch"]))
+                current_loss = log["loss"]
+                
+                # 更新对应epoch的记录
+                if epoch in epoch_metrics:
+                    epoch_metrics[epoch]["train_loss"] = current_loss
+                else:
+                    epoch_metrics[epoch] = {"epoch": epoch, "train_loss": current_loss}
+                
+                # 维护最新训练损失用于填充
+                prev_train_loss = current_loss
+                
+            elif "eval_macro_f1" not in log and epoch_metrics:
+                # 为没有训练损失的epoch填充前值
+                last_epoch = max(epoch_metrics.keys())
+                if prev_train_loss is not None:
+                    for e in range(last_epoch + 1, EPOCHS + 1):
+                        if e not in epoch_metrics:
+                            epoch_metrics[e] = {
+                                "epoch": e,
+                                "train_loss": prev_train_loss,
+                                "eval_loss": 0.0,
+                                # 其他指标保持默认值...
+                            }
+
+        # 转换为有序列表
+        sorted_epochs = sorted(epoch_metrics.keys())
+        final_data = [epoch_metrics[e] for e in sorted_epochs]
+        
+        # 创建DataFrame并保存
+        df = pd.DataFrame(final_data)
+        df = df.sort_values("epoch").ffill()  # 前向填充
+        
+        excel_path = os.path.join(OUTPUT_Excel, "Qwen2.5_NER_result_9e-5s.xlsx")
+        os.makedirs(os.path.dirname(excel_path), exist_ok=True)
+        df.to_excel(excel_path, index=False)
+        print(f"训练指标已保存至：{excel_path}")
+
+    except Exception as e:
+        print(f"\n>>> 保存评估结果时出错: {str(e)}")
+else:
+    print("未找到评估数据集，跳过指标保存")
 
 # 合并并保存完整模型
 print("\n>>> 合并LoRA适配器到基础模型...")

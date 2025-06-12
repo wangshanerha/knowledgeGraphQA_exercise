@@ -199,16 +199,17 @@ def compute_metrics(p):
     }
 
 # 参数配置
-MODEL_NAME = "../../models/Qwen2.5-1.5B"
+MODEL_NAME = "../../models/Qwen2.5-3B-Instruct"  # 模型路径修改
 DATA_PATH = "../../data/"
-OUTPUT_DIR = "../../saved_models/Qwen2.5_NER_results_DlearnRate"
-BATCH_SIZE = 4
-EPOCHS = 1
-LEARNING_RATE = 9e-5
-WARMUP_STEPS = 500
+OUTPUT_DIR = "../../saved_models/Qwen2.5-3B_NER_results_DlearnRate"  # 输出目录修改
+BATCH_SIZE = 1  # 减小批次大小以适应更大模型
+EPOCHS = 10
+LEARNING_RATE = 9e-5  # 调整学习率
+WARMUP_RATIO = 0.1
 WEIGHT_DECAY = 0.01
 SCHEDULER_TYPE = "cosine"
 LOGGING_STEPS = 50
+GRADIENT_ACCUMULATION_STEPS = 2  # 增加梯度累积步数
 
 # 初始化组件
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
@@ -221,6 +222,18 @@ train_dataset, eval_dataset, label2id, id2label = NERDataset.create_datasets(
 )
 label_list = list(label2id.keys())
 
+# 计算动态warmup_steps
+if len(train_dataset) > 0:
+    total_steps = (len(train_dataset) * EPOCHS) // (BATCH_SIZE * GRADIENT_ACCUMULATION_STEPS)
+    total_steps = max(total_steps, 1)
+    WARMUP_STEPS = int(total_steps * WARMUP_RATIO)
+else:
+    WARMUP_STEPS = 0
+
+print(f"\n训练参数配置:")
+print(f"总训练步数: {total_steps if len(train_dataset) > 0 else 0}")
+print(f"Warmup步数: {WARMUP_STEPS}")
+
 # 保存标签配置
 os.makedirs(f"{OUTPUT_DIR}/label_config", exist_ok=True)
 with open(f"{OUTPUT_DIR}/label_config/id2label.json", "w") as f:
@@ -228,11 +241,12 @@ with open(f"{OUTPUT_DIR}/label_config/id2label.json", "w") as f:
 with open(f"{OUTPUT_DIR}/label_config/label2id.json", "w") as f:
     json.dump(label2id, f)
 
-# LoRA配置
+
+# LoRA配置（调整参数）
 lora_config = LoraConfig(
     task_type=TaskType.TOKEN_CLS,
-    r=8,
-    lora_alpha=32,
+    r=4,  # 调整秩维度
+    lora_alpha=16,
     target_modules=["q_proj", "v_proj"],
     lora_dropout=0.05,
     bias="none",
@@ -244,33 +258,34 @@ model = AutoModelForTokenClassification.from_pretrained(
     MODEL_NAME,
     num_labels=len(label2id),
     id2label=id2label,
-    label2id=label2id
+    label2id=label2id,
+    device_map="auto"  # 自动设备映射
 )
 model = get_peft_model(model, lora_config)
 model.print_trainable_parameters()
 
-# 训练参数
+# 修改训练参数配置部分
 training_args = TrainingArguments(
     output_dir=OUTPUT_DIR,
     learning_rate=LEARNING_RATE,
     per_device_train_batch_size=BATCH_SIZE,
     per_device_eval_batch_size=BATCH_SIZE,
     num_train_epochs=EPOCHS,
-    lr_scheduler_type=SCHEDULER_TYPE,
+    lr_scheduler_type="cosine",
     warmup_steps=WARMUP_STEPS,
     weight_decay=WEIGHT_DECAY,
     logging_dir=f"{OUTPUT_DIR}/logs",
-    logging_steps=LOGGING_STEPS, 
+    logging_steps=LOGGING_STEPS,
     evaluation_strategy="epoch" if len(eval_dataset) > 0 else "no",
     save_strategy="epoch",
     load_best_model_at_end=True if len(eval_dataset) > 0 else False,
     metric_for_best_model="eval_macro_f1",
     greater_is_better=True,
     fp16=True,
-    gradient_accumulation_steps=4,
+    gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS,
     eval_accumulation_steps=1,
     dataloader_num_workers=0,
-    logging_first_step=True ,
+    logging_first_step=True,
     report_to="none"
 )
 
@@ -337,13 +352,11 @@ if len(eval_dataset) > 0:
 
         if eval_results:
             df = pd.DataFrame(eval_results)
-            # 按epoch排序并填充缺失值
             df = df.sort_values('epoch').ffill()
             
-            # 创建评估目录并保存
             assess_dir = "../../assess/"
             os.makedirs(assess_dir, exist_ok=True)
-            excel_path = os.path.join(assess_dir, "Qwen2.5_NER_results_DlearnRate.xlsx")
+            excel_path = os.path.join(assess_dir, "Qwen2.5-3B_NER_results_DlearnRate.xlsx")  # 文件名修改
             df.to_excel(excel_path, index=False)
             print(f"\n>>> 评估结果已保存至 {excel_path}")
 
